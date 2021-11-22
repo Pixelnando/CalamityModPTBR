@@ -1,0 +1,67 @@
+﻿'Calamity Mod PT-BR Translation' é um mod que fornece uma tradução não-oficial do Calamity Mod para o Português Brasileiro.
+
+Tradução feita por Pixelnando, com a ajuda de Master Dong/Skyshadow no código.
+Agradecimentos a Tolsyak pelo seu mod de tradução de código aberto no Github.
+
+Para uma lista completa de todo conteúdo traduzido presente no mod, visite a página inicial do mod no fórum.
+
+Nota: Não sou afiliado com o Fabsol nem os desenvolvedores do Calamity Mod.
+__________________________
+
+v1.1.2.2
+
+- Compatível com a nova versão 1.5 do Calamity (o conteúdo novo ainda não foi traduzido).
+- Ícone atualizado.
+
+v1.1.2.1
+
+- Descrição do mod alterada.
+
+v1.1.2
+
+- Diálogos de NPCs traduzidos (exceto as opções dos mesmos).
+
+v1.1.1
+
+- Ferramentas traduzidas.
+- Bônus definidos traduzidos.
+- Ícone atualizado.
+- Dicas de hotkeys traduzidas.
+- Dicas de itens no Modo Morte traduzidas.
+- Modificadores traduzidos.
+
+v1.1
+
+- Consumíveis traduzidos.
+- Novo ícone adicionado ao mod.
+- Mensagens de status no chat traduzidas.
+
+v1.0.3
+
+- Montarias traduzidas.
+- Animais de estimação traduzidos.
+- Adicionado um novo ícone para o mod.
+
+v1.0.2
+
+- Tinturas traduzidas.
+- Móveis traduzidos
+- Itens de invocação de chefe e eventos traduzidos.
+- Variados sacos de coleta traduzidos.
+- Lore traduzida.
+- Nomes dos registros de Draedon traduzidos.
+
+v1.0.1
+
+- Adicionado uma página inicial para o mod.
+
+v1.0 - Lançamento do mod
+
+- Acessórios traduzidos.
+- Munições traduzidas.
+- Armaduras traduzidas (sem o bônus).
+- Blocos traduzidos.
+- Materiais traduzidos.
+- Inimigos traduzidos
+- NPCs traduzidos.
+- Armas do tipo físico traduzidas.

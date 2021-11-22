@@ -1,0 +1,9 @@
+displayName = Calamity Mod PT-BR Translation
+author = Pixelnando
+version = 1.1.2.2
+homepage = https://forums.terraria.org/index.php?threads/calamity-mod-pt-br-translation.106010/
+modReferences = CalamityMod
+includePDB = true
+sortAfter = CalamityMod
+hideCode = false
+includeSource = true

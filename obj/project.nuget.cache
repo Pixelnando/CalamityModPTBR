@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "H55Q1ZKTJ5H083IAasgutJ3mcSC7grlbWm9K29aZg0VfZiMEyXeHBwXBVYPVVHE/LixjbzS5cvpOTJhkZ6XQGA==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\Win10GamerZ\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\CalamityModPTBR\\CalamityModPTBR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Win10GamerZ\\.nuget\\packages\\tmodloader.codeassist\\0.1.2\\tmodloader.codeassist.0.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
