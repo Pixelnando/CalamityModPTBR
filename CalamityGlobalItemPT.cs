@@ -697,7 +697,6 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		return "";
 	}
-
 	public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
 	{
 
@@ -1117,7 +1116,18 @@ public class CalamityGlobalItemPTBR : GlobalItem
 					line.text = line.text.Contains("Unbalanced") ? line.text.Replace("Unbalanced", "").Trim() + " (Desequilibrado)" : line.text;
 					line.text = line.text.Contains("Atrocious") ? line.text.Replace("Atrocious", "").Trim() + " (Atroz)" : line.text;
 				}
+
 			}
+
+			if (line.Name == "ItemName")
+			{
+				line.text = line.text.Contains("Otherworldly Stone") ? line.text.Replace("Otherworldly Stone", "Pedra do Outro Mundo").Trim() : line.text;
+				line.text = line.text.Contains("Monolith Amalgam") ? line.text.Replace("Monolith Amalgam", "Amálgamo de Monólito").Trim() : line.text;
+				line.text = line.text.Contains("Effulgent Manipulator") ? line.text.Replace("Effulgent Manipulator", "Manipulador Refulgente").Trim() : line.text;
+				line.text = line.text.Contains("Eutrophic Shelf") ? line.text.Replace("Eutrophic Shelf", "Prateleira Eutrófica").Trim() : line.text;
+				line.text = line.text.Contains("Profaned Crucible") ? line.text.Replace("Profaned Crucible", "Cadinho Profano").Trim() : line.text;
+			}
+
 			if (item.accessory && !item.social && item.prefix > 0)
 			{
 				line.text = line.text.Contains("Quiet") ? line.text.Replace("Quiet", "").Trim() + " (Quieto)" : line.text;

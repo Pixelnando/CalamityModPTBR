@@ -39,7 +39,7 @@ namespace CalamityModPTBR
                         new string[3]{"ProfanedBossText3","The calamitous beings have been inundated with bloodstone.","As criaturas calamitosas foram inundadas com pedra sangrenta."},
                         new string[3]{"ProfanedBossText4","The Profaned Goddess has recognised your devotion to purity!","A Deusa Profana reconheceu a sua devoção à puridade!"},
                         new string[3]{"GhostBossText","The abyssal spirits have been disturbed.","Os espíritos abissais foram perturbados."},
-                        new string[3]{"GhostBossText2","Wails echo through the dilapidated dungeon halls...","Lamentos ecoam pelos corredores do calabouço em ruínas..."},
+                        new string[3]{"GhostBossText2","Wails echo through the dilapidated dungeon halls...","Lamentos ecoam pelos corredores do calabouço arruinado..."},
                         new string[3]{"GhostBossText3","Long-dead prisoners seek their zealous revenge...","Prisioneiros mortos há muito tempo buscam sua vingança zelosa..."},
                         new string[3]{"GhostBossText4","The souls released stir the acidic storms...","As almas liberadas agitam as tempestades ácidas..."},
                         new string[3]{"SCalSummonText", "Do you enjoy going through hell?", "Você gosta de passar pelo inferno?"},
@@ -133,7 +133,7 @@ namespace CalamityModPTBR
                         new string[3]{"HardmodeOreTier1Text", "Your world has been blessed with Cobalt and Palladium!", "Seu mundo foi abençoado com o Cobalto e o Paládio!"},
                         new string[3]{"HardmodeOreTier2Text", "Your world has been blessed with Mythril and Orichalcum!", "Seu mundo foi abençoado com o Mithril e o Oricalco!"},
                         new string[3]{"HardmodeOreTier3Text", "Your world has been blessed with Adamantite and Titanium!", "Seu mundo foi abençoado com a Adamantina e o Titânio!"},
-                        new string[3]{"HardmodeOreTier4Text", "Your world has been blessed with consecrated stone!", "Seu mundo foi abençoado com pedra consagrada!"},
+                        new string[3]{"HardmodeOreTier4Text", "The hallow has been blessed with consecrated stone!", "O sagrado foi abençoado com pedra consagrada!"},
                         new string[3]{"BloodMoonText","The Blood Moon is rising...","A Lua de Sangue está subindo..."},
                         new string[3]{"DargonBossText","The dark sun awaits.","O sol escuro te espera."},
                         new string[3]{"DargonBossText2","My dragon deems you an unworthy opponent. You must acquire the power of the dark sun to witness his true power.","Meu dragão considera você um oponente indigno. Você deve adquirir o poder do sol escuro para testemunhar o seu verdadeiro poder."},
@@ -186,13 +186,12 @@ namespace CalamityModPTBR
 
                     /// Accessories
                     // Movement
-
                     Calamity.GetItem("AbyssalDivingGear").DisplayName.AddTranslation(GameCulture.Portuguese, "Equipamento de Mergulho Abissal");
                     Calamity.GetItem("AbyssalDivingGear").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz o dano causado pela pressão do abismo enquanto sem fôlego\nRemove o efeito de sangramento causado pelo abismo\nOferece a capacidade de nadar e aumenta consideravelmente o fôlego embaixo d\u0027água\nFornece luz debaixo d\u0027água e maior mobilidade no gelo\nFornece uma quantidade razoável de luz no abismo\nReduz bastante a perda de fôlego no abismo");
                     Calamity.GetItem("AquaticEmblem").DisplayName.AddTranslation(GameCulture.Portuguese, "Emblema Aquático");
                     Calamity.GetItem("AquaticEmblem").Tooltip.AddTranslation(GameCulture.Portuguese, "A maioria dos inimigos do oceano tornam-se amigáveis e fornece respiração embaixo d\u0027água\nEstar debaixo d\u0027água aumenta lentamente sua defesa ao longo do tempo, mas também diminui a sua velocidade de movimento\nO impulso de defesa e a redução da velocidade de movimento desaparecem lentamente fora d\u0027água\nO impulso máximo de defesa é 30, a redução máxima da velocidade de movimento é 5%\nFornece uma quantidade pequena de luz no abismo\nReduz razoavelmente a perda de fôlego no abismo");
                     Calamity.GetItem("AngelTreads").DisplayName.AddTranslation(GameCulture.Portuguese, "Passos Angelicais");
-                    Calamity.GetItem("AngelTreads").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade Extrema!\n36% de aumento na aceleração de corrida\nMaior tempo de voô\nMaior mobilidade no gelo\nPermite andar sobre a água e a lava\nImunidade temporária à lava");
+                    Calamity.GetItem("AngelTreads").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade extrema!\n36% de aumento na aceleração de corrida\nMaior tempo de voô\nMaior mobilidade no gelo\nPermite andar sobre a água e a lava\nImunidade temporária à lava");
                     Calamity.GetItem("IronBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas de Ferro");
                     Calamity.GetItem("IronBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "Permite que você caia mais rápido em líquidos");
                     Calamity.GetItem("OceanCrest").DisplayName.AddTranslation(GameCulture.Portuguese, "Crista do Oceano");
@@ -233,7 +232,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("TarragonWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Nascido da selva\nVelocidade horizontal: 9.5\nMultiplicador de aceleração: 2.5\nVelocidade vertical ótima\nTempo de voô: 210\n+15 defesa e +2 regeneração de vida ao vestir a Armadura de Estragão");
                     
                     // Speed
-
                     Calamity.GetItem("AeroStone").DisplayName.AddTranslation(GameCulture.Portuguese, "Rocha Aérea");
                     Calamity.GetItem("AeroStone").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das relíquias antigas\nAumenta a velocidade dos movimentos em 10%, velocidade dos pulos em 20%, e todos os danos em 3%");
                     Calamity.GetItem("GoldBurdenBreaker").DisplayName.AddTranslation(GameCulture.Portuguese, "Transgressor de Fardos");
@@ -246,7 +244,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VitalJelly").Tooltip.AddTranslation(GameCulture.Portuguese, "20% de aumento na velocidade dos movimentos\n24% de aumento na velocidade dos pulos");
 
                     // Restorative
-
                     Calamity.GetItem("BloodPact").DisplayName.AddTranslation(GameCulture.Portuguese, "Pacto Sanguíneo");
                     Calamity.GetItem("BloodPact").Tooltip.AddTranslation(GameCulture.Portuguese, "Dobra sua vida máxima\nPermite que você seja criticamente acertado 25% das vezes\nApós um acerto crítico, você ganha vários efeitos por dez segundos\nQuaisquer poções de cura consumidas durante este período curam 50% a mais de vida");
                     Calamity.GetItem("GrandGelatin").DisplayName.AddTranslation(GameCulture.Portuguese, "Grande Gelatina");
@@ -260,7 +257,6 @@ namespace CalamityModPTBR
 
                     // Combat
                     // Offensive
-
                     Calamity.GetItem("AbyssalAmulet").DisplayName.AddTranslation(GameCulture.Portuguese, "Amuleto Abissal");
                     Calamity.GetItem("AbyssalAmulet").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques causam o efeito negativo Pressão das profundezas\nEnquanto estiver no abismo, você ganha 10% de aumento na vida máxima");
                     Calamity.GetItem("TheAmalgam").DisplayName.AddTranslation(GameCulture.Portuguese, "O Amálgama");
@@ -289,7 +285,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("GladiatorsLocket").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca dois espíritos espada para proteger você");
                     Calamity.GetItem("HowlsHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração de Howl");
                     Calamity.GetItem("HowlsHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca Howl para lutar por você, Calcifer para iluminar o seu caminho, e Cabeça de Nabo para seguir você por aí");
-                    Calamity.GetItem("LeviathanAmbergris").DisplayName.AddTranslation(GameCulture.Portuguese, "Âmbar Cinzento do Leviatã");
+                    Calamity.GetItem("LeviathanAmbergris").DisplayName.AddTranslation(GameCulture.Portuguese, "Âmbar Cinzento do Leviathan");
                     Calamity.GetItem("LeviathanAmbergris").Tooltip.AddTranslation(GameCulture.Portuguese, "Você deixa água do mar venenosa enquanto se move\n75% de aumento na velocidade dos movimentos, 10% de aumento em todos os danos, e mais 20 de defesa quando submerso em líquidos\nSe você for danificado enquanto submerso em líquidos, você ganhará uma aura que machuca por um curto período de tempo\nEstar fora de líquidos aumenta todos os danos em 5% e a redução dos danos em 5%.");
                     Calamity.GetItem("LumenousAmulet").DisplayName.AddTranslation(GameCulture.Portuguese, "Amuleto Lumíneo");
                     Calamity.GetItem("LumenousAmulet").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques causam o efeito negativo Pressão das profundezas\nEnquanto estiver no abismo, você ganha 25% de aumento na vida máxima\nFornece uma quantidade razoável de luz no Abismo");
@@ -321,7 +317,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("YharimsGift").Tooltip.AddTranslation(GameCulture.Portuguese, "O poder de um deus pulsa dentro desse artefato\nMeteoros em chamas chovem quando a invencibilidade está ativa\nPó de dragão explosivo é deixado para trás enquanto você se move\nDefesa aumentada em 30 e dano aumentado em 15%");
 
                     //Melee
-
                     Calamity.GetItem("BadgeofBravery").DisplayName.AddTranslation(GameCulture.Portuguese, "Insígnia da Bravura");
                     Calamity.GetItem("BadgeofBravery").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento na velocidade do ataque físico\nUsar a armadura de Estragão aumentará o dano físico, crítico, e perfuração da blindagem");
                     Calamity.GetItem("BloodyWormScarf").DisplayName.AddTranslation(GameCulture.Portuguese, "Cachecol de Verme Sangrento");
@@ -336,13 +331,12 @@ namespace CalamityModPTBR
                     Calamity.GetItem("EvasionScarf").Tooltip.AddTranslation(GameCulture.Portuguese, "Acertos físicos verdadeiros causam 25% a mais de dano\nPermite correr; correr em um ataque fará com que você se desvie dele\nDepois de desviar, você receberá um reforço à todos os danos, velocidade do ataque físico, e todas as chances de crítico por um curto período de tempo\nDepois de um desvio bem-sucedido, você deve esperar 13 segundos antes de poder desviar novamente\nEsse tempo de recarga será 50 por cento mais longo se você possuir Estado de caos\nEnquanto estiver recarregando, o Estado de caos durará 50 por cento mais");
                     Calamity.GetItem("FungalSymbiote").DisplayName.AddTranslation(GameCulture.Portuguese, "Simbionte Fúngico");
                     Calamity.GetItem("FungalSymbiote").Tooltip.AddTranslation(GameCulture.Portuguese, "Várias armas físicas emitem cogumelos em alcance físico verdadeiro\nAcertos físicos verdadeiros causam 15% a mais de dano");
-                    Calamity.GetItem("SamuraiBadge").DisplayName.AddTranslation(GameCulture.Portuguese, "Insígnia do Samurai");
-                    Calamity.GetItem("SamuraiBadge").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o dano por ataques físicos, ataques físicos verdadeiros e velocidade do ataque físico quanto mais perto você está dos inimigos\nO reforço máximo é 30% de aumento nos danos por ataques físicos, ataques físicos verdadeiros e velocidade do ataque físico");
+                    Calamity.GetItem("SamuraiBadge").DisplayName.AddTranslation(GameCulture.Portuguese, "Estandarte de Guerra do Sol");
+                    Calamity.GetItem("SamuraiBadge").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o dano por ataques físicos, ataques físicos verdadeiros e velocidade do ataque físico quanto mais perto você está dos inimigos\nO reforço máximo é 20% de aumento nos danos por ataques físicos, ataques físicos verdadeiros e velocidade do ataque físico");
                     Calamity.GetItem("YharimsInsignia").DisplayName.AddTranslation(GameCulture.Portuguese, "Insígnia de Yharim");
                     Calamity.GetItem("YharimsInsignia").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos quando abaixo de 50% de vida\n10% de aumento na velocidade do ataque físico\n10% de aumento nos danos por ataques físicos e ataques físicos verdadeiros\nAtaques físicos causam fogo sagrado\nAumento na invencibilidade após sofrer danos\nImunidade temporária à lava\nMaior recuo do ataque físico");
 
                     //Ranged
-
                     Calamity.GetItem("DaedalusEmblem").DisplayName.AddTranslation(GameCulture.Portuguese, "Emblema de Artemis");
                     Calamity.GetItem("DaedalusEmblem").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataque à distância, 5% de aumento na chance de acerto crítico à distância, e 20% de redução no consumo de munição\n5 de aumento na defesa, 2 de aumento na regeneração de vida, e 15% de aumento na velocidade da picareta");
                     Calamity.GetItem("DynamoStemCells").DisplayName.AddTranslation(GameCulture.Portuguese, "Dínamo de Células-tronco");
@@ -355,7 +349,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("RustyMedallion").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que armas de ataque à distância \u00e0s vezes liberem gotas de ácido do céu");
 
                     //Magic
-
                     Calamity.GetItem("ChaosStone").DisplayName.AddTranslation(GameCulture.Portuguese, "Rocha do Caos");
                     Calamity.GetItem("ChaosStone").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das relíquias antigas\nAumenta a mana máxima em 50, todos os danos em 3% de reduz o consumo de mana em 5% ");
                     Calamity.GetItem("EtherealTalisman").DisplayName.AddTranslation(GameCulture.Portuguese, "Talismã Etéreo");
@@ -366,7 +359,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("SigilofCalamitas").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por magia e 10% de redução no consumo de mana\nAumenta o alcance de coleta das estrelas de mana e você restaura mana ao sofrer danos\n+100 mana máxima e revela a localização de tesouros se a visibilidade estiver ligada");
 
                     //Summon
-
                     Calamity.GetItem("HallowedRune").DisplayName.AddTranslation(GameCulture.Portuguese, "Runa Consagrada");
                     Calamity.GetItem("HallowedRune").Tooltip.AddTranslation(GameCulture.Portuguese, "Sempre que seus lacaios atingirem um inimigo, você ganhará um bônus aleatório\nEsses bônus irão aumentar sua defesa, seu dano por invocação ou regeneração de vida por um tempo\nSe você tiver o reforço ofensivo, os inimigos atingidos por lacaios \u00e0s vezes serão atingidos por estrelas");
                     Calamity.GetItem("JellyChargedBattery").DisplayName.AddTranslation(GameCulture.Portuguese, "Bateria Carregada de Geleia");
@@ -393,7 +385,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoltaicJelly").Tooltip.AddTranslation(GameCulture.Portuguese, "+1 lacaio máximo\nAtaques de lacaios infligem Eletrizado");
 
                     //Rogue
-
                     Calamity.GetItem("AbyssalMirror").DisplayName.AddTranslation(GameCulture.Portuguese, "Espelho Abissal");
                     Calamity.GetItem("AbyssalMirror").Tooltip.AddTranslation(GameCulture.Portuguese, "A luz não atinge as profundezas do oceano\nReduz a agressão dos inimigos significantemente, até mesmo no abismo\nFurtividade gera 30% mais rápido enquanto parado e 20% mais rápido enquanto se move\nConcede uma pequena chance de se esquivar de ataques, liberando uma nuvem de fluido lumenil que danifica e atordoa os inimigos próximos\nEsquivar-se de um ataque concece muita furtividade\nEssa evasão tem um tempo de recarga de 20 segundos antes que possa ocorrer novamente");
                     Calamity.GetItem("BloodstainedGlove").DisplayName.AddTranslation(GameCulture.Portuguese, "Luva Manchada de Sangue");
@@ -456,14 +447,12 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VeneratedLocket").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataques assassinos\nUsar uma arma assassina invoca uma cópia do projétil que cai do céu\nAtaques furtivos fazem com que um leque circular em busca de facas de cosmilita seja lançado\nVocê nunca estará sozinho, não importa onde você vá");
 
                     //Rage and Adrenaline
-
                     Calamity.GetItem("DraedonsHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração de Draedon");
                     Calamity.GetItem("DraedonsHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "Dá 10% de aumento nos danos enquanto você possui o efeito Fúria absoluta\nAumenta sua chance de obter o efeito Fúria absoluta\nAumenta o seu dano em 5% e velocidade dos movimentos e aceleração máxima em 5%\nO modo fúria causa mais danos\nVocê ganha fúria com o tempo\nConverte certos efeitos negativos em positivos e estende suas durações\nEfeitos negativos afetados: Trevas, Apagão, Confuso, Lento, Fraco, Armadura quebrada,\nTrituração de armadura, Clivagem de guerra, Resfriado, Ichor and Obstruído\nReceber um golpe faz com que você perca apenas metade de sua adrenalina máxima, em vez de perder ela completamente\nFicar parado regenera sua vida rapidamente e aumenta sua defesa em 25");
                     Calamity.GetItem("HeartofDarkness").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração da Escuridão");
                     Calamity.GetItem("HeartofDarkness").Tooltip.AddTranslation(GameCulture.Portuguese, "Dá 10% de aumento nos danos enquanto você possui o efeito Fúria absoluta\nAumenta sua chance de obter o efeito Fúria absoluta\nO modo fúria causa mais danos\nVocê ganha fúria com o tempo\nEspólio do modo Vingança");
 
                     //Defensive
-
                     Calamity.GetItem("Abaddon").DisplayName.AddTranslation(GameCulture.Portuguese, "Abaddon");
                     Calamity.GetItem("Abaddon").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz o dano causado pelo efeito negativo Chamas de enxofre");
                     Calamity.GetItem("TheAbsorber").DisplayName.AddTranslation(GameCulture.Portuguese, "O Absorvedor");
@@ -518,7 +507,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("DepthCharm").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz o dano causado pela pressão do abismo enquanto sem fôlego\nRemove o efeito de sangramento causado pelo abismo");
                     Calamity.GetItem("TheEvolution").DisplayName.AddTranslation(GameCulture.Portuguese, "A Evolução");
                     Calamity.GetItem("TheEvolution").Tooltip.AddTranslation(GameCulture.Portuguese, "Você tem 50% de chance de refletir projéteis quando eles o atingem de volta no inimigo, causando 1000% do dano original\nSe este efeito for ativado, você recebe um reforço de regeneração de vida por um curto período de tempo\nSe o mesmo tipo de projétil inimigo o atingir novamente, você resistirá ao dano em 15%");
-                    Calamity.GetItem("FabledTortoiseShell").DisplayName.AddTranslation(GameCulture.Portuguese, "Casco de Tartaruga Fabuloso");
+                    Calamity.GetItem("FabledTortoiseShell").DisplayName.AddTranslation(GameCulture.Portuguese, "Casco da Língua de Chamas");
                     Calamity.GetItem("FabledTortoiseShell").Tooltip.AddTranslation(GameCulture.Portuguese, "50% de redução na velocidade dos movimentos\nInimigos sofrem danos quando te atacam\nSofrer um golpe fará você se mover rapidamente por um curto período de tempo");
                     Calamity.GetItem("FleshTotem").DisplayName.AddTranslation(GameCulture.Portuguese, "Totem de Carne");
                     Calamity.GetItem("FleshTotem").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz os danos de contato dos inimigos pela metade\nEsse efeito tem um tempo de recarga de 20 segundos");
@@ -564,7 +553,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("UrsaSergeant").Tooltip.AddTranslation(GameCulture.Portuguese, "+20 defesa mas 35% de redução na velocidade dos movimentos\nImune a Infecção astral e Mordida Feroz\nAumento na regeneração de vida quando você estiver com vida baixa");
 
                     //Immunity
-
                     Calamity.GetItem("AstralBulwark").DisplayName.AddTranslation(GameCulture.Portuguese, "Baluarte Astral");
                     Calamity.GetItem("AstralBulwark").Tooltip.AddTranslation(GameCulture.Portuguese, "Sofrer danos derrubará estrelas astrais do céu\nFornece imunidade ao efeito negativo da infecção astral");
                     Calamity.GetItem("HideofAstrumDeus").DisplayName.AddTranslation(GameCulture.Portuguese, "Pele de Astrum Deus");
@@ -573,7 +561,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("LeadCore").Tooltip.AddTranslation(GameCulture.Portuguese, "Oferece imunidade ao efeito negativo Irradiado");
 
                     //Minion
-
                     Calamity.GetItem("WifeinaBottle").DisplayName.AddTranslation(GameCulture.Portuguese, "Elemental na Garrafa");
                     Calamity.GetItem("WifeinaBottle").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um elemental de areia para lutar por você");
                     Calamity.GetItem("EyeoftheStorm").DisplayName.AddTranslation(GameCulture.Portuguese, "Olho da Tempestade");
@@ -598,7 +585,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("RoseStone").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das relíquias antigas\nAumenta a vida máxima em 20, regeneração de vida em 1, e todos os danos em 3%\nInvoca um elemental de enxofre para te proteger");
 
                     //Mining
-
                     Calamity.GetItem("AncientFossil").DisplayName.AddTranslation(GameCulture.Portuguese, "Fóssil Antigo");
                     Calamity.GetItem("AncientFossil").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a velocidade da picareta em 15% enquanto no subterrâneo");
                     Calamity.GetItem("ArchaicPowder").DisplayName.AddTranslation(GameCulture.Portuguese, "Pó Arcaico");
@@ -607,7 +593,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("ChaosAmulet").Tooltip.AddTranslation(GameCulture.Portuguese, "Efeito espeleólogo e aumento na regeneração de vida");
 
                     //Fishing
-
                     Calamity.GetItem("AlluringBait").DisplayName.AddTranslation(GameCulture.Portuguese, "Isca Encantadora");
                     Calamity.GetItem("AlluringBait").Tooltip.AddTranslation(GameCulture.Portuguese, "30% de aumento no poder de pescaria durante o dia\n45% de aumento no poder de pescaria durante a noite\n60% de aumento no poder de pescaria durante um eclipse solar\nAumenta bastante a chance de pescar peixes que são ingredientes de poção");
                     Calamity.GetItem("EnchantedPearl").DisplayName.AddTranslation(GameCulture.Portuguese, "Pérola Encantada");
@@ -616,25 +601,23 @@ namespace CalamityModPTBR
                     Calamity.GetItem("SupremeBaitTackleBoxFishingStation").Tooltip.AddTranslation(GameCulture.Portuguese, "O acessório de pesca supremo\nAumenta a habilidade de pesca em 80\nA linha de pesca nunca quebra e diminui as chances de consumo de iscas\nAumenta a chance de pescar caixotes\nEfeito da poção Sonar");
 
                     //Miscellaneous
-
                     Calamity.GetItem("MagicLevelMeter").DisplayName.AddTranslation(GameCulture.Portuguese, "Medidor de Nível Mágico");
                     Calamity.GetItem("MeleeLevelMeter").DisplayName.AddTranslation(GameCulture.Portuguese, "Medidor de Nível Físico");
                     Calamity.GetItem("RangedLevelMeter").DisplayName.AddTranslation(GameCulture.Portuguese, "Medidor de Nível Á Distância");
                     Calamity.GetItem("RogueLevelMeter").DisplayName.AddTranslation(GameCulture.Portuguese, "Medidor de Nível Assassino");
                     Calamity.GetItem("SummonLevelMeter").DisplayName.AddTranslation(GameCulture.Portuguese, "Medidor de Nível Invocador");
                     Calamity.GetItem("CheatTestThing").DisplayName.AddTranslation(GameCulture.Portuguese, "lul");
+                    Calamity.GetItem("CheatTestThing").Tooltip.AddTranslation(GameCulture.Portuguese, "Mata você instantaneamente...\nMas talvez...?");
                     Calamity.GetItem("Popo").DisplayName.AddTranslation(GameCulture.Portuguese, "Cachecol e Chapéu Mágico");
                     Calamity.GetItem("Popo").Tooltip.AddTranslation(GameCulture.Portuguese, "Transforma o usuário em um boneco de neve\nNão deixe os demônios roubarem o seu nariz");
 
                     //Expert Mode Exclusive
-
                     Calamity.GetItem("BloodflareCore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo das Chamas Sangrentas");
                     Calamity.GetItem("BloodflareCore").Tooltip.AddTranslation(GameCulture.Portuguese, "Você perde até metade de sua defesa após sofrer danos\nA defesa perdida se regenera com o tempo\nVocê ganha 1 de vida para cada 1 defesa ganha enquanto ela regenera");
                     Calamity.GetItem("GravistarSabaton").DisplayName.AddTranslation(GameCulture.Portuguese, "Sapato da Gravidade Estelar");
                     Calamity.GetItem("GravistarSabaton").Tooltip.AddTranslation(GameCulture.Portuguese, "Pressione a tecla PARA BAIXO para aumentar a sua velocidade de queda por 5 segundos\nIsso tem um tempo de recarga de 8 segundos\nAcertar o solo com maior velocidade de queda causará uma explosão astral");
 
                     //Uncategorized by wiki yet
-
                     Calamity.GetItem("AngelicAlliance").DisplayName.AddTranslation(GameCulture.Portuguese, "Aliança Angelical");
                     Calamity.GetItem("AngelicAlliance").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoque a força dos céus para fortalecer seus ataques e lacaios\nCoragem, Iluminação, Bem-aventurança. Unidos no Julgamento\n+2 lacaios máximos, 15% de aumento nos danos por invocação e 8% de aumento no dano de todas as outras classes\nA regeneração de vida é aumentada enquanto pulando\nEsta linha é modificada no código abaixo. Se você consegue ler isto, alguém provavelmente fez algo de errado (foi o Ben)\nEnquanto estiver sob os efeitos da Bênção Divina, para cada lacaio que você tiver, um arcanjo será invocado para ajudá-lo no combate\nCada anjo invocado irá curar você instantaneamente por dois vida\nTodos os ataques de lacaios infligem Fogo Banidor e você recebe um aumento constante de vida de quatro de vida por segundo\nEste efeito tem um tempo de recarga de 1 minuto");
                     Calamity.GetItem("Calamity").DisplayName.AddTranslation(GameCulture.Portuguese, "Calamidade");
@@ -652,7 +635,6 @@ namespace CalamityModPTBR
 
                     ///Ammo
                     //Arrows
-
                     Calamity.GetItem("ArcticArrow").DisplayName.AddTranslation(GameCulture.Portuguese, "Flecha Ártica");
                     Calamity.GetItem("ArcticArrow").Tooltip.AddTranslation(GameCulture.Portuguese, "Congela os inimigos por um curto período de tempo");
                     Calamity.GetItem("BloodfireArrow").DisplayName.AddTranslation(GameCulture.Portuguese, "Flecha do Fogo Sangrento");
@@ -669,7 +651,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VanquisherArrow").Tooltip.AddTranslation(GameCulture.Portuguese, "Perfura peças\nGera flechas teleguiadas extras enquanto viaja");
 
                     //Bullets
-
                     Calamity.GetItem("AccelerationBullet").DisplayName.AddTranslation(GameCulture.Portuguese, "Tiro de Aceleração");
                     Calamity.GetItem("AccelerationBullet").Tooltip.AddTranslation(GameCulture.Portuguese, "Ganha velocidade com o tempo");
                     Calamity.GetItem("AcidBullet").DisplayName.AddTranslation(GameCulture.Portuguese, "Tiro Ácido");
@@ -682,6 +663,8 @@ namespace CalamityModPTBR
                     Calamity.GetItem("FlashBullet").Tooltip.AddTranslation(GameCulture.Portuguese, "Emite uma explosão contundente que confunde os inimigos em uma grande área por um curto período de tempo");
                     Calamity.GetItem("FrostsparkBullet").DisplayName.AddTranslation(GameCulture.Portuguese, "Projétil de Raios Congelados");
                     Calamity.GetItem("FrostsparkBullet").Tooltip.AddTranslation(GameCulture.Portuguese, "Tem a chance de congelar os inimigos e explodir em eletricidade\nInimigos imunes ao congelamento recebem mais danos desses projéteis");
+                    Calamity.GetItem("GodSlayerSlug").DisplayName.AddTranslation(GameCulture.Portuguese, "Bala Assassina de Deuses");
+                    Calamity.GetItem("GodSlayerSlug").Tooltip.AddTranslation(GameCulture.Portuguese, "Munição pesada com perfuração ilimitada que dilacera o espaço-tempo\nDepois que uma bala acerta, se ela atingir uma parede ou ficar sem alvos para perfurar,\nEla se dobra para trás através do espaço e sobrecarrega, oxplodindo com o impacto");
                     Calamity.GetItem("HolyFireBullet").DisplayName.AddTranslation(GameCulture.Portuguese, "Projétil do Fogo Sagrado");
                     Calamity.GetItem("HolyFireBullet").Tooltip.AddTranslation(GameCulture.Portuguese, "Balas sagradas explosivas");
                     Calamity.GetItem("HyperiusBullet").DisplayName.AddTranslation(GameCulture.Portuguese, "Projétil de Hipério");
@@ -700,7 +683,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VeriumBullet").Tooltip.AddTranslation(GameCulture.Portuguese, "Não há como fugir!\nTeleguia depois de acertar um inimigo");
 
                     //Other
-
                     Calamity.GetItem("BloodRune").DisplayName.AddTranslation(GameCulture.Portuguese, "Runa do Sangue");
                     Calamity.GetItem("BloodRune").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado com a Barragem de Gelo\nEncontrado em algum tipo de paisagem rúnica");
                     Calamity.GetItem("ExplosiveShells").DisplayName.AddTranslation(GameCulture.Portuguese, "Cartucho de Espingarda Explosivo");
@@ -708,20 +690,16 @@ namespace CalamityModPTBR
                     Calamity.GetItem("MagnumRounds").DisplayName.AddTranslation(GameCulture.Portuguese, "Tiro de Magnum");
 
                     //Ammo used by tools
-
                     Calamity.GetItem("AstralSolution").DisplayName.AddTranslation(GameCulture.Portuguese, "Solução Astral");
                     Calamity.GetItem("AstralSolution").Tooltip.AddTranslation(GameCulture.Portuguese, "Utilizado pelo Limpaminador\nEspalha a Infecção Astral");
 
                     //Bait
-
                     Calamity.GetItem("ArcturusAstroidean").DisplayName.AddTranslation(GameCulture.Portuguese, "Arcturo Astroideano");
                     Calamity.GetItem("ArcturusAstroidean").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o poder de pescaria se usado na Infecção Astral ou no Mar Sulfuroso");
                     Calamity.GetItem("BloodwormItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Verme de Sangue");
                     Calamity.GetItem("TwinklerItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Inseto Cintilante");
 
                     ////Armor
-
-                    //Wulfrum armor
                     Calamity.GetItem("WulfrumHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo de Vulfrânio");
                     Calamity.GetItem("WulfrumHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento nos danos por ataques físicos");
                     Calamity.GetItem("WulfrumHeadgear").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacete de Vulfrânio");
@@ -736,27 +714,18 @@ namespace CalamityModPTBR
                     Calamity.GetItem("WulfrumArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento na chance de acerto crítico");
                     Calamity.GetItem("WulfrumLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças de Vulfrânio");
                     Calamity.GetItem("WulfrumLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade dos movimentos aumentada em 5%");
-
-                    //Snow Ruffian armor
-
                     Calamity.GetItem("SnowRuffianMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Rufião das Neves");
                     Calamity.GetItem("SnowRuffianMask").Tooltip.AddTranslation(GameCulture.Portuguese, "2% de aumento nos danos por ataques assassinos");
                     Calamity.GetItem("SnowRuffianChestplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral do Rufião das Neves");
                     Calamity.GetItem("SnowRuffianChestplate").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento na chance de ataque assassino crítico");
                     Calamity.GetItem("SnowRuffianGreaves").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas do Rufião das Neves");
                     Calamity.GetItem("SnowRuffianGreaves").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na velocidade dos movimentos");
-
-                    //Desert Prowler armor
-
                     Calamity.GetItem("DesertProwlerHat").DisplayName.AddTranslation(GameCulture.Portuguese, "Chapéu do Gatuno do Deserto");
                     Calamity.GetItem("DesertProwlerHat").Tooltip.AddTranslation(GameCulture.Portuguese, "4% de aumento na chance de ataque à distância crítico e 20% de chance de não consumir munição");
                     Calamity.GetItem("DesertProwlerShirt").DisplayName.AddTranslation(GameCulture.Portuguese, "Camisa do Gatuno do Deserto");
                     Calamity.GetItem("DesertProwlerShirt").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na chance de ataque à distância crítico");
                     Calamity.GetItem("DesertProwlerPants").DisplayName.AddTranslation(GameCulture.Portuguese, "Calça do Gatuno do Deserto");
                     Calamity.GetItem("DesertProwlerPants").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento na velocidade dos movimentos e imunidade ao efeito negativo Vento Poderoso");
-
-                    //Victide armor
-
                     Calamity.GetItem("VictideHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo de Vimaré");
                     Calamity.GetItem("VictideHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por ataques físicos");
                     Calamity.GetItem("VictideVisage").DisplayName.AddTranslation(GameCulture.Portuguese, "Protetor Facial de Vimaré");
@@ -771,18 +740,12 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VictideBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na redução dos danos e chance de acerto crítico\nDefesa aumentada enquanto submerso em líquidos");
                     Calamity.GetItem("VictideLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças de Vimaré");
                     Calamity.GetItem("VictideLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade dos movimentos aumentada em 8%\nA velocidade dos movimentos aumenta bastante enquanto submerso em líquidos");
-
-                    //Sulphurous armor
-
                     Calamity.GetItem("SulfurHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Sulfúrico");
                     Calamity.GetItem("SulfurHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por ataques assassinos\n2% de aumento na chance de ataque assassino crítico\nOferece respiração embaixo d\u0027água");
                     Calamity.GetItem("SulfurBreastplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral Sulfúrico");
                     Calamity.GetItem("SulfurBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de danos por ataques assassinos e 5% de chance de ataque crítico");
                     Calamity.GetItem("SulfurLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças Sulfúricas");
                     Calamity.GetItem("SulfurLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade dos movimentos aumentada em 10%\nA velocidade dos movimentos aumenta bastante enquanto submerso em líquidos");
-
-                    //Aerospec armor
-
                     Calamity.GetItem("AerospecHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Aéreo");
                     Calamity.GetItem("AerospecHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por ataques físicos");
                     Calamity.GetItem("AerospecHood").DisplayName.AddTranslation(GameCulture.Portuguese, "Capuz Aéreo");
@@ -797,9 +760,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("AerospecBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento na chance de acerto crítico");
                     Calamity.GetItem("AerospecLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças Aéreas");
                     Calamity.GetItem("AerospecLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento na velocidade dos movimentos");
-
-                    //Statigel armor
-
                     Calamity.GetItem("StatigelHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo de Statigel");
                     Calamity.GetItem("StatigelHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento no dano por ataque físico e na velocidade de ataque físico\n7% de aumento na chance de ataque físico crítico");
                     Calamity.GetItem("StatigelHeadgear").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacete de Statigel");
@@ -814,27 +774,18 @@ namespace CalamityModPTBR
                     Calamity.GetItem("StatigelArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na chance de acerto crítico");
                     Calamity.GetItem("StatigelGreaves").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas de Statigel");
                     Calamity.GetItem("StatigelGreaves").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos e na velocidade dos movimentos");
-
-                    //Mollusk armor
-
                     Calamity.GetItem("MolluskShellmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo-concha de Molusco");
                     Calamity.GetItem("MolluskShellmet").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos e 4% de aumento na chance de acerto crítico\nVocê pode mover livremente em líquidos");
                     Calamity.GetItem("MolluskShellplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral-concha de Molusco");
                     Calamity.GetItem("MolluskShellplate").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos e 6% de aumento na chance de acerto crítico\n15% de redução na velocidade dos movimentos");
                     Calamity.GetItem("MolluskShelleggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças-concha de Molusco");
                     Calamity.GetItem("MolluskShelleggings").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos e 4% de aumento na chance de acerto crítico\n7% de redução na velocidade dos movimentos");
-
-                    //Titan Heart armor
-
                     Calamity.GetItem("TitanHeartMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Coração do Titã");
                     Calamity.GetItem("TitanHeartMask").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento no dano e recuo assassino\nArmas assassinas espalham a infecção astral");
                     Calamity.GetItem("TitanHeartMantle").DisplayName.AddTranslation(GameCulture.Portuguese, "Manto do Coração do Titã");
                     Calamity.GetItem("TitanHeartMantle").Tooltip.AddTranslation(GameCulture.Portuguese, "45% de chance de não consumir itens assassinos\n5% de aumento no recuo assassino mas 15% de redução na velocidade de tiro assassina");
                     Calamity.GetItem("TitanHeartBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas do Coração do Titã");
                     Calamity.GetItem("TitanHeartBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "4% de aumento nos danos assasinos, 10% de aumento na velocidade de projéteis assassinos, e 5% de aumento no recuo assassino");
-
-                    //Daedalus armor
-
                     Calamity.GetItem("DaedalusHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo de Dédalo");
                     Calamity.GetItem("DaedalusHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataque físico e na chance de ataque crítico\n10% de aumento na velocidade do ataque físico e do movimento");
                     Calamity.GetItem("DaedalusHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacete de Dédalo");
@@ -849,36 +800,24 @@ namespace CalamityModPTBR
                     Calamity.GetItem("DaedalusBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento nos danos e na chance de ataque crítico");
                     Calamity.GetItem("DaedalusLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças de Dédalo");
                     Calamity.GetItem("DaedalusLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento na chance de acerto crítico\n10% de aumento na velocidade dos movimentos");
-
-                    //Brimflame armor
-
                     Calamity.GetItem("BrimflameScowl").DisplayName.AddTranslation(GameCulture.Portuguese, "Capuz de Chamas de Enxofre");
                     Calamity.GetItem("BrimflameScowl").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por magia e na chance de acerto crítico\nAumenta a mana máxima em 70 e reduz o uso de mana em 10%\nImunidade a Em chamas! Chamas de enxofre, e Queimadura de gelo");
                     Calamity.GetItem("BrimflameRobes").DisplayName.AddTranslation(GameCulture.Portuguese, "Roupão de Chamas de Enxofre");
                     Calamity.GetItem("BrimflameRobes").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por magia e na chance de acerto crítico\nOferece efeitos da rosa de obsidiana");
                     Calamity.GetItem("BrimflameBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas de Chamas de Enxofre");
                     Calamity.GetItem("BrimflameBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por magia\n5% de aumento na velocidade dos movimentos");
-
-                    //Fathom Swarmer
-
                     Calamity.GetItem("FathomSwarmerVisage").DisplayName.AddTranslation(GameCulture.Portuguese, "Protetor Facial do Enxame das Profundezas");
                     Calamity.GetItem("FathomSwarmerVisage").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por lacaios\nFornece respiração e luz embaixo d\u0027água");
                     Calamity.GetItem("FathomSwarmerBreastplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral do Enxame das Profundezas");
                     Calamity.GetItem("FathomSwarmerBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento na redução dos danos\n6% de aumento nos danos por lacaios e +1 lacaio máximo\nDefesa e regeneração de vida aumentadas quando submerso em líquidos\nReduz a perda de defesa dentro do Abismo");
                     Calamity.GetItem("FathomSwarmerBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas do Enxame das Profundezas");
                     Calamity.GetItem("FathomSwarmerBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "4% de aumento nos danos por lacaios\nOferece a capacidade de nadar\nA velocidade dos movimentos aumenta bastante enquanto submerso em líquidos");
-
-                    //Umbraphile armor
-
                     Calamity.GetItem("UmbraphileHood").DisplayName.AddTranslation(GameCulture.Portuguese, "Capuz de Umbrafile");
                     Calamity.GetItem("UmbraphileHood").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por ataques assassinos e 10% de aumento na velocidade de projéteis assassinos");
                     Calamity.GetItem("UmbraphileRegalia").DisplayName.AddTranslation(GameCulture.Portuguese, "Regalia de Umbrafile");
                     Calamity.GetItem("UmbraphileRegalia").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataques assasinos e 10% de aumento no crítico assassino");
                     Calamity.GetItem("UmbraphileBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas de Umbrafile");
                     Calamity.GetItem("UmbraphileBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "9% de aumento nos danos por ataques assassinos e 6% de aumento no crítico assassino\n30% de aumento na velocidade dos movimentos");
-
-                    //Reaver armor
-
                     Calamity.GetItem("ReaverHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo do Ladrão");
                     Calamity.GetItem("ReaverHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos por ataques físicos, 10% de aumento na velocidade do ataque físico, e 5% de aumento na chance de ataque físico crítico\n10% de aumento na velocidade dos movimentos e você pode se mover livremente em líquidos");
                     Calamity.GetItem("ReaverVisage").DisplayName.AddTranslation(GameCulture.Portuguese, "Protetor Facial do Ladrão");
@@ -887,9 +826,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("ReaverScaleMail").Tooltip.AddTranslation(GameCulture.Portuguese, "9% de aumento nos danos e 4% de aumento na chance de acerto crítico\n+20 vida máxima");
                     Calamity.GetItem("ReaverCuisses").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas do Ladrão");
                     Calamity.GetItem("ReaverCuisses").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na chance de acerto crítico\n12% de aumento na velocidade dos movimentos");
-
-                    //Hydrothermic armor
-
                     Calamity.GetItem("AtaxiaHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Hidrotérmico");
                     Calamity.GetItem("AtaxiaHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por ataques físicos e 10% de aumento na chance de ataque físico crítico\nAtaques físicos infligem Em chamas\nImunidade temporária à lava e imunidade a dano de fogo");
                     Calamity.GetItem("AtaxiaHeadgear").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacete Hidrotérmico");
@@ -904,45 +840,30 @@ namespace CalamityModPTBR
                     Calamity.GetItem("AtaxiaArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "+20 vida máxima\n8% de aumento nos danos e 4% de aumento na chance de acerto crítico");
                     Calamity.GetItem("AtaxiaSubligar").DisplayName.AddTranslation(GameCulture.Portuguese, "Subligar Hidrotérmico");
                     Calamity.GetItem("AtaxiaSubligar").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento na chance de acerto crítico\n15% de aumento na velocidade dos movimentos");
-
-                    //Plague Reaper armor
-
                     Calamity.GetItem("PlagueReaperMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Ceifador da Praga");
                     Calamity.GetItem("PlagueReaperMask").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataque à distância e 8% de aumento na chance de ataque à distância crítico");
                     Calamity.GetItem("PlagueReaperVest").DisplayName.AddTranslation(GameCulture.Portuguese, "Colete do Ceifador da Praga");
                     Calamity.GetItem("PlagueReaperVest").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz o dano causado em você pela praga\n15% de aumento nos danos por ataque à distância e 5% de aumento na chance de ataque à distância crítico");
                     Calamity.GetItem("PlagueReaperStriders").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas do Ceifador da Praga");
                     Calamity.GetItem("PlagueReaperStriders").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento na chance de acerto crítico\n20% de aumento na velocidade dos movimentos");
-
-                    //Plaguebringer armor
-
                     Calamity.GetItem("PlaguebringerVisor").DisplayName.AddTranslation(GameCulture.Portuguese, "Viseira do Portador da Peste");
                     Calamity.GetItem("PlaguebringerVisor").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos por lacaios e +2 lacaios máximos\n+20 vida máxima");
                     Calamity.GetItem("PlaguebringerCarapace").DisplayName.AddTranslation(GameCulture.Portuguese, "Carapaça do Portador da Peste");
                     Calamity.GetItem("PlaguebringerCarapace").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz o dano causado em você pela praga\n12% de aumento nos danos por lacaios e +1 lacaio máximo\nAbelhas amigáveis infligem a praga");
                     Calamity.GetItem("PlaguebringerPistons").DisplayName.AddTranslation(GameCulture.Portuguese, "Pistões do Portador da Peste");
                     Calamity.GetItem("PlaguebringerPistons").Tooltip.AddTranslation(GameCulture.Portuguese, "13% de aumento nos danos por lacaios e 15% de aumento na velocidade dos movimentos\nVocê cultiva flores na grama abaixo de você, com chance de cultivar plantas de tintura aleatórias em terra sem grama\nVocê invoca abelhas enquanto corre");
-
-                    //Astral armor
-
                     Calamity.GetItem("AstralHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Astral");
                     Calamity.GetItem("AstralHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "Detecção de perigos");
                     Calamity.GetItem("AstralBreastplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral Astral");
                     Calamity.GetItem("AstralBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "+20 vida e mana máxima\n+3 lacaios máximos\nDetecção de criaturas");
                     Calamity.GetItem("AstralLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças Astrais");
                     Calamity.GetItem("AstralLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento na velocidade dos movimentos\nDetecção de tesouros e minérios");
-
-                    //Empyrean armor
-
                     Calamity.GetItem("XerocMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara Empírica");
                     Calamity.GetItem("XerocMask").Tooltip.AddTranslation(GameCulture.Portuguese, "Ira do cosmos\n11% de aumento nos danos por ataques assassinos e na chance de ataque crítico\nImunidade temporária à lava");
                     Calamity.GetItem("XerocPlateMail").DisplayName.AddTranslation(GameCulture.Portuguese, "Manto Empírico");
                     Calamity.GetItem("XerocPlateMail").Tooltip.AddTranslation(GameCulture.Portuguese, "Armadura do cosmos\n+20 vida máxima\n6% de aumento na velocidade dos movimentos\n7% de aumento nos danos por ataques assassinos e na chance de ataque crítico");
                     Calamity.GetItem("XerocCuisses").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas Empíricas");
                     Calamity.GetItem("XerocCuisses").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade do cosmos\n5% de aumento nos danos por ataques assassinos e na chance de ataque crítico\n20% de aumento na velocidade dos movimentos");
-
-                    //Tarragon armor
-
                     Calamity.GetItem("TarragonHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo de Estragão");
                     Calamity.GetItem("TarragonHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "Elmo do discípulo dos anciões\nImunidade temporária à lava\nVocê pode se mover livremente em líquidos\n5% de aumento na redução dos danos\n10% de aumento nos danos por ataque físico e na chance de ataque crítico");
                     Calamity.GetItem("TarragonVisage").DisplayName.AddTranslation(GameCulture.Portuguese, "Protetor Facial de Estragão");
@@ -957,18 +878,12 @@ namespace CalamityModPTBR
                     Calamity.GetItem("TarragonBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "Peitoral do exilador\n10% de aumento nos danos e 5% de aumento na chance de acerto crítico\n+2 regeneração de vida e +40 vida máxima");
                     Calamity.GetItem("TarragonLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Caça de Estragão");
                     Calamity.GetItem("TarragonLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "Calças de um explorador fabuloso\n20% de aumento na velocidade dos movimentos; maior aumento de velocidade se a vida estiver mais baixa\n6% de aumento nos danos e na chance de ataque crítico");
-
-                    //Prismatic armor
-
                     Calamity.GetItem("PrismaticHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Prismático");
                     Calamity.GetItem("PrismaticHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por magia e 12% de aumento no crítico mágico\n20% de redução nos danos não mágicos\nInimigos com menos de 500 de vida não causam danos\nIsso não ocorre enquanto um chefe estiver vivo");
                     Calamity.GetItem("PrismaticRegalia").DisplayName.AddTranslation(GameCulture.Portuguese, "Regalia Prismática");
                     Calamity.GetItem("PrismaticRegalia").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por magia e 15% de aumento no crítico mágico\n20% de redução nos danos não mágicos\n+20 vida máxima e +40 mana máxima\nAtaques mágicos ocasionalmente disparam um par de foguetes teleguiados");
                     Calamity.GetItem("PrismaticGreaves").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas Prismáticas");
                     Calamity.GetItem("PrismaticGreaves").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por magia e 12% de aumento no crítico mágico\n20% de redução nos danos não mágicos\nAumenta o seu tempo de voô e velocidade dos pulos em 10%");
-
-                    //Bloodflare armor
-
                     Calamity.GetItem("BloodflareMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Carneiro de Chamas Sangrentas");
                     Calamity.GetItem("BloodflareMask").Tooltip.AddTranslation(GameCulture.Portuguese, "Você pode se mover livremente em líquidos e possui imunidade temporária à lava\n10% de aumento nos danos por ataque físico e na chance de ataque crítico");
                     Calamity.GetItem("BloodflareHornedHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo com Chifres de Chamas Sangrentas");
@@ -983,18 +898,12 @@ namespace CalamityModPTBR
                     Calamity.GetItem("BloodflareBodyArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos e 8% de aumento na chance de acerto crítico\nVocê regenera vida rapidamente e ganha +30 defesa enquanto está na lava\n+40 vida máxima");
                     Calamity.GetItem("BloodflareCuisses").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas de Chamas Sangrentas");
                     Calamity.GetItem("BloodflareCuisses").Tooltip.AddTranslation(GameCulture.Portuguese, "30% de aumento na velocidade dos movimentos, 10% de aumento nos danos e 7% de aumento na chance de acerto crítico");
-
-                    //Omega Blue armor
-
                     Calamity.GetItem("OmegaBlueHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Ômega Azul");
                     Calamity.GetItem("OmegaBlueHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "Você pode se mover livremente em líquidos\n12% de aumento nos danos e 8% de aumento na chance de acerto crítico\n+2 lacaios máximos");
                     Calamity.GetItem("OmegaBlueChestplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral Ômega Azul");
                     Calamity.GetItem("OmegaBlueChestplate").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos e 8% de aumento na chance de acerto crítico\nSeus ataques infligem Pressão das profundezas\nSem regeneração de vida positiva");
                     Calamity.GetItem("OmegaBlueLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Tentáculos Ômega Azuis");
                     Calamity.GetItem("OmegaBlueLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "30% de aumento na velocidade dos movimentos\n12% de aumento nos danos e 8% de aumento na chance de acerto crítico");
-
-                    //God Slayer armor
-
                     Calamity.GetItem("GodSlayerHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Grande Elmo com Chifres do Assassino de Deuses");
                     Calamity.GetItem("GodSlayerHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "14% de aumento nos danos por ataque físico e na chance de ataque crítico");
                     Calamity.GetItem("GodSlayerHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacete do Assassino de Deuses");
@@ -1009,18 +918,12 @@ namespace CalamityModPTBR
                     Calamity.GetItem("GodSlayerChestplate").Tooltip.AddTranslation(GameCulture.Portuguese, "+60 vida máxima\n15% de aumento na velocidade dos movimentos\nInimigos sofrem danos quando te acertam\nAtaques têm 2% de chance de não causar danos a você\n10% de aumento nos danos e 6% de aumento na chance de ataque crítico");
                     Calamity.GetItem("GodSlayerLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calça do Assassino de Deuses");
                     Calamity.GetItem("GodSlayerLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "35% de aumento na velocidade dos danos\n10% de aumento no dano e na chance de acerto crítico");
-
-                    //Fearmonger armor
-
                     Calamity.GetItem("FearmongerGreathelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Grande Elmo Amedrontador");
                     Calamity.GetItem("FearmongerGreathelm").Tooltip.AddTranslation(GameCulture.Portuguese, "Puro terror irradia de seus olhos\n+60 mana máxima e 10% de redução no consumo de mana\n10% de aumento nos danos por lacaios e +2 lacaios máximos");
                     Calamity.GetItem("FearmongerPlateMail").DisplayName.AddTranslation(GameCulture.Portuguese, "Armadura de Placas Amedrontadoras");
                     Calamity.GetItem("FearmongerPlateMail").Tooltip.AddTranslation(GameCulture.Portuguese, "+100 vida máxima e 8% de aumento na redução dos danos\n+2 lacaios máximos\n5% de aumento nos danos e na chance de ataque crítico");
                     Calamity.GetItem("FearmongerGreaves").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas Amedrontadoras");
                     Calamity.GetItem("FearmongerGreaves").Tooltip.AddTranslation(GameCulture.Portuguese, "+2 lacaios máximos e 6% de aumento nos danos\n50% de aumento no recuo dos lacaios\n15% de aumento na velocidade dos movimentos\nSofrer danos faz com que você se mova muito rápido por um curto período de tempo");
-
-                    //Silva armor
-
                     Calamity.GetItem("SilvaHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo de Silva");
                     Calamity.GetItem("SilvaHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "13% de aumento nos danos por ataque físico e na chance de ataque crítico");
                     Calamity.GetItem("SilvaHornedHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo com Chifres de Silva");
@@ -1035,9 +938,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("SilvaArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "+80 vida máxima\n20% de aumento na velocidade dos movimentos\n12% de aumento nos danos e 8% de aumento na chance de ataque crítico");
                     Calamity.GetItem("SilvaLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calça de Silva");
                     Calamity.GetItem("SilvaLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "45% de aumento na velocidade dos movimentos\n12% de aumento nos danos e 7% de aumento na chance de ataque crítico");
-
-                    //Auric Tesla armor
-
                     Calamity.GetItem("AuricTeslaHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Real de Tesla Áurica");
                     Calamity.GetItem("AuricTeslaHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "20% de aumento nos danos por ataque físico e na chance de ataque crítico\nFicar parado aumenta todos os danos e a chance de acerto crítico");
                     Calamity.GetItem("AuricTeslaHoodedFacemask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara Facial Encapuzada de Tesla Áurica");
@@ -1052,9 +952,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("AuricTeslaBodyArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "+100 vida máxima\n25% de aumento na velocidade dos movimentos\nAtaques têm 2% de chance de não causar danos a você\n8% de aumento nos danos e 5% de aumento na chance de ataque crítico\nVocê congelará os inimigos perto de você quando for atingido");
                     Calamity.GetItem("AuricTeslaCuisses").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas de Tesla Áurica");
                     Calamity.GetItem("AuricTeslaCuisses").Tooltip.AddTranslation(GameCulture.Portuguese, "50% de aumento na velocidade dos movimentos\n12% de aumento nos danos e 5% de aumento na chance de ataque crítico\nEfeito do tapete mágico");
-
-                    //Demonshade armor
-
                     Calamity.GetItem("DemonshadeHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo das Sombras do Demônio");
                     Calamity.GetItem("DemonshadeHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "30% de aumento nos danos e 15% de aumento na chance de acerto crítico, +10 lacaios máximos");
                     Calamity.GetItem("DemonshadeBreastplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral das Sombras do Demônio");
@@ -1062,60 +959,68 @@ namespace CalamityModPTBR
                     Calamity.GetItem("DemonshadeGreaves").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas das Sombras do Demônio");
                     Calamity.GetItem("DemonshadeGreaves").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade das sombras");
 
-                    //Misc
-
+                    //Miscellaneous
                     Calamity.GetItem("ForbiddenCirclet").DisplayName.AddTranslation(GameCulture.Portuguese, "Argola Proibída");
                     Calamity.GetItem("ForbiddenCirclet").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por invocação e 15% de aumento na velocidade dos projéteis assassinos");
                     Calamity.GetItem("ShroomiteVisage").DisplayName.AddTranslation(GameCulture.Portuguese, "Protetor Facial de Cogumelita");
                     Calamity.GetItem("ShroomiteVisage").Tooltip.AddTranslation(GameCulture.Portuguese, "25% de aumento nos danos por ataque à distância para lança-chamas");
+
+                    //Vanity items
+                    //Vanity pieces
                     Calamity.GetItem("ApronOfAffection").DisplayName.AddTranslation(GameCulture.Portuguese, "Avental de Carinho de Ás");
                     Calamity.GetItem("ApronOfAffection").Tooltip.AddTranslation(GameCulture.Portuguese, "Ótimo para abraçar pessoas");
+                    Calamity.GetItem("AshenHorns").DisplayName.AddTranslation(GameCulture.Portuguese, "Chifres Cinzentos");
 
-                    //Ancient God Slayer armor
-
+                    //Vanity sets
                     Calamity.GetItem("AncientGodSlayerHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo do Assassino de Deuses Antigo");
                     Calamity.GetItem("AncientGodSlayerChestplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral do Assassino de Deuses Antigo");
                     Calamity.GetItem("AncientGodSlayerLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calça do Assassino de Deuses Antigo");
+                    Calamity.GetItem("SCalMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Capuz Calamitoso");
+                    Calamity.GetItem("SCalRobes").DisplayName.AddTranslation(GameCulture.Portuguese, "Roupão Calamitoso");
+                    Calamity.GetItem("SCalBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas Calamitosas");
 
                     //Boss Masks
-
-                    Calamity.GetItem("DesertScourgeMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Praga do Deserto");
+                    Calamity.GetItem("AnahitaMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Anahita");
+                    Calamity.GetItem("ApolloMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Apolo");
+                    Calamity.GetItem("AquaticScourgeMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Praga Aquática");
+                    Calamity.GetItem("AresMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Ares");
+                    Calamity.GetItem("ArtemisMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Ártemis");
+                    Calamity.GetItem("AureusMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Astrum Aureus");
+                    Calamity.GetItem("AstrumDeusMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Astrum Deus");
+                    Calamity.GetItem("BrimstoneWaifuMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Elemental de Enxofre");
+                    Calamity.GetItem("CalamitasMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Calamitas");
+                    Calamity.GetItem("CeaselessVoidMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Vazio Incessante");
                     Calamity.GetItem("CrabulonMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Crabulon");
+                    Calamity.GetItem("CryogenMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Criogênio");
+                    Calamity.GetItem("DesertScourgeMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Praga do Deserto");
+                    Calamity.GetItem("DevourerofGodsMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Devorador de Deuses");
+                    Calamity.GetItem("DraedonMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Draedon");
+                    Calamity.GetItem("BumblefuckMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Pássaro-dragão");
                     Calamity.GetItem("HiveMindMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Mente de Colméia");
+                    Calamity.GetItem("LeviathanMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Leviathan");
+                    Calamity.GetItem("OldDukeMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Velho Duque");
                     Calamity.GetItem("PerforatorMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Perfurador");
+                    Calamity.GetItem("PlaguebringerGoliathMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Portadora da Peste Gigante");
+                    Calamity.GetItem("PolterghastMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Polterghast");
+                    Calamity.GetItem("ProfanedGuardianMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Guardião Profano");
+                    Calamity.GetItem("ProvidenceMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Providência");
+                    Calamity.GetItem("RavagerMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Devastador");
+                    Calamity.GetItem("SignusMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Signus");
                     Calamity.GetItem("SlimeGodMask2").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Deus Geleia");
                     Calamity.GetItem("SlimeGodMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Deus Geleia");
-                    Calamity.GetItem("CryogenMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Criogênio");
-                    Calamity.GetItem("BrimstoneWaifuMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Elemental de Enxofre");
-                    Calamity.GetItem("AquaticScourgeMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Praga Aquática");
-                    Calamity.GetItem("CalamitasMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Calamitas");
-                    Calamity.GetItem("AnahitaMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Anahita");
-                    Calamity.GetItem("LeviathanMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Leviatã");
-                    Calamity.GetItem("AureusMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Astrum Aureus");
-                    Calamity.GetItem("PlaguebringerGoliathMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Portadora da Peste Gigante");
-                    Calamity.GetItem("RavagerMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Devastador");
-                    Calamity.GetItem("AstrumDeusMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Astrum Deus");
-                    Calamity.GetItem("ProfanedGuardianMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Guardião Profano");
-                    Calamity.GetItem("BumblefuckMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Pássaro-dragão");
-                    Calamity.GetItem("ProvidenceMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Providência");
-                    Calamity.GetItem("CeaselessVoidMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Vazio Incessante");
                     Calamity.GetItem("StormWeaverMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Explorador da Tempestade");
-                    Calamity.GetItem("SignusMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Signus");
-                    Calamity.GetItem("PolterghastMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Polterghast");
-                    Calamity.GetItem("OldDukeMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Velho Duque");
-                    Calamity.GetItem("DevourerofGodsMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Devorador de Deuses");
+                    Calamity.GetItem("ThanatosMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Thánatos");
                     Calamity.GetItem("YharonMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Yharon");
 
                     ///Blocks
                     //Naturally Occuring Blocks
                     //Soils
-
                     Calamity.GetItem("EutrophicSand").DisplayName.AddTranslation(GameCulture.Portuguese, "Areia Eutrófica");
-                    Calamity.GetItem("EutrophicSandWall").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Areia Eutrófica");
-                    Calamity.GetItem("EutrophicSandWallSafe").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Areia Eutrófica Segura");
+                    Calamity.GetItem("EutrophicSandWall").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Areia Eutrófica Insegura");
+                    Calamity.GetItem("EutrophicSandWallSafe").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Areia Eutrófica");
                     Calamity.GetItem("Navystone").DisplayName.AddTranslation(GameCulture.Portuguese, "Pedra Marinha");
-                    Calamity.GetItem("NavystoneWall").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Pedra Marinha");
-                    Calamity.GetItem("NavystoneWallSafe").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Pedra Marinha Segura");
+                    Calamity.GetItem("NavystoneWall").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Pedra Marinha Insegura");
+                    Calamity.GetItem("NavystoneWallSafe").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Pedra Marinha");
                     Calamity.GetItem("BrimstoneSlag").DisplayName.AddTranslation(GameCulture.Portuguese, "Escória de Enxofre");
                     Calamity.GetItem("BrimstoneSlagWall").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Escória de Enxofre");
                     Calamity.GetItem("HardenedSulphurousSandstone").DisplayName.AddTranslation(GameCulture.Portuguese, "Arenito Sulfuroso Endurecido");
@@ -1150,10 +1055,10 @@ namespace CalamityModPTBR
                     Calamity.GetItem("AstralGrassWall").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Grama Astral");
 
                     //Ore Blocks
-
                     Calamity.GetItem("SeaPrism").DisplayName.AddTranslation(GameCulture.Portuguese, "Prisma do Mar");
                     Calamity.GetItem("AerialiteOre").DisplayName.AddTranslation(GameCulture.Portuguese, "Minério de Aerealita");
                     Calamity.GetItem("CryonicOre").DisplayName.AddTranslation(GameCulture.Portuguese, "Minério Criônico");
+                    Calamity.GetItem("HallowedOre").DisplayName.AddTranslation(GameCulture.Portuguese, "Minério Consagrado");
                     Calamity.GetItem("PerennialOre").DisplayName.AddTranslation(GameCulture.Portuguese, "Minério de Perene");
                     Calamity.GetItem("CharredOre").DisplayName.AddTranslation(GameCulture.Portuguese, "Minério Carbonizado");
                     Calamity.GetItem("ChaoticOre").DisplayName.AddTranslation(GameCulture.Portuguese, "Minério de Escória");
@@ -1164,14 +1069,12 @@ namespace CalamityModPTBR
                     Calamity.GetItem("AuricOre").DisplayName.AddTranslation(GameCulture.Portuguese, "Minério Áurico");
 
                     //Other
-
                     Calamity.GetItem("PrismShard").DisplayName.AddTranslation(GameCulture.Portuguese, "Fragmento de Prisma");
                     Calamity.GetItem("Lumenite").DisplayName.AddTranslation(GameCulture.Portuguese, "Lumenil");
                     Calamity.GetItem("AstralMonolith").DisplayName.AddTranslation(GameCulture.Portuguese, "Monólito Astral");
                     Calamity.GetItem("AstralMonolithWall").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Monólito Astral");
 
                     //Crafted Blocks and Bricks
-
                     Calamity.GetItem("SmoothAbyssGravel").DisplayName.AddTranslation(GameCulture.Portuguese, "Cascalho do Abismo Liso");
                     Calamity.GetItem("SmoothAbyssGravelWall").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Cascalho do Abismo Liso");
                     Calamity.GetItem("SmoothBrimstoneSlag").DisplayName.AddTranslation(GameCulture.Portuguese, "Escória de Enxofre Lisa");
@@ -1257,7 +1160,6 @@ namespace CalamityModPTBR
 
                     ///Crafting materials
                     //Bars
-
                     Calamity.GetItem("VictideBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra de Vimaré");
                     Calamity.GetItem("AerialiteBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra de Aerealita");
                     Calamity.GetItem("VerstaltiteBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra Criônica");
@@ -1268,12 +1170,11 @@ namespace CalamityModPTBR
                     Calamity.GetItem("UeliaceBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra Florescente");
                     Calamity.GetItem("CosmiliteBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra de Cosmilita");
                     Calamity.GetItem("CosmiliteBar").Tooltip.AddTranslation(GameCulture.Portuguese, "Um pedaço de aço cósmico altamente resistente");
-                    Calamity.GetItem("AuricBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra de Tesla Áurica");
+                    Calamity.GetItem("AuricBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra Áurica");
                     Calamity.GetItem("AuricBar").Tooltip.AddTranslation(GameCulture.Portuguese, "Irradia energia divina");
                     Calamity.GetItem("ShadowspecBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra Sombria");
 
                     //Fish
-
                     Calamity.GetItem("AldebaranAlewife").DisplayName.AddTranslation(GameCulture.Portuguese, "Alosa Cinzenta de Aldebarã");
                     Calamity.GetItem("AldebaranAlewife").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma entidade estrelada na forma de um peixe");
                     Calamity.GetItem("BrimstoneFish").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixe de Enxofre");
@@ -1297,7 +1198,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("TwinklingPollox").Tooltip.AddTranslation(GameCulture.Portuguese, "Suas escamas brilham como cristais");
 
                     //Enemy drops
-
                     Calamity.GetItem("AncientBoneDust").DisplayName.AddTranslation(GameCulture.Portuguese, "Pó de Osso Antigo");
                     Calamity.GetItem("EbonianGel").DisplayName.AddTranslation(GameCulture.Portuguese, "Gel Estragado");
                     Calamity.GetItem("BloodOrb").DisplayName.AddTranslation(GameCulture.Portuguese, "Orbe de Sangue");
@@ -1313,7 +1213,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("PurifiedGel").DisplayName.AddTranslation(GameCulture.Portuguese, "Gel Purificado");
                     Calamity.GetItem("StormlionMandible").DisplayName.AddTranslation(GameCulture.Portuguese, "Mandíbula de Formiga-trovão");
                     Calamity.GetItem("SulfuricScale").DisplayName.AddTranslation(GameCulture.Portuguese, "Escama Sulfúrica");
-                    Calamity.GetItem("TrueShadowScale").DisplayName.AddTranslation(GameCulture.Portuguese, "Verdadeira Placa das Sombras");
+                    Calamity.GetItem("TrueShadowScale").DisplayName.AddTranslation(GameCulture.Portuguese, "Matéria Apodrecida");
                     Calamity.GetItem("VictoryShard").DisplayName.AddTranslation(GameCulture.Portuguese, "Fragmento da Vitória");
                     Calamity.GetItem("WulfrumShard").DisplayName.AddTranslation(GameCulture.Portuguese, "Sucata de Metal Vulfrânio");
                     Calamity.GetItem("CalamityDust").DisplayName.AddTranslation(GameCulture.Portuguese, "Cinzas da Calamidade");
@@ -1348,7 +1248,8 @@ namespace CalamityModPTBR
                     Calamity.GetItem("TrapperBulb").DisplayName.AddTranslation(GameCulture.Portuguese, "Bulbo de Planta Carnívora");
                     Calamity.GetItem("ArmoredShell").DisplayName.AddTranslation(GameCulture.Portuguese, "Casco Blindado");
                     Calamity.GetItem("Bloodstone").DisplayName.AddTranslation(GameCulture.Portuguese, "Pedra Sangrenta");
-                    Calamity.GetItem("CalamitousEssence").DisplayName.AddTranslation(GameCulture.Portuguese, "Essência Calamitosa");
+                    Calamity.GetItem("CalamitousEssence").DisplayName.AddTranslation(GameCulture.Portuguese, "Cinzas da Aniquilação");
+                    Calamity.GetItem("CalamitousEssence").Tooltip.AddTranslation(GameCulture.Portuguese, "A essência fumegante da ira da Bruxa");
                     Calamity.GetItem("DarkPlasma").DisplayName.AddTranslation(GameCulture.Portuguese, "Plasma Escuro");
                     Calamity.GetItem("DarksunFragment").DisplayName.AddTranslation(GameCulture.Portuguese, "Fragmento do Sol Escuro");
                     Calamity.GetItem("DarksunFragment").Tooltip.AddTranslation(GameCulture.Portuguese, "Um fragmento de energia lunar e solar");
@@ -1358,6 +1259,8 @@ namespace CalamityModPTBR
                     Calamity.GetItem("EffulgentFeather").Tooltip.AddTranslation(GameCulture.Portuguese, "Ela vibra com energia fofa e dourada");
                     Calamity.GetItem("EndothermicEnergy").DisplayName.AddTranslation(GameCulture.Portuguese, "Energia Endotérmica");
                     Calamity.GetItem("EndothermicEnergy").Tooltip.AddTranslation(GameCulture.Portuguese, "Ótimo para prevenir insolações");
+                    Calamity.GetItem("ExoPrism").DisplayName.AddTranslation(GameCulture.Portuguese, "Exo Prisma");
+                    Calamity.GetItem("ExoPrism").Tooltip.AddTranslation(GameCulture.Portuguese, "Energias fractais brilham em sua superfície");
                     Calamity.GetItem("NightmareFuel").DisplayName.AddTranslation(GameCulture.Portuguese, "Combustível de Pesadelos");
                     Calamity.GetItem("NightmareFuel").Tooltip.AddTranslation(GameCulture.Portuguese, "Pode drenar sua sanidade");
                     Calamity.GetItem("Phantoplasm").DisplayName.AddTranslation(GameCulture.Portuguese, "Fantoplasma");
@@ -1381,28 +1284,47 @@ namespace CalamityModPTBR
                     Calamity.GetItem("GalacticaSingularity").Tooltip.AddTranslation(GameCulture.Portuguese, "Um fragmento do cosmos");
                     Calamity.GetItem("BarofLife").DisplayName.AddTranslation(GameCulture.Portuguese, "Liga da Vida");
                     Calamity.GetItem("MeldiateBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Construção de Fusão");
+                    Calamity.GetItem("MiracleMatter").DisplayName.AddTranslation(GameCulture.Portuguese, "Matéria Milagrosa");
+                    Calamity.GetItem("MiracleMatter").Tooltip.AddTranslation(GameCulture.Portuguese, "Sua forma amorfa contém potencial incalculável\nUma é necessária para cada arma Exo");
+                    Calamity.GetItem("MysteriousMechanism").DisplayName.AddTranslation(GameCulture.Portuguese, "Mecanismo Misterioso");
+                    Calamity.GetItem("MysteriousMechanism").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado como uma base para tecnologia de teleguiação especializada");
                     Calamity.GetItem("UnholyCore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo Profano");
 
                     //Dyes
-
+                    Calamity.GetItem("AerialiteDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura de Aerialita");
                     Calamity.GetItem("AstralBlueDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura Azul Astral");
+                    Calamity.GetItem("AstralDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura de Carne Astral");
                     Calamity.GetItem("AstralOrangeDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura Laranja Astral");
                     Calamity.GetItem("AstralSwirlDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura do Redemoinho Astral");
+                    Calamity.GetItem("AuricDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura Áurica");
+                    Calamity.GetItem("BloodflareDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura das Chamas Sangrentas");
+                    Calamity.GetItem("BlueCosmicFlameDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura das Chamas Cósmicas Azuis");
+                    Calamity.GetItem("BlueStatigelDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura de Statigel Azul");
+                    Calamity.GetItem("BrimflameDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura das Chamas de Enxofre");
+                    Calamity.GetItem("CalamitousDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura Calamitosa");
                     Calamity.GetItem("CeaselessDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura Incessante");
+                    Calamity.GetItem("CosmiliteDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura de Cosmilita");
+                    Calamity.GetItem("CryonicDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura Criônica");
                     Calamity.GetItem("DefiledFlameDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura de Chamas Profanas");
                     Calamity.GetItem("DragonSoulDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura da Alma do Dragão");
                     Calamity.GetItem("ElementalDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura Elemental");
                     Calamity.GetItem("EndothermicDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura Endotérmica");
+                    Calamity.GetItem("ExoDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura Exo");
                     Calamity.GetItem("NightmareDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura de Pesadelos");
+                    Calamity.GetItem("PhantoplasmDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura de Fantoplasma");
+                    Calamity.GetItem("PinkCosmicFlameDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura das Chamas Cósmicas Rosas");
+                    Calamity.GetItem("PinkStatigelDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura de Statigel Rosa");
+                    Calamity.GetItem("ProfanedFlameDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura das Chamas Profanas");
                     Calamity.GetItem("AstralBlueDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura Azul Astral");
                     Calamity.GetItem("ProfanedMoonlightDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura do Luar Profano");
                     Calamity.GetItem("ReaverDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura do Ladrão");
+                    Calamity.GetItem("SlimeGodDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura do Deus Geleia");
                     Calamity.GetItem("ShadowspecDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura Sombria");
                     Calamity.GetItem("StratusDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura de Stratus");
+                    Calamity.GetItem("SwirlingCosmicFlameDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura do Redemoinho de Chamas Cósmicas");
 
                     ///Enemies
                     //Pre-Hardmode
-
                     Calamity.GetNPC("LeviathanStart").DisplayName.AddTranslation(GameCulture.Portuguese, "???");
                     Calamity.GetNPC("AeroSlime").DisplayName.AddTranslation(GameCulture.Portuguese, "Geleia Aérea");
                     Calamity.GetNPC("AngryDog").DisplayName.AddTranslation(GameCulture.Portuguese, "Cachorro Furioso");
@@ -1459,7 +1381,6 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("WulfrumRover").DisplayName.AddTranslation(GameCulture.Portuguese, "Rover de Vulfrânio");
 
                     //Hardmode
-
                     Calamity.GetNPC("AnthozoanCrab").DisplayName.AddTranslation(GameCulture.Portuguese, "Caranguejo Antozoário");
                     Calamity.GetNPC("AquaticAberration").DisplayName.AddTranslation(GameCulture.Portuguese, "Aberração Aquática");
                     Calamity.GetNPC("Aries").DisplayName.AddTranslation(GameCulture.Portuguese, "Áries");
@@ -1521,7 +1442,6 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("PlaguedDerpling").DisplayName.AddTranslation(GameCulture.Portuguese, "Viruling");
 
                     //Post-Moon Lord
-
                     Calamity.GetNPC("Bloatfish").DisplayName.AddTranslation(GameCulture.Portuguese, "Baiacu-inchado");
                     Calamity.GetNPC("BobbitWormHead").DisplayName.AddTranslation(GameCulture.Portuguese, "Verme Bobbit");
                     Calamity.GetNPC("BobbitWormSegment").DisplayName.AddTranslation(GameCulture.Portuguese, "Verme Bobbit");
@@ -1538,7 +1458,6 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("ScornEater").DisplayName.AddTranslation(GameCulture.Portuguese, "Devorador de Desprezos");
 
                     //Minibosses
-
                     Calamity.GetNPC("ArmoredDiggerHead").DisplayName.AddTranslation(GameCulture.Portuguese, "Cavador Blindado");
                     Calamity.GetNPC("ArmoredDiggerBody").DisplayName.AddTranslation(GameCulture.Portuguese, "Cavador Blindado");
                     Calamity.GetNPC("ArmoredDiggerTail").DisplayName.AddTranslation(GameCulture.Portuguese, "Cavador Blindado");
@@ -1558,7 +1477,6 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("Reaper").DisplayName.AddTranslation(GameCulture.Portuguese, "Tubarão Ceifeiro");
 
                     //Events
-
                     Calamity.GetNPC("FearlessGoldfishWarrior").DisplayName.AddTranslation(GameCulture.Portuguese, "Guerreiro Peixe-dourado Destemido");
                     Calamity.GetNPC("ThiccWaifu").DisplayName.AddTranslation(GameCulture.Portuguese, "Elemental da Nuvem");
                     Calamity.GetNPC("GreatSandShark").DisplayName.AddTranslation(GameCulture.Portuguese, "Grande Tubarão de Areia");
@@ -1578,7 +1496,6 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("NuclearTerror").DisplayName.AddTranslation(GameCulture.Portuguese, "Terror Nuclear");
 
                     //Bosses
-
                     Calamity.GetNPC("AquaticScourgeHead").DisplayName.AddTranslation(GameCulture.Portuguese, "Praga Aquática");
                     Calamity.GetNPC("AquaticScourgeBody").DisplayName.AddTranslation(GameCulture.Portuguese, "Praga Aquática");
                     Calamity.GetNPC("AquaticScourgeBodyAlt").DisplayName.AddTranslation(GameCulture.Portuguese, "Praga Aquática");
@@ -1593,17 +1510,17 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("CrabulonIdle").DisplayName.AddTranslation(GameCulture.Portuguese, "Crabulon");
                     Calamity.GetNPC("Cryogen").DisplayName.AddTranslation(GameCulture.Portuguese, "Criogênio");
                     Calamity.GetNPC("CryogenIce").DisplayName.AddTranslation(GameCulture.Portuguese, "Escudo do Criogênio");
-                    Calamity.GetNPC("AstrumDeusHeadSpectral").DisplayName.AddTranslation(GameCulture.Portuguese, "Astrum Deus");
                     Calamity.GetNPC("DesertScourgeHead").DisplayName.AddTranslation(GameCulture.Portuguese, "Praga do Deserto");
                     Calamity.GetNPC("DesertScourgeBody").DisplayName.AddTranslation(GameCulture.Portuguese, "Praga do Deserto");
                     Calamity.GetNPC("DesertScourgeTail").DisplayName.AddTranslation(GameCulture.Portuguese, "Praga do Deserto");
                     Calamity.GetNPC("DevourerofGodsHead").DisplayName.AddTranslation(GameCulture.Portuguese, "Devorador de Deuses");
                     Calamity.GetNPC("DevourerofGodsBody").DisplayName.AddTranslation(GameCulture.Portuguese, "Devorador de Deuses");
                     Calamity.GetNPC("DevourerofGodsTail").DisplayName.AddTranslation(GameCulture.Portuguese, "Devorador de Deuses");
+                    Calamity.GetNPC("Draedon").DisplayName.AddTranslation(GameCulture.Portuguese, "Draedon");
                     Calamity.GetNPC("Bumblefuck").DisplayName.AddTranslation(GameCulture.Portuguese, "Pássaro-dragão");
                     Calamity.GetNPC("HiveMind").DisplayName.AddTranslation(GameCulture.Portuguese, "A Mente de Colméia");
                     Calamity.GetNPC("Yharon").DisplayName.AddTranslation(GameCulture.Portuguese, "Yharon, o Dragão da Selva");
-                    Calamity.GetNPC("Leviathan").DisplayName.AddTranslation(GameCulture.Portuguese, "A Leviatã");
+                    Calamity.GetNPC("Leviathan").DisplayName.AddTranslation(GameCulture.Portuguese, "A Leviathan");
                     Calamity.GetNPC("Siren").DisplayName.AddTranslation(GameCulture.Portuguese, "Anahita");
                     Calamity.GetNPC("SirenIce").DisplayName.AddTranslation(GameCulture.Portuguese, "Escudo de Gelo");
                     Calamity.GetNPC("OldDuke").DisplayName.AddTranslation(GameCulture.Portuguese, "Velho Duque");
@@ -1648,7 +1565,9 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("SupremeCalamitas").DisplayName.AddTranslation(GameCulture.Portuguese, "Calamitas Suprema");
 
                     //Boss Servants
-
+                    Calamity.GetNPC("DesertNuisanceHead").DisplayName.AddTranslation(GameCulture.Portuguese, "Um Incômodo do Deserto");
+                    Calamity.GetNPC("DesertNuisanceBody").DisplayName.AddTranslation(GameCulture.Portuguese, "Um Incômodo do Deserto");
+                    Calamity.GetNPC("DesertNuisanceTail").DisplayName.AddTranslation(GameCulture.Portuguese, "Um Incômodo do Deserto");
                     Calamity.GetNPC("IceMass").DisplayName.AddTranslation(GameCulture.Portuguese, "Espírito da Aurora");
                     Calamity.GetNPC("AureusSpawn").DisplayName.AddTranslation(GameCulture.Portuguese, "Invocação de Aureus");
                     Calamity.GetNPC("Brimling").DisplayName.AddTranslation(GameCulture.Portuguese, "Brimling");
@@ -1663,7 +1582,6 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("SignusBomb").DisplayName.AddTranslation(GameCulture.Portuguese, "Mina Cósmica");
                     Calamity.GetNPC("CrabShroom").DisplayName.AddTranslation(GameCulture.Portuguese, "Cogumelo Caranguejo");
                     Calamity.GetNPC("SlimeSpawnCrimson").DisplayName.AddTranslation(GameCulture.Portuguese, "Invocação de Geleia de Carmim");
-                    Calamity.GetNPC("SlimeSpawnCrimson2").DisplayName.AddTranslation(GameCulture.Portuguese, "Invocação de Geleia de Carmim");
                     Calamity.GetNPC("KingSlimeJewel").DisplayName.AddTranslation(GameCulture.Portuguese, "Joia da Coroa");
                     Calamity.GetNPC("Cryocore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo Criogênico");
                     Calamity.GetNPC("Cryocore2").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo Criogênico");
@@ -1671,9 +1589,6 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("DarkEnergy").DisplayName.AddTranslation(GameCulture.Portuguese, "Energia Sombria");
                     Calamity.GetNPC("DarkHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração Sombrio");
                     Calamity.GetNPC("DetonatingFlare").DisplayName.AddTranslation(GameCulture.Portuguese, "Chama Detonante");
-                    Calamity.GetNPC("DriedSeekerHead").DisplayName.AddTranslation(GameCulture.Portuguese, "Caçador Seco");
-                    Calamity.GetNPC("DriedSeekerBody").DisplayName.AddTranslation(GameCulture.Portuguese, "Caçador Seco");
-                    Calamity.GetNPC("DriedSeekerTail").DisplayName.AddTranslation(GameCulture.Portuguese, "Caçador Seco");
                     Calamity.GetNPC("FlamePillar").DisplayName.AddTranslation(GameCulture.Portuguese, "Coluna de Chamas");
                     Calamity.GetNPC("HiveBlob").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolha da Colméia");
                     Calamity.GetNPC("HiveBlob2").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolha da Colméia");
@@ -1688,24 +1603,30 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("SCalWormTail").DisplayName.AddTranslation(GameCulture.Portuguese, "Sepulcro");
                     Calamity.GetNPC("SoulSeeker").DisplayName.AddTranslation(GameCulture.Portuguese, "Caçador de Almas");
                     Calamity.GetNPC("SoulSeekerSupreme").DisplayName.AddTranslation(GameCulture.Portuguese, "Caçador de Almas");
+                    Calamity.GetNPC("SlimeSpawnCrimson2").DisplayName.AddTranslation(GameCulture.Portuguese, "Invocação de Geleia de Carmim com Espinhos");
                     Calamity.GetNPC("OldDukeSharkron").DisplayName.AddTranslation(GameCulture.Portuguese, "Tubarão-dragão Sulfuroso");
                     Calamity.GetNPC("SupremeCataclysm").DisplayName.AddTranslation(GameCulture.Portuguese, "Cataclismo");
                     Calamity.GetNPC("SupremeCatastrophe").DisplayName.AddTranslation(GameCulture.Portuguese, "Catástrofe");
+                    Calamity.GetNPC("OldDukeToothBall").DisplayName.AddTranslation(GameCulture.Portuguese, "Bola de Dente");
+                    Calamity.GetNPC("AresBody").DisplayName.AddTranslation(GameCulture.Portuguese, "XF-09 Ares");
+                    Calamity.GetNPC("AresGaussNuke").DisplayName.AddTranslation(GameCulture.Portuguese, "Bomba Nuclear Gauss do XF-09 Ares");
+                    Calamity.GetNPC("AresLaserCannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão Laser do XF-09 Ares");
+                    Calamity.GetNPC("AresPlasmaFlamethrower").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão de Plasma do XF-09 Ares");
+                    Calamity.GetNPC("AresTeslaCannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão Tesla do XF-09 Ares");
+                    Calamity.GetNPC("ThanatosHead").DisplayName.AddTranslation(GameCulture.Portuguese, "XM-05 Thánatos");
+                    Calamity.GetNPC("ThanatosBody1").DisplayName.AddTranslation(GameCulture.Portuguese, "XM-05 Thánatos");
+                    Calamity.GetNPC("ThanatosBody2").DisplayName.AddTranslation(GameCulture.Portuguese, "XM-05 Thánatos");
+                    Calamity.GetNPC("ThanatosTail").DisplayName.AddTranslation(GameCulture.Portuguese, "XM-05 Thánatos");
+                    Calamity.GetNPC("Artemis").DisplayName.AddTranslation(GameCulture.Portuguese, "XS-01 Ártemis");
+                    Calamity.GetNPC("Apollo").DisplayName.AddTranslation(GameCulture.Portuguese, "XS-03 Apolo");
 
                     //Unspawnable
-
                     Calamity.GetNPC("WulfrumSlime").DisplayName.AddTranslation(GameCulture.Portuguese, "Geleia de Vulfrânio");
 
                     //Misc
-
-                    Calamity.GetNPC("FlakBaby").DisplayName.AddTranslation(GameCulture.Portuguese, "Caranguejo Flak Bebê");
-                    Calamity.GetNPC("GhostBellSmall").DisplayName.AddTranslation(GameCulture.Portuguese, "Sino Fantasma Bebê");
-                    Calamity.GetNPC("BloodwormNormal").DisplayName.AddTranslation(GameCulture.Portuguese, "Verme de Sangue");
-                    Calamity.GetNPC("BloodwormFleeing").DisplayName.AddTranslation(GameCulture.Portuguese, "Verme de Sangue");
                     Calamity.GetNPC("MicrobialCluster").DisplayName.AddTranslation(GameCulture.Portuguese, "Aglomerado de Micróbios");
 
                     //NPCs
-
                     Calamity.GetNPC("SEAHOE").DisplayName.AddTranslation(GameCulture.Portuguese, "Rei dos Mares");
                     Calamity.GetNPC("THIEF").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandida");
                     Calamity.GetNPC("FAP").DisplayName.AddTranslation(GameCulture.Portuguese, "Princesa Bêbada");
@@ -1713,14 +1634,48 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("WITCH").DisplayName.AddTranslation(GameCulture.Portuguese, "Bruxa de Enxofre");
 
                     //Critters
-
+                    //Terrestrial
+                    Calamity.GetNPC("FlakBaby").DisplayName.AddTranslation(GameCulture.Portuguese, "Caranguejo Flak Bebê");
+                    Calamity.GetNPC("BloodwormNormal").DisplayName.AddTranslation(GameCulture.Portuguese, "Verme de Sangue");
+                    Calamity.GetNPC("BloodwormFleeing").DisplayName.AddTranslation(GameCulture.Portuguese, "Verme de Sangue");
                     Calamity.GetNPC("Piggy").DisplayName.AddTranslation(GameCulture.Portuguese, "Porquinho");
+                    Calamity.GetNPC("RepairUnitCritter").DisplayName.AddTranslation(GameCulture.Portuguese, "Unidade de Reparo");
                     Calamity.GetNPC("Twinkler").DisplayName.AddTranslation(GameCulture.Portuguese, "Inseto Cintilante");
+
+                    //Aquatic
+                    Calamity.GetNPC("GhostBellSmall").DisplayName.AddTranslation(GameCulture.Portuguese, "Sino Fantasma Bebê");
                     Calamity.GetNPC("SeaMinnow").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixinho do Mar");
 
-                    //Furniture
-                    //Basins
+                    ///Furniture
+                    //Crafting stations
+                    Calamity.GetItem("AncientAltar").DisplayName.AddTranslation(GameCulture.Portuguese, "Altar Antigo");
+                    Calamity.GetItem("AncientAltar").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado para criação especial");
+                    Calamity.GetItem("AshenAltar").DisplayName.AddTranslation(GameCulture.Portuguese, "Altar Cinzento");
+                    Calamity.GetItem("AshenAltar").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado para criação especial");
+                    Calamity.GetItem("BotanicPlanter").DisplayName.AddTranslation(GameCulture.Portuguese, "Plantador Botânico");
+                    Calamity.GetItem("BotanicPlanter").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado para criação especial");
+                    Calamity.GetItem("CosmicAnvilItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Bigorna Cósmica");
+                    Calamity.GetItem("CosmicAnvilItem").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma bigorna de outro mundo capaz de resistir às pressões do colapso estelar\nTambém funciona como todos os níveis anteriores de bigorna");
+                    Calamity.GetItem("DraedonsForge").DisplayName.AddTranslation(GameCulture.Portuguese, "Forja de Draedon");
+                    Calamity.GetItem("DraedonsForge").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma nanoforja de rede de plasma alimentada por Exo energias ilimitadas\nFunciona como todas as principais estações de criação simultaneamente");
+                    Calamity.GetItem("SilvaBasin").DisplayName.AddTranslation(GameCulture.Portuguese, "Manipulador Refulgente");
+                    Calamity.GetItem("SilvaBasin").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado para criação especial");
+                    Calamity.GetItem("EutrophicCrafting").DisplayName.AddTranslation(GameCulture.Portuguese, "Prateleira Eutrófica");
+                    Calamity.GetItem("EutrophicCrafting").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado para criação especial");
+                    Calamity.GetItem("MonolithCrafting").DisplayName.AddTranslation(GameCulture.Portuguese, "Monólito Amálgamo");
+                    Calamity.GetItem("MonolithCrafting").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado para criação especial");
+                    Calamity.GetItem("PlagueInfuser").DisplayName.AddTranslation(GameCulture.Portuguese, "Infusor da Praga");
+                    Calamity.GetItem("PlagueInfuser").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado para criação especial");
+                    Calamity.GetItem("ProfanedBasin").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadinho Profano");
+                    Calamity.GetItem("ProfanedBasin").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado para criação especial");
+                    Calamity.GetItem("StaticRefiner").DisplayName.AddTranslation(GameCulture.Portuguese, "Refinador Estático");
+                    Calamity.GetItem("StaticRefiner").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado para criação especial");
+                    Calamity.GetItem("VoidCondenser").DisplayName.AddTranslation(GameCulture.Portuguese, "Condensador do Vazio");
+                    Calamity.GetItem("VoidCondenser").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado para criação especial");
 
+
+                    //Light sources
+                    //Basins
                     Calamity.GetItem("AncientBasin").DisplayName.AddTranslation(GameCulture.Portuguese, "Bacia Cinzenta");
                     Calamity.GetItem("ProfanedBasin").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadinho Profano");
                     Calamity.GetItem("AshenBasin").DisplayName.AddTranslation(GameCulture.Portuguese, "Bacia Cinzenta");
@@ -1729,7 +1684,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("PlaguedPlateBasin").DisplayName.AddTranslation(GameCulture.Portuguese, "'Cama' Infestada Quebrada");
 
                     //Candles
-
                     Calamity.GetItem("StratusCandle").DisplayName.AddTranslation(GameCulture.Portuguese, "Vela de Stratus");
                     Calamity.GetItem("AshenCandle").DisplayName.AddTranslation(GameCulture.Portuguese, "Vela Cinzenta");
                     Calamity.GetItem("BotanicCandle").DisplayName.AddTranslation(GameCulture.Portuguese, "Vela Botânica");
@@ -1757,7 +1711,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("BlueCandle").Tooltip.AddTranslation(GameCulture.Portuguese, "Quando colocada, os jogadores próximos ganham 15% de velocidade dos movimentos, 10% de tempo de asas e 5% de aceleração\n'A chama flutuante parece elevar o seu próprio espírito'");
 
                     //Chandeliers
-
                     Calamity.GetItem("AncientChandelier").DisplayName.AddTranslation(GameCulture.Portuguese, "Lustre Antigo");
                     Calamity.GetItem("StratusChandelier").DisplayName.AddTranslation(GameCulture.Portuguese, "Lustre de Stratus");
                     Calamity.GetItem("AshenChandelier").DisplayName.AddTranslation(GameCulture.Portuguese, "Lustre Cinzento");
@@ -1774,7 +1727,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidChandelier").DisplayName.AddTranslation(GameCulture.Portuguese, "Lustre Antigo");
 
                     //Candelabra
-
                     Calamity.GetItem("StratusCandelabra").DisplayName.AddTranslation(GameCulture.Portuguese, "Candelabro de Stratus");
                     Calamity.GetItem("AshenCandelabra").DisplayName.AddTranslation(GameCulture.Portuguese, "Candelabro Cinzento");
                     Calamity.GetItem("BotanicCandelabra").DisplayName.AddTranslation(GameCulture.Portuguese, "Candelabro Botânico");
@@ -1790,7 +1742,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidCandelabra").DisplayName.AddTranslation(GameCulture.Portuguese, "Candelabro do Vazio");
 
                     //Lamps
-
                     Calamity.GetItem("AncientLamp").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmpada Antiga");
                     Calamity.GetItem("StratusLamp").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmpada de Stratus");
                     Calamity.GetItem("AshenLamp").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmpada Cinzenta");
@@ -1807,7 +1758,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidLamp").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmpada do Vazio");
 
                     //Lanterns
-
                     Calamity.GetItem("AncientLantern").DisplayName.AddTranslation(GameCulture.Portuguese, "Lanterna Antiga");
                     Calamity.GetItem("StratusLantern").DisplayName.AddTranslation(GameCulture.Portuguese, "Lanterna de Stratus");
                     Calamity.GetItem("AshenLantern").DisplayName.AddTranslation(GameCulture.Portuguese, "Lanterna Cinzenta");
@@ -1825,21 +1775,17 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidLantern").DisplayName.AddTranslation(GameCulture.Portuguese, "Lanterna do Vazio");
 
                     //Sconce
-
                     Calamity.GetItem("CosmiliteSconce").DisplayName.AddTranslation(GameCulture.Portuguese, "Arandela de Cosmilita");
 
                     //Torch
-
                     Calamity.GetItem("AbyssTorch").DisplayName.AddTranslation(GameCulture.Portuguese, "Tocha do Abismo");
 
                     //Storage
                     //Chest
                     //Natural Chests
-
                     Calamity.GetItem("AstralChest").DisplayName.AddTranslation(GameCulture.Portuguese, "Baú Astral");
 
                     //Crafted Chests
-
                     Calamity.GetItem("StratusChest").DisplayName.AddTranslation(GameCulture.Portuguese, "Baú de Stratus");
                     Calamity.GetItem("AshenChest").DisplayName.AddTranslation(GameCulture.Portuguese, "Baú Cinzento");
                     Calamity.GetItem("BotanicChest").DisplayName.AddTranslation(GameCulture.Portuguese, "Baú Botânico");
@@ -1858,8 +1804,12 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidChest").DisplayName.AddTranslation(GameCulture.Portuguese, "Baú do Vazio");
 
                     //Functional
-                    //Banner
+                    Calamity.GetItem("SCalAltarItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Altar Amaldiçoado");
+                    Calamity.GetItem("SCalAltarItem").Tooltip.AddTranslation(GameCulture.Portuguese, "Ofereça Cinzas da Calamidade neste altar para invocar a Bruxa\nFazer isso criará uma arena quadrada de blocos, com o altar em seu centro\nDurante a batalha, a coleta de corações cura pela metade do normal");
+                    Calamity.GetItem("AstralBeaconItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Sinalizador Astral");
+                    Calamity.GetItem("AstralBeaconItem").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca Astrum Deus em troca de oferendas específicas");
 
+                    //Banner
                     Calamity.GetItem("AcidEelBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Enguia Ácida");
                     Calamity.GetItem("AeroSlimeBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Geleia Aérea");
                     Calamity.GetItem("AmberCrawlerBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Rastejador de Âmbar");
@@ -1920,7 +1870,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("WulfrumRoverBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Rover de Vulfrânio");
 
                     //Hardmode
-
                     Calamity.GetItem("AnthozoanCrabBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Caranguejo Antozoário");
                     Calamity.GetItem("AquaticAberrationBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Aberração Aquática");
                     Calamity.GetItem("AriesBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Aries");
@@ -1978,7 +1927,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VirulingBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Viruling");
 
                     //Post-Moon Lord
-
                     Calamity.GetItem("BloatfishBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Baiacu-inchado");
                     Calamity.GetItem("BloomSlimeBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Geleia Florescente");
                     Calamity.GetItem("BobbitWormBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Verme Bobbit");
@@ -1994,11 +1942,9 @@ namespace CalamityModPTBR
                     Calamity.GetItem("ScornEaterBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Devorador de Desprezos");
 
                     //Unobtainable
-
                     Calamity.GetItem("WulfrumSlimeBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Geleia de Vulfrânio");
 
                     //Beds
-
                     Calamity.GetItem("AncientBed").DisplayName.AddTranslation(GameCulture.Portuguese, "Cama Antiga");
                     Calamity.GetItem("StratusBed").DisplayName.AddTranslation(GameCulture.Portuguese, "Cama de Stratus");
                     Calamity.GetItem("AshenBed").DisplayName.AddTranslation(GameCulture.Portuguese, "Cama Cinzenta");
@@ -2013,8 +1959,20 @@ namespace CalamityModPTBR
                     Calamity.GetItem("AbyssBed").DisplayName.AddTranslation(GameCulture.Portuguese, "Cama do Abismo");
                     Calamity.GetItem("VoidBed").DisplayName.AddTranslation(GameCulture.Portuguese, "Cama do Vazio");
 
-                    //Door
+                    Calamity.GetItem("CodebreakerBase").DisplayName.AddTranslation(GameCulture.Portuguese, "Base do Decifrador");
+                    //Components
+                    Calamity.GetItem("AdvancedDisplay").DisplayName.AddTranslation(GameCulture.Portuguese, "Monitor Avançado");
+                    Calamity.GetItem("AdvancedDisplay").Tooltip.AddTranslation(GameCulture.Portuguese, "Pode ser colocado no Decifrador");
+                    Calamity.GetItem("AuricQuantumCoolingCell").DisplayName.AddTranslation(GameCulture.Portuguese, "Célula de Resfriamento Quântico Áurico");
+                    Calamity.GetItem("AuricQuantumCoolingCell").Tooltip.AddTranslation(GameCulture.Portuguese, "Pode ser colocado no Decifrador, completando-o\nA conclusão do Decifrador permite que você faça contato com seu criador original\nTentar fazer isso pode ter consequências terríveis");
+                    Calamity.GetItem("DecryptionComputer").DisplayName.AddTranslation(GameCulture.Portuguese, "Computador de Descriptografia");
+                    Calamity.GetItem("DecryptionComputer").Tooltip.AddTranslation(GameCulture.Portuguese, "Pode ser colocado no Decifrador\nPermite que você descriptografe esquemas avançados\nIsso permite que você aprenda como criar coisas novas");
+                    Calamity.GetItem("LongRangedSensorArray").DisplayName.AddTranslation(GameCulture.Portuguese, "Matriz de Sensores de Longo Alcance");
+                    Calamity.GetItem("AdvancedDisplay").Tooltip.AddTranslation(GameCulture.Portuguese, "Pode ser colocado no Decifrador");
+                    Calamity.GetItem("VoltageRegulationSystem").DisplayName.AddTranslation(GameCulture.Portuguese, "Sistema de Regulação de Voltagem");
+                    Calamity.GetItem("VoltageRegulationSystem").Tooltip.AddTranslation(GameCulture.Portuguese, "Pode ser colocado no Decifrador");
 
+                    //Door
                     Calamity.GetItem("AncientDoor").DisplayName.AddTranslation(GameCulture.Portuguese, "Porta Antiga");
                     Calamity.GetItem("StratusDoor").DisplayName.AddTranslation(GameCulture.Portuguese, "Porta de Stratus");
                     Calamity.GetItem("AshenDoor").DisplayName.AddTranslation(GameCulture.Portuguese, "Porta Cinzenta");
@@ -2033,7 +1991,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidDoor").DisplayName.AddTranslation(GameCulture.Portuguese, "Porta do Vazio");
 
                     //Dressers
-
                     Calamity.GetItem("AncientDresser").DisplayName.AddTranslation(GameCulture.Portuguese, "Cômoda Antiga");
                     Calamity.GetItem("StratusDresser").DisplayName.AddTranslation(GameCulture.Portuguese, "Cômoda de Stratus");
                     Calamity.GetItem("AshenDresser").DisplayName.AddTranslation(GameCulture.Portuguese, "Cômoda Cinzenta");
@@ -2050,7 +2007,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidDresser").DisplayName.AddTranslation(GameCulture.Portuguese, "Cômoda do Vazio");
 
                     //Effigies
-
                     Calamity.GetItem("CorruptionEffigy").DisplayName.AddTranslation(GameCulture.Portuguese, "Efígie da Corrupção");
                     Calamity.GetItem("CorruptionEffigy").Tooltip.AddTranslation(GameCulture.Portuguese, "Quando posicionado, os jogadores próximos têm sua velocidade dos movimentos aumentada em 15% e chance crítica em 10%\nJogadores próximos também sofrem uma redução de 20% na sua redução de danos");
                     Calamity.GetItem("CrimsonEffigy").DisplayName.AddTranslation(GameCulture.Portuguese, "Efígie de Carmim");
@@ -2059,7 +2015,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("EffigyOfDecay").Tooltip.AddTranslation(GameCulture.Portuguese, "Quando posicionado, os jogadores próximos podem respirar debaixo d'água\nEsse efeito não funciona no abismo\nJogadore próximos também são imunes ao envenenamento sulfúrico");
 
                     //Grandfather Clocks
-
                     Calamity.GetItem("AncientMonolith").DisplayName.AddTranslation(GameCulture.Portuguese, "Monólito Antigo");
                     Calamity.GetItem("StratusClock").DisplayName.AddTranslation(GameCulture.Portuguese, "Relógio de Stratus");
                     Calamity.GetItem("AshenMonolith").DisplayName.AddTranslation(GameCulture.Portuguese, "Monólito Cinzento");
@@ -2076,9 +2031,10 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidClock").DisplayName.AddTranslation(GameCulture.Portuguese, "Relógio do Vazio");
 
                     //Platforms
-
+                    Calamity.GetItem("ProfanedPlatform").DisplayName.AddTranslation(GameCulture.Portuguese, "Plataforma Profana");
                     Calamity.GetItem("ProfanedPlatform").DisplayName.AddTranslation(GameCulture.Portuguese, "Plataforma Profana");
                     Calamity.GetItem("StratusPlatform").DisplayName.AddTranslation(GameCulture.Portuguese, "Plataforma de Stratus");
+                    Calamity.GetItem("StratusStarPlatformItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Plataforma da Estrela de Stratus");
                     Calamity.GetItem("AshenPlatform").DisplayName.AddTranslation(GameCulture.Portuguese, "Plataforma Cinzenta");
                     Calamity.GetItem("BotanicPlatform").DisplayName.AddTranslation(GameCulture.Portuguese, "Plataforma Botânica");
                     Calamity.GetItem("LaboratoryShelf").DisplayName.AddTranslation(GameCulture.Portuguese, "Prateleira de Laboratório");
@@ -2094,7 +2050,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("SmoothVoidstonePlatform").DisplayName.AddTranslation(GameCulture.Portuguese, "Plataforma de Pedra do Vazio Lisa");
 
                     //Sinks
-
                     Calamity.GetItem("AncientSink").DisplayName.AddTranslation(GameCulture.Portuguese, "Pia Antiga");
                     Calamity.GetItem("AncientSink").Tooltip.AddTranslation(GameCulture.Portuguese, "Conta como uma fonte de lava");
                     Calamity.GetItem("StratusSink").DisplayName.AddTranslation(GameCulture.Portuguese, "Pia de Stratus");
@@ -2125,7 +2080,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidSink").Tooltip.AddTranslation(GameCulture.Portuguese, "Conta como uma fonte de água");
 
                     //Water Fountains
-
                     Calamity.GetItem("AbyssFountainItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Fonte de Água do Abismo");
                     Calamity.GetItem("AstralFountainItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Fonte de Água Astral");
                     Calamity.GetItem("SulphurousFountainItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Fonte de Água Sulfúrica");
@@ -2133,7 +2087,6 @@ namespace CalamityModPTBR
 
                     //Decorative
                     //Bathtubs
-
                     Calamity.GetItem("AncientBath").DisplayName.AddTranslation(GameCulture.Portuguese, "Banheira Antiga");
                     Calamity.GetItem("StratusBathtub").DisplayName.AddTranslation(GameCulture.Portuguese, "Banheira de Status");
                     Calamity.GetItem("AshenBath").DisplayName.AddTranslation(GameCulture.Portuguese, "Banheira Cinzenta");
@@ -2150,20 +2103,20 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidBath").DisplayName.AddTranslation(GameCulture.Portuguese, "Banheira do Vazio");
 
                     //Cages
-
                     Calamity.GetItem("BabyFlakHermitCage").DisplayName.AddTranslation(GameCulture.Portuguese, "Gaiola do Eremita Flak Bebê");
                     Calamity.GetItem("BabyGhostBellJar").DisplayName.AddTranslation(GameCulture.Portuguese, "Sino Fantasma Bebê Engarrafado");
                     Calamity.GetItem("PiggyCage").DisplayName.AddTranslation(GameCulture.Portuguese, "Gaiola do Porquinho");
                     Calamity.GetItem("SeaMinnowJar").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixinho do Mar Engarrafado");
 
                     //Chairs
-
                     Calamity.GetItem("AncientChair").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadeira Antiga");
+                    Calamity.GetItem("OccultChair").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadeira do Outro Mundo");
                     Calamity.GetItem("StratusChair").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadeira de Stratus");
                     Calamity.GetItem("AshenChair").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadeira Cinzenta");
                     Calamity.GetItem("BotanicChair").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadeira Botânica");
                     Calamity.GetItem("CosmiliteChair").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadeira de Cosmilita");
-                    Calamity.GetItem("OccultChair").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadeira do Outro Mundo");
+                    Calamity.GetItem("ThaumaticChair").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadeira Taumática");
+                    Calamity.GetItem("ThaumaticChair").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das melhores criações de Chloe");
                     Calamity.GetItem("SilvaChair").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadeira de Silva");
                     Calamity.GetItem("EutrophicChair").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadeira Eutrófica");
                     Calamity.GetItem("MonolithChair").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadeira de Monólito");
@@ -2174,20 +2127,17 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidChair").DisplayName.AddTranslation(GameCulture.Portuguese, "Cadeira do Vazio");
 
                     //Crates
-
                     Calamity.GetItem("AbyssalCrate").DisplayName.AddTranslation(GameCulture.Portuguese, "Caixote Abissal");
                     Calamity.GetItem("AstralCrate").DisplayName.AddTranslation(GameCulture.Portuguese, "Caixote Astral");
                     Calamity.GetItem("BrimstoneCrate").DisplayName.AddTranslation(GameCulture.Portuguese, "Caixote de Enxofre");
                     Calamity.GetItem("SunkenCrate").DisplayName.AddTranslation(GameCulture.Portuguese, "Caixote Profundo");
 
                     //Living Fire Blocks
-
                     Calamity.GetItem("LivingBrimstoneFireBlock").DisplayName.AddTranslation(GameCulture.Portuguese, "Bloco de Fogo Vivo de Enxofre");
                     Calamity.GetItem("LivingGodSlayerFireBlock").DisplayName.AddTranslation(GameCulture.Portuguese, "Bloco de Fogo Vivo do Assassino de Deuses");
                     Calamity.GetItem("LivingHolyFireBlock").DisplayName.AddTranslation(GameCulture.Portuguese, "Bloco de Fogo Vivo Sagrado");
 
                     //Pianos
-
                     Calamity.GetItem("AncientPiano").DisplayName.AddTranslation(GameCulture.Portuguese, "Piano Antigo");
                     Calamity.GetItem("StratusPiano").DisplayName.AddTranslation(GameCulture.Portuguese, "Piano de Stratus");
                     Calamity.GetItem("AshenPiano").DisplayName.AddTranslation(GameCulture.Portuguese, "Piano Cinzento");
@@ -2203,7 +2153,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidPiano").DisplayName.AddTranslation(GameCulture.Portuguese, "Piano do Vazio");
 
                     //Sofas
-
                     Calamity.GetItem("AncientSofa").DisplayName.AddTranslation(GameCulture.Portuguese, "Sofá Antigo");
                     Calamity.GetItem("StratusSofa").DisplayName.AddTranslation(GameCulture.Portuguese, "Sofá de Stratus");
                     Calamity.GetItem("AshenSofa").DisplayName.AddTranslation(GameCulture.Portuguese, "Sofá Cinzento");
@@ -2220,7 +2169,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidSofa").DisplayName.AddTranslation(GameCulture.Portuguese, "Sofá do Vazio");
 
                     //Tables
-
                     Calamity.GetItem("AncientTable").DisplayName.AddTranslation(GameCulture.Portuguese, "Mesa Antiga");
                     Calamity.GetItem("StratusTable").DisplayName.AddTranslation(GameCulture.Portuguese, "Mesa de Stratus");
                     Calamity.GetItem("AshenTable").DisplayName.AddTranslation(GameCulture.Portuguese, "Mesa Cinzenta");
@@ -2237,7 +2185,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidTable").DisplayName.AddTranslation(GameCulture.Portuguese, "Mesa do Vazio");
 
                     //Toilets
-
                     Calamity.GetItem("AuricToilet").DisplayName.AddTranslation(GameCulture.Portuguese, "Privada Áurica");
                     Calamity.GetItem("AuricToilet").Tooltip.AddTranslation(GameCulture.Portuguese, "Isso foi usado pelos deuses");
 
@@ -2257,7 +2204,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("CataclysmTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Cataclismo");
                     Calamity.GetItem("CatastropheTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Catástrofe");
                     Calamity.GetItem("AnahitaTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu da Anahita");
-                    Calamity.GetItem("LeviathanTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu da Leviatã");
+                    Calamity.GetItem("LeviathanTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu da Leviathan");
                     Calamity.GetItem("AstrageldonTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Astrum Aureus");
                     Calamity.GetItem("PlaguebringerGoliathTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu da Portadora da Peste Gigante");
                     Calamity.GetItem("RavagerTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Devastador");
@@ -2265,7 +2212,7 @@ namespace CalamityModPTBR
 
                     //Post-Moon Lord
                     Calamity.GetItem("ProfanedGuardianTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Guardião Profano");
-                    Calamity.GetItem("BumblebirbTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Pássaro-dragão");
+                    Calamity.GetItem("BumblebirbTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Dragonfolly");
                     Calamity.GetItem("ProvidenceTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu da Providência");
                     Calamity.GetItem("CeaselessVoidTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Vazio Incessante");
                     Calamity.GetItem("WeaverTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Explorador da Tempestade");
@@ -2274,10 +2221,13 @@ namespace CalamityModPTBR
                     Calamity.GetItem("OldDukeTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Velho Duque");
                     Calamity.GetItem("DevourerofGodsTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Devorador de Deuses");
                     Calamity.GetItem("YharonTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Yharon");
+                    Calamity.GetItem("ApolloTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Apolo");
+                    Calamity.GetItem("ArtemisTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu da Ártemis");
+                    Calamity.GetItem("AresTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Ares");
+                    Calamity.GetItem("ThanatosTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Thánatos");
                     Calamity.GetItem("SupremeCalamitasTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu da Calamitas Suprema");
 
                     //Laboratory furniture
-
                     Calamity.GetItem("AgedLaboratoryConsoleItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Console de Laboratório Velho");
                     Calamity.GetItem("AgedLaboratoryContainmentBoxItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Caixa de Contenção de Laboratório Velha");
                     Calamity.GetItem("AgedLaboratoryDisplayItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Display de Laboratório Velho");
@@ -2295,7 +2245,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("LaboratoryTerminalItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Terminal de Laboratório");
                     Calamity.GetItem("ReinforcedCrateItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Caixa Reforçada");
 
-                    //Misc
+                    ///Misc
                     //Summon
                     Calamity.GetItem("Abomination").DisplayName.AddTranslation(GameCulture.Portuguese, "Abombinação");
                     Calamity.GetItem("Abomination").Tooltip.AddTranslation(GameCulture.Portuguese, "Chama a abominação aérea da selva\nInvoca a Portadora da Peste Gigante");
@@ -2325,15 +2275,17 @@ namespace CalamityModPTBR
                     Calamity.GetItem("DriedSeafood").Tooltip.AddTranslation(GameCulture.Portuguese, "A areia do deserto se agita...\nInvoca a Praga do Deserto");
                     Calamity.GetItem("DraedonsRemote").DisplayName.AddTranslation(GameCulture.Portuguese, "Controle Remoto de Draedon");
                     Calamity.GetItem("DraedonsRemote").Tooltip.AddTranslation(GameCulture.Portuguese, "Caos...");
-                    Calamity.GetItem("ChickenEgg").DisplayName.AddTranslation(GameCulture.Portuguese, "Ovo de Dragão");
+                    Calamity.GetItem("ChickenEgg").DisplayName.AddTranslation(GameCulture.Portuguese, "Ovo de Dragão da Selva");
                     Calamity.GetItem("ChickenEgg").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca o guardião leal do rei tirano\nEle anseia pela selva\nNão consumível");
+                    Calamity.GetItem("MartianDistressBeacon").DisplayName.AddTranslation(GameCulture.Portuguese, "Sinalizador de Socorro Marciano");
+                    Calamity.GetItem("MartianDistressBeacon").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca a Loucura de Marte");
                     Calamity.GetItem("EidolonTablet").DisplayName.AddTranslation(GameCulture.Portuguese, "Placa de Eidolon");
                     Calamity.GetItem("BirbPheromones").DisplayName.AddTranslation(GameCulture.Portuguese, "Fermônios Exóticos");
                     Calamity.GetItem("BirbPheromones").Tooltip.AddTranslation(GameCulture.Portuguese, "Atrai o experimento dracônico falhado");
                     Calamity.GetItem("BlightedEyeball").DisplayName.AddTranslation(GameCulture.Portuguese, "Olho da Desolação");
                     Calamity.GetItem("BlightedEyeball").Tooltip.AddTranslation(GameCulture.Portuguese, "Esta noite vai ser horrível...\nInvoca a Calamitas\nNão consumível");
-                    Calamity.GetItem("EyeofExtinction").DisplayName.AddTranslation(GameCulture.Portuguese, "Olho da Extinção");
-                    Calamity.GetItem("EyeofExtinction").Tooltip.AddTranslation(GameCulture.Portuguese, "Morte\nInvoca a Calamitas Suprema\nCria uma grande arena quadrada de blocos ao redor do jogador\nSeu jogador está no CENTRO da arena, então certifique-se de usar este item em uma boa localização\nDurante a batalha, a coleta de corações curará apenas a metade da sua vida\nNão consumível");
+                    Calamity.GetItem("EyeofExtinction").DisplayName.AddTranslation(GameCulture.Portuguese, "Urna Ceremonial");
+                    Calamity.GetItem("EyeofExtinction").Tooltip.AddTranslation(GameCulture.Portuguese, "Use no Altar Amaldiçoado para invocar a Calamitas Suprema\nNão consumível");
                     Calamity.GetItem("NecroplasmicBeacon").DisplayName.AddTranslation(GameCulture.Portuguese, "Sinalizador Necroplasmático");
                     Calamity.GetItem("NecroplasmicBeacon").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca o Polterghast\nNão consumível");
                     Calamity.GetItem("OldPowerCell").DisplayName.AddTranslation(GameCulture.Portuguese, "Bateria Antiga");
@@ -2364,7 +2316,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("TorrentialTear").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca a chuva.\nA chuva começará um tempo depois que este item for usado.\nSe usado enquanto está chovendo, a chuva irá parar depois de um tempo.\nNo Modo Morte, usar este item enquanto está chovendo reduizrá a quantidade de tempo que a chuva dura\na um minuto; no entanto, não mais baixo, e isso fará com que a chuva fique violenta naquele minuto.");
 
                     //Grab bags
-
                     Calamity.GetItem("ChaoticFish").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixe Caótico");
                     Calamity.GetItem("ChaoticFish").Tooltip.AddTranslation(GameCulture.Portuguese, "Os chifres colocam uma maldição sobre aqueles que o tocam\nClique com o botão direito para extrair essências");
                     Calamity.GetItem("FishofEleum").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixe de Eleum");
@@ -2384,7 +2335,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("SunbeamFish").Tooltip.AddTranslation(GameCulture.Portuguese, "Clique com o botão direito para extrair essências");
 
                     //Treasure Bags
-
                     Calamity.GetItem("DesertScourgeBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
                     Calamity.GetItem("CrabulonBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
                     Calamity.GetItem("HiveMindBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
@@ -2401,15 +2351,19 @@ namespace CalamityModPTBR
                     Calamity.GetItem("AstrumDeusBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
                     Calamity.GetItem("BumblebirbBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
                     Calamity.GetItem("ProvidenceBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
+                    Calamity.GetItem("CeaselessVoidBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
+                    Calamity.GetItem("SignusBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
+                    Calamity.GetItem("StormWeaverBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
                     Calamity.GetItem("PolterghastBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
                     Calamity.GetItem("OldDukeBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
                     Calamity.GetItem("DevourerofGodsBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
                     Calamity.GetItem("YharonBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
+                    Calamity.GetItem("DraedonTreasureBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa do Tesouro");
+                    Calamity.GetItem("SCalBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Caixa do Tesouro");
                     Calamity.GetItem("Xerocodile").DisplayName.AddTranslation(GameCulture.Portuguese, "Xerocodilo");
                     Calamity.GetItem("Xerocodile").Tooltip.AddTranslation(GameCulture.Portuguese, "Clique com o botão direito para extrair orbes de sangue");
 
                     //Fishing drops
-
                     Calamity.GetItem("CharredLasher").DisplayName.AddTranslation(GameCulture.Portuguese, "Lasher Carbonizado");
                     Calamity.GetItem("CharredLasher").Tooltip.AddTranslation(GameCulture.Portuguese, "Este peixe elusivo é uma mercadoria valiosa");
                     Calamity.GetItem("GreenwaveLoach").DisplayName.AddTranslation(GameCulture.Portuguese, "Botia da Onda Verde");
@@ -2417,108 +2371,106 @@ namespace CalamityModPTBR
 
                     //Other
                     //Lore items
-
                     Calamity.GetItem("KnowledgeKingSlime").DisplayName.AddTranslation(GameCulture.Portuguese, "Geleia Rei");
-                    Calamity.GetItem("KnowledgeKingSlime").Tooltip.AddTranslation(GameCulture.Portuguese, "Apenas um tolo seria pego por essa desculpa lamentável de caçador.\nInfelizmente, nosso mundo não tem falta deles.\nMarque este item como favorito para aumentar a velocidade dos movimentos em 5% e a velocidade dos pulos em 2%.\nNo entanto, a sua defesa é reduzida em 3 devido ao seu corpo gelatinoso.");
+                    Calamity.GetItem("KnowledgeKingSlime").Tooltip.AddTranslation(GameCulture.Portuguese, "Apenas um tolo seria pego por essa desculpa lamentável de caçador.\nInfelizmente, nosso mundo não tem falta deles.");
                     Calamity.GetItem("KnowledgeDesertScourge").DisplayName.AddTranslation(GameCulture.Portuguese, "A Praga do Deserto");
-                    Calamity.GetItem("KnowledgeDesertScourge").Tooltip.AddTranslation(GameCulture.Portuguese, "O grande verme do mar parece ter sobrevivido ao calor extremo o até mesmo se adaptado a ele.\nO que costumava ser uma besta majestosa nadando pela água agora se tornou uma casca seca e\nglutona, constantemente em busca voraz pela sua próxima refeição.\nMarque este item como favorito para um aumento na defesa enquanto estiver no deserto ou no mar profundo.\nNo entanto, você causará menos danos enquanto estiver nessas áreas devido a ser uma casca de seu antigo eu.");
+                    Calamity.GetItem("KnowledgeDesertScourge").Tooltip.AddTranslation(GameCulture.Portuguese, "O grande verme do mar parece ter sobrevivido ao calor extremo o até mesmo se adaptado a ele.\nO que costumava ser uma besta majestosa nadando pela água agora se tornou uma casca seca e\nglutona, constantemente em busca voraz pela sua próxima refeição.");
                     Calamity.GetItem("KnowledgeEyeofCthulhu").DisplayName.AddTranslation(GameCulture.Portuguese, "O Olho de Cthulhu");
-                    Calamity.GetItem("KnowledgeEyeofCthulhu").Tooltip.AddTranslation(GameCulture.Portuguese, "Aquele olho... que peculiar.\nEu senti ele te observando mais intensamente conforme você ficava mais forte.\nMarque este item como favorito para visão noturna à noite.\nNo entanto, sua visão é reduzida durante o dia.");
+                    Calamity.GetItem("KnowledgeEyeofCthulhu").Tooltip.AddTranslation(GameCulture.Portuguese, "Aquele olho... que peculiar.\nEu senti ele te observando mais intensamente conforme você ficava mais forte.");
                     Calamity.GetItem("KnowledgeCrabulon").DisplayName.AddTranslation(GameCulture.Portuguese, "Crabulon");
-                    Calamity.GetItem("KnowledgeCrabulon").Tooltip.AddTranslation(GameCulture.Portuguese, "Um caranguejo e seus cogumelos, uma história de amor.\nÉ interessante como as criaturas podem se adaptar a certas circunstâncias.\nMarque este item como favorito para ganhar o efeito enquanto estiver no subterrâneo ou no bioma de cogumelos.\nNo entanto, sua velocidade dos movimentos diminuirá enquanto estiver nessas áreas devido a você estar coberto por fungos.");
+                    Calamity.GetItem("KnowledgeCrabulon").Tooltip.AddTranslation(GameCulture.Portuguese, "Um caranguejo e seus cogumelos, uma história de amor.\nÉ interessante como as criaturas podem se adaptar a certas circunstâncias.");
                     Calamity.GetItem("KnowledgeCrimson").DisplayName.AddTranslation(GameCulture.Portuguese, "O Carmim");
-                    Calamity.GetItem("KnowledgeCrimson").Tooltip.AddTranslation(GameCulture.Portuguese, "Este inferno sangrento, gerado a partir de uma massa informe que caiu das estrelas eras atrás.\nAgora é o lar de muitas criaturas horríveis, geradas a partir do sangue que bombeia e órgãos oscilantes profundos.\nMarque este item como favorito para evitar o surgimento de cistos de perfurador.");
+                    Calamity.GetItem("KnowledgeCrimson").Tooltip.AddTranslation(GameCulture.Portuguese, "Este inferno sangrento, gerado a partir de uma massa informe que caiu das estrelas eras atrás.\nAgora é o lar de muitas criaturas horríveis, geradas a partir do sangue que bombeia e órgãos oscilantes profundos.");
                     Calamity.GetItem("KnowledgeCorruption").DisplayName.AddTranslation(GameCulture.Portuguese, "A Corrupção");
-                    Calamity.GetItem("KnowledgeCorruption").Tooltip.AddTranslation(GameCulture.Portuguese, "A paisagem apodrecida e em permanente deterioração de vidas infectadas, causada por um micróbio mortal há muito tempo.\nHá rumores de que o micróbio foi criado por meio da experimentação de uma raça morta há muito tempo, anterior aos Terrarianos.\nMarque este item como favorito para evitar o surgimento de cistos de colmeia.");
+                    Calamity.GetItem("KnowledgeCorruption").Tooltip.AddTranslation(GameCulture.Portuguese, "A paisagem apodrecida e em permanente deterioração de vidas infectadas, causada por um micróbio mortal há muito tempo.\nHá rumores de que o micróbio foi criado por meio da experimentação de uma raça morta há muito tempo, anterior aos Terrarianos.");
                     Calamity.GetItem("KnowledgeBrainofCthulhu").DisplayName.AddTranslation(GameCulture.Portuguese, "O Cérebro de Cthulhu");
-                    Calamity.GetItem("KnowledgeBrainofCthulhu").Tooltip.AddTranslation(GameCulture.Portuguese, "Um olho, e agora um cérebro.\nMuito provavelmente outra abominação gerada desta massa incipiente de carne.\nPermite que você se teleporte de forma semelhante ao Cajado da Discórdia enquanto está no carmim. Coloque na sua hotbar para usá-lo.\nNo entanto, você fica confuso alguns segundos depois de usá-lo devido ao seu poder cerebral esmagador.\n A teleportação só ocorre se o item for marcado como favorito.");
+                    Calamity.GetItem("KnowledgeBrainofCthulhu").Tooltip.AddTranslation(GameCulture.Portuguese, "Um olho, e agora um cérebro.\nMuito provavelmente outra abominação gerada desta massa incipiente de carne.");
                     Calamity.GetItem("KnowledgeEaterofWorlds").DisplayName.AddTranslation(GameCulture.Portuguese, "O Devorador de Mundos");
-                    Calamity.GetItem("KnowledgeEaterofWorlds").Tooltip.AddTranslation(GameCulture.Portuguese, "Talvez fosse apenas um verme gigante infectado pelo micróbio, que teve séculos para alimentar e desenvolver seu corpo purulento.\nParece provável, dadas as origens deste lugar.\nMicróbios mortais surgem ao seu redor enquanto este item estiver marcado como favorito.\nNo entanto, voce terá a sua regeneração de vida diminuida devido ao apodrecimento de sua pele.");
+                    Calamity.GetItem("KnowledgeEaterofWorlds").Tooltip.AddTranslation(GameCulture.Portuguese, "Talvez fosse apenas um verme gigante infectado pelo micróbio, que teve séculos para alimentar e desenvolver seu corpo purulento.\nParece provável, dadas as origens deste lugar.");
                     Calamity.GetItem("KnowledgePerforators").DisplayName.AddTranslation(GameCulture.Portuguese, "Os Perfuradores e sua Colmeia");
-                    Calamity.GetItem("KnowledgePerforators").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma abominação de carne, osso e orgãos misturados, infestados principalmente por vermes sugadores de sangue.\nOs pedaços que sobraram do cérebro devem ter sido absorvidos pelo carmim e reconstituídos nele.\nMarque este item como favorito para que todos os seus projéteis inflijam ichor quando no carmim.\nNo entanto, as taxas de surgimento de inimigos serão elevadas consideravelmente enquanto no carmim, devido ao seu corpo excrecer um pus de cheiro doce.");
+                    Calamity.GetItem("KnowledgePerforators").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma abominação de carne, osso e orgãos misturados, infestados principalmente por vermes sugadores de sangue.\nOs pedaços que sobraram do cérebro devem ter sido absorvidos pelo carmim e reconstituídos nele.");
                     Calamity.GetItem("KnowledgeHiveMind").DisplayName.AddTranslation(GameCulture.Portuguese, "A Mente de Colmeia");
-                    Calamity.GetItem("KnowledgeHiveMind").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma colmeia de carne infectada por micróbios agrupados.\nNão acredito que matá-la diminuirá a corrupção aqui.\nMarque este item como favorito para que todos os seus projéteis inflijam chamas amaldiçoadas quando na corrupção.\nNo entanto, as taxas de surgimento de inimigos serão consideravelmente reduzidas enquanto na corrupção devido ao seu odor extremamente pútrido.");
+                    Calamity.GetItem("KnowledgeHiveMind").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma colmeia de carne infectada por micróbios agrupados.\nNão acredito que matá-la diminuirá a corrupção aqui.");
                     Calamity.GetItem("KnowledgeQueenBee").DisplayName.AddTranslation(GameCulture.Portuguese, "Abelha Rainha");
-                    Calamity.GetItem("KnowledgeQueenBee").Tooltip.AddTranslation(GameCulture.Portuguese, "Por mais rude que sejam os insetos gigantes, eles podem ser úteis em certas situações... dada a capacidade de controlá-los.\nMarque este item como favorito para tornar abelhas pequenas e vespas fracas amigáveis.");
+                    Calamity.GetItem("KnowledgeQueenBee").Tooltip.AddTranslation(GameCulture.Portuguese, "Por mais rude que sejam os insetos gigantes, eles podem ser úteis em certas situações... dada a capacidade de controlá-los.");
                     Calamity.GetItem("KnowledgeSkeletron").DisplayName.AddTranslation(GameCulture.Portuguese, "Esqueletron");
-                    Calamity.GetItem("KnowledgeSkeletron").Tooltip.AddTranslation(GameCulture.Portuguese, "Diz-se que a maldição afeta apenas os idosos.\nDepois de serem afligidos, eles se tornam um recipiente imortal para um antigo demônio do submundo.\nMarque este item como favorito para receber um aumento nos danos enquanto estiver no calabouço.\nNo entanto, sua vida máxima é reduzida devido à maldição do Esqueletron.");
+                    Calamity.GetItem("KnowledgeSkeletron").Tooltip.AddTranslation(GameCulture.Portuguese, "Diz-se que a maldição afeta apenas os idosos.\nDepois de serem afligidos, eles se tornam um recipiente imortal para um antigo demônio do submundo.");
                     Calamity.GetItem("KnowledgeSlimeGod").DisplayName.AddTranslation(GameCulture.Portuguese, "O Deus Geleia");
-                    Calamity.GetItem("KnowledgeSlimeGod").Tooltip.AddTranslation(GameCulture.Portuguese, "É uma distorção, um dos terrores biológicos mais ameaçadores já criados.\nSe esta criatura pudesse combinar todas as geleias do planeta, ela se tornaria quase imparável.\nMarque este item como favorito para tornar-se viscoso e capaz de deslizar em peças rapidamente, ao custo de defesa reduzida\nEste efeito não funciona com montarias.");
+                    Calamity.GetItem("KnowledgeSlimeGod").Tooltip.AddTranslation(GameCulture.Portuguese, "É uma distorção, um dos terrores biológicos mais ameaçadores já criados.\nSe esta criatura pudesse combinar todas as geleias do planeta, ela se tornaria quase imparável.");
                     Calamity.GetItem("KnowledgeUnderworld").DisplayName.AddTranslation(GameCulture.Portuguese, "O Submundo");
-                    Calamity.GetItem("KnowledgeUnderworld").Tooltip.AddTranslation(GameCulture.Portuguese, "Essas torres de obsidiana e de pedra infernal já foram o lar de milhares de... 'pessoas'.\nInfelizmente para elas, elas foram distorcidas por seus demônios internos até que não pudessem mais ser salvas\nMarque este item como favorito para evitar que demônios vodu deixem cair bonecos vodu.");
+                    Calamity.GetItem("KnowledgeUnderworld").Tooltip.AddTranslation(GameCulture.Portuguese, "Essas torres de obsidiana e de pedra infernal já foram o lar de milhares de... 'pessoas'.\nInfelizmente para elas, elas foram distorcidas por seus demônios internos até que não pudessem mais ser salvas.");
                     Calamity.GetItem("KnowledgeWallofFlesh").DisplayName.AddTranslation(GameCulture.Portuguese, "A Parede de Carne");
-                    Calamity.GetItem("KnowledgeWallofFlesh").Tooltip.AddTranslation(GameCulture.Portuguese, "Vejo que o dever foi completo.\nA amálgama profana de carne e ódio foi derrotada.\nPrepare-se para enfrentar os terrores que se escondem nos lugares claros e escuros deste mundo.\nMarque este item como favorito para aumentar o alcance da coleta de itens.");
+                    Calamity.GetItem("KnowledgeWallofFlesh").Tooltip.AddTranslation(GameCulture.Portuguese, "Vejo que o dever foi completo.\nA amálgama profana de carne e ódio foi derrotada.\nPrepare-se para enfrentar os terrores que se escondem nos lugares claros e escuros deste mundo.");
                     Calamity.GetItem("KnowledgeCryogen").DisplayName.AddTranslation(GameCulture.Portuguese, "Criogênio");
-                    Calamity.GetItem("KnowledgeCryogen").Tooltip.AddTranslation(GameCulture.Portuguese, "A prisão do arquimago.\nNão tenho certeza se ele ficou mais fraco ao longo das décadas de prisão.\nMarque este item como favorito para ganhar uma corrida de gelo que congela dos inimigos,\nao custo de uma ligeira redução na sua defesa devido ao seu corpo frágil.");
-                    Calamity.GetItem("KnowledgeMechs").DisplayName.AddTranslation(GameCulture.Portuguese, "Os Chefes Mecânicos");
+                    Calamity.GetItem("KnowledgeCryogen").Tooltip.AddTranslation(GameCulture.Portuguese, "A prisão do arquimago.\nNão tenho certeza se ele ficou mais fraco ao longo das décadas de prisão.");
+                    Calamity.GetItem("KnowledgeMechs").DisplayName.AddTranslation(GameCulture.Portuguese, "Os Trio Mecânico");
                     Calamity.GetItem("KnowledgeMechs").Tooltip.AddTranslation(GameCulture.Portuguese, "Vejo que você despertou os velhos brinquedos de Draedon.\nFerramentas antes úteis que se transformaram em feras selvagens quando suas IAs ficaram loucas, um erro que Draedon não conseguiu corrigir a tempo.");
                     Calamity.GetItem("KnowledgeTwins").DisplayName.AddTranslation(GameCulture.Portuguese, "Os Gêmeos");
-                    Calamity.GetItem("KnowledgeTwins").Tooltip.AddTranslation(GameCulture.Portuguese, "Os observadores biomecânicos da noite, originalmente criados como segurança usando as almas extraídas de olhos humanos.\nEssas criaturas não pertenciam a este mundo, é melhor estar livre delas.\nMarque este item como favorito para ganhar invisibilidade e reforços assassinos de noite.\nNo entanto, sua defesa é reduzida enquanto estiver acima de 50% de vida devido a você se sentir mais leve.\nSua aceleração máxima é reduzida abaixo de 50% de vida devido a você se sentir mais pesado.");
+                    Calamity.GetItem("KnowledgeTwins").Tooltip.AddTranslation(GameCulture.Portuguese, "Os observadores biomecânicos da noite, originalmente criados como segurança usando as almas extraídas de olhos humanos.\nEssas criaturas não pertenciam a este mundo, é melhor estar livre delas.");
                     Calamity.GetItem("KnowledgeBrimstoneCrag").DisplayName.AddTranslation(GameCulture.Portuguese, "Rochedo de Enxofre");
                     Calamity.GetItem("KnowledgeBrimstoneCrag").Tooltip.AddTranslation(GameCulture.Portuguese, "Ah...este lugar.\nO cheiro de promessas quebradas, dor e morte eventual está pesado no ar...");
                     Calamity.GetItem("KnowledgeBrimstoneElemental").DisplayName.AddTranslation(GameCulture.Portuguese, "Elemental de Enxofre");
-                    Calamity.GetItem("KnowledgeBrimstoneElemental").Tooltip.AddTranslation(GameCulture.Portuguese, "O mais poderoso dos elementais, empenhado em se vingar do inferno sangrento que destruiu sua casa.\nFinalmente colocada para descansar, ela não sofrerá mais com a dor causada pela morte de seu povo.\nMarque este item como favorito para melhorar o efeito da poção infernal.");
+                    Calamity.GetItem("KnowledgeBrimstoneElemental").Tooltip.AddTranslation(GameCulture.Portuguese, "O mais poderoso dos elementais, empenhado em se vingar do inferno sangrento que destruiu sua casa.\nFinalmente colocada para descansar, ela não sofrerá mais com a dor causada pela morte de seu povo.");
                     Calamity.GetItem("KnowledgeDestroyer").DisplayName.AddTranslation(GameCulture.Portuguese, "O Destruidor");
-                    Calamity.GetItem("KnowledgeDestroyer").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma máquina trazida à vida pelas poderosas almas de guerreiros e construída para escavar enormes túneis em planetas para coletar recursos.\nPoderia ter se mostrado útil se Draedon não tivesse uma obsessão em transformar tudo em uma ferramenta de destruição.\nMarque este item como favorito para aumentar a velocidade da sua picareta.\nNo entanto, sua aceleração máxima diminui ligeiramente devido a você se sentir mais pesado.");
+                    Calamity.GetItem("KnowledgeDestroyer").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma máquina trazida à vida pelas poderosas almas de guerreiros e construída para escavar enormes túneis em planetas para coletar recursos.\nPoderia ter se mostrado útil se Draedon não tivesse uma obsessão em transformar tudo em uma ferramenta de destruição.");
                     Calamity.GetItem("KnowledgeAquaticScourge").DisplayName.AddTranslation(GameCulture.Portuguese, "Praga Aquática");
-                    Calamity.GetItem("KnowledgeAquaticScourge").Tooltip.AddTranslation(GameCulture.Portuguese, "Um horror nascido da poluição e da fome insaciável; baseado apenas no tamanho, este era apenas um jovem.\nEssas criaturas praga são os maiores predadores aquáticos e muito raramente frequentam essas águas rasas.\nMarque este item como favorito para ganhar imunidade \u00e0s águas sulfurosas e aumentar as estatísticas concedidas pelo efeito Bem alimentado.\nNo entanto, sem o efeito Bem alimentado, suas estatísticas diminuirão devido à sua fome insaciável.");
+                    Calamity.GetItem("KnowledgeAquaticScourge").Tooltip.AddTranslation(GameCulture.Portuguese, "Um horror nascido da poluição e da fome insaciável; baseado apenas no tamanho, este era apenas um jovem.\nEssas criaturas praga são os maiores predadores aquáticos e muito raramente frequentam essas águas rasas.");
                     Calamity.GetItem("KnowledgeSulphurSea").DisplayName.AddTranslation(GameCulture.Portuguese, "Mar Sulfuroso");
                     Calamity.GetItem("KnowledgeSulphurSea").Tooltip.AddTranslation(GameCulture.Portuguese, "Lembro-me das ondas serenas e da brisa límpida.\nA amargura da minha juventude há muito diminuiu, mas é tarde demais. Nunca devo repetir um erro como este novamente.");
                     Calamity.GetItem("KnowledgeSkeletronPrime").DisplayName.AddTranslation(GameCulture.Portuguese, "Esqueletron Alfa");
-                    Calamity.GetItem("KnowledgeSkeletronPrime").Tooltip.AddTranslation(GameCulture.Portuguese, "Que engenhoca boba e sem sentido para algo criado com a essência do puro terror.\nDraedon obviamente tomou várias liberdades com seu design... Não estou impressionado.\nMarque este item como favorito para aumentar a sua penetração de blindagem.\nNo entanto, sua aceleração máxima diminui devido a você se sentir mais pesado.");
+                    Calamity.GetItem("KnowledgeSkeletronPrime").Tooltip.AddTranslation(GameCulture.Portuguese, "Que engenhoca boba e sem sentido para algo criado com a essência do puro terror.\nDraedon obviamente tomou várias liberdades com seu design... Não estou impressionado.");
                     Calamity.GetItem("KnowledgeCalamitasClone").DisplayName.AddTranslation(GameCulture.Portuguese, "Clone da Calamitas");
-                    Calamity.GetItem("KnowledgeCalamitasClone").Tooltip.AddTranslation(GameCulture.Portuguese, "Você é realmente mais forte do que eu pensava.\nEmbora o inferno sangrento ainda perdure, observando seu progresso.\nMarque este item como favorito para aumentar seus espaços de lacaios, mas ao custo de uma vida máxima reduzida.");
+                    Calamity.GetItem("KnowledgeCalamitasClone").Tooltip.AddTranslation(GameCulture.Portuguese, "Você é realmente mais forte do que eu pensava.\nEmbora o inferno sangrento ainda perdure, observando seu progresso.");
                     Calamity.GetItem("KnowledgePlantera").DisplayName.AddTranslation(GameCulture.Portuguese, "Plantera");
-                    Calamity.GetItem("KnowledgePlantera").Tooltip.AddTranslation(GameCulture.Portuguese, "Parabéns, você matou uma planta.\nEla Foi usada como um recipiente para abrigar os espíritos daqueles infelizes o suficiente para encontrar o caminho até aqui.\nDesejo-lhe sorte ao lidar com as consequências.\nMarque este item como favorito para aumentar o alcance da coleta de itens.");
+                    Calamity.GetItem("KnowledgePlantera").Tooltip.AddTranslation(GameCulture.Portuguese, "Parabéns, você matou uma planta.\nEla Foi usada como um recipiente para abrigar os espíritos daqueles infelizes o suficiente para encontrar o caminho até aqui.\nDesejo-lhe sorte ao lidar com as consequências.");
                     Calamity.GetItem("KnowledgeOcean").DisplayName.AddTranslation(GameCulture.Portuguese, "O Oceano");
                     Calamity.GetItem("KnowledgeOcean").Tooltip.AddTranslation(GameCulture.Portuguese, "Tome cuidado para não perturbar as águas profundas deste mundo.\nVocê pode despertar algo mais assustador do que a própria morte.\nMarque este item como favorito para evitar que o misterioso elemental da água apareça.");
-                    Calamity.GetItem("KnowledgeLeviathanandSiren").DisplayName.AddTranslation(GameCulture.Portuguese, "Leviatã e Anahita");
-                    Calamity.GetItem("KnowledgeLeviathanandSiren").Tooltip.AddTranslation(GameCulture.Portuguese, "Um estranho par de criaturas; um buscando companhia e o outro, sustento.\nTalvez, dois desajustados genéticos expulsos de suas casas que encontraram conforto em ajudar um ao outro.\nMarque este item como favorito para aumentar a saúde máxima ao usar o coração aquático e detectar o tesouro ao usar o orbe estranho.\nPermite que o jovem animal leve Espírito do Oceano se mova normalmente quando estiver fora de líquidos.\nNo entanto, se você não estiver submerso em líquidos, você terá uma redução na defesa e na redução de danos.");
+                    Calamity.GetItem("KnowledgeLeviathanandSiren").DisplayName.AddTranslation(GameCulture.Portuguese, "Leviathan e Anahita");
+                    Calamity.GetItem("KnowledgeLeviathanandSiren").Tooltip.AddTranslation(GameCulture.Portuguese, "Um estranho par de criaturas; um buscando companhia e o outro, sustento.\nTalvez, dois desajustados genéticos expulsos de suas casas que encontraram conforto em ajudar um ao outro.");
                     Calamity.GetItem("KnowledgeAstrumAureus").DisplayName.AddTranslation(GameCulture.Portuguese, "Astrum Aureus");
-                    Calamity.GetItem("KnowledgeAstrumAureus").Tooltip.AddTranslation(GameCulture.Portuguese, "Um ciborgue titânico infectado por uma doença das estrelas expelido da barriga de um antigo deus.\nA destruição desta criatura não impedirá a propagação da doença.\nMarque este item como favorito para ganhar 10% de aumento na velocidade dos pulos no espaço.");
+                    Calamity.GetItem("KnowledgeAstrumAureus").Tooltip.AddTranslation(GameCulture.Portuguese, "Um ciborgue titânico infectado por uma doença das estrelas expelido da barriga de um antigo deus.\nA destruição desta criatura não impedirá a propagação da doença.");
                     Calamity.GetItem("KnowledgeGolem").DisplayName.AddTranslation(GameCulture.Portuguese, "Golem");
-                    Calamity.GetItem("KnowledgeGolem").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma construção primitiva.\nAdmiro a raça lagharto por sua engenhosidade, embora encontrar fé em um ídolo tão imperfeito invariavelmente levaria à sua queda.\nMarque este item como favorito para ter um aumento na sua defesa enquanto estiver parado.");
+                    Calamity.GetItem("KnowledgeGolem").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma construção primitiva.\nAdmiro a raça lagharto por sua engenhosidade, embora encontrar fé em um ídolo tão imperfeito invariavelmente levaria à sua queda.");
                     Calamity.GetItem("KnowledgePlaguebringerGoliath").DisplayName.AddTranslation(GameCulture.Portuguese, "A Portadora da Peste Gigante");
-                    Calamity.GetItem("KnowledgePlaguebringerGoliath").Tooltip.AddTranslation(GameCulture.Portuguese, "Um amálgama terrível de aço, carne e infecção, capaz de destruir uma civilização inteira em apenas um ataque.\nSua barragem nuclear de praga pode deixar uma área inteira inabitável por meses. Uma pena que tenha chegado a isso, mas a praga deve ser contida.\nMarque este item como favorito para aumentar o tempo de voô das asas, mas ao custo de uma regeneração de vida reduzida.");
+                    Calamity.GetItem("KnowledgePlaguebringerGoliath").Tooltip.AddTranslation(GameCulture.Portuguese, "Um amálgama terrível de aço, carne e infecção, capaz de destruir uma civilização inteira em apenas um ataque.\nSua barragem nuclear de praga pode deixar uma área inteira inabitável por meses. Uma pena que tenha chegado a isso, mas a praga deve ser contida.");
                     Calamity.GetItem("KnowledgeDukeFishron").DisplayName.AddTranslation(GameCulture.Portuguese, "Duque Peixe-dragão");
-                    Calamity.GetItem("KnowledgeDukeFishron").Tooltip.AddTranslation(GameCulture.Portuguese, "O terror mutante do mar já foi o companheiro de confiança de um velho rei; ele o domesticou usando sua guloseima favorita.\nHá muito tempo, a criatura voôu em desespero do inferno sangrento e furioso que consumia sua casa, finalmente encontrando seu caminho para o oceano.\nMarque este item como favorito para um aumento em todos os danos, chance de ataque crítico, e velocidade dos movimentos enquanto estiver submerso em líquidos.\nNo entanto, enquanto não submerso em líquidos, você terá o seu dano, chance de ataque crítico, e velocidade dos movimentos levemente reduzidos devido à sensação de ressecamento.");
+                    Calamity.GetItem("KnowledgeDukeFishron").Tooltip.AddTranslation(GameCulture.Portuguese, "O terror mutante do mar já foi o companheiro de confiança de um velho rei; ele o domesticou usando sua guloseima favorita.\nHá muito tempo, a criatura voôu em desespero do inferno sangrento e furioso que consumia sua casa, finalmente encontrando seu caminho para o oceano.");
                     Calamity.GetItem("KnowledgeRavager").DisplayName.AddTranslation(GameCulture.Portuguese, "Devastador");
-                    Calamity.GetItem("KnowledgeRavager").Tooltip.AddTranslation(GameCulture.Portuguese, "O golem de carne construído usando necromancia torcida durante o tempo de minha conquista para conter minhas forças imparáveis.\nSeus criadores foram massacrados por ele momentos após sua concepção. É melhor que tenha sido destruído.\nMarque este item como favorito para receber um aumento em todos os danos, mas ao custo de tempo de voô das asas reduzido.");
+                    Calamity.GetItem("KnowledgeRavager").Tooltip.AddTranslation(GameCulture.Portuguese, "O golem de carne construído usando necromancia torcida durante o tempo de minha conquista para conter minhas forças imparáveis.\nSeus criadores foram massacrados por ele momentos após sua concepção. É melhor que tenha sido destruído.");
                     Calamity.GetItem("KnowledgeLunaticCultist").DisplayName.AddTranslation(GameCulture.Portuguese, "Cultista Lunático");
-                    Calamity.GetItem("KnowledgeLunaticCultist").Tooltip.AddTranslation(GameCulture.Portuguese, "O talentoso que encerrou minha grande convocação há muito tempo com seus pdoeres sobrenaturais sobre o arcano.\nAlguém que uma vez desprezei tanto por suas ações está agora... falecido, seu ritual de selamento desfeito... prepare-se para o fim.\nSua desgraça certa aproxima-se...\nMarque este item como favorito para um aumento em todas as estatísticas durante o evento lunar.\nNo entanto, sua visão é reduzida devido ao conhecimento sobrenatural que prejudica a sua mente.");
+                    Calamity.GetItem("KnowledgeLunaticCultist").Tooltip.AddTranslation(GameCulture.Portuguese, "O talentoso que encerrou minha grande convocação há muito tempo com seus pdoeres sobrenaturais sobre o arcano.\nAlguém que uma vez desprezei tanto por suas ações está agora... falecido, seu ritual de selamento desfeito... prepare-se para o fim.\nSua desgraça certa aproxima-se...");
                     Calamity.GetItem("KnowledgeBloodMoon").DisplayName.AddTranslation(GameCulture.Portuguese, "A Lua Vermelha");
                     Calamity.GetItem("KnowledgeBloodMoon").Tooltip.AddTranslation(GameCulture.Portuguese, "Há muito tempo, temíamos a luz da lua vermelha.\nMuitos enlouqueceram, outros morreram, mas poucos foram abençoados com uma riqueza de compreensão cósmica.");
                     Calamity.GetItem("KnowledgeAstralInfection").DisplayName.AddTranslation(GameCulture.Portuguese, "Infecção Astral");
                     Calamity.GetItem("KnowledgeAstralInfection").Tooltip.AddTranslation(GameCulture.Portuguese, "Esta paisagem dos sonhos distorcida, cercada por pilares não naturais sob um céu escuro e nebuloso.\nA lei natural foi quebrada. O que você fará?");
                     Calamity.GetItem("KnowledgeAstrumDeus").DisplayName.AddTranslation(GameCulture.Portuguese, "Astrum Deus");
-                    Calamity.GetItem("KnowledgeAstrumDeus").Tooltip.AddTranslation(GameCulture.Portuguese, "Deus das estrelas e o maior recipiente para a Infecção Astral.\nEmbora derrubado de seu lugar entre as estrelas, seus remanescentes ganharam força, com o objetivo de ocupar seu lugar de direito no cosmos mais uma vez.\nMarque este item como favorito para receber um aumento na velocidade dos movimentos no espaço.");
+                    Calamity.GetItem("KnowledgeAstrumDeus").Tooltip.AddTranslation(GameCulture.Portuguese, "Deus das estrelas e o maior recipiente para a Infecção Astral.\nEmbora derrubado de seu lugar entre as estrelas, seus remanescentes ganharam força, com o objetivo de ocupar seu lugar de direito no cosmos mais uma vez.");
                     Calamity.GetItem("KnowledgeMoonLord").DisplayName.AddTranslation(GameCulture.Portuguese, "Senhor da Lua");
-                    Calamity.GetItem("KnowledgeMoonLord").Tooltip.AddTranslation(GameCulture.Portuguese, "Que desperdício.\nSe tivesse sido totalmente restaurado, teria sido uma força para ser vista, mas o que você lutou foi uma concha vazia.\nNo entanto, isso não diminui o imenso potencial encerrado nele, liberado após sua morte.\nMarque este item como favorito para receber um Globo da Gravidade melhorado que aumenta todas as estatísticas enquanto de cabeça para baixo.\nNo entanto, enquanto você não está de cabeça para baixo, você tem uma queda de penas permanente.");
+                    Calamity.GetItem("KnowledgeMoonLord").Tooltip.AddTranslation(GameCulture.Portuguese, "Que desperdício.\nSe tivesse sido totalmente restaurado, teria sido uma força para ser vista, mas o que você lutou foi uma concha vazia.\nNo entanto, isso não diminui o imenso potencial encerrado nele, liberado após sua morte.");
                     Calamity.GetItem("KnowledgeProfanedGuardians").DisplayName.AddTranslation(GameCulture.Portuguese, "Os Guardiões Profanos");
                     Calamity.GetItem("KnowledgeProfanedGuardians").Tooltip.AddTranslation(GameCulture.Portuguese, "Os sempre-rejuvenescedores guardiões da chama profana.\nMuito parecido com uma fênix das cinzas, suas mortes são simplesmente uma parte de seu ciclo de vida.\nMuitas vezes minhas forças tiveram que destruir esses seres em busca da Deusa Profana.");
                     Calamity.GetItem("KnowledgeBumblebirb").DisplayName.AddTranslation(GameCulture.Portuguese, "O Pássaro-dragão");
                     Calamity.GetItem("KnowledgeBumblebirb").Tooltip.AddTranslation(GameCulture.Portuguese, "Um fracasso da ambição científica distorcida; parece que nossa arrogância com relação à vida mostrou-se mais uma vez nos resultados.\nOriginalmente planejado para ser um clone do Dragão da Selva, eles foram deixados vagando pela selva, atacando qualquer coisa em seu caminho.");
                     Calamity.GetItem("KnowledgeProvidence").DisplayName.AddTranslation(GameCulture.Portuguese, "Providência, a Deusa Profana");
-                    Calamity.GetItem("KnowledgeProvidence").Tooltip.AddTranslation(GameCulture.Portuguese, "Um núcleo cercado por pedra e fogo, uma origem simples e um objetivo simples.\nO que seria de nós se ela não tivesse sido derrotada é um conceito assustador a considerar.\nMarque este item como favorito para imbuir todos os projéteis com chamas profanas, causando danos extras.\nNo entanto, sua vida máxima é reduzida devido a uma parte de sua alma ser necessária para alimentar as chamas profanas.");
+                    Calamity.GetItem("KnowledgeProvidence").Tooltip.AddTranslation(GameCulture.Portuguese, "Um núcleo cercado por pedra e fogo, uma origem simples e um objetivo simples.\nO que seria de nós se ela não tivesse sido derrotada é um conceito assustador a considerar.");
                     Calamity.GetItem("KnowledgeSentinels").DisplayName.AddTranslation(GameCulture.Portuguese, "As Sentinelas do Devorador");
                     Calamity.GetItem("KnowledgeSentinels").Tooltip.AddTranslation(GameCulture.Portuguese, "Signus. O Vazio. O Explorador.\nCada um representa uma das maiores esferas de influência do Devorador.\nMatá-los provavelmente invocou sua raiva e te marcou como um alvo para destruição.");
                     Calamity.GetItem("KnowledgePolterghast").DisplayName.AddTranslation(GameCulture.Portuguese, "Polterghast");
-                    Calamity.GetItem("KnowledgePolterghast").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma criatura nascida do ódio e da raiva, formada por inúmeras almas humanas com toda a sua energia inteiramente dedicada a consumir os outros.\nParece um desperdício ter uma fonte tão potente de poder devastando sem pensar por esses corredores vazios.\nMarque este item como favorito para receber um aumento no alcance de coleta de itens.");
+                    Calamity.GetItem("KnowledgePolterghast").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma criatura nascida do ódio e da raiva, formada por inúmeras almas humanas com toda a sua energia inteiramente dedicada a consumir os outros.\nParece um desperdício ter uma fonte tão potente de poder devastando sem pensar por esses corredores vazios.");
                     Calamity.GetItem("KnowledgeOldDuke").DisplayName.AddTranslation(GameCulture.Portuguese, "Velho Duque");
-                    Calamity.GetItem("KnowledgeOldDuke").Tooltip.AddTranslation(GameCulture.Portuguese, "Estranho, descobrir que o terror mutante dos mares não foi o único em sua biologia única.\nTalvez eu tenha me enganado ao classificar a criatura apenas por sua relação com os porcos-dragões.\nMarque este item como favorito para converter os efeitos prejudiciais do efeito negativo da chuva ácida em efeitos positivos.");
+                    Calamity.GetItem("KnowledgeOldDuke").Tooltip.AddTranslation(GameCulture.Portuguese, "Estranho, descobrir que o terror mutante dos mares não foi o único em sua biologia única.\nTalvez eu tenha me enganado ao classificar a criatura apenas por sua relação com os porcos-dragões.");
                     Calamity.GetItem("KnowledgeDevourerofGods").DisplayName.AddTranslation(GameCulture.Portuguese, "O Devorador de Deuses");
-                    Calamity.GetItem("KnowledgeDevourerofGods").Tooltip.AddTranslation(GameCulture.Portuguese, "O poder desta serpente de assimilar as habilidades e energia daqueles que consumiu é único em quase todo o cosmos conhecido, exceto para seus irmãos menores.\nEu logo teria eliminado-o como uma ameaça se ele tivesse mais tempo e mais criaturas para devorar.\nMarque este item como favorito para aumentar o poder de seus ataques físicos verdadeiros em 25%.\nNo entanto, devido à sua natureza imprudente, você sofrerá 5% a mais de danos.");
+                    Calamity.GetItem("KnowledgeDevourerofGods").Tooltip.AddTranslation(GameCulture.Portuguese, "O poder desta serpente de assimilar as habilidades e energia daqueles que consumiu é único em quase todo o cosmos conhecido, exceto para seus irmãos menores.\nEu logo teria eliminado-o como uma ameaça se ele tivesse mais tempo e mais criaturas para devorar.");
                     Calamity.GetItem("KnowledgeYharon").DisplayName.AddTranslation(GameCulture.Portuguese, "Yharon, o Dragão da Selva");
-                    Calamity.GetItem("KnowledgeYharon").Tooltip.AddTranslation(GameCulture.Portuguese, "Eu não seria capaz de suportar um mundo sem meu fiel companheiro ao meu lado.\nFelizmente, o destino vai permitir que seja um mundo que nunca terei que ver, para melhor ou para pior.\nMarque este item como favorito para receber um tempo de voô das asas quase infinito, mas ao custo de uma redução de 25% em todos os danos.");
+                    Calamity.GetItem("KnowledgeYharon").Tooltip.AddTranslation(GameCulture.Portuguese, "Eu não seria capaz de suportar um mundo sem meu fiel companheiro ao meu lado.\nFelizmente, o destino vai permitir que seja um mundo que nunca terei que ver, para melhor ou para pior.");
+                    Calamity.GetItem("KnowledgeExoMechs").DisplayName.AddTranslation(GameCulture.Portuguese, "O Trio Exo Mecânico");
+                    Calamity.GetItem("KnowledgeExoMechs").Tooltip.AddTranslation(GameCulture.Portuguese, "Os frutos da habilidade magistral e otimização, criados apenas com o objetivo de destruir.\nNo entanto, no final, eles conseguiram pouco mais do que os designs originais dos quais foram derivados.");
                     Calamity.GetItem("KnowledgeCalamitas").DisplayName.AddTranslation(GameCulture.Portuguese, "Calamitas");
-                    Calamity.GetItem("KnowledgeCalamitas").Tooltip.AddTranslation(GameCulture.Portuguese, "A bruxa incomparável. Talvez a única entre meus companheiros que me deu motivos para dúvidas.\nAgora que você a derrotou, seu destino está claro.\nVenha agora, enfrente-me.\nMarque este item como favorito para morrer instantaneamente de qualquer acerto.");
-                    //End of Lore items
-
+                    Calamity.GetItem("KnowledgeCalamitas").Tooltip.AddTranslation(GameCulture.Portuguese, "A bruxa incomparável. Talvez a única entre meus companheiros que me deu motivos para dúvidas.\nAgora que você a derrotou, seu destino está claro.\nVenha agora, enfrente-me.");
                     Calamity.GetItem("PowerCell").DisplayName.AddTranslation(GameCulture.Portuguese, "Bateria de Draedon");
                     Calamity.GetItem("PowerCell").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado para carregar o armamento de Draedon em uma Estação de Carregamento\nTambém pode ser processado no Extrator para peças extras");
 
                     //Draedon's Logs
-
                     Calamity.GetItem("DraedonsLogSnowBiome").DisplayName.AddTranslation(GameCulture.Portuguese, "Registro de Draedon - A Devastação Congelada");
                     Calamity.GetItem("DraedonsLogSnowBiome").Tooltip.AddTranslation(GameCulture.Portuguese, "Clique para ver seu conteúdo");
                     Calamity.GetItem("DraedonsLogJungle").DisplayName.AddTranslation(GameCulture.Portuguese, "Registro de Draedon - A Selva e a Praga");
@@ -2529,23 +2481,22 @@ namespace CalamityModPTBR
                     Calamity.GetItem("DraedonsLogPlanetoid").Tooltip.AddTranslation(GameCulture.Portuguese, "Clique para ver seu conteúdo");
                     Calamity.GetItem("DraedonsLogHell").DisplayName.AddTranslation(GameCulture.Portuguese, "Registro de Draedon - Inferno");
                     Calamity.GetItem("DraedonsLogHell").Tooltip.AddTranslation(GameCulture.Portuguese, "Clique para ver seu conteúdo");
-                    //End of Draedon's Logs
-
                     Calamity.GetItem("OddMushroom").DisplayName.AddTranslation(GameCulture.Portuguese, "Cogumelo Estranho");
                     Calamity.GetItem("OddMushroom").Tooltip.AddTranslation(GameCulture.Portuguese, "Alucinante");
                     Calamity.GetItem("Rock").DisplayName.AddTranslation(GameCulture.Portuguese, "Rocha");
                     Calamity.GetItem("Rock").Tooltip.AddTranslation(GameCulture.Portuguese, "O primeiro objeto que Xeroc criou");
 
+                    //Minecarts
+                    Calamity.GetItem("DoGCart").DisplayName.AddTranslation(GameCulture.Portuguese, "A Vagoneta dos Deuses");
+
                     ///Mounts
                     //Pre-Hardmode
-
                     Calamity.GetItem("OnyxExcavatorKey").DisplayName.AddTranslation(GameCulture.Portuguese, "Chave da Escavadeira de Ônix");
                     Calamity.GetItem("OnyxExcavatorKey").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca uma broca para perfurar o mundo para que você possa destruir toda a geração de mundo pura\ncom total desconsideração por todas as criaturas que habitam essas terras. Tenho certeza que a EPA\ne a PETA gostariam de ter uma palavra com você depois.\nO poder da destruição aumenta com a picareta de maior potência em seu inventário");
                     Calamity.GetItem("TundraLeash").DisplayName.AddTranslation(GameCulture.Portuguese, "Coleira da Tundra");
                     Calamity.GetItem("TundraLeash").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um cachorro furioso que pode ser montado");
 
                     //Post-Moon Lord
-
                     Calamity.GetItem("Brimrose").DisplayName.AddTranslation(GameCulture.Portuguese, "Rosa de Enxofre");
                     Calamity.GetItem("Brimrose").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca uma rosa de enxofre que pode ser montada");
                     Calamity.GetItem("BirdSeed").DisplayName.AddTranslation(GameCulture.Portuguese, "Comida de Bobos");
@@ -2556,9 +2507,10 @@ namespace CalamityModPTBR
                     Calamity.GetItem("Fabsol").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca o espírito de Cirrus, a Princesa Bêbada, em sua forma de alicórnio\nEspólio do modo Vingança");
                     Calamity.GetItem("GazeOfCrysthamyr").DisplayName.AddTranslation(GameCulture.Portuguese, "Olhar de Crysthamyr");
                     Calamity.GetItem("GazeOfCrysthamyr").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um dragão das sombras");
+                    Calamity.GetItem("ExoThrone").DisplayName.AddTranslation(GameCulture.Portuguese, "Exo Box");
+                    Calamity.GetItem("ExoThrone").Tooltip.AddTranslation(GameCulture.Portuguese, "Materializa um Exo trono bem aconchegante e extremamente ágil\nSubstituído\nSubstituído também\nUm gamer confortável é um gamer perigoso");
 
                     ///Pets
-
                     Calamity.GetItem("ForgottenDragonEgg").DisplayName.AddTranslation(GameCulture.Portuguese, "Ovo de Dragão Esquecido");
                     Calamity.GetItem("ForgottenDragonEgg").Tooltip.AddTranslation(GameCulture.Portuguese, "Chama Akato, o filho de Yharon, para o seu lado");
                     Calamity.GetItem("AstrophageItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Astrófago");
@@ -2584,32 +2536,37 @@ namespace CalamityModPTBR
                     Calamity.GetItem("JoyfulHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração Alegre");
                     Calamity.GetItem("JoyfulHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "Está estranhamente quente. Atrai o proibido.");
                     Calamity.GetItem("Levi").DisplayName.AddTranslation(GameCulture.Portuguese, "Levi");
-                    Calamity.GetItem("Levi").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca uma Leviatã bebê de estimação");
+                    Calamity.GetItem("Levi").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca uma Leviathan bebê de estimação");
+                    Calamity.GetItem("PineapplePet").DisplayName.AddTranslation(GameCulture.Portuguese, "Abacaxi");
+                    Calamity.GetItem("PineapplePet").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um abacaxi");
                     Calamity.GetItem("PlagueCaller").DisplayName.AddTranslation(GameCulture.Portuguese, "Chamador da Praga");
                     Calamity.GetItem("PlagueCaller").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca uma Portadora da Peste bebê de estimação");
                     Calamity.GetItem("BloodyVein").DisplayName.AddTranslation(GameCulture.Portuguese, "Veia Sangrenta");
                     Calamity.GetItem("BloodyVein").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca uma pilha de carne amalgamada");
+                    Calamity.GetItem("RottingEyeball").DisplayName.AddTranslation(GameCulture.Portuguese, "Olho Apodrecido");
+                    Calamity.GetItem("RottingEyeball").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um conglomerado corrompido");
                     Calamity.GetItem("BrimstoneJewel").DisplayName.AddTranslation(GameCulture.Portuguese, "Joia de Enxofre");
                     Calamity.GetItem("BrimstoneJewel").Tooltip.AddTranslation(GameCulture.Portuguese, "A recompensa final por derrotar tal besta...\nQuem diria que ela seria tão fofa!");
                     Calamity.GetItem("IbarakiBox").DisplayName.AddTranslation(GameCulture.Portuguese, "Caixa dos Cem Medicamentos do Eremita");
                     Calamity.GetItem("IbarakiBox").Tooltip.AddTranslation(GameCulture.Portuguese, "Enquanto o gelo derrete na primaveira\nE as ondas lavam o cabelo do velho musgo...\nObrigado, adeus.\nInvoca o Terceiro Sábio\nUse o item com o botão direito do mouse na hotbar para alternar a bênção do Terceiro Sábio.\nCom a bênção, o jogador irá nascer com vida cheia ao invés da metade.");
 
                     //Light Pets
-
-                    Calamity.GetItem("RustedJingleBell").DisplayName.AddTranslation(GameCulture.Portuguese, "Sino Enferrujado");
-                    Calamity.GetItem("RustedJingleBell").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um sino fantasma bebê leve de estimação\nFornece uma quantidade razoável de luz enquanto debaixo d'água");
-                    Calamity.GetItem("RadiatingCrystal").DisplayName.AddTranslation(GameCulture.Portuguese, "Cristal Radiante");
-                    Calamity.GetItem("RadiatingCrystal").Tooltip.AddTranslation(GameCulture.Portuguese, "O cristal contém traços de holoturina\nInvoca um radiador leve de estimação\nFornece uma pequena quantidade de luz no abismo");
-                    Calamity.GetItem("SparksSummon").DisplayName.AddTranslation(GameCulture.Portuguese, "Borboleta Encantada");
-                    Calamity.GetItem("SparksSummon").Tooltip.AddTranslation(GameCulture.Portuguese, "Alimente-o com borboletas para mantê-lo forte!\nInvoca uma misteriosa libélula leve de estimação\nFornece uma pequena quantidade de luz no abismo");
-                    Calamity.GetItem("StrangeOrb").DisplayName.AddTranslation(GameCulture.Portuguese, "Orbe Estranho");
-                    Calamity.GetItem("StrangeOrb").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um Espírito do Oceano leve em miniatura de estimação\nFornece uma grande quantidade de luz enquanto debaixo d'água");
                     Calamity.GetItem("ChromaticOrb").DisplayName.AddTranslation(GameCulture.Portuguese, "Orbe Cromático");
                     Calamity.GetItem("ChromaticOrb").Tooltip.AddTranslation(GameCulture.Portuguese, "Brilha calorosamente na sua mão\nInvoca um antigo dragão leve de estimação que destaca os inimigos e as fontes de perigo próximas\nFornece uma pequena quantidade de luz no abismo");
+                    Calamity.GetItem("SparksSummon").DisplayName.AddTranslation(GameCulture.Portuguese, "Borboleta Encantada");
+                    Calamity.GetItem("SparksSummon").Tooltip.AddTranslation(GameCulture.Portuguese, "Alimente-o com borboletas para mantê-lo forte!\nInvoca uma misteriosa libélula leve de estimação\nFornece uma pequena quantidade de luz no abismo");
+                    Calamity.GetItem("LittleLight").DisplayName.AddTranslation(GameCulture.Portuguese, "Luzinha");
+                    Calamity.GetItem("LittleLight").Tooltip.AddTranslation(GameCulture.Portuguese, "Ela está procurando por você há muito tempo.\nInvoca uma pequena construção que o segue e fornece uma grande quantidade de luz\nFornece uma grande quantidade de luz no abismo");
+                    Calamity.GetItem("RadiatingCrystal").DisplayName.AddTranslation(GameCulture.Portuguese, "Cristal Radiante");
+                    Calamity.GetItem("RadiatingCrystal").Tooltip.AddTranslation(GameCulture.Portuguese, "O cristal contém traços de holoturina\nInvoca um radiador leve de estimação\nFornece uma pequena quantidade de luz no abismo");
+                    Calamity.GetItem("RustedJingleBell").DisplayName.AddTranslation(GameCulture.Portuguese, "Sino Enferrujado");
+                    Calamity.GetItem("RustedJingleBell").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um sino fantasma bebê leve de estimação\nFornece uma quantidade razoável de luz enquanto debaixo d'água");
+                    Calamity.GetItem("StrangeOrb").DisplayName.AddTranslation(GameCulture.Portuguese, "Orbe Estranho");
+                    Calamity.GetItem("StrangeOrb").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um Espírito do Oceano leve em miniatura de estimação\nFornece uma grande quantidade de luz enquanto debaixo d'água");
+                    
 
                     ///Potions
                     //Recovery Potions
-
                     Calamity.GetItem("Bloodfin").DisplayName.AddTranslation(GameCulture.Portuguese, "Barbatanas de Sangue");
                     Calamity.GetItem("Bloodfin").Tooltip.AddTranslation(GameCulture.Portuguese, "As maravilhas da angiogênese\nConcede um efeito que aumenta a regeneração de vida por 10 segundos\nO reforço na regeneraçãod e vida é mais forte se estiver abaixo de 75% de vida");
                     Calamity.GetItem("SupremeHealingPotion").DisplayName.AddTranslation(GameCulture.Portuguese, "Poção de Cura Suprema");
@@ -2677,7 +2634,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("YharimsStimulants").Tooltip.AddTranslation(GameCulture.Portuguese, "Oferece reforços decentes para TODAS as estatísticas ofensivas e defensivas");
 
                     //Drunk Princess' Drinks
-
                     Calamity.GetItem("BloodyMary").DisplayName.AddTranslation(GameCulture.Portuguese, "Maria Sangrenta");
                     Calamity.GetItem("BloodyMary").Tooltip.AddTranslation(GameCulture.Portuguese, "Extremamente picante e sangrento!\nAumenta o dano, velocidade dos movimentos e a velocidade do ataque físico em 15% e chance de acerto crítico em 7% durante uma Lua de Sangue\nReduz a regeneração de vida em 2 e defesa em 6");
                     Calamity.GetItem("CaribbeanRum").DisplayName.AddTranslation(GameCulture.Portuguese, "Rum Caribenho");
@@ -2689,7 +2645,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("EvergreenGin").DisplayName.AddTranslation(GameCulture.Portuguese, "Gim Perene");
                     Calamity.GetItem("EvergreenGin").Tooltip.AddTranslation(GameCulture.Portuguese, "Tem gosto de árvore de Natal, se você consegue imaginar\nAumenta o dano de armas baseadas na natureza em 15% e a redução dos danos em 5%\nReduz a regeneração de vida em 1");
                     Calamity.GetItem("FabsolsVodka").DisplayName.AddTranslation(GameCulture.Portuguese, "Vodka de Fabsol");
-                    Calamity.GetItem("FabsolsVodka").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta todas as estatísticas de dano em 8% mas reduz a defesa em 20\nAumenta o tempo de imunidade depois de ser atacado");
+                    Calamity.GetItem("FabsolsVodka").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta todas as estatísticas de dano em 8% mas reduz a defesa em 20\nAumenta o tempo de imunidade depois de ser atacado\nEste licor mágico é muito procurado por quem tem um paladar requintado");
                     Calamity.GetItem("Fireball").DisplayName.AddTranslation(GameCulture.Portuguese, "Bola de Fogo");
                     Calamity.GetItem("Fireball").Tooltip.AddTranslation(GameCulture.Portuguese, "Um uísque de canela com um ótimo sabor\nAumenta todos os danos de armas baseadas em fogo em 15%\nArmas de chamas amaldiçoadas, chamas das sombras, inferno do assassino de deuses, chamas de enxofre e queimadura de gelo não receberão este benefício\nA arma deve ser mais relacionada ao fogo do que qualquer outra coisa\nReduz a regeneração de vida em 1");
                     Calamity.GetItem("GrapeBeer").DisplayName.AddTranslation(GameCulture.Portuguese, "Cerveja de Uva");
@@ -2721,7 +2677,6 @@ namespace CalamityModPTBR
 
                     //Permanent Power-ups
                     //Health Upgrades
-
                     Calamity.GetItem("BloodOrange").DisplayName.AddTranslation(GameCulture.Portuguese, "Laranja de Sangue");
                     Calamity.GetItem("BloodOrange").Tooltip.AddTranslation(GameCulture.Portuguese, "Tem um sabor nitidamente doce e um aroma forte\nAumenta a vida máxima permanentemente em 25\nSó pode ser usada se a quantidade máxima de frutas da vida foi consumida");
                     Calamity.GetItem("MiracleFruit").DisplayName.AddTranslation(GameCulture.Portuguese, "Fruta do Milagre");
@@ -2732,7 +2687,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("Dragonfruit").Tooltip.AddTranslation(GameCulture.Portuguese, "Embora um tanto insípido, o sabor que pode ser descrito é diferente de qualquer outro experienciado\nAumenta a vida máxima permanentemente em 25\nSó pode ser usada se a quantidade máxima de frutas da vida foi consumida");
 
                     //Mana Upgrades
-
                     Calamity.GetItem("EnchantedStarfish").DisplayName.AddTranslation(GameCulture.Portuguese, "Estrela-do-mar Encantada");
                     Calamity.GetItem("EnchantedStarfish").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a mana máxima permanentemente em 20");
                     Calamity.GetItem("CometShard").DisplayName.AddTranslation(GameCulture.Portuguese, "Fragmento de Cometa");
@@ -2743,7 +2697,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("PhantomHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a mana máxima permanentemente em 50");
 
                     //Rage Mode Upgrades
-
                     Calamity.GetItem("MushroomPlasmaRoot").DisplayName.AddTranslation(GameCulture.Portuguese, "Raiz de Plasma de Cogumelo");
                     Calamity.GetItem("MushroomPlasmaRoot").Tooltip.AddTranslation(GameCulture.Portuguese, "Permanentemente faz o Modo Fúria causar 15% a mais de dano\nEspólio do modo Vingança");
                     Calamity.GetItem("InfernalBlood").DisplayName.AddTranslation(GameCulture.Portuguese, "Sangue Infernal");
@@ -2752,7 +2705,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("RedLightningContainer").Tooltip.AddTranslation(GameCulture.Portuguese, "Permanentemente faz o Modo Fúria causar 15% a mais de dano\nEspólio do modo Vingança");
 
                     //Adrenaline Mode Upgrades
-
                     Calamity.GetItem("ElectrolyteGelPack").DisplayName.AddTranslation(GameCulture.Portuguese, "Pacote de Gel Eletrólito");
                     Calamity.GetItem("ElectrolyteGelPack").Tooltip.AddTranslation(GameCulture.Portuguese, "Permanentemente aumenta o dano e a redução dos danos do Modo Adrenalina em 15% e 5% respectivamente\nEspólio do modo Vingança");
                     Calamity.GetItem("StarlightFuelCell").DisplayName.AddTranslation(GameCulture.Portuguese, "Célula de Combustível da Luz das Estrelas");
@@ -2761,7 +2713,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("Ectoheart").Tooltip.AddTranslation(GameCulture.Portuguese, "Permanentemente aumenta o dano e a redução dos danos do Modo Adrenalina em 15% e 5% respectivamente\nEspólio do modo Vingança");
 
                     //Other Upgrades
-
                     Calamity.GetItem("MLGRune").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu Demoníaco");
                     Calamity.GetItem("MLGRune").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta as taxas de surgimento em 1.25 vezes\nOs efeitos não podem ser revertidos");
                     Calamity.GetItem("MLGRune2").DisplayName.AddTranslation(GameCulture.Portuguese, "Cebola Celestial");
@@ -2769,7 +2720,6 @@ namespace CalamityModPTBR
 
                     //Tools
                     //Multi-use tools
-
                     Calamity.GetItem("MarniteObliterator").DisplayName.AddTranslation(GameCulture.Portuguese, "Obliterador de Marnito");
                     Calamity.GetItem("ReefclawHamaxe").DisplayName.AddTranslation(GameCulture.Portuguese, "Martelo-machado da Garra do Recife");
                     Calamity.GetItem("AerialHamaxe").DisplayName.AddTranslation(GameCulture.Portuguese, "Martelo-machado Aéreo");
@@ -2778,7 +2728,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("AstralHamaxe").DisplayName.AddTranslation(GameCulture.Portuguese, "Martelo-machado Astral");
 
                     //Pickaxes
-
                     Calamity.GetItem("Spadefish").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixe-pá");
                     Calamity.GetItem("Spadefish").Tooltip.AddTranslation(GameCulture.Portuguese, "Como que um peixe pode ser usado para cavar?\nAlgumas perguntas devem ser deixadas sem resposta.");
                     Calamity.GetItem("WulfrumPickaxe").DisplayName.AddTranslation(GameCulture.Portuguese, "Picareta de Vulfrânio");
@@ -2798,27 +2747,23 @@ namespace CalamityModPTBR
                     Calamity.GetItem("CrystylCrusher").Tooltip.AddTranslation(GameCulture.Portuguese, "Tenho que cavar mais rápido, tenho que cavar mais profundo\nClique com o botão direito para balançar normalmente");
 
                     //Axes
-
                     Calamity.GetItem("WulfrumAxe").DisplayName.AddTranslation(GameCulture.Portuguese, "Machado de Vulfrânio");
                     Calamity.GetItem("BerserkerWaraxe").DisplayName.AddTranslation(GameCulture.Portuguese, "Machado de Guerra Furioso");
                     Calamity.GetItem("ChaoswarpedSlashaxe").DisplayName.AddTranslation(GameCulture.Portuguese, "Truncador Tectônico");
 
                     //Hammers
-
                     Calamity.GetItem("WulfrumHammer").DisplayName.AddTranslation(GameCulture.Portuguese, "Martelo de Vulfrânio");
                     Calamity.GetItem("AbyssalWarhammer").DisplayName.AddTranslation(GameCulture.Portuguese, "Martelo de Guerra Abissal");
                     Calamity.GetItem("HydraulicVoltCrasher").DisplayName.AddTranslation(GameCulture.Portuguese, "Esmagador de Tensão Hidráulica");
                     Calamity.GetItem("HydraulicVoltCrasher").Tooltip.AddTranslation(GameCulture.Portuguese, "Bom pra estampar placas de metal e fundi-las instantaneamente, bem como esmagar inimigos.\nUma britadeira eletricamente carregada que choca todos os inimigos próximos no acerto");
 
                     //Hooks
-
                     Calamity.GetItem("SerpentsBite").DisplayName.AddTranslation(GameCulture.Portuguese, "Mordida da Serpente");
                     Calamity.GetItem("SerpentsBite").Tooltip.AddTranslation(GameCulture.Portuguese, "Alcance: 28.125\nVelocidade de Lançamento: 18\nVelocidade de Tração: 14");
                     Calamity.GetItem("BobbitHook").DisplayName.AddTranslation(GameCulture.Portuguese, "Gancho Bobbit");
                     Calamity.GetItem("BobbitHook").Tooltip.AddTranslation(GameCulture.Portuguese, "Retrai ao atingir uma peça com velocidades extremas\nAlcance: 40\nVelocidade de Lançamento: 25\nVelocidade de Tração: 28");
 
                     //Fishing Poles
-
                     Calamity.GetItem("WulfrumRod").DisplayName.AddTranslation(GameCulture.Portuguese, "Vara de Pescar de Vulfrânio");
                     Calamity.GetItem("WulfrumRod").Tooltip.AddTranslation(GameCulture.Portuguese, "Isso quase não funciona, mas é melhor do que nada.");
                     Calamity.GetItem("NavyFishingRod").DisplayName.AddTranslation(GameCulture.Portuguese, "Vara de Pescar Marinha");
@@ -2839,7 +2784,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("TheDevourerofCods").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara dez linhas de uma vez. A linha nunca quebra e pode pescar na lava.\nO devorador já foi apenas um Devorador de Cardumes.");
 
                     //Other
-
                     Calamity.GetItem("BallAndChain").DisplayName.AddTranslation(GameCulture.Portuguese, "Bola e Corrente");
                     Calamity.GetItem("BallAndChain").Tooltip.AddTranslation(GameCulture.Portuguese, "Que pesado...\nMarque este item como favorito para desabilitar quaisquer corridas concedidas por equipamentos.");
                     Calamity.GetItem("RelicOfConvergence").DisplayName.AddTranslation(GameCulture.Portuguese, "Relíquia da Convergência");
@@ -2847,35 +2791,55 @@ namespace CalamityModPTBR
                     Calamity.GetItem("RelicOfResilience").DisplayName.AddTranslation(GameCulture.Portuguese, "Relíquia da Resiliência");
                     Calamity.GetItem("RelicOfResilience").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um baluarte na posição do mouse\nO baluarte é morto por inimigos e todos os projéteis.\nAo morrer, o baluarte explode em uma explosão rotativa de fragmentos\nSe um inimigo estiver na área dos fragmentos, seu próximo ataque será muito mais fraco. Este efeito tem um tempo de recarga\nDepois de um tempo, os fragmentos se juntam para reformar o baluarte original.\nEssa reforma só pode acontecer 3 vezes.\nVocê ganha um pequeno tempo de recarga ao invocar um novo baluarte.\nSe um baluarte já existe, usar este item irá realocá-lo");
 
-                    //Event
-
-                    Calamity.GetItem("BrokenWaterFilter").DisplayName.AddTranslation(GameCulture.Portuguese, "Filtro de Água Quebrado");
-                    Calamity.GetItem("BrokenWaterFilter").Tooltip.AddTranslation(GameCulture.Portuguese, "Marque este item como favorito para desabilitar invocações de Chuvas Ácidas naturais");
-
-                    //Information
-
+                    //Informative
+                    Calamity.GetItem("BrimstoneLocus").DisplayName.AddTranslation(GameCulture.Portuguese, "Vidente de Enxofre");
+                    Calamity.GetItem("BrimstoneLocus").Tooltip.AddTranslation(GameCulture.Portuguese, "Não só posso aprimorar seu equipamento com magia potente, como também posso extrair a verdadeira força\ne elevar algumas de suas armas a formas inteiramente novas\nEsses itens são revelados enquanto este item está em seu inventário");
+                    Calamity.GetItem("CyanSeekingMechanism").DisplayName.AddTranslation(GameCulture.Portuguese, "Mecanismo de Procura Ciano");
+                    Calamity.GetItem("CyanSeekingMechanism").Tooltip.AddTranslation(GameCulture.Portuguese, "Move-se rapidamente em direção a um laboratório nas profundezas do deserto");
+                    Calamity.GetItem("GreenSeekingMechanism").DisplayName.AddTranslation(GameCulture.Portuguese, "Mecanismo de Procura Verde");
+                    Calamity.GetItem("GreenSeekingMechanism").Tooltip.AddTranslation(GameCulture.Portuguese, "Move-se rapidamente em direção a um laboratório dentro da selva");
+                    Calamity.GetItem("PurpleSeekingMechanism").DisplayName.AddTranslation(GameCulture.Portuguese, "Mecanismo de Procura Roxo");
+                    Calamity.GetItem("PurpleSeekingMechanism").Tooltip.AddTranslation(GameCulture.Portuguese, "Move-se rapidamente em direção a um laboratório no céu");
+                    Calamity.GetItem("RedSeekingMechanism").DisplayName.AddTranslation(GameCulture.Portuguese, "Mecanismo de Procura Vermelho");
+                    Calamity.GetItem("RedSeekingMechanism").Tooltip.AddTranslation(GameCulture.Portuguese, "Move-se rapidamente em direção a um laboratório dentro do submundo");
+                    Calamity.GetItem("YellowSeekingMechanism").DisplayName.AddTranslation(GameCulture.Portuguese, "Mecanismo de Procura Amarelo");
+                    Calamity.GetItem("YellowSeekingMechanism").Tooltip.AddTranslation(GameCulture.Portuguese, "Move-se rapidamente em direção a um laboratório dentro das cavernas congeladas");
                     Calamity.GetItem("StatMeter").DisplayName.AddTranslation(GameCulture.Portuguese, "Medidor de Estatísticas");
 
-                    //Teleportation
+                    //Spawn Blockers
 
+                    Calamity.GetItem("AntiCystOintment").DisplayName.AddTranslation(GameCulture.Portuguese, "Pomada Anti-Cistos");
+                    Calamity.GetItem("AntiCystOintment").Tooltip.AddTranslation(GameCulture.Portuguese, "Marque este item como favorito para evitar que cistos de perfurador surjam perto de você");
+                    Calamity.GetItem("AntiTumorOintment").DisplayName.AddTranslation(GameCulture.Portuguese, "Pomada Anti-Tumores");
+                    Calamity.GetItem("AntiTumorOintment").Tooltip.AddTranslation(GameCulture.Portuguese, "Marque este item como favorito para evitar que cistos de colmeia surjam perto de você");
+                    Calamity.GetItem("BleachBall").DisplayName.AddTranslation(GameCulture.Portuguese, "Bola de Alvejante");
+                    Calamity.GetItem("BleachBall").Tooltip.AddTranslation(GameCulture.Portuguese, "Marque este item como favorito para evitar que a Praga Aquática surja naturalmente perto de você");
+                    Calamity.GetItem("BrokenWaterFilter").DisplayName.AddTranslation(GameCulture.Portuguese, "Filtro de Água Quebrado");
+                    Calamity.GetItem("BrokenWaterFilter").Tooltip.AddTranslation(GameCulture.Portuguese, "Marque este item como favorito para desabilitar invocações de Chuvas Ácidas naturais");
+                    Calamity.GetItem("SirenproofEarMuffs").DisplayName.AddTranslation(GameCulture.Portuguese, "Protetor de Ouvido Anti-Sereias");
+                    Calamity.GetItem("SirenproofEarMuffs").Tooltip.AddTranslation(GameCulture.Portuguese, "Marque este item como favorito para evitar que Anahita surja perto de você");
+                    Calamity.GetItem("VoodooDemonVoodooDoll").DisplayName.AddTranslation(GameCulture.Portuguese, "Boneco de Vodu do Demônio Vodu");
+                    Calamity.GetItem("VoodooDemonVoodooDoll").Tooltip.AddTranslation(GameCulture.Portuguese, "Marque este item como favorito para evitar que demônios vodu surjam perto de você");
+
+                    //Teleportation
                     Calamity.GetItem("NormalityRelocator").DisplayName.AddTranslation(GameCulture.Portuguese, "Realocador de Normalidade");
                     Calamity.GetItem("NormalityRelocator").Tooltip.AddTranslation(GameCulture.Portuguese, "Estarei lá em um piscar de olhos\nEsta linha é modificada abaixo\nA teleportação é desabilitada enquanto o Estado de caos está ativo\nAumenta a velocidade do movimento e da queda em 10%\nFunciona enquanto no inventário");
 
                     //Time
-
                     Calamity.GetItem("Cosmolight").DisplayName.AddTranslation(GameCulture.Portuguese, "Luz Cósmica");
                     Calamity.GetItem("Cosmolight").Tooltip.AddTranslation(GameCulture.Portuguese, "Muda a noite para o dia e vice-versa");
 
                     //Mechanics
-
                     Calamity.GetItem("Armageddon").DisplayName.AddTranslation(GameCulture.Portuguese, "Armagedom");
                     Calamity.GetItem("Armageddon").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que qualquer acerto enquanto um chefe está vivo te mate instantaneamente\nO efeito pode ser ativado e desativado\nSe um chefe for derrotado com este efeito ativo, ele deixará cair 6 bolsas do tesouro, 5 no modo normal");
                     Calamity.GetItem("Death").DisplayName.AddTranslation(GameCulture.Portuguese, "Morte");
                     Calamity.GetItem("Death").Tooltip.AddTranslation(GameCulture.Portuguese, "Torna os chefes ainda mais EXTREMOS.\nPermite que certos chefes surjam naturalmente.\nCertos biomas e eventos têm efeitos climáticos adicionais.\nOs efeitos de lava letal estão sempre ativados.\nAumenta o dano inimigo em 15%.\nAumenta muito as taxas de surgimento de inimigos durante a lua de sangue.\nEnfraquece os efeitos do roubo de vida.\nTorna o abismo mais perigoso de navegar.\nA enfermeira não cura mais enquanto um chefe está vivo.\nAumenta o dano causado por vários efeitos negativos.\nO efeito pode ser ativado e desativado.\nO efeito só funcionará se o Modo Vingança estiver ativo.");
-                    Calamity.GetItem("DefiledRune").DisplayName.AddTranslation(GameCulture.Portuguese, "Runa Contaminada");
-                    Calamity.GetItem("DefiledRune").Tooltip.AddTranslation(GameCulture.Portuguese, "O vôo da asa é desabilitado e inimigos podem atingi-lo criticamente\nAumenta as chances de queda de itens raros e os inimigos deixam cair 50% a mais de dinheiro\nSó pode ser usado no modo vingança e morte\nPode ser ativada e desativada");
+                    Calamity.GetItem("DefiledRune").DisplayName.AddTranslation(GameCulture.Portuguese, "Pena Contaminada");
+                    Calamity.GetItem("DefiledRune").Tooltip.AddTranslation(GameCulture.Portuguese, "É um longo caminho descendo de uma montanha...\nMarque este item como favorito para desativar asas.");
                     Calamity.GetItem("IronHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração de Ferro");
                     Calamity.GetItem("IronHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "A cura com poções e toda a regeneração de vida positiva é desativada.\nO dano do inimigo aumenta com a sua vida máxima.\nPode ser ativado e desativado.");
+                    Calamity.GetItem("Malice").DisplayName.AddTranslation(GameCulture.Portuguese, "Malícia");
+                    Calamity.GetItem("Malice").Tooltip.AddTranslation(GameCulture.Portuguese, "Ativa/desativa o Modo Malícia.\n[c/c01818:Este modo é subjetivo, jogue como quiser, não espere viver.]\n[c/c01818:Este modo pretende ser um modo de revanche de chefes, no entanto, os chefes ainda são possíveis quando enfrentados no nível correto.]\nEnquanto ativado, os chefes irão deixar cair itens de Desafio e de Desafio Lendário.\nEnfraquece muito a efetividade do roubo de vida.\nEnfraquece a efetividade do bônus definido da Armadura de Titânio, isto não combina com o Modo Vingança.\nA Enfermeira não o cura mais enquanto um chefe está vivo.\nDano de defesa é 5% mais alto que no Modo Morte.\nAumenta o dano causado por 50% para vários efeitos negativos e todos os álcoois que reduzem a regeneração de vida.\nTodos os lacaios de chefes não soltam mais corações.\nDá a todos os chefes uma nova IA enfurecida e permite que eles deixem cair itens especiais.\nChefes e seus projéteis causam 35% a mais de dano.\nA maioria dos chefes entrará em fases posteriores mais cedo se a luta durar muito tempo.\nAumenta a velocidade da maioria dos projéteis de chefes em 25%, isto é aumentado para 35% durante a Corrida de Chefes.\nA RD reativa em chefes está sempre ativada fora da Corrida de Chefes e é aumentada em 50%");
                     Calamity.GetItem("Revenge").DisplayName.AddTranslation(GameCulture.Portuguese, "Vingança");
                     Calamity.GetItem("Revenge").Tooltip.AddTranslation(GameCulture.Portuguese, "Ativa/desativa o Modo Vingança, só pode ser usado no modo perito.\nDICA DA FÚRIA AQUI\nVocê ganha fúria sempre que sofre dano ou acerta um inimigo com uma arma física verdadeira.\nDICA DA ADRENALINA AQUI\nVocê ganha adrenalina sempre que um chefe está vivo. Ser atingido reduz a adrenalina de volta a 0.\nTodos os inimigos deixam cair 50% a mais de dinheiro e surgem 15% mais frequentemente\nCertos inimigos e projéteis causam entre 5% e 25% a mais de dano.\nTorna certos inimigos imunes ao roubo de vida e enfraquece a eficácia do roubo de vida.\nEnfraquece a eficácia do bônus do conjunto da Armadura de Titânio.\nAumenta a regeneração de vida com sua vida atual, quanto maior sua vida, menor sua regeneração de vida (isso não é baseado na vida máxima).\nA velocidade de corrida do asfalto é reduzida em 33% e o custo da cura da Enfermeira é aumentado\nAntes de matar seu primeiro chefe, você sofre 20% a menos de dano de tudo.\nAltera TODAS as IAs dos chefes e algumas IAs inimigas no vanilla e no Calamity Mod.");
 
@@ -2883,7 +2847,6 @@ namespace CalamityModPTBR
                     //Melee weapons
                     //Swords
                     //Pre-hardmode
-
                     Calamity.GetItem("Basher").DisplayName.AddTranslation(GameCulture.Portuguese, "Batedor");
                     Calamity.GetItem("Basher").Tooltip.AddTranslation(GameCulture.Portuguese, "Inflige irradiação ao atingir o inimigo");
                     Calamity.GetItem("BiomeBlade").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmina do Bioma");

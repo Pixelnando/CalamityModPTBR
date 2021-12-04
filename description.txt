@@ -8,6 +8,13 @@ Para uma lista completa de todo conteúdo traduzido presente no mod, visite a p�
 Nota: Não sou afiliado com o Fabsol nem os desenvolvedores do Calamity Mod.
 __________________________
 
+v1.1.2.3
+
+- Compatível com a versão 1.5.0.003.
+- Itens introduzidos na versão 1.5 traduzidos.
+- Draedon e seu trio Exo traduzidos.
+- Novo diálogo da Calamitas Suprema durante a batalha traduzido.
+
 v1.1.2.2
 
 - Compatível com a nova versão 1.5 do Calamity (o conteúdo novo ainda não foi traduzido).
