@@ -8,7 +8,6 @@ Para contribuir com a tradução completa do mod do Calamity Mod, você deve pri
 
 - [ ] Atualizar todo o conteúdo para estar de acordo com a atualização 1.5 do Calamity Mod (prioridade alta)
 - [ ] Traduzir o resto das armas
-- [ ] Traduzir os bônus definidos de armaduras
 - [ ] Traduzir efeitos e efeitos negativos
 - [ ] Traduzir os projéteis
 
