@@ -1,4 +1,4 @@
-using Terraria.ModLoader;
+﻿using Terraria.ModLoader;
 using Terraria.Localization;
 using CalamityMod;
 
@@ -16,238 +16,234 @@ namespace CalamityModPTBR
                 if (Calamity != null)
                 {
                     string[][] localizations = new string[][]
-                        {
-                        new string[3]{"SkyOreText","The ground is glittering with cyan light.","O solo brilha com uma luz ciana."},
-                        new string[3]{"IceOreText","The ice caves are crackling with frigid energy.","As cavernas de gelo estão estalando com energia frígida."},
-                        new string[3]{"PlantOreText","Energized plant matter has formed in the underground.","Matéria vegetal energizada foi formada no subsolo."},
-                        new string[3]{"TreeOreText","Fossilized tree bark is bursting through the jungle's mud.","Cascas de árvores fossilizadas estão rompendo a lama da selva."},
-                        new string[3]{"AuricOreText","A godly aura has blessed the world's caverns.","Uma aura divina abençoou as cavernas do mundo."},
-                        new string[3]{"FutureOreText","A cold and dark energy has materialized in space.","Uma energia fria e escura se materializou no espaço."},
-                        new string[3]{"UglyBossText","The Sunken Sea trembles...","O Mar Profundo treme..."},
-                        new string[3]{"SteelSkullBossText","A blood red inferno lingers in the night...","Um inferno vermelho de sangue perdura na noite..."},
-                        new string[3]{"BrimmyBossText","A protective spell has been lifted from the crags! You can now mine Charred Ore.","Um feitiço de proteção foi retirado dos rochedos! Você agora pode minerar Minério Carbonizado."},
-                        new string[3]{"WetWormBossText","The sulphuric sky darkens...","O céu sulfúrico escurece..."},
-                        new string[3]{"PlantBossText","The ocean depths are trembling.","As profundezas do oceano estão tremendo."},
-                        new string[3]{"BabyBossText","A plague has befallen the Jungle.","Uma praga caiu na Selva."},
-                        new string[3]{"MoonBossText","The profaned flame blazes fiercely!","A chama profana arde ferozmente!"},
-                        new string[3]{"MoonBossText2","Cosmic terrors are watching...","Terrores cósmicos estão observando..."},
-                        new string[3]{"MoonBossText3","The bloody moon beckons...","A lua de sangue chama por você..."},
-                        new string[3]{"PlagueBossText","PLAGUE NUKE BARRAGE ARMED, PREPARING FOR LAUNCH!!!","BARRAGEM NUCLEAR DE PRAGA ARMADA, PREPARAR PARA O LAN\u00c7AMENTO!!!"},
-                        new string[3]{"PlagueBossText2","MISSILES LAUNCHED, TARGETING ROUTINE INITIATED!!!","MÍSSEIS LAN\u00c7ADOS, ROTINA DE PERSEGUI\u00c7ÃO INICIADA!!!"},
-                        new string[3]{"ProfanedBossText","The air is burning...","O ar está queimando..."},
-                        new string[3]{"ProfanedBossText2","Shrieks are echoing from the dungeon.","Gritos penetrantes ecoam no cabalouço."},
-                        new string[3]{"ProfanedBossText3","The calamitous beings have been inundated with bloodstone.","As criaturas calamitosas foram inundadas com pedra sangrenta."},
-                        new string[3]{"ProfanedBossText4","The Profaned Goddess has recognised your devotion to purity!","A Deusa Profana reconheceu a sua devoção à puridade!"},
-                        new string[3]{"GhostBossText","The abyssal spirits have been disturbed.","Os espíritos abissais foram perturbados."},
-                        new string[3]{"GhostBossText2","Wails echo through the dilapidated dungeon halls...","Lamentos ecoam pelos corredores do calabouço arruinado..."},
-                        new string[3]{"GhostBossText3","Long-dead prisoners seek their zealous revenge...","Prisioneiros mortos há muito tempo buscam sua vingança zelosa..."},
-                        new string[3]{"GhostBossText4","The souls released stir the acidic storms...","As almas liberadas agitam as tempestades ácidas..."},
-                        new string[3]{"SCalSummonText", "Do you enjoy going through hell?", "Você gosta de passar pelo inferno?"},
-                        new string[3]{"SCalStartText", "You should have just died...", "Você devia ter apenas morrido..."},
-                        new string[3]{"SCalBH2Text", "It wasn't too long ago you barely managed to defeat my doppelganger. Quite the failure, wasn't it?", "Não faz muito tempo desde que você mal conseguiu derrotar meu clone. Um grande fracasso, não é?"},
-                        new string[3]{"SCalBH3Text", "You've harnessed great power, but you wield it for no one but yourself.", "Você conquistou um grande poder, mas não o exerce para ninguém além de si mesmo."},
-                        new string[3]{"SCalBrothersText", "Would you like to meet my family? Horrible, isn't it?", "Você gostaria de conhecer a minha família? Horrível, não é?"},
-                        new string[3]{"SCalPhase2Text", "You will suffer greatly.", "Você vai sofrer muito."},
-                        new string[3]{"SCalBH4Text", "It's absurd to even think of trying to get away. As long as you live, you will suffer.", "É um absurdo pensar em tentar fugir. Enquanto você estiver vivo, você sofrerá."},
-                        new string[3]{"SCalSeekerRingText", "An upstart who recklessly stole and killed their way to power. I wonder, who does that remind me of...?", "Um arrivista que imprudentemente roubou e matou muitos pelo poder. Eu me pergunto, quem isso me lembra...?"},
-                        new string[3]{"SCalBH5Text", "You have no stake in this battle. No one gave you any say in this matter!", "Esta batalha não é de seu interesse. Ninguém lhe permitiu dar sua opinião sobre este assunto!"},
-                        new string[3]{"SCalSepulcher2Text", "Once the dust has settled and only one remains, if it is you, what value will this have had?!", "Quando tudo se acalmar e só sobrar um de nós, se for você, que valor isto terá tido?!"},
-                        new string[3]{"SCalDesparationText1", "Just stop!", "Simplesmente pare!"},
-                        new string[3]{"SCalDesparationText2", "I have no future if I lose here.", "Eu não tenho um futuro se eu perder aqui."},
-                        new string[3]{"SCalDesparationText3", "Once you have bested me, you will only have one path forward.", "Depois de me superar, você terá apenas um caminho a seguir."},
-                        new string[3]{"SCalDesparationText4", "And that path... also has no future.", "E esse caminho... também não tem futuro."},
-                        new string[3]{"SCalAcceptanceText1", "Even if he has thrown all else away, his power remains.", "Mesmo que ele tenha jogado tudo fora, seu poder permanece."},
-                        new string[3]{"SCalAcceptanceText2", "I have no more energy left to resent him, or you...", "Eu não tenho mais energia para ficar ressentida com ele, ou com você..."},
-                        new string[3]{"SCalAcceptanceText3", "It will all be in your hands now.", "Tudo estará em suas mãos agora."},
-                        new string[3]{"SCalSummonTextRematch", "If you’re looking for some fourth-degree burns, you’ve got the right person.", "Se você está procurando por queimaduras de quarto grau, você encontrou a pessoa certa."},
-                        new string[3]{"SCalStartTextRematch", "When the time comes, would you like to join my creation?", "Quando chegar a hora, você gostaria de se juntar à minha criação?"},
-                        new string[3]{"SCalBH2TextRematch", "You’ll still have to work hard for this victory.", "Você ainda terá que se esforçar para esta vitória."},
-                        new string[3]{"SCalBH3TextRematch", "I haven’t had such an interesting target dummy to test my magic on in a long time.", "Faz muito tempo que eu não tenho um boneco de treinamento tão interessante para testar minha magia."},
-                        new string[3]{"SCalBrothersTextRematch", "Empty shells of their former selves. I doubt even a scrap of their spirits remain.", "Eles são apenas carcaças de seu antigo eu. Duvido que até mesmo um fragmento de seus espíritos permaneça." },
-                        new string[3]{"SCalPhase2TextRematch", "Here we go again.", "Aqui vamos nós, novamente."},
-                        new string[3]{"SCalBH4TextRematch", "I wonder if you’ve seen these in your nightmares since our first battle?", "Eu me pergunto se você já viu isso em seus pesadelos desde nossa primeira batalha."},
-                        new string[3]{"SCalSeekerRingTextRematch", "Your skill hasn't faltered in the least.", "Sua habilidade não esmoreceu nem um pouco."},
-                        new string[3]{"SCalBH5TextRematch", "Isn't this exciting?", "Não é emocionante?"},
-                        new string[3]{"SCalSepulcher2TextRematch", "Here comes the crawling tomb, one last time.", "Lá vem a tumba rastejante, uma última vez."},
-                        new string[3]{"SCalDesparationText1Rematch", "A terrific display, I concede this match to you.", "Uma exibição fantástica, admito esta partida para você."},
-                        new string[3]{"SCalDesparationText2Rematch", "No doubt you will face enemies stronger than I.", "Sem dúvida, você enfrentará inimigos mais fortes do que eu."},
-                        new string[3]{"SCalDesparationText3Rematch", "I trust you will not make the same mistakes he did.", "Espero que você não comita os mesmos erros que ele."},
-                        new string[3]{"SCalDesparationText4Rematch", "I can’t imagine what your future holds now.", "Não consigo imaginar o que o seu futuro reserva para você agora."},
-                        new string[3]{"SCalFunnyCheatText", "Go to hell.","Vá para o inferno."},
-                        new string[3]{"EdgyBossText","Don't get cocky, kid!","Não fique convencido, pirralho!"},
-                        new string[3]{"EdgyBossText2","You think...you can butcher...ME!?","Você acha... que pode... ME EXTERMINAR!?"},
-                        new string[3]{"EdgyBossText3","A fatal mistake!","Um erro fatal!"},
-                        new string[3]{"EdgyBossText4","Good luck recovering from that!","Boa sorte se recuperando disso!"},
-                        new string[3]{"EdgyBossText5","Delicious...","Delicioso..."},
-                        new string[3]{"EdgyBossText6","Did that hurt?","Doeu?"},
-                        new string[3]{"EdgyBossText7","Nothing personal, kid.","Nada pessoal, pirralho."},
-                        new string[3]{"EdgyBossText8","Are you honestly that bad at dodging?","Você é tão ruim assim em se esquivar?"},
-                        new string[3]{"EdgyBossText9","Of all my segments to get hit by...","De todos os meus segmentos, você foi atingido por..."},
-                        new string[3]{"EdgyBossText10","It's not over yet, kid!","Não acabou ainda, pirralho!"},
-                        new string[3]{"EdgyBossText11","A GOD DOES NOT FEAR DEATH!","UM DEUS NÃO TEME A MORTE!"},
-                        new string[3]{"EdgyBossText12","You are no god...but I shall feast upon your essence regardless!","Você não é nenhum deus... mas irei me banquetear com a sua essência mesmo assim!"},
-                        new string[3]{"DoGBossText","The frigid moon shimmers brightly.","A lua frígida brilha intensamente."},
-                        new string[3]{"DoGBossText2","The harvest moon glows eerily.","A lua da colheita brilha sinistramente."},
-                        new string[3]{"AstralText","A star has fallen from the heavens!","Uma estrela caiu do céu!"},
-                        new string[3]{"AureusBossText","The astral enemies have been empowered!","Os inimigos astrais foram empoderados!"},
-                        new string[3]{"AureusBossText2","A faint ethereal click can be heard from the dungeon.","Um leve clique etéreo pode ser ouvido no calabouço."},
-                        new string[3]{"AstralBossText","The seal of the stars has been broken! You can now mine Astral Ore.","O selo das estrelas foi quebrado! Você agora pode minerar Minério Astral."},
-                        new string[3]{"DeusText","A star-spawned horror tunnels through the astral infection.","Um terror gerado pelas estrelas escava pela infecção astral."},
-                        new string[3]{"DeusAltarRejectNightText","The god of the stars rejects your offering. The ritual can only be performed at night.","O deus das estrelas rejeita sua oferta. O ritual só pode ser realizado à noite."},
-                        new string[3]{"CalamitasBossText", "You underestimate my power...", "Você subestimou meu poder..."},
-                        new string[3]{"CalamitasBossText2","The brothers have been reborn!","Os irmãos renasceram!"},
-                        new string[3]{"CalamitasBossText3","Impressive child, most impressive...","Impressionante, criança, muito impressionante..."},
-                        new string[3]{"SandSharkText","Something stirs in the warm desert sands...","Algo se agita nas quentes areias do deserto..."},
-                        new string[3]{"SandSharkText2","An enormous apex predator approaches...","Um predador ápice se aproxima..."},
-                        new string[3]{"SandSharkText3","The desert sand shifts intensely!","A areia do deserto se move intensamente!"},
-                        new string[3]{"CryogenBossText","Cryogen is derping out!","Criogênio está ficando louco!"},
-                        new string[3]{"DraedonIntroductionText1", "I have waited long for this moment.", "Eu esperei muito por este momento."},
-                        new string[3]{"DraedonIntroductionText2", "Your nature fascinates me, for I do not understand it.", "Sua natureza me fascina, pois não a entendo."},
-                        new string[3]{"DraedonIntroductionText3", "You will face my creations which have surpassed gods.", "Você enfrentará minhas criações que ultrapassaram os deuses."},
-                        new string[3]{"DraedonIntroductionText4", "And you will show me your disposition through battle.", "E você me mostrará a sua disposição através da batalha."},
-                        new string[3]{"DraedonIntroductionText5", "Now, choose.", "Agora, escolha."},
-                        new string[3]{"DraedonExoPhase1Text1", "Designs improved with time and knowledge are the essence of my work.", "Designs aprimorados com o tempo e o conhecimento são a essência do meu trabalho."},
-                        new string[3]{"DraedonExoPhase1Text2", "Through no other method can I approach perfection.", "Por nenhum outro método posso chegar à perfeição."},
-                        new string[3]{"DraedonExoPhase2Text1", "Your performance falls neatly within the margins of error.", "Seu desempenho cai perfeitamente dentro das margens de erro."},
-                        new string[3]{"DraedonExoPhase2Text2", "That is quite satisfactory. We will proceed to the next phase of testing.", "Isso é muito satisfatório. Avançaremos para a próxima fase de testes."},
-                        new string[3]{"DraedonExoPhase3Text1", "Ever since I was alerted to your presence, I have processed your battles in order to make my machines stronger.", "Desde que fui alertado de sua presença, processei suas batalhas para tornar minhas máquinas mais fortes."},
-                        new string[3]{"DraedonExoPhase3Text2", "Even now, I monitor your actions. Nothing should escape the bounds of my calculations.", "Mesmo agora, em monitoro as suas ações. Nada deve escapar dos limites dos meus cálculos."},
-                        new string[3]{"DraedonExoPhase4Text1", "Curious. Very curious.", "Curioso. Muito curioso."},
-                        new string[3]{"DraedonExoPhase4Text2", "You progress steadily against more difficult challenges.", "Você progride constantemente contra desafios cada vez mais difíceis."},
-                        new string[3]{"DraedonExoPhase5Text1", "Your nature remains unknown to me. This will not do.", "Sua natureza permanece desconhecida para mim. Isso não é o suficiente."},
-                        new string[3]{"DraedonExoPhase5Text2", "...I sought perfection. Fate must favor irony, for that must have been my first mistake.", "...Eu busquei a perfeição. O destino deve favorecer a ironia, pois esse deve ter sido o meu primeiro erro."},
-                        new string[3]{"DraedonExoPhase6Text1", "Absurd.", "Absurdo."},
-                        new string[3]{"DraedonExoPhase6Text2", "I will no longer let my calculations impede my observation of this battle.", "Não vou mais permitir que meus cálculos impeçam a minha observação desta batalha."},
-                        new string[3]{"DraedonExoPhase6Text3", "I shall show you the full fury of my final machine.", "Vou mostrar a você toda a fúria de minha máquina final."},
-                        new string[3]{"DraedonAresEnrageText", "How foolish. You cannot escape.", "Que tolice. Você não pode escapar."},
-                        new string[3]{"DraedonResummonText", "Make your choice.", "Faça a sua escolha."},
-                        new string[3]{"DraedonEndText1", "An unknown factor-a catalyst is what you are.", "Um fator desconhecido -  um catalisador é o que você é."},
-                        new string[3]{"DraedonEndText2", "Nearly as alien as I, to this land and its history.", "Quase tão alienígena quanto eu, a esta terra e sua história."},
-                        new string[3]{"DraedonEndText3", "...Excuse my introspection. I must gather my thoughts after that display.", "...Desculpe minha introspecção. Devo organizar meus pensamentos após essa exibição."},
-                        new string[3]{"DraedonEndText4", "This land has become stale and stiff with blood that has been spilled until now.", "Esta terra se tornou obsoleta e rígida com o sangue que foi derramado até agora."},
-                        new string[3]{"DraedonEndText5", "You have also spilled blood, but it may be enough to usher a new age... Of what, I do not know. But it is something I am eager to see.", "Você também derramou sangue, mas pode ser o suficiente para começar uma nova era... Do quê, eu não sei. Mas é algo que estou ansioso para ver."},
-                        new string[3]{"DraedonEndText6", "Now. You wish to reach the Tyrant. I cannot assist you in that.", "Então, você deseja alcançar o Tirano. Eu não posso te ajudar nisso."},
-                        new string[3]{"DraedonEndText7", "But you have managed before. You will find a way eventually.", "Mas você conseguiu antes. Você encontrará um caminho eventualmente."},
-                        new string[3]{"DraedonEndText8", "I must acknowledge your triumph, but I will return now to my machinery.", "Devo reconhecer o seu triunfo, mas voltarei agora ao meu maquinário"},
-                        new string[3]{"DraedonEndKillAttemptText", "...Quite unnecessary.", "...Isso foi totalmente desnecessário."},
-                        new string[3]{"HardmodeOreTier1Text", "Your world has been blessed with Cobalt and Palladium!", "Seu mundo foi abençoado com o Cobalto e o Paládio!"},
-                        new string[3]{"HardmodeOreTier2Text", "Your world has been blessed with Mythril and Orichalcum!", "Seu mundo foi abençoado com o Mithril e o Oricalco!"},
-                        new string[3]{"HardmodeOreTier3Text", "Your world has been blessed with Adamantite and Titanium!", "Seu mundo foi abençoado com a Adamantina e o Titânio!"},
-                        new string[3]{"HardmodeOreTier4Text", "The hallow has been blessed with consecrated stone!", "O sagrado foi abençoado com pedra consagrada!"},
-                        new string[3]{"BloodMoonText","The Blood Moon is rising...","A Lua de Sangue está subindo..."},
-                        new string[3]{"DargonBossText","The dark sun awaits.","O sol escuro te espera."},
-                        new string[3]{"DargonBossText2","My dragon deems you an unworthy opponent. You must acquire the power of the dark sun to witness his true power.","Meu dragão considera você um oponente indigno. Você deve adquirir o poder do sol escuro para testemunhar o seu verdadeiro poder."},
-                        new string[3]{"RevengeText","Revengeance is active.","A Vingança foi ativada."},
-                        new string[3]{"RevengeText2","Revengeance is not active.","A Vingança foi desativada."},
-                        new string[3]{"DeathText","Death is active, enjoy the fun.","A Morte foi ativada, divirta-se."},
-                        new string[3]{"DeathText2","Death is not active, not fun enough for you?","A Morte foi desativada. Não é divertido o suficiente para você?"},
-                        new string[3]{"MaliceText", "Malice is active; witness the horror!", "A Malícia foi ativada; testemunhe o terror!"},
-                        new string[3]{"MaliceText2", "Malice is not active.", "A Malícia foi desativada."},
-                        new string[3]{"ArmageddonText","Bosses will now kill you instantly.","Chefes agora irão matá-lo instantaneamente."},
-                        new string[3]{"ArmageddonText2","Bosses will no longer kill you instantly.","Chefes não vão mais matá-lo instantaneamente."},
-                        new string[3]{"ArmageddonDodgeDisable", "All of your dodges are now disabled.", "Todas as suas esquivas foram desativadas."},
-                        new string[3]{"ArmageddonDodgeEnable", "All of your dodges are now re-enabled.", "Todas as suas esquivas foram reativadas."},
-                        new string[3]{"DefiledText","Your soul is mine...","Sua alma é minha..."},
-                        new string[3]{"DefiledText2","Your soul is yours once more...","Sua alma é sua novamente..."},
-                        new string[3]{"IronHeartText","Iron Heart is active, healing is disabled.","O Coração de Ferro foi ativado, a cura foi desativada."},
-                        new string[3]{"IronHeartText2","Iron Heart is not active, healing is restored.","O Coração de Ferro foi desativado, a cura foi restaurada."},
-                        new string[3]{"ChangingTheRules","You cannot change the rules now.","Você não pode alterar as regras agora."},
-                        new string[3]{"FlameText","The air is getting warmer around you.","O ar está ficando mais quente ao seu redor."},
-                        new string[3]{"BossRushStartText","Hmm? Ah, another contender. Very well, may the ritual commence!","Hmm? Ah, outro candidato. Muito bem, que o ritual comece!"},
-                        new string[3]{"BossRushTierOneEndText","Hmm? Oh, you're still alive. Unexpected, but don't get complacent just yet.","Hmm? Oh, você ainda está vivo. Inesperado, mas não fique complacente ainda."},
-                        new string[3]{"BossRushTierTwoEndText","Hmm? Persistent aren't you? Perhaps you have some hope of prosperity, unlike past challengers.","Hmm? Persistente, não é? Talvez você tenha alguma esperança de prosperidade, ao contrário dos desafiantes anteriores."},
-                        new string[3]{"BossRushTierThreeEndText","Hmm? Your perseverance is truly a trait to behold. You've come further than even the demigods in such a short time.","Hmm? Sua perseverança é realmente uma característica a ser observada. Você foi mais longe do que até mesmo os semideuses em tão pouco tempo."},
-                        new string[3]{"BossRushTierThreeEndText2","May your skills remain sharp for the last challenges.","Que suas habilidades permaneçam afiadas para os últimos desafios."},
-                        new string[3]{"BossRushTierFourEndText","Hmm? So you've made it to the final tier, a remarkable feat enviable by even the mightiest of the gods.","Hmm? Então você chegou no nível final, um feito notável, invejável até mesmo pelo mais poderoso dos deuses."},
-                        new string[3]{"BossRushTierFourEndText2","Go forth and conquer 'til the ritual's end!","Vá em frente e conquiste até o fim do ritual!"},
-                        new string[3]{"BossRushTierFiveEndText","Hmm? You expected a reward beyond this mere pebble? Patience, the true reward will become apparent in time...","Hmm? Você esperava uma recompensa além desta simples rocha? Paciência, a verdadeira recompensa se tornará aparente com o tempo..."},
-                        new string[3]{"BossSpawnText","Something is approaching...","Algo está se aproximando..."},
-                        new string[3]{"MeleeLevelUp","Melee weapon proficiency level up!","Proficiência em armas físicas aumentada!"},
-                        new string[3]{"MeleeLevelUpFinal","Melee weapon proficiency maxed out!","Proficiência em armas físicas chegou ao máximo!"},
-                        new string[3]{"RangedLevelUp","Ranged weapon proficiency level up!","Proficiência em armas à distância aumentada!"},
-                        new string[3]{"RangedLevelUpFinal","Ranged weapon proficiency maxed out!","Proficiência em armas à distância chegou ao máximo!"},
-                        new string[3]{"MagicLevelUp","Magic weapon proficiency level up!","Proficiência em armas de magia aumentada!"},
-                        new string[3]{"MagicLevelUpFinal","Magic weapon proficiency maxed out!","Proficiência em armas de magia chegou ao máximo!"},
-                        new string[3]{"SummonLevelUp","Summoner weapon proficiency level up!","Proficiência em armas de invocação aumentada!"},
-                        new string[3]{"SummonLevelUpFinal","Summoner weapon proficiency maxed out!","Proficiência em armas de invocação chegou ao máximo!"},
-                        new string[3]{"RogueLevelUp","Rogue weapon proficiency level up!","Proficiência em armas assassinas aumentada!"},
-                        new string[3]{"RogueLevelUpFinal","Rogue weapon proficiency maxed out!","Proficiência em armas assassinas chegou ao máximo!"},
-                        new string[3]{"OpenSunkenSea","The depths of the underground desert are rumbling...","As profundezas do deserto subterrâneo estão estrondeando..."},
-                        new string[3]{"SandstormTrigger","The desert wind is blowing furiously!","O vento do deserto está soprando furiosamente!"},
-                        new string[3]{"ThirdSageBlessingText","You have been blessed by the Third Sage!","Você foi abençoado pelo Terceiro Sábio!"},
-                        new string[3]{"ThirdSageBlessingText2","The Third Sage has rescinded its blessing...","O Terceiro Sábio rescindiu a sua bênção..."},
-                        new string[3]{"AprilFools","The LORDE is approaching...","O LORDE está se aproximando..."},
-                        new string[3]{"AprilFools2","A boomer awaits...","Um boomer aguarda..."},
-                        new string[3]{"AcidRainStart","A toxic downpour falls over the wasteland seas!","Uma chuva tóxica cai sobre os mares devastados!"},
-                        new string[3]{"AcidRainEnd","The sulphuric skies begin to clear...","Os céus sulfúricos começam a clarear..."}
-                        };
-
-                    // Item translations, sorted by wiki order!
+                    {
+                    new string[3]{"SkyOreText","The ground is glittering with cyan light.","O solo brilha com uma luz ciana."},
+                    new string[3]{"IceOreText","The ice caves are crackling with frigid energy.","As cavernas de gelo estão estalando com energia frígida."},
+                    new string[3]{"PlantOreText","Energized plant matter has formed in the underground.","Matéria vegetal energizada foi formada no subsolo."},
+                    new string[3]{"TreeOreText","Fossilized tree bark is bursting through the jungle's mud.","Cascas de árvores fossilizadas estão rompendo a lama da selva."},
+                    new string[3]{"AuricOreText","A godly aura has blessed the world's caverns.","Uma aura divina abençoou as cavernas do mundo."},
+                    new string[3]{"FutureOreText","A cold and dark energy has materialized in space.","Uma energia fria e escura se materializou no espaço."},
+                    new string[3]{"UglyBossText","The Sunken Sea trembles...","O Mar Profundo treme..."},
+                    new string[3]{"SteelSkullBossText","A blood red inferno lingers in the night...","Um inferno vermelho de sangue perdura na noite..."},
+                    new string[3]{"BrimmyBossText","A protective spell has been lifted from the crags! You can now mine Charred Ore.","Um feitiço de proteção foi retirado dos rochedos! Você agora pode minerar Minério Carbonizado."},
+                    new string[3]{"WetWormBossText","The sulphuric sky darkens...","O céu sulfúrico escurece..."},
+                    new string[3]{"PlantBossText","The ocean depths are trembling.","As profundezas do oceano estão tremendo."},
+                    new string[3]{"BabyBossText","A plague has befallen the Jungle.","Uma praga caiu na Selva."},
+                    new string[3]{"MoonBossText","The profaned flame blazes fiercely!","A chama profana arde ferozmente!"},
+                    new string[3]{"MoonBossText2","Cosmic terrors are watching...","Terrores cósmicos estão observando..."},
+                    new string[3]{"MoonBossText3","The bloody moon beckons...","A lua de sangue chama por você..."},
+                    new string[3]{"PlagueBossText","PLAGUE NUKE BARRAGE ARMED, PREPARING FOR LAUNCH!!!","BARRAGEM NUCLEAR DE PRAGA ARMADA, PREPARAR PARA O LANÇAMENTO!!!"},
+                    new string[3]{"PlagueBossText2","MISSILES LAUNCHED, TARGETING ROUTINE INITIATED!!!","MÍSSEIS LANÇADOS, ROTINA DE PERSEGUIÇÃO INICIADA!!!"},
+                    new string[3]{"ProfanedBossText","The air is burning...","O ar está queimando..."},
+                    new string[3]{"ProfanedBossText2","Shrieks are echoing from the dungeon.","Gritos penetrantes ecoam no cabalouço."},
+                    new string[3]{"ProfanedBossText3","The calamitous beings have been inundated with bloodstone.","As criaturas calamitosas foram inundadas com pedra sangrenta."},
+                    new string[3]{"ProfanedBossText4","The Profaned Goddess has recognised your devotion to purity!","A Deusa Profana reconheceu a sua devoção à puridade!"},
+                    new string[3]{"GhostBossText","The abyssal spirits have been disturbed.","Os espíritos abissais foram perturbados."},
+                    new string[3]{"GhostBossText2","Wails echo through the dilapidated dungeon halls...","Lamentos ecoam pelos corredores do calabouço arruinado..."},
+                    new string[3]{"GhostBossText3","Long-dead prisoners seek their zealous revenge...","Prisioneiros mortos há muito tempo buscam sua vingança zelosa..."},
+                    new string[3]{"GhostBossText4","The souls released stir the acidic storms...","As almas liberadas agitam as tempestades ácidas..."},
+                    new string[3]{"SCalSummonText", "Do you enjoy going through hell?", "Você gosta de passar pelo inferno?"},
+                    new string[3]{"SCalStartText", "You should have just died...", "Você devia ter apenas morrido..."},
+                    new string[3]{"SCalBH2Text", "It wasn't too long ago you barely managed to defeat my doppelganger. Quite the failure, wasn't it?", "Não faz muito tempo desde que você mal conseguiu derrotar meu clone. Um grande fracasso, não é?"},
+                    new string[3]{"SCalBH3Text", "You've harnessed great power, but you wield it for no one but yourself.", "Você conquistou um grande poder, mas não o exerce para ninguém além de si mesmo."},
+                    new string[3]{"SCalBrothersText", "Would you like to meet my family? Horrible, isn't it?", "Você gostaria de conhecer a minha família? Horrível, não é?"},
+                    new string[3]{"SCalPhase2Text", "You will suffer greatly.", "Você vai sofrer muito."},
+                    new string[3]{"SCalBH4Text", "It's absurd to even think of trying to get away. As long as you live, you will suffer.", "É um absurdo pensar em tentar fugir. Enquanto você estiver vivo, você sofrerá."},
+                    new string[3]{"SCalSeekerRingText", "An upstart who recklessly stole and killed their way to power. I wonder, who does that remind me of...?", "Um arrivista que imprudentemente roubou e matou muitos pelo poder. Eu me pergunto, quem isso me lembra...?"},
+                    new string[3]{"SCalBH5Text", "You have no stake in this battle. No one gave you any say in this matter!", "Esta batalha não é de seu interesse. Ninguém lhe permitiu dar sua opinião sobre este assunto!"},
+                    new string[3]{"SCalSepulcher2Text", "Once the dust has settled and only one remains, if it is you, what value will this have had?!", "Quando tudo se acalmar e só sobrar um de nós, se for você, que valor isto terá tido?!"},
+                    new string[3]{"SCalDesparationText1", "Just stop!", "Simplesmente pare!"},
+                    new string[3]{"SCalDesparationText2", "I have no future if I lose here.", "Eu não tenho um futuro se eu perder aqui."},
+                    new string[3]{"SCalDesparationText3", "Once you have bested me, you will only have one path forward.", "Depois de me superar, você terá apenas um caminho a seguir."},
+                    new string[3]{"SCalDesparationText4", "And that path... also has no future.", "E esse caminho... também não tem futuro."},
+                    new string[3]{"SCalAcceptanceText1", "Even if he has thrown all else away, his power remains.", "Mesmo que ele tenha jogado tudo fora, seu poder permanece."},
+                    new string[3]{"SCalAcceptanceText2", "I have no more energy left to resent him, or you...", "Eu não tenho mais energia para ficar ressentida com ele, ou com você..."},
+                    new string[3]{"SCalAcceptanceText3", "It will all be in your hands now.", "Tudo estará em suas mãos agora."},
+                    new string[3]{"SCalSummonTextRematch", "If you’re looking for some fourth-degree burns, you’ve got the right person.", "Se você está procurando por queimaduras de quarto grau, você encontrou a pessoa certa."},
+                    new string[3]{"SCalStartTextRematch", "When the time comes, would you like to join my creation?", "Quando chegar a hora, você gostaria de se juntar à minha criação?"},
+                    new string[3]{"SCalBH2TextRematch", "You’ll still have to work hard for this victory.", "Você ainda terá que se esforçar para esta vitória."},
+                    new string[3]{"SCalBH3TextRematch", "I haven’t had such an interesting target dummy to test my magic on in a long time.", "Faz muito tempo que eu não tenho um boneco de treinamento tão interessante para testar minha magia."},
+                    new string[3]{"SCalBrothersTextRematch", "Empty shells of their former selves. I doubt even a scrap of their spirits remain.", "Eles são apenas carcaças de seu antigo eu. Duvido que até mesmo um fragmento de seus espíritos permaneça." },
+                    new string[3]{"SCalPhase2TextRematch", "Here we go again.", "Aqui vamos nós, novamente."},
+                    new string[3]{"SCalBH4TextRematch", "I wonder if you’ve seen these in your nightmares since our first battle?", "Eu me pergunto se você já viu isso em seus pesadelos desde nossa primeira batalha."},
+                    new string[3]{"SCalSeekerRingTextRematch", "Your skill hasn't faltered in the least.", "Sua habilidade não esmoreceu nem um pouco."},
+                    new string[3]{"SCalBH5TextRematch", "Isn't this exciting?", "Não é emocionante?"},
+                    new string[3]{"SCalSepulcher2TextRematch", "Here comes the crawling tomb, one last time.", "Lá vem a tumba rastejante, uma última vez."},
+                    new string[3]{"SCalDesparationText1Rematch", "A terrific display, I concede this match to you.", "Uma exibição fantástica, admito esta partida para você."},
+                    new string[3]{"SCalDesparationText2Rematch", "No doubt you will face enemies stronger than I.", "Sem dúvida, você enfrentará inimigos mais fortes do que eu."},
+                    new string[3]{"SCalDesparationText3Rematch", "I trust you will not make the same mistakes he did.", "Espero que você não comita os mesmos erros que ele."},
+                    new string[3]{"SCalDesparationText4Rematch", "I can’t imagine what your future holds now.", "Não consigo imaginar o que o seu futuro reserva para você agora."},
+                    new string[3]{"SCalFunnyCheatText", "Go to hell.","Vá para o inferno."},
+                    new string[3]{"EdgyBossText","Don't get cocky, kid!","Não fique convencido, pirralho!"},
+                    new string[3]{"EdgyBossText2","You think...you can butcher...ME!?","Você acha... que pode... ME EXTERMINAR!?"},
+                    new string[3]{"EdgyBossText3","A fatal mistake!","Um erro fatal!"},
+                    new string[3]{"EdgyBossText4","Good luck recovering from that!","Boa sorte se recuperando disso!"},
+                    new string[3]{"EdgyBossText5","Delicious...","Delicioso..."},
+                    new string[3]{"EdgyBossText6","Did that hurt?","Doeu?"},
+                    new string[3]{"EdgyBossText7","Nothing personal, kid.","Nada pessoal, pirralho."},
+                    new string[3]{"EdgyBossText8","Are you honestly that bad at dodging?","Você é tão ruim assim em se esquivar?"},
+                    new string[3]{"EdgyBossText9","Of all my segments to get hit by...","De todos os meus segmentos, você foi atingido por..."},
+                    new string[3]{"EdgyBossText10","It's not over yet, kid!","Não acabou ainda, pirralho!"},
+                    new string[3]{"EdgyBossText11","A GOD DOES NOT FEAR DEATH!","UM DEUS NÃO TEME A MORTE!"},
+                    new string[3]{"EdgyBossText12","You are no god...but I shall feast upon your essence regardless!","Você não é nenhum deus... mas irei me banquetear com a sua essência mesmo assim!"},
+                    new string[3]{"DoGBossText","The frigid moon shimmers brightly.","A lua frígida brilha intensamente."},
+                    new string[3]{"DoGBossText2","The harvest moon glows eerily.","A lua da colheita brilha sinistramente."},
+                    new string[3]{"AstralText","A star has fallen from the heavens!","Uma estrela caiu do céu!"},
+                    new string[3]{"AureusBossText","The astral enemies have been empowered!","Os inimigos astrais foram empoderados!"},
+                    new string[3]{"AureusBossText2","A faint ethereal click can be heard from the dungeon.","Um leve clique etéreo pode ser ouvido no calabouço."},
+                    new string[3]{"AstralBossText","The seal of the stars has been broken! You can now mine Astral Ore.","O selo das estrelas foi quebrado! Você agora pode minerar Minério Astral."},
+                    new string[3]{"DeusText","A star-spawned horror tunnels through the astral infection.","Um terror gerado pelas estrelas escava pela infecção astral."},
+                    new string[3]{"DeusAltarRejectNightText","The god of the stars rejects your offering. The ritual can only be performed at night.","O deus das estrelas rejeita sua oferta. O ritual só pode ser realizado à noite."},
+                    new string[3]{"CalamitasBossText", "You underestimate my power...", "Você subestimou meu poder..."},
+                    new string[3]{"CalamitasBossText2","The brothers have been reborn!","Os irmãos renasceram!"},
+                    new string[3]{"CalamitasBossText3","Impressive child, most impressive...","Impressionante, criança, muito impressionante..."},
+                    new string[3]{"SandSharkText","Something stirs in the warm desert sands...","Algo se agita nas quentes areias do deserto..."},
+                    new string[3]{"SandSharkText2","An enormous apex predator approaches...","Um predador ápice se aproxima..."},
+                    new string[3]{"SandSharkText3","The desert sand shifts intensely!","A areia do deserto se move intensamente!"},
+                    new string[3]{"CryogenBossText","Cryogen is derping out!","Criogênio está ficando louco!"},
+                    new string[3]{"DraedonIntroductionText1", "I have waited long for this moment.", "Eu esperei muito por este momento."},
+                    new string[3]{"DraedonIntroductionText2", "Your nature fascinates me, for I do not understand it.", "Sua natureza me fascina, pois não a entendo."},
+                    new string[3]{"DraedonIntroductionText3", "You will face my creations which have surpassed gods.", "Você enfrentará minhas criações que ultrapassaram os deuses."},
+                    new string[3]{"DraedonIntroductionText4", "And you will show me your disposition through battle.", "E você me mostrará a sua disposição através da batalha."},
+                    new string[3]{"DraedonIntroductionText5", "Now, choose.", "Agora, escolha."},
+                    new string[3]{"DraedonExoPhase1Text1", "Designs improved with time and knowledge are the essence of my work.", "Designs aprimorados com o tempo e o conhecimento são a essência do meu trabalho."},
+                    new string[3]{"DraedonExoPhase1Text2", "Through no other method can I approach perfection.", "Por nenhum outro método posso chegar à perfeição."},
+                    new string[3]{"DraedonExoPhase2Text1", "Your performance falls neatly within the margins of error.", "Seu desempenho cai perfeitamente dentro das margens de erro."},
+                    new string[3]{"DraedonExoPhase2Text2", "That is quite satisfactory. We will proceed to the next phase of testing.", "Isso é muito satisfatório. Avançaremos para a próxima fase de testes."},
+                    new string[3]{"DraedonExoPhase3Text1", "Ever since I was alerted to your presence, I have processed your battles in order to make my machines stronger.", "Desde que fui alertado de sua presença, processei suas batalhas para tornar minhas máquinas mais fortes."},
+                    new string[3]{"DraedonExoPhase3Text2", "Even now, I monitor your actions. Nothing should escape the bounds of my calculations.", "Mesmo agora, em monitoro as suas ações. Nada deve escapar dos limites dos meus cálculos."},
+                    new string[3]{"DraedonExoPhase4Text1", "Curious. Very curious.", "Curioso. Muito curioso."},
+                    new string[3]{"DraedonExoPhase4Text2", "You progress steadily against more difficult challenges.", "Você progride constantemente contra desafios cada vez mais difíceis."},
+                    new string[3]{"DraedonExoPhase5Text1", "Your nature remains unknown to me. This will not do.", "Sua natureza permanece desconhecida para mim. Isso não é o suficiente."},
+                    new string[3]{"DraedonExoPhase5Text2", "...I sought perfection. Fate must favor irony, for that must have been my first mistake.", "...Eu busquei a perfeição. O destino deve favorecer a ironia, pois esse deve ter sido o meu primeiro erro."},
+                    new string[3]{"DraedonExoPhase6Text1", "Absurd.", "Absurdo."},
+                    new string[3]{"DraedonExoPhase6Text2", "I will no longer let my calculations impede my observation of this battle.", "Não vou mais permitir que meus cálculos impeçam a minha observação desta batalha."},
+                    new string[3]{"DraedonExoPhase6Text3", "I shall show you the full fury of my final machine.", "Vou mostrar a você toda a fúria de minha máquina final."},
+                    new string[3]{"DraedonAresEnrageText", "How foolish. You cannot escape.", "Que tolice. Você não pode escapar."},
+                    new string[3]{"DraedonResummonText", "Make your choice.", "Faça a sua escolha."},
+                    new string[3]{"DraedonEndText1", "An unknown factor-a catalyst is what you are.", "Um fator desconhecido -  um catalisador é o que você é."},
+                    new string[3]{"DraedonEndText2", "Nearly as alien as I, to this land and its history.", "Quase tão alienígena quanto eu, a esta terra e sua história."},
+                    new string[3]{"DraedonEndText3", "...Excuse my introspection. I must gather my thoughts after that display.", "...Desculpe minha introspecção. Devo organizar meus pensamentos após essa exibição."},
+                    new string[3]{"DraedonEndText4", "This land has become stale and stiff with blood that has been spilled until now.", "Esta terra se tornou obsoleta e rígida com o sangue que foi derramado até agora."},
+                    new string[3]{"DraedonEndText5", "You have also spilled blood, but it may be enough to usher a new age... Of what, I do not know. But it is something I am eager to see.", "Você também derramou sangue, mas pode ser o suficiente para começar uma nova era... Do quê, eu não sei. Mas é algo que estou ansioso para ver."},
+                    new string[3]{"DraedonEndText6", "Now. You wish to reach the Tyrant. I cannot assist you in that.", "Então, você deseja alcançar o Tirano. Eu não posso te ajudar nisso."},
+                    new string[3]{"DraedonEndText7", "But you have managed before. You will find a way eventually.", "Mas você conseguiu antes. Você encontrará um caminho eventualmente."},
+                    new string[3]{"DraedonEndText8", "I must acknowledge your triumph, but I will return now to my machinery.", "Devo reconhecer o seu triunfo, mas voltarei agora ao meu maquinário."},
+                    new string[3]{"DraedonEndKillAttemptText", "...Quite unnecessary.", "...Isso foi totalmente desnecessário."},
+                    new string[3]{"HardmodeOreTier1Text", "Your world has been blessed with Cobalt and Palladium!", "Seu mundo foi abençoado com o Cobalto e o Paládio!"},
+                    new string[3]{"HardmodeOreTier2Text", "Your world has been blessed with Mythril and Orichalcum!", "Seu mundo foi abençoado com o Mithril e o Oricalco!"},
+                    new string[3]{"HardmodeOreTier3Text", "Your world has been blessed with Adamantite and Titanium!", "Seu mundo foi abençoado com a Adamantina e o Titânio!"},
+                    new string[3]{"HardmodeOreTier4Text", "The hallow has been blessed with consecrated stone!", "O sagrado foi abençoado com pedra consagrada!"},
+                    new string[3]{"BloodMoonText","The Blood Moon is rising...","A Lua de Sangue está subindo..."},
+                    new string[3]{"DargonBossText","The dark sun awaits.","O sol escuro te espera."},
+                    new string[3]{"DargonBossText2","My dragon deems you an unworthy opponent. You must acquire the power of the dark sun to witness his true power.","Meu dragão considera você um oponente indigno. Você deve adquirir o poder do sol escuro para testemunhar o seu verdadeiro poder."},
+                    new string[3]{"RevengeText","Revengeance is active.","A Vingança foi ativada."},
+                    new string[3]{"RevengeText2","Revengeance is not active.","A Vingança foi desativada."},
+                    new string[3]{"DeathText","Death is active, enjoy the fun.","A Morte foi ativada, divirta-se."},
+                    new string[3]{"DeathText2","Death is not active, not fun enough for you?","A Morte foi desativada. Não é divertido o suficiente para você?"},
+                    new string[3]{"MaliceText", "Malice is active; witness the horror!", "A Malícia foi ativada; testemunhe o terror!"},
+                    new string[3]{"MaliceText2", "Malice is not active.", "A Malícia foi desativada."},
+                    new string[3]{"ArmageddonText","Bosses will now kill you instantly.","Chefes agora irão matá-lo instantaneamente."},
+                    new string[3]{"ArmageddonText2","Bosses will no longer kill you instantly.","Chefes não vão mais matá-lo instantaneamente."},
+                    new string[3]{"ArmageddonDodgeDisable", "All of your dodges are now disabled.", "Todas as suas esquivas foram desativadas."},
+                    new string[3]{"ArmageddonDodgeEnable", "All of your dodges are now re-enabled.", "Todas as suas esquivas foram reativadas."},
+                    new string[3]{"DefiledText","Your soul is mine...","Sua alma é minha..."},
+                    new string[3]{"DefiledText2","Your soul is yours once more...","Sua alma é sua novamente..."},
+                    new string[3]{"IronHeartText","Iron Heart is active, healing is disabled.","O Coração de Ferro foi ativado, a cura foi desativada."},
+                    new string[3]{"IronHeartText2","Iron Heart is not active, healing is restored.","O Coração de Ferro foi desativado, a cura foi restaurada."},
+                    new string[3]{"ChangingTheRules","You cannot change the rules now.","Você não pode alterar as regras agora."},
+                    new string[3]{"FlameText","The air is getting warmer around you.","O ar está ficando mais quente ao seu redor."},
+                    new string[3]{"BossRushStartText","Hmm? Ah, another contender. Very well, may the ritual commence!","Hmm? Ah, outro candidato. Muito bem, que o ritual comece!"},
+                    new string[3]{"BossRushTierOneEndText","Hmm? Oh, you're still alive. Unexpected, but don't get complacent just yet.","Hmm? Oh, você ainda está vivo. Inesperado, mas não fique complacente ainda."},
+                    new string[3]{"BossRushTierTwoEndText","Hmm? Persistent aren't you? Perhaps you have some hope of prosperity, unlike past challengers.","Hmm? Persistente, não é? Talvez você tenha alguma esperança de prosperidade, ao contrário dos desafiantes anteriores."},
+                    new string[3]{"BossRushTierThreeEndText","Hmm? Your perseverance is truly a trait to behold. You've come further than even the demigods in such a short time.","Hmm? Sua perseverança é realmente uma característica a ser observada. Você foi mais longe do que até mesmo os semideuses em tão pouco tempo."},
+                    new string[3]{"BossRushTierThreeEndText2","May your skills remain sharp for the last challenges.","Que suas habilidades permaneçam afiadas para os últimos desafios."},
+                    new string[3]{"BossRushTierFourEndText","Hmm? So you've made it to the final tier, a remarkable feat enviable by even the mightiest of the gods.","Hmm? Então você chegou no nível final, um feito notável, invejável até mesmo pelo mais poderoso dos deuses."},
+                    new string[3]{"BossRushTierFourEndText2","Go forth and conquer 'til the ritual's end!","Vá em frente e conquiste até o fim do ritual!"},
+                    new string[3]{"BossRushTierFiveEndText","Hmm? You expected a reward beyond this mere pebble? Patience, the true reward will become apparent in time...","Hmm? Você esperava uma recompensa além desta simples rocha? Paciência, a verdadeira recompensa se tornará aparente com o tempo..."},
+                    new string[3]{"BossSpawnText","Something is approaching...","Algo está se aproximando..."},
+                    new string[3]{"MeleeLevelUp","Melee weapon proficiency level up!","Proficiência em armas físicas aumentada!"},
+                    new string[3]{"MeleeLevelUpFinal","Melee weapon proficiency maxed out!","Proficiência em armas físicas chegou ao máximo!"},
+                    new string[3]{"RangedLevelUp","Ranged weapon proficiency level up!","Proficiência em armas à distância aumentada!"},
+                    new string[3]{"RangedLevelUpFinal","Ranged weapon proficiency maxed out!","Proficiência em armas à distância chegou ao máximo!"},
+                    new string[3]{"MagicLevelUp","Magic weapon proficiency level up!","Proficiência em armas de magia aumentada!"},
+                    new string[3]{"MagicLevelUpFinal","Magic weapon proficiency maxed out!","Proficiência em armas de magia chegou ao máximo!"},
+                    new string[3]{"SummonLevelUp","Summoner weapon proficiency level up!","Proficiência em armas de invocação aumentada!"},
+                    new string[3]{"SummonLevelUpFinal","Summoner weapon proficiency maxed out!","Proficiência em armas de invocação chegou ao máximo!"},
+                    new string[3]{"RogueLevelUp","Rogue weapon proficiency level up!","Proficiência em armas ladinas aumentada!"},
+                    new string[3]{"RogueLevelUpFinal","Rogue weapon proficiency maxed out!","Proficiência em armas ladinas chegou ao máximo!"},
+                    new string[3]{"OpenSunkenSea","The depths of the underground desert are rumbling...","As profundezas do deserto subterrâneo estão estrondeando..."},
+                    new string[3]{"SandstormTrigger","The desert wind is blowing furiously!","O vento do deserto está soprando furiosamente!"},
+                    new string[3]{"ThirdSageBlessingText","You have been blessed by the Third Sage!","Você foi abençoado pelo Terceiro Sábio!"},
+                    new string[3]{"ThirdSageBlessingText2","The Third Sage has rescinded its blessing...","O Terceiro Sábio rescindiu a sua bênção..."},
+                    new string[3]{"AprilFools","The LORDE is approaching...","O LORDE está se aproximando..."},
+                    new string[3]{"AprilFools2","A boomer awaits...","Um boomer aguarda..."},
+                    new string[3]{"AcidRainStart","A toxic downpour falls over the wasteland seas!","Uma chuva tóxica cai sobre os mares devastados!"},
+                    new string[3]{"AcidRainEnd","The sulphuric skies begin to clear...","Os céus sulfúricos começam a clarear..."}
+                    };
 
                     /// Accessories
                     // Movement
                     Calamity.GetItem("AbyssalDivingGear").DisplayName.AddTranslation(GameCulture.Portuguese, "Equipamento de Mergulho Abissal");
                     Calamity.GetItem("AbyssalDivingGear").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz o dano causado pela pressão do abismo enquanto sem fôlego\nRemove o efeito de sangramento causado pelo abismo\nOferece a capacidade de nadar e aumenta consideravelmente o fôlego embaixo d\u0027água\nFornece luz debaixo d\u0027água e maior mobilidade no gelo\nFornece uma quantidade razoável de luz no abismo\nReduz bastante a perda de fôlego no abismo");
-                    Calamity.GetItem("AquaticEmblem").DisplayName.AddTranslation(GameCulture.Portuguese, "Emblema Aquático");
-                    Calamity.GetItem("AquaticEmblem").Tooltip.AddTranslation(GameCulture.Portuguese, "A maioria dos inimigos do oceano tornam-se amigáveis e fornece respiração embaixo d\u0027água\nEstar debaixo d\u0027água aumenta lentamente sua defesa ao longo do tempo, mas também diminui a sua velocidade de movimento\nO impulso de defesa e a redução da velocidade de movimento desaparecem lentamente fora d\u0027água\nO impulso máximo de defesa é 30, a redução máxima da velocidade de movimento é 5%\nFornece uma quantidade pequena de luz no abismo\nReduz razoavelmente a perda de fôlego no abismo");
+                    Calamity.GetItem("AeroStone").DisplayName.AddTranslation(GameCulture.Portuguese, "Rocha Aérea");
+                    Calamity.GetItem("AeroStone").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das relíquias antigas\nAumenta o tempo de voô, velocidade dos movimentos em 10% e velocidade dos pulos em 10%");
                     Calamity.GetItem("AngelTreads").DisplayName.AddTranslation(GameCulture.Portuguese, "Passos Angelicais");
                     Calamity.GetItem("AngelTreads").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade extrema!\n36% de aumento na aceleração de corrida\nMaior tempo de voô\nMaior mobilidade no gelo\nPermite andar sobre a água e a lava\nImunidade temporária à lava");
-                    Calamity.GetItem("IronBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas de Ferro");
-                    Calamity.GetItem("IronBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "Permite que você caia mais rápido em líquidos");
-                    Calamity.GetItem("OceanCrest").DisplayName.AddTranslation(GameCulture.Portuguese, "Crista do Oceano");
-                    Calamity.GetItem("OceanCrest").Tooltip.AddTranslation(GameCulture.Portuguese, "A maioria dos inimigos do oceano tornam-se amigáveis e fornece respiração embaixo d\u0027água");
-                    Calamity.GetItem("StatisNinjaBelt").DisplayName.AddTranslation(GameCulture.Portuguese, "Cinto Ninja de Statis");
-                    Calamity.GetItem("StatisNinjaBelt").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento na velocidade dos pulos e permite saltos constantes\nAumenta a resistência a danos por queda em 35 blocos\nPode escalar paredes, correr, e esquivar de ataques");
-                    Calamity.GetItem("StatisBeltOfCurses").DisplayName.AddTranslation(GameCulture.Portuguese, "Faixa do Vazio de Statis");
-                    Calamity.GetItem("StatisBeltOfCurses").Tooltip.AddTranslation(GameCulture.Portuguese, "24% de aumento na velocidade dos pulos e permite saltos constantes\nAumenta a resistência a danos por queda em 50 blocos\nPode escalar paredes, correr, e esquivar de ataques\nUm rastro de foices teleguiadas é deixado ao correr");
+                    Calamity.GetItem("AquaticEmblem").DisplayName.AddTranslation(GameCulture.Portuguese, "Emblema Aquático");
+                    Calamity.GetItem("AquaticEmblem").Tooltip.AddTranslation(GameCulture.Portuguese, "A maioria dos inimigos do oceano tornam-se amigáveis e fornece respiração embaixo d'água\nEstar debaixo d'água aumenta lentamente sua defesa ao longo do tempo, mas também diminui a sua velocidade de movimento\nO impulso de defesa e a redução da velocidade de movimento desaparecem lentamente fora d\u0027água\nO impulso máximo de defesa é 50, a redução máxima da velocidade de movimento é 10%\nFornece uma quantidade pequena de luz no abismo\nReduz razoavelmente a perda de fôlego no abismo");
                     Calamity.GetItem("AureateWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Reforço Áureo");
-                    Calamity.GetItem("AureateWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade máxima com estilo!\nVelocidade horizontal: 8\nMultiplicador de aceleração: 1.5\nVelocidade vertical boa\nTempo de voô: 80\n15% de aumento na velocidade dos movimentos ao vestir a Armadura do Ladrão");
+                    Calamity.GetItem("AureateWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade máxima com estilo!\nVelocidade horizontal: 8\nMultiplicador de aceleração: 1.5\nVelocidade vertical boa\nTempo de voô: 80\n10% de aumento na velocidade dos movimentos ao vestir a Armadura do Ladrão");
                     Calamity.GetItem("CelestialTracers").DisplayName.AddTranslation(GameCulture.Portuguese, "Rastreadores Celestiais");
-                    Calamity.GetItem("CelestialTracers").Tooltip.AddTranslation(GameCulture.Portuguese, "Levando a velocidade AO ALÉM!\nConta como asas\nVelocidade horizontal: 12\nMultiplicador de aceleração: 3\nVelocidade vertical excelente\nTempo de voô: 280\n50% de aumento na aceleração de corrida\nMaior mobilidade no gelo\nPermite andar sobre a água e a lava\nImunidade temporária à lava\nSer atingido por mais de 200 de danos o deixará imune por um longo período de tempo");
+                    Calamity.GetItem("CelestialTracers").Tooltip.AddTranslation(GameCulture.Portuguese, "Levando a velocidade AO ALÉM!\nConta como asas\nVelocidade horizontal: 12\nMultiplicador de aceleração: 3\nVelocidade vertical excelente\nTempo de voô: 280\n50% de aumento na aceleração de corrida\nMaior mobilidade no gelo\nPermite andar sobre a água e a lava\nImunidade temporária à lava\nSer atingido por mais de 200 de dano o deixará imune por um longo período de tempo");
                     Calamity.GetItem("DrewsWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Asas de Drew");
-                    Calamity.GetItem("DrewsWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Absolutamente Fabulosas\nVelocidade horizontal: 12\nMultiplicador de aceleração: 3\nVelocidade vertical excelente\nTempo de voô: 361");
+                    Calamity.GetItem("DrewsWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Absolutamente fabulosas\nVelocidade horizontal: 12\nMultiplicador de aceleração: 3\nVelocidade vertical excelente\nTempo de voô: 361");
                     Calamity.GetItem("ElysianTracers").DisplayName.AddTranslation(GameCulture.Portuguese, "Rastreadores do Elísio");
-                    Calamity.GetItem("ElysianTracers").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade ridícula!\nConta como asas\nVelocidade horizontal: 10.5\nMultiplicador de aceleração: 2.75\nVelocidade vertical ótima\nTempo de voô: 160\n36% de aumento na aceleração de corrida\nMaior mobilidade no gelo\nPermite andar sobre a água e a lava\nImunidade temporária à lava");
+                    Calamity.GetItem("ElysianTracers").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade ridícula!\nConta como asas\nVelocidade horizontal: 10.5\nMultiplicador de aceleração: 2.75\nVelocidade vertical ótima\nTempo de voô: 180\n36% de aumento na aceleração de corrida\nMaior mobilidade no gelo\nPermite andar sobre a água e a lava\nImunidade temporária à lava");
                     Calamity.GetItem("ElysianWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Asas do Elísio");
-                    Calamity.GetItem("ElysianWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Abençoadas pela Chama Profana\nVelocidade horizontal: 9.75\nMultiplicador de aceleração: 2.7\nVelocidade vertical ótima\nTempo de voô: 200\nImunidade temporária à lava e 40% de aumento na velocidade dos movimentos");
+                    Calamity.GetItem("ElysianWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Abençoadas pela Chama Profana\nVelocidade horizontal: 9.75\nMultiplicador de aceleração: 2.7\nVelocidade vertical ótima\nTempo de voô: 240\nImunidade temporária à lava e 15% de aumento na velocidade dos movimentos");
                     Calamity.GetItem("XerocWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Asas do Êxodo");
-                    Calamity.GetItem("XerocWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Pulsando com um batimento cardíaco alienígena\nVelocidade horizontal: 8.5\nMultiplicador de aceleração: 2\nVelocidade vertical boa\nTempo de voô: 180\n5% de aumento nos danos por ataques assassinos e na chance de ataque crítico ao vestir a Armadura Empírica");
-                    Calamity.GetItem("HadarianWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Asas Hadarianas");
-                    Calamity.GetItem("HadarianWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Alimentado pela Infecção Astral\nSegure para baixo para flutuar durante o voô, estendendo muito a duração do voô\nVelocidade horizontal: 9\nMultiplicador de aceleração: 1.75\nVelocidade vertical boa\nTempo de voô: 120\n20% de aumento na velocidade dos movimentos e 8% de aumento na velocidade dos pulos ao vestir a Armadura Astral");
-                    Calamity.GetItem("MOAB").DisplayName.AddTranslation(GameCulture.Portuguese, "MOAB");
-                    Calamity.GetItem("MOAB").Tooltip.AddTranslation(GameCulture.Portuguese, "A mãe de todos os balões\nConta como asas\nVelocidade horizontal: 6.5\nMultiplicador de aceleração: 1\nVelocidade vertical boa\nTempo de voô: 75\n16% de aumento na velocidade dos pulos e permite o pulo automático\nConcede ao jogador saltos no ar de nuvem, nevasca e tempestade de areia");
-                    Calamity.GetItem("DiscordianWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Manto Hadal");
-                    Calamity.GetItem("DiscordianWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Alimentado pela fúria das profundezas\nVelocidade horizontal: 7.75\nMultiplicador de aceleração: 1.5\nVelocidade vertical mediana\nTempo de voô: 180\n5% de aumento nos danos ao vestir a Armadura Hidrotérmica");
-                    Calamity.GetItem("InfinityBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Rastreadores Serafim");
-                    Calamity.GetItem("InfinityBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade ridícula!\nConta como asas\nVelocidade horizontal: 9\nMultiplicador de aceleração: 2.5\nVelocidade vertical boa\nTempo de voô: 120\n24% de aumento na aceleração de corrida\nMaior mobilidade no gelo\nPermite andar sobre a água e a lava\nImunidade temporária à lava");
-                    Calamity.GetItem("SilvaWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Asas de Silva");
-                    Calamity.GetItem("SilvaWings").Tooltip.AddTranslation(GameCulture.Portuguese, "As mais puras da natureza\nVelocidade horizontal: 11\nMultiplicador de aceleração: 2.8\nVelocidade vertical excelente\nTempo de voô: 220\nO revivimento Silva cura você até a metade da vida ao usar a armadura de Silva");
-                    Calamity.GetItem("SkylineWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Asas do Horizonte");
-                    Calamity.GetItem("SkylineWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade horizontal: 6.25\nMultiplicador de aceleração: 1\nVelocidade vertical mediana\nTempo de voô: 60\n5% de aumento na velocidade dos pulos ao vestir a armadura Aérea");
-                    Calamity.GetItem("SoulofCryogen").DisplayName.AddTranslation(GameCulture.Portuguese, "Alma do Criogênio");
-                    Calamity.GetItem("SoulofCryogen").Tooltip.AddTranslation(GameCulture.Portuguese, "A magia do antigo castelo de gelo é sua\nConta como asas\nVelocidade horizontal: 6.25\nMultiplicador de aceleração: 1\nVelocidade vertical mediana\nTempo de voô: 120\n7% de aumento em todos os danos\nTodos os ataques físicos e projéteis causam queimadura de gelo\nSincelos chovem enquanto você voa");
-                    Calamity.GetItem("StarlightWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Asas da Luz Estelar");
-                    Calamity.GetItem("StarlightWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Asas do Rouxinol\nVelocidade horizontal: 7.5\nMultiplicador de aceleração: 1\nVelocidade vertical mediana\nTempo de voô: 150\n5% de aumento nos danos e na chance de ataque crítico ao vestir a Armadura de Dédalo");
-                    Calamity.GetItem("TarragonWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Asas de Estragão");
-                    Calamity.GetItem("TarragonWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Nascido da selva\nVelocidade horizontal: 9.5\nMultiplicador de aceleração: 2.5\nVelocidade vertical ótima\nTempo de voô: 210\n+15 defesa e +2 regeneração de vida ao vestir a Armadura de Estragão");
-                    
-                    // Speed
-                    Calamity.GetItem("AeroStone").DisplayName.AddTranslation(GameCulture.Portuguese, "Rocha Aérea");
-                    Calamity.GetItem("AeroStone").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das relíquias antigas\nAumenta a velocidade dos movimentos em 10%, velocidade dos pulos em 20%, e todos os danos em 3%");
-                    Calamity.GetItem("GoldBurdenBreaker").DisplayName.AddTranslation(GameCulture.Portuguese, "Transgressor de Fardos");
-                    Calamity.GetItem("GoldBurdenBreaker").Tooltip.AddTranslation(GameCulture.Portuguese, "Um momento bom\nVá rápido\nAVISO: Pode ter resultados desastrosos\nAumenta a velocidade dos movimentos horizontal além da compreensão");
+                    Calamity.GetItem("XerocWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Pulsando com um batimento cardíaco alienígena\nVelocidade horizontal: 9\nMultiplicador de aceleração: 2.5\nVelocidade vertical boa\nTempo de voô: 180\n5% de aumento nos danos por ataques ladinos e na chance de ataque crítico ao vestir a Armadura Empírica");
                     Calamity.GetItem("GiantShell").DisplayName.AddTranslation(GameCulture.Portuguese, "Casco Gigante");
                     Calamity.GetItem("GiantShell").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de redução na velocidade dos movimentos\nSofrer um golpe fará você se mover muito rápido por um curto período de tempo");
+                    Calamity.GetItem("DiscordianWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Manto Hadal");
+                    Calamity.GetItem("DiscordianWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Alimentado pela fúria das profundezas\nVelocidade horizontal: 7.75\nMultiplicador de aceleração: 1.5\nVelocidade vertical mediana\nTempo de voô: 180\n5% de aumento nos danos ao vestir a Armadura Hidrotérmica");
+                    Calamity.GetItem("HadarianWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Asas Hadarianas");
+                    Calamity.GetItem("HadarianWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Alimentado pela Infecção Astral\nSegure para baixo para flutuar durante o voô, estendendo muito a duração do voô\nVelocidade horizontal: 9\nMultiplicador de aceleração: 1.75\nVelocidade vertical boa\nTempo de voô: 120\n10% de aumento na velocidade dos movimentos e na velocidade dos pulos ao vestir a Armadura Astral");
                     Calamity.GetItem("HarpyRing").DisplayName.AddTranslation(GameCulture.Portuguese, "Anel de Harpia");
-                    Calamity.GetItem("HarpyRing").Tooltip.AddTranslation(GameCulture.Portuguese, "20% de aumento na velocidade dos movimentos\nAumenta o tempo máximo de voô em 25% ");
+                    Calamity.GetItem("HarpyRing").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento na velocidade dos movimentos\nAumenta o tempo máximo de voô em 25% ");
+                    Calamity.GetItem("IronBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas de Ferro");
+                    Calamity.GetItem("IronBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "Permite que você caia mais rápido em líquidos");
+                    Calamity.GetItem("MOAB").DisplayName.AddTranslation(GameCulture.Portuguese, "MOAB");
+                    Calamity.GetItem("MOAB").Tooltip.AddTranslation(GameCulture.Portuguese, "A mãe de todos os balões\nConta como asas\nVelocidade horizontal: 6.5\nMultiplicador de aceleração: 1\nVelocidade vertical boa\nTempo de voô: 75\n10% de aumento na velocidade dos pulos e permite o pulo automático\nConcede ao jogador saltos no ar de nuvem, nevasca e tempestade de areia");
+                    Calamity.GetItem("OceanCrest").DisplayName.AddTranslation(GameCulture.Portuguese, "Crista do Oceano");
+                    Calamity.GetItem("OceanCrest").Tooltip.AddTranslation(GameCulture.Portuguese, "A maioria dos inimigos do oceano tornam-se amigáveis e fornece respiração embaixo d'água");
+                    Calamity.GetItem("InfinityBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Rastreadores Serafim");
+                    Calamity.GetItem("InfinityBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade ridícula!\nConta como asas\nVelocidade horizontal: 9\nMultiplicador de aceleração: 2.5\nVelocidade vertical boa\nTempo de voô: 140\n24% de aumento na aceleração de corrida\nMaior mobilidade no gelo\nPermite andar sobre a água e a lava\nImunidade temporária à lava");
+                    Calamity.GetItem("SilvaWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Asas de Silva");
+                    Calamity.GetItem("SilvaWings").Tooltip.AddTranslation(GameCulture.Portuguese, "As mais puras da natureza\nVelocidade horizontal: 11\nMultiplicador de aceleração: 2.8\nVelocidade vertical excelente\nTempo de voô: 270\nO revivimento Silva cura você até a metade da vida ao usar a armadura de Silva");
+                    Calamity.GetItem("SkylineWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Asas do Horizonte");
+                    Calamity.GetItem("SkylineWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade horizontal: 6.25\nMultiplicador de aceleração: 1\nVelocidade vertical mediana\nTempo de voô: 80\n10% de aumento na velocidade dos pulos ao vestir a armadura Aérea");
+                    Calamity.GetItem("SoulofCryogen").DisplayName.AddTranslation(GameCulture.Portuguese, "Alma do Criogênio");
+                    Calamity.GetItem("SoulofCryogen").Tooltip.AddTranslation(GameCulture.Portuguese, "A magia do antigo castelo de gelo é sua\nConta como asas\nVelocidade horizontal: 6.25\nMultiplicador de aceleração: 1\nVelocidade vertical mediana\nTempo de voô: 120\n7% de aumento em todos os danos\nTodos os ataques físicos e projéteis causam queimadura de gelo\nGelo chove enquanto você voa");
+                    Calamity.GetItem("StarlightWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Asas da Luz Estelar");
+                    Calamity.GetItem("StarlightWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Asas do Rouxinol\nVelocidade horizontal: 7.5\nMultiplicador de aceleração: 1\nVelocidade vertical mediana\nTempo de voô: 150\n5% de aumento nos danos e na chance de ataque crítico ao vestir a Armadura de Dédalo");
+                    Calamity.GetItem("StatisNinjaBelt").DisplayName.AddTranslation(GameCulture.Portuguese, "Cinto Ninja de Statis");
+                    Calamity.GetItem("StatisNinjaBelt").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento na velocidade dos pulos e permite saltos constantes\nAumenta a resistência a danos por queda em 35 blocos\nPode escalar paredes, correr, e esquivar de ataques\nO desvio tem um tempo de recarga de 90 segundos\nEste tempo de recarga é compartilhado com todos os outros desvios e reflexos");
+                    Calamity.GetItem("StatisBeltOfCurses").DisplayName.AddTranslation(GameCulture.Portuguese, "Faixa do Vazio de Statis");
+                    Calamity.GetItem("StatisBeltOfCurses").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento na velocidade dos pulos e permite saltos constantes\nFornece imunidade ao dano de queda\nPode escalar paredes, correr, e esquivar de ataques\nO desvio tem um tempo de recarga de 90 segundos\nEste tempo de recarga é compartilhado com todos os outros desvios e reflexos\nUm rastro de foices teleguiadas é deixado ao correr");
+                    Calamity.GetItem("TarragonWings").DisplayName.AddTranslation(GameCulture.Portuguese, "Asas de Estragão");
+                    Calamity.GetItem("TarragonWings").Tooltip.AddTranslation(GameCulture.Portuguese, "Nascido da selva\nVelocidade horizontal: 9.5\nMultiplicador de aceleração: 2.5\nVelocidade vertical ótima\nTempo de voô: 250\n+15 defesa e +2 regeneração de vida ao vestir a Armadura de Estragão");
                     Calamity.GetItem("VitalJelly").DisplayName.AddTranslation(GameCulture.Portuguese, "Geleia Vital");
-                    Calamity.GetItem("VitalJelly").Tooltip.AddTranslation(GameCulture.Portuguese, "20% de aumento na velocidade dos movimentos\n24% de aumento na velocidade dos pulos");
+                    Calamity.GetItem("VitalJelly").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento na velocidade dos movimentos e na velocidade dos pulos");
 
                     // Restorative
                     Calamity.GetItem("BloodPact").DisplayName.AddTranslation(GameCulture.Portuguese, "Pacto Sanguíneo");
                     Calamity.GetItem("BloodPact").Tooltip.AddTranslation(GameCulture.Portuguese, "Dobra sua vida máxima\nPermite que você seja criticamente acertado 25% das vezes\nApós um acerto crítico, você ganha vários efeitos por dez segundos\nQuaisquer poções de cura consumidas durante este período curam 50% a mais de vida");
+                    Calamity.GetItem("BloodflareCore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo das Chamas Sangrentas");
+                    Calamity.GetItem("BloodflareCore").Tooltip.AddTranslation(GameCulture.Portuguese, "Você perde até metade de sua defesa após sofrer danos\nA defesa perdida se regenera com o tempo\nVocê ganha 1 de vida para cada 1 defesa ganha enquanto ela regenera");
                     Calamity.GetItem("GrandGelatin").DisplayName.AddTranslation(GameCulture.Portuguese, "Grande Gelatina");
-                    Calamity.GetItem("GrandGelatin").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento na velocidade dos movimentos\n40% de aumento na velocidade dos pulos\n+20 vida e mana máxima\nFicar parado aumenta a regeneração de vida e mana");
+                    Calamity.GetItem("GrandGelatin").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento na velocidade dos movimentos e na velocidade dos pulos\n+20 vida e mana máxima\nFicar parado aumenta a regeneração de vida e mana");
                     Calamity.GetItem("LifeJelly").DisplayName.AddTranslation(GameCulture.Portuguese, "Geleia da Vida");
                     Calamity.GetItem("LifeJelly").Tooltip.AddTranslation(GameCulture.Portuguese, "+20 vida máxima\nFicar parado aumenta a regeneração de vida");
                     Calamity.GetItem("ManaJelly").DisplayName.AddTranslation(GameCulture.Portuguese, "Geleia de Mana");
@@ -258,235 +254,231 @@ namespace CalamityModPTBR
                     // Combat
                     // Offensive
                     Calamity.GetItem("AbyssalAmulet").DisplayName.AddTranslation(GameCulture.Portuguese, "Amuleto Abissal");
-                    Calamity.GetItem("AbyssalAmulet").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques causam o efeito negativo Pressão das profundezas\nEnquanto estiver no abismo, você ganha 10% de aumento na vida máxima");
-                    Calamity.GetItem("TheAmalgam").DisplayName.AddTranslation(GameCulture.Portuguese, "O Amálgama");
-                    Calamity.GetItem("TheAmalgam").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos\nSombra e fogo de enxofre chovem quando você é atingido\nInimigos próximos receberão uma variedade de efeitos negativos\nBolas de fogo de enxofre caem do céu ocasionalmente\nInvoca um aglomerado de fungos para lutar por você que deixa para trás água do mar venenosa\n75% de aumento na velocidade dos movimentos, 10% de aumento nos danos, e mais 40 defesa enquanto submerso em qualquer líquido\nOs bônus acima também se aplicam ao passar pela água do mar venenosa do aglomerado\nImunidade temporária à lava, reduz muito o dano causado pela lava, e 15% de aumento nos danos enquanto estiver na lava\nVocê tem uma aura que machuca e envenena inimigos próximos e movimento melhorado em líquidos");
+                    Calamity.GetItem("AbyssalAmulet").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques causam o efeito negativo Pressão das profundezas\nOferece imunidade ao efeito Pressão das profundezas\nEnquanto estiver no abismo, você ganha 10% de aumento na vida máxima");
+                    Calamity.GetItem("AbyssalMirror").DisplayName.AddTranslation(GameCulture.Portuguese, "Espelho Abissal");
+                    Calamity.GetItem("AbyssalMirror").Tooltip.AddTranslation(GameCulture.Portuguese, "A luz não atinge as profundezas do oceano\nReduz a agressão dos inimigos significantemente, até mesmo no abismo\nFurtividade gera 30% mais rápido enquanto parado e 20% mais rápido enquanto se move\nConcede a capacidade de se esquivar de ataques, liberando uma nuvem de fluido lumenil que danifica e atordoa os inimigos próximos\nEsquivar-se de um ataque concece muita furtividade mas tem um tempo de recarga de 90 segundos\nEste tempo de recarga é compartilhado com todos os outros desvios e reflexos");
                     Calamity.GetItem("AmalgamatedBrain").DisplayName.AddTranslation(GameCulture.Portuguese, "Cérebro Amalgamado");
                     Calamity.GetItem("AmalgamatedBrain").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos\nSombra cai quando você é atingido\nVocê confundirá os inimigos próximos após ser atingido");
                     Calamity.GetItem("AmidiasPendant").DisplayName.AddTranslation(GameCulture.Portuguese, "Pingente de Amidias");
                     Calamity.GetItem("AmidiasPendant").Tooltip.AddTranslation(GameCulture.Portuguese, "Fragmentos que podem brevemente atordoar os inimigos choverão periodicamente");
-                    Calamity.GetItem("TheBee").DisplayName.AddTranslation(GameCulture.Portuguese, "A Abelha");
-                    Calamity.GetItem("TheBee").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que estrelas caiam e libera abelhas quando sofrer dano\nQuando em vida total, seu dano é aumentado com base em sua redução dos danos\nDanos sofridos com vida cheia serão cortados pela metade\nIsso possui um tempo de recarga de 10 segundos");
-                    Calamity.GetItem("BloomStone").DisplayName.AddTranslation(GameCulture.Portuguese, "Rocha do Desabrocho");
-                    Calamity.GetItem("BloomStone").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das relíquias antigas\nInimigos que chegam perto de você recebem dano e todos os danos são aumentados em 3%\nVocê cultiva flores na grama abaixo de você, com chance de cultivar plantas de tintura aleatórias em terra sem grama");
-                    Calamity.GetItem("TheCamper").DisplayName.AddTranslation(GameCulture.Portuguese, "O Campista");
-                    Calamity.GetItem("TheCamper").Tooltip.AddTranslation(GameCulture.Portuguese, "No descanso, podemos encontrar a vitória.\nVocê não causa dano a menos que esteja estacionário\nFicar parado concede efeito(s) dependendo da arma que você está segurando\nFicar parado fornece uma aura que machuca ao seu redor\nEnquanto se move, você regenera vida como se estivesse parado\nFornece uma quantidade pequena de luz no Abismo");
-                    Calamity.GetItem("DarkSunRing").DisplayName.AddTranslation(GameCulture.Portuguese, "Anel do Sol Escuro");
-                    Calamity.GetItem("DarkSunRing").Tooltip.AddTranslation(GameCulture.Portuguese, "Contém o poder do sol escuro\n12% de aumento nos danos e na velocidade do ataque físico\n+1 regeneração de vida, 15% de aumento na velocidade da picareta, e +2 lacaios máximos\nAumenta o recuo dos lacaios\nDurante o dia, o jogador tem +3 regeneração de vida\nDurante a noite o jogador tem +30 de defesa\nAmbos os bônus são concedidos durante um eclipse");
-                    Calamity.GetItem("DimensionalSoulArtifact").DisplayName.AddTranslation(GameCulture.Portuguese, "Artefato da Alma Dimensional");
-                    Calamity.GetItem("DimensionalSoulArtifact").Tooltip.AddTranslation(GameCulture.Portuguese, "Poder\nAumenta todos os danos em 25%, mas a que custo?\nAumenta todos os danos recebidos em 15% ");
-                    Calamity.GetItem("EldritchSoulArtifact").DisplayName.AddTranslation(GameCulture.Portuguese, "Artefato da Alma Sobrenatural");
-                    Calamity.GetItem("EldritchSoulArtifact").Tooltip.AddTranslation(GameCulture.Portuguese, "Sabedoria\nAumenta a velocidade do ataque físico em 10%, velocidade à distância em 25%, dano assassino em 15%, lacaios máximos em 2, e reduz o custo de mana em 15%");
-                    Calamity.GetItem("FrostFlare").DisplayName.AddTranslation(GameCulture.Portuguese, "Chama Congelada");
-                    Calamity.GetItem("FrostFlare").Tooltip.AddTranslation(GameCulture.Portuguese, "Todos os ataques físicos e projéteis causam queimadura de gelo\nImunidade a queimadura de gelo, resfriado, e congelado\nResistente a ataques frios e +1 regeneração de vida\nEstar acima de 7% de vida concede ao jogador 10% de aumento nos danos\nEstar abaixo de 25% de vida concede ao jogador +10 de defesa e +15% de velocidade dos movimentos máxima e aceleração");
-                    Calamity.GetItem("Gehenna").DisplayName.AddTranslation(GameCulture.Portuguese, "Geena");
-                    Calamity.GetItem("Gehenna").Tooltip.AddTranslation(GameCulture.Portuguese, "Lança bolas de fogo de enxofre do céu ocasionalmente");
-                    Calamity.GetItem("GladiatorsLocket").DisplayName.AddTranslation(GameCulture.Portuguese, "Medalhão do Gladiador");
-                    Calamity.GetItem("GladiatorsLocket").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca dois espíritos espada para proteger você");
-                    Calamity.GetItem("HowlsHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração de Howl");
-                    Calamity.GetItem("HowlsHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca Howl para lutar por você, Calcifer para iluminar o seu caminho, e Cabeça de Nabo para seguir você por aí");
-                    Calamity.GetItem("LeviathanAmbergris").DisplayName.AddTranslation(GameCulture.Portuguese, "Âmbar Cinzento do Leviathan");
-                    Calamity.GetItem("LeviathanAmbergris").Tooltip.AddTranslation(GameCulture.Portuguese, "Você deixa água do mar venenosa enquanto se move\n75% de aumento na velocidade dos movimentos, 10% de aumento em todos os danos, e mais 20 de defesa quando submerso em líquidos\nSe você for danificado enquanto submerso em líquidos, você ganhará uma aura que machuca por um curto período de tempo\nEstar fora de líquidos aumenta todos os danos em 5% e a redução dos danos em 5%.");
-                    Calamity.GetItem("LumenousAmulet").DisplayName.AddTranslation(GameCulture.Portuguese, "Amuleto Lumíneo");
-                    Calamity.GetItem("LumenousAmulet").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques causam o efeito negativo Pressão das profundezas\nEnquanto estiver no abismo, você ganha 25% de aumento na vida máxima\nFornece uma quantidade razoável de luz no Abismo");
-                    Calamity.GetItem("LuxorsGift").DisplayName.AddTranslation(GameCulture.Portuguese, "Presente de Luxor");
-                    Calamity.GetItem("LuxorsGift").Tooltip.AddTranslation(GameCulture.Portuguese, "Armas disparam projéteis únicos com base no tipo de dano que causam\nAlgumas armas não podem receber este bônus");
-                    Calamity.GetItem("NebulousCore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo Nebuloso");
-                    Calamity.GetItem("NebulousCore").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos\nInvoca estrelas de nébula flutuantes para te proteger\nVocê tem 10% de chance de sobreviver a um ataque que teria te matado\nSe este efeito for ativado, você será curado em 100 de vida");
-                    Calamity.GetItem("NecklaceofVexation").DisplayName.AddTranslation(GameCulture.Portuguese, "Colar do Vexame");
-                    Calamity.GetItem("NecklaceofVexation").Tooltip.AddTranslation(GameCulture.Portuguese, "Vingança\n20% de aumento nos danos quando abaixo de 50% de vida\nTodos os ataques causam Inferno amaldiçoado e Peçonha ao vestir a Armadura do Ladrão");
-                    Calamity.GetItem("OldDie").DisplayName.AddTranslation(GameCulture.Portuguese, "Dado Velho");
-                    Calamity.GetItem("OldDie").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a aleatoriedade do dano dos ataques\n\u0027Para sua sorte, a maldição não afeta você. Na maioria.\u0027");
-                    Calamity.GetItem("DukeScales").DisplayName.AddTranslation(GameCulture.Portuguese, "Escamas do Velho Duque");
-                    Calamity.GetItem("DukeScales").Tooltip.AddTranslation(GameCulture.Portuguese, "Enquanto sob os efeitos de um efeito negativo que o danifica, você ganha 10% de aumento nos danos e 5% crítico\nPara cada 25% de vida perdida, você ganha 6% de aumento no dano e 3% crítico\nIsso atingirá o seu máximo em 18% de aumento nos danos e 9% crítico quando abaixo de 25% de vida\nImunidade a envenenado, peçonha, e envenenamento sulfúrico");
-                    Calamity.GetItem("PlagueHive").DisplayName.AddTranslation(GameCulture.Portuguese, "Colmeia da Praga");
-                    Calamity.GetItem("PlagueHive").Tooltip.AddTranslation(GameCulture.Portuguese, "O poder de suas abelhas e vespas rivalizará com o próprio Senhor da Lua\nInvoca uma aura de praga que machuca ao redor do jogador para destruir os inimigos próximos\nLibera abelhas quando sofrer dano\nAbelhas amigáveis infligem a praga\nTodos os seus ataques infligem a praga\nReduz o dano causado em você pela praga\nProjéteis invocam caçadores da praga ao acertar inimigos");
-                    Calamity.GetItem("ReaperToothNecklace").DisplayName.AddTranslation(GameCulture.Portuguese, "Colar do Dente Ceifeiro");
-                    Calamity.GetItem("ReaperToothNecklace").Tooltip.AddTranslation(GameCulture.Portuguese, "Um troféu terrível do predador supremo\n12% de aumento nos danos\nAumenta a perfuração de blindagem em 100");
-                    Calamity.GetItem("RottenBrain").DisplayName.AddTranslation(GameCulture.Portuguese, "Cérebro Apodrecido");
-                    Calamity.GetItem("RottenBrain").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumento em todos os tipos de dano em 10% quando abaixo de 75% de vida\nA velocidade de movimento é diminuída por 5% quando abaixo de 50% de vida\nSombra cai quando você é atingido");
-                    Calamity.GetItem("ToxicHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração Tóxico");
-                    Calamity.GetItem("ToxicHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca uma aura de praga que machuca ao redor do jogador para destruir os inimigos próximos");
-                    Calamity.GetItem("UnstablePrism").DisplayName.AddTranslation(GameCulture.Portuguese, "Prisma Instável");
-                    Calamity.GetItem("UnstablePrism").Tooltip.AddTranslation(GameCulture.Portuguese, "Três faíscas são liberadas em ataques críticos");
-                    Calamity.GetItem("CalamityRing").DisplayName.AddTranslation(GameCulture.Portuguese, "Vazio da Calamidade");
-                    Calamity.GetItem("CalamityRing").Tooltip.AddTranslation(GameCulture.Portuguese, "Amaldiçoado?\nReduz a redução dos danos em 10%\n15% de aumento em todos os danos\nFogo de enxofre chove enquanto a invencibilidade está ativa");
-                    Calamity.GetItem("VoidofExtinction").DisplayName.AddTranslation(GameCulture.Portuguese, "Vazio da Extinção");
-                    Calamity.GetItem("VoidofExtinction").Tooltip.AddTranslation(GameCulture.Portuguese, "Não mais amaldiçoado\nLança bolas de fogo de enxofre do céu ocasionalmente\n15% de aumento em todos os danos\nFogo de enxofre chove enquanto a invencibilidade está ativa\nImunidade temporária à lava, reduz muito o dano causado pela lava, e 25% de aumento nos danos enquanto estiver na lava");
-                    Calamity.GetItem("YharimsGift").DisplayName.AddTranslation(GameCulture.Portuguese, "Presente de Yharim");
-                    Calamity.GetItem("YharimsGift").Tooltip.AddTranslation(GameCulture.Portuguese, "O poder de um deus pulsa dentro desse artefato\nMeteoros em chamas chovem quando a invencibilidade está ativa\nPó de dragão explosivo é deixado para trás enquanto você se move\nDefesa aumentada em 30 e dano aumentado em 15%");
-
-                    //Melee
+                    Calamity.GetItem("AngelicAlliance").DisplayName.AddTranslation(GameCulture.Portuguese, "Aliança Angelical");
+                    Calamity.GetItem("AngelicAlliance").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoque a força dos céus para fortalecer seus ataques e lacaios\nCoragem, Iluminação, Bem-aventurança. Unidos no Julgamento\n+2 lacaios máximos, 15% de aumento nos danos por invocação e 8% de aumento no dano de todas as outras classes\nA regeneração de vida é aumentada enquanto pulando\nEsta linha é modificada no código abaixo. Se você consegue ler isto, alguém provavelmente fez algo de errado (foi o Ben)\nEnquanto estiver sob os efeitos da Bênção Divina, para cada lacaio que você tiver, um arcanjo será invocado para ajudá-lo no combate\nCada anjo invocado irá curar você instantaneamente por dois de vida\nTodos os ataques de lacaios infligem Fogo banidor e você recebe um aumento constante de vida de quatro de vida por segundo\nEste efeito tem um tempo de recarga de 1 minuto");
+                    Calamity.GetItem("DaedalusEmblem").DisplayName.AddTranslation(GameCulture.Portuguese, "Emblema de Artemis");
+                    Calamity.GetItem("DaedalusEmblem").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataque à distância, 5% de aumento na chance de acerto crítico à distância, e 20% de redução no consumo de munição\n5 de aumento na defesa, 2 de aumento na regeneração de vida, e 15% de aumento na velocidade da picareta");
                     Calamity.GetItem("BadgeofBravery").DisplayName.AddTranslation(GameCulture.Portuguese, "Insígnia da Bravura");
-                    Calamity.GetItem("BadgeofBravery").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento na velocidade do ataque físico\nUsar a armadura de Estragão aumentará o dano físico, crítico, e perfuração da blindagem");
+                    Calamity.GetItem("BadgeofBravery").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento na velocidade do ataque físico\nAumenta os danos por ataque físico e crítico físico em 5%\n+5 de perfuração de blindagem");
+                    Calamity.GetItem("BloodstainedGlove").DisplayName.AddTranslation(GameCulture.Portuguese, "Luva Manchada de Sangue");
+                    Calamity.GetItem("BloodstainedGlove").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques furtivos têm +10 perfuração de blindagem e curam 1 de vida");
                     Calamity.GetItem("BloodyWormScarf").DisplayName.AddTranslation(GameCulture.Portuguese, "Cachecol de Verme Sangrento");
                     Calamity.GetItem("BloodyWormScarf").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento na redução dos danos e estatísticas físicas aumentadas");
                     Calamity.GetItem("BloodyWormTooth").DisplayName.AddTranslation(GameCulture.Portuguese, "Dente de Verme Sangrento");
                     Calamity.GetItem("BloodyWormTooth").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na redução dos danos e estatísticas físicas aumentadas\n10% de aumento na redução dos danos e estatísticas físicas quando abaixo de 50% de vida");
-                    Calamity.GetItem("CounterScarf").DisplayName.AddTranslation(GameCulture.Portuguese, "Cachecol do Contra Ataque");
-                    Calamity.GetItem("CounterScarf").Tooltip.AddTranslation(GameCulture.Portuguese, "Acertos físicos verdadeiros causam 15% a mais de dano\nPermite correr; correr em um ataque fará com que você se desvie dele\nDepois de desviar, você receberá um reforço à todos os danos, velocidade do ataque físico, e todas as chances de crítico por um curto período de tempo\nDepois de um desvio bem-sucedido, você deve esperar 15 segundos antes de poder desviar novamente\nEsse tempo de recarga será duas vezes mais longo se você possuir Estado de caos\nEnquanto estiver recarregando, o Estado de caos durará duas vezes mais");
-                    Calamity.GetItem("ElementalGauntlet").DisplayName.AddTranslation(GameCulture.Portuguese, "Manopla Elemental");
-                    Calamity.GetItem("ElementalGauntlet").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques físicos causam a maioria dos efeitos negativos\n15% de aumento na velocidade de ataque físico, no dano, e 5% de aumento na chance de acerto crítico em ataque físico\n20% de aumento nos danos por ataques físicos verdadeiros\nAumento na invencibilidade após sofrer danos\nImunidade temporária à lava\nMaior recuo do ataque físico");
-                    Calamity.GetItem("EvasionScarf").DisplayName.AddTranslation(GameCulture.Portuguese, "Cachecol da Evasão");
-                    Calamity.GetItem("EvasionScarf").Tooltip.AddTranslation(GameCulture.Portuguese, "Acertos físicos verdadeiros causam 25% a mais de dano\nPermite correr; correr em um ataque fará com que você se desvie dele\nDepois de desviar, você receberá um reforço à todos os danos, velocidade do ataque físico, e todas as chances de crítico por um curto período de tempo\nDepois de um desvio bem-sucedido, você deve esperar 13 segundos antes de poder desviar novamente\nEsse tempo de recarga será 50 por cento mais longo se você possuir Estado de caos\nEnquanto estiver recarregando, o Estado de caos durará 50 por cento mais");
-                    Calamity.GetItem("FungalSymbiote").DisplayName.AddTranslation(GameCulture.Portuguese, "Simbionte Fúngico");
-                    Calamity.GetItem("FungalSymbiote").Tooltip.AddTranslation(GameCulture.Portuguese, "Várias armas físicas emitem cogumelos em alcance físico verdadeiro\nAcertos físicos verdadeiros causam 15% a mais de dano");
-                    Calamity.GetItem("SamuraiBadge").DisplayName.AddTranslation(GameCulture.Portuguese, "Estandarte de Guerra do Sol");
-                    Calamity.GetItem("SamuraiBadge").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o dano por ataques físicos, ataques físicos verdadeiros e velocidade do ataque físico quanto mais perto você está dos inimigos\nO reforço máximo é 20% de aumento nos danos por ataques físicos, ataques físicos verdadeiros e velocidade do ataque físico");
-                    Calamity.GetItem("YharimsInsignia").DisplayName.AddTranslation(GameCulture.Portuguese, "Insígnia de Yharim");
-                    Calamity.GetItem("YharimsInsignia").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos quando abaixo de 50% de vida\n10% de aumento na velocidade do ataque físico\n10% de aumento nos danos por ataques físicos e ataques físicos verdadeiros\nAtaques físicos causam fogo sagrado\nAumento na invencibilidade após sofrer danos\nImunidade temporária à lava\nMaior recuo do ataque físico");
-
-                    //Ranged
-                    Calamity.GetItem("DaedalusEmblem").DisplayName.AddTranslation(GameCulture.Portuguese, "Emblema de Artemis");
-                    Calamity.GetItem("DaedalusEmblem").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataque à distância, 5% de aumento na chance de acerto crítico à distância, e 20% de redução no consumo de munição\n5 de aumento na defesa, 2 de aumento na regeneração de vida, e 15% de aumento na velocidade da picareta");
-                    Calamity.GetItem("DynamoStemCells").DisplayName.AddTranslation(GameCulture.Portuguese, "Dínamo de Células-tronco");
-                    Calamity.GetItem("DynamoStemCells").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento na velocidade dos movimentos\nArmas de ataque à distância têm a chance de atirar mini voadores");
-                    Calamity.GetItem("ElementalQuiver").DisplayName.AddTranslation(GameCulture.Portuguese, "Aljava Elementar");
-                    Calamity.GetItem("ElementalQuiver").Tooltip.AddTranslation(GameCulture.Portuguese, "Projéteis de ataque à distância têm a chance de se dividir\n15% de aumento nos danos por ataque à distância e 5% de aumento na chance de acerto crítico à distância e 20% de redução no consumo de munição\n5 de aumento na defesa, 2 de aumento na regeneração de vida, e 15% de aumento na velocidade da picareta\nAumenta muito a velocidade das flechas e concece 20% de chance de não consumir flechas");
-                    Calamity.GetItem("PsychoticAmulet").DisplayName.AddTranslation(GameCulture.Portuguese, "Amuleto Psicótico");
-                    Calamity.GetItem("PsychoticAmulet").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o dano por ataque assassino e dano por ataque à distância e chance de acerto crítico em 5%\nConcede um grande impulso a essas estatísticas se você não estiver se movendo");
-                    Calamity.GetItem("RustyMedallion").DisplayName.AddTranslation(GameCulture.Portuguese, "Medalhão Enferrujado");
-                    Calamity.GetItem("RustyMedallion").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que armas de ataque à distância \u00e0s vezes liberem gotas de ácido do céu");
-
-                    //Magic
-                    Calamity.GetItem("ChaosStone").DisplayName.AddTranslation(GameCulture.Portuguese, "Rocha do Caos");
-                    Calamity.GetItem("ChaosStone").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das relíquias antigas\nAumenta a mana máxima em 50, todos os danos em 3% de reduz o consumo de mana em 5% ");
-                    Calamity.GetItem("EtherealTalisman").DisplayName.AddTranslation(GameCulture.Portuguese, "Talismã Etéreo");
-                    Calamity.GetItem("EtherealTalisman").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos por magia, 5% de aumento na chance de acerto crítico mágico, e 10% de redução no consumo de mana\n+150 mana máxima e revela a localização de tesouros se a visibilidade estiver ligada\nAumenta o alcance de coleta das estrelas de mana e você restaura mana ao sofrer danos\nVocê utiliza poções de mana automaticamente quando necessário se a visiblidade estiver ligada");
-                    Calamity.GetItem("ManaOverloader").DisplayName.AddTranslation(GameCulture.Portuguese, "Polarizador de Mana");
-                    Calamity.GetItem("ManaOverloader").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o máximo de mana em 50 e dano por magia em 6%\nRegeneração de vida diminuída em 3 se a mana estiver acima de 50% de seu máximo\nConcede cura espectral, a quantidade de cura aumenta com a sua mana\nA cura só funciona enquanto segura uma arma mágica\nQuanto mais mana você tem, mais você é curado");
-                    Calamity.GetItem("SigilofCalamitas").DisplayName.AddTranslation(GameCulture.Portuguese, "Sigilo de Calamitas");
-                    Calamity.GetItem("SigilofCalamitas").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por magia e 10% de redução no consumo de mana\nAumenta o alcance de coleta das estrelas de mana e você restaura mana ao sofrer danos\n+100 mana máxima e revela a localização de tesouros se a visibilidade estiver ligada");
-
-                    //Summon
-                    Calamity.GetItem("HallowedRune").DisplayName.AddTranslation(GameCulture.Portuguese, "Runa Consagrada");
-                    Calamity.GetItem("HallowedRune").Tooltip.AddTranslation(GameCulture.Portuguese, "Sempre que seus lacaios atingirem um inimigo, você ganhará um bônus aleatório\nEsses bônus irão aumentar sua defesa, seu dano por invocação ou regeneração de vida por um tempo\nSe você tiver o reforço ofensivo, os inimigos atingidos por lacaios \u00e0s vezes serão atingidos por estrelas");
-                    Calamity.GetItem("JellyChargedBattery").DisplayName.AddTranslation(GameCulture.Portuguese, "Bateria Carregada de Geleia");
-                    Calamity.GetItem("JellyChargedBattery").Tooltip.AddTranslation(GameCulture.Portuguese, "+1 lacaio máximo e 7% nos danos por lacaios\nAtaques de lacaios geram orbes de energia e infligem Eletrizado");
-                    Calamity.GetItem("NuclearRod").DisplayName.AddTranslation(GameCulture.Portuguese, "Bastão Nuclear");
-                    Calamity.GetItem("NuclearRod").Tooltip.AddTranslation(GameCulture.Portuguese, "Lacaios liberam uma aura irradiada ao atingir o inimigo\n+1 lacaio máximo");
-                    Calamity.GetItem("Nucleogenesis").DisplayName.AddTranslation(GameCulture.Portuguese, "Nucleogênese");
-                    Calamity.GetItem("Nucleogenesis").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o máximo de lacaios em 4 e 15% de aumento nos danos por lacaios\nOs lacaios infligem uma variedade de efeitos negativos\nOs lacaios geram faíscas que causam dano ao atingir o inimigo");
-                    Calamity.GetItem("SpiritGenerator").DisplayName.AddTranslation(GameCulture.Portuguese, "Glifo Espiritual");
-                    Calamity.GetItem("SpiritGenerator").Tooltip.AddTranslation(GameCulture.Portuguese, "Sempre que seus lacaios atingirem um inimigo, você ganhará um bônus aleatório\nEsses bônus irão aumentar sua defesa, seu dano por invocação ou regeneração de vida por um tempo");
-                    Calamity.GetItem("StarbusterCore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo da Explosão Estelar");
-                    Calamity.GetItem("StarbusterCore").Tooltip.AddTranslation(GameCulture.Portuguese, "Invocações lançam uma explosão astral ao atingir o inimigo\n+1 lacaio máximo");
-                    Calamity.GetItem("StarTaintedGenerator").DisplayName.AddTranslation(GameCulture.Portuguese, "Gerador Estrelado");
-                    Calamity.GetItem("StarTaintedGenerator").Tooltip.AddTranslation(GameCulture.Portuguese, "+2 lacaios máximos e 7% danos por lacaios\nAtaques de lacaios geram explosões astrais e infligem vários efeitos negativos");
-                    Calamity.GetItem("StatisBlessing").DisplayName.AddTranslation(GameCulture.Portuguese, "Bênção de Statis");
-                    Calamity.GetItem("StatisBlessing").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o máximo de lacaios em 2 e 10% de aumento nos danos por lacaios\nMaior recuo dos lacaios\nLacaios fazem os inimigos chorarem ao serem atingidos");
-                    Calamity.GetItem("StatisCurse").DisplayName.AddTranslation(GameCulture.Portuguese, "Maldição de Statis");
-                    Calamity.GetItem("StatisCurse").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o máximo de lacaios em 3 e 10% de aumento nos danos por lacaios\nMaior recuo dos lacaios\nConcede poderes de chama das sombras a todos os lacaios\nLacaios fazem os inimigos chorarem ao serem atingidos");
-                    Calamity.GetItem("TheFirstShadowflame").DisplayName.AddTranslation(GameCulture.Portuguese, "A Primeira Chama das Sombras");
-                    Calamity.GetItem("TheFirstShadowflame").Tooltip.AddTranslation(GameCulture.Portuguese, "Diz-se que, no passado, Prometeu desceu dos céus para conceder fogo ao homem.\nSe isso fosse verdade, então certamente seriam os demônios do inferno que teriam surgido de baixo para fazer o mesmo.\nLacaios infligem chama das sombras ao atingir o inimigo.");
-                    Calamity.GetItem("WulfrumBattery").DisplayName.AddTranslation(GameCulture.Portuguese, "Bateria de Vulfrânio");
-                    Calamity.GetItem("WulfrumBattery").Tooltip.AddTranslation(GameCulture.Portuguese, "7% de aumento nos danos por lacaios");
-                    Calamity.GetItem("VoltaicJelly").DisplayName.AddTranslation(GameCulture.Portuguese, "Geleia Voltaica");
-                    Calamity.GetItem("VoltaicJelly").Tooltip.AddTranslation(GameCulture.Portuguese, "+1 lacaio máximo\nAtaques de lacaios infligem Eletrizado");
-
-                    //Rogue
-                    Calamity.GetItem("AbyssalMirror").DisplayName.AddTranslation(GameCulture.Portuguese, "Espelho Abissal");
-                    Calamity.GetItem("AbyssalMirror").Tooltip.AddTranslation(GameCulture.Portuguese, "A luz não atinge as profundezas do oceano\nReduz a agressão dos inimigos significantemente, até mesmo no abismo\nFurtividade gera 30% mais rápido enquanto parado e 20% mais rápido enquanto se move\nConcede uma pequena chance de se esquivar de ataques, liberando uma nuvem de fluido lumenil que danifica e atordoa os inimigos próximos\nEsquivar-se de um ataque concece muita furtividade\nEssa evasão tem um tempo de recarga de 20 segundos antes que possa ocorrer novamente");
-                    Calamity.GetItem("BloodstainedGlove").DisplayName.AddTranslation(GameCulture.Portuguese, "Luva Manchada de Sangue");
-                    Calamity.GetItem("BloodstainedGlove").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques furtivos têm +10 perfuração de blindagem e curam 1 de vida");
                     Calamity.GetItem("BlunderBooster").DisplayName.AddTranslation(GameCulture.Portuguese, "Reforço da Enganação");
-                    Calamity.GetItem("BlunderBooster").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por ataques assassinos e 15% de aumento na velocidade dos projéteis assassinos\nInvoca uma aura de relâmpago vermelha para cercar o jogador e eletrificar os inimigos próximos\nLINHA DA DICA AQUI");
+                    Calamity.GetItem("BlunderBooster").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por ataques ladinos e 15% de aumento na velocidade dos projéteis ladinos\nFurtividade gera 10% mais rápido\nInvoca uma aura de relâmpago vermelha para cercar o jogador e eletrificar os inimigos próximos\nLINHA DA DICA AQUI");
+                    Calamity.GetItem("Calamity").DisplayName.AddTranslation(GameCulture.Portuguese, "Calamidade");
+                    Calamity.GetItem("Calamity").Tooltip.AddTranslation(GameCulture.Portuguese, "Incendeia o seu cursor com as chamas da Bruxa, invocando um sigilo ao seu redor\nInimigos que tocam no sigilo recebem danos imensos e são infligidos com o Feitiço de Vulnerabilidade\nEquipe em um espaço social para alterar o cursor sem causar danos");
+                    Calamity.GetItem("ChaosStone").DisplayName.AddTranslation(GameCulture.Portuguese, "Rocha do Caos");
+                    Calamity.GetItem("ChaosStone").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das relíquias antigas\nEnjoo por mana por poções de mana é substituído por Queimadura por mana\nQueimadura por mana causa danos ao longo do tempo em relação à intensidade do efeito negativo");
                     Calamity.GetItem("CoinofDeceit").DisplayName.AddTranslation(GameCulture.Portuguese, "Moeda do Engano");
-                    Calamity.GetItem("CoinofDeceit").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques furtivos gastam apenas 75% de sua furtividade máxima\n6% de aumento na chance de ataque assassino crítico");
+                    Calamity.GetItem("CoinofDeceit").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques furtivos gastam apenas 75% de sua furtividade máxima\n6% de aumento na chance de ataque ladino crítico");
                     Calamity.GetItem("CorrosiveSpine").DisplayName.AddTranslation(GameCulture.Portuguese, "Coluna Corrosiva");
-                    Calamity.GetItem("CorrosiveSpine").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento na velocidade dos movimentos\nTodas as armas assassinas causam veneno e geram nuvens ao atingir o inimigo\nVocê libera várias nuvens para todos os lados ao sofrer danos");
+                    Calamity.GetItem("CorrosiveSpine").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento na velocidade dos movimentos\nTodas as armas ladinas causam veneno e geram nuvens ao atingir o inimigo\nVocê libera várias nuvens para todos os lados ao sofrer danos");
+                    Calamity.GetItem("CounterScarf").DisplayName.AddTranslation(GameCulture.Portuguese, "Cachecol do Contra Ataque");
+                    Calamity.GetItem("CounterScarf").Tooltip.AddTranslation(GameCulture.Portuguese, "Acertos físicos verdadeiros causam 10% a mais de dano\nPermite correr; correr em um ataque fará com que você se desvie dele\nDepois de um desvio bem-sucedido, você deve esperar 15 segundos antes de poder desviar novamente\nEste tempo de recarga será duas vezes mais longo se você possuir Estado de caos\nEnquanto estiver recarregando, o Estado de caos durará duas vezes mais");
+                    Calamity.GetItem("DaawnlightSpiritOrigin").DisplayName.AddTranslation(GameCulture.Portuguese, "Origem do Espírito de Daawnlight");
+                    Calamity.GetItem("DaawnlightSpiritOrigin").Tooltip.AddTranslation(GameCulture.Portuguese, "Todos os inimigos e chefes próximos são marcados com alvos\nAtaques à distância que atingem um alvo sempre acertam criticamente e causam danos enormes\nQuando um alvo é atingido, ele desaparece e um novo aparece em outro lugar\nExplosões ou projéteis grandes não podem atingir os alvos\nConverte todos os aumentos de chance de acerto crítico à distância em dano de acerto crítico extra\nTodas as armas de ataque à distância causarão ainda mais danos por ataque crítico quanto mais lentas elas são\nInvoca um espírito heróico de outro mundo se a visibilidade do acessório estiver ativada\n'Uma vertente de um cosmos perdido permanece, esperando por seu mestre'");
                     Calamity.GetItem("DarkGodsSheath").DisplayName.AddTranslation(GameCulture.Portuguese, "Bainha do Deus das Trevas");
-                    Calamity.GetItem("DarkGodsSheath").Tooltip.AddTranslation(GameCulture.Portuguese, "+20 furtividade máxima\nA regeneração furtiva móvel acelera se você não estiver atacando\nAtaques furtivos têm 100% de chance de acerto crítico\nAtaques furtivos gastam apenas 50% de sua furtividade máxima\n6% de aumento nos danos por ataques assassinos, e 6% de aumento na chance de ataque assassino crítico");
+                    Calamity.GetItem("DarkGodsSheath").Tooltip.AddTranslation(GameCulture.Portuguese, "+20 furtividade máxima\nA regeneração furtiva móvel acelera se você não estiver atacando\nAtaques furtivos têm 100% de chance de acerto crítico\nAtaques furtivos gastam apenas 50% de sua furtividade máxima\n6% de aumento nos danos por ataques ladinos, e 6% de aumento na chance de ataque ladino crítico");
+                    Calamity.GetItem("DarkSunRing").DisplayName.AddTranslation(GameCulture.Portuguese, "Anel do Sol Escuro");
+                    Calamity.GetItem("DarkSunRing").Tooltip.AddTranslation(GameCulture.Portuguese, "Contém o poder do sol escuro\n12% de aumento nos danos e na velocidade do ataque físico\n+1 regeneração de vida, 15% de aumento na velocidade da picareta, e +2 lacaios máximos\nAumenta o recuo dos lacaios\nDurante o dia, o jogador tem +3 regeneração de vida\nDurante a noite o jogador tem +15 de defesa\nAmbos os bônus são concedidos durante um eclipse");
+                    Calamity.GetItem("DimensionalSoulArtifact").DisplayName.AddTranslation(GameCulture.Portuguese, "Artefato da Alma Dimensional");
+                    Calamity.GetItem("DimensionalSoulArtifact").Tooltip.AddTranslation(GameCulture.Portuguese, "Poder\nAumenta todos os danos em 25%, mas a que custo?\nAumenta todos os danos recebidos em 15% ");
+                    Calamity.GetItem("DraedonsHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração de Draedon");
+                    Calamity.GetItem("DraedonsHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz a quantidade de dano de defesa recebido em 50%\nFicar parado regenera a sua vida rapidamente, reduz o seu dano por 50% e aumenta a sua defesa em 75%\nNanomáquinas, filho");
                     Calamity.GetItem("DragonScales").DisplayName.AddTranslation(GameCulture.Portuguese, "Escamas de Dragão");
-                    Calamity.GetItem("DragonScales").Tooltip.AddTranslation(GameCulture.Portuguese, "Apenas um dragão vivo contém um verdadeiro tesouro\nProjéteis assassinos criam bolas de fogo lentas enquanto viajam\nAtaques furtivos criam infernados na morte\nDepois que Yharon morrer, você receberá 10% de velocidade dos movimentos e aceleração");
+                    Calamity.GetItem("DragonScales").Tooltip.AddTranslation(GameCulture.Portuguese, "Apenas um dragão vivo contém um verdadeiro tesouro\nProjéteis ladinos criam bolas de fogo lentas enquanto viajam\nAtaques furtivos criam infernados na morte\n10% de aumento na velocidade máxima e na aceleração");
+                    Calamity.GetItem("DynamoStemCells").DisplayName.AddTranslation(GameCulture.Portuguese, "Dínamo de Células-tronco");
+                    Calamity.GetItem("DynamoStemCells").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento na velocidade dos movimentos\nArmas de ataque à distância têm a chance de atirar pequenos voadores");
                     Calamity.GetItem("EclipseMirror").DisplayName.AddTranslation(GameCulture.Portuguese, "Espelho do Eclipse");
-                    Calamity.GetItem("EclipseMirror").Tooltip.AddTranslation(GameCulture.Portuguese, "Seu reflexo não mostra nada além de escuridão\n+20 furtividade máxima\n6% de aumento nos danos por ataques assassinos, e 6% de aumento na chance de ataque assassino crítico\nReduz vastamente a agressão dos inimigos, até mesmo no abismo\nFurtividade gera 20% mais rápido enquanto parado\nA generação furtiva móvel acelera exponencialmente se você não estiver atacando\nAtaques furtivos têm 100% de chance de acerto crítico\nAtaques furtivos gastam apenas 50% de sua furtividade máxima\nConcede uma pequena chance de se esquivar de ataques em uma explosão de luz do sol escuro que inflige danos extremos em uma ampla área\nEsquivar-se de um ataque concece furtividade cheia\nEssa evasão tem um tempo de recarga de 20 segundos antes que possa ocorrer novamente");
+                    Calamity.GetItem("EclipseMirror").Tooltip.AddTranslation(GameCulture.Portuguese, "Seu reflexo não mostra nada além de escuridão\n+20 furtividade máxima\n6% de aumento nos danos por ataques ladinos, e 6% de aumento na chance de ataque ladino crítico\nReduz vastamente a agressão dos inimigos, até mesmo no abismo\nFurtividade gera 20% mais rápido enquanto parado\nA generação furtiva móvel acelera exponencialmente se você não estiver atacando\nAtaques furtivos têm 100% de chance de acerto crítico\nAtaques furtivos gastam apenas 50% de sua furtividade máxima\nConcede a capacidade de se esquivar de ataques em uma explosão de luz do sol escuro que inflige danos extremos em uma ampla área\nEsquivar-se de um ataque concece furtividade cheia mas tem um tempo de recarga de 90 segundos\nEste tempo de recarga é compartilhado com todos os outros desvios e reflexos");
+                    Calamity.GetItem("EldritchSoulArtifact").DisplayName.AddTranslation(GameCulture.Portuguese, "Artefato da Alma Sobrenatural");
+                    Calamity.GetItem("EldritchSoulArtifact").Tooltip.AddTranslation(GameCulture.Portuguese, "Sabedoria\nAumenta a velocidade do ataque físico em 10%, velocidade à distância em 25%, dano ladino em 15%, lacaios máximos em 2, e reduz o custo de mana em 15%");
                     Calamity.GetItem("ElectriciansGlove").DisplayName.AddTranslation(GameCulture.Portuguese, "Luva do Eletricista");
-                    Calamity.GetItem("ElectriciansGlove").Tooltip.AddTranslation(GameCulture.Portuguese, "Os ataques furtivos invocam faíscas ao atingir o inimigo\nAtaques furtivos têm +30 perfuração da blindagem, causam 10% a mais de dano, e curam 1 de vida");
+                    Calamity.GetItem("ElectriciansGlove").Tooltip.AddTranslation(GameCulture.Portuguese, "Os ataques furtivos invocam faíscas ao atingir o inimigo\nAtaques furtivos têm +20 perfuração da blindagem, causam 10% a mais de dano, e curam 1 de vida");
+                    Calamity.GetItem("ElementalGauntlet").DisplayName.AddTranslation(GameCulture.Portuguese, "Manopla Elemental");
+                    Calamity.GetItem("ElementalGauntlet").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques e projéteis físicos causam a maioria dos efeitos negativos\n15% de aumento na velocidade de ataque físico, no dano, e 5% de aumento na chance de acerto crítico em ataque físico\n20% de aumento nos danos por ataques físicos verdadeiros\nImunidade temporária à lava\nMaior recuo do ataque físico");
+                    Calamity.GetItem("ElementalQuiver").DisplayName.AddTranslation(GameCulture.Portuguese, "Aljava Elementar");
+                    Calamity.GetItem("ElementalQuiver").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos por ataque à distância, 5% de aumento na chance de acerto crítico à distância, e 20% de redução no consumo de munição\n5 de aumento na defesa, 2 de aumento na regeneração de vida, e 15% de aumento na velocidade da picareta\nAumenta muito a velocidade das flechas e concece 20% de chance de não consumir flechas");
                     Calamity.GetItem("EtherealExtorter").DisplayName.AddTranslation(GameCulture.Portuguese, "Extorsor Etéreo");
-                    Calamity.GetItem("EtherealExtorter").Tooltip.AddTranslation(GameCulture.Portuguese, "Infunde almas em suas armas e corpo, gerando reforços diferentes que variam com o ambiente\nProjéteis assassinos raramente explodem em almas teleguiadas\n10% danos por ataques assassinos mas regeneração de vida diminuída");
+                    Calamity.GetItem("EtherealExtorter").Tooltip.AddTranslation(GameCulture.Portuguese, "Projéteis ladinos explodem em almas teleguiadas na morte\n10% de aumento no danos por ataque ladino e +10 furtividade máxima, no entanto regeneração de vida diminuída");
+                    Calamity.GetItem("EtherealTalisman").DisplayName.AddTranslation(GameCulture.Portuguese, "Talismã Etéreo");
+                    Calamity.GetItem("EtherealTalisman").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos por magia, 5% de aumento na chance de acerto crítico mágico, e 10% de redução no consumo de mana\n+150 mana máxima\nAumenta o alcance de coleta das estrelas de mana\nVocê utiliza poções de mana automaticamente quando necessário se a visiblidade estiver ligada");
+                    Calamity.GetItem("EvasionScarf").DisplayName.AddTranslation(GameCulture.Portuguese, "Cachecol da Evasão");
+                    Calamity.GetItem("EvasionScarf").Tooltip.AddTranslation(GameCulture.Portuguese, "Acertos físicos verdadeiros causam 15% a mais de dano\nPermite correr; correr em um ataque fará com que você se desvie dele\nDepois de um desvio bem-sucedido, você deve esperar 13 segundos antes de poder desviar novamente\nEste tempo de recarga será 50 por cento mais longo se você possuir Estado de caos\nEnquanto estiver recarregando, o Estado de caos durará 50 por cento mais");
                     Calamity.GetItem("FeatherCrown").DisplayName.AddTranslation(GameCulture.Portuguese, "Coroa de Penas");
-                    Calamity.GetItem("FeatherCrown").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento na velocidade dos projéteis assassinos\nAtaques furtivos fazem chover penas ao atingir um inimigo");
+                    Calamity.GetItem("FeatherCrown").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento na velocidade dos projéteis ladinos\nAtaques furtivos fazem com que penas caiam dos céus ao atingir um inimigo");
                     Calamity.GetItem("FilthyGlove").DisplayName.AddTranslation(GameCulture.Portuguese, "Luva Suja");
                     Calamity.GetItem("FilthyGlove").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques furtivos têm +10 perfuração da blindagem e causam 10% a mais de dano");
+                    Calamity.GetItem("FrostFlare").DisplayName.AddTranslation(GameCulture.Portuguese, "Chama Congelada");
+                    Calamity.GetItem("FrostFlare").Tooltip.AddTranslation(GameCulture.Portuguese, "Todos os ataques físicos e projéteis causam queimadura de gelo\nImunidade a queimadura de gelo, resfriado, e congelado\nEstar acima de 75% de vida concede ao jogador 10% de aumento nos danos\nEstar abaixo de 25% de vida concede ao jogador 10 de defesa e 15% de velocidade dos movimentos máxima e aceleração\nGrants resistance against cold attacks");
+                    Calamity.GetItem("FungalSymbiote").DisplayName.AddTranslation(GameCulture.Portuguese, "Simbionte Fúngico");
+                    Calamity.GetItem("FungalSymbiote").Tooltip.AddTranslation(GameCulture.Portuguese, "Várias armas físicas emitem cogumelos em alcance físico verdadeiro\nAcertos físicos verdadeiros causam 15% a mais de dano");
+                    Calamity.GetItem("Gehenna").DisplayName.AddTranslation(GameCulture.Portuguese, "Geena");
+                    Calamity.GetItem("Gehenna").Tooltip.AddTranslation(GameCulture.Portuguese, "Lança bolas de fogo de enxofre do céu ocasionalmente");
+                    Calamity.GetItem("GladiatorsLocket").DisplayName.AddTranslation(GameCulture.Portuguese, "Medalhão do Gladiador");
+                    Calamity.GetItem("GladiatorsLocket").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca dois espíritos espada para proteger você");
                     Calamity.GetItem("GloveOfPrecision").DisplayName.AddTranslation(GameCulture.Portuguese, "Luva da Precisão");
-                    Calamity.GetItem("GloveOfPrecision").Tooltip.AddTranslation(GameCulture.Portuguese, "Diminui a velocidade de ataques assassinos em 20% mas aumenta o dano e crítico em 12% e velocidade do projétil em 25%");
+                    Calamity.GetItem("GloveOfPrecision").Tooltip.AddTranslation(GameCulture.Portuguese, "Diminui a velocidade de ataques ladinos em 20% mas aumenta o dano e crítico em 12% e velocidade do projétil em 25%");
                     Calamity.GetItem("GloveOfRecklessness").DisplayName.AddTranslation(GameCulture.Portuguese, "Luva da Imprudência");
-                    Calamity.GetItem("GloveOfRecklessness").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a velocidade de ataques assassinos em 20% mas diminui o dano em 10%\nAdiciona imprecisão a armas assassinas");
+                    Calamity.GetItem("GloveOfRecklessness").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a velocidade de ataques ladinos em 20% mas diminui o dano em 10%\nAdiciona imprecisão a armas ladinas");
+                    Calamity.GetItem("GodlySoulArtifact").DisplayName.AddTranslation(GameCulture.Portuguese, "Artefato da Alma Sagrada");
+                    Calamity.GetItem("GodlySoulArtifact").Tooltip.AddTranslation(GameCulture.Portuguese, "Lealdade\nPara cada Filho de Yharon que você tem invocado, você ganha 1 espaço de lacaio");
+                    Calamity.GetItem("HallowedRune").DisplayName.AddTranslation(GameCulture.Portuguese, "Runa Consagrada");
+                    Calamity.GetItem("HallowedRune").Tooltip.AddTranslation(GameCulture.Portuguese, "Sempre que seus lacaios atingirem um inimigo, você ganhará um bônus aleatório, isto não acumula com as versões inferiores\nEstes bônus irão aumentar sua defesa, seu dano por invocação ou regeneração de vida por um tempo\nSe você tiver o reforço ofensivo, os inimigos atingidos por lacaios \u00e0s vezes serão atingidos por estrelas");
+                    Calamity.GetItem("HeartofDarkness").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração da Escuridão");
+                    Calamity.GetItem("HeartofDarkness").Tooltip.AddTranslation(GameCulture.Portuguese, "Você fanha fúria com o tempo\nFúria não desaparece gradualmente quando fora do combate\nEspólio do modo Vingança");
                     Calamity.GetItem("InkBomb").DisplayName.AddTranslation(GameCulture.Portuguese, "Bomba de Tinta");
-                    Calamity.GetItem("InkBomb").Tooltip.AddTranslation(GameCulture.Portuguese, "Lança várias bombas de tinta quando acertado que explodem em uma nuvem de tinta que confunde\nGanhe bastante furtividade ao ser atingido\nEsse efeito tem um tempo de recarga de 20 segundos antes que possa ocorrer novamente");
+                    Calamity.GetItem("InkBomb").Tooltip.AddTranslation(GameCulture.Portuguese, "Lança várias bombas de tinta quando acertado que explodem em uma nuvem de tinta que confunde\nGanhe bastante furtividade ao ser atingido\nEste efeito tem um tempo de recarga de 20 segundos antes que possa ocorrer novamente");
+                    Calamity.GetItem("JellyChargedBattery").DisplayName.AddTranslation(GameCulture.Portuguese, "Bateria Carregada de Geleia");
+                    Calamity.GetItem("JellyChargedBattery").Tooltip.AddTranslation(GameCulture.Portuguese, "+1 lacaio máximo e 7% nos danos por lacaios\nAtaques de lacaios geram orbes de energia e infligem Eletrizado");
+                    Calamity.GetItem("LeviathanAmbergris").DisplayName.AddTranslation(GameCulture.Portuguese, "Âmbar Cinzento do Leviathan");
+                    Calamity.GetItem("LeviathanAmbergris").Tooltip.AddTranslation(GameCulture.Portuguese, "Você deixa água do mar venenosa enquanto se move\n30% de aumento na velocidade dos movimentos, 10% de aumento em todos os danos, e mais 20 de defesa quando submerso em líquidos\nSe você for danificado enquanto submerso em líquidos, você ganhará uma aura que machuca por um curto período de tempo\nEstar fora de líquidos aumenta todos os danos em 5% e a redução dos danos em 5%");
+                    Calamity.GetItem("LumenousAmulet").DisplayName.AddTranslation(GameCulture.Portuguese, "Amuleto Lumíneo");
+                    Calamity.GetItem("LumenousAmulet").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques causam o efeito negativo Pressão das profundezas\nFornece imunidaed ao efeito negativo Pressão das profundezas\nEnquanto estiver no abismo, você ganha 25% de aumento na vida máxima\nFornece uma quantidade razoável de luz no Abismo");
+                    Calamity.GetItem("LuxorsGift").DisplayName.AddTranslation(GameCulture.Portuguese, "Presente de Luxor");
+                    Calamity.GetItem("LuxorsGift").Tooltip.AddTranslation(GameCulture.Portuguese, "Armas disparam projéteis únicos com base no tipo de dano que elas têm\nAlgumas armas não podem receber este bônus");
+                    Calamity.GetItem("ManaOverloader").DisplayName.AddTranslation(GameCulture.Portuguese, "Polarizador de Mana");
+                    Calamity.GetItem("ManaOverloader").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o máximo de mana em 50 e dano por magia em 6%\nRegeneração de vida diminuída em 3 se a mana estiver acima de 50% de seu máximo\nConcede cura espectral, a quantidade de cura aumenta com a sua mana\nA cura só funciona enquanto segura uma arma mágica\nQuanto mais mana você tem, mais você é curado");
                     Calamity.GetItem("MirageMirror").DisplayName.AddTranslation(GameCulture.Portuguese, "Espelho da Miragem");
                     Calamity.GetItem("MirageMirror").Tooltip.AddTranslation(GameCulture.Portuguese, "Curve a luz ao seu redor\nReduz a agressão dos inimigos fora do abismo\nFurtividade gera 30% mais rápido enquanto parado e 20% mais rápido enquanto se move");
                     Calamity.GetItem("MomentumCapacitor").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacitor de Impulso");
-                    Calamity.GetItem("MomentumCapacitor").Tooltip.AddTranslation(GameCulture.Portuguese, "LINHA DA DICA AQUI\nProjéteis assassinos que entram no campo obtêm uma aceleração constante e 15% de aumento nos danos\nEste reforço só pode acontecer a um projétil uma vez\nSó pode haver um campo");
+                    Calamity.GetItem("MomentumCapacitor").Tooltip.AddTranslation(GameCulture.Portuguese, "LINHA DA DICA AQUI\nProjéteis ladinos que entram no campo obtêm uma aceleração constante e 15% de aumento nos danos\nEste reforço só pode acontecer a um projétil uma vez\nSó pode haver um campo");
                     Calamity.GetItem("MoonstoneCrown").DisplayName.AddTranslation(GameCulture.Portuguese, "Coroa da Rocha Lunar");
-                    Calamity.GetItem("MoonstoneCrown").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento na velocidade dos projéteis assassinos\nAtaques furtivos invocam chamas da lua ao atingir um inimigo\nProjéteis assassinos muito ocasionalmente invocam sigilos da lua atrás deles");
+                    Calamity.GetItem("MoonstoneCrown").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento na velocidade dos projéteis ladinos\nAtaques furtivos invocam chamas da lua ao atingir um inimigo\nProjéteis ladinos muito ocasionalmente invocam sigilos da lua atrás deles");
                     Calamity.GetItem("Nanotech").DisplayName.AddTranslation(GameCulture.Portuguese, "Nanotecnologia");
-                    Calamity.GetItem("Nanotech").Tooltip.AddTranslation(GameCulture.Portuguese, "Projéteis assassinos criam nanolâminas enquanto viajam\nAtaques furtivos invocam nanofeixes e faíscas ao atingir inimigos\nAtaques furtivos têm +20 perfuração de blindagem, causam 5% a mais de dano, e curam 1 de vida\n12% de aumento nos danos por ataques assassinos e 15% de aumento na velocidade de projéteis assassinos\nSempre que você acertar um ataque crítico no inimigo com uma arma assassina, seu dano por ataque assassino aumenta\nEsse efeito pode acumular até 150 vezes\nO aumento de dano por ataque assassino máximo é 15%\nEssa linha é modificada abaixo");
+                    Calamity.GetItem("Nanotech").Tooltip.AddTranslation(GameCulture.Portuguese, "Projéteis ladinos criam nanolâminas enquanto viajam\nAtaques furtivos invocam nanofeixes e faíscas ao atingir inimigos\nAtaques furtivos têm +20 perfuração de blindagem, causam 5% a mais de dano, e curam 1 de vida\n12% de aumento nos danos por ataques ladinos e 15% de aumento na velocidade de projéteis ladinos\nSempre que você acertar um ataque crítico no inimigo com uma arma ladina, seu dano por ataque ladino aumenta\nEste efeito pode acumular até 150 vezes\nO aumento de dano por ataque ladino máximo é 15%\nEsta linha é modificada abaixo");
+                    Calamity.GetItem("NebulousCore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo Nebuloso");
+                    Calamity.GetItem("NebulousCore").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos\nInvoca estrelas de nébula flutuantes para te proteger\nVocê sobreviverá a um ataque que teria te matado e será curado em 100 HP\nEste efeito tem um tempo de recarga de 90 segundos");
+                    Calamity.GetItem("NecklaceofVexation").DisplayName.AddTranslation(GameCulture.Portuguese, "Colar do Vexame");
+                    Calamity.GetItem("NecklaceofVexation").Tooltip.AddTranslation(GameCulture.Portuguese, "Vingança\n20% de aumento nos danos quando abaixo de 50% de vida\nTodos os ataques causam Inferno amaldiçoado e Peçonha ao vestir a Armadura do Ladrão");
+                    Calamity.GetItem("NuclearRod").DisplayName.AddTranslation(GameCulture.Portuguese, "Bastão Nuclear");
+                    Calamity.GetItem("NuclearRod").Tooltip.AddTranslation(GameCulture.Portuguese, "Lacaios liberam uma aura irradiada ao atingir o inimigo\n+1 lacaio máximo");
+                    Calamity.GetItem("Nucleogenesis").DisplayName.AddTranslation(GameCulture.Portuguese, "Nucleogênese");
+                    Calamity.GetItem("Nucleogenesis").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o máximo de lacaios em 4, isto não acumula com as versões inferiores\n15% de aumento nos danos por lacaios\nMaior recuo dos lacaios\nOs lacaios infligem uma variedade de efeitos negativos\nOs lacaios geram faíscas que causam dano ao atingir o inimigo");
+                    Calamity.GetItem("OccultSkullCrown").DisplayName.AddTranslation(GameCulture.Portuguese, "Coroa do Crânio Oculto");
+                    Calamity.GetItem("OccultSkullCrown").Tooltip.AddTranslation(GameCulture.Portuguese, "Apenas um tolo vestiria isso...\nVocê ganha fúria constantemente ao longo do tempo e a fúria não desaparece quando está fora do combate\nConverte certos efeitos negativos em positivos e estende suas durações\nEfeitos negativos afetados: Trevas, Apagão, Confuso, Lento, Fraco, Armadura quebrada,\nTrituração de armadura, Clivagem de guerra, Resfriado, Ichor and Obstruído\nSofrer um golpe faz com que você perca apenas metade de sua adrenalina máxima, em vez de perder ela completamente\nAumenta a sua velocidade dos movimentos e aceleração máxima em 5%\nTambém pode ser usado como um elmo\nItem do modo Vingança");
+                    Calamity.GetItem("OldDie").DisplayName.AddTranslation(GameCulture.Portuguese, "Dado Velho");
+                    Calamity.GetItem("OldDie").Tooltip.AddTranslation(GameCulture.Portuguese, "Para sua sorte, a maldição não afeta você. Na maioria.\nAumenta a aleatoriedade do dano dos ataques");
+                    Calamity.GetItem("DukeScales").DisplayName.AddTranslation(GameCulture.Portuguese, "Escamas do Velho Duque");
+                    Calamity.GetItem("DukeScales").Tooltip.AddTranslation(GameCulture.Portuguese, "Enquanto sob os efeitos de um efeito negativo que o danifica, você ganha 10% de aumento nos danos e 5% crítico\nPara cada 25% de vida perdida, você ganha 6% de aumento no dano e 3% crítico\nIsso atingirá o seu máximo em 18% de aumento nos danos e 9% crítico quando abaixo de 25% de vida\nImunidade a envenenado, peçonha, e envenenamento sulfúrico");
+                    Calamity.GetItem("PhantomicArtifact").DisplayName.AddTranslation(GameCulture.Portuguese, "Artefato Fantasma");
+                    Calamity.GetItem("PhantomicArtifact").Tooltip.AddTranslation(GameCulture.Portuguese, "Sempre que seus lacaios atingirem um inimigo, você ganhará um efeito fantasma, isso não acumula com versões anteriores do acessório\nEsses bônus irão aumentar sua defesa, seu dano por invocação ou regeneração de vida por um tempo\nSe você tiver o efeito ofensivo, os inimigos atingidos por lacaios terão uma chance de serem atingidos por facas fantasmas\nSe você tiver o efeito regenerativo, um coração fantasma ocasionalmente se materializará, concedendo regeneração massiva de vida\nSe você tiver o efeito defensivo, um baluarte fantasma absorverá 20% do dano do próximo projétil que atingir o baluarte, quebrando-o");
+                    Calamity.GetItem("PlagueHive").DisplayName.AddTranslation(GameCulture.Portuguese, "Colmeia da Praga");
+                    Calamity.GetItem("PlagueHive").Tooltip.AddTranslation(GameCulture.Portuguese, "O poder de suas abelhas e vespas rivalizará com o próprio Senhor da Lua\nTodos os ataques infligem o efeito negativo Praga\nLibera abelhas que infligem a praga quando sofrer danos\nProjéteis invocam caçadores da praga ao atingir inimigos");
                     Calamity.GetItem("PlaguedFuelPack").DisplayName.AddTranslation(GameCulture.Portuguese, "Pacote de Combustível Infestado");
-                    Calamity.GetItem("PlaguedFuelPack").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por ataques assassinos\n15% de aumento na velocidade dos projéteis assassinos\nLINHA DA DICA AQUI\nEsse efeito tem um tempo de recarga de 3 segundos antes que possa ser usado novamente");
+                    Calamity.GetItem("PlaguedFuelPack").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por ataques ladinos e 15% de aumento na velocidade dos projéteis ladinos\nFurtividade regenera 10% mais rápido\nLINHA DA DICA AQUI");
+                    Calamity.GetItem("PsychoticAmulet").DisplayName.AddTranslation(GameCulture.Portuguese, "Amuleto Psicótico");
+                    Calamity.GetItem("PsychoticAmulet").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o dano por ataque ladino e dano por ataque à distância e chance de acerto crítico em 5%\nConcede um grande impulso a essas estatísticas se você não estiver se movendo");
                     Calamity.GetItem("RaidersTalisman").DisplayName.AddTranslation(GameCulture.Portuguese, "Talismã do Corsário");
-                    Calamity.GetItem("RaidersTalisman").Tooltip.AddTranslation(GameCulture.Portuguese, "Sempre que você acertar um ataque crítico no inimigo com uma arma assassina, seu dano por ataque assassino aumenta\nEsse efeito pode acumular até 150 vezes\nO aumento de dano por ataque assassino máximo é 15%\nNível de Crítico Assassino: {0}");
-                    Calamity.GetItem("RogueEmblem").DisplayName.AddTranslation(GameCulture.Portuguese, "Emblema do Assassino");
-                    Calamity.GetItem("RogueEmblem").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos por ataques assassinos");
+                    Calamity.GetItem("RaidersTalisman").Tooltip.AddTranslation(GameCulture.Portuguese, "Sempre que você acertar um ataque crítico no inimigo com uma arma ladina, seu dano por ataque ladino aumenta\nEsse efeito pode acumular até 150 vezes\nO aumento de dano por ataque ladino máximo é 15%\nEsta linha é modificada abaixo");
+                    Calamity.GetItem("ReaperToothNecklace").DisplayName.AddTranslation(GameCulture.Portuguese, "Colar do Dente Ceifeiro");
+                    Calamity.GetItem("ReaperToothNecklace").Tooltip.AddTranslation(GameCulture.Portuguese, "Um troféu terrível do predador supremo\n10% de aumento nos danos\nAumenta a perfuração de blindagem em 15");
+                    Calamity.GetItem("RogueEmblem").DisplayName.AddTranslation(GameCulture.Portuguese, "Emblema do Ladino");
+                    Calamity.GetItem("RogueEmblem").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos por ataques ladinos");
+                    Calamity.GetItem("RottenBrain").DisplayName.AddTranslation(GameCulture.Portuguese, "Cérebro Apodrecido");
+                    Calamity.GetItem("RottenBrain").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos quando abaixo de 75% de vida\n5% de redução na velocidade dos movimentos quando abaixo de 50% de vida\nSombra cai quando você é atingido");
+                    Calamity.GetItem("RottenDogtooth").DisplayName.AddTranslation(GameCulture.Portuguese, "Dente de Cachorro Apodrecido");
+                    Calamity.GetItem("RottenDogtooth").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que ataques furtivos inflijam Esmagamento de armadura, causem 10% a mais de dano e custem 1 unidade a menos de furtividade.");
                     Calamity.GetItem("RuinMedallion").DisplayName.AddTranslation(GameCulture.Portuguese, "Medalhão da Ruína");
-                    Calamity.GetItem("RuinMedallion").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques furtivos gastam apenas 50% de sua furtividade máxima\n6% de aumento nos danos por ataques assassinos, e 6% de aumento na chance de acerto crítico assassino");
+                    Calamity.GetItem("RuinMedallion").Tooltip.AddTranslation(GameCulture.Portuguese, "Ataques furtivos gastam apenas 50% de sua furtividade máxima\n6% de aumento nos danos por ataques ladinos, e 6% de aumento na chance de acerto crítico ladino");
+                    Calamity.GetItem("RustyMedallion").DisplayName.AddTranslation(GameCulture.Portuguese, "Medalhão Enferrujado");
+                    Calamity.GetItem("RustyMedallion").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que armas de ataque à distância \u00e0s vezes liberem gotas de ácido do céu");
                     Calamity.GetItem("SandCloak").DisplayName.AddTranslation(GameCulture.Portuguese, "Capa de Areia");
                     Calamity.GetItem("SandCloak").Tooltip.AddTranslation(GameCulture.Portuguese, "+1 defesa e 5% de aumento na velocidade dos movimentos\nLINHA DA DICA AQUI\nEsse efeito tem um tempo de recarga de 30 segundos antes que possa ser usado novamente");
-                    Calamity.GetItem("ScuttlersJewel").DisplayName.AddTranslation(GameCulture.Portuguese, "Joia de Scuttler");
-                    Calamity.GetItem("ScuttlersJewel").Tooltip.AddTranslation(GameCulture.Portuguese, "Projéteis de dardo assassinos têm a chance de gerar um espinho de joia quando destruídos");
+                    Calamity.GetItem("SandSharkToothNecklace").DisplayName.AddTranslation(GameCulture.Portuguese, "Colar do Dente de Tubarão de Areia");
+                    Calamity.GetItem("SandSharkToothNecklace").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a perfuração de blindagem em 10\n6% de aumento nos danos");
+                    Calamity.GetItem("ScuttlersJewel").DisplayName.AddTranslation(GameCulture.Portuguese, "Joia do Fugitivo");
+                    Calamity.GetItem("ScuttlersJewel").Tooltip.AddTranslation(GameCulture.Portuguese, "Projéteis ladinos furtivos geram um espinho de joia quando destruídos");
+                    Calamity.GetItem("ShatteredCommunity").DisplayName.AddTranslation(GameCulture.Portuguese, "Comunidade Despedaçada");
+                    Calamity.GetItem("ShatteredCommunity").Tooltip.AddTranslation(GameCulture.Portuguese, "Arruinada por um ódio desconhecido, ela ainda contém o poder da Comunidade (pelo menos, a maior parte dela)...\nVocê gera fúria com o tempo e a fúria não desaparece fora do combate\nSofrer danos fornece fúria, este efeito não é prejudicado por suas estatísticas defensivas\nEnquanto o Modo Fúria está ativado, sofrer danos fornece apenas a metade da quantidade de fúria\nCause danos com o Modo Fúria para fortalecer ainda mais sua ira\n");
+                    Calamity.GetItem("SigilofCalamitas").DisplayName.AddTranslation(GameCulture.Portuguese, "Sigilo de Calamitas");
+                    Calamity.GetItem("SigilofCalamitas").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos por magia e 10% de redução no consumo de mana\n+100 mana máxima\nAumenta o alcance de coleta das estrelas de mana");
                     Calamity.GetItem("SilencingSheath").DisplayName.AddTranslation(GameCulture.Portuguese, "Bainha Silenciadora");
                     Calamity.GetItem("SilencingSheath").Tooltip.AddTranslation(GameCulture.Portuguese, "+20 furtividade máxima\nFurtividade gera 15% mais rápido");
                     Calamity.GetItem("SpectralVeil").DisplayName.AddTranslation(GameCulture.Portuguese, "Véu Espectral");
-                    Calamity.GetItem("SpectralVeil").Tooltip.AddTranslation(GameCulture.Portuguese, "O interior da capa está cheio de dentes...\nLINHA DA DICA AQUI\nO teletransporte é desativado enquanto Estado de caos está ativo\nSe você se esquivar de algo enquanto estiver invulnerável, você ganha furtividade cheia instantaneamente\nEspólio do modo Vingança");
+                    Calamity.GetItem("SpectralVeil").Tooltip.AddTranslation(GameCulture.Portuguese, "O interior da capa está cheio de dentes...\nLINHA DA DICA AQUI\nSe você se esquivar de algo enquanto estiver invulnerável, você ganha furtividade cheia instantaneamente\nO teletransporte é desativado enquanto Estado de caos está ativo\nFornece 10% de aumento na velocidade dos movimentos\nFurtividade regenera 20% mais rápido enquanto andando");
+                    Calamity.GetItem("SpiritGenerator").DisplayName.AddTranslation(GameCulture.Portuguese, "Glifo Espiritual");
+                    Calamity.GetItem("SpiritGenerator").Tooltip.AddTranslation(GameCulture.Portuguese, "Sempre que seus lacaios atingirem um inimigo, você ganhará um bônus aleatório\nEstes bônus irão aumentar sua defesa, seu dano por invocação ou regeneração de vida por um tempo");
+                    Calamity.GetItem("StarTaintedGenerator").DisplayName.AddTranslation(GameCulture.Portuguese, "Gerador Estrelado");
+                    Calamity.GetItem("StarTaintedGenerator").Tooltip.AddTranslation(GameCulture.Portuguese, "+2 lacaios máximos, isto não acumula com versões anteriores\n7%de aumento nos danos por lacaios\nAtaques de lacaios geram explosões astrais e infligem vários efeitos negativos");
+                    Calamity.GetItem("StarbusterCore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo da Explosão Estelar");
+                    Calamity.GetItem("StarbusterCore").Tooltip.AddTranslation(GameCulture.Portuguese, "Invocações lançam uma explosão astral ao atingir o inimigo\n+1 lacaio máximo");
+                    Calamity.GetItem("StatisBlessing").DisplayName.AddTranslation(GameCulture.Portuguese, "Bênção de Statis");
+                    Calamity.GetItem("StatisBlessing").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o máximo de lacaios em 2 e 10% de aumento nos danos por lacaios\nMaior recuo dos lacaios\nLacaios infligem chamas profanas ao atingir um inimigo");
+                    Calamity.GetItem("StatisCurse").DisplayName.AddTranslation(GameCulture.Portuguese, "Maldição de Statis");
+                    Calamity.GetItem("StatisCurse").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o máximo de lacaios em 3, isto não acumula com versões anteriores\n10% de aumento nos danos por lacaios\nMaior recuo dos lacaios\nLacaios infligem chamas profanas e chamas das sombras ao atingir um inimigo");
+                    Calamity.GetItem("TheAmalgam").DisplayName.AddTranslation(GameCulture.Portuguese, "O Amálgama");
+                    Calamity.GetItem("TheAmalgam").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a duração de efeitos de poções em 100% e efeitos de poções permanecem ativos mesmo depois que você morrer\n15% de aumento nos danos\nSombra chove quando você é atingido\nInimigos próximos receberão uma variedade de efeitos negativos quando você for atingido");
+                    Calamity.GetItem("TheBee").DisplayName.AddTranslation(GameCulture.Portuguese, "A Abelha");
+                    Calamity.GetItem("TheBee").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que estrelas caiam e libera abelhas quando sofrer dano\nQuando em vida total, seu dano é aumentado com base em sua redução dos danos\nDanos sofridos com vida cheia serão cortados pela metade\nIsso possui um tempo de recarga de 10 segundos");
+                    Calamity.GetItem("TheFirstShadowflame").DisplayName.AddTranslation(GameCulture.Portuguese, "A Primeira Chama das Sombras");
+                    Calamity.GetItem("TheFirstShadowflame").Tooltip.AddTranslation(GameCulture.Portuguese, "Diz-se que, no passado, Prometeus desceu dos céus para conceder fogo ao homem.\nSe isso fosse verdade, então certamente seriam os demônios do inferno que teriam surgido de baixo para fazer o mesmo.\nLacaios infligem chama das sombras nos inimigos.");
                     Calamity.GetItem("ThiefsDime").DisplayName.AddTranslation(GameCulture.Portuguese, "Centavo do Ladrão");
                     Calamity.GetItem("ThiefsDime").Tooltip.AddTranslation(GameCulture.Portuguese, "Esses piratas não sabem nada sobre ganhar dinheiro\nInvoca uma moeda que gira em torno de você e rouba dinheiro dos inimigos");
+                    Calamity.GetItem("ToxicHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração Tóxico");
+                    Calamity.GetItem("ToxicHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca uma aura de praga que machuca ao redor do jogador para destruir os inimigos próximos\nTorna você imune ao efeito negativo Praga");
+                    Calamity.GetItem("UnstablePrism").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo de Granito Instável");
+                    Calamity.GetItem("UnstablePrism").Tooltip.AddTranslation(GameCulture.Portuguese, "Três faíscas são liberadas em ataques críticos");
                     Calamity.GetItem("VampiricTalisman").DisplayName.AddTranslation(GameCulture.Portuguese, "Talismã Vampírico");
-                    Calamity.GetItem("VampiricTalisman").Tooltip.AddTranslation(GameCulture.Portuguese, "Projéteis assassinos roubam vida dos inimigos em acertos críticos\n12% de aumento nos danos por ataques assassinos");
+                    Calamity.GetItem("VampiricTalisman").Tooltip.AddTranslation(GameCulture.Portuguese, "Projéteis ladinos roubam vida dos inimigos em acertos críticos\n12% de aumento nos danos por ataques ladinos");
                     Calamity.GetItem("VeneratedLocket").DisplayName.AddTranslation(GameCulture.Portuguese, "Medalhão Venerado");
-                    Calamity.GetItem("VeneratedLocket").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataques assassinos\nUsar uma arma assassina invoca uma cópia do projétil que cai do céu\nAtaques furtivos fazem com que um leque circular em busca de facas de cosmilita seja lançado\nVocê nunca estará sozinho, não importa onde você vá");
-
-                    //Rage and Adrenaline
-                    Calamity.GetItem("DraedonsHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração de Draedon");
-                    Calamity.GetItem("DraedonsHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "Dá 10% de aumento nos danos enquanto você possui o efeito Fúria absoluta\nAumenta sua chance de obter o efeito Fúria absoluta\nAumenta o seu dano em 5% e velocidade dos movimentos e aceleração máxima em 5%\nO modo fúria causa mais danos\nVocê ganha fúria com o tempo\nConverte certos efeitos negativos em positivos e estende suas durações\nEfeitos negativos afetados: Trevas, Apagão, Confuso, Lento, Fraco, Armadura quebrada,\nTrituração de armadura, Clivagem de guerra, Resfriado, Ichor and Obstruído\nReceber um golpe faz com que você perca apenas metade de sua adrenalina máxima, em vez de perder ela completamente\nFicar parado regenera sua vida rapidamente e aumenta sua defesa em 25");
-                    Calamity.GetItem("HeartofDarkness").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração da Escuridão");
-                    Calamity.GetItem("HeartofDarkness").Tooltip.AddTranslation(GameCulture.Portuguese, "Dá 10% de aumento nos danos enquanto você possui o efeito Fúria absoluta\nAumenta sua chance de obter o efeito Fúria absoluta\nO modo fúria causa mais danos\nVocê ganha fúria com o tempo\nEspólio do modo Vingança");
+                    Calamity.GetItem("VeneratedLocket").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataques ladinos\nUsar uma arma ladina invoca uma cópia do projétil que cai do céu\nAtaques furtivos fazem com que um leque circular em busca de facas de cosmilita seja lançado\nVocê nunca estará sozinho, não importa onde você vá");
+                    Calamity.GetItem("CalamityRing").DisplayName.AddTranslation(GameCulture.Portuguese, "Vazio da Calamidade");
+                    Calamity.GetItem("CalamityRing").Tooltip.AddTranslation(GameCulture.Portuguese, "Amaldiçoado? Reduz a redução dos danos em 10%\n15% de aumento em todos os danos\nFogo de enxofre chove enquanto a invencibilidade está ativa");
+                    Calamity.GetItem("VoidofExtinction").DisplayName.AddTranslation(GameCulture.Portuguese, "Vazio da Extinção");
+                    Calamity.GetItem("VoidofExtinction").Tooltip.AddTranslation(GameCulture.Portuguese, "Não mais amaldiçoado\nLança bolas de fogo de enxofre do céu ocasionalmente\n15% de aumento em todos os danos\nFogo de enxofre chove enquanto a invencibilidade está ativa\nImunidade temporária à lava, reduz muito o dano causado pela lava, e 25% de aumento nos danos enquanto estiver na lava");
+                    Calamity.GetItem("VoltaicJelly").DisplayName.AddTranslation(GameCulture.Portuguese, "Geleia Voltaica");
+                    Calamity.GetItem("VoltaicJelly").Tooltip.AddTranslation(GameCulture.Portuguese, "+1 lacaio máximo\nAtaques de lacaios infligem Eletrizado");
+                    Calamity.GetItem("SamuraiBadge").DisplayName.AddTranslation(GameCulture.Portuguese, "Estandarte de Guerra do Sol");
+                    Calamity.GetItem("SamuraiBadge").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o dano por ataques físicos, ataques físicos verdadeiros e velocidade do ataque físico quanto mais perto você está dos inimigos\nO reforço máximo é 20% de aumento nos danos por ataques físicos, ataques físicos verdadeiros e velocidade do ataque físico");
+                    Calamity.GetItem("WulfrumBattery").DisplayName.AddTranslation(GameCulture.Portuguese, "Bateria de Vulfrânio");
+                    Calamity.GetItem("WulfrumBattery").Tooltip.AddTranslation(GameCulture.Portuguese, "7% de aumento nos danos por lacaios");
+                    Calamity.GetItem("YharimsGift").DisplayName.AddTranslation(GameCulture.Portuguese, "Presente de Yharim");
+                    Calamity.GetItem("YharimsGift").Tooltip.AddTranslation(GameCulture.Portuguese, "O poder de um deus pulsa dentro desse artefato\nMeteoros em chamas chovem quando a invencibilidade está ativa\nPó de dragão explosivo é deixado para trás enquanto você se move\nDefesa aumentada em 30 e dano aumentado em 15%");
+                    Calamity.GetItem("YharimsInsignia").DisplayName.AddTranslation(GameCulture.Portuguese, "Insígnia de Yharim");
+                    Calamity.GetItem("YharimsInsignia").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos quando abaixo de 50% de vida\n10% de aumento na velocidade do ataque físico\n10% de aumento nos danos por ataques físicos e ataques físicos verdadeiros\nAtaques físicos causam fogo sagrado\nImunidade temporária à lava\nMaior recuo do ataque físico");
 
                     //Defensive
                     Calamity.GetItem("Abaddon").DisplayName.AddTranslation(GameCulture.Portuguese, "Abaddon");
-                    Calamity.GetItem("Abaddon").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz o dano causado pelo efeito negativo Chamas de enxofre");
-                    Calamity.GetItem("TheAbsorber").DisplayName.AddTranslation(GameCulture.Portuguese, "O Absorvedor");
-                    Calamity.GetItem("TheAbsorber").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento na velocidade dos movimentos\n24% de aumento na velocidade dos pulos\n+20 vida e mana máxima\nFicar parado aumenta a regeneração de vida e mana\nMaior defesa e redução dos danos quando submerso em líquidos\nMaior velocidade dos movimentos quando submerso em líquidos\nInimigos sofrem danos quando te atacam\nSofrer um golpe fará você se mover muito rápido por um curto período de tempo\nVocê emite uma explosão de esporos de cogumelo e faíscas quando atingido\n5% de aumento na redução dos danos\nAtaques inimigos terão parte do dano absorvido e usado para curar vocÊ");
+                    Calamity.GetItem("Abaddon").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz o dano causado pelo efeito negativo Chamas de enxofre e fornece imunidade à Lava abrasadora");
                     Calamity.GetItem("AbyssalDivingSuit").DisplayName.AddTranslation(GameCulture.Portuguese, "Traje de Mergulho Abissal");
-                    Calamity.GetItem("AbyssalDivingSuit").Tooltip.AddTranslation(GameCulture.Portuguese, "Transforma o jogador em um mergulhador com armadura\nAumenta a velocidade dos movimentos enquanto debaixo d\u0027água e se move lentamente fora d\u0027água\nAs placas blindadas dos trajes reduzem o dano recebido em 15%\nAs placas só sofrerão danos se o dano recebido for maior que 50\nDepois que o traje tiver sofrido muitos danos, suas placas blindadas levarão 3 minutos para se regenerar\nReduz o dano causado pela pressão do abismo enquanto sem fôlego\nRemove o efeito de sangramento causado pelo abismo em todas as camadas, exceto a mais profunda\nFornece luz debaixo d\u0027água e maior mobilidade no gelo\nFornece uma quantidade razoável de luz no abismo\nReduz bastante a perda de fôlego no abismo\nReduz a capacidade das criaturas de detectá-lo no abismo\nReduz a redução da defesa que o abismo causa\nPermite que você caia mais rápido em líquidos");
+                    Calamity.GetItem("AbyssalDivingSuit").Tooltip.AddTranslation(GameCulture.Portuguese, "Transforma o jogador em um mergulhador com armadura\nAumenta a velocidade dos movimentos e a aceleração enquanto debaixo d\u0027água mas você se move lentamente fora d\u0027água\nAs placas blindadas dos trajes reduzem o dano recebido em 15%\nAs placas só sofrerão danos se o dano recebido for maior que 50\nDepois que o traje tiver sofrido muitos danos, suas placas blindadas levarão 3 minutos para se regenerar\nReduz o dano causado pela pressão do abismo enquanto sem fôlego\nRemove o efeito de sangramento causado pelo abismo em todas as camadas, exceto a mais profunda\nOferece a capacidade de nadar um aumento enorme no tempo embaixo d'água\nFornece luz debaixo d\u0027água e maior mobilidade no gelo\nFornece uma quantidade razoável de luz no abismo\nReduz bastante a perda de fôlego no abismo\nReduz a capacidade das criaturas de detectá-lo no abismo\nReduz a redução da defesa que o abismo causa\nPermite que você caia mais rápido em líquidos");
                     Calamity.GetItem("Affliction").DisplayName.AddTranslation(GameCulture.Portuguese, "Aflição");
-                    Calamity.GetItem("Affliction").Tooltip.AddTranslation(GameCulture.Portuguese, "Dá a você e todos os outros jogadores no seu time +1 regeneração de vida\n+10% vida máxima, 7% redução dos danos, 20 defesa, e 10% de aumento nos danos");
+                    Calamity.GetItem("Affliction").Tooltip.AddTranslation(GameCulture.Portuguese, "Dá a você e todos os outros jogadores no seu time +1 regeneração de vida\n+10% vida máxima, 7% redução dos danos, 10 defesa, e 10% de aumento nos danos");
                     Calamity.GetItem("AlchemicalFlask").DisplayName.AddTranslation(GameCulture.Portuguese, "Frasco Alquímico");
-                    Calamity.GetItem("AlchemicalFlask").Tooltip.AddTranslation(GameCulture.Portuguese, "Todos os ataques infligem a praga\nReduz o dano causado em você pela praga\nRemove o efeito de cegueira causado pela Praga\nProjéteis invocam caçadores da praga ao acertar inimigos");
+                    Calamity.GetItem("AlchemicalFlask").Tooltip.AddTranslation(GameCulture.Portuguese, "Todos os ataques infligem a praga\nProjéteis invocam caçadores da praga ao acertar inimigos");
                     Calamity.GetItem("AmbrosialAmpoule").DisplayName.AddTranslation(GameCulture.Portuguese, "Ampola Ambrosial");
-                    Calamity.GetItem("AmbrosialAmpoule").Tooltip.AddTranslation(GameCulture.Portuguese, "25% de aumento na velocidade de mineração\nVocê emite luz\n5% de aumento na redução dos danos e regeneração de vida\nImune a Veneno, Congelado, Resfriado, Queimadura de gelo, e Peçonha\nRegeneração de vida semelhante ao mel sem penalidade de velocidade\nA maioria dos inimigos e projéteis abelhas/vespas causam 75% de dano a você");
+                    Calamity.GetItem("AmbrosialAmpoule").Tooltip.AddTranslation(GameCulture.Portuguese, "Você emite luz\n7% de aumento na redução dos danos e aumento da regeneração de vida\nImune a veneno, resfriado, e queimadura de gelo");
                     Calamity.GetItem("AmidiasSpark").DisplayName.AddTranslation(GameCulture.Portuguese, "Faíscas de Amidias");
-                    Calamity.GetItem("AmidiasSpark").Tooltip.AddTranslation(GameCulture.Portuguese, "Sofrer danos libera uma explosão de faíscas\nAs faíscas causam mais danos no Modo Difícil");
+                    Calamity.GetItem("AmidiasSpark").Tooltip.AddTranslation(GameCulture.Portuguese, "Sofrer danos libera uma explosão de faíscas");
                     Calamity.GetItem("AnechoicPlating").DisplayName.AddTranslation(GameCulture.Portuguese, "Revestimento Anecóico");
                     Calamity.GetItem("AnechoicPlating").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz a capacidade das criaturas de detectá-lo no abismo\nReduz a redução da defesa que o abismo causa");
                     Calamity.GetItem("SirensHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração Aquático");
-                    Calamity.GetItem("SirensHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "Transforma o jogador em um elemental de água\nIr para debaixo d\u0027água te dá um efeito\nReduz bastante a perda de fôlego e fornece uma quantidade pequena de luz no abismo\nInimigos ficam congelados quando te tocam\nVocê tem uma camada de gelo ao seu redor que absorve 20% dos danos, mas se quebra após um acerto\nApós 30 segundos, o escudo de gelo irá se regenerar\nUau, você pode nadar agora!\nA maioria desses efeitos só ficam ativos depois que o Esqueletron for derrotado\nEspólio do modo Vingança");
-                    Calamity.GetItem("ArcanumoftheVoid").DisplayName.AddTranslation(GameCulture.Portuguese, "Arcano do Vazio");
-                    Calamity.GetItem("ArcanumoftheVoid").Tooltip.AddTranslation(GameCulture.Portuguese, "Você tem 5% de chance de refletir projéteis quando eles o atingem\nSe este efeito for ativado, você será curado pelo dano do projétil");
+                    Calamity.GetItem("SirensHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "Transforma o jogador em um elemental de água\nIr para debaixo d\u0027água te dá um efeito\nReduz bastante a perda de fôlego e fornece uma quantidade pequena de luz no abismo\nInimigos ficam congelados quando te tocam\nVocê tem uma camada de gelo ao seu redor que absorve 20% dos danos, mas se quebra após um acerto\nApós 30 segundos, o escudo de gelo irá se regenerar\nUau, você pode nadar agora!\nA maioria desses efeitos só ficam ativos depois que o Esqueletron for derrotado");
                     Calamity.GetItem("AsgardsValor").DisplayName.AddTranslation(GameCulture.Portuguese, "Valor de Asgard");
-                    Calamity.GetItem("AsgardsValor").Tooltip.AddTranslation(GameCulture.Portuguese, "Oferece imunidade a blocos de fogo e a recuos\nImune a maioria dos efeitos negativos e reduz o dano causado pelo efeito negativo Chamas de enxofre\n10% de redução dos danos enquanto submerso em líquidos\n+20 vida máxima\nConcede uma corrida sagrada que pode ser usada para colidir-se com os inimigos");
+                    Calamity.GetItem("AsgardsValor").Tooltip.AddTranslation(GameCulture.Portuguese, "Oferece imunidade a blocos de fogo e a recuos\nImune a maioria dos efeitos negativos e reduz o dano causado pelo efeito negativo Chamas de enxofre\n+16 de defesa enquanto submerso em líquidos\n+20 vida máxima\nConcede uma corrida sagrada que pode ser usada para colidir-se com os inimigos");
                     Calamity.GetItem("AsgardianAegis").DisplayName.AddTranslation(GameCulture.Portuguese, "Égide Asgardiana");
-                    Calamity.GetItem("AsgardianAegis").Tooltip.AddTranslation(GameCulture.Portuguese, "Oferece imunidade a blocos de fogo e a recuos\nImune a maioria dos efeitos negativos\n+40 vida máxima\nConcede uma corrida de chamas sagradas suprema\nPode ser usado para colidir-se com inimigos\nAperte {0} para ativar reforços para todos os danos, chance de crítico e defesa\nAtivar esse efeito irá reduzir sua velocidade de movimento e aumentar a agressão inimiga\n10% de redução dos danos enquanto submerso em líquidos");
+                    Calamity.GetItem("AsgardianAegis").Tooltip.AddTranslation(GameCulture.Portuguese, "Oferece imunidade a blocos de fogo e a recuos\nImune a maioria dos efeitos negativos\n+40 vida máxima e maior regeneração de vida\nConcede uma corrida de chamas sagradas suprema\nPode ser usado para colidir-se com inimigos\nLINHA DA DICA AQUI\nAtivar esse efeito irá reduzir sua velocidade de movimento e aumentar a agressão inimiga\n+20 de defesa enquanto submerso em líquidos");
                     Calamity.GetItem("AstralArcanum").DisplayName.AddTranslation(GameCulture.Portuguese, "Arcano Astral");
-                    Calamity.GetItem("AstralArcanum").Tooltip.AddTranslation(GameCulture.Portuguese, "Sofrer danos derrubará estrelas astrais do céu\nFornece imunidade ao efeito negativo da infecção astral\nVocê tem 5% de chance de refletir projéteis quando eles o atingem\nSe este efeito for ativado, você será curado pelo dano do projétil\n\nAumenta a regeneração de vida, mesmo sob os efeitos de um efeito negativo que o danifica\nEnquanto estiver sob os efeitos de um efeito negativo que o danifica, você ganhará 20 de defesa\nLINHA DA DICA AQUI");
+                    Calamity.GetItem("AstralArcanum").Tooltip.AddTranslation(GameCulture.Portuguese, "Sofrer danos derrubará estrelas astrais do céu\nFornece imunidade ao efeito negativo da infecção astral\nVocê reflete projéteis quando eles o atingem\nProjéteis refletidos não causam danos a você\nEste reflexo tem um tempo de recarga de 90 segundos que é compartilhado com todos os outros desvios e reflexos\nAumenta a regeneração de vida, mesmo sob os efeitos de um efeito negativo que o danifica\nEnquanto estiver sob os efeitos de um efeito negativo que o danifica, você ganhará 20 de defesa\nLINHA DA DICA AQUI");
                     Calamity.GetItem("BlazingCore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo Ardente");
                     Calamity.GetItem("BlazingCore").Tooltip.AddTranslation(GameCulture.Portuguese, "O núcleo abrasador da deusa profana\n10% de redução dos danos\nSer atingido cria um sol em miniatura que perdura, causando danos aos inimigos próximos\nO sol lentamente arrastará inimigos para dentro dele\nApenas um sol pode estar ativo por vez\nFornece uma quantidade razoável de luz no Abismo");
+                    Calamity.GetItem("BloomStone").DisplayName.AddTranslation(GameCulture.Portuguese, "Rocha do Desabrocho");
+                    Calamity.GetItem("BloomStone").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das relíquias antigas\nVocê regenera vida rapidamente no chão\nEste efeito funciona melhor durante o dia\nFlores crescem se você estiver pisando em grama\nPlantas de tinturas aleatórias crescerão ao pisar em terra sem grama");
                     Calamity.GetItem("CelestialJewel").DisplayName.AddTranslation(GameCulture.Portuguese, "Joia Celestial");
-                    Calamity.GetItem("CelestialJewel").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a regeneração de vida, mesmo sob os efeitos de um efeito negativo que o danifica\nEnquanto estiver sob os efeitos de um efeito negativo que o danifica, você ganhará 20 de defesa\nLINHA DA DICA AQUI");
-                    Calamity.GetItem("TheCommunity").DisplayName.AddTranslation(GameCulture.Portuguese, "A Comunidade");
-                    Calamity.GetItem("TheCommunity").Tooltip.AddTranslation(GameCulture.Portuguese, "O coração (da maioria) da comunidade do Terraria\nAcessório Lendário\nComeça com reforços fracos para todas as suas estatísticas\nOs reforços de estatísticas tornam-se mais poderosos conforme você avança\nReduz os efeitos de DoT de efeitos negativos que o danificam infligidos a você\nAumenta seu tempo máximo de voô em 15%\nObrigado a todos os meus apoiadores que tornaram este mod uma realidade\nEspólio do modo Vingança");
+                    Calamity.GetItem("CelestialJewel").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a regeneração de vida, mesmo sob os efeitos de um efeito negativo que o danifica\nEnquanto estiver sob os efeitos de um efeito negativo que o danifica, você ganhará 15 de defesa\nLINHA DA DICA AQUI");
                     Calamity.GetItem("CoreOfTheBloodGod").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo do Deus do Sangue");
-                    Calamity.GetItem("CoreOfTheBloodGod").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento na redução dos danos\nAumenta a sua vida máxima em 10%\nPoções de cura são 15% mais eficazes\nReduz os danos de contato dos inimigos pela metade\nQuando você sofrer danos de contato, esse efeito tem um tempo de recarga de 20 segundos");
+                    Calamity.GetItem("CoreOfTheBloodGod").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos e na redução dos danos\nAumenta a sua vida máxima em 10%\nPoções de cura são 15% mais eficazes\nReduz os danos de contato dos inimigos pela metade\nQuando você sofrer danos de contato, esse efeito tem um tempo de recarga de 20 segundos");
                     Calamity.GetItem("CorruptFlask").DisplayName.AddTranslation(GameCulture.Portuguese, "Frasco Corrompido");
                     Calamity.GetItem("CorruptFlask").Tooltip.AddTranslation(GameCulture.Portuguese, "7% de aumento na redução dos danos e +3 defesa enquanto na corrupção");
                     Calamity.GetItem("CrawCarapace").DisplayName.AddTranslation(GameCulture.Portuguese, "Carapaça de Caranguejo");
@@ -494,144 +486,124 @@ namespace CalamityModPTBR
                     Calamity.GetItem("CrimsonFlask").DisplayName.AddTranslation(GameCulture.Portuguese, "Frasco de Carmim");
                     Calamity.GetItem("CrimsonFlask").Tooltip.AddTranslation(GameCulture.Portuguese, "7% de aumento na redução dos danos e +3 defesa enquanto no carmim");
                     Calamity.GetItem("CrownJewel").DisplayName.AddTranslation(GameCulture.Portuguese, "Joia da Coroa");
-                    Calamity.GetItem("CrownJewel").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a regeneração de vida, mesmo sob os efeitos de um efeito negativo que o danifica\nEnquanto estiver sob os efeitos de um efeito negativo que o danifica, você ganhará 10 de defesa\nEspólio do modo Vingança");
+                    Calamity.GetItem("CrownJewel").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a regeneração de vida, mesmo sob os efeitos de um efeito negativo que o danifica\nEnquanto estiver sob os efeitos de um efeito negativo que o danifica, você ganhará 10 de defesa");
                     Calamity.GetItem("CryoStone").DisplayName.AddTranslation(GameCulture.Portuguese, "Rocha do Gelo");
-                    Calamity.GetItem("CryoStone").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das relíquias antigas\nAumenta a redução dos danos em 5% e todos os danos em 3%");
+                    Calamity.GetItem("CryoStone").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das relíquias antigas\nCria um escudo de gelo ao seu redor que causa danos e deixa os inimigos lentos ao entrar em contato");
                     Calamity.GetItem("DeepDiver").DisplayName.AddTranslation(GameCulture.Portuguese, "Mergulhador das Profundezas");
-                    Calamity.GetItem("DeepDiver").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos, defesa, e velocidade dos movimentos quando debaixo d\u0027água\nEnquanto debaixo d\u0027água, você ganha a capacidade de correr grandes distâncias");
+                    Calamity.GetItem("DeepDiver").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos, velocidade dos movimentos e +15 defesa quando debaixo d\u0027água\nEnquanto debaixo d\u0027água, você ganha a capacidade de correr grandes distâncias");
                     Calamity.GetItem("DeificAmulet").DisplayName.AddTranslation(GameCulture.Portuguese, "Amuleto Sagrado");
-                    Calamity.GetItem("DeificAmulet").Tooltip.AddTranslation(GameCulture.Portuguese, "Sofrer danos faz com que você se mova muito rápido por um curto período de tempo\nFaz com que estrelas caiam e aumenta o tempo de imunidade quando sofrer danos\nAumenta a perfuração da blindagem em 10 e reduz o tempo de recarga das poções de cura\nFornece luz debaixo d\u0027água e fornece uma quantidade pequena de luz no abismo");
-                    Calamity.GetItem("ElysianAegis").DisplayName.AddTranslation(GameCulture.Portuguese, "Égide do Elísio");
-                    Calamity.GetItem("ElysianAegis").Tooltip.AddTranslation(GameCulture.Portuguese, "Oferece imunidade a blocos de fogo e a recuos\n+40 vida máxima e aumento na regeneração de vida\nConcede uma corrida de chamas sagradas suprema\nPode ser usado para colidir-se com inimigos\nAperte {0} para ativar reforços para todos os danos, chance de crítico e defesa\nAtivar esse efeito irá reduzir sua velocidade de movimento e aumentar a agressão inimiga");
+                    Calamity.GetItem("DeificAmulet").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que estrelas caiam e aumenta o tempo de imunidade quando sofrer danos\nReduz o tempo de recarga das poções de cura");
                     Calamity.GetItem("DepthCharm").DisplayName.AddTranslation(GameCulture.Portuguese, "Amuleto das Profundezas");
-                    Calamity.GetItem("DepthCharm").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz o dano causado pela pressão do abismo enquanto sem fôlego\nRemove o efeito de sangramento causado pelo abismo");
-                    Calamity.GetItem("TheEvolution").DisplayName.AddTranslation(GameCulture.Portuguese, "A Evolução");
-                    Calamity.GetItem("TheEvolution").Tooltip.AddTranslation(GameCulture.Portuguese, "Você tem 50% de chance de refletir projéteis quando eles o atingem de volta no inimigo, causando 1000% do dano original\nSe este efeito for ativado, você recebe um reforço de regeneração de vida por um curto período de tempo\nSe o mesmo tipo de projétil inimigo o atingir novamente, você resistirá ao dano em 15%");
+                    Calamity.GetItem("DepthCharm").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz o dano causado pela pressão do abismo enquanto sem fôlego\nRemove o efeito de sangramento causado pelas camadas superiores do abismo");
+                    Calamity.GetItem("WifeinaBottle").DisplayName.AddTranslation(GameCulture.Portuguese, "Elemental na Garrafa");
+                    Calamity.GetItem("WifeinaBottle").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um elemental de areia para lutar por você");
+                    Calamity.GetItem("ElysianAegis").DisplayName.AddTranslation(GameCulture.Portuguese, "Égide do Elísio");
+                    Calamity.GetItem("ElysianAegis").Tooltip.AddTranslation(GameCulture.Portuguese, "Abençoado pela Chama Profana\nOferece imunidade a blocos de fogo, recuos e Chamas sagradas\n+30 vida máxima\nConcede uma corrida de chamas sagradas suprema\nPode ser usado para colidir-se com inimigos\nLINHA DA DICA AQUI\nAtivar esse efeito irá reduzir sua velocidade de movimento e aumentar a agressão inimiga");
+                    Calamity.GetItem("EyeoftheStorm").DisplayName.AddTranslation(GameCulture.Portuguese, "Olho da Tempestade");
+                    Calamity.GetItem("EyeoftheStorm").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um elemental das nuvens para lutar por você");
                     Calamity.GetItem("FabledTortoiseShell").DisplayName.AddTranslation(GameCulture.Portuguese, "Casco da Língua de Chamas");
-                    Calamity.GetItem("FabledTortoiseShell").Tooltip.AddTranslation(GameCulture.Portuguese, "50% de redução na velocidade dos movimentos\nInimigos sofrem danos quando te atacam\nSofrer um golpe fará você se mover rapidamente por um curto período de tempo");
+                    Calamity.GetItem("FabledTortoiseShell").Tooltip.AddTranslation(GameCulture.Portuguese, "50% de redução na velocidade dos movimentos\nInimigos sofrem danos quando te atacam\nVocê se move mais rapidamente e perde 18 defesa por 3 segundos se você sofrer danos\nImunidade temporária à lava");
                     Calamity.GetItem("FleshTotem").DisplayName.AddTranslation(GameCulture.Portuguese, "Totem de Carne");
-                    Calamity.GetItem("FleshTotem").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz os danos de contato dos inimigos pela metade\nEsse efeito tem um tempo de recarga de 20 segundos");
+                    Calamity.GetItem("FleshTotem").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz os danos de contato dos inimigos pela metade\nQuando você sofrer danos de contato, este efeito tem um tempo de recarga de 20 segundos");
                     Calamity.GetItem("FrigidBulwark").DisplayName.AddTranslation(GameCulture.Portuguese, "Baluarte Frígido");
                     Calamity.GetItem("FrigidBulwark").Tooltip.AddTranslation(GameCulture.Portuguese, "Absorve 25% do dano causado aos jogadores de sua equipe\nApenas ativo acima de 25% de vida\nOferece imunidade a recuos\nColoca um escudo em volta do proprietário quando abaixo de 50% de vida que reduz os danos\nO escudo se torna mais poderoso quando abaixo de 15% de vida e reduz o dano ainda mais");
                     Calamity.GetItem("FrostBarrier").DisplayName.AddTranslation(GameCulture.Portuguese, "Barreira Congelada");
                     Calamity.GetItem("FrostBarrier").Tooltip.AddTranslation(GameCulture.Portuguese, "Você congelará os inimigos perto de você quando for atingido\nVocê é imune ao efeito negativo Resfriado");
                     Calamity.GetItem("FungalCarapace").DisplayName.AddTranslation(GameCulture.Portuguese, "Carapaça Fúngica");
                     Calamity.GetItem("FungalCarapace").Tooltip.AddTranslation(GameCulture.Portuguese, "Você emite uma explosão de esporos de cogumelo quando atingido");
+                    Calamity.GetItem("FungalClump").DisplayName.AddTranslation(GameCulture.Portuguese, "Aglomerado de Fungos");
+                    Calamity.GetItem("FungalClump").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um aglomerado de fungos para lutar por você\nO aglomerado se agarra aos inimigos e rouba a vida deles para você");
                     Calamity.GetItem("GiantPearl").DisplayName.AddTranslation(GameCulture.Portuguese, "Pérola Gigante");
                     Calamity.GetItem("GiantPearl").Tooltip.AddTranslation(GameCulture.Portuguese, "Você tem uma aura de luz ao seu redor\nInimigos dentro da aura ficam mais lentos\nNão funciona enquanto um chefe estiver vivo\nFornece uma quantidade pequena de luz no abismo");
                     Calamity.GetItem("GiantTortoiseShell").DisplayName.AddTranslation(GameCulture.Portuguese, "Casco de Tartaruga Gigante");
                     Calamity.GetItem("GiantTortoiseShell").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de redução na velocidade dos movimentos\nInimigos sofrem danos quando te atacam");
+                    Calamity.GetItem("GravistarSabaton").DisplayName.AddTranslation(GameCulture.Portuguese, "Sapato da Gravidade Estelar");
+                    Calamity.GetItem("GravistarSabaton").Tooltip.AddTranslation(GameCulture.Portuguese, "Pressione a tecla PARA BAIXO para aumentar a sua velocidade de queda por 5 segundos\nIsso tem um tempo de recarga de 8 segundos\nAcertar o solo com maior velocidade de queda causará uma explosão astral");
+                    Calamity.GetItem("HeartoftheElements").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração dos Elementos");
+                    Calamity.GetItem("HeartoftheElements").Tooltip.AddTranslation(GameCulture.Portuguese, "O coração do mundo\nInvoca todos os elementais para te proteger");
+                    Calamity.GetItem("HideofAstrumDeus").DisplayName.AddTranslation(GameCulture.Portuguese, "Pele de Astrum Deus");
+                    Calamity.GetItem("HideofAstrumDeus").Tooltip.AddTranslation(GameCulture.Portuguese, "Sofrer danos, ou infligir um ataque físico verdadeiro, derrubará uma quantidade imensa de estrelas astrais do céu\nSofrer danos aumentará o dano por ataque físico verdadeiro em 50%\nA duração do reforço é baseada na quantidade de dano que você sofreu, quanto maior o dano, mais longo será o reforço\nFornece imunidade aos efeitos negativos da infecção astral, inferno amaldiçoado, em chamas e queimadura de gelo\nInimigos sofrem danos quando te atacam e são infligidos com o efeito negativo da infecção astral");
                     Calamity.GetItem("HoneyDew").DisplayName.AddTranslation(GameCulture.Portuguese, "Melada");
                     Calamity.GetItem("HoneyDew").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na redução dos danos, +5 defesa, e aumento de regeneração de vida enquanto na Selva\nImune a Veneno e Peçonha\nRegeneração de vida semelhante ao mel sem penalidade de velocidade\nA maioria dos inimigos e projéteis abelhas/vespas causam 75% de dano a você");
+                    Calamity.GetItem("HowlsHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração de Howl");
+                    Calamity.GetItem("HowlsHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca Howl para lutar por você, Calcifer para iluminar o seu caminho, e Cabeça de Nabo para seguir você por aí");
                     Calamity.GetItem("Laudanum").DisplayName.AddTranslation(GameCulture.Portuguese, "Láudano");
                     Calamity.GetItem("Laudanum").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte certos efeitos negativos em positivos e estende suas durações\nEfeitos negativos afetados: Trevas, Apagão, Confuso, Lento, Fraco, Armadura quebrada,\nTrituração de armadura, Clivagem de guerra, Resfriado, Ichor and Obstruído\nEspólio do modo Vingança");
+                    Calamity.GetItem("LeadCore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo de Chumbo");
+                    Calamity.GetItem("LeadCore").Tooltip.AddTranslation(GameCulture.Portuguese, "Oferece imunidade ao efeito negativo Irradiado");
                     Calamity.GetItem("LivingDew").DisplayName.AddTranslation(GameCulture.Portuguese, "Orvalho Vivo");
-                    Calamity.GetItem("LivingDew").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na redução dos danos, +5 defesa, e aumento de regeneração de vida enquanto na Selva");
+                    Calamity.GetItem("LivingDew").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na redução dos danos, +5 defesa, e aumento de regeneração de vida enquanto na Selva\nImune a venenos");
+                    Calamity.GetItem("MutatedTruffle").DisplayName.AddTranslation(GameCulture.Portuguese, "Trufa Mutada");
+                    Calamity.GetItem("MutatedTruffle").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um pequeno Velho Duque para lutar por você\nQuando abaixo de 50% de vida, ele se moverá muito mais rapidamente");
                     Calamity.GetItem("OrnateShield").DisplayName.AddTranslation(GameCulture.Portuguese, "Escudo Ornamentado");
-                    Calamity.GetItem("OrnateShield").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumento na redução dos danos e vida ao vestir a armadura de Dédalo");
+                    Calamity.GetItem("OrnateShield").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumento na redução dos danos e vida ao vestir a armadura de Dédalo\nFornece uma corrida de gelo que congela os inimigos");
+                    Calamity.GetItem("LureofEnthrallment").DisplayName.AddTranslation(GameCulture.Portuguese, "Pérola do Encantamento");
+                    Calamity.GetItem("LureofEnthrallment").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um elemental de água para lutar por você\nO elemental fica acima de você, atirando lanças de água, névoa de gelo e claves agudas nos inimigos próximos");
                     Calamity.GetItem("PermafrostsConcoction").DisplayName.AddTranslation(GameCulture.Portuguese, "Mistura de Permafrost");
-                    Calamity.GetItem("PermafrostsConcoction").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a mana máxima em 50 e reduz o custo de mana em 15%\nAumenta a regeneraçáo de vida conforme a vida diminui\nAumenta a regeneraçáo de vida quando afetado por Veneno, Em chamas! ou Chamas de enxofre\nVocê sobreviverá a danos fatais e reviverá com 30% de vida em um tempo de recarga de 3 minutos\nVocê é envolto em uma barreira de gelo por 3 segundos quando revivido");
-                    Calamity.GetItem("RampartofDeities").DisplayName.AddTranslation(GameCulture.Portuguese, "Muralha das Divinidades");
-                    Calamity.GetItem("RampartofDeities").Tooltip.AddTranslation(GameCulture.Portuguese, "Sofrer danos concede velocidade de movimento aumentada por um curto período de tempo\nFaz com que estrelas caiam e aumenta o tempo de imunidade quando sofrer danos\nAumenta a perfuração da blindagem em 20 e reduz o tempo de recarga das poções de cura\nFornece luz debaixo d\u0027água e fornece uma quantidade pequena de luz no abismo\nAbsorve 25% do dano causado aos jogadores de sua equipe\nApenas ativo acima de 25% de vida\nOferece imunidade a recuos\nColoca um escudo em volta do proprietário quando abaixo de 50 % de vida que reduz os danos\nO escudo se torna mais poderoso quando abaixo de 15% de vida e reduz o dano ainda mais");
+                    Calamity.GetItem("PermafrostsConcoction").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a mana máxima em 50 e reduz o custo de mana em 15%\nAumenta a regeneraçáo de vida conforme a vida diminui\nAumenta a regeneraçáo de vida quando afetado por Veneno, Em chamas, ou Chamas de enxofre\nVocê sobreviverá a danos fatais e reviverá com 30% de vida em um tempo de recarga de 3 minutos\nVocê é envolto em uma barreira de gelo por 3 segundos quando revivido");
+                    Calamity.GetItem("ProfanedSoulArtifact").DisplayName.AddTranslation(GameCulture.Portuguese, "Artefato da Alma Profana");
+                    Calamity.GetItem("ProfanedSoulArtifact").Tooltip.AddTranslation(GameCulture.Portuguese, "Puridade\nInvoca um guardião curador que cura uma certa quantidade de vida a cada poucos segundos\nInvoca um guardião defensivo se você tiver pelo menos 10 vagas de lacaio, o que aumenta a sua velocidade dos movimentos e a sua resistência a danos\nInvoca um guardião ofensivo se você estiver usando o conjunto invocador de estragão (ou mais forte), que aumenta o dano de invocação e as vagas de lacaios\nSe você for atingido, a maioria dos seus efeitos desaparecerão por 5 segundos");
+                    Calamity.GetItem("ProfanedSoulCrystal").DisplayName.AddTranslation(GameCulture.Portuguese, "Cristal da Alma Profana");
+                    Calamity.GetItem("ProfanedSoulCrystal").Tooltip.AddTranslation(GameCulture.Portuguese, "Transforma você em um emissário da deusa profana\nRequer 10 espaços de lacaio para fornecer os seguintes efeitos\nTodas as armas não-invocadoras são convertidas em variações invocadoras poderosas\nCair abaixo de 50% de vida irá fortalecer esses ataques\n[c/f05a5a:Transforma ataques físicos em uma barragem de lanças]\n[c/3a83e4:Transforma ataques mágicos em uma poderosa bola de fogo que se divide]\n[c/85e092:Transforma ataques à distância em uma barragem de bolas de fogo e meteoros]\n[c/e97451:Transforma ataques ladinos em um espiral cristalino mortal]\nInvoca e fortalece os pequenos profanos para lutar junto de você\nVocê não é mais afetado pelo cansaço quando atingido\nFornece efeitos dependendo da hora do dia\nFornece proteção contra o calor e o frio no Modo Morte\nPensando bem, foi uma vida bem chata\n[c/FFBF49:Portanto, devemos queimar tudo no nome da puridade]");
+                    Calamity.GetItem("RampartofDeities").DisplayName.AddTranslation(GameCulture.Portuguese, "Muralha das Divindades");
+                    Calamity.GetItem("RampartofDeities").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que estrelas caiam e aumenta o tempo de imunidade quando sofrer danos\nReduz o tempo de recarga das poções de cura\nAbsorve 25% do dano causado aos jogadores de sua equipe\nEste efeito é apenas ativo acima de 25% de vida\nOferece imunidade a recuos\nColoca um escudo em volta do proprietário quando abaixo de 50% de vida que reduz os danos\nO escudo se torna mais poderoso quando abaixo de 15% de vida e reduz o dano ainda mais");
+                    Calamity.GetItem("WifeinaBottlewithBoobs").DisplayName.AddTranslation(GameCulture.Portuguese, "Elemental Raro na Garrafa");
+                    Calamity.GetItem("WifeinaBottlewithBoobs").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um elemental de areia para te curar\n;D");
                     Calamity.GetItem("Regenator").DisplayName.AddTranslation(GameCulture.Portuguese, "Regenador");
                     Calamity.GetItem("Regenator").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz a sua vida máxima em 50% mas aumenta bastante a regeneração de vida");
+                    Calamity.GetItem("RoseStone").DisplayName.AddTranslation(GameCulture.Portuguese, "Rocha da Rosa");
+                    Calamity.GetItem("RoseStone").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das relíquias antigas\nInvoca um elemental de enxofre para te proteger");
                     Calamity.GetItem("RoverDrive").DisplayName.AddTranslation(GameCulture.Portuguese, "Rover Drive");
                     Calamity.GetItem("RoverDrive").Tooltip.AddTranslation(GameCulture.Portuguese, "Ativa um escudo protetor que concede 10 defesa por 10 segundos\nO escudo então se dissipa e recarrega por 20 segundos antes de ser reativado");
                     Calamity.GetItem("SeaShell").DisplayName.AddTranslation(GameCulture.Portuguese, "Concha do Mar");
                     Calamity.GetItem("SeaShell").Tooltip.AddTranslation(GameCulture.Portuguese, "Maior defesa e redução dos danos quando submerso em líquidos\nMaior velocidade dos movimento quando submerso em líquidos");
                     Calamity.GetItem("ShieldoftheOcean").DisplayName.AddTranslation(GameCulture.Portuguese, "Escudo do Oceano");
                     Calamity.GetItem("ShieldoftheOcean").Tooltip.AddTranslation(GameCulture.Portuguese, "Maior defesa em 5 quando submerso em líquidos\nAumenta a velocidade dos movimentos e regeneração de vida ao vestir a armadura de Vimaré");
-                    Calamity.GetItem("Sponge").DisplayName.AddTranslation(GameCulture.Portuguese, "A Esponja");
-                    Calamity.GetItem("Sponge").Tooltip.AddTranslation(GameCulture.Portuguese, "50% de aumento na velocidade de mineração e você emite luz\n10% de aumento nos danos e aumento na regeneração de vida\nImune a Veneno, Congelado, Resfriado, Queimadura de gelo, e Peçonha\nRegeneração de vida semelhante ao mel sem penalidade de velocidade, +20 vida e mana máxima\nA maioria dos inimigos e projéteis abelhas/vespas causam 75% de dano a você\n24% de aumento na velocidade dos pulos e 12% de aumento na velocidade dos movimentos\nFicar parado aumenta a regeneração de vida e mana\nMaior defesa e redução dos danos quando submerso em líquidos\nMaior velocidade dos movimento quando submerso em líquidos\nInimigos sofrem danos quando te atacam\nSofrer um golpe fará você se mover muito rápido por um curto período de tempo\nVocê emite uma explosão de esporos de cogumelo e faíscas quando atingido\nAtaques inimigos terão parte do dano absorvido e usado para curar você");
                     Calamity.GetItem("StressPills").DisplayName.AddTranslation(GameCulture.Portuguese, "Pílulas de Estresse");
                     Calamity.GetItem("StressPills").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a sua defesa em 4 e velocidade dos movimentos máxima em 5%\nReceber um golpe faz com que você perca apenas metade de sua adrenalina máxima, em vez de perder ela completamente\nEspólio do modo Vingança");
+                    Calamity.GetItem("TheAbsorber").DisplayName.AddTranslation(GameCulture.Portuguese, "O Absorvedor");
+                    Calamity.GetItem("TheAbsorber").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na velocidade dos movimentos e na velocidade dos pulos\n+20 vida e mana máxima\nFicar parado aumenta a regeneração de vida e mana\nMaior defesa, velocidade dos movimentos e redução dos danos quando submerso em líquidos\nInimigos sofrem danos quando te atacam\nVocê emite uma explosão de esporos de cogumelo e faíscas quando atingido\n10% de aumento na redução dos danos\n5% do dano de ataques inimigos é absorvido e convertido em cura");
+                    Calamity.GetItem("TheCamper").DisplayName.AddTranslation(GameCulture.Portuguese, "O Campista");
+                    Calamity.GetItem("TheCamper").Tooltip.AddTranslation(GameCulture.Portuguese, "No descanso, podemos encontrar a vitória.\nVocê causa 90% menos de dano a menos que esteja estacionário\nFicar parado concede efeito(s) dependendo da arma que você está segurando\nFicar parado fornece uma aura que machuca ao seu redor\nEnquanto se move, você regenera vida como se estivesse parado\nFornece uma quantidade pequena de luz no Abismo");
+                    Calamity.GetItem("TheCommunity").DisplayName.AddTranslation(GameCulture.Portuguese, "A Comunidade");
+                    Calamity.GetItem("TheCommunity").Tooltip.AddTranslation(GameCulture.Portuguese, "O coração (da maioria) da comunidade do Terraria\nComeça com reforços fracos para todas as suas estatísticas\nOs reforços de estatísticas tornam-se mais poderosos conforme você avança\nReduz os efeitos de dano ao longo do tempo de efeitos negativos que o danificam infligidos a você\nAumenta seu tempo máximo de voô em 15%\nObrigado a todos os meus apoiadores que tornaram este mod uma realidade");
+                    Calamity.GetItem("TheEvolution").DisplayName.AddTranslation(GameCulture.Portuguese, "A Evolução");
+                    Calamity.GetItem("TheEvolution").Tooltip.AddTranslation(GameCulture.Portuguese, "Você reflete projéteis quando eles o atingem\nProjéteis refletidos não causam danos a você\nEste reflexo tem um tempo de recarga de 120 segundos que é compartilhado com todos os outros desvios e reflexos\nSe este efeito for ativado, você recebe um reforço de regeneração de vida por 5 segundos\nSe o mesmo tipo de projétil inimigo o atingir novamente, você resistirá ao dano em 15%");
+                    Calamity.GetItem("Sponge").DisplayName.AddTranslation(GameCulture.Portuguese, "A Esponja");
+                    Calamity.GetItem("Sponge").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento na redução dos danos\n+30 vida e mana máxima\n5% de aumento na velocidade dos movimentos e velocidade dos pulos\nFicar parado aumenta a regeneração de vida e mana\nInimigos sofrem danos quando te atacam\nVocê emite uma explosão de esporos de cogumelo e faíscas quando atingido\n6.25% do dano de ataques inimigos é absorvido e convertido em cura");
                     Calamity.GetItem("TheTransformer").DisplayName.AddTranslation(GameCulture.Portuguese, "O Transformador");
-                    Calamity.GetItem("TheTransformer").Tooltip.AddTranslation(GameCulture.Portuguese, "Sofrer danos libera uma explosão de faíscas\nAs faíscas causam mais danos no Modo Difícil\nImune a Eletrizado e você resiste a todos os danos de projéteis e inimigos elétricos\nProjéteis inimigos causam metade do dano a você e são refletidas de volta para o inimigo em 800% do dano original");
+                    Calamity.GetItem("TheTransformer").Tooltip.AddTranslation(GameCulture.Portuguese, "Sofrer danos libera uma explosão de faíscas\nImune a Eletrizado e você resiste a todos os danos de projéteis e inimigos elétricos\nProjéteis inimigos causam metade do dano a você e são refletidas de volta para o inimigo em 800% do dano original");
                     Calamity.GetItem("TrinketofChi").DisplayName.AddTranslation(GameCulture.Portuguese, "Amuleto de Chi");
                     Calamity.GetItem("TrinketofChi").Tooltip.AddTranslation(GameCulture.Portuguese, "Após 1 segundo de ficar parado e não atacar você ganha um efeito\nO efeito aumenta seu dano em 50% e diminui o dano recebido em 15%\nO efeito é desativado se você mover ou atacar uma vez");
                     Calamity.GetItem("UrsaSergeant").DisplayName.AddTranslation(GameCulture.Portuguese, "Ursa Sargento");
                     Calamity.GetItem("UrsaSergeant").Tooltip.AddTranslation(GameCulture.Portuguese, "+20 defesa mas 35% de redução na velocidade dos movimentos\nImune a Infecção astral e Mordida Feroz\nAumento na regeneração de vida quando você estiver com vida baixa");
 
-                    //Immunity
-                    Calamity.GetItem("AstralBulwark").DisplayName.AddTranslation(GameCulture.Portuguese, "Baluarte Astral");
-                    Calamity.GetItem("AstralBulwark").Tooltip.AddTranslation(GameCulture.Portuguese, "Sofrer danos derrubará estrelas astrais do céu\nFornece imunidade ao efeito negativo da infecção astral");
-                    Calamity.GetItem("HideofAstrumDeus").DisplayName.AddTranslation(GameCulture.Portuguese, "Pele de Astrum Deus");
-                    Calamity.GetItem("HideofAstrumDeus").Tooltip.AddTranslation(GameCulture.Portuguese, "Sofrer danos derrubará uma quantidade imensa de estrelas astrais do céu e aumentará o dano físico verdadeiro em 50% por um tempo\nA duração do reforço é baseada na quantidade de dano que você sofreu, quanto maior o dano, mais longo será o reforço\nFornece imunidade aos efeitos negativos da infecção astral, inferno amaldiçoado, em chamas e queimadura de gelo\nInimigos sofrem danos quando te atacam e são infligidos com o efeito negativo da infecção astral");
-                    Calamity.GetItem("LeadCore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo de Chumbo");
-                    Calamity.GetItem("LeadCore").Tooltip.AddTranslation(GameCulture.Portuguese, "Oferece imunidade ao efeito negativo Irradiado");
-
-                    //Minion
-                    Calamity.GetItem("WifeinaBottle").DisplayName.AddTranslation(GameCulture.Portuguese, "Elemental na Garrafa");
-                    Calamity.GetItem("WifeinaBottle").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um elemental de areia para lutar por você");
-                    Calamity.GetItem("EyeoftheStorm").DisplayName.AddTranslation(GameCulture.Portuguese, "Olho da Tempestade");
-                    Calamity.GetItem("EyeoftheStorm").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um elemental das nuvens para lutar por você");
-                    Calamity.GetItem("FungalClump").DisplayName.AddTranslation(GameCulture.Portuguese, "Aglomerado de Fungos");
-                    Calamity.GetItem("FungalClump").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um aglomerado de fungos para lutar por você\nO aglomerado se agarra aos inimigos e rouba a vida deles para você");
-                    Calamity.GetItem("GodlySoulArtifact").DisplayName.AddTranslation(GameCulture.Portuguese, "Artefato da Alma Sagrada");
-                    Calamity.GetItem("GodlySoulArtifact").Tooltip.AddTranslation(GameCulture.Portuguese, "Lealdade\nInvoca dois Filhos de Yharon para lutar por você");
-                    Calamity.GetItem("HeartoftheElements").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração dos Elementos");
-                    Calamity.GetItem("HeartoftheElements").Tooltip.AddTranslation(GameCulture.Portuguese, "O coração do mundo\nAumenta a vida máxima em 20, regeneração de vida em 1, e todos os danos em 5%\nAumenta a velocidade dos movimentos em 10% e a velocidade dos pulos em 20%\nAumenta a redução dos danos em 5%\nAumenta a mana máxima em 50 e reduz o uso de mana em 5%\nVocê cultiva flores na grama abaixo de você, com chance de cultivar plantas de tintura aleatórias em terra sem grama\nInvoca todos os elementais para te proteger\nAlternar a visibilidade deste acessório também ativa e desativa os elementais\nOs aumentos de estatísticas são ligeiramente maiores se os elementais estiverem desativados");
-                    Calamity.GetItem("MutatedTruffle").DisplayName.AddTranslation(GameCulture.Portuguese, "Trufa Mutada");
-                    Calamity.GetItem("MutatedTruffle").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um pequeno Velho Duque para lutar por você\nQuando abaixo de 50% de vida, ele se moverá muito mais rapidamente");
-                    Calamity.GetItem("ProfanedSoulArtifact").DisplayName.AddTranslation(GameCulture.Portuguese, "Artefato da Alma Profana");
-                    Calamity.GetItem("ProfanedSoulArtifact").Tooltip.AddTranslation(GameCulture.Portuguese, "Puridade\nInvoca um guardião curador que cura uma certa quantidade de vida a cada poucos segundos\nInvoca um guardião defensivo se o jogador tiver pelo menos 10 vagas de lacaio, o que aumenta a sua velocidade dos movimentos e a sua resistência a danos\nInvoca um guardião ofensivo se você estiver usando o conjunto invocador de estragão (ou mais forte), que aumenta o dano de invocação e as vagas de lacaios\nSe você for atingido, seus efeitos desaparecerão por 5 segundos");
-                    Calamity.GetItem("ProfanedSoulCrystal").DisplayName.AddTranslation(GameCulture.Portuguese, "Cristal da Alma Profana");
-                    Calamity.GetItem("ProfanedSoulCrystal").Tooltip.AddTranslation(GameCulture.Portuguese, "Transforma você em um emissário da deusa profana\nRequer 10 espaços de lacaio para fornecer os seguintes efeitos\nTodas as armas não-invocadoras são convertidas em variações invocadoras poderosas\nCair abaixo de 50% de vida irá fortalecer esses ataques\n[c/f05a5a:Transforma ataques físicos em uma barragem de lanças]\n[c/3a83e4:Transforma ataques mágicos em uma poderosa bola de fogo que se divide]\n[c/85e092:Transforma ataques à distância em uma barragem de bolas de fogo e meteoros]\n[c/e97451:Transforma ataques assassinos em um espiral cristalino mortal]\nInvoca e fortalece os pequenos profanos para lutar junto de você\nVocê não é mais afetado pelo cansaço quando atingido\nFornece efeitos dependendo da hora do dia\nFornece proteção contra o calor e o frio no Modo Morte\nPensando bem, foi uma vida bem chata\n[c/FFBF49:Portanto, devemos queimar tudo no nome da puridade]");
-                    Calamity.GetItem("LureofEnthrallment").DisplayName.AddTranslation(GameCulture.Portuguese, "Pérola do Encantamento");
-                    Calamity.GetItem("LureofEnthrallment").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um elemental de água para lutar por você\nO elemental fica acima de você, atirando lanças de água, névoa de gelo e claves agudas nos inimigos próximos");
-                    Calamity.GetItem("WifeinaBottlewithBoobs").DisplayName.AddTranslation(GameCulture.Portuguese, "Elemental Raro na Garrafa");
-                    Calamity.GetItem("WifeinaBottlewithBoobs").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um elemental de areia para te curar\n;D");
-                    Calamity.GetItem("RoseStone").DisplayName.AddTranslation(GameCulture.Portuguese, "Rocha da Rosa");
-                    Calamity.GetItem("RoseStone").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma das relíquias antigas\nAumenta a vida máxima em 20, regeneração de vida em 1, e todos os danos em 3%\nInvoca um elemental de enxofre para te proteger");
-
                     //Mining
                     Calamity.GetItem("AncientFossil").DisplayName.AddTranslation(GameCulture.Portuguese, "Fóssil Antigo");
                     Calamity.GetItem("AncientFossil").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a velocidade da picareta em 15% enquanto no subterrâneo");
                     Calamity.GetItem("ArchaicPowder").DisplayName.AddTranslation(GameCulture.Portuguese, "Pó Arcaico");
-                    Calamity.GetItem("ArchaicPowder").Tooltip.AddTranslation(GameCulture.Portuguese, "20% de aumento na velocidade de mineração, 7% de redução nos danos, e +3 defesa enquanto no subterrâneo ou no submundo");
+                    Calamity.GetItem("ArchaicPowder").Tooltip.AddTranslation(GameCulture.Portuguese, "20% de aumento na velocidade de mineração, 5% de redução dos danos, e +10 defesa enquanto no subterrâneo ou no submundo");
                     Calamity.GetItem("ChaosAmulet").DisplayName.AddTranslation(GameCulture.Portuguese, "Amuleto do Caos");
                     Calamity.GetItem("ChaosAmulet").Tooltip.AddTranslation(GameCulture.Portuguese, "Efeito espeleólogo e aumento na regeneração de vida");
 
                     //Fishing
                     Calamity.GetItem("AlluringBait").DisplayName.AddTranslation(GameCulture.Portuguese, "Isca Encantadora");
-                    Calamity.GetItem("AlluringBait").Tooltip.AddTranslation(GameCulture.Portuguese, "30% de aumento no poder de pescaria durante o dia\n45% de aumento no poder de pescaria durante a noite\n60% de aumento no poder de pescaria durante um eclipse solar\nAumenta bastante a chance de pescar peixes que são ingredientes de poção");
+                    Calamity.GetItem("AlluringBait").Tooltip.AddTranslation(GameCulture.Portuguese, "30 de aumento no poder de pescaria durante o dia\n45 de aumento no poder de pescaria durante a noite\n60 de aumento no poder de pescaria durante um eclipse solar\nAumenta bastante a chance de pescar peixes que são ingredientes de poção");
                     Calamity.GetItem("EnchantedPearl").DisplayName.AddTranslation(GameCulture.Portuguese, "Pérola Encantada");
                     Calamity.GetItem("EnchantedPearl").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a habilidade de pesca\nAumenta a chance de pescar caixotes");
-                    Calamity.GetItem("SupremeBaitTackleBoxFishingStation").DisplayName.AddTranslation(GameCulture.Portuguese, "Estação Suprema de Pesca");
+                    Calamity.GetItem("SupremeBaitTackleBoxFishingStation").DisplayName.AddTranslation(GameCulture.Portuguese, "Estação de Pesca com Caixa de Equipamento de Isca Suprema");
                     Calamity.GetItem("SupremeBaitTackleBoxFishingStation").Tooltip.AddTranslation(GameCulture.Portuguese, "O acessório de pesca supremo\nAumenta a habilidade de pesca em 80\nA linha de pesca nunca quebra e diminui as chances de consumo de iscas\nAumenta a chance de pescar caixotes\nEfeito da poção Sonar");
 
                     //Miscellaneous
                     Calamity.GetItem("MagicLevelMeter").DisplayName.AddTranslation(GameCulture.Portuguese, "Medidor de Nível Mágico");
                     Calamity.GetItem("MeleeLevelMeter").DisplayName.AddTranslation(GameCulture.Portuguese, "Medidor de Nível Físico");
                     Calamity.GetItem("RangedLevelMeter").DisplayName.AddTranslation(GameCulture.Portuguese, "Medidor de Nível Á Distância");
-                    Calamity.GetItem("RogueLevelMeter").DisplayName.AddTranslation(GameCulture.Portuguese, "Medidor de Nível Assassino");
+                    Calamity.GetItem("RogueLevelMeter").DisplayName.AddTranslation(GameCulture.Portuguese, "Medidor de Nível Ladino");
                     Calamity.GetItem("SummonLevelMeter").DisplayName.AddTranslation(GameCulture.Portuguese, "Medidor de Nível Invocador");
                     Calamity.GetItem("CheatTestThing").DisplayName.AddTranslation(GameCulture.Portuguese, "lul");
                     Calamity.GetItem("CheatTestThing").Tooltip.AddTranslation(GameCulture.Portuguese, "Mata você instantaneamente...\nMas talvez...?");
                     Calamity.GetItem("Popo").DisplayName.AddTranslation(GameCulture.Portuguese, "Cachecol e Chapéu Mágico");
-                    Calamity.GetItem("Popo").Tooltip.AddTranslation(GameCulture.Portuguese, "Transforma o usuário em um boneco de neve\nNão deixe os demônios roubarem o seu nariz");
-
-                    //Expert Mode Exclusive
-                    Calamity.GetItem("BloodflareCore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo das Chamas Sangrentas");
-                    Calamity.GetItem("BloodflareCore").Tooltip.AddTranslation(GameCulture.Portuguese, "Você perde até metade de sua defesa após sofrer danos\nA defesa perdida se regenera com o tempo\nVocê ganha 1 de vida para cada 1 defesa ganha enquanto ela regenera");
-                    Calamity.GetItem("GravistarSabaton").DisplayName.AddTranslation(GameCulture.Portuguese, "Sapato da Gravidade Estelar");
-                    Calamity.GetItem("GravistarSabaton").Tooltip.AddTranslation(GameCulture.Portuguese, "Pressione a tecla PARA BAIXO para aumentar a sua velocidade de queda por 5 segundos\nIsso tem um tempo de recarga de 8 segundos\nAcertar o solo com maior velocidade de queda causará uma explosão astral");
-
-                    //Uncategorized by wiki yet
-                    Calamity.GetItem("AngelicAlliance").DisplayName.AddTranslation(GameCulture.Portuguese, "Aliança Angelical");
-                    Calamity.GetItem("AngelicAlliance").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoque a força dos céus para fortalecer seus ataques e lacaios\nCoragem, Iluminação, Bem-aventurança. Unidos no Julgamento\n+2 lacaios máximos, 15% de aumento nos danos por invocação e 8% de aumento no dano de todas as outras classes\nA regeneração de vida é aumentada enquanto pulando\nEsta linha é modificada no código abaixo. Se você consegue ler isto, alguém provavelmente fez algo de errado (foi o Ben)\nEnquanto estiver sob os efeitos da Bênção Divina, para cada lacaio que você tiver, um arcanjo será invocado para ajudá-lo no combate\nCada anjo invocado irá curar você instantaneamente por dois vida\nTodos os ataques de lacaios infligem Fogo Banidor e você recebe um aumento constante de vida de quatro de vida por segundo\nEste efeito tem um tempo de recarga de 1 minuto");
-                    Calamity.GetItem("Calamity").DisplayName.AddTranslation(GameCulture.Portuguese, "Calamidade");
-                    Calamity.GetItem("Calamity").Tooltip.AddTranslation(GameCulture.Portuguese, "Incendeia o seu cursor com as chamas da Bruxa, invocando um sigilo ao seu redor\nInimigos que tocam no sigilo recebem danos imensos e são infligidos com o Feitiço de Vulnerabilidade\nEquipe em um espaço social para alterar o cursor sem causar danos");
-                    Calamity.GetItem("DaawnlightSpiritOrigin").DisplayName.AddTranslation(GameCulture.Portuguese, "Origem do Espírito de Daawnlight");
-                    Calamity.GetItem("DaawnlightSpiritOrigin").Tooltip.AddTranslation(GameCulture.Portuguese, "Todos os inimigos e chefes próximos são marcados com alvos\nAtaques à distância que atingem um alvo sempre acertam criticamente e causam danos enormes\nQuando um alvo é atingido, ele desaparece e um novo aparece em outro lugar\nExplosões ou projéteis grandes não podem atingir os alvos\nConverte todos os aumentos de chance de acerto crítico à distância em dano de acerto crítico extra\nTodas as armas de ataque à distância causarão ainda mais danos por ataque crítico quanto mais lentas elas são\nInvoca um espírito heróico de outro mundo se a visibilidade do acessório estiver ativada\n'Uma vertente de um cosmos perdido permanece, esperando por seu mestre'");
-                    Calamity.GetItem("PhantomicArtifact").DisplayName.AddTranslation(GameCulture.Portuguese, "Artefato Fantasma");
-                    Calamity.GetItem("PhantomicArtifact").Tooltip.AddTranslation(GameCulture.Portuguese, "Sempre que seus lacaios atingirem um inimigo, você ganhará um efeito fantasma, isso não acumula com versões anteriores do acessório\nEsses bônus irão aumentar sua defesa, seu dano por invocação ou regeneração de vida por um tempo\nSe você tiver o efeito ofensivo, os inimigos atingidos por lacaios terão uma chance de serem atingidos por facas fantasmas\nSe você tiver o efeito regenerativo, um coração fantasma ocasionalmente se materializará, concedendo regeneração massiva de vida\nSe você tiver o efeito defensivo, um baluarte fantasma absorverá 20% do dano do próximo projétil que atingir o baluarte, quebrando-o");
-                    Calamity.GetItem("RottenDogtooth").DisplayName.AddTranslation(GameCulture.Portuguese, "Dente de Cachorro Apodrecido");
-                    Calamity.GetItem("RottenDogtooth").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que ataques furtivos inflijam Esmagamento de Armadura, causem 10% a mais de dano e custme 1 unidade a menos de furtividade.");
-                    Calamity.GetItem("SandSharkToothNecklace").DisplayName.AddTranslation(GameCulture.Portuguese, "Colar do Dente de Tubarão de Areia");
-                    Calamity.GetItem("SandSharkToothNecklace").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a perfuração de blindagem em 10\n6% de aumento nos danos");
-                    Calamity.GetItem("ShatteredCommunity").DisplayName.AddTranslation(GameCulture.Portuguese, "Comunidade Despedaçada");
-                    Calamity.GetItem("ShatteredCommunity").Tooltip.AddTranslation(GameCulture.Portuguese, "Arruinada por um ódio desconhecido, ela ainda contém o poder da Comunidade (pelo menos, a maior parte dela)...\nVocê gera fúria com o tempo e a fúria não desaparece fora do combate\nSofrer danos fornece fúria, este efeito não é prejudicado por suas estatísticas defensivas\nEnquanto o Modo Fúria está ativado, sofrer danos fornece apenas a metade da quantidade de fúria\nCause danos com o Modo Fúria para fortalecer ainda mais sua ira\n");
+                    Calamity.GetItem("Popo").Tooltip.AddTranslation(GameCulture.Portuguese, "Não deixe os demônios roubarem o seu nariz\nTransforma o usuário em um boneco de neve");
 
                     ///Ammo
                     //Arrows
@@ -641,7 +613,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("BloodfireArrow").Tooltip.AddTranslation(GameCulture.Portuguese, "Cura você uma pequena quantidade quando atinge o inimigo");
                     Calamity.GetItem("ElysianArrow").DisplayName.AddTranslation(GameCulture.Portuguese, "Flecha do Elísio");
                     Calamity.GetItem("ElysianArrow").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca meteoros do céu na morte");
-                    Calamity.GetItem("IcicleArrow").DisplayName.AddTranslation(GameCulture.Portuguese, "Flecha do Sincelo");
+                    Calamity.GetItem("IcicleArrow").DisplayName.AddTranslation(GameCulture.Portuguese, "Flecha de Gelo");
                     Calamity.GetItem("IcicleArrow").Tooltip.AddTranslation(GameCulture.Portuguese, "Se quebra em fragmentos no impacto");
                     Calamity.GetItem("NapalmArrow").DisplayName.AddTranslation(GameCulture.Portuguese, "Flecha de Napalm");
                     Calamity.GetItem("NapalmArrow").Tooltip.AddTranslation(GameCulture.Portuguese, "Explode em estilhaços de fogo");
@@ -661,10 +633,8 @@ namespace CalamityModPTBR
                     Calamity.GetItem("EnhancedNanoRound").Tooltip.AddTranslation(GameCulture.Portuguese, "Confunde os inimigos e libera uma nuvem de nanobôs quando os inimigos morrem");
                     Calamity.GetItem("FlashBullet").DisplayName.AddTranslation(GameCulture.Portuguese, "Tiro Brilhante");
                     Calamity.GetItem("FlashBullet").Tooltip.AddTranslation(GameCulture.Portuguese, "Emite uma explosão contundente que confunde os inimigos em uma grande área por um curto período de tempo");
-                    Calamity.GetItem("FrostsparkBullet").DisplayName.AddTranslation(GameCulture.Portuguese, "Projétil de Raios Congelados");
-                    Calamity.GetItem("FrostsparkBullet").Tooltip.AddTranslation(GameCulture.Portuguese, "Tem a chance de congelar os inimigos e explodir em eletricidade\nInimigos imunes ao congelamento recebem mais danos desses projéteis");
                     Calamity.GetItem("GodSlayerSlug").DisplayName.AddTranslation(GameCulture.Portuguese, "Bala Assassina de Deuses");
-                    Calamity.GetItem("GodSlayerSlug").Tooltip.AddTranslation(GameCulture.Portuguese, "Munição pesada com perfuração ilimitada que dilacera o espaço-tempo\nDepois que uma bala acerta, se ela atingir uma parede ou ficar sem alvos para perfurar,\nEla se dobra para trás através do espaço e sobrecarrega, oxplodindo com o impacto");
+                    Calamity.GetItem("GodSlayerSlug").Tooltip.AddTranslation(GameCulture.Portuguese, "Munição pesada com perfuração ilimitada que dilacera o espaço-tempo\nDepois que uma bala acerta, se ela atingir uma parede ou ficar sem alvos para perfurar,\nela se dobra para trás através do espaço e sobrecarrega, explodindo com o impacto");
                     Calamity.GetItem("HolyFireBullet").DisplayName.AddTranslation(GameCulture.Portuguese, "Projétil do Fogo Sagrado");
                     Calamity.GetItem("HolyFireBullet").Tooltip.AddTranslation(GameCulture.Portuguese, "Balas sagradas explosivas");
                     Calamity.GetItem("HyperiusBullet").DisplayName.AddTranslation(GameCulture.Portuguese, "Projétil de Hipério");
@@ -701,23 +671,23 @@ namespace CalamityModPTBR
 
                     ////Armor
                     Calamity.GetItem("WulfrumHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo de Vulfrânio");
-                    Calamity.GetItem("WulfrumHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento nos danos por ataques físicos");
+                    Calamity.GetItem("WulfrumHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataques físicos");
                     Calamity.GetItem("WulfrumHeadgear").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacete de Vulfrânio");
-                    Calamity.GetItem("WulfrumHeadgear").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento nos danos por ataque à distância");
+                    Calamity.GetItem("WulfrumHeadgear").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataque à distância");
                     Calamity.GetItem("WulfrumHood").DisplayName.AddTranslation(GameCulture.Portuguese, "Protetor Facial de Vulfrânio");
-                    Calamity.GetItem("WulfrumHood").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento nos danos por magia");
+                    Calamity.GetItem("WulfrumHood").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por magia");
                     Calamity.GetItem("WulfrumHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Casco de Vulfrânio");
-                    Calamity.GetItem("WulfrumHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "6% de aumento nos danos por lacaios\n+1 lacaio máximo");
+                    Calamity.GetItem("WulfrumHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por lacaios");
                     Calamity.GetItem("WulfrumMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Vulfrânio");
-                    Calamity.GetItem("WulfrumMask").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento nos danos por ataques assassinos");
+                    Calamity.GetItem("WulfrumMask").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataques ladinos");
                     Calamity.GetItem("WulfrumArmor").DisplayName.AddTranslation(GameCulture.Portuguese, "Armadura de Vulfrânio");
                     Calamity.GetItem("WulfrumArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento na chance de acerto crítico");
                     Calamity.GetItem("WulfrumLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças de Vulfrânio");
                     Calamity.GetItem("WulfrumLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade dos movimentos aumentada em 5%");
                     Calamity.GetItem("SnowRuffianMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Rufião das Neves");
-                    Calamity.GetItem("SnowRuffianMask").Tooltip.AddTranslation(GameCulture.Portuguese, "2% de aumento nos danos por ataques assassinos");
+                    Calamity.GetItem("SnowRuffianMask").Tooltip.AddTranslation(GameCulture.Portuguese, "2% de aumento nos danos por ataques ladinos");
                     Calamity.GetItem("SnowRuffianChestplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral do Rufião das Neves");
-                    Calamity.GetItem("SnowRuffianChestplate").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento na chance de ataque assassino crítico");
+                    Calamity.GetItem("SnowRuffianChestplate").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento na chance de ataque ladino crítico");
                     Calamity.GetItem("SnowRuffianGreaves").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas do Rufião das Neves");
                     Calamity.GetItem("SnowRuffianGreaves").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na velocidade dos movimentos");
                     Calamity.GetItem("DesertProwlerHat").DisplayName.AddTranslation(GameCulture.Portuguese, "Chapéu do Gatuno do Deserto");
@@ -733,29 +703,29 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VictideMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Vimaré");
                     Calamity.GetItem("VictideMask").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por magia");
                     Calamity.GetItem("VictideHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Casco de Vimaré");
-                    Calamity.GetItem("VictideHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "9% de aumento nos danos por lacaios\n+1 lacaio máximo");
+                    Calamity.GetItem("VictideHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por lacaios");
                     Calamity.GetItem("VictideHeadgear").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacete de Vimaré");
-                    Calamity.GetItem("VictideHeadgear").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por ataques assassinos");
+                    Calamity.GetItem("VictideHeadgear").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por ataques ladinos");
                     Calamity.GetItem("VictideBreastplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral de Vimaré");
-                    Calamity.GetItem("VictideBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na redução dos danos e chance de acerto crítico\nDefesa aumentada enquanto submerso em líquidos");
+                    Calamity.GetItem("VictideBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na redução dos danos e chance de acerto crítico\n+5 defesa e 10% de aumento nos danos enquanto submerso em líquidos");
                     Calamity.GetItem("VictideLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças de Vimaré");
-                    Calamity.GetItem("VictideLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade dos movimentos aumentada em 8%\nA velocidade dos movimentos aumenta bastante enquanto submerso em líquidos");
+                    Calamity.GetItem("VictideLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade dos movimentos aumentada em 8%\nVelocidade dos movimentos aumentada em 30% enquanto submerso em líquidos");
                     Calamity.GetItem("SulfurHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Sulfúrico");
-                    Calamity.GetItem("SulfurHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por ataques assassinos\n2% de aumento na chance de ataque assassino crítico\nOferece respiração embaixo d\u0027água");
+                    Calamity.GetItem("SulfurHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "4% de aumento nos danos por ataques ladinos\n2% de aumento na chance de acerto ladino crítico\nPermite respirar embaixo d'água");
                     Calamity.GetItem("SulfurBreastplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral Sulfúrico");
-                    Calamity.GetItem("SulfurBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de danos por ataques assassinos e 5% de chance de ataque crítico");
+                    Calamity.GetItem("SulfurBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de danos por ataques ladinos e 5% de chance de ataque crítico");
                     Calamity.GetItem("SulfurLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças Sulfúricas");
-                    Calamity.GetItem("SulfurLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade dos movimentos aumentada em 10%\nA velocidade dos movimentos aumenta bastante enquanto submerso em líquidos");
+                    Calamity.GetItem("SulfurLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade dos movimentos aumentada em 10%\nVelocidade dos movimentos aumentada em 35% enquanto em líquidos");
                     Calamity.GetItem("AerospecHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Aéreo");
                     Calamity.GetItem("AerospecHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por ataques físicos");
                     Calamity.GetItem("AerospecHood").DisplayName.AddTranslation(GameCulture.Portuguese, "Capuz Aéreo");
                     Calamity.GetItem("AerospecHood").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por ataque à distância");
                     Calamity.GetItem("AerospecHat").DisplayName.AddTranslation(GameCulture.Portuguese, "Chapéu Aéreo");
-                    Calamity.GetItem("AerospecHat").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por magia\n+20 mana máxima");
+                    Calamity.GetItem("AerospecHat").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por magia e +20 mana máxima");
                     Calamity.GetItem("AerospecHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Casco Aéreo");
-                    Calamity.GetItem("AerospecHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na velocidade dos movimentos e +1 lacaio máximo");
+                    Calamity.GetItem("AerospecHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na velocidade dos movimentos e dano por lacaios");
                     Calamity.GetItem("AerospecHeadgear").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacete Aéreo");
-                    Calamity.GetItem("AerospecHeadgear").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por ataques assassinos e 5% de aumento na velocidade dos movimentos");
+                    Calamity.GetItem("AerospecHeadgear").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por ataques ladinos e 5% de aumento na velocidade dos movimentos");
                     Calamity.GetItem("AerospecBreastplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral Aéreo");
                     Calamity.GetItem("AerospecBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento na chance de acerto crítico");
                     Calamity.GetItem("AerospecLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças Aéreas");
@@ -767,35 +737,35 @@ namespace CalamityModPTBR
                     Calamity.GetItem("StatigelCap").DisplayName.AddTranslation(GameCulture.Portuguese, "Boné de Statigel");
                     Calamity.GetItem("StatigelCap").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por magia e 10% de redução no custo de mana\n7% de aumento na chance de ataque mágico crítico e +30 mana máxima");
                     Calamity.GetItem("StatigelHood").DisplayName.AddTranslation(GameCulture.Portuguese, "Capuz de Statigel");
-                    Calamity.GetItem("StatigelHood").Tooltip.AddTranslation(GameCulture.Portuguese, "Maior recuo dos lacaios e +1 lacaio máximo");
+                    Calamity.GetItem("StatigelHood").Tooltip.AddTranslation(GameCulture.Portuguese, "Maior recuo dos lacaios");
                     Calamity.GetItem("StatigelMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Statigel");
-                    Calamity.GetItem("StatigelMask").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos assasinos e 33% de chance de não consumir itens arremessáveis\n7% de aumento na chance de ataque assassino crítico");
+                    Calamity.GetItem("StatigelMask").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos assasinos e 34% de chance de não consumir itens arremessados\n7% de aumento na chance de ataque ladino crítico e 12% de aumento na velocidade dos movimentos");
                     Calamity.GetItem("StatigelArmor").DisplayName.AddTranslation(GameCulture.Portuguese, "Armadura de Statigel");
                     Calamity.GetItem("StatigelArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na chance de acerto crítico");
                     Calamity.GetItem("StatigelGreaves").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas de Statigel");
                     Calamity.GetItem("StatigelGreaves").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos e na velocidade dos movimentos");
                     Calamity.GetItem("MolluskShellmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo-concha de Molusco");
-                    Calamity.GetItem("MolluskShellmet").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos e 4% de aumento na chance de acerto crítico\nVocê pode mover livremente em líquidos");
+                    Calamity.GetItem("MolluskShellmet").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos e 4% de aumento na chance de acerto crítico\nVocê pode se mover livremente em líquidos");
                     Calamity.GetItem("MolluskShellplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral-concha de Molusco");
                     Calamity.GetItem("MolluskShellplate").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos e 6% de aumento na chance de acerto crítico\n15% de redução na velocidade dos movimentos");
                     Calamity.GetItem("MolluskShelleggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças-concha de Molusco");
                     Calamity.GetItem("MolluskShelleggings").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos e 4% de aumento na chance de acerto crítico\n7% de redução na velocidade dos movimentos");
                     Calamity.GetItem("TitanHeartMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Coração do Titã");
-                    Calamity.GetItem("TitanHeartMask").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento no dano e recuo assassino\nArmas assassinas espalham a infecção astral");
+                    Calamity.GetItem("TitanHeartMask").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento no dano e recuo ladino\nArmas ladinas espalham a infecção astral");
                     Calamity.GetItem("TitanHeartMantle").DisplayName.AddTranslation(GameCulture.Portuguese, "Manto do Coração do Titã");
-                    Calamity.GetItem("TitanHeartMantle").Tooltip.AddTranslation(GameCulture.Portuguese, "45% de chance de não consumir itens assassinos\n5% de aumento no recuo assassino mas 15% de redução na velocidade de tiro assassina");
+                    Calamity.GetItem("TitanHeartMantle").Tooltip.AddTranslation(GameCulture.Portuguese, "45% de chance de não consumir itens ladinos\n5% de aumento no recuo ladino mas 15% de redução na velocidade de tiro ladina");
                     Calamity.GetItem("TitanHeartBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas do Coração do Titã");
-                    Calamity.GetItem("TitanHeartBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "4% de aumento nos danos assasinos, 10% de aumento na velocidade de projéteis assassinos, e 5% de aumento no recuo assassino");
+                    Calamity.GetItem("TitanHeartBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "4% de aumento nos danos assasinos, 10% de aumento na velocidade de projéteis ladinos, e 5% de aumento no recuo ladino");
                     Calamity.GetItem("DaedalusHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo de Dédalo");
                     Calamity.GetItem("DaedalusHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataque físico e na chance de ataque crítico\n10% de aumento na velocidade do ataque físico e do movimento");
                     Calamity.GetItem("DaedalusHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacete de Dédalo");
-                    Calamity.GetItem("DaedalusHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "13% de aumento nos danos por ataque à distância e 7% de aumento na chance de ataque à distância crítico\nReduz o custo de munição em 20% ");
+                    Calamity.GetItem("DaedalusHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "13% de aumento nos danos por ataque à distância e 7% de aumento na chance de ataque à distância crítico\nReduz o custo de munição em 20%");
                     Calamity.GetItem("DaedalusHat").DisplayName.AddTranslation(GameCulture.Portuguese, "Capuz de Dédalo");
                     Calamity.GetItem("DaedalusHat").Tooltip.AddTranslation(GameCulture.Portuguese, "13% de aumento nos danos por magia e 7% de aumento na chance de acerto crítico mágico\n10% de redução no uso de mana e +60 mana máxima");
                     Calamity.GetItem("DaedalusHeadgear").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Dédalo");
-                    Calamity.GetItem("DaedalusHeadgear").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por lacaios e +2 lacaios máximos");
+                    Calamity.GetItem("DaedalusHeadgear").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por lacaios");
                     Calamity.GetItem("DaedalusVisor").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara Facial de Dédalo");
-                    Calamity.GetItem("DaedalusVisor").Tooltip.AddTranslation(GameCulture.Portuguese, "13% de aumento nos danos por ataques assassinos e 7% de aumento na chance de ataque assassino crítico, aumenta a velocidade de projéteis assassinos em 15%\n17% de aumento na velocidade dos movimentos");
+                    Calamity.GetItem("DaedalusVisor").Tooltip.AddTranslation(GameCulture.Portuguese, "13% de aumento nos danos por ataques ladinos e 7% de aumento na chance de ataque ladino crítico, aumenta a velocidade de projéteis ladinos em 15%\n17% de aumento na velocidade dos movimentos");
                     Calamity.GetItem("DaedalusBreastplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral de Dédalo");
                     Calamity.GetItem("DaedalusBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento nos danos e na chance de ataque crítico");
                     Calamity.GetItem("DaedalusLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças de Dédalo");
@@ -809,33 +779,35 @@ namespace CalamityModPTBR
                     Calamity.GetItem("FathomSwarmerVisage").DisplayName.AddTranslation(GameCulture.Portuguese, "Protetor Facial do Enxame das Profundezas");
                     Calamity.GetItem("FathomSwarmerVisage").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por lacaios\nFornece respiração e luz embaixo d\u0027água");
                     Calamity.GetItem("FathomSwarmerBreastplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral do Enxame das Profundezas");
-                    Calamity.GetItem("FathomSwarmerBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento na redução dos danos\n6% de aumento nos danos por lacaios e +1 lacaio máximo\nDefesa e regeneração de vida aumentadas quando submerso em líquidos\nReduz a perda de defesa dentro do Abismo");
+                    Calamity.GetItem("FathomSwarmerBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "6% de aumento na redução dos danos\n6% de aumento nos danos por lacaios\nDefesa e regeneração de vida aumentadas quando submerso em líquidos\nReduz a perda de defesa dentro do Abismo");
                     Calamity.GetItem("FathomSwarmerBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas do Enxame das Profundezas");
-                    Calamity.GetItem("FathomSwarmerBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "4% de aumento nos danos por lacaios\nOferece a capacidade de nadar\nA velocidade dos movimentos aumenta bastante enquanto submerso em líquidos");
+                    Calamity.GetItem("FathomSwarmerBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "4% de aumento nos danos por lacaios\nOferece a capacidade de nadar\nA velocidade dos movimentos é aumentada em 40% enquanto submerso em líquidos");
                     Calamity.GetItem("UmbraphileHood").DisplayName.AddTranslation(GameCulture.Portuguese, "Capuz de Umbrafile");
-                    Calamity.GetItem("UmbraphileHood").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por ataques assassinos e 10% de aumento na velocidade de projéteis assassinos");
+                    Calamity.GetItem("UmbraphileHood").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por ataques ladinos e 10% de aumento na velocidade de projéteis ladinos");
                     Calamity.GetItem("UmbraphileRegalia").DisplayName.AddTranslation(GameCulture.Portuguese, "Regalia de Umbrafile");
-                    Calamity.GetItem("UmbraphileRegalia").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataques assasinos e 10% de aumento no crítico assassino");
+                    Calamity.GetItem("UmbraphileRegalia").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por ataques assasinos e 10% de aumento no crítico ladino");
                     Calamity.GetItem("UmbraphileBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas de Umbrafile");
-                    Calamity.GetItem("UmbraphileBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "9% de aumento nos danos por ataques assassinos e 6% de aumento no crítico assassino\n30% de aumento na velocidade dos movimentos");
+                    Calamity.GetItem("UmbraphileBoots").Tooltip.AddTranslation(GameCulture.Portuguese, "9% de aumento nos danos por ataques ladinos e 6% de aumento no crítico ladino\n30% de aumento na velocidade dos movimentos");
                     Calamity.GetItem("ReaverHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo do Ladrão");
-                    Calamity.GetItem("ReaverHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos por ataques físicos, 10% de aumento na velocidade do ataque físico, e 5% de aumento na chance de ataque físico crítico\n10% de aumento na velocidade dos movimentos e você pode se mover livremente em líquidos");
+                    Calamity.GetItem("ReaverHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento na redução dos danos mas 30% de redução nos danos\n+50 vida máxima\nRegenera um ponto de vida passivamente a cada segundo");
                     Calamity.GetItem("ReaverVisage").DisplayName.AddTranslation(GameCulture.Portuguese, "Protetor Facial do Ladrão");
-                    Calamity.GetItem("ReaverVisage").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos por ataque à distância, 20% de redução no uso de munição, e 5% de aumento na chance de ataque à distância crítico\n10% de aumento na velocidade dos movimentos e você pode se mover livremente em líquidos");
+                    Calamity.GetItem("ReaverVisage").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento na velocidade dos pulos e 25% de aumento na velocidade dos movimentos");
+                    Calamity.GetItem("ReaverHeadgear").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacete do Ladrão");
+                    Calamity.GetItem("ReaverHeadgear").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento na velocidade da picareta e 20% de aumento na velocidade do posicionamento de blocos/paredes\nImunidade temporária à lava e pode mover-se livremente em líquidos");
                     Calamity.GetItem("ReaverScaleMail").DisplayName.AddTranslation(GameCulture.Portuguese, "Armadura de Malha do Ladrão");
                     Calamity.GetItem("ReaverScaleMail").Tooltip.AddTranslation(GameCulture.Portuguese, "9% de aumento nos danos e 4% de aumento na chance de acerto crítico\n+20 vida máxima");
                     Calamity.GetItem("ReaverCuisses").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas do Ladrão");
                     Calamity.GetItem("ReaverCuisses").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento na chance de acerto crítico\n12% de aumento na velocidade dos movimentos");
                     Calamity.GetItem("AtaxiaHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Hidrotérmico");
-                    Calamity.GetItem("AtaxiaHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por ataques físicos e 10% de aumento na chance de ataque físico crítico\nAtaques físicos infligem Em chamas\nImunidade temporária à lava e imunidade a dano de fogo");
+                    Calamity.GetItem("AtaxiaHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por ataques físicos e 10% de aumento na chance de ataque físico crítico\n12% de aumento na velocidade dos movimentos e do ataque físico\nAtaques físicos infligem Em chamas\nImunidade temporária à lava e imunidade a dano de fogo");
                     Calamity.GetItem("AtaxiaHeadgear").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacete Hidrotérmico");
-                    Calamity.GetItem("AtaxiaHeadgear").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por ataque à distância e 10% de aumento na chance de ataque à distância crítico\nReduz o custo de munição em 25%\nImunidade temporária à lava e imunidade a dano de fogo");
+                    Calamity.GetItem("AtaxiaHeadgear").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por ataque à distância e 10% de aumento na chance de ataque à distância crítico\nReduz o custo de munição em 25%, imunidade temporária à lava, e imunidade a dano de fogo");
                     Calamity.GetItem("AtaxiaMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara Hidrotérmica");
-                    Calamity.GetItem("AtaxiaMask").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por magia, reduz o uso de mana em 15%, e 10% na chance de ataque mágico crítico\n+100 Mana Máxima\nImunidade temporária à lava e imunidade a dano de fogo");
+                    Calamity.GetItem("AtaxiaMask").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por magia, +100 mana máxima, e 10% na chance de ataque mágico crítico\nImunidade temporária à lava e imunidade a dano de fogo");
                     Calamity.GetItem("AtaxiaHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Casco Hidrotérmico");
-                    Calamity.GetItem("AtaxiaHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por invocação\n+2 lacaios máximos\nImunidade temporária à lava e imunidade a dano de fogo");
+                    Calamity.GetItem("AtaxiaHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "5% de aumento nos danos por invocação e maior recuo dos lacaios\nImunidade temporária à lava e imunidade a dano de fogo");
                     Calamity.GetItem("AtaxiaHood").DisplayName.AddTranslation(GameCulture.Portuguese, "Capuz Hidrotérmico");
-                    Calamity.GetItem("AtaxiaHood").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por ataques assassinos\n50% de chance de não consumir itens assassinos\nImunidade temporária à lava e imunidade a dano de fogo");
+                    Calamity.GetItem("AtaxiaHood").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por ataques ladinos e 10% de aumento na chance de acerto crítico ladino\n50% de chance de não consumir itens ladinos e 15% de aumento na velocidade dos movimentos\nImunidade temporária à lava e imunidade a dano de fogo");
                     Calamity.GetItem("AtaxiaArmor").DisplayName.AddTranslation(GameCulture.Portuguese, "Armadura Hidrotérmica");
                     Calamity.GetItem("AtaxiaArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "+20 vida máxima\n8% de aumento nos danos e 4% de aumento na chance de acerto crítico");
                     Calamity.GetItem("AtaxiaSubligar").DisplayName.AddTranslation(GameCulture.Portuguese, "Subligar Hidrotérmico");
@@ -845,115 +817,117 @@ namespace CalamityModPTBR
                     Calamity.GetItem("PlagueReaperVest").DisplayName.AddTranslation(GameCulture.Portuguese, "Colete do Ceifador da Praga");
                     Calamity.GetItem("PlagueReaperVest").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz o dano causado em você pela praga\n15% de aumento nos danos por ataque à distância e 5% de aumento na chance de ataque à distância crítico");
                     Calamity.GetItem("PlagueReaperStriders").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas do Ceifador da Praga");
-                    Calamity.GetItem("PlagueReaperStriders").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento na chance de acerto crítico\n20% de aumento na velocidade dos movimentos");
+                    Calamity.GetItem("PlagueReaperStriders").Tooltip.AddTranslation(GameCulture.Portuguese, "3% de aumento na chance de acerto crítico à distância\n15% de aumento na velocidade dos movimentos");
                     Calamity.GetItem("PlaguebringerVisor").DisplayName.AddTranslation(GameCulture.Portuguese, "Viseira do Portador da Peste");
-                    Calamity.GetItem("PlaguebringerVisor").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos por lacaios e +2 lacaios máximos\n+20 vida máxima");
+                    Calamity.GetItem("PlaguebringerVisor").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos por lacaios\n+20 vida máxima");
                     Calamity.GetItem("PlaguebringerCarapace").DisplayName.AddTranslation(GameCulture.Portuguese, "Carapaça do Portador da Peste");
-                    Calamity.GetItem("PlaguebringerCarapace").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz o dano causado em você pela praga\n12% de aumento nos danos por lacaios e +1 lacaio máximo\nAbelhas amigáveis infligem a praga");
+                    Calamity.GetItem("PlaguebringerCarapace").Tooltip.AddTranslation(GameCulture.Portuguese, "Reduz o dano causado em você pela praga\n12% de aumento nos danos por lacaios\nAbelhas amigáveis infligem a praga");
                     Calamity.GetItem("PlaguebringerPistons").DisplayName.AddTranslation(GameCulture.Portuguese, "Pistões do Portador da Peste");
                     Calamity.GetItem("PlaguebringerPistons").Tooltip.AddTranslation(GameCulture.Portuguese, "13% de aumento nos danos por lacaios e 15% de aumento na velocidade dos movimentos\nVocê cultiva flores na grama abaixo de você, com chance de cultivar plantas de tintura aleatórias em terra sem grama\nVocê invoca abelhas enquanto corre");
                     Calamity.GetItem("AstralHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Astral");
                     Calamity.GetItem("AstralHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "Detecção de perigos");
                     Calamity.GetItem("AstralBreastplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral Astral");
-                    Calamity.GetItem("AstralBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "+20 vida e mana máxima\n+3 lacaios máximos\nDetecção de criaturas");
+                    Calamity.GetItem("AstralBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "+80 mana máxima e +20 vida máxima\nDetecção de criaturas");
                     Calamity.GetItem("AstralLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calças Astrais");
                     Calamity.GetItem("AstralLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento na velocidade dos movimentos\nDetecção de tesouros e minérios");
                     Calamity.GetItem("XerocMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara Empírica");
-                    Calamity.GetItem("XerocMask").Tooltip.AddTranslation(GameCulture.Portuguese, "Ira do cosmos\n11% de aumento nos danos por ataques assassinos e na chance de ataque crítico\nImunidade temporária à lava");
+                    Calamity.GetItem("XerocMask").Tooltip.AddTranslation(GameCulture.Portuguese, "Ira do cosmos\n11% de aumento nos danos por ataques ladinos e na chance de ataque crítico, 20% de aumento na velocidade dos movimentos\nImunidade temporária à lava");
                     Calamity.GetItem("XerocPlateMail").DisplayName.AddTranslation(GameCulture.Portuguese, "Manto Empírico");
-                    Calamity.GetItem("XerocPlateMail").Tooltip.AddTranslation(GameCulture.Portuguese, "Armadura do cosmos\n+20 vida máxima\n6% de aumento na velocidade dos movimentos\n7% de aumento nos danos por ataques assassinos e na chance de ataque crítico");
+                    Calamity.GetItem("XerocPlateMail").Tooltip.AddTranslation(GameCulture.Portuguese, "Armadura do cosmos\n+20 vida máxima\n7% de aumento nos danos por ataques ladinos e na chance de ataque crítico");
                     Calamity.GetItem("XerocCuisses").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas Empíricas");
-                    Calamity.GetItem("XerocCuisses").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade do cosmos\n5% de aumento nos danos por ataques assassinos e na chance de ataque crítico\n20% de aumento na velocidade dos movimentos");
+                    Calamity.GetItem("XerocCuisses").Tooltip.AddTranslation(GameCulture.Portuguese, "Velocidade do cosmos\n5% de aumento nos danos por ataques ladinos e na chance de ataque crítico\n20% de aumento na velocidade dos movimentos");
                     Calamity.GetItem("TarragonHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo de Estragão");
                     Calamity.GetItem("TarragonHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "Elmo do discípulo dos anciões\nImunidade temporária à lava\nVocê pode se mover livremente em líquidos\n5% de aumento na redução dos danos\n10% de aumento nos danos por ataque físico e na chance de ataque crítico");
                     Calamity.GetItem("TarragonVisage").DisplayName.AddTranslation(GameCulture.Portuguese, "Protetor Facial de Estragão");
                     Calamity.GetItem("TarragonVisage").Tooltip.AddTranslation(GameCulture.Portuguese, "Imunidade temporária à lava\nVocê pode se mover livremente em líquidos\n10% de aumento nos danos por ataque à distância e na chance de ataque crítico\n5% de aumento na redução dos danos");
                     Calamity.GetItem("TarragonMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Estragão");
-                    Calamity.GetItem("TarragonMask").Tooltip.AddTranslation(GameCulture.Portuguese, "Imunidade temporária à lava\nVocê pode se mover livremente em líquidos\n10% de aumento nos danos por magia e na chance de ataque crítico\n5% de aumento na redução dos danos, +100 mana máxima, e 15% de redução no consumo de mana");
+                    Calamity.GetItem("TarragonMask").Tooltip.AddTranslation(GameCulture.Portuguese, "Imunidade temporária à lava\nVocê pode se mover livremente em líquidos\n20% de aumento nos danos por magia e 10% de aumento na chance de ataque crítico mágico\n5% de aumento na redução dos danos, +100 mana máxima, e 15% de redução no consumo de mana");
                     Calamity.GetItem("TarragonHornedHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo com Chifres de Estragão");
-                    Calamity.GetItem("TarragonHornedHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "Imunidade temporária à lava\nVocê pode se mover livremente em líquidos\n5% de aumento na redução dos danos e +3 lacaios máximos");
+                    Calamity.GetItem("TarragonHornedHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "Imunidade temporária à lava\nVocê pode se mover livremente em líquidos\n5% de aumento na redução dos danos e nos danos por lacaios");
                     Calamity.GetItem("TarragonHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Casco de Estragão");
-                    Calamity.GetItem("TarragonHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "Imunidade temporária à lava\nVocê pode se mover livremente em líquidos\n10% de aumento nos danos por ataque assassino e na chance de ataque crítico\n5% de aumento na redução dos danos");
+                    Calamity.GetItem("TarragonHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "Imunidade temporária à lava\nVocê pode se mover livremente em líquidos e 12% de aumento na velocidade dos movimentos\n10% de aumento nos danos por ataque ladino e na chance de ataque crítico\n5% de aumento na redução dos danos");
                     Calamity.GetItem("TarragonBreastplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral de Estragão");
                     Calamity.GetItem("TarragonBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "Peitoral do exilador\n10% de aumento nos danos e 5% de aumento na chance de acerto crítico\n+2 regeneração de vida e +40 vida máxima");
-                    Calamity.GetItem("TarragonLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Caça de Estragão");
-                    Calamity.GetItem("TarragonLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "Calças de um explorador fabuloso\n20% de aumento na velocidade dos movimentos; maior aumento de velocidade se a vida estiver mais baixa\n6% de aumento nos danos e na chance de ataque crítico");
+                    Calamity.GetItem("TarragonLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calça de Estragão");
+                    Calamity.GetItem("TarragonLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "Calças de um explorador fabuloso\n15% de aumento na velocidade dos movimentos\n6% de aumento nos danos e na chance de ataque crítico");
                     Calamity.GetItem("PrismaticHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Prismático");
-                    Calamity.GetItem("PrismaticHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "8% de aumento nos danos por magia e 12% de aumento no crítico mágico\n20% de redução nos danos não mágicos\nInimigos com menos de 500 de vida não causam danos\nIsso não ocorre enquanto um chefe estiver vivo");
+                    Calamity.GetItem("PrismaticHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "18% de aumento nos danos por magia e 12% de aumento no crítico mágico\n20% de redução dos danos não mágicos\nInimigos com menos de 500 de vida não causam danos\nIsto não ocorre enquanto um chefe estiver vivo");
                     Calamity.GetItem("PrismaticRegalia").DisplayName.AddTranslation(GameCulture.Portuguese, "Regalia Prismática");
-                    Calamity.GetItem("PrismaticRegalia").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por magia e 15% de aumento no crítico mágico\n20% de redução nos danos não mágicos\n+20 vida máxima e +40 mana máxima\nAtaques mágicos ocasionalmente disparam um par de foguetes teleguiados");
+                    Calamity.GetItem("PrismaticRegalia").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos por magia e 15% de aumento no crítico mágico\n20% de redução dos danos não mágicos\n+20 vida máxima e +40 mana máxima\nAtaques mágicos ocasionalmente disparam um par de foguetes teleguiados");
                     Calamity.GetItem("PrismaticGreaves").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas Prismáticas");
-                    Calamity.GetItem("PrismaticGreaves").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por magia e 12% de aumento no crítico mágico\n20% de redução nos danos não mágicos\nAumenta o seu tempo de voô e velocidade dos pulos em 10%");
+                    Calamity.GetItem("PrismaticGreaves").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por magia e 12% de aumento no crítico mágico\n20% de redução dos danos não mágicos\n10% de aumento no tempo de voô e 2% de aumento na velocidade dos pulos");
                     Calamity.GetItem("BloodflareMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Carneiro de Chamas Sangrentas");
                     Calamity.GetItem("BloodflareMask").Tooltip.AddTranslation(GameCulture.Portuguese, "Você pode se mover livremente em líquidos e possui imunidade temporária à lava\n10% de aumento nos danos por ataque físico e na chance de ataque crítico");
                     Calamity.GetItem("BloodflareHornedHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo com Chifres de Chamas Sangrentas");
                     Calamity.GetItem("BloodflareHornedHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "Você pode se mover livremente em líquidos e possui imunidade temporária à lava\n10% de aumento nos danos por ataque à distância e na chance de ataque crítico");
                     Calamity.GetItem("BloodflareHornedMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Capuz da Hidra de Chamas Sangrentas");
-                    Calamity.GetItem("BloodflareHornedMask").Tooltip.AddTranslation(GameCulture.Portuguese, "Você pode se mover livremente em líquidos e possui imunidade temporária à lava\n10% de aumento nos danos por magia e na chance de acerto crítico, +100 mana máxima, e 17% de redução no consumo de mana");
+                    Calamity.GetItem("BloodflareHornedMask").Tooltip.AddTranslation(GameCulture.Portuguese, "Você pode se mover livremente em líquidos e possui imunidade temporária à lava\n20% de aumento nos danos por magia, 10% de aumento na chance de acerto crítico mágico, +100 mana máxima e 17% de redução no consumo de mana");
                     Calamity.GetItem("BloodflareHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo da Serpe de Chamas Sangrentas");
-                    Calamity.GetItem("BloodflareHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "Você pode se mover livremente em líquidos e possui imunidade temporária à lava\n+3 lacaios máximos");
+                    Calamity.GetItem("BloodflareHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "Você pode se mover livremente em líquidos e possui imunidade temporária à lava\n5% de aumento nos danos por lacaios");
                     Calamity.GetItem("BloodflareHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Demônio de Chamas Sangrentas");
-                    Calamity.GetItem("BloodflareHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "Você pode se mover livremente em líquidos e possui imunidade temporária à lava\n10% de aumento no dano por ataques assassinos e na chance de acerto crítico");
+                    Calamity.GetItem("BloodflareHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "Você pode se mover livremente em líquidos e possui imunidade temporária à lava\n10% de aumento no dano por ataques ladinos e na chance de acerto crítico, 15% de aumento na velocidade dos movimentos");
                     Calamity.GetItem("BloodflareBodyArmor").DisplayName.AddTranslation(GameCulture.Portuguese, "Armadura Corporal de Chamas Sangrentas");
                     Calamity.GetItem("BloodflareBodyArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos e 8% de aumento na chance de acerto crítico\nVocê regenera vida rapidamente e ganha +30 defesa enquanto está na lava\n+40 vida máxima");
                     Calamity.GetItem("BloodflareCuisses").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas de Chamas Sangrentas");
-                    Calamity.GetItem("BloodflareCuisses").Tooltip.AddTranslation(GameCulture.Portuguese, "30% de aumento na velocidade dos movimentos, 10% de aumento nos danos e 7% de aumento na chance de acerto crítico");
+                    Calamity.GetItem("BloodflareCuisses").Tooltip.AddTranslation(GameCulture.Portuguese, "17% de aumento na velocidade dos movimentos, 10% de aumento nos danos e 7% de aumento na chance de acerto crítico");
                     Calamity.GetItem("OmegaBlueHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Ômega Azul");
                     Calamity.GetItem("OmegaBlueHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "Você pode se mover livremente em líquidos\n12% de aumento nos danos e 8% de aumento na chance de acerto crítico\n+2 lacaios máximos");
                     Calamity.GetItem("OmegaBlueChestplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral Ômega Azul");
                     Calamity.GetItem("OmegaBlueChestplate").Tooltip.AddTranslation(GameCulture.Portuguese, "12% de aumento nos danos e 8% de aumento na chance de acerto crítico\nSeus ataques infligem Pressão das profundezas\nSem regeneração de vida positiva");
                     Calamity.GetItem("OmegaBlueLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Tentáculos Ômega Azuis");
-                    Calamity.GetItem("OmegaBlueLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "30% de aumento na velocidade dos movimentos\n12% de aumento nos danos e 8% de aumento na chance de acerto crítico");
+                    Calamity.GetItem("OmegaBlueLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "20% de aumento na velocidade dos movimentos\n12% de aumento nos danos e 8% de aumento na chance de acerto crítico");
                     Calamity.GetItem("GodSlayerHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Grande Elmo com Chifres do Assassino de Deuses");
                     Calamity.GetItem("GodSlayerHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "14% de aumento nos danos por ataque físico e na chance de ataque crítico");
                     Calamity.GetItem("GodSlayerHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacete do Assassino de Deuses");
                     Calamity.GetItem("GodSlayerHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "14% de aumento nos danos por ataque à distância e na chance de ataque crítico");
                     Calamity.GetItem("GodSlayerVisage").DisplayName.AddTranslation(GameCulture.Portuguese, "Protetor Facial do Assassino de Deuses");
-                    Calamity.GetItem("GodSlayerVisage").Tooltip.AddTranslation(GameCulture.Portuguese, "14% de aumento nos danos por magia e na chance de ataque crítico\n+100 mana máxima e 17% de redução no consumo de mana");
                     Calamity.GetItem("GodSlayerHornedHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo com Chifres do Assassino de Deuses");
-                    Calamity.GetItem("GodSlayerHornedHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "+3 lacaios máximos");
                     Calamity.GetItem("GodSlayerMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Assassino de Deuses");
-                    Calamity.GetItem("GodSlayerMask").Tooltip.AddTranslation(GameCulture.Portuguese, "14% de aumento nos danos por ataque assassino e na chance de ataque crítico");
+                    Calamity.GetItem("GodSlayerMask").Tooltip.AddTranslation(GameCulture.Portuguese, "14% de aumento nos danos por ataque ladino e na chance de ataque crítico, 18% de aumento na velocidade dos movimentos");
                     Calamity.GetItem("GodSlayerChestplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral do Assassino de Deuses");
-                    Calamity.GetItem("GodSlayerChestplate").Tooltip.AddTranslation(GameCulture.Portuguese, "+60 vida máxima\n15% de aumento na velocidade dos movimentos\nInimigos sofrem danos quando te acertam\nAtaques têm 2% de chance de não causar danos a você\n10% de aumento nos danos e 6% de aumento na chance de ataque crítico");
+                    Calamity.GetItem("GodSlayerChestplate").Tooltip.AddTranslation(GameCulture.Portuguese, "+60 vida máxima\nInimigos sofrem danos quando te acertam\n11% de aumento na velocidade dos movimentos e 6% de aumento na chance de acerto crítico");
                     Calamity.GetItem("GodSlayerLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calça do Assassino de Deuses");
-                    Calamity.GetItem("GodSlayerLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "35% de aumento na velocidade dos danos\n10% de aumento no dano e na chance de acerto crítico");
+                    Calamity.GetItem("GodSlayerLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "18% de aumento na velocidade dos movimentos\n10% de aumento no dano e 6% de aumento na chance de acerto crítico");
                     Calamity.GetItem("FearmongerGreathelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Grande Elmo Amedrontador");
-                    Calamity.GetItem("FearmongerGreathelm").Tooltip.AddTranslation(GameCulture.Portuguese, "Puro terror irradia de seus olhos\n+60 mana máxima e 10% de redução no consumo de mana\n10% de aumento nos danos por lacaios e +2 lacaios máximos");
+                    Calamity.GetItem("FearmongerGreathelm").Tooltip.AddTranslation(GameCulture.Portuguese, "Puro terror irradia de seus olhos\n+60 mana máxima e 10% de redução no consumo de mana\n10% de aumento nos danos por lacaios");
                     Calamity.GetItem("FearmongerPlateMail").DisplayName.AddTranslation(GameCulture.Portuguese, "Armadura de Placas Amedrontadoras");
-                    Calamity.GetItem("FearmongerPlateMail").Tooltip.AddTranslation(GameCulture.Portuguese, "+100 vida máxima e 8% de aumento na redução dos danos\n+2 lacaios máximos\n5% de aumento nos danos e na chance de ataque crítico");
+                    Calamity.GetItem("FearmongerPlateMail").Tooltip.AddTranslation(GameCulture.Portuguese, "+100 vida máxima e 8% de aumento na redução dos danos\n5% de aumento nos danos e na chance de ataque crítico");
                     Calamity.GetItem("FearmongerGreaves").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas Amedrontadoras");
-                    Calamity.GetItem("FearmongerGreaves").Tooltip.AddTranslation(GameCulture.Portuguese, "+2 lacaios máximos e 6% de aumento nos danos\n50% de aumento no recuo dos lacaios\n15% de aumento na velocidade dos movimentos\nSofrer danos faz com que você se mova muito rápido por um curto período de tempo");
+                    Calamity.GetItem("FearmongerGreaves").Tooltip.AddTranslation(GameCulture.Portuguese, "6% de aumento nos danos\n50% de aumento no recuo dos lacaios\n10% de aumento na velocidade dos movimentos\nSofrer danos faz com que você se mova muito rápido por um curto período de tempo");
+                    Calamity.GetItem("GemTechHeadgear").DisplayName.AddTranslation(GameCulture.Portuguese, "Capacete da Tecnologia das Joias");
+                    Calamity.GetItem("GemTechHeadgear").Tooltip.AddTranslation(GameCulture.Portuguese, "O Diabo disse: Deleite-se com sua vitória; Você ganhou sua condenação. Arrume suas coisas e vá embora.");
+                    Calamity.GetItem("GemTechBodyArmor").DisplayName.AddTranslation(GameCulture.Portuguese, "Armadura Corporal da Tecnologia das Joias");
+                    Calamity.GetItem("GemTechBodyArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "Você afundou o suficiente para eu o alcançar.");
+                    Calamity.GetItem("GemTechBodyArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "Você afundou o suficiente para eu o alcançar.");
+                    Calamity.GetItem("GemTechSchynbaulds").DisplayName.AddTranslation(GameCulture.Portuguese, "Cobre-canela da Tecnologia das Joias");
+                    Calamity.GetItem("GemTechSchynbaulds").Tooltip.AddTranslation(GameCulture.Portuguese, "Se eles te machucam, chute-os.");
                     Calamity.GetItem("SilvaHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo de Silva");
-                    Calamity.GetItem("SilvaHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "13% de aumento nos danos por ataque físico e na chance de ataque crítico");
                     Calamity.GetItem("SilvaHornedHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo com Chifres de Silva");
-                    Calamity.GetItem("SilvaHornedHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "13% de aumento nos danos por ataque à distância e na chance de ataque crítico");
                     Calamity.GetItem("SilvaMaskedCap").DisplayName.AddTranslation(GameCulture.Portuguese, "Boné Mascarado de Silva");
-                    Calamity.GetItem("SilvaMaskedCap").Tooltip.AddTranslation(GameCulture.Portuguese, "13% de aumento nos danos por magia e na chance de ataque crítico\n+100 mana máxima e 19% de redução no consumo de mana");
+                    Calamity.GetItem("SilvaMaskedCap").Tooltip.AddTranslation(GameCulture.Portuguese, "23% de aumento nos danos por magia e 13% de aumento na chance de ataque crítico mágico\n+100 mana máxima e 19% de redução no consumo de mana");
                     Calamity.GetItem("SilvaHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Capuz com Chifres de Silva");
-                    Calamity.GetItem("SilvaHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "+5 lacaios máximos");
+                    Calamity.GetItem("SilvaHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por lacaios");
                     Calamity.GetItem("SilvaMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Silva");
-                    Calamity.GetItem("SilvaMask").Tooltip.AddTranslation(GameCulture.Portuguese, "13% de aumento nos danos por ataque assassino e na chance de ataque crítico, 20% de aumento na velocidade dos movimentos");
                     Calamity.GetItem("SilvaArmor").DisplayName.AddTranslation(GameCulture.Portuguese, "Armadura de Silva");
-                    Calamity.GetItem("SilvaArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "+80 vida máxima\n20% de aumento na velocidade dos movimentos\n12% de aumento nos danos e 8% de aumento na chance de ataque crítico");
+                    Calamity.GetItem("SilvaArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "+80 vida máxima\n12% de aumento nos danos e 8% de aumento na chance de ataque crítico\nOferece imunidade ao efeito Irradiado");
                     Calamity.GetItem("SilvaLeggings").DisplayName.AddTranslation(GameCulture.Portuguese, "Calça de Silva");
-                    Calamity.GetItem("SilvaLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "45% de aumento na velocidade dos movimentos\n12% de aumento nos danos e 7% de aumento na chance de ataque crítico");
+                    Calamity.GetItem("SilvaLeggings").Tooltip.AddTranslation(GameCulture.Portuguese, "19% de aumento na velocidade dos movimentos\n12% de aumento nos danos e 7% de aumento na chance de ataque crítico");
                     Calamity.GetItem("AuricTeslaHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Real de Tesla Áurica");
                     Calamity.GetItem("AuricTeslaHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "20% de aumento nos danos por ataque físico e na chance de ataque crítico\nFicar parado aumenta todos os danos e a chance de acerto crítico");
                     Calamity.GetItem("AuricTeslaHoodedFacemask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara Facial Encapuzada de Tesla Áurica");
                     Calamity.GetItem("AuricTeslaHoodedFacemask").Tooltip.AddTranslation(GameCulture.Portuguese, "30% de aumento nos danos por ataque à distância e na chance de ataque crítico\nFicar parado aumenta todos os danos e a chance de acerto crítico");
                     Calamity.GetItem("AuricTeslaWireHemmedVisage").DisplayName.AddTranslation(GameCulture.Portuguese, "Protetor Facial com Arames de Tesla Áurica");
-                    Calamity.GetItem("AuricTeslaWireHemmedVisage").Tooltip.AddTranslation(GameCulture.Portuguese, "20% de aumento nos danos por magia e na chance de ataque crítico, +100 mana máxima, e 20% de redução no consumo de mana\nFicar parado aumenta todos os danos e a chance de acerto crítico");
+                    Calamity.GetItem("AuricTeslaWireHemmedVisage").Tooltip.AddTranslation(GameCulture.Portuguese, "30% de aumento nos danos por magia e 20% de aumento na chance de ataque crítico mágico, +100 mana máxima, e 20% de redução no consumo de mana\nFicar parado aumenta todos os danos e a chance de acerto crítico");
                     Calamity.GetItem("AuricTeslaSpaceHelmet").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Espacial de Tesla Áurica");
-                    Calamity.GetItem("AuricTeslaSpaceHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "+7 lacaios máximos\nFicar parado aumenta todos os danos e a chance de acerto crítico");
+                    Calamity.GetItem("AuricTeslaSpaceHelmet").Tooltip.AddTranslation(GameCulture.Portuguese, "15% de aumento nos danos por lacaios\nFicar parado aumenta todos os danos e a chance de acerto crítico");
                     Calamity.GetItem("AuricTeslaPlumedHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo Emplumado de Tesla Áurica");
-                    Calamity.GetItem("AuricTeslaPlumedHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "20% de aumento nos danos por ataques assassinos e na chance de ataque crítico, 25% de aumento na velocidade dos movimentos\nFicar parado aumenta todos os danos e a chance de acerto crítico");
+                    Calamity.GetItem("AuricTeslaPlumedHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "20% de aumento nos danos por ataques ladinos, na chance de ataque crítico e na velocidade dos movimentos\nFicar parado aumenta todos os danos e a chance de acerto crítico");
                     Calamity.GetItem("AuricTeslaBodyArmor").DisplayName.AddTranslation(GameCulture.Portuguese, "Armadura Corporal de Tesla Áurica");
-                    Calamity.GetItem("AuricTeslaBodyArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "+100 vida máxima\n25% de aumento na velocidade dos movimentos\nAtaques têm 2% de chance de não causar danos a você\n8% de aumento nos danos e 5% de aumento na chance de ataque crítico\nVocê congelará os inimigos perto de você quando for atingido");
+                    Calamity.GetItem("AuricTeslaBodyArmor").Tooltip.AddTranslation(GameCulture.Portuguese, "+100 vida máxima\n8% de aumento nos danos e 5% de aumento na chance de ataque crítico\nVocê congelará os inimigos perto de você quando for atingido");
                     Calamity.GetItem("AuricTeslaCuisses").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas de Tesla Áurica");
-                    Calamity.GetItem("AuricTeslaCuisses").Tooltip.AddTranslation(GameCulture.Portuguese, "50% de aumento na velocidade dos movimentos\n12% de aumento nos danos e 5% de aumento na chance de ataque crítico\nEfeito do tapete mágico");
+                    Calamity.GetItem("AuricTeslaCuisses").Tooltip.AddTranslation(GameCulture.Portuguese, "20% de aumento na velocidade dos movimentos\n12% de aumento nos danos e 5% de aumento na chance de ataque crítico\nEfeito do tapete mágico");
                     Calamity.GetItem("DemonshadeHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo das Sombras do Demônio");
-                    Calamity.GetItem("DemonshadeHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "30% de aumento nos danos e 15% de aumento na chance de acerto crítico, +10 lacaios máximos");
+                    Calamity.GetItem("DemonshadeHelm").Tooltip.AddTranslation(GameCulture.Portuguese, "30% de aumento nos danos e 15% de aumento na chance de acerto crítico");
                     Calamity.GetItem("DemonshadeBreastplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Peitoral das Sombras do Demônio");
                     Calamity.GetItem("DemonshadeBreastplate").Tooltip.AddTranslation(GameCulture.Portuguese, "20% de aumento na velocidade do ataque físico, 15% de aumento no dano e na chance de acerto crítico\nInimigos recebem danos ímpios quando tocam em você\nAumenta a vida e mana máxima em 200\nFicar parado permite que você absorva as sombras e aumente sua regeneração de vida");
                     Calamity.GetItem("DemonshadeGreaves").DisplayName.AddTranslation(GameCulture.Portuguese, "Grevas das Sombras do Demônio");
@@ -961,7 +935,7 @@ namespace CalamityModPTBR
 
                     //Miscellaneous
                     Calamity.GetItem("ForbiddenCirclet").DisplayName.AddTranslation(GameCulture.Portuguese, "Argola Proibída");
-                    Calamity.GetItem("ForbiddenCirclet").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por invocação e 15% de aumento na velocidade dos projéteis assassinos");
+                    Calamity.GetItem("ForbiddenCirclet").Tooltip.AddTranslation(GameCulture.Portuguese, "10% de aumento nos danos por invocação e 15% de aumento na velocidade dos projéteis ladinos");
                     Calamity.GetItem("ShroomiteVisage").DisplayName.AddTranslation(GameCulture.Portuguese, "Protetor Facial de Cogumelita");
                     Calamity.GetItem("ShroomiteVisage").Tooltip.AddTranslation(GameCulture.Portuguese, "25% de aumento nos danos por ataque à distância para lança-chamas");
 
@@ -970,6 +944,8 @@ namespace CalamityModPTBR
                     Calamity.GetItem("ApronOfAffection").DisplayName.AddTranslation(GameCulture.Portuguese, "Avental de Carinho de Ás");
                     Calamity.GetItem("ApronOfAffection").Tooltip.AddTranslation(GameCulture.Portuguese, "Ótimo para abraçar pessoas");
                     Calamity.GetItem("AshenHorns").DisplayName.AddTranslation(GameCulture.Portuguese, "Chifres Cinzentos");
+                    Calamity.GetItem("CirrusDress").DisplayName.AddTranslation(GameCulture.Portuguese, "Vestido de Cirrus");
+                    Calamity.GetItem("CirrusDress").Tooltip.AddTranslation(GameCulture.Portuguese, "Aqui, isto deve ajudá-lo a beber tanto álcool quanto quiser!\n5% de aumento nos danos por magia e na chance de acerto crítico mágico\nVocê se sente gostosão...");
 
                     //Vanity sets
                     Calamity.GetItem("AncientGodSlayerHelm").DisplayName.AddTranslation(GameCulture.Portuguese, "Elmo do Assassino de Deuses Antigo");
@@ -978,6 +954,8 @@ namespace CalamityModPTBR
                     Calamity.GetItem("SCalMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Capuz Calamitoso");
                     Calamity.GetItem("SCalRobes").DisplayName.AddTranslation(GameCulture.Portuguese, "Roupão Calamitoso");
                     Calamity.GetItem("SCalBoots").DisplayName.AddTranslation(GameCulture.Portuguese, "Botas Calamitosas");
+                    Calamity.GetItem("CalamityHood").DisplayName.AddTranslation(GameCulture.Portuguese, "Capuz da Calamidade");
+                    Calamity.GetItem("CalamityRobes").DisplayName.AddTranslation(GameCulture.Portuguese, "Roupão da Calamidade");
 
                     //Boss Masks
                     Calamity.GetItem("AnahitaMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Anahita");
@@ -995,8 +973,8 @@ namespace CalamityModPTBR
                     Calamity.GetItem("DesertScourgeMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Praga do Deserto");
                     Calamity.GetItem("DevourerofGodsMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Devorador de Deuses");
                     Calamity.GetItem("DraedonMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara de Draedon");
-                    Calamity.GetItem("BumblefuckMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Pássaro-dragão");
-                    Calamity.GetItem("HiveMindMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Mente de Colméia");
+                    Calamity.GetItem("BumblefuckMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Dragonfolly");
+                    Calamity.GetItem("HiveMindMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Colmeia Mental");
                     Calamity.GetItem("LeviathanMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara da Leviathan");
                     Calamity.GetItem("OldDukeMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Velho Duque");
                     Calamity.GetItem("PerforatorMask").DisplayName.AddTranslation(GameCulture.Portuguese, "Máscara do Perfurador");
@@ -1065,7 +1043,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("AstralOre").DisplayName.AddTranslation(GameCulture.Portuguese, "Minério Astral");
                     Calamity.GetItem("ExodiumClusterOre").DisplayName.AddTranslation(GameCulture.Portuguese, "Aglomerado de Exódio");
                     Calamity.GetItem("ExodiumClusterOre").Tooltip.AddTranslation(GameCulture.Portuguese, "Um aglomerado frio do grande desconhecido.");
-                    Calamity.GetItem("UelibloomOre").DisplayName.AddTranslation(GameCulture.Portuguese, "Minério Florescente");
+                    Calamity.GetItem("UelibloomOre").DisplayName.AddTranslation(GameCulture.Portuguese, "Minério de Casca Florescente");
                     Calamity.GetItem("AuricOre").DisplayName.AddTranslation(GameCulture.Portuguese, "Minério Áurico");
 
                     //Other
@@ -1115,8 +1093,8 @@ namespace CalamityModPTBR
                     Calamity.GetItem("ChaoticBrickWall").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Tijolos Caóticos");
                     Calamity.GetItem("PlaguedPlate").DisplayName.AddTranslation(GameCulture.Portuguese, "Tijolo de Contenção Infestado");
                     Calamity.GetItem("PlaguedPlateWall").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Contenção Infestado");
-                    Calamity.GetItem("UelibloomBrick").DisplayName.AddTranslation(GameCulture.Portuguese, "Tijolo Florescente");
-                    Calamity.GetItem("UelibloomBrickWall").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Tijolos Florescentes");
+                    Calamity.GetItem("UelibloomBrick").DisplayName.AddTranslation(GameCulture.Portuguese, "Tijolo de Casca Florescente");
+                    Calamity.GetItem("UelibloomBrickWall").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Tijolos de Cascas Florescentes");
                     Calamity.GetItem("Chaosplate").DisplayName.AddTranslation(GameCulture.Portuguese, "Placa do Caos");
                     Calamity.GetItem("Chaosplate").Tooltip.AddTranslation(GameCulture.Portuguese, "Ressoa com energia sobrenatural.");
                     Calamity.GetItem("ChaosplateWall").DisplayName.AddTranslation(GameCulture.Portuguese, "Parede de Placas do Caos");
@@ -1167,12 +1145,13 @@ namespace CalamityModPTBR
                     Calamity.GetItem("CruptixBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra de Escória");
                     Calamity.GetItem("CruptixBar").Tooltip.AddTranslation(GameCulture.Portuguese, "A fumaça parece quente");
                     Calamity.GetItem("AstralBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra Astral");
-                    Calamity.GetItem("UeliaceBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra Florescente");
+                    Calamity.GetItem("UeliaceBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra de Casca Florescente");
                     Calamity.GetItem("CosmiliteBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra de Cosmilita");
                     Calamity.GetItem("CosmiliteBar").Tooltip.AddTranslation(GameCulture.Portuguese, "Um pedaço de aço cósmico altamente resistente");
                     Calamity.GetItem("AuricBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra Áurica");
-                    Calamity.GetItem("AuricBar").Tooltip.AddTranslation(GameCulture.Portuguese, "Irradia energia divina");
+                    Calamity.GetItem("AuricBar").Tooltip.AddTranslation(GameCulture.Portuguese, "Poder divino emana do metal");
                     Calamity.GetItem("ShadowspecBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Barra Sombria");
+                    Calamity.GetItem("ShadowspecBar").Tooltip.AddTranslation(GameCulture.Portuguese, "Um metal preto vil, tão horrendo e poderoso que desafia qualquer explicação");
 
                     //Fish
                     Calamity.GetItem("AldebaranAlewife").DisplayName.AddTranslation(GameCulture.Portuguese, "Alosa Cinzenta de Aldebarã");
@@ -1208,7 +1187,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("EnergyCore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo de Energia");
                     Calamity.GetItem("EnergyCore").Tooltip.AddTranslation(GameCulture.Portuguese, "Ele pulsa com energia");
                     Calamity.GetItem("MurkyPaste").DisplayName.AddTranslation(GameCulture.Portuguese, "Pasta Turva");
-                    Calamity.GetItem("MurkySludge").DisplayName.AddTranslation(GameCulture.Portuguese, "Lama Turva");
                     Calamity.GetItem("MysteriousCircuitry").DisplayName.AddTranslation(GameCulture.Portuguese, "Circuito Misterioso");
                     Calamity.GetItem("PurifiedGel").DisplayName.AddTranslation(GameCulture.Portuguese, "Gel Purificado");
                     Calamity.GetItem("StormlionMandible").DisplayName.AddTranslation(GameCulture.Portuguese, "Mandíbula de Formiga-trovão");
@@ -1223,7 +1201,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("BlightedLens").DisplayName.AddTranslation(GameCulture.Portuguese, "Lente Manchada");
                     Calamity.GetItem("DepthCells").DisplayName.AddTranslation(GameCulture.Portuguese, "Células das Profundezas");
                     Calamity.GetItem("DepthCells").Tooltip.AddTranslation(GameCulture.Portuguese, "As células de criaturas abissais");
-                    Calamity.GetItem("Ectoblood").DisplayName.AddTranslation(GameCulture.Portuguese, "Ectosangue");
                     Calamity.GetItem("EssenceofChaos").DisplayName.AddTranslation(GameCulture.Portuguese, "Essência do Caos");
                     Calamity.GetItem("EssenceofChaos").Tooltip.AddTranslation(GameCulture.Portuguese, "A essência das criaturas caóticas");
                     Calamity.GetItem("EssenceofEleum").DisplayName.AddTranslation(GameCulture.Portuguese, "Essência de Eleum");
@@ -1286,12 +1263,12 @@ namespace CalamityModPTBR
                     Calamity.GetItem("MeldiateBar").DisplayName.AddTranslation(GameCulture.Portuguese, "Construção de Fusão");
                     Calamity.GetItem("MiracleMatter").DisplayName.AddTranslation(GameCulture.Portuguese, "Matéria Milagrosa");
                     Calamity.GetItem("MiracleMatter").Tooltip.AddTranslation(GameCulture.Portuguese, "Sua forma amorfa contém potencial incalculável\nUma é necessária para cada arma Exo");
-                    Calamity.GetItem("MysteriousMechanism").DisplayName.AddTranslation(GameCulture.Portuguese, "Mecanismo Misterioso");
+                    Calamity.GetItem("MysteriousMechanism").DisplayName.AddTranslation(GameCulture.Portuguese, "Mecanismo de Procura de Laboratórios");
                     Calamity.GetItem("MysteriousMechanism").Tooltip.AddTranslation(GameCulture.Portuguese, "Usado como uma base para tecnologia de teleguiação especializada");
                     Calamity.GetItem("UnholyCore").DisplayName.AddTranslation(GameCulture.Portuguese, "Núcleo Profano");
 
                     //Dyes
-                    Calamity.GetItem("AerialiteDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura de Aerialita");
+                    Calamity.GetItem("AerialiteDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura de Aerealita");
                     Calamity.GetItem("AstralBlueDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura Azul Astral");
                     Calamity.GetItem("AstralDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura de Carne Astral");
                     Calamity.GetItem("AstralOrangeDye").DisplayName.AddTranslation(GameCulture.Portuguese, "Tintura Laranja Astral");
@@ -1328,7 +1305,7 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("LeviathanStart").DisplayName.AddTranslation(GameCulture.Portuguese, "???");
                     Calamity.GetNPC("AeroSlime").DisplayName.AddTranslation(GameCulture.Portuguese, "Geleia Aérea");
                     Calamity.GetNPC("AngryDog").DisplayName.AddTranslation(GameCulture.Portuguese, "Cachorro Furioso");
-                    Calamity.GetNPC("CrawlerAmber").DisplayName.AddTranslation(GameCulture.Portuguese, "Rastejador de âmbar");
+                    Calamity.GetNPC("CrawlerAmber").DisplayName.AddTranslation(GameCulture.Portuguese, "Rastejador de Âmbar");
                     Calamity.GetNPC("CrawlerAmethyst").DisplayName.AddTranslation(GameCulture.Portuguese, "Rastejador de Ametista");
                     Calamity.GetNPC("AquaticParasite").DisplayName.AddTranslation(GameCulture.Portuguese, "Parasita Aquático");
                     Calamity.GetNPC("AquaticSeekerHead").DisplayName.AddTranslation(GameCulture.Portuguese, "Caçador Aquático");
@@ -1359,7 +1336,7 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("MantisShrimp").DisplayName.AddTranslation(GameCulture.Portuguese, "Camarão Louva-a-deus");
                     Calamity.GetNPC("MorayEel").DisplayName.AddTranslation(GameCulture.Portuguese, "Moreia");
                     Calamity.GetNPC("PerforatorCyst").DisplayName.AddTranslation(GameCulture.Portuguese, "Cisto do Perfurador");
-                    Calamity.GetNPC("Pitbull").DisplayName.AddTranslation(GameCulture.Portuguese, "Pitbull");
+                    Calamity.GetNPC("Rotdog").DisplayName.AddTranslation(GameCulture.Portuguese, "Cachorro-podre");
                     Calamity.GetNPC("PrismTurtle").DisplayName.AddTranslation(GameCulture.Portuguese, "Casco de Prisma");
                     Calamity.GetNPC("CrawlerRuby").DisplayName.AddTranslation(GameCulture.Portuguese, "Rastejador de Rubi");
                     Calamity.GetNPC("CrawlerSapphire").DisplayName.AddTranslation(GameCulture.Portuguese, "Rastejador de Safira");
@@ -1425,10 +1402,6 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("PlaguedJungleSlime").DisplayName.AddTranslation(GameCulture.Portuguese, "Geleia Pestilenta");
                     Calamity.GetNPC("PhantomDebris").DisplayName.AddTranslation(GameCulture.Portuguese, "Detrito Fantasma");
                     Calamity.GetNPC("PlaguedTortoise").DisplayName.AddTranslation(GameCulture.Portuguese, "Casco da Praga");
-                    Calamity.GetNPC("PlagueBee").DisplayName.AddTranslation(GameCulture.Portuguese, "Corredor da Praga");
-                    Calamity.GetNPC("PlagueBeeLarge").DisplayName.AddTranslation(GameCulture.Portuguese, "Corredor da Praga");
-                    Calamity.GetNPC("PlagueBeeG").DisplayName.AddTranslation(GameCulture.Portuguese, "Corredor da Praga");
-                    Calamity.GetNPC("PlagueBeeLargeG").DisplayName.AddTranslation(GameCulture.Portuguese, "Corredor da Praga");
                     Calamity.GetNPC("SandTortoise").DisplayName.AddTranslation(GameCulture.Portuguese, "Tartaruga de Areia");
                     Calamity.GetNPC("SeaSerpent1").DisplayName.AddTranslation(GameCulture.Portuguese, "Serpente do Mar");
                     Calamity.GetNPC("SeaSerpent2").DisplayName.AddTranslation(GameCulture.Portuguese, "Serpente do Mar");
@@ -1447,6 +1420,7 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("BobbitWormSegment").DisplayName.AddTranslation(GameCulture.Portuguese, "Verme Bobbit");
                     Calamity.GetNPC("BloomSlime").DisplayName.AddTranslation(GameCulture.Portuguese, "Geleia Florescente");
                     Calamity.GetNPC("ChaoticPuffer").DisplayName.AddTranslation(GameCulture.Portuguese, "Baiacu Caótico");
+                    Calamity.GetNPC("WildBumblefuck").DisplayName.AddTranslation(GameCulture.Portuguese, "Voador Dracônico");
                     Calamity.GetNPC("Bumblefuck2").DisplayName.AddTranslation(GameCulture.Portuguese, "Voador Dracônico");
                     Calamity.GetNPC("ImpiousImmolator").DisplayName.AddTranslation(GameCulture.Portuguese, "Imolador Ímpio");
                     Calamity.GetNPC("PhantomSpirit").DisplayName.AddTranslation(GameCulture.Portuguese, "Espírito Fantasma");
@@ -1467,10 +1441,10 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("EidolonWyrmBody").DisplayName.AddTranslation(GameCulture.Portuguese, "Serpente Eidolon");
                     Calamity.GetNPC("EidolonWyrmBodyAlt").DisplayName.AddTranslation(GameCulture.Portuguese, "Serpente Eidolon");
                     Calamity.GetNPC("EidolonWyrmTail").DisplayName.AddTranslation(GameCulture.Portuguese, "Serpente Eidolon");
-                    Calamity.GetNPC("EidolonWyrmHeadHuge").DisplayName.AddTranslation(GameCulture.Portuguese, "Serpente Eidolon");
-                    Calamity.GetNPC("EidolonWyrmBodyHuge").DisplayName.AddTranslation(GameCulture.Portuguese, "Serpente Eidolon");
-                    Calamity.GetNPC("EidolonWyrmBodyAltHuge").DisplayName.AddTranslation(GameCulture.Portuguese, "Serpente Eidolon");
-                    Calamity.GetNPC("EidolonWyrmTailHuge").DisplayName.AddTranslation(GameCulture.Portuguese, "Serpente Eidolon");
+                    Calamity.GetNPC("EidolonWyrmHeadHuge").DisplayName.AddTranslation(GameCulture.Portuguese, "Serpente Eidolon Adulta");
+                    Calamity.GetNPC("EidolonWyrmBodyHuge").DisplayName.AddTranslation(GameCulture.Portuguese, "Serpente Eidolon Adulta");
+                    Calamity.GetNPC("EidolonWyrmBodyAltHuge").DisplayName.AddTranslation(GameCulture.Portuguese, "Serpente Eidolon Adulta");
+                    Calamity.GetNPC("EidolonWyrmTailHuge").DisplayName.AddTranslation(GameCulture.Portuguese, "Serpente Eidolon Adulta");
                     Calamity.GetNPC("GiantClam").DisplayName.AddTranslation(GameCulture.Portuguese, "Ostra Gigante");
                     Calamity.GetNPC("Mauler").DisplayName.AddTranslation(GameCulture.Portuguese, "Malhador");
                     Calamity.GetNPC("PlaguebringerShade").DisplayName.AddTranslation(GameCulture.Portuguese, "Portadora da Peste");
@@ -1517,14 +1491,14 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("DevourerofGodsBody").DisplayName.AddTranslation(GameCulture.Portuguese, "Devorador de Deuses");
                     Calamity.GetNPC("DevourerofGodsTail").DisplayName.AddTranslation(GameCulture.Portuguese, "Devorador de Deuses");
                     Calamity.GetNPC("Draedon").DisplayName.AddTranslation(GameCulture.Portuguese, "Draedon");
-                    Calamity.GetNPC("Bumblefuck").DisplayName.AddTranslation(GameCulture.Portuguese, "Pássaro-dragão");
-                    Calamity.GetNPC("HiveMind").DisplayName.AddTranslation(GameCulture.Portuguese, "A Mente de Colméia");
+                    Calamity.GetNPC("Bumblefuck").DisplayName.AddTranslation(GameCulture.Portuguese, "Dragonfolly");
+                    Calamity.GetNPC("HiveMind").DisplayName.AddTranslation(GameCulture.Portuguese, "A Colmeia Mental");
                     Calamity.GetNPC("Yharon").DisplayName.AddTranslation(GameCulture.Portuguese, "Yharon, o Dragão da Selva");
                     Calamity.GetNPC("Leviathan").DisplayName.AddTranslation(GameCulture.Portuguese, "A Leviathan");
                     Calamity.GetNPC("Siren").DisplayName.AddTranslation(GameCulture.Portuguese, "Anahita");
                     Calamity.GetNPC("SirenIce").DisplayName.AddTranslation(GameCulture.Portuguese, "Escudo de Gelo");
                     Calamity.GetNPC("OldDuke").DisplayName.AddTranslation(GameCulture.Portuguese, "Velho Duque");
-                    Calamity.GetNPC("PerforatorHive").DisplayName.AddTranslation(GameCulture.Portuguese, "Colmeia do Perfurador");
+                    Calamity.GetNPC("PerforatorHive").DisplayName.AddTranslation(GameCulture.Portuguese, "Colmeia dos Perfuradores");
                     Calamity.GetNPC("PerforatorHeadSmall").DisplayName.AddTranslation(GameCulture.Portuguese, "O Perfurador");
                     Calamity.GetNPC("PerforatorBodySmall").DisplayName.AddTranslation(GameCulture.Portuguese, "O Perfurador");
                     Calamity.GetNPC("PerforatorTailSmall").DisplayName.AddTranslation(GameCulture.Portuguese, "O Perfurador");
@@ -1588,11 +1562,9 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("DankCreeper").DisplayName.AddTranslation(GameCulture.Portuguese, "Creeper Nojento");
                     Calamity.GetNPC("DarkEnergy").DisplayName.AddTranslation(GameCulture.Portuguese, "Energia Sombria");
                     Calamity.GetNPC("DarkHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração Sombrio");
-                    Calamity.GetNPC("DetonatingFlare").DisplayName.AddTranslation(GameCulture.Portuguese, "Chama Detonante");
                     Calamity.GetNPC("FlamePillar").DisplayName.AddTranslation(GameCulture.Portuguese, "Coluna de Chamas");
-                    Calamity.GetNPC("HiveBlob").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolha da Colméia");
-                    Calamity.GetNPC("HiveBlob2").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolha da Colméia");
-                    Calamity.GetNPC("LifeSeeker").DisplayName.AddTranslation(GameCulture.Portuguese, "Caçador de Vidas");
+                    Calamity.GetNPC("HiveBlob").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolha da Colmeia");
+                    Calamity.GetNPC("HiveBlob2").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolha da Colmeia");
                     Calamity.GetNPC("PhantomFuckYou").DisplayName.AddTranslation(GameCulture.Portuguese, "Fantasma");
                     Calamity.GetNPC("PlagueHomingMissile").DisplayName.AddTranslation(GameCulture.Portuguese, "Míssil Teleguiado da Praga");
                     Calamity.GetNPC("PlagueMine").DisplayName.AddTranslation(GameCulture.Portuguese, "Mina da Praga");
@@ -1620,9 +1592,6 @@ namespace CalamityModPTBR
                     Calamity.GetNPC("Artemis").DisplayName.AddTranslation(GameCulture.Portuguese, "XS-01 Ártemis");
                     Calamity.GetNPC("Apollo").DisplayName.AddTranslation(GameCulture.Portuguese, "XS-03 Apolo");
 
-                    //Unspawnable
-                    Calamity.GetNPC("WulfrumSlime").DisplayName.AddTranslation(GameCulture.Portuguese, "Geleia de Vulfrânio");
-
                     //Misc
                     Calamity.GetNPC("MicrobialCluster").DisplayName.AddTranslation(GameCulture.Portuguese, "Aglomerado de Micróbios");
 
@@ -1645,6 +1614,11 @@ namespace CalamityModPTBR
                     //Aquatic
                     Calamity.GetNPC("GhostBellSmall").DisplayName.AddTranslation(GameCulture.Portuguese, "Sino Fantasma Bebê");
                     Calamity.GetNPC("SeaMinnow").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixinho do Mar");
+
+                    //Other
+                    Calamity.GetNPC("LecherousOrb").DisplayName.AddTranslation(GameCulture.Portuguese, "Orbe Lascivo");
+                    Calamity.GetNPC("DemonPortal").DisplayName.AddTranslation(GameCulture.Portuguese, "Portal Demoníaco");
+                    Calamity.GetNPC("CalamitasEnchantDemon").DisplayName.AddTranslation(GameCulture.Portuguese, "Demônio");
 
                     ///Furniture
                     //Crafting stations
@@ -1838,15 +1812,15 @@ namespace CalamityModPTBR
                     Calamity.GetItem("FrogfishBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Peixe-rã");
                     Calamity.GetItem("GiantClamBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Ostra Gigante");
                     Calamity.GetItem("GhostBellBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Sino Fantasma");
-                    Calamity.GetItem("GhostBellSmallBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Sino Fantasma Pequeno");
+                    Calamity.GetItem("GhostBellSmallBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Sino Fantasma Bebê");
                     Calamity.GetItem("GnasherBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Rangedor");
                     Calamity.GetItem("IrradiatedSlimeBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Geleia Irradiada");
                     Calamity.GetItem("MantisShrimpBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Camarão Louva-a-deus");
                     Calamity.GetItem("MorayEelBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Moreia");
                     Calamity.GetItem("NuclearToadBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Sapo Nuclear");
                     Calamity.GetItem("PiggyBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Porquinho");
-                    Calamity.GetItem("PitbullBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Pitbull");
-                    Calamity.GetItem("PrismTurtleBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Tartaruga de Prisma");
+                    Calamity.GetItem("PitbullBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Cachorro-podre");
+                    Calamity.GetItem("PrismTurtleBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Casco de Prisma");
                     Calamity.GetItem("RadiatorBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Radiador");
                     Calamity.GetItem("RubyCrawlerBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Rastejador de Rubi");
                     Calamity.GetItem("SapphireCrawlerBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Rastejador de Safira");
@@ -1888,7 +1862,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("CryonBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Crion");
                     Calamity.GetItem("CryoSlimeBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Geleia Criônica");
                     Calamity.GetItem("CrystalCrawlerBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Rastejador de Cristal");
-                    Calamity.GetItem("CultistAssassinBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Assassino Cultista");
+                    Calamity.GetItem("CultistAssassinBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Ladino Cultista");
                     Calamity.GetItem("EarthElementalBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Elemental de Terra");
                     Calamity.GetItem("EidolistBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Eidolista");
                     Calamity.GetItem("FlakCrabBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Caranguejo Flak");
@@ -1914,7 +1888,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("PestilentSlimeBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Geleia Pestilenta");
                     Calamity.GetItem("PhantomDebrisBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Detrito Fantasma");
                     Calamity.GetItem("PlaguebringerBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Portadora da Peste");
-                    Calamity.GetItem("PlagueChargerBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Corredor da Praga");
                     Calamity.GetItem("PlagueshellBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira do Casco da Praga");
                     Calamity.GetItem("SandTortoiseBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Tartaruga de Areia");
                     Calamity.GetItem("SeaSerpentBanner").DisplayName.AddTranslation(GameCulture.Portuguese, "Bandeira da Serpente do Mar");
@@ -1968,9 +1941,19 @@ namespace CalamityModPTBR
                     Calamity.GetItem("DecryptionComputer").DisplayName.AddTranslation(GameCulture.Portuguese, "Computador de Descriptografia");
                     Calamity.GetItem("DecryptionComputer").Tooltip.AddTranslation(GameCulture.Portuguese, "Pode ser colocado no Decifrador\nPermite que você descriptografe esquemas avançados\nIsso permite que você aprenda como criar coisas novas");
                     Calamity.GetItem("LongRangedSensorArray").DisplayName.AddTranslation(GameCulture.Portuguese, "Matriz de Sensores de Longo Alcance");
-                    Calamity.GetItem("AdvancedDisplay").Tooltip.AddTranslation(GameCulture.Portuguese, "Pode ser colocado no Decifrador");
+                    Calamity.GetItem("LongRangedSensorArray").Tooltip.AddTranslation(GameCulture.Portuguese, "Pode ser colocado no Decifrador");
                     Calamity.GetItem("VoltageRegulationSystem").DisplayName.AddTranslation(GameCulture.Portuguese, "Sistema de Regulação de Voltagem");
                     Calamity.GetItem("VoltageRegulationSystem").Tooltip.AddTranslation(GameCulture.Portuguese, "Pode ser colocado no Decifrador");
+                    Calamity.GetItem("EncryptedSchematicSunkenSea").DisplayName.AddTranslation(GameCulture.Portuguese, "Esquemática");
+                    Calamity.GetItem("EncryptedSchematicSunkenSea").Tooltip.AddTranslation(GameCulture.Portuguese, "Diagramas detalhados de vários dispositivos e armas dançam na tela holográfica.\nO armamento que forneço aos trabalhadores dos laboratórios é fraco. Pouco adequado para a batalha.\nNo entanto, eles são suficientes para a autodefesa contra quaisquer mecanismos de laboratório ou criações que possam ter se tornado fora de controle.\nAdendo: para aqueles que se consideram poderosos, procure nos limites superiores da atmosfera deste planeta uma estrutura semelhante à dos mares profundos.\nEu saberei no final se você é digno de lutar contra minhas criações.\nRecolher este item ou segurá-lo no seu inventário permanentemente desbloqueará novas receitas");
+                    Calamity.GetItem("EncryptedSchematicPlanetoid").DisplayName.AddTranslation(GameCulture.Portuguese, "Esquemática Criptografada");
+                    Calamity.GetItem("EncryptedSchematicPlanetoid").Tooltip.AddTranslation(GameCulture.Portuguese, "Requer um Decifrador com um computador de descriptografia básico para descriptografar");
+                    Calamity.GetItem("EncryptedSchematicJungle").DisplayName.AddTranslation(GameCulture.Portuguese, "Esquemática Criptografada");
+                    Calamity.GetItem("EncryptedSchematicJungle").Tooltip.AddTranslation(GameCulture.Portuguese, "Requer um Decifrador com um sensor de longo alcance bem ajustado para descriptografar");
+                    Calamity.GetItem("EncryptedSchematicHell").DisplayName.AddTranslation(GameCulture.Portuguese, "Esquemática Criptografada");
+                    Calamity.GetItem("EncryptedSchematicHell").Tooltip.AddTranslation(GameCulture.Portuguese, "Requer um Decifrador com um monitor sofisticado para descriptografar");
+                    Calamity.GetItem("EncryptedSchematicIce").DisplayName.AddTranslation(GameCulture.Portuguese, "Esquemática Criptografada");
+                    Calamity.GetItem("EncryptedSchematicIce").Tooltip.AddTranslation(GameCulture.Portuguese, "Requer um Decifrador com um sistema de regulação de voltagem complexo para descriptografar");
 
                     //Door
                     Calamity.GetItem("AncientDoor").DisplayName.AddTranslation(GameCulture.Portuguese, "Porta Antiga");
@@ -2031,7 +2014,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("VoidClock").DisplayName.AddTranslation(GameCulture.Portuguese, "Relógio do Vazio");
 
                     //Platforms
-                    Calamity.GetItem("ProfanedPlatform").DisplayName.AddTranslation(GameCulture.Portuguese, "Plataforma Profana");
                     Calamity.GetItem("ProfanedPlatform").DisplayName.AddTranslation(GameCulture.Portuguese, "Plataforma Profana");
                     Calamity.GetItem("StratusPlatform").DisplayName.AddTranslation(GameCulture.Portuguese, "Plataforma de Stratus");
                     Calamity.GetItem("StratusStarPlatformItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Plataforma da Estrela de Stratus");
@@ -2192,7 +2174,7 @@ namespace CalamityModPTBR
                     //Pre-Hardmode
                     Calamity.GetItem("DesertScourgeTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu da Praga do Deserto");
                     Calamity.GetItem("CrabulonTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Crabulon");
-                    Calamity.GetItem("HiveMindTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu da Mente de Colmeia");
+                    Calamity.GetItem("HiveMindTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu da Colmeia Mental");
                     Calamity.GetItem("PerforatorTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu do Perfurador");
                     Calamity.GetItem("SlimeGodTrophy").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu da Praga do Deserto");
 
@@ -2244,6 +2226,10 @@ namespace CalamityModPTBR
                     Calamity.GetItem("LaboratoryServerItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Servidor de Laboratório");
                     Calamity.GetItem("LaboratoryTerminalItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Terminal de Laboratório");
                     Calamity.GetItem("ReinforcedCrateItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Caixa Reforçada");
+                    Calamity.GetItem("ChargingStationItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Estação de Carregamento");
+                    Calamity.GetItem("ChargingStationItem").Tooltip.AddTranslation(GameCulture.Portuguese, "Carrega itens do Arsenal de Draedon usando Baterias\nColoque um item junto com as Baterias na Estação de Carregamento para carregar o item");
+                    Calamity.GetItem("PowerCellFactoryItem").DisplayName.AddTranslation(GameCulture.Portuguese, "Fábrica de Baterias");
+                    Calamity.GetItem("PowerCellFactoryItem").Tooltip.AddTranslation(GameCulture.Portuguese, "Produz Baterias de Draedon ao longo do tempo\nUma bateria é produzida a cada 15 segundos");
 
                     ///Misc
                     //Summon
@@ -2256,11 +2242,9 @@ namespace CalamityModPTBR
                     Calamity.GetItem("BloodIdol").DisplayName.AddTranslation(GameCulture.Portuguese, "Relíquia de Sangue");
                     Calamity.GetItem("BloodIdol").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um lua de sangue");
                     Calamity.GetItem("BloodyWormFood").DisplayName.AddTranslation(GameCulture.Portuguese, "Comida de Verme Sangrenta");
-                    Calamity.GetItem("BloodyWormFood").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca a Colmeia do Perfurador");
+                    Calamity.GetItem("BloodyWormFood").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca a Colmeia dos Perfuradores");
                     Calamity.GetItem("CausticTear").DisplayName.AddTranslation(GameCulture.Portuguese, "Lágrima Cáustica");
-                    Calamity.GetItem("CausticTear").Tooltip.AddTranslation(GameCulture.Portuguese, "Causa uma chuva ácida no Mar Sulfuroso");
-                    Calamity.GetItem("CausticTearNonConsumable").DisplayName.AddTranslation(GameCulture.Portuguese, "Lágrima Cáustica");
-                    Calamity.GetItem("CausticTearNonConsumable").Tooltip.AddTranslation(GameCulture.Portuguese, "Alterna a chuva ácida no Mar Sulfuroso");
+                    Calamity.GetItem("CausticTear").Tooltip.AddTranslation(GameCulture.Portuguese, "Causa uma chuva ácida no Mar Sulfuroso\nNão consumível");
                     Calamity.GetItem("CharredIdol").DisplayName.AddTranslation(GameCulture.Portuguese, "Ídolo Carbonizado");
                     Calamity.GetItem("CharredIdol").Tooltip.AddTranslation(GameCulture.Portuguese, "Use no Rochedo de Enxofre por sua própria conta e risco\nInvoca o Elemental de Enxofre\nO chefe enfurece fora de sua casa no rochedo");
                     Calamity.GetItem("CosmicWorm").DisplayName.AddTranslation(GameCulture.Portuguese, "Verme Cósmico");
@@ -2309,13 +2293,16 @@ namespace CalamityModPTBR
                     Calamity.GetItem("SuperDummy").DisplayName.AddTranslation(GameCulture.Portuguese, "Super Boneco");
                     Calamity.GetItem("SuperDummy").Tooltip.AddTranslation(GameCulture.Portuguese, "Cria um super boneco\nRegenera 1 milhão de vida por segundo\nNão morrerá ao receber dano ao longo do tempo de efeitos negativos\nClique com o botão direito para matar todos os super bonecos");
                     Calamity.GetItem("Teratoma").DisplayName.AddTranslation(GameCulture.Portuguese, "Teratoma");
-                    Calamity.GetItem("Teratoma").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca a Mente de Colmeia");
-                    Calamity.GetItem("BossRush").DisplayName.AddTranslation(GameCulture.Portuguese, "Término");
-                    Calamity.GetItem("BossRush").Tooltip.AddTranslation(GameCulture.Portuguese, "Um artefato ritualístico, que se acredita ter trazido O Fim muitos milênios atrás\nSelado no abismo, longe daqueles que procuram fazer mau uso dele\nAtiva o Modo Boss Rush, usá-lo novamente desativará o Modo Boss Rush\nDurante o Boss Rush, todos os fios e dispositivos com fio serão desativados");
+                    Calamity.GetItem("Teratoma").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca a Colmeia Mental");
+                    Calamity.GetItem("BossRush").DisplayName.AddTranslation(GameCulture.Portuguese, "Terminus");
+                    Calamity.GetItem("BossRush").Tooltip.AddTranslation(GameCulture.Portuguese, "Um artefato ritualístico, que se acredita ter trazido O Fim muitos milênios atrás\nSelado no abismo, longe daqueles que procuram fazer mau uso dele\nAtiva o Modo Corrida de Chefes, usá-lo novamente desativará o Modo Corrida de Chefes\nDurante a Corrida de Chefes, todos os fios e dispositivos com fio serão desativados");
                     Calamity.GetItem("TorrentialTear").DisplayName.AddTranslation(GameCulture.Portuguese, "Lágrima Torrencial");
                     Calamity.GetItem("TorrentialTear").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca a chuva.\nA chuva começará um tempo depois que este item for usado.\nSe usado enquanto está chovendo, a chuva irá parar depois de um tempo.\nNo Modo Morte, usar este item enquanto está chovendo reduizrá a quantidade de tempo que a chuva dura\na um minuto; no entanto, não mais baixo, e isso fará com que a chuva fique violenta naquele minuto.");
 
                     //Grab bags
+                    Calamity.GetItem("AbyssalTreasure").DisplayName.AddTranslation(GameCulture.Portuguese, "Tesouro Abissal");
+                    Calamity.GetItem("BleachedAnglingKit").DisplayName.AddTranslation(GameCulture.Portuguese, "Kit de Pesca Branqueado");
+                    Calamity.GetItem("BleachedAnglingKit").Tooltip.AddTranslation(GameCulture.Portuguese, "Tem a chance de conter vários equipamentos de pesca\nClique com o botão direito para abrir");
                     Calamity.GetItem("ChaoticFish").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixe Caótico");
                     Calamity.GetItem("ChaoticFish").Tooltip.AddTranslation(GameCulture.Portuguese, "Os chifres colocam uma maldição sobre aqueles que o tocam\nClique com o botão direito para extrair essências");
                     Calamity.GetItem("FishofEleum").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixe de Eleum");
@@ -2329,8 +2316,11 @@ namespace CalamityModPTBR
                     Calamity.GetItem("GlimmeringGemfish").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixe-gema Cintilante");
                     Calamity.GetItem("GlimmeringGemfish").Tooltip.AddTranslation(GameCulture.Portuguese, "Clique com o botão direito para extrair gemas");
                     Calamity.GetItem("StarterBag").DisplayName.AddTranslation(GameCulture.Portuguese, "Bolsa de Iniciante");
+                    Calamity.GetItem("SandyAnglingKit").DisplayName.AddTranslation(GameCulture.Portuguese, "Kit de Pesca Arenoso");
+                    Calamity.GetItem("SandyAnglingKit").Tooltip.AddTranslation(GameCulture.Portuguese, "Tem a chance de conter vários equipamentos de pesca\nClique com o botão direito para abrir");
                     Calamity.GetItem("StuffedFish").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixe Recheado");
                     Calamity.GetItem("StuffedFish").Tooltip.AddTranslation(GameCulture.Portuguese, "Clique com o botão direito para extrair ervas e sementes");
+                    Calamity.GetItem("SulphuricTreasure").DisplayName.AddTranslation(GameCulture.Portuguese, "Tesouro Sulfúrico");
                     Calamity.GetItem("SunbeamFish").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixe do Raio de Sol");
                     Calamity.GetItem("SunbeamFish").Tooltip.AddTranslation(GameCulture.Portuguese, "Clique com o botão direito para extrair essências");
 
@@ -2387,9 +2377,9 @@ namespace CalamityModPTBR
                     Calamity.GetItem("KnowledgeBrainofCthulhu").Tooltip.AddTranslation(GameCulture.Portuguese, "Um olho, e agora um cérebro.\nMuito provavelmente outra abominação gerada desta massa incipiente de carne.");
                     Calamity.GetItem("KnowledgeEaterofWorlds").DisplayName.AddTranslation(GameCulture.Portuguese, "O Devorador de Mundos");
                     Calamity.GetItem("KnowledgeEaterofWorlds").Tooltip.AddTranslation(GameCulture.Portuguese, "Talvez fosse apenas um verme gigante infectado pelo micróbio, que teve séculos para alimentar e desenvolver seu corpo purulento.\nParece provável, dadas as origens deste lugar.");
-                    Calamity.GetItem("KnowledgePerforators").DisplayName.AddTranslation(GameCulture.Portuguese, "Os Perfuradores e sua Colmeia");
+                    Calamity.GetItem("KnowledgePerforators").DisplayName.AddTranslation(GameCulture.Portuguese, "Os Perfuradores e a sua Colmeia");
                     Calamity.GetItem("KnowledgePerforators").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma abominação de carne, osso e orgãos misturados, infestados principalmente por vermes sugadores de sangue.\nOs pedaços que sobraram do cérebro devem ter sido absorvidos pelo carmim e reconstituídos nele.");
-                    Calamity.GetItem("KnowledgeHiveMind").DisplayName.AddTranslation(GameCulture.Portuguese, "A Mente de Colmeia");
+                    Calamity.GetItem("KnowledgeHiveMind").DisplayName.AddTranslation(GameCulture.Portuguese, "A Colmeia Mental");
                     Calamity.GetItem("KnowledgeHiveMind").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma colmeia de carne infectada por micróbios agrupados.\nNão acredito que matá-la diminuirá a corrupção aqui.");
                     Calamity.GetItem("KnowledgeQueenBee").DisplayName.AddTranslation(GameCulture.Portuguese, "Abelha Rainha");
                     Calamity.GetItem("KnowledgeQueenBee").Tooltip.AddTranslation(GameCulture.Portuguese, "Por mais rude que sejam os insetos gigantes, eles podem ser úteis em certas situações... dada a capacidade de controlá-los.");
@@ -2449,7 +2439,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("KnowledgeMoonLord").Tooltip.AddTranslation(GameCulture.Portuguese, "Que desperdício.\nSe tivesse sido totalmente restaurado, teria sido uma força para ser vista, mas o que você lutou foi uma concha vazia.\nNo entanto, isso não diminui o imenso potencial encerrado nele, liberado após sua morte.");
                     Calamity.GetItem("KnowledgeProfanedGuardians").DisplayName.AddTranslation(GameCulture.Portuguese, "Os Guardiões Profanos");
                     Calamity.GetItem("KnowledgeProfanedGuardians").Tooltip.AddTranslation(GameCulture.Portuguese, "Os sempre-rejuvenescedores guardiões da chama profana.\nMuito parecido com uma fênix das cinzas, suas mortes são simplesmente uma parte de seu ciclo de vida.\nMuitas vezes minhas forças tiveram que destruir esses seres em busca da Deusa Profana.");
-                    Calamity.GetItem("KnowledgeBumblebirb").DisplayName.AddTranslation(GameCulture.Portuguese, "O Pássaro-dragão");
+                    Calamity.GetItem("KnowledgeBumblebirb").DisplayName.AddTranslation(GameCulture.Portuguese, "O Dragonfolly");
                     Calamity.GetItem("KnowledgeBumblebirb").Tooltip.AddTranslation(GameCulture.Portuguese, "Um fracasso da ambição científica distorcida; parece que nossa arrogância com relação à vida mostrou-se mais uma vez nos resultados.\nOriginalmente planejado para ser um clone do Dragão da Selva, eles foram deixados vagando pela selva, atacando qualquer coisa em seu caminho.");
                     Calamity.GetItem("KnowledgeProvidence").DisplayName.AddTranslation(GameCulture.Portuguese, "Providência, a Deusa Profana");
                     Calamity.GetItem("KnowledgeProvidence").Tooltip.AddTranslation(GameCulture.Portuguese, "Um núcleo cercado por pedra e fogo, uma origem simples e um objetivo simples.\nO que seria de nós se ela não tivesse sido derrotada é um conceito assustador a considerar.");
@@ -2504,10 +2494,10 @@ namespace CalamityModPTBR
                     Calamity.GetItem("SquishyBeanMount").DisplayName.AddTranslation(GameCulture.Portuguese, "Jujuba Suspeita");
                     Calamity.GetItem("SquishyBeanMount").Tooltip.AddTranslation(GameCulture.Portuguese, "JUJUBA");
                     Calamity.GetItem("Fabsol").DisplayName.AddTranslation(GameCulture.Portuguese, "Espírito da Princesa na Garrafa");
-                    Calamity.GetItem("Fabsol").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca o espírito de Cirrus, a Princesa Bêbada, em sua forma de alicórnio\nEspólio do modo Vingança");
+                    Calamity.GetItem("Fabsol").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca o espírito de Cirrus, a Princesa Bêbada, em sua forma de alicórnio\nMontar nela irá transformar Cirrus, desmontar irá transformá-la de volta.");
                     Calamity.GetItem("GazeOfCrysthamyr").DisplayName.AddTranslation(GameCulture.Portuguese, "Olhar de Crysthamyr");
                     Calamity.GetItem("GazeOfCrysthamyr").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um dragão das sombras");
-                    Calamity.GetItem("ExoThrone").DisplayName.AddTranslation(GameCulture.Portuguese, "Exo Box");
+                    Calamity.GetItem("ExoThrone").DisplayName.AddTranslation(GameCulture.Portuguese, "Exo Caixa");
                     Calamity.GetItem("ExoThrone").Tooltip.AddTranslation(GameCulture.Portuguese, "Materializa um Exo trono bem aconchegante e extremamente ágil\nSubstituído\nSubstituído também\nUm gamer confortável é um gamer perigoso");
 
                     ///Pets
@@ -2523,7 +2513,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("CosmicPlushie").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca o devorador do cosmos...?\nObjetos pontudos possivelmente incluídos\nSuprime diabos vermelhos amigáveis");
                     Calamity.GetItem("TrashmanTrashcan").DisplayName.AddTranslation(GameCulture.Portuguese, "Lata de Lixo");
                     Calamity.GetItem("TrashmanTrashcan").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca o homem lixo");
-                    Calamity.GetItem("RotomRemote").DisplayName.AddTranslation(GameCulture.Portuguese, "Etômero Triboluminescente");
+                    Calamity.GetItem("RotomRemote").DisplayName.AddTranslation(GameCulture.Portuguese, "Otomer Triboluminescente");
                     Calamity.GetItem("RotomRemote").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um encrenqueiro elétrico\nUma pequena nota está anexada:\nObrigado, Aloe! Muito apreciado de Ben");
                     Calamity.GetItem("GeyserShell").DisplayName.AddTranslation(GameCulture.Portuguese, "Concha de Gêiser");
                     Calamity.GetItem("GeyserShell").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um pequeno eremita flak");
@@ -2545,6 +2535,8 @@ namespace CalamityModPTBR
                     Calamity.GetItem("BloodyVein").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca uma pilha de carne amalgamada");
                     Calamity.GetItem("RottingEyeball").DisplayName.AddTranslation(GameCulture.Portuguese, "Olho Apodrecido");
                     Calamity.GetItem("RottingEyeball").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um conglomerado corrompido");
+                    Calamity.GetItem("McNuggets").DisplayName.AddTranslation(GameCulture.Portuguese, "Chicken McNuggets");
+                    Calamity.GetItem("McNuggets").Tooltip.AddTranslation(GameCulture.Portuguese, "Estes chicken nuggets não são pra você comer!");
                     Calamity.GetItem("BrimstoneJewel").DisplayName.AddTranslation(GameCulture.Portuguese, "Joia de Enxofre");
                     Calamity.GetItem("BrimstoneJewel").Tooltip.AddTranslation(GameCulture.Portuguese, "A recompensa final por derrotar tal besta...\nQuem diria que ela seria tão fofa!");
                     Calamity.GetItem("IbarakiBox").DisplayName.AddTranslation(GameCulture.Portuguese, "Caixa dos Cem Medicamentos do Eremita");
@@ -2563,7 +2555,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("RustedJingleBell").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um sino fantasma bebê leve de estimação\nFornece uma quantidade razoável de luz enquanto debaixo d'água");
                     Calamity.GetItem("StrangeOrb").DisplayName.AddTranslation(GameCulture.Portuguese, "Orbe Estranho");
                     Calamity.GetItem("StrangeOrb").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca um Espírito do Oceano leve em miniatura de estimação\nFornece uma grande quantidade de luz enquanto debaixo d'água");
-                    
+
 
                     ///Potions
                     //Recovery Potions
@@ -2591,27 +2583,27 @@ namespace CalamityModPTBR
                     Calamity.GetItem("CeaselessHungerPotion").DisplayName.AddTranslation(GameCulture.Portuguese, "Poção da Fome Incessante");
                     Calamity.GetItem("CeaselessHungerPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz você sugar todos os itens no mundo");
                     Calamity.GetItem("CrumblingPotion").DisplayName.AddTranslation(GameCulture.Portuguese, "Poção do Desmoronamento");
-                    Calamity.GetItem("CrumblingPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a chance de acerto crítico físico e assassino em 5%\nAtaques físicos e assassinos quebram a armadura do inimigo");
+                    Calamity.GetItem("CrumblingPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a chance de acerto crítico físico e ladino em 5%\nAtaques físicos e ladinos quebram a armadura do inimigo");
                     Calamity.GetItem("DraconicElixir").DisplayName.AddTranslation(GameCulture.Portuguese, "Elixir Dracônico");
-                    Calamity.GetItem("DraconicElixir").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta bastante o tempo de voô das asas e velocidade e aumenta a defesa em 16\nO renascimento do assassino de deuses te cura para metade da vida em vez de 150 de vida quando ativado\nA invincibilidade de silva cura você até a metade da vida quando ativada\nSe você ativar as curas acima, você não pode beber esta poção novamente e você recebe 30 segundos de enjoo por poção");
+                    Calamity.GetItem("DraconicElixir").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta bastante o tempo de voô das asas e velocidade e aumenta a defesa em 16\nA invincibilidade de silva cura você até a metade da vida quando ativada\nSe você ativar a cura acima, você não pode beber esta poção novamente por 60 segundos e você recebe 30 segundos de enjoo por poção");
                     Calamity.GetItem("GravityNormalizerPotion").DisplayName.AddTranslation(GameCulture.Portuguese, "Poção Normalizadora de Gravidade");
                     Calamity.GetItem("GravityNormalizerPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "Desativa a baixa gravidade do espaço e concece imunidade ao efeito negativo distorcido");
                     Calamity.GetItem("HolyWrathPotion").DisplayName.AddTranslation(GameCulture.Portuguese, "Poção da Ira Sagrada");
                     Calamity.GetItem("HolyWrathPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta os danos em 12% e aumenta a velocidade dos movimentos e de voô horizontal em 5%\nAtaques infligem fogo sagrado\nEnquanto o efeito desta poção está ativo, o efeito da Poção da Ira é desabilitado");
                     Calamity.GetItem("PenumbraPotion").DisplayName.AddTranslation(GameCulture.Portuguese, "Poção da Penumbra");
-                    Calamity.GetItem("PenumbraPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "A furtividade assassina gera 15% mais rápido enquanto você se move\nDurante a noite, a furtividade também gera 15% mais rápido enquanto parado\nDurante um eclipse, ambos os reforços aumentam para 20%");
+                    Calamity.GetItem("PenumbraPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "A furtividade ladina gera 15% mais rápido enquanto você se move\nDurante a noite, a furtividade também gera 15% mais rápido enquanto parado\nDurante um eclipse, ambos os reforços aumentam para 20%");
                     Calamity.GetItem("PhotosynthesisPotion").DisplayName.AddTranslation(GameCulture.Portuguese, "Poção da Fotossíntese");
                     Calamity.GetItem("PhotosynthesisPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "Você regenera vida rapidamente enquanto parado, este efeito é cinco vezes mais forte durante o dia\nCorações derrubados curam mais vida");
                     Calamity.GetItem("ProfanedRagePotion").DisplayName.AddTranslation(GameCulture.Portuguese, "Poção da Raiva Profana");
                     Calamity.GetItem("ProfanedRagePotion").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta a chance de acerto crítico em 12%e aumenta a velocidade dos movimentos e de voô horizontal em 5%\nNo Modo Vingança, você ganha mais raiva quando atingido\nEnquanto o efeito desta poção está ativo, o efeito da Poção da Raiva é desabilitado");
                     Calamity.GetItem("PurifiedJam").DisplayName.AddTranslation(GameCulture.Portuguese, "Geleia Purificada");
-                    Calamity.GetItem("PurifiedJam").Tooltip.AddTranslation(GameCulture.Portuguese, "Torna você imune a todos os danos e à maioria dos efeitos negativos por 10 segundos\nCausa enjoo por poção no consumo\nNão pode ser consumida enquanto o enjoo por poção está ativo\nEspólio do modo Vingança");
+                    Calamity.GetItem("PurifiedJam").Tooltip.AddTranslation(GameCulture.Portuguese, "Torna você imune a todos os danos e à maioria dos efeitos negativos por 10 segundos\nCausa enjoo por poção no consumo\nNão pode ser consumida enquanto o enjoo por poção está ativo");
                     Calamity.GetItem("RevivifyPotion").DisplayName.AddTranslation(GameCulture.Portuguese, "Poção da Revivificação");
                     Calamity.GetItem("RevivifyPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que ataques inimigos curem você por uma fração de seu dano");
                     Calamity.GetItem("ShatteringPotion").DisplayName.AddTranslation(GameCulture.Portuguese, "Poção do Despedaçamento");
-                    Calamity.GetItem("ShatteringPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o dano por ataques físicos e assassinos e chance de acerto crítico físico e assassino em 8%\nAtaques físicos e assassinos quebram a armadura do inimigo\nEnquanto o efeito desta poção está ativo, o efeito da Poção do Desmoronamento é desabilitado");
+                    Calamity.GetItem("ShatteringPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o dano por ataques físicos e ladinos e chance de acerto crítico físico e ladino em 8%\nAtaques físicos e ladinos quebram a armadura do inimigo\nEnquanto o efeito desta poção está ativo, o efeito da Poção do Desmoronamento é desabilitado");
                     Calamity.GetItem("ShadowPotion").DisplayName.AddTranslation(GameCulture.Portuguese, "Poção das Sombras");
-                    Calamity.GetItem("ShadowPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que o jogador desapareça enquanto não ataca\nSegurar diferentes tipos de armas assassinas fornece reforços ao jogador\nDiferentes tipos de armas assassinas geram projéteis diferentes ao atingir o inimigo\nGeração de furtividade aumentada em 10%");
+                    Calamity.GetItem("ShadowPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que o jogador desapareça enquanto não ataca\nSegurar diferentes tipos de armas ladinas fornece reforços ao jogador\nDiferentes tipos de armas ladinas geram projéteis diferentes ao atingir o inimigo\nGeração de furtividade aumentada em 10%");
                     Calamity.GetItem("SoaringPotion").DisplayName.AddTranslation(GameCulture.Portuguese, "Poção Crescente");
                     Calamity.GetItem("SoaringPotion").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta o tempo de voô e velocidade de voô horizontal em 10%\nRestaura uma fração do seu tempo de voô das asas depois de um ataque físico verdadeiro\nA quantidade de tempo de voô restaurado escala com as suas estatísticas físicas e velocidade de balanço da arma");
                     Calamity.GetItem("SulphurskinPotion").DisplayName.AddTranslation(GameCulture.Portuguese, "Poção da Pele de Enxofre");
@@ -2713,8 +2705,6 @@ namespace CalamityModPTBR
                     Calamity.GetItem("Ectoheart").Tooltip.AddTranslation(GameCulture.Portuguese, "Permanentemente aumenta o dano e a redução dos danos do Modo Adrenalina em 15% e 5% respectivamente\nEspólio do modo Vingança");
 
                     //Other Upgrades
-                    Calamity.GetItem("MLGRune").DisplayName.AddTranslation(GameCulture.Portuguese, "Troféu Demoníaco");
-                    Calamity.GetItem("MLGRune").Tooltip.AddTranslation(GameCulture.Portuguese, "Aumenta as taxas de surgimento em 1.25 vezes\nOs efeitos não podem ser revertidos");
                     Calamity.GetItem("MLGRune2").DisplayName.AddTranslation(GameCulture.Portuguese, "Cebola Celestial");
                     Calamity.GetItem("MLGRune2").Tooltip.AddTranslation(GameCulture.Portuguese, "Poder alienígena pulsa dentro de suas camadas\nConsumí-la faz algo que não pode ser revertido");
 
@@ -2724,7 +2714,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("ReefclawHamaxe").DisplayName.AddTranslation(GameCulture.Portuguese, "Martelo-machado da Garra do Recife");
                     Calamity.GetItem("AerialHamaxe").DisplayName.AddTranslation(GameCulture.Portuguese, "Martelo-machado Aéreo");
                     Calamity.GetItem("FlamebeakHampick").DisplayName.AddTranslation(GameCulture.Portuguese, "Picareta-martelo Sísmica");
-                    Calamity.GetItem("FlamebeakHampick").Tooltip.AddTranslation(GameCulture.Portuguese, "Capaz de minerar tijolos lagharto\nClique com o botão esquerdo para usar como uma picareta\nClique com o botão direito para usar como um martelo");                
+                    Calamity.GetItem("FlamebeakHampick").Tooltip.AddTranslation(GameCulture.Portuguese, "Capaz de minerar tijolos lagharto\nClique com o botão esquerdo para usar como uma picareta\nClique com o botão direito para usar como um martelo");
                     Calamity.GetItem("AstralHamaxe").DisplayName.AddTranslation(GameCulture.Portuguese, "Martelo-machado Astral");
 
                     //Pickaxes
@@ -2830,18 +2820,12 @@ namespace CalamityModPTBR
                     Calamity.GetItem("Cosmolight").Tooltip.AddTranslation(GameCulture.Portuguese, "Muda a noite para o dia e vice-versa");
 
                     //Mechanics
-                    Calamity.GetItem("Armageddon").DisplayName.AddTranslation(GameCulture.Portuguese, "Armagedom");
-                    Calamity.GetItem("Armageddon").Tooltip.AddTranslation(GameCulture.Portuguese, "Faz com que qualquer acerto enquanto um chefe está vivo te mate instantaneamente\nO efeito pode ser ativado e desativado\nSe um chefe for derrotado com este efeito ativo, ele deixará cair 6 bolsas do tesouro, 5 no modo normal");
                     Calamity.GetItem("Death").DisplayName.AddTranslation(GameCulture.Portuguese, "Morte");
-                    Calamity.GetItem("Death").Tooltip.AddTranslation(GameCulture.Portuguese, "Torna os chefes ainda mais EXTREMOS.\nPermite que certos chefes surjam naturalmente.\nCertos biomas e eventos têm efeitos climáticos adicionais.\nOs efeitos de lava letal estão sempre ativados.\nAumenta o dano inimigo em 15%.\nAumenta muito as taxas de surgimento de inimigos durante a lua de sangue.\nEnfraquece os efeitos do roubo de vida.\nTorna o abismo mais perigoso de navegar.\nA enfermeira não cura mais enquanto um chefe está vivo.\nAumenta o dano causado por vários efeitos negativos.\nO efeito pode ser ativado e desativado.\nO efeito só funcionará se o Modo Vingança estiver ativo.");
-                    Calamity.GetItem("DefiledRune").DisplayName.AddTranslation(GameCulture.Portuguese, "Pena Contaminada");
-                    Calamity.GetItem("DefiledRune").Tooltip.AddTranslation(GameCulture.Portuguese, "É um longo caminho descendo de uma montanha...\nMarque este item como favorito para desativar asas.");
-                    Calamity.GetItem("IronHeart").DisplayName.AddTranslation(GameCulture.Portuguese, "Coração de Ferro");
-                    Calamity.GetItem("IronHeart").Tooltip.AddTranslation(GameCulture.Portuguese, "A cura com poções e toda a regeneração de vida positiva é desativada.\nO dano do inimigo aumenta com a sua vida máxima.\nPode ser ativado e desativado.");
+                    Calamity.GetItem("Death").Tooltip.AddTranslation(GameCulture.Portuguese, "Ativa/desativa o Modo Morte, só pode ser usado no Modo Vingança.\nTodos os efeitos do Modo Vingança estão ativos, incluindo os seguintes:\nPermite que certos chefes surjam naturalmente, dependendo de em qual bioma você está.\nCertos biomas e eventos têm efeitos climáticos adicionais.\nOs efeitos de lava letal estão sempre ativos.\nAumenta o dano inimigo em 15%.\nAumenta muito as taxas de surgimento de inimigos durante a lua de sangue.\nTorna o abismo mais perigoso de navegar.\nCertos inimigos e projéteis que não são de chefes causam entre 6% a 15% a mais de dano\nEnfraquece o efeito do roubo de vida um pouco mais.\nA enfermeira não te cura mais enquanto um chefe está vivo.\nDano de defesa é aumentado em 2.5%.\nAumenta o dano causado em 50% para vários efeitos negativos e todos os álcoois que reduzem a regeneração de vida.\nAltera as IAs dos chefes e algumas IAs de inimigos um pouco mais.\nAumenta o dano de todos os chefes um pouco mais.");                    
                     Calamity.GetItem("Malice").DisplayName.AddTranslation(GameCulture.Portuguese, "Malícia");
                     Calamity.GetItem("Malice").Tooltip.AddTranslation(GameCulture.Portuguese, "Ativa/desativa o Modo Malícia.\n[c/c01818:Este modo é subjetivo, jogue como quiser, não espere viver.]\n[c/c01818:Este modo pretende ser um modo de revanche de chefes, no entanto, os chefes ainda são possíveis quando enfrentados no nível correto.]\nEnquanto ativado, os chefes irão deixar cair itens de Desafio e de Desafio Lendário.\nEnfraquece muito a efetividade do roubo de vida.\nEnfraquece a efetividade do bônus definido da Armadura de Titânio, isto não combina com o Modo Vingança.\nA Enfermeira não o cura mais enquanto um chefe está vivo.\nDano de defesa é 5% mais alto que no Modo Morte.\nAumenta o dano causado por 50% para vários efeitos negativos e todos os álcoois que reduzem a regeneração de vida.\nTodos os lacaios de chefes não soltam mais corações.\nDá a todos os chefes uma nova IA enfurecida e permite que eles deixem cair itens especiais.\nChefes e seus projéteis causam 35% a mais de dano.\nA maioria dos chefes entrará em fases posteriores mais cedo se a luta durar muito tempo.\nAumenta a velocidade da maioria dos projéteis de chefes em 25%, isto é aumentado para 35% durante a Corrida de Chefes.\nA RD reativa em chefes está sempre ativada fora da Corrida de Chefes e é aumentada em 50%");
                     Calamity.GetItem("Revenge").DisplayName.AddTranslation(GameCulture.Portuguese, "Vingança");
-                    Calamity.GetItem("Revenge").Tooltip.AddTranslation(GameCulture.Portuguese, "Ativa/desativa o Modo Vingança, só pode ser usado no modo perito.\nDICA DA FÚRIA AQUI\nVocê ganha fúria sempre que sofre dano ou acerta um inimigo com uma arma física verdadeira.\nDICA DA ADRENALINA AQUI\nVocê ganha adrenalina sempre que um chefe está vivo. Ser atingido reduz a adrenalina de volta a 0.\nTodos os inimigos deixam cair 50% a mais de dinheiro e surgem 15% mais frequentemente\nCertos inimigos e projéteis causam entre 5% e 25% a mais de dano.\nTorna certos inimigos imunes ao roubo de vida e enfraquece a eficácia do roubo de vida.\nEnfraquece a eficácia do bônus do conjunto da Armadura de Titânio.\nAumenta a regeneração de vida com sua vida atual, quanto maior sua vida, menor sua regeneração de vida (isso não é baseado na vida máxima).\nA velocidade de corrida do asfalto é reduzida em 33% e o custo da cura da Enfermeira é aumentado\nAntes de matar seu primeiro chefe, você sofre 20% a menos de dano de tudo.\nAltera TODAS as IAs dos chefes e algumas IAs inimigas no vanilla e no Calamity Mod.");
+                    Calamity.GetItem("Revenge").Tooltip.AddTranslation(GameCulture.Portuguese, "Ativa/desativa o Modo Vingança, só pode ser usado no Modo Perito.\nDICA DA FÚRIA AQUI\nVocê ganha Fúria quando está perto de inimigos ou usando itens especiais.\nDICA DA ADRENALINA AQUI\nVocê ganha Adrenalina sempre que um chefe está vivo. Ser atingido reduz a adrenalina de volta a 0.\nTodos os inimigos deixam cair 50% a mais de dinheiro e surgem 15% mais frequentemente\nCertos inimigos e projéteis que não são de chefes causam entre 10% e 25% a mais de dano.\nFaz com que certos inimigos bloqueiem o roubo de vida e enfraquece a eficácia do roubo de vida.\nEnfraquece a eficácia do bônus do conjunto da Armadura de Titânio.\nO dano de defesa é aumentado em 2.5%.\nOs lacaios dos chefes não soltam mais corações.\nAltera todas as IAs de chefe e algumas IAs de inimigo.\nAumenta a vida e o dano de todos os chefes.\nA maioria dos chefes entrará em fases posteriores mais cedo se a luta durar muito tempo.");
 
                     ///Weapons
                     //Melee weapons
@@ -2849,8 +2833,8 @@ namespace CalamityModPTBR
                     //Pre-hardmode
                     Calamity.GetItem("Basher").DisplayName.AddTranslation(GameCulture.Portuguese, "Batedor");
                     Calamity.GetItem("Basher").Tooltip.AddTranslation(GameCulture.Portuguese, "Inflige irradiação ao atingir o inimigo");
-                    Calamity.GetItem("BiomeBlade").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmina do Bioma");
-                    Calamity.GetItem("BiomeBlade").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara projéteis diferentes, com base no bioma em que você está");
+                    Calamity.GetItem("BiomeBlade").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmina do Bioma Quebrada");
+                    Calamity.GetItem("BiomeBlade").Tooltip.AddTranslation(GameCulture.Portuguese, "FUNCTION_DESC\nSegure o BDM enquanto está parado em terreno plano para sintonizar a arma com os poderes do bioma em sua volta\nCaso contrário, usar o BDM alterna entre a sintonização atual e uma extra armazenada\nMain attunement : None\nSecondary attunement: None\n");
                     Calamity.GetItem("BladecrestOathsword").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmina da Crista do Juramento");
                     Calamity.GetItem("BladecrestOathsword").Tooltip.AddTranslation(GameCulture.Portuguese, "Espada de um antigo lorde demônio\nDispara uma foice de sangue");
                     Calamity.GetItem("BloodyEdge").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmina Sangrenta");
@@ -2903,7 +2887,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("AbyssBlade").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara tridentes de curto alcance\nAcertar inimigos infligirá o efeito negativo Pressão das profundezas\nQuanto mais baixa a defesa dos inimigos, mais dano eles recebem desse efeito negativo");
 
                     Calamity.GetItem("AegisBlade").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmina Égide");
-                    Calamity.GetItem("AegisBlade").Tooltip.AddTranslation(GameCulture.Portuguese, "Espólio Lendário\nAtacar um inimigo com a lâmina causa uma erupção terrestre\nClique com o botão direito para disparar um raio égide\nEspólio do modo Vingança");
+                    Calamity.GetItem("AegisBlade").Tooltip.AddTranslation(GameCulture.Portuguese, "Espólio Lendário\nAtacar um inimigo com a lâmina causa uma erupção terrestre\nClique com o botão direito para disparar um raio égide");
 
                     Calamity.GetItem("Aftershock").DisplayName.AddTranslation(GameCulture.Portuguese, "Pós-choque");
                     Calamity.GetItem("Aftershock").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca rochedos do céu ao atingir o inimigo");
@@ -2911,11 +2895,8 @@ namespace CalamityModPTBR
                     Calamity.GetItem("AnarchyBlade").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmina da Anarquia");
                     Calamity.GetItem("AnarchyBlade").Tooltip.AddTranslation(GameCulture.Portuguese, "Quanto menor for a sua vida, mais danos esta lâmina causa\nSeus acertos irão gerar uma grande explosão\nSe você estiver com menos de 50% de vida, seus acertos têm a chance de matar inimigos normais instantaneamente");
 
-                    Calamity.GetItem("AncientCrusher").DisplayName.AddTranslation(GameCulture.Portuguese, "Triturador Antigo");
-                    Calamity.GetItem("AncientCrusher").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca espinhos de fóssil ao atingir o inimigo");
-
-                    Calamity.GetItem("ArkoftheAncients").DisplayName.AddTranslation(GameCulture.Portuguese, "Arca dos Anciões");
-                    Calamity.GetItem("ArkoftheAncients").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma lâmina celestial forjada para acabar com todo o mal");
+                    Calamity.GetItem("ArkoftheAncients").DisplayName.AddTranslation(GameCulture.Portuguese, "Arca Fraturada");
+                    Calamity.GetItem("ArkoftheAncients").Tooltip.AddTranslation(GameCulture.Portuguese, "Esta linha é definida em ModifyTooltips\nUma lâmina desgastada e enferrujada uma vez empunhada contra o mal deste mundo, pronta para ser usada mais uma vez");
 
                     Calamity.GetItem("AstralBlade").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmina Astral");
                     Calamity.GetItem("AstralBlade").Tooltip.AddTranslation(GameCulture.Portuguese, "Causa mais dano quanto mais vida resta do inimigo");
@@ -2944,7 +2925,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("ProfanedSword").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca gêiseres de enxofre no acerto\nClique com o botão direito para lançar como um dardo que explode no acerto");
 
                     Calamity.GetItem("BrinyBaron").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmina Salgada");
-                    Calamity.GetItem("BrinyBaron").Tooltip.AddTranslation(GameCulture.Portuguese, "Espólio Lendário\nAtacar um inimigo com a lâmina faz com que um tufão salgado apareça\nClique com o botão direito para disparar uma lâmina de água de vento cortante\nEspólio do modo Vingança");
+                    Calamity.GetItem("BrinyBaron").Tooltip.AddTranslation(GameCulture.Portuguese, "Espólio Lendário\nAtacar um inimigo com a lâmina faz com que um tufão salgado apareça\nClique com o botão direito para disparar uma lâmina de água de vento cortante");
 
                     Calamity.GetItem("CatastropheClaymore").DisplayName.AddTranslation(GameCulture.Portuguese, "Claymore Catastrófica");
                     Calamity.GetItem("CatastropheClaymore").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara raios de energia explosivos");
@@ -2968,7 +2949,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("EutrophicScimitar").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara um feixe quando balançada que atordoa os inimigos");
 
                     Calamity.GetItem("EvilSmasher").DisplayName.AddTranslation(GameCulture.Portuguese, "Esmagador Malígno");
-                    Calamity.GetItem("EvilSmasher").Tooltip.AddTranslation(GameCulture.Portuguese, "MAl! eSMagAR o mAL! EsmAga...DOR!");
+                    Calamity.GetItem("EvilSmasher").Tooltip.AddTranslation(GameCulture.Portuguese, "MAl! eSMagAR o mAL! EsmAga...DOR!\nPara cada inimigo que você matar, este martelo ganha um bônus em suas estatísticas\nEstes bônus acumulam até que um limite é atingido\nO acúmulo de bônus será redefinido se você selecionar um item diferente\nO acúmulo de bônus será reduzido em 1 toda vez que você for atingido");
 
                     Calamity.GetItem("FeralthornClaymore").DisplayName.AddTranslation(GameCulture.Portuguese, "Claymore de Espinhos Selvagens");
                     Calamity.GetItem("FeralthornClaymore").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca espinhos ao atingir o inimigo");
@@ -3041,6 +3022,7 @@ namespace CalamityModPTBR
 
                     Calamity.GetItem("TerraEdge").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmina Terrestre");
                     Calamity.GetItem("TerraEdge").Tooltip.AddTranslation(GameCulture.Portuguese, "Cura o jogador ao atingir o inimigo\nDispara um feixe que inflige ichor por um curto período de tempo");
+                   
 
                     Calamity.GetItem("Terratomere").DisplayName.AddTranslation(GameCulture.Portuguese, "Terratomere");
                     Calamity.GetItem("Terratomere").Tooltip.AddTranslation(GameCulture.Portuguese, "Ligado à essência do Terraria\nCura o jogador em ataques físicos verdadeiros\nDispara uma barragem de raios teleguiados que congelam os inimigos");
@@ -3051,11 +3033,11 @@ namespace CalamityModPTBR
                     Calamity.GetItem("Trinity").DisplayName.AddTranslation(GameCulture.Portuguese, "Trinidade");
                     Calamity.GetItem("Trinity").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma série de raios de energia");
 
-                    Calamity.GetItem("TrueArkoftheAncients").DisplayName.AddTranslation(GameCulture.Portuguese, "Verdadeira Arca dos Anciões");
-                    Calamity.GetItem("TrueArkoftheAncients").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma lâmina celestial forjada para acabar com todo o mal");
+                    Calamity.GetItem("TrueArkoftheAncients").DisplayName.AddTranslation(GameCulture.Portuguese, "Arca dos Anciões");
+                    Calamity.GetItem("TrueArkoftheAncients").Tooltip.AddTranslation(GameCulture.Portuguese, "Esta linha é definida em ModifyTooltips\nUma lâmina celestial forjada para acabar com todo o mal");
 
-                    Calamity.GetItem("TrueBiomeBlade").DisplayName.AddTranslation(GameCulture.Portuguese, "Verdadeira Lâmina do Bioma");
-                    Calamity.GetItem("TrueBiomeBlade").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara projéteis diferentes, com base no bioma em que você está");
+                    Calamity.GetItem("TrueBiomeBlade").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmina do Bioma");
+                    Calamity.GetItem("TrueBiomeBlade").Tooltip.AddTranslation(GameCulture.Portuguese, "FUNCTION_DESC\nFUNCTION_EXTRA\nSegure o BDM enquanto está parado em terreno plano para sintonizar a arma com os poderes do bioma em sua volta\nCaso contrário, usar o BDM alterna entre a sintonização atual e uma extra armazenada\nMain attunement : None\nSecondary attunement: None\n");
 
                     Calamity.GetItem("TrueBloodyEdge").DisplayName.AddTranslation(GameCulture.Portuguese, "Verdadeira Lâmina Sangrenta");
                     Calamity.GetItem("TrueBloodyEdge").Tooltip.AddTranslation(GameCulture.Portuguese, "Chance de curar o jogador ao atingir o inimigo\nDispara uma lâmina sangrenta");
@@ -3084,16 +3066,16 @@ namespace CalamityModPTBR
                     Calamity.GetItem("AquaticDissolution").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara lanças baleeiras do céu que saltam nas peças");
 
                     Calamity.GetItem("ArkoftheCosmos").DisplayName.AddTranslation(GameCulture.Portuguese, "Arca do Cosmos");
-                    Calamity.GetItem("ArkoftheCosmos").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara projéteis teleguiados diferentes, com base no bioma em que você está\nAo atingir um inimigo, você recebe um efeito com base no bioma que você está\nOs projéteis também mudam com base em eventos de lua");
+                    Calamity.GetItem("ArkoftheCosmos").Tooltip.AddTranslation(GameCulture.Portuguese, "Esta linha é definida em ModifyTooltips\nEsta linha também é definida em ModifyTooltips\nEsta linha também é definida em ModifyTooltips\nA culminação física de sua jornada, capaz de rasgar deuses em pedaços");
 
                     Calamity.GetItem("ArkoftheElements").DisplayName.AddTranslation(GameCulture.Portuguese, "Arca dos Elementos");
-                    Calamity.GetItem("ArkoftheElements").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma lâmina celestial infundida com a essência do Terraria");
+                    Calamity.GetItem("ArkoftheElements").Tooltip.AddTranslation(GameCulture.Portuguese, "Esta linha é definida em ModifyTooltips\nEsta linha também é definida em ModifyTooltips\nEsta linha também é definida em ModifyTooltips\nUm par de lâminas celestial infundido com a essência de Terraria, poderoso o suficiente para cortar o tecido da realidade");
 
                     Calamity.GetItem("Ataraxia").DisplayName.AddTranslation(GameCulture.Portuguese, "Ataraxia");
                     Calamity.GetItem("Ataraxia").Tooltip.AddTranslation(GameCulture.Portuguese, "Equanimidade");
 
                     Calamity.GetItem("TheBurningSky").DisplayName.AddTranslation(GameCulture.Portuguese, "O Céu Flamejante");
-                    Calamity.GetItem("TheBurningSky").Tooltip.AddTranslation(GameCulture.Portuguese, "Invoca uma barragem enorme de meteoros flamejantes do céu");
+                    Calamity.GetItem("TheBurningSky").Tooltip.AddTranslation(GameCulture.Portuguese, "Segure a lâmina aos céus, e testemunhe o Armagedom");
 
                     Calamity.GetItem("Devastation").DisplayName.AddTranslation(GameCulture.Portuguese, "Devastação");
                     Calamity.GetItem("Devastation").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara explosões galácticas");
@@ -3126,16 +3108,13 @@ namespace CalamityModPTBR
                     Calamity.GetItem("DraedonsExoblade").Tooltip.AddTranslation(GameCulture.Portuguese, "Lâmina antiga do especialista em armas e armaduras de Yharim, Draedon\nDispara um feixe exo que é teleguiado no jogador e explode\nAtacar um inimigo com a lâmina faz com que vários cometas disparem\nTodos os ataques congelam brevemente qualquer inimigo atingido\nInimigos atingidos com a vida muito baixa explodem em energia congelada e congelam os inimigos próximos\nQuanto menor a sua vida, mais dano essa lâmina causa e cura o jogador ao atingir o inimigo");
 
                     Calamity.GetItem("GaelsGreatsword").DisplayName.AddTranslation(GameCulture.Portuguese, "Espada Larga de Gael");
-                    Calamity.GetItem("GaelsGreatsword").Tooltip.AddTranslation(GameCulture.Portuguese, "Passe para cá, essa coisa. Sua alma sombria.\nO primeiro balanço dispara crânios teleguiados\nO segundo balanço atira um crânio gigante e poderoso\nO terceiro balanço causa muito dano\nGera fúria constantemente quando em uso\nVocê deixa trilhas de sangue explosivas ao balançar quando abaixo de 50% de vida\nClique com o botão direito para balançar a espada, refletindo projéteis com 50% de chance\nAtivar o Modo Fúria libera uma barragem enorme de crânios");
+                    Calamity.GetItem("GaelsGreatsword").Tooltip.AddTranslation(GameCulture.Portuguese, "Passe para cá, essa coisa.\nSua alma sombria.\nO primeiro balanço dispara crânios teleguiados\nO segundo balanço atira um crânio gigante e poderoso\nO terceiro balanço não tem projéteis\nGera fúria constantemente quando em uso\nVocê deixa trilhas de sangue explosivas ao balançar quando abaixo de 50% de vida\nSubstitui o Modo Fúria com uma barragem enorme de crânios");
 
                     Calamity.GetItem("GalacticaBlade").DisplayName.AddTranslation(GameCulture.Portuguese, "Lâmina de Galactus");
                     Calamity.GetItem("GalacticaBlade").Tooltip.AddTranslation(GameCulture.Portuguese, "Forjada com a fúria do caos nuclear\nLança uma barragem de cometas do céu");
 
                     Calamity.GetItem("FourSeasonsGalaxia").DisplayName.AddTranslation(GameCulture.Portuguese, "Galaxia");
-                    Calamity.GetItem("FourSeasonsGalaxia").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara projéteis teleguiados que infligem efeitos negativos diferentes com base no bioma em que você está\nAo atingir um inimigo, você recebe um efeito com base no bioma que você está\nOs projéteis também mudam com base em eventos de lua");
-
-                    Calamity.GetItem("GrandDad").DisplayName.AddTranslation(GameCulture.Portuguese, "Avô");
-                    Calamity.GetItem("GrandDad").Tooltip.AddTranslation(GameCulture.Portuguese, "Diminui a defesa do inimigo para 0 quando ele for atingido\nLança os inimigos pelo tempo e espaço\n7");
+                    Calamity.GetItem("FourSeasonsGalaxia").Tooltip.AddTranslation(GameCulture.Portuguese, "FUNCTION_DESC\nFUNCTION_EXTRA\nFUNCTION_PASSIVE\nMelhorar a espada permitiu que ela se liberte de seus limites terrenos. Agora você tem acesso a todas as sintonizações o tempo todo!\nUse o BDM para alternar a sintonização da espada para frente ou para trás, dependendo da posição do cursor\nActive Attunement : None\nPassive Blessing : None\n");
 
                     Calamity.GetItem("Grax").DisplayName.AddTranslation(GameCulture.Portuguese, "Grax");
                     Calamity.GetItem("Grax").Tooltip.AddTranslation(GameCulture.Portuguese, "Atingir um inimigo aumentará bastante as suas estatísticas de defesa e ataque físico por um curto período de tempo");
@@ -3167,8 +3146,8 @@ namespace CalamityModPTBR
                     Calamity.GetItem("NeptunesBounty").DisplayName.AddTranslation(GameCulture.Portuguese, "Remuneração de Netuno");
                     Calamity.GetItem("NeptunesBounty").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara um tridente que faz chover tridentes adicionais enquanto viaja\nAcertar inimigos infligirá o efeito negativo Pressão das profundezas\nQuanto mais baixa a defesa dos inimigos, mais dano eles recebem desse efeito negativo");
 
-                    Calamity.GetItem("OmegaBiomeBlade").DisplayName.AddTranslation(GameCulture.Portuguese, "Omegalâmina do Bioma");
-                    Calamity.GetItem("OmegaBiomeBlade").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara projéteis teleguiados diferentes com base no bioma em que você está\nOs projéteis também mudam com base em eventos de lua");
+                    Calamity.GetItem("OmegaBiomeBlade").DisplayName.AddTranslation(GameCulture.Portuguese, "Verdadeira Lâmina do Bioma");
+                    Calamity.GetItem("OmegaBiomeBlade").Tooltip.AddTranslation(GameCulture.Portuguese, "FUNCTION_DESC\nFUNCTION_EXTRA\nFUNCTION_PASSIVE\nSegurar o BDM por 2 segundos sintoniza a arma com os poderes do bioma em sua volta\nUsar o BDM por um período de tempo mais curto alterna as suas sintonizações ativas e passivas\nActive attunement : None\nPassive attunement: None\n");
 
                     Calamity.GetItem("PlagueKeeper").DisplayName.AddTranslation(GameCulture.Portuguese, "Guardião da Peste");
                     Calamity.GetItem("PlagueKeeper").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma nuvem de praga e abelhas");
@@ -3226,7 +3205,7 @@ namespace CalamityModPTBR
 
                     //Hardmode
 
-                    Calamity.GetItem("ColdheartIcicle").DisplayName.AddTranslation(GameCulture.Portuguese, "Sincelo do Coração Frio");
+                    Calamity.GetItem("ColdheartIcicle").DisplayName.AddTranslation(GameCulture.Portuguese, "Gelo do Coração Frio");
                     Calamity.GetItem("ColdheartIcicle").Tooltip.AddTranslation(GameCulture.Portuguese, "Drena uma porcentagem da vida do inimigo ao atingi-lo\nNão pode infligir acertos críticos");
 
                     Calamity.GetItem("ExcaliburShortsword").DisplayName.AddTranslation(GameCulture.Portuguese, "Excalibur Curta");
@@ -3284,7 +3263,7 @@ namespace CalamityModPTBR
                     Calamity.GetItem("Chaotrix").DisplayName.AddTranslation(GameCulture.Portuguese, "Linha de Colapso");
                     Calamity.GetItem("Chaotrix").Tooltip.AddTranslation(GameCulture.Portuguese, "Explode ao atingir o inimigo\nUm ioiô muito ágil");
 
-                    Calamity.GetItem("TheMicrowave").DisplayName.AddTranslation(GameCulture.Portuguese, "O Micro-ondas");
+                    Calamity.GetItem("TheMicrowave").DisplayName.AddTranslation(GameCulture.Portuguese, "O Microondas");
                     Calamity.GetItem("TheMicrowave").Tooltip.AddTranslation(GameCulture.Portuguese, "Frita os inimigos próximos com radiação\nUm ioiô muito ágil\nCozinhando ao estilo Infecção Astral");
 
                     Calamity.GetItem("TheEyeofCalamitas").DisplayName.AddTranslation(GameCulture.Portuguese, "Oblívio");
@@ -3444,7 +3423,7 @@ namespace CalamityModPTBR
                     //Post-Moon Lord
 
                     Calamity.GetItem("CosmicDischarge").DisplayName.AddTranslation(GameCulture.Portuguese, "Descarga Cósmica");
-                    Calamity.GetItem("CosmicDischarge").Tooltip.AddTranslation(GameCulture.Portuguese, "Espólio Lendário\nAtingir um inimigo com o chicote causa explosões glaciais e concede ao jogador o efeito de congelamento cósmico\nEste efeito dá ao jogador maior regeneração de vida enquanto fica parado e congela os inimigos perto do jogador\nEspólio do modo Vingança");
+                    Calamity.GetItem("CosmicDischarge").Tooltip.AddTranslation(GameCulture.Portuguese, "Atingir um inimigo com o chicote causa explosões glaciais e concede ao jogador o efeito de congelamento cósmico\nEste efeito dá ao jogador maior regeneração de vida enquanto fica parado e congela os inimigos perto do jogador");
 
                     Calamity.GetItem("CrescentMoon").DisplayName.AddTranslation(GameCulture.Portuguese, "Lua Crescente");
                     Calamity.GetItem("CrescentMoon").Tooltip.AddTranslation(GameCulture.Portuguese, "As pessoas queriam a lua, então vamos trazer a lua para elas.\nDispara uma espada de chicote que invoca luas crescentes teleguiadas");
@@ -3457,6 +3436,12 @@ namespace CalamityModPTBR
 
                     Calamity.GetItem("PulseDragon").DisplayName.AddTranslation(GameCulture.Portuguese, "Dragão de Pulso");
                     Calamity.GetItem("PulseDragon").Tooltip.AddTranslation(GameCulture.Portuguese, "Manguais resistentes, cada um contendo um poderoso gerador que é ativado no lançamento.\nLança duas cabeças de dragão que emitem campos elétricos\nEspecialmente eficaz contra alvos inorgânicos");
+
+                    Calamity.GetItem("RemsRevenge").DisplayName.AddTranslation(GameCulture.Portuguese, "Vingança de Rem");
+                    Calamity.GetItem("RemsRevenge").Tooltip.AddTranslation(GameCulture.Portuguese, "Empunhada pelo lutador mais poderoso.\nInvoca explosões de sangue e reduz a defesa do inimigo no acerto");
+
+                    Calamity.GetItem("SpineOfThanatos").DisplayName.AddTranslation(GameCulture.Portuguese, "Coluna de Thánatos");
+                    Calamity.GetItem("SpineOfThanatos").Tooltip.AddTranslation(GameCulture.Portuguese, "Libera 3 chicotes metálicos rápidos para fora\nQuando os três colidirem, um prisma de luz é disparado para fora\nSe um inimigo estiver dentro da linha de visão dos chicotes na colisão, a luz dispersará em direção a ele");
 
                     //Other
                     //Pre-Hardmode
@@ -3489,15 +3474,539 @@ namespace CalamityModPTBR
                     Calamity.GetItem("Phaseslayer").DisplayName.AddTranslation(GameCulture.Portuguese, "Cortador de Fase");
                     Calamity.GetItem("Phaseslayer").Tooltip.AddTranslation(GameCulture.Portuguese, "Um protótipo bruto da lâmina Murasama, é formado inteiramente a partir da energia do laser.\nEmpunhe uma lâmina laser colossal que é controlada pelo cursor\nBalanços mais rápidos causam mais danos e liberam raios de espada\nQuando com carga baixa, a lâmina é menor e mais fraca\nCausa menos dano contra inimigos com alta defesa");
 
+                    Calamity.GetItem("PhosphorescentGauntlet").DisplayName.AddTranslation(GameCulture.Portuguese, "Manopla Fosforescente");
+                    Calamity.GetItem("PhosphorescentGauntlet").Tooltip.AddTranslation(GameCulture.Portuguese, "Libera golpes sulfurosos rápidos\nAo usar, você avança na direção do mouse\nNa colisão, você é empurrado para trás");
+
+                    Calamity.GetItem("PhotonRipper").DisplayName.AddTranslation(GameCulture.Portuguese, "Estripador de Fótons");
+                    Calamity.GetItem("PhotonRipper").Tooltip.AddTranslation(GameCulture.Portuguese, "Projeta um fluxo direcionado de dentes de luz dura em velocidade ulta alta\nEsta arma e seus projéteis funcionam como uma motoserra");
+
                     Calamity.GetItem("ScourgeoftheCosmos").DisplayName.AddTranslation(GameCulture.Portuguese, "Tormento dos Cosmos");
                     Calamity.GetItem("ScourgeoftheCosmos").Tooltip.AddTranslation(GameCulture.Portuguese, "Lança um tormento cósmico saltitante que emite pequenos tormentos cósmicos teleguiados na morte e ao atingir peças");
+
+                    Calamity.GetItem("Violence").DisplayName.AddTranslation(GameCulture.Portuguese, "Violência");
+                    Calamity.GetItem("Violence").Tooltip.AddTranslation(GameCulture.Portuguese, "Libera um garfo flamejante que fica perto do mouse e destrói os inimigos");
 
                     //Ranged weapons
                     //Bows
                     //Pre-Hardmode
 
                     Calamity.GetItem("Barinade").DisplayName.AddTranslation(GameCulture.Portuguese, "Barinada");
-                    Calamity.GetItem("Barinade").Tooltip.AddTranslation(GameCulture.Portuguese, "Atira flechas de raios elétricos que explodem");
+                    Calamity.GetItem("Barinade").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte flechas de madeira em flechas de raios elétricos que explodem");
+
+                    Calamity.GetItem("Galeforce").DisplayName.AddTranslation(GameCulture.Portuguese, "Força do Vendaval");
+                    Calamity.GetItem("Galeforce").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma barragem de penas fracas");
+
+                    Calamity.GetItem("Goobow").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco Gosmento");
+                    Calamity.GetItem("Goobow").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara dois jatos de geleia");
+
+                    Calamity.GetItem("LunarianBow").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco Lunariano");
+                    Calamity.GetItem("LunarianBow").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara duas flechas de uma vez\nConverte flechas de madeira em raios de energia deslizantes");
+
+                    Calamity.GetItem("MandibleBow").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco de Mandíbula");
+
+                    Calamity.GetItem("Seabow").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco dos Mares");
+                    Calamity.GetItem("Seabow").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara jatos d'água lentos");
+
+                    Calamity.GetItem("Shellshooter").DisplayName.AddTranslation(GameCulture.Portuguese, "Lança-conchas");
+                    Calamity.GetItem("Shellshooter").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte flechas de madeira em conchas lentas e poderosas");
+
+                    Calamity.GetItem("Toxibow").DisplayName.AddTranslation(GameCulture.Portuguese, "Tóxiarco");
+                    Calamity.GetItem("Toxibow").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte flechas de madeira em flechas lentas que ocasionalmente infligem envenenamento sulfúrico");
+
+                    Calamity.GetItem("WulfrumBow").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco de Vulfrânio");
+
+                    //Hardmode
+
+                    Calamity.GetItem("AstralRepeater").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco Astral");
+                    Calamity.GetItem("AstralRepeater").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma sequência de três flechas");
+
+                    Calamity.GetItem("TheBallista").DisplayName.AddTranslation(GameCulture.Portuguese, "A Balista");
+                    Calamity.GetItem("TheBallista").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte flechas de madeira em grandes flechas que esmagam a blindagem do inimigo e quebram em fragmentos na morte");
+
+                    Calamity.GetItem("Barinautical").DisplayName.AddTranslation(GameCulture.Portuguese, "Barináutico");
+                    Calamity.GetItem("Barinautical").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte flechas de madeira em linhas de 3 flechas de raios elétricos que explodem");
+
+                    Calamity.GetItem("BlossomFlux").DisplayName.AddTranslation(GameCulture.Portuguese, "Fluxo Floral");
+                    Calamity.GetItem("BlossomFlux").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara um jato de folhas\nClique com o botão direito para disparar um orbe de esporos que explode em uma núvem de gas de esporos");
+
+                    Calamity.GetItem("BrimstoneFury").DisplayName.AddTranslation(GameCulture.Portuguese, "Fúria de Enxofre");
+                    Calamity.GetItem("BrimstoneFury").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte flechas de madeira em 3 raios de enxofre espalhados");
+
+                    Calamity.GetItem("GreatbowofTurmoil").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco Continental");
+                    Calamity.GetItem("GreatbowofTurmoil").Tooltip.AddTranslation(GameCulture.Portuguese, "Flechas de madeira são acendidas com fogo\nDispara 3 flechas de uma vez\nDispara 2 flechas adicionais amaldiçoadas, de fogo do inferno, ou de ichor");
+
+                    Calamity.GetItem("CorrodedCaustibow").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco Cáustico Corroído");
+                    Calamity.GetItem("CorrodedCaustibow").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte flechas de madeira em conchas lentas e poderosas que trilham uma aura irradiada");
+
+                    Calamity.GetItem("CosmicBolter").DisplayName.AddTranslation(GameCulture.Portuguese, "Raio Cósmico");
+                    Calamity.GetItem("CosmicBolter").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara três flechas de uma vez\nConverte flechas de madeira em raios de energia deslizantes");
+
+                    Calamity.GetItem("DarkechoGreatbow").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco do Eco Escuro");
+                    Calamity.GetItem("DarkechoGreatbow").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara duas flechas de uma vez\nDispara um dardo de cristal adicional");
+
+                    Calamity.GetItem("EffluviumBow").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco do Eflúvio");
+                    Calamity.GetItem("EffluviumBow").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara duas flechas de uma vez\nConverte flechas de madeira em flechas da névoa");
+
+                    Calamity.GetItem("EternalBlizzard").DisplayName.AddTranslation(GameCulture.Portuguese, "Nevasca Eterna");
+                    Calamity.GetItem("EternalBlizzard").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma flecha de gelo adicional que se estilhaça no impacto");
+
+                    Calamity.GetItem("FlarewingBow").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco de Asas Ardentes");
+                    Calamity.GetItem("FlarewingBow").Tooltip.AddTranslation(GameCulture.Portuguese, "Atira 5 flechas espalhadas\nFlechas de madeira são convertidas em morcegos de obsidiana saltitantes");
+
+                    Calamity.GetItem("Malevolence").DisplayName.AddTranslation(GameCulture.Portuguese, "Malevolência");
+                    Calamity.GetItem("Malevolence").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara duas flechas de uma vez\nConverte flechas de madeira em flechas da praga que explodem em abelhas na morte");
+
+                    Calamity.GetItem("MarksmanBow").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco do Atirador");
+                    Calamity.GetItem("MarksmanBow").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara três flechas de uma vez\nFlechas de madeira são convertidas em flechas do Jester");
+
+                    //Post-Moon Lord
+
+                    Calamity.GetItem("Alluvion").DisplayName.AddTranslation(GameCulture.Portuguese, "Alúvio");
+                    Calamity.GetItem("Alluvion").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte flechas de madeira em tubarões, flechas torrenciais e de tufão\nDispara uma torrente de seis flechas de uma vez");
+
+                    Calamity.GetItem("ArterialAssault").DisplayName.AddTranslation(GameCulture.Portuguese, "Assalto Arterial");
+                    Calamity.GetItem("ArterialAssault").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma corrente de 5 flechas do céu\nFlechas de madeira são convertidas em flechas de fogo sangrento teleguiadas");
+
+                    Calamity.GetItem("AstrealDefeat").DisplayName.AddTranslation(GameCulture.Portuguese, "Derrota Astral");
+                    Calamity.GetItem("AstrealDefeat").Tooltip.AddTranslation(GameCulture.Portuguese, "Arco etéreo da mãe do rei tirano\nA mãe desencorajou fortemente atos de violência ao longo de sua vida\nNo entanto, ela manteu este arco por perto, para proteger sua família em tempos de grande desastre\nTodas as flechas são convertidas em Flechas Astrais que emitem chamas enquanto caminham");
+
+                    Calamity.GetItem("ClockworkBow").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco Relógio");
+                    Calamity.GetItem("ClockworkBow").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma tempestade de flechas em direções aleatórias\nTodas as flechas disparadas atravessarão os blocos");
+
+                    Calamity.GetItem("Contagion").DisplayName.AddTranslation(GameCulture.Portuguese, "Contágio");
+                    Calamity.GetItem("Contagion").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara flechas de contágio que deixam orbes explosivos para trás enquanto caminham");
+
+                    Calamity.GetItem("DaemonsFlame").DisplayName.AddTranslation(GameCulture.Portuguese, "Chama de Daemon");
+                    Calamity.GetItem("DaemonsFlame").Tooltip.AddTranslation(GameCulture.Portuguese, "Atira bolas de fogo de daemon junto de 4 flechas normais");
+
+                    Calamity.GetItem("Deathwind").DisplayName.AddTranslation(GameCulture.Portuguese, "Vento da Morte");
+                    Calamity.GetItem("Deathwind").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara 4 flechas espalhadas\nFlechas de madeira são convertidas em flechas da nébula");
+
+                    Calamity.GetItem("Drataliornus").DisplayName.AddTranslation(GameCulture.Portuguese, "Drataliornus");
+                    Calamity.GetItem("Drataliornus").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara um fluxo crescente de bolas de fogo.\nBolas de fogo fazem chover meteoros, deixam um trilho de poeira de dragão, e lançam raios adicionais na velocidade máxima.\nSofrer danos enquanto dispara irá interrompê-lo e reduzirá o seu tempo de voo da asa.\nClique com o botão direito para disparar duas barragens devastadoras de cinco bolas de fogo fortalecidas.\n'Só não seja atingido'");
+
+                    Calamity.GetItem("HeavenlyGale").DisplayName.AddTranslation(GameCulture.Portuguese, "Vendaval Celestial");
+                    Calamity.GetItem("HeavenlyGale").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte flechas de madeira em barragens de 5 exo flechas aleatórias\nFlechas exo verdes explodem em tornados\nFlechas exo azuis explodem em barragens de flechas teleguiadas\nFlechas exo laranjas explodem em chamas\nFlechas exo verde-azuladas atravessam infinitamente e ignoram quadros de imunidade\nQualquer flecha que não sejam flechas de madeira causarão 1.25x de dano\n66% de de chance de não consumir munição");
+
+                    Calamity.GetItem("Monsoon").DisplayName.AddTranslation(GameCulture.Portuguese, "Monção");
+                    Calamity.GetItem("Monsoon").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara 5 flechas espalhadas\nFlechas de madeira são convertidas em flechas de tufão e tubarões");
+
+                    Calamity.GetItem("NettlelineGreatbow").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco das Videiras");
+                    Calamity.GetItem("NettlelineGreatbow").Tooltip.AddTranslation(GameCulture.Portuguese, "Atira 4 flechas de uma vez\nDispara 2 flechas de veneno ou clorofita adicionais");
+
+                    Calamity.GetItem("Phangasm").DisplayName.AddTranslation(GameCulture.Portuguese, "Fangasma");
+                    Calamity.GetItem("Phangasm").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara 5 flechas espalhadas e emite flechas fantasmas ao atingir o inimigo");
+
+                    Calamity.GetItem("PlanetaryAnnihilation").DisplayName.AddTranslation(GameCulture.Portuguese, "Aniquilação Planetária");
+                    Calamity.GetItem("PlanetaryAnnihilation").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma tempestade de 7 flechas do céu\nFlechas de madeira são convertidas em raios de energia teleguiados");
+
+                    Calamity.GetItem("TheStorm").DisplayName.AddTranslation(GameCulture.Portuguese, "A Tempestade");
+                    Calamity.GetItem("TheStorm").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara flechas espalhadas do céu\nConverte flechas de madeira em relâmpagos");
+
+                    Calamity.GetItem("TelluricGlare").DisplayName.AddTranslation(GameCulture.Portuguese, "Olhar Telúrico");
+                    Calamity.GetItem("TelluricGlare").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara rajadas de quatro flechas radiantes colossais que podem atravessar paredes");
+
+                    Calamity.GetItem("Ultima").DisplayName.AddTranslation(GameCulture.Portuguese, "Ultima");
+                    Calamity.GetItem("Ultima").Tooltip.AddTranslation(GameCulture.Portuguese, "Lança um fluxo contínuo de raios de plasma\nCom o tempo, os raios são substituídos por lasers poderosos\nOs raios se transformam em feixes sólidos enquanto você continua atirando\n90% de chance de não consumir munição");
+
+                    //Repeaters
+                    //Hardmode
+                    Calamity.GetItem("Arbalest").DisplayName.AddTranslation(GameCulture.Portuguese, "Arabaleta");
+                    Calamity.GetItem("Arbalest").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma rajada de 10 flechas de alta velocidade\nAs flechas começam pequenas e crescem em tamanho com fogo contínuo\nO dano, espalhamento e do recuo da flecha aumentam com o tamanho da flecha");
+
+                    Calamity.GetItem("BladedgeGreatbow").DisplayName.AddTranslation(GameCulture.Portuguese, "Arco da Borda da Lâmina");
+                    Calamity.GetItem("BladedgeGreatbow").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara 4 flechas de uma vez\nDispara 2 folhas adicionais");
+
+                    Calamity.GetItem("Impaler").DisplayName.AddTranslation(GameCulture.Portuguese, "Empalador");
+                    Calamity.GetItem("Impaler").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara estacas explosivas e flamejantes\nMata instantaneamente vampiros e morcegos vampiros");
+
+                    Calamity.GetItem("RaidersGlory").DisplayName.AddTranslation(GameCulture.Portuguese, "Glória do Corsário");
+                    Calamity.GetItem("RaidersGlory").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara flechas de ichor com velocidade aumentada\nEstas flechas também fazem com que os inimigos deixem cair mais dinheiro");
+
+                    Calamity.GetItem("Condemnation").DisplayName.AddTranslation(GameCulture.Portuguese, "Condenação");
+                    Calamity.GetItem("Condemnation").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara poderosos raios escarlates de magias odiosas\nSegure o botão esquerdo para carregar até oito raios para uma poderosa rajada de disparos\nSegure o botão direito para usar o repetidor de modo totalmente automático");
+
+                    //Guns
+                    //Pre-Hardmode
+                    Calamity.GetItem("Archerfish").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixe-arqueiro");
+                    Calamity.GetItem("Archerfish").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em correntes de água");
+
+                    Calamity.GetItem("BulletFilledShotgun").DisplayName.AddTranslation(GameCulture.Portuguese, "Espingarda Cheia de Balas");
+                    Calamity.GetItem("BulletFilledShotgun").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara projéteis saltitantes em várias direções\nConsome cinco projéteis por uso\nMira? O que é isso?");
+
+                    Calamity.GetItem("Eviscerator").DisplayName.AddTranslation(GameCulture.Portuguese, "Eviscerador");
+                    Calamity.GetItem("Eviscerator").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em coágulos sanguíneos lentos");
+
+                    Calamity.GetItem("Fungicide").DisplayName.AddTranslation(GameCulture.Portuguese, "Fungicídio");
+                    Calamity.GetItem("Fungicide").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em tiros de fungos que se dividem na morte");
+
+                    Calamity.GetItem("GunkShot").DisplayName.AddTranslation(GameCulture.Portuguese, "Tiro de Gosma");
+                    Calamity.GetItem("GunkShot").Tooltip.AddTranslation(GameCulture.Portuguese, "Atira projéteis em várias direções");
+
+                    Calamity.GetItem("MarniteRifleSpear").DisplayName.AddTranslation(GameCulture.Portuguese, "Baioneta de Marnito");
+                    Calamity.GetItem("MarniteRifleSpear").Tooltip.AddTranslation(GameCulture.Portuguese, "A arma causa danos aos inimigos que a tocam");
+
+                    Calamity.GetItem("OpalStriker").DisplayName.AddTranslation(GameCulture.Portuguese, "Atirador de Opala");
+                    Calamity.GetItem("OpalStriker").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma linha de ataques de opala");
+
+                    //Hardmode
+                    Calamity.GetItem("Animosity").DisplayName.AddTranslation(GameCulture.Portuguese, "Animosidade");
+                    Calamity.GetItem("Animosity").Tooltip.AddTranslation(GameCulture.Portuguese, "50% de chance de não consumir munição\nDispara um poderoso tiro de longo alcance\nClique com o botão direito para disparar uma rajada de projéteis");
+
+                    Calamity.GetItem("AstralBlaster").DisplayName.AddTranslation(GameCulture.Portuguese, "Detonador Astral");
+                    Calamity.GetItem("AstralBlaster").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em tiros astrais teleguiados");
+
+                    Calamity.GetItem("Butcher").DisplayName.AddTranslation(GameCulture.Portuguese, "Açougueiro");
+                    Calamity.GetItem("Butcher").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara mais rápido e com mais precisão quanto mais tempo você segurar o gatilho");
+
+                    Calamity.GetItem("ClamorRifle").DisplayName.AddTranslation(GameCulture.Portuguese, "Rifle do Clamor");
+                    Calamity.GetItem("ClamorRifle").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em raios de energia teleguiados");
+
+                    Calamity.GetItem("ClockGatlignum").DisplayName.AddTranslation(GameCulture.Portuguese, "Magnum do Jacaré Relógio");
+                    Calamity.GetItem("ClockGatlignum").Tooltip.AddTranslation(GameCulture.Portuguese, "33% de chance de não consumir munição\nConverte bolas de mosquete em linhas de 3 projéteis de alta velocidade");
+
+                    Calamity.GetItem("TrueConferenceCall").DisplayName.AddTranslation(GameCulture.Portuguese, "Chamada de Conferência");
+                    Calamity.GetItem("TrueConferenceCall").Tooltip.AddTranslation(GameCulture.Portuguese, "@everyone");
+
+                    Calamity.GetItem("CursedCapper").DisplayName.AddTranslation(GameCulture.Portuguese, "Finalizador Amaldiçoado");
+                    Calamity.GetItem("CursedCapper").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara projéteis amaldiçoados");
+
+                    Calamity.GetItem("FrostbiteBlaster").DisplayName.AddTranslation(GameCulture.Portuguese, "Detonador da Queimadura Fria");
+                    Calamity.GetItem("FrostbiteBlaster").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara 6 projéteis espalhados\nConverte bolas de mosquete em gelo");
+
+                    Calamity.GetItem("Hellborn").DisplayName.AddTranslation(GameCulture.Portuguese, "Nascimento Infernal");
+                    Calamity.GetItem("Hellborn").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara 3 projéteis espalhados\nConverte bolas de mosquete em projéteis explosivos\nInimigos que tocam a arma enquanto ela está sendo atirada ativam uma explosão gigante\nApós a explosão, esta arma ganha um aumento gigante ao seu dano, taxa de disparo e recuo por 10 segundos\nEstes bônus de estatísticas decaem lentamente ao longo do tempo");
+
+                    Calamity.GetItem("Helstorm").DisplayName.AddTranslation(GameCulture.Portuguese, "Tempestade Infernal");
+                    Calamity.GetItem("Helstorm").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara dois projéteis de uma vez\nA arma também causa danos aos inimigos que a tocam");
+
+                    Calamity.GetItem("MagnaStriker").DisplayName.AddTranslation(GameCulture.Portuguese, "Atirador de Magna");
+                    Calamity.GetItem("MagnaStriker").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma série de ataques de opala e magna");
+
+                    Calamity.GetItem("Megalodon").DisplayName.AddTranslation(GameCulture.Portuguese, "Megalodon");
+                    Calamity.GetItem("Megalodon").Tooltip.AddTranslation(GameCulture.Portuguese, "50% de chance de não consumir munição");
+
+                    Calamity.GetItem("Needler").DisplayName.AddTranslation(GameCulture.Portuguese, "Lança-agulhas");
+                    Calamity.GetItem("Needler").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em agulhas que grudam nos inimigos e explodem");
+
+                    Calamity.GetItem("P90").DisplayName.AddTranslation(GameCulture.Portuguese, "P90");
+                    Calamity.GetItem("P90").Tooltip.AddTranslation(GameCulture.Portuguese, "33% de chande de não consumir munição\nÉ uma mangueira de projéteis");
+
+                    Calamity.GetItem("PestilentDefiler").DisplayName.AddTranslation(GameCulture.Portuguese, "Profanador Pestilento");
+                    Calamity.GetItem("PestilentDefiler").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em tiros da praga que explodem e se separam na morte");
+
+                    Calamity.GetItem("ProporsePistol").DisplayName.AddTranslation(GameCulture.Portuguese, "Pistola do Propósito");
+                    Calamity.GetItem("ProporsePistol").Tooltip.AddTranslation(GameCulture.Portuguese, "Pistola do Propósito");
+
+                    Calamity.GetItem("RealmRavager").DisplayName.AddTranslation(GameCulture.Portuguese, "Devastador de Reinos");
+                    Calamity.GetItem("RealmRavager").Tooltip.AddTranslation(GameCulture.Portuguese, "Atira uma rajada de 3 a 4 projéteis\nConverte bolas de mosquete em projéteis explosivos");
+
+                    Calamity.GetItem("Shroomer").DisplayName.AddTranslation(GameCulture.Portuguese, "Cogumelador");
+                    Calamity.GetItem("Shroomer").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara projéteis e um cogumelo teleguiado extremamente poderoso");
+
+                    Calamity.GetItem("SlagMagnum").DisplayName.AddTranslation(GameCulture.Portuguese, "Magnum da Escória");
+                    Calamity.GetItem("SlagMagnum").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em fragmentos de fóssil que se dividem em fragmentos adicionais na morte");
+
+                    Calamity.GetItem("SpectreRifle").DisplayName.AddTranslation(GameCulture.Portuguese, "Rifle Espectral");
+                    Calamity.GetItem("SpectreRifle").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em almas teleguiadas poderosas");
+
+                    Calamity.GetItem("TitaniumRailgun").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão à Laser de Titânio");
+                    Calamity.GetItem("TitaniumRailgun").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara um laser");
+
+                    Calamity.GetItem("Vortexpopper").DisplayName.AddTranslation(GameCulture.Portuguese, "Vortexpopper");
+                    Calamity.GetItem("Vortexpopper").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara bolhas para todos os lados que estouram em projéteis");
+
+                    //Post-Moon Lord
+
+                    Calamity.GetItem("AcesHigh").DisplayName.AddTranslation(GameCulture.Portuguese, "Ás Alto");
+                    Calamity.GetItem("AcesHigh").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma linha de cartas com vários efeitos baseados no tipo da carta\nCopas fornecem roubo de vida. Espadas atravessam os inimigos e ignoram quadros de imunidade.\nOuros explodem. Paus se dividem em três.");
+
+                    Calamity.GetItem("AngelicShotgun").DisplayName.AddTranslation(GameCulture.Portuguese, "Espingarda Angelical");
+                    Calamity.GetItem("AngelicShotgun").Tooltip.AddTranslation(GameCulture.Portuguese, "Cada tiro lança um raio radiante de luz sagrada do céu\nConverte bolas de mosquete em projéteis iluminados\nLutando até vencer a guerra");
+
+                    Calamity.GetItem("AMR").DisplayName.AddTranslation(GameCulture.Portuguese, "Rifle Anti-material");
+                    Calamity.GetItem("AMR").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em tiros de sniper de calibre .50 que destroem a defesa e a RD do inimigo\nSe você atingir um ataque crítico no alvo, uma segunda barragem de balas será disparada");
+
+                    Calamity.GetItem("Auralis").DisplayName.AddTranslation(GameCulture.Portuguese, "Auralis");
+                    Calamity.GetItem("Auralis").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara um projétil brilhante de alta velocidade que inflige efeitos negativos debilitantes\nClique com o botão direito para afastar\nFicar parado fornece bônus de dano crescentes em até 25%\nFicar parado por 5 ou mais segundos usando a habilidade de mira invocará uma aurora\nA aurora reduz o dano do próximo projétil atingido em 100\nEste efeito dura até 20 segundos e tem um tempo de recarga de 30 segundos\n50% de chance de não consumir munição");
+
+                    Calamity.GetItem("ClaretCannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão de Clarete");
+                    Calamity.GetItem("ClaretCannon").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em linhas de 3 lágrimas sangrentas que drenam a vida do inimigo");
+
+                    Calamity.GetItem("Interfacer").DisplayName.AddTranslation(GameCulture.Portuguese, "Disseminador");
+                    Calamity.GetItem("Interfacer").Tooltip.AddTranslation(GameCulture.Portuguese, "50% de chance de não consumir munição\nDispara uma série de projéteis da arma, de cima, e de baixo");
+
+                    Calamity.GetItem("DodusHandcannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão de Mão de Dodu");
+                    Calamity.GetItem("DodusHandcannon").Tooltip.AddTranslation(GameCulture.Portuguese, "O poder da noz está em suas mãos\nDispara cascas de amendoim altamente explosivas, literalmente");
+
+                    Calamity.GetItem("DragonsBreath").DisplayName.AddTranslation(GameCulture.Portuguese, "Sopro do Dragão");
+                    Calamity.GetItem("DragonsBreath").Tooltip.AddTranslation(GameCulture.Portuguese, "O clique com o botão esquerdo dispara em rajadas de dois tiros\nO primeiro tiro é um disparo espalhado de 6 projéteis normais\nO segundo tiro é um disparo menos espalhado de 6 tiros de Sopro do Dragão\nO clique com o botão direito dispara de modo totalmente automático e mistura os projéteis aleatoriamente, mas causa 20% menos dano\nEsta arma não tem aleatoriedade em seu padrão de espalhamento\n66% de chance de não consumir munição");
+
+                    Calamity.GetItem("FetidEmesis").DisplayName.AddTranslation(GameCulture.Portuguese, "Vomição Fétida");
+                    Calamity.GetItem("FetidEmesis").Tooltip.AddTranslation(GameCulture.Portuguese, "Tem uma chance de liberar pedaços podres em vez de projéteis");
+
+                    Calamity.GetItem("GoldenEagle").DisplayName.AddTranslation(GameCulture.Portuguese, "Águia Dourada");
+                    Calamity.GetItem("GoldenEagle").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara 5 projéteis de uma vez");
+
+                    Calamity.GetItem("HalibutCannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão Halibute");
+                    Calamity.GetItem("HalibutCannon").Tooltip.AddTranslation(GameCulture.Portuguese, "Sim, ainda é superpoderoso");
+
+                    Calamity.GetItem("Infinity").DisplayName.AddTranslation(GameCulture.Portuguese, "Infinito");
+                    Calamity.GetItem("Infinity").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma barragem de raios de energia que se dividem e rebatem nas paredes\nClique com o botão direito para disparar uma barragem de projéteis normais\nEles dizem que o infinito não tem fim, mas você o segura em suas mãos");
+
+                    Calamity.GetItem("TheJailor").DisplayName.AddTranslation(GameCulture.Portuguese, "O Carcereiro");
+                    Calamity.GetItem("TheJailor").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara minas elétricas para fora que se conectam umas às outras através de arcos");
+
+                    Calamity.GetItem("Karasawa").DisplayName.AddTranslation(GameCulture.Portuguese, "Karasawa");
+                    Calamity.GetItem("Karasawa").Tooltip.AddTranslation(GameCulture.Portuguese, "...Isso é pesado... muito pesado.");
+
+                    Calamity.GetItem("Minigun").DisplayName.AddTranslation(GameCulture.Portuguese, "Minigun");
+                    Calamity.GetItem("Minigun").Tooltip.AddTranslation(GameCulture.Portuguese, "80% de chance de não consumir munição");
+
+                    Calamity.GetItem("OnyxChainBlaster").DisplayName.AddTranslation(GameCulture.Portuguese, "Detonador Sequencial de Ônix");
+                    Calamity.GetItem("OnyxChainBlaster").Tooltip.AddTranslation(GameCulture.Portuguese, "50% de chance de não consumir munição\nDispara projéteis em várias direções e um fragmento de ônix");
+
+                    Calamity.GetItem("Onyxia").DisplayName.AddTranslation(GameCulture.Portuguese, "Oníxia");
+                    Calamity.GetItem("Onyxia").Tooltip.AddTranslation(GameCulture.Portuguese, "50% de chance de não consumir munição\nDispara uma tempestade de projéteis e fragmentos de ônix");
+
+                    Calamity.GetItem("PearlGod").DisplayName.AddTranslation(GameCulture.Portuguese, "Deus Pérola");
+                    Calamity.GetItem("PearlGod").Tooltip.AddTranslation(GameCulture.Portuguese, "A sua vida é minha...\nDispara tiros de explosão de choque que emitem explosões enormes e roubam a vida do inimigo, bem como projéteis adicionais\nCada sétimo tiro dispara uma explosão de choque enorme");
+
+                    Calamity.GetItem("PrideHuntersPlanarRipper").DisplayName.AddTranslation(GameCulture.Portuguese, "Eviscerador Planar do Caçador Orgulhoso");
+                    Calamity.GetItem("PrideHuntersPlanarRipper").Tooltip.AddTranslation(GameCulture.Portuguese, "Cada quarto tiro causa 135% de dano\nConverte bolas de mosquete em relâmpagos\nOs relâmpagos viajam extremamente rápido e explodem na morte dos inimigos\nOs acertos críticos dos relâmpagos concedem um reforço de velocidade ao jogador que pode pode ser combinado\nIsso se acumula até 20 porcento de velocidade dos movimentos e aceleração bônus\nO reforço será redefinido se o jogador segurar um item diferente\n33% de chance de não consumir munição");
+
+                    Calamity.GetItem("RubicoPrime").DisplayName.AddTranslation(GameCulture.Portuguese, "Rubico Alfa");
+                    Calamity.GetItem("RubicoPrime").Tooltip.AddTranslation(GameCulture.Portuguese, "Sniper semiautomática que dispara em rajadas de 5 segundos\nDispara tiros de impacto que têm um multiplicador de crítico aumentado e causam dano adicional a alvos inorgânicos");
+
+                    Calamity.GetItem("SDFMG").DisplayName.AddTranslation(GameCulture.Portuguese, "MDFE");
+                    Calamity.GetItem("SDFMG").Tooltip.AddTranslation(GameCulture.Portuguese, "Veio dos cantos de Terraria\n50% de chance de não consumir munição");
+
+                    Calamity.GetItem("Seadragon").DisplayName.AddTranslation(GameCulture.Portuguese, "Dragão dos Mares");
+                    Calamity.GetItem("Seadragon").Tooltip.AddTranslation(GameCulture.Portuguese, "50% de chance de não consumir munição\nTem a chance de disparar foguetes teleguiados que explodem em fragmentos de fogo na morte");
+
+                    Calamity.GetItem("Shredder").DisplayName.AddTranslation(GameCulture.Portuguese, "Despedaçador");
+                    Calamity.GetItem("Shredder").Tooltip.AddTranslation(GameCulture.Portuguese, "O mito, a lenda, a arma que faz os frames cair mais que qualquer outra\nDispara uma barragem de raios de energia que se dividem e rebatem\nClique com o botão direito para disparar uma barragem de projéteis normais");
+
+                    Calamity.GetItem("SomaPrime").DisplayName.AddTranslation(GameCulture.Portuguese, "Soma Alfa");
+                    Calamity.GetItem("SomaPrime").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em tiros de alta velocidade extremamente poderosos que infligem um efeito negativo de sangramento poderoso");
+
+                    Calamity.GetItem("Spyker").DisplayName.AddTranslation(GameCulture.Portuguese, "Espinhador");
+                    Calamity.GetItem("Spyker").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em espinhos que grudam nos inimigos, peças e explodem em estilhaços");
+
+                    Calamity.GetItem("StormDragoon").DisplayName.AddTranslation(GameCulture.Portuguese, "Dragão da Tempestade");
+                    Calamity.GetItem("StormDragoon").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma rajada de balas\n90% de chance de não consumir munição");
+
+                    Calamity.GetItem("SurgeDriver").DisplayName.AddTranslation(GameCulture.Portuguese, "Condutor de Correntes");
+                    Calamity.GetItem("SurgeDriver").Tooltip.AddTranslation(GameCulture.Portuguese, "Cliques com botão esquerdo liberam um raio laser que explode em colisão\nCliques com o botão direito liberam uma barragem de raios laser que liberam energia teleguiada ao atingir o inimigo");
+
+                    Calamity.GetItem("Svantechnical").DisplayName.AddTranslation(GameCulture.Portuguese, "Svantécnico");
+                    Calamity.GetItem("Svantechnical").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara várias barragens de projéteis\nClique com o botão direito para afastar");
+
+                    Calamity.GetItem("TyrannysEnd").DisplayName.AddTranslation(GameCulture.Portuguese, "Fim da Tirania");
+                    Calamity.GetItem("TyrannysEnd").Tooltip.AddTranslation(GameCulture.Portuguese, "Perfure o coração até mesmo do inimigo mais fortemente blindado\nDispara um tiro de sniper de calibre .70 que ignora a defesa e RD\nOs tiros marcam os inimigos para a morte e invocam uma rajada de balas adicionais em acertos críticos");
+
+                    Calamity.GetItem("UniversalGenesis").DisplayName.AddTranslation(GameCulture.Portuguese, "Gênese Universal");
+                    Calamity.GetItem("UniversalGenesis").Tooltip.AddTranslation(GameCulture.Portuguese, "Deixe o céu estrelado cair sobre seus inimigos\nDispara projéteis em várias direções da arma e uma enxurrada de estrelas para chover no cursor\nConverte bolas de mosquete em tiros chamadores de estrelas que invocam estrelas adicionais ao atingir o inimigo\n50% de chance de não consumir munição");
+
+                    Calamity.GetItem("Megafleet").DisplayName.AddTranslation(GameCulture.Portuguese, "Dragão do Vazio");
+                    Calamity.GetItem("Megafleet").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara tiros do vazio que explodem");
+
+                    //Launchers
+                    //Hardmode
+                    Calamity.GetItem("TheHive").DisplayName.AddTranslation(GameCulture.Portuguese, "A Colmeia");
+                    Calamity.GetItem("TheHive").Tooltip.AddTranslation(GameCulture.Portuguese, "Lança uma variedade de foguetes que explodem em abelhas na morte");
+
+                    Calamity.GetItem("MineralMortar").DisplayName.AddTranslation(GameCulture.Portuguese, "Morteiro Mineral");
+                    Calamity.GetItem("MineralMortar").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma bomba de ônix que explode em tubarões de areia na morte");
+
+                    Calamity.GetItem("Scorpion").DisplayName.AddTranslation(GameCulture.Portuguese, "Scorpio");
+                    Calamity.GetItem("Scorpion").Tooltip.AddTranslation(GameCulture.Portuguese, "BOOM\nClique com o botão direito para disparar uma bomba nuclear");
+
+                    //Post-Moon Lord
+                    Calamity.GetItem("BlissfulBombardier").DisplayName.AddTranslation(GameCulture.Portuguese, "Bombardeiro Alegre");
+                    Calamity.GetItem("BlissfulBombardier").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara foguetes flamejantes");
+
+                    Calamity.GetItem("ChickenCannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão de Galinhas");
+                    Calamity.GetItem("ChickenCannon").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara foguetes de galinha flamejantes que criam explosões incendiárias enormes\nClique com o botão direito para detonar todos os foguetes no ar");
+
+                    Calamity.GetItem("HandheldTank").DisplayName.AddTranslation(GameCulture.Portuguese, "Tanque Portátil");
+
+                    Calamity.GetItem("MagnomalyCannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão da Magnomalia");
+                    Calamity.GetItem("MagnomalyCannon").Tooltip.AddTranslation(GameCulture.Portuguese, "Lança um poderoso foguete exo para destruir tudo\nOs foguetes são cercados por uma aura de dano invisível e se dividem em feixes de dano no acerto\n66% de chance de não consumir munição");
+
+                    Calamity.GetItem("ScorchedEarth").DisplayName.AddTranslation(GameCulture.Portuguese, "Terra Arrasada");
+                    Calamity.GetItem("ScorchedEarth").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma rajada de quatro foguetes movidos a ar que explodem em bombas de fragmentação\nCada rajada consome dois foguetes cada\nQueima seus alvos e os reduz a cinzas finas");
+
+                    Calamity.GetItem("ThePack").DisplayName.AddTranslation(GameCulture.Portuguese, "O Bando");
+                    Calamity.GetItem("ThePack").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara grandes foguetes teleguiados que explodem em mais minifoguetes teleguiados quando há inimigos por perto");
+
+                    //Flamethrowers
+                    //Pre-Hardmode
+                    Calamity.GetItem("DragoonDrizzlefish").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixe-garoa do Dragão");
+                    Calamity.GetItem("DragoonDrizzlefish").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara bolas de fogo espalhadas imprecisamente\nO saco de enxofre parece conter combustível\nA vingança é um prato que se serve queimando");
+
+                    Calamity.GetItem("OverloadedBlaster").DisplayName.AddTranslation(GameCulture.Portuguese, "Detonador Sobrecarregado");
+                    Calamity.GetItem("OverloadedBlaster").Tooltip.AddTranslation(GameCulture.Portuguese, "33% de chance de não consumir gel\nDispara uma grande quantidade de geleia saltitante em várias direções");
+
+                    Calamity.GetItem("Shadethrower").DisplayName.AddTranslation(GameCulture.Portuguese, "Lança-sombras");
+                    Calamity.GetItem("Shadethrower").Tooltip.AddTranslation(GameCulture.Portuguese, "66% de chance de não consumir gel");
+
+                    Calamity.GetItem("SparkSpreader").DisplayName.AddTranslation(GameCulture.Portuguese, "Espalha-faíscas");
+                    Calamity.GetItem("SparkSpreader").Tooltip.AddTranslation(GameCulture.Portuguese, "70% de chance de não consumir gel");
+
+                    //Hardmode
+
+                    Calamity.GetItem("AuroraBlazer").DisplayName.AddTranslation(GameCulture.Portuguese, "Incendiário de Aurora");
+                    Calamity.GetItem("AuroraBlazer").Tooltip.AddTranslation(GameCulture.Portuguese, "Lança chamas astrais que viajam em padrões em forma de estrela\n60% de chance de não consumir gel");
+
+                    Calamity.GetItem("MepheticSprayer").DisplayName.AddTranslation(GameCulture.Portuguese, "Espalhador da Praga");
+
+                    Calamity.GetItem("BrimstoneFlameblaster").DisplayName.AddTranslation(GameCulture.Portuguese, "Lança-chamas de Enxofre");
+                    Calamity.GetItem("BrimstoneFlameblaster").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara bolas de fogo de enxofre saltitantes");
+
+                    Calamity.GetItem("TheEmpyrean").DisplayName.AddTranslation(GameCulture.Portuguese, "Fole de Deus");
+                    Calamity.GetItem("TheEmpyrean").Tooltip.AddTranslation(GameCulture.Portuguese, "70% de chance de não consumir gel");
+
+                    Calamity.GetItem("BrimstoneFlamesprayer").DisplayName.AddTranslation(GameCulture.Portuguese, "Sopro do Caos");
+
+                    Calamity.GetItem("Meowthrower").DisplayName.AddTranslation(GameCulture.Portuguese, "Lança-gatos");
+                    Calamity.GetItem("Meowthrower").Tooltip.AddTranslation(GameCulture.Portuguese, "50% de chance de não consumir gel\nDispara chamas azuis e rosas que emitem miaus ao atingir o inimigo");
+
+                    Calamity.GetItem("TerraFlameburster").DisplayName.AddTranslation(GameCulture.Portuguese, "Lança-chamas da Terra");
+                    Calamity.GetItem("TerraFlameburster").Tooltip.AddTranslation(GameCulture.Portuguese, "80% de chance de não consumir gel");
+
+                    Calamity.GetItem("BloodBoiler").DisplayName.AddTranslation(GameCulture.Portuguese, "Caldeira de Sangue");
+                    Calamity.GetItem("BloodBoiler").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara um fluxo de fogo de sangue que rouba vida\nUsa sua vida como munição\n25% de chance de não consumir munição");
+
+                    Calamity.GetItem("CleansingBlaze").DisplayName.AddTranslation(GameCulture.Portuguese, "Chamas da Purificação");
+                    Calamity.GetItem("CleansingBlaze").Tooltip.AddTranslation(GameCulture.Portuguese, "90% de chance de não consumir gel");
+
+                    Calamity.GetItem("ElementalEruption").DisplayName.AddTranslation(GameCulture.Portuguese, "Erupção Elemental");
+                    Calamity.GetItem("ElementalEruption").Tooltip.AddTranslation(GameCulture.Portuguese, "90% de chance de não consumir gel\nDispara chamas arco-íris em várias direções");
+
+                    Calamity.GetItem("HalleysInferno").DisplayName.AddTranslation(GameCulture.Portuguese, "Inferno de Halley");
+                    Calamity.GetItem("HalleysInferno").Tooltip.AddTranslation(GameCulture.Portuguese, "Halley chegou antes do esperado\nDispara um cometa flamejante\n50% de chance de não consumir gel\nClique com o botão direito para afastar");
+
+                    Calamity.GetItem("Photoviscerator").DisplayName.AddTranslation(GameCulture.Portuguese, "Fotoviscerador");
+                    Calamity.GetItem("Photoviscerator").Tooltip.AddTranslation(GameCulture.Portuguese, "90% de chance de não consumir gel\nDispara um fluxo de chamas exo e luz que explodem em faíscas teleguiadas\nClique com o botão direito para disparar chamas teleguiadas que grudam nos inimigos e os incineram");
+
+                    Calamity.GetItem("PristineFury").DisplayName.AddTranslation(GameCulture.Portuguese, "Fúria Pura");
+                    Calamity.GetItem("PristineFury").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma hélice intensa de chamas que explodem em uma coluna de fogo\nClique com o botão direito para disparar uma nuvem de chamas persistentes de curto alcance");
+
+                    //Others
+                    //Pre-Hardmode
+
+                    Calamity.GetItem("AquashardShotgun").DisplayName.AddTranslation(GameCulture.Portuguese, "Espingarda do Fragmento d'água");
+                    Calamity.GetItem("AquashardShotgun").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em fragmentos d'água que se dividem ao atingir um inimigo");
+
+                    Calamity.GetItem("CoralCannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão de Corais");
+                    Calamity.GetItem("CoralCannon").Tooltip.AddTranslation(GameCulture.Portuguese, "Tem uma chance de disparar um coral grande que atordoa os inimigos");
+
+                    Calamity.GetItem("FirestormCannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão da Tempestade de Fogo");
+                    Calamity.GetItem("FirestormCannon").Tooltip.AddTranslation(GameCulture.Portuguese, "70% de chance de não consumir munição\nClique com o botão direito para disparar sinalizadores em várias direções");
+
+                    Calamity.GetItem("FlurrystormCannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão da Nevasca");
+                    Calamity.GetItem("FlurrystormCannon").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma corrente de bolas de neve que fica mais rápida com o tempo\nTem uma chance de também atirar um pedaço de gelo que se despedaça em fragmentos\n50% de chance de não consumir bolas de neve");
+
+                    Calamity.GetItem("Pumpler").DisplayName.AddTranslation(GameCulture.Portuguese, "Atirabóbora");
+                    Calamity.GetItem("Pumpler").Tooltip.AddTranslation(GameCulture.Portuguese, "33% de chance de não consumir munição\nClique com o botão direito para disparar uma abóbora explosiva");
+
+                    Calamity.GetItem("StormSurge").DisplayName.AddTranslation(GameCulture.Portuguese, "Onda da Tempestade");
+                    Calamity.GetItem("StormSurge").Tooltip.AddTranslation(GameCulture.Portuguese, "Tema a tempestade\nNão consume munição");
+
+                    Calamity.GetItem("Taser").DisplayName.AddTranslation(GameCulture.Portuguese, "Taser");
+                    Calamity.GetItem("Taser").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma arma elétrica simples e lenta, destinada apenas a guardas de baixo escalão\nDispara um gancho que se prende nos inimigos e os eletrocuta antes de retornar");
+
+                    //Hardmode
+
+                    Calamity.GetItem("BarracudaGun").DisplayName.AddTranslation(GameCulture.Portuguese, "Arma de Barracudas");
+                    Calamity.GetItem("BarracudaGun").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara duas barracudas que grudam nos inimigos");
+
+                    Calamity.GetItem("ChargedDartRifle").DisplayName.AddTranslation(GameCulture.Portuguese, "Lança-dardos Carregado");
+                    Calamity.GetItem("ChargedDartRifle").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara dardos e uma explosão de energia que se divide em várias direções, estilo espingarda\nClique com o botão direito para disparar uma explosão de energia saltitante mais poderosa");
+
+                    Calamity.GetItem("Dualpoon").DisplayName.AddTranslation(GameCulture.Portuguese, "Arpão Duplo");
+                    Calamity.GetItem("Dualpoon").Tooltip.AddTranslation(GameCulture.Portuguese, "Lança dois arpões");
+
+                    Calamity.GetItem("FlakKraken").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão do Kraken");
+                    Calamity.GetItem("FlakKraken").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara um retículo de energia que se torna mais poderoso ao longo do tempo");
+
+                    Calamity.GetItem("FlakToxicannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão Tóxico");
+                    Calamity.GetItem("FlakToxicannon").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara tiros inclinados na direção do cursor\nSó pode ser disparado em uma direção de cone acima do jogador\nRequer QI alto");
+
+                    Calamity.GetItem("GaussRifle").DisplayName.AddTranslation(GameCulture.Portuguese, "Rifle de Gauss");
+                    Calamity.GetItem("GaussRifle").Tooltip.AddTranslation(GameCulture.Portuguese, "Uma arma grande e lenta, a força concussiva de seus projéteis faz bem em eliminar grandes grupos\nDispara uma explosão devastadora de alta velocidade com recuo absurdo");
+
+                    Calamity.GetItem("Leviatitan").DisplayName.AddTranslation(GameCulture.Portuguese, "Leviatitã");
+                    Calamity.GetItem("Leviatitan").Tooltip.AddTranslation(GameCulture.Portuguese, "Converte bolas de mosquete em rajadas de água tóxicas e normais");
+
+                    Calamity.GetItem("MatterModulator").DisplayName.AddTranslation(GameCulture.Portuguese, "Modulador de Matéria");
+                    Calamity.GetItem("MatterModulator").Tooltip.AddTranslation(GameCulture.Portuguese, "Usando massa extra obtida da colisão com materiais sólidos, ele causa dano extra\nDispara uma explosão de matéria instável que causa dano significativo após atingir uma peça\nAntes de atingir uma peça, a matéria perfura infinitamente, mas causa pouco dano");
+
+                    Calamity.GetItem("NullificationRifle").DisplayName.AddTranslation(GameCulture.Portuguese, "Pistola da Anulação");
+                    Calamity.GetItem("NullificationRifle").Tooltip.AddTranslation(GameCulture.Portuguese, "É anulável ou não? Vamos descobrir!\nDispara um projétil nulo rápido que distorce as estatísticas de NPCs");
+
+                    Calamity.GetItem("PolarisParrotfish").DisplayName.AddTranslation(GameCulture.Portuguese, "Peixe-papagaio Polar");
+                    Calamity.GetItem("PolarisParrotfish").Tooltip.AddTranslation(GameCulture.Portuguese, "Ele carrega a marca da Estrela do Norte\nProjéteis atingidos concedem efeitos à arma e o jogador\nOs efeitos são removidos ao ser atingido");
+
+                    Calamity.GetItem("SandstormGun").DisplayName.AddTranslation(GameCulture.Portuguese, "Tempestade de Areia");
+                    Calamity.GetItem("SandstormGun").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara projéteis de areia que explodem e retardam os inimigos no acerto\n50% de chance de não consumir areia");
+
+                    Calamity.GetItem("SeasSearing").DisplayName.AddTranslation(GameCulture.Portuguese, "Abrasador dos Mares");
+                    Calamity.GetItem("SeasSearing").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma série de bolhas invocando uma chuva de bolhas no acerto\nClique com o botão direito para disparar um jato d'água maior e mais lento que invoca uma tromba d'água");
+
+                    Calamity.GetItem("SpectralstormCannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão da Tempestade Espectral");
+                    Calamity.GetItem("SpectralstormCannon").Tooltip.AddTranslation(GameCulture.Portuguese, "70% de chance de não consumir sinalizadores\nDispara uma tempestade de almas e sinalizadores perdidos");
+
+                    Calamity.GetItem("PaintballBlaster").DisplayName.AddTranslation(GameCulture.Portuguese, "Detonador Veloz");
+                    Calamity.GetItem("PaintballBlaster").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma série de tiros de tinta");
+
+                    Calamity.GetItem("StarCannonEX").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão de Estrelas X");
+                    Calamity.GetItem("StarCannonEX").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma mistura de estrelas normais, da fúria e astrais");
+
+                    Calamity.GetItem("StarSputter").DisplayName.AddTranslation(GameCulture.Portuguese, "Crepitar Estelar");
+                    Calamity.GetItem("StarSputter").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma cadeira de cometas\nDispara um cometa maior e mais forte a cada 4 tiros\nOlhe para as estrelas para uma galáxia muito, muito distante");
+
+                    Calamity.GetItem("StellarCannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão Estelar");
+                    Calamity.GetItem("StellarCannon").Tooltip.AddTranslation(GameCulture.Portuguese, "Lança um cristal astral explosivo");
+
+                    Calamity.GetItem("Triploon").DisplayName.AddTranslation(GameCulture.Portuguese, "Arpão Triplo");
+                    Calamity.GetItem("Triploon").Tooltip.AddTranslation(GameCulture.Portuguese, "Lança três arpões");
+
+                    //Post-Mood Lord
+
+                    Calamity.GetItem("AethersWhisper").DisplayName.AddTranslation(GameCulture.Portuguese, "Sussurro do Éter");
+                    Calamity.GetItem("AethersWhisper").Tooltip.AddTranslation(GameCulture.Portuguese, "Inflige chama das sombras de longa duração e se divide ao atingir peças\nOs projéteis ganham dano à medida que viajam\nClique com o botão direito para mudar de dano por magia para dano por ataque à distância\nO clique com o botão direito não consome mana");
+
+                    Calamity.GetItem("ElementalBlaster").DisplayName.AddTranslation(GameCulture.Portuguese, "Detonador Elemental");
+                    Calamity.GetItem("ElementalBlaster").Tooltip.AddTranslation(GameCulture.Portuguese, "Não consume munição\nDispara uma tempestade de explosões arco-íris");
+
+                    Calamity.GetItem("LaserRifle").DisplayName.AddTranslation(GameCulture.Portuguese, "Rifle à Laser Pesado");
+                    Calamity.GetItem("LaserRifle").Tooltip.AddTranslation(GameCulture.Portuguese, "Arma laser usada por unidades de infantaria pesada no exército de Yharim");
+
+                    Calamity.GetItem("MolecularManipulator").DisplayName.AddTranslation(GameCulture.Portuguese, "Manipulador Molecular");
+                    Calamity.GetItem("MolecularManipulator").Tooltip.AddTranslation(GameCulture.Portuguese, "É anulável ou não? Vamos descobrir!\nDispara um projétil nulo rápido que distorce as estatísticas de NPCs");
+
+                    Calamity.GetItem("Norfleet").DisplayName.AddTranslation(GameCulture.Portuguese, "Norfleet");
+                    Calamity.GetItem("Norfleet").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispare tudo!");
+
+                    Calamity.GetItem("PrismaticBreaker").DisplayName.AddTranslation(GameCulture.Portuguese, "Destruidor Prismático");
+                    Calamity.GetItem("PrismaticBreaker").Tooltip.AddTranslation(GameCulture.Portuguese, "Parece pertencer a uma certa garota mágica. Irradia com intensa energia cósmica\nDispare para carregar um poderoso laser arco-íris\nClique com o botão direito para balançar a espada e disparar ondas coloridas de arco-íris\nA espada é reforçada por dano por ataque físico e à distância");
+
+                    Calamity.GetItem("PulseRifle").DisplayName.AddTranslation(GameCulture.Portuguese, "Rifle de Pulso");
+                    Calamity.GetItem("PulseRifle").Tooltip.AddTranslation(GameCulture.Portuguese, "O antigo rifle de pulso de Draedon, usado em emergências para criações que se revoltaram contra ele \nQuando o pulso atinge um alvo, ele se curva para outro alvo próximo");
+
+                    Calamity.GetItem("SepticSkewer").DisplayName.AddTranslation(GameCulture.Portuguese, "Espeto Séptico");
+                    Calamity.GetItem("SepticSkewer").Tooltip.AddTranslation(GameCulture.Portuguese, "Lança um arpão pontiagudo infestado de toxinas\nLibera bactérias ao retornar para o jogador");
+
+                    Calamity.GetItem("Starfleet").DisplayName.AddTranslation(GameCulture.Portuguese, "Frota Estelar");
+                    Calamity.GetItem("Starfleet").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara explosões de plasma em várias direções");
+
+                    Calamity.GetItem("StarfleetMK2").DisplayName.AddTranslation(GameCulture.Portuguese, "Armada Estelar");
+                    Calamity.GetItem("StarfleetMK2").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara uma enxurrada de estrelas e explosões de plasma");
+
+                    Calamity.GetItem("SulphuricAcidCannon").DisplayName.AddTranslation(GameCulture.Portuguese, "Canhão de Ácido Sulfúrico");
+                    Calamity.GetItem("SulphuricAcidCannon").Tooltip.AddTranslation(GameCulture.Portuguese, "Dispara um tiro acídico que gruda nos inimigos e os dissolve");
 
                     foreach (string[] loc in localizations)
                     {

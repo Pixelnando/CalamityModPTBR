@@ -12,37 +12,44 @@ using CalamityMod.Items.Placeables.Ores;
 using CalamityMod.Items.Potions;
 using CalamityMod.Items.SummonItems;
 using CalamityMod.Items.Tools;
+using CalamityMod.Items.Weapons.Melee;
 using CalamityMod.Items.Weapons.Magic;
 using CalamityMod.Items.Weapons.Rogue;
 using CalamityMod.Items.Weapons.Summon;
+using CalamityMod.Items.DraedonMisc;
+using CalamityMod.Items.Mounts;
+using CalamityMod.Items.Weapons.DraedonsArsenal;
 using CalamityMod.World;
 using System.Collections.Generic;
+using System.Linq;
 using Terraria.ModLoader;
 
 public class CalamityGlobalItemPTBR : GlobalItem
 {
-	public CalamityGlobalItemPTBR()
+
+    public CalamityGlobalItemPTBR()
 	{
 	}
 
 	public override void UpdateArmorSet(Player player, string set)
 	{
 		string hotkey = CalamityMod.CalamityMod.TarraHotKey.TooltipHotkeyString();
+
 		if (set == "AerospecMagic")
 		{
 			player.setBonus = "5% de aumento na velocidade dos movimentos e chance de ataque mágico crítico\nSofrer mais de 25 de danos em um acerto fará com que penas teleguiadas caiam do céu\nPermite que você caia mais rapidamente e desativa o dano de queda";
 		}
 		else if (set == "AerospecRogue")
 		{
-			player.setBonus = "5% de aumento na velocidade dos movimentos e chance de ataque assassino crítico\nSofrer mais de 25 de danos em um acerto fará com que penas teleguiadas caiam do céu\nPermite que você caia mais rapidamente e desativa o dano de queda\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 100\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "5% de aumento na velocidade dos movimentos e chance de ataque ladino crítico\nSofrer mais de 25 de danos em um acerto fará com que penas teleguiadas caiam do céu\nPermite que você caia mais rapidamente e desativa o dano de queda\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 100\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "AerospecMelee")
 		{
-			player.setBonus = "5% de aumento na velocidade dos movimentos e chance de ataque físico crítico\nSofrer mais de 25 de danos em um acerto fará com que penas teleguiadas caiam do céu\nPermite que você caia mais rapidamente e desativa o dano de queda";
+			player.setBonus = "5% de aumento na velocidade dos movimentos e chance de ataque físico crítico\nSofrer mais de 25 de danos em um acerto fará com que penas teleguiadas caiam do céu\nPermite que você caia mais rapidamente e desativa o dano de queda\nA chance dos inimigos mirarem em você é maior";
 		}
 		else if (set == "AerospecSummon")
 		{
-			player.setBonus = "16% de aumento de dano por invocação\nInvoca uma valquíria para te proteger\nSofrer mais de 25 de danos em um acerto fará com que penas teleguiadas caiam do céu\nPermite que você caia mais rapidamente e desativa o dano de queda";
+			player.setBonus = "11% de aumento de dano por invocação e +1 lacaio máximo\nInvoca uma valquíria para te proteger\nSofrer mais de 25 de danos em um acerto fará com que penas teleguiadas caiam do céu\nPermite que você caia mais rapidamente e desativa o dano de queda";
 		}
 		else if (set == "AerospecRanged")
 		{
@@ -50,7 +57,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		else if (set == "Astral")
 		{
-			player.setBonus = "25% de aumento na velocidade dos movimentos\n28% de aumento nos danos e 21% de aumento na chance de ataque crítico\nSempre que você acertar um inimigo criticamente, choverão estrelas caídas, sagradas e astrais\nEsse efeito tem um tempo de recarga de 1 segundo antes que possa ser ativado novamente";
+			player.setBonus = "25% de aumento na velocidade dos movimentos\n28% de aumento nos danos e 21% de aumento na chance de ataque crítico\nSempre que você acertar um inimigo criticamente, choverão estrelas caídas, sagradas e astrais\nEste efeito tem um tempo de recarga de 1 segundo antes que possa ser ativado novamente";
 		}
 		else if (set == "AtaxiaRanged")
 		{
@@ -66,7 +73,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		else if (set == "AtaxiaRogue")
 		{
-			player.setBonus = "5% de aumento nos danos por ataque assassino\nEfeito da poção infernal quando abaixo de 50% de vida\nArmas assassinas têm 10% de chance de liberar uma rajada de chamas do caos ao redor do jogador que perseguem os inimigos quando usadas\nVocê tem uma chance de 20% de emitir uma explosão ardente quando atingido\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 110\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "5% de aumento nos danos por ataque ladino\nEfeito da poção infernal quando abaixo de 50% de vida\nArmas ladinas têm 10% de chance de liberar uma rajada de chamas do caos ao redor do jogador que perseguem os inimigos quando usadas\nVocê tem uma chance de 20% de emitir uma explosão ardente quando atingido\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 110\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "AtaxiaMagic")
 		{
@@ -82,11 +89,11 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		else if (set == "AuricRogue")
 		{
-			player.setBonus = "Efeitos das armaduras de Estragão, Chamas Sangrentas, Assassino de Deuses e Silva\nTodos os projéteis invocam orbes áuricos de cura ao atingir o inimigo\nVelocidade de corrida máxima e aceleração aumentadas em 10%\nAcertos crícitos de armas assassinas causarão 1.25 vezes mais dano enquanto você está acima de 50% de vida\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 130\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "Efeitos das armaduras de Estragão, Chamas Sangrentas, Assassino de Deuses e Silva\nTodos os projéteis invocam orbes áuricos de cura ao atingir o inimigo\nVelocidade de corrida máxima e aceleração aumentadas em 10%\nAcertos crícitos de armas ladinas causarão 1.25 vezes mais dano enquanto você está acima de 50% de vida\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 130\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "AuricSummon")
 		{
-			player.setBonus = "Efeitos das armaduras de Estragão, Chamas Sangrentas, Assassino de Deuses e Silva\nTodos os projéteis invocam orbes áuricos de cura ao atingir o inimigo\nVelocidade de corrida máxima e aceleração aumentadas em 10%\n+lacaio máximo e 120% de aumento nos danos por invocação";
+			player.setBonus = "Efeitos das armaduras de Estragão, Chamas Sangrentas, Assassino de Deuses e Silva\nTodos os projéteis invocam orbes áuricos de cura ao atingir o inimigo\nVelocidade de corrida máxima e aceleração aumentadas em 10%\n+1 lacaio máximo e 120% de aumento nos danos por invocação";
 		}
 		else if (set == "AuricMagic")
 		{
@@ -94,7 +101,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		else if (set == "BloodflareRogue")
 		{
-			player.setBonus = "Aumenta muito a regeneração de vida\nInimigos com menos de 50% de vida têm uma chance de deixarem cair corações quando atingidos\nInimigos com mais de 50% de vida têm uma chance de deixarem cair estrelas de mana quando atingidos\nInimigos mortos durante uma Lua de Sangue têm uma chance muito maior de deixarem cair Orbes de Sangue na morte\nEstar acima de 80% de vida aumenta a sua defesa em 30 e chance de ataque assassino crítico em 5%\nEstar abaixo de 80% de vida aumenta o seu dano por ataque assassino em 10%\nAcertos críticos assassinos têm uma chance de 50% de te curar\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 120\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "Aumenta muito a regeneração de vida\nInimigos com menos de 50% de vida têm uma chance de deixarem cair corações quando atingidos\nInimigos com mais de 50% de vida têm uma chance de deixarem cair estrelas de mana quando atingidos\nInimigos mortos durante uma Lua de Sangue têm uma chance muito maior de deixarem cair Orbes de Sangue na morte\nEstar acima de 80% de vida aumenta a sua defesa em 30 e chance de ataque ladino crítico em 5%\nEstar abaixo de 80% de vida aumenta o seu dano por ataque ladino em 10%\nAcertos críticos ladinos têm uma chance de 50% de te curar\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 120\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "BloodflareSummon")
 		{
@@ -102,7 +109,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		else if (set == "BloodflareRanged")
 		{
-			player.setBonus = "Aumenta muito a regeneração de vida\nInimigos com menos de 50% de vida têm uma chance de deixarem cair corações quando atingidos\nInimigos com mais de 50% de vida têm uma chance de deixarem cair estrelas de mana quando atingidos\nInimigos mortos durante uma Lua de Sangue têm uma chance muito maior de deixarem cair Orbes de Sangue na morte\nAperte " + hotkey + " para liberar as almas perdidas de polterghast para destruir seus inimigos\nEsse efeito tem um tempo de recarga de 30 segundos\nArmas de ataque à distância têm uma chance de atirar orbes de explosão de sangue";
+			player.setBonus = "Aumenta muito a regeneração de vida\nInimigos com menos de 50% de vida têm uma chance de deixarem cair corações quando atingidos\nInimigos com mais de 50% de vida têm uma chance de deixarem cair estrelas de mana quando atingidos\nInimigos mortos durante uma Lua de Sangue têm uma chance muito maior de deixarem cair Orbes de Sangue na morte\nPressione " + hotkey + " para liberar as almas perdidas de polterghast para destruir seus inimigos\nEste efeito tem um tempo de recarga de 30 segundos\nArmas de ataque à distância têm uma chance de atirar orbes de explosão de sangue";
 		}
 		else if (set == "BloodflareMagic")
 		{
@@ -114,11 +121,11 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		else if (set == "Brimflame")
 		{
-			player.setBonus = "Fornece 15% de aumento nos danos e chance de acerto crítico mágico\nAperte " + hotkey + " para ativar um efeito de frenesi de chamas de enxofre\nDurante esse efeito, seu dano será aumentado significantemente\nNo entanto, isso vem ao custo de uma rápida perda de vida e nenhuma regeneração de mana\nO efeito pode ser desativado, no entanto, uma frenesi de chamas de enxofre tem um tempo de recarga de 30 segundos";
+			player.setBonus = "Fornece 15% de aumento nos danos e chance de acerto crítico mágico\nPressione " + hotkey + " para ativar um efeito de frenesi de chamas de enxofre\nDurante esse efeito, seu dano será aumentado significantemente\nNo entanto, isso vem ao custo de uma rápida perda de vida e nenhuma regeneração de mana\nO efeito pode ser desativado, no entanto, uma frenesi de chamas de enxofre tem um tempo de recarga de 30 segundos";
 		}
 		else if (set == "DaedalusMagic")
 		{
-			player.setBonus = "+5% de danos por magia\nVocê tem 20% de chance de absorver ataques físicos quando atingido\nSe você absorver um ataque, você é curado por 1/2 do dano do ataque";
+			player.setBonus = "+5% de danos por magia\nVocê tem 10% de chance de absorver ataques físicos quando atingido\nSe você absorver um ataque, você é curado por 1/2 do dano do ataque";
 		}
 		else if (set == "DaedalusSummon")
 		{
@@ -134,7 +141,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		else if (set == "DaedalusRogue")
 		{
-			player.setBonus = "+5% de danos por ataque assassino\nProjéteis assassinos disparam fragmentos de cristal conforme viajam\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 105\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "+5% de danos por ataque ladino\nProjéteis ladinos disparam fragmentos de cristal conforme viajam\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 105\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "Demonshade")
 		{
@@ -146,36 +153,32 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		else if (set == "FathomSwarmer")
 		{
-			player.setBonus = "10% de aumento nos danos por lacaios e +1 lacaio máximo\nOferece a habilidade de escalar paredes\n30% de aumento nos danos por lacaio quando submerso em líquidos\nFornece uma quantidade razo\u00e1vel de luz e reduz razoavelmente a perda de f\u00f4lego no abismo";
+			player.setBonus = "10% de aumento nos danos por lacaios e +1 lacaio máximo\nOferece a habilidade de escalar paredes\n30% de aumento nos danos por lacaio quando submerso em líquidos\nFornece uma quantidade razoável de luz e reduz razoavelmente a perda de fôlego no abismo";
 		}
 		else if (set == "Fearmonger")
 		{
-			player.setBonus = "30% de aumento nos danos por lacaios\nA redução de dano por lacaios enquanto segurando armas é reduzida\nImune a todas as formas de gelo e chamas\nTodos os ataques por lacaios fornecem regeneração de vida gigantesca\n15% de aumento na redução de danos durante a Lua de Abóbora e Lua Congelada\nEsta redução de danos extra ignora o limite comum\nFornece proteção contra o frio no Modo Morte\n";
+			player.setBonus = "20% de aumento nos danos por lacaios e +2 lacaios máximos\nA redução de dano por lacaios enquanto segurando armas é reduzida\nImune a todas as formas de gelo e chamas\nTodos os ataques por lacaios fornecem regeneração de vida gigantesca\n15% de aumento na redução de danos durante a Lua de Abóbora e Lua Congelada\nEsta redução de danos extra ignora o limite comum";
 		}
 		else if (set == "ForbiddenCalam")
 		{
 			int stormMana = (int)(60f * player.manaCost);
-			player.setBonus = "Pressione " + hotkey + " para invocar uma tempestade antiga na posição do cursor\nA tempestade antiga custa " + stormMana + " de mana e recebe benefícios de bônus de invocação e bônus assassinos\nAtaques furtivos assassinos invocam devoradores teleguiados ao atingir o inimigo\nAtaques assassinos e por invocação serão aumentados com base na estatística com o maior aumento\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 40\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "Pressione " + hotkey + " para invocar uma tempestade antiga na posição do cursor\nA tempestade antiga custa " + stormMana + " de mana e recebe benefícios de bônus de invocação e bônus ladinos\nAtaques furtivos ladinos invocam devoradores teleguiados ao atingir o inimigo\nAtaques ladinos e por invocação serão aumentados com base na estatística com o maior aumento\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 40\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
+		}
+		if (set == "GemTech")
+		{
+			player.setBonus = "Seis fragmentos de joias orbitam você ociosamente; uma para cada classe e uma joia base\nUma joia é perdida quando você sofre mais de 100 de dano em um único acerto. O tipo de joia perdida é o mesmo da classe anterior que você usou\nSe a mesma joia já foi perdida, a joia base é perdida\nQuando uma joia é perdida, ela se desprende e segue o inimigo ou chefe mais próximo, se houver algum, causando uma base de 40000 de dano\nAs joias têm um atraso de 30 segundos antes de aparecerem novamente\nA joia vermelha concede 130 de furtividade máxima, melhorias nas estatísticas ladinas, e torna a furtividade apenas consumível por armas ladinas\nA joia amarela fornece melhorias nas estatísticas físicas e faz com que ataques físicos liberem fragmentos no acerto com um tempo de recarga. Este tempo de recarga é mais curto para ataques físicos verdadeiros\nA joia verde fornece melhorias nas estatísticas de ataque à distância e faz com que dardos voem rapidamente em direção aos alvos quando são danificadas por um projétil de ataque à distância\nA joia azul concede 4 lacaios máximos adicionais, aumenta o dano por lacaios e reduz a penalidade para itens de invocador enquanto estiver segurando uma arma que não seja de invocador\nA joia violeta concede 100 de mana máxima adicional, melhorias nas estatísticas mágicas, e faz com que a mana regenere rapidamente ao segurar uma arma que não é de magia\nA joia base cor-de-rosa fornece 75 de defesa adicional, redução de danos adicional, melhor velocidade dos movimentos e dos pulos e 2 de regeneração de vida\nQuando todas as gemas existirem simultaneamente, acertar um alvo com qualquer arma fornece +2 de regeneração de vida por 8 segundos\nIsto é aumentado para +3 de regeneração de vida se uma arma de outra classe for usada durante esse período de 8 segundos por 2.5 segundos";
 		}
 		else if (set == "GodSlayerMelee")
 		{
-			player.setBonus = "Você sobreviverá a danos mortais e será curado em 150 PV se um ataque for fatal\nEste efeito só pode ocorrer uma vez a cada 45 segundos\nEnquanto o tempo de recarga para este efeito está ativo, toda a regeneração de vida é cortada pela metade\nSofrer mais de 80 de danos fará com que você libere uma grande quantidade de dardos assasinos de deuses extremamente fortes\nOs inimigos sofrem muitos danos quando te atingem\nUm ataque que causaria 80 de danos ou menos terá o seu dano reduzido para 1";
+			player.setBonus = "Permite que você corra uma distância imensa em 8 direções\nPressione " + hotkey + " enquanto mantém pressionadas as teclas de movimento na direção que você quer correr\nInimigos que você atravessar sofrerão muito dano\nDurante a corrida, você fica imune à maioria dos efeitos negativos\nA corrida tem um tempo de recarga de 35 segundos\nA chance dos inimigos mirarem em você é maior\nSofrer mais de 80 de danos em um acerto fará com que você libere uma barragem de dardos assassinos de deuses que causam muito dano\nInimigos sofrem muito dano quando eles te atingem\nUm ataque que causaria 80 de danos ou menos terá o seu dano reduzido para 1";
 		}
 		else if (set == "GodSlayerRanged")
 		{
-			player.setBonus = "Você sobreviverá a danos mortais e será curado em 150 PV se um ataque for fatal\nEste efeito só pode ocorrer uma vez a cada 45 segundos\nEnquanto o tempo de recarga para este efeito está ativo, toda a regeneração de vida é cortada pela metade\nSeus ataques à distância críticos têm uma chance de atingirem criticamente, causando 4 vezes o dano normal\nVocê tem uma chance de disparar uma bala de estilhaços assassina de deuses enquanto dispara armas de ataque à distância";
-		}
-		else if (set == "GodSlayerSummon")
-		{
-			player.setBonus = "65% de aumento nos danos por lacaios\nVocê sobreviverá a danos mortais e será curado em 150 PV se um ataque for fatal\nEste efeito só pode ocorrer uma vez a cada 45 segundos\nEnquanto o tempo de recarga para este efeito está ativo, toda a regeneração de vida é cortada pela metade\nAtingir inimigos invocará fantasmas assassinos de deuses\nInvoca um verme mecânico devorador de deuses para lutar por você";
+			player.setBonus = "Permite que você corra uma distância imensa em 8 direções\nPressione " + hotkey + " enquanto mantém pressionadas as teclas de movimento na direção que você quer correr\nInimigos que você atravessar sofrerão muito dano\nDurante a corrida, você fica imune à maioria dos efeitos negativos\nA corrida tem um tempo de recarga de 35 segundos\nVocê dispara uma bala de estilhaços assassina de deuses enquanto dispara armas de ataque à distância a cada 2.5 segundos";
 		}
 		else if (set == "GodSlayerRogue")
 		{
-			player.setBonus = "Você sobreviverá a danos mortais e será curado em 150 PV se um ataque for fatal\nEste efeito só pode ocorrer uma vez a cada 45 segundos\nEnquanto o tempo de recarga para este efeito está ativo, toda a regeneração de vida é cortada pela metade\nEnquanto a sua vida está no máximo, todas as suas estatísticas assassinas são aumentadas em 10%\nSe você sofrer mais que 80 de dano em um acerto, você será concedido quadros de imunidade extras\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 120\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
-		}
-		else if (set == "GodSlayerMagic")
-		{
-			player.setBonus = "Você sobreviverá a danos mortais e será curado em 150 PV se um ataque for fatal\nEste efeito só pode ocorrer uma vez a cada 45 segundos\nEnquanto o tempo de recarga para este efeito está ativo, toda a regeneração de vida é cortada pela metade\nOs inimigos liberarão chamas assassinas de deuses e chamas de cura quando atingidos com ataques mágicos\nSofrer danos fará com que você libere uma explosão assassina de deuses mágica";
+			player.setBonus = "Permite que você corra uma distância imensa em 8 direções\nPressione " + hotkey + " enquanto mantém pressionadas as teclas de movimento na direção que você quer correr\nInimigos que você atravessar sofrerão muito dano\nDurante a corrida, você fica imune à maioria dos efeitos negativos\nA corrida tem um tempo de recarga de 35 segundos\nQuando com vida máxima, todas as suas estatísticas ladinas são aumentadas em 10%\nSe você sofrer mais que 80 de danos em um acerto você receberá quadros de imunidade extra";
 		}
 		else if (set == "Mollusk")
 		{
@@ -183,15 +186,15 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		else if (set == "OmegaBlue")
 		{
-			player.setBonus = "Aumenta a perfuração de blindagem em 50\n10% de aumento no dano e na chance de acerto crítico\nTentáculos de curto alcance sugam a vida do inimigo, curando você\nPressione " + hotkey + " para ativar a loucura abissal por 5 segundos\nA loucura abissal aumenta o dano, chance de acerto crítico, e agressividade/alcance dos tentáculos\nEste efeito tem um tempo de recarga de 25 segundos";
+			player.setBonus = "Aumenta a perfuração de blindagem em 15\n10% de aumento no dano e na chance de acerto crítico\nTentáculos de curto alcance sugam a vida do inimigo, curando você\nPressione " + hotkey + " para ativar a loucura abissal por 5 segundos\nA loucura abissal aumenta o dano, chance de acerto crítico, e agressividade/alcance dos tentáculos\nEste efeito tem um tempo de recarga de 25 segundos";
 		}
 		else if (set == "PlaguebringerSummon")
 		{
-			player.setBonus = "Fornece uma corrida da praga para colidir com inimigos e aflingí-los com a praga\nInvoca uma pequena portadora da peste para proteger você e empoderar lacaios próximos";
+			player.setBonus = "Fornece uma corrida da praga para colidir com inimigos e aflingí-los com a praga\nInvoca uma pequena portadora da peste para proteger você e empoderar lacaios próximos\n+3 lacaios máximos";
 		}
 		else if (set == "PlaguebringerRanged")
 		{
-			player.setBonus = "25% de redução no consumo de munição e 5% de aumento no tempo de vôo\nInimigos recebem 10% a mais de dano de projéteis de ataque à distância quando aflingidos pela Praga\nSer atingido faz com que cinzas da praga caiam dos céus\nPressione a tecla " + hotkey + " para se cegar por 5 segundos, aumentando o seu dano por ataque à distância considerávelmente\nEste efeito tem um tempo de recarga de 25 segundos.";
+			player.setBonus = "25% de redução no consumo de munição e 5% de aumento no tempo de vôo\nInimigos recebem 10% a mais de dano de projéteis de ataque à distância quando aflingidos pela Praga\nSer atingido faz com que cinzas da praga caiam dos céus\nPressione a tecla " + hotkey + " para se cegar por 5 segundos, mas aumentar o seu dano por ataque à distância considerávelmente\nEste efeito tem um tempo de recarga de 25 segundos.";
 		}
 		else if (set == "Prismatic")
 		{
@@ -199,87 +202,67 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		else if (set == "ReaverRogue")
 		{
-			player.setBonus = "+5% de aumento nos danos por ataque assassino\nVocê emite uma nuvem de esporos ao ser atingido\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 110\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "Faz com que tesouros próximos brilhem\nAlcance de coleta de itens e posicionamento de blocos aumentado\nMinerar peças restaura o fôlego enquanto embaixo d'água\nInvoca um orbe ladrão para iluminar á área ao seu redor\nReduz a agressão dos inimigos, até mesmo no abismo\nFornece uma pequena quantidade de luz no abismo";
 		}
 		else if (set == "ReaverMelee")
 		{
-			player.setBonus = "+5% de aumento nos danos por ataque físico\nProjéteis físicos explodem no contato\nEspinhos Ladrões\nA fúria é ativada quando você recebe danos";
-		}
-		else if (set == "ReaverSummon")
-		{
-			player.setBonus = "+16% de aumento nos danos por lacaios\nInvoca uma esfera ladra que emite gás de esporo quando os inimigos estão próximos";
-		}
-		else if (set == "ReaverMagic")
-		{
-			player.setBonus = "+5% de aumento nos danos por magia\nSeus projéteis mágicos emitem uma explosão de gás de esporo ao atingir o inimigo";
+			player.setBonus = "+10 defesa e +3 regeneração de vida\nA chance dos inimigos mirarem em você é maior\nReduz a regeneração de vida perdida por efeitos negativos de dano com o tempo em 20%\nTodos os ataques têm uma pequena chance de roubar vida e acelerar a taxa de regeneração de vida\n20% de redução na velocidade dos movimentos e no tempo de voô\nO dano inimigo é refletido e invoca um espinho\nA Fúria do Ladrão tem uma chance de 255 de ativar quando você sofrer danos";
 		}
 		else if (set == "ReaverRanged")
 		{
-			player.setBonus = "+5% de aumento nos danos por ataque à distância\nVocê tem uma chance de 10% de disparar um foguete poderoso enquanto usa armas de ataque à distância";
+			player.setBonus = "Oferece imunidade ao dano de queda e permite o pulo automático\n10% de aumento no tempo de voô e velocidade horizontal da asa\nGanchos disparam e retraem 10% mais rápido2\nReduz o tempo de recarga de corridas";
 		}
 		else if (set == "ShroomiteCalam")
 		{
 			player.setBonus = "Furtividade à distância enquanto parado";
 		}
-		else if (set == "SilvaMelee")
-		{
-			player.setBonus = "Todos os projéteis invocam esferas de folha que te curam ao atingir o inimigo\nVelocidade de corrida e aceleração máxima aumentada em 5%\nSe você for reduzido a 1 de vida, você não morrerá de nenhum dano adicional por 10 segundos\nSe você for reduzido a 1 de vida novamente enquanto este efeito está ativo, você perderá 100 de vida máxima\nEste efeito só pode ser ativado uma vez por vida e, se você for reduzido a 400 de vida, o efeito de invencibilidade será interrompido\nSua vida máxima irá retornar ao normal se você morrer\nAtaques físicos verdadeiros têm uma chance de 25% de causar o quíntuplo do dano\nDepois que a invencibilidade Silva acabar, você receberá 20% menos de dano por contato\nProjéteis físicos têm uma chance de 25% de atordoar inimigos por um breve momento";
-		}
 		else if (set == "SilvaSummon")
 		{
-			player.setBonus = "75% de aumento nos danos por lacaios\nTodos os projéteis invocam esferas de folha que te curam ao atingir o inimigo\nVelocidade de corrida e aceleração máxima aumentada em 5%\nSe você for reduzido a 1 de vida, você não morrerá de nenhum dano adicional por 10 segundos\nSe você for reduzido a 1 de vida novamente enquanto este efeito está ativo, você perderá 100 de vida máxima\nEste efeito só pode ser ativado uma vez por vida e, se você for reduzido a 400 de vida, o efeito de invencibilidade será interrompido\nSua vida máxima irá retornar ao normal se você morrer\nInvoca um prisma de folha antigo para explodir seus inimigos com energia vital\nDepois do tempo de invulnerabilidade Silva, seus lacaios causarão 10% a mais de danos";
-		}
-		else if (set == "SilvaRanged")
-		{
-			player.setBonus = "Todos os projéteis invocam esferas de folha que te curam ao atingir o inimigo\nVelocidade de corrida e aceleração máxima aumentada em 5%\nSe você for reduzido a 1 de vida, você não morrerá de nenhum dano adicional por 10 segundos\nSe você for reduzido a 1 de vida novamente enquanto este efeito está ativo, você perderá 100 de vida máxima\nEste efeito só pode ser ativado uma vez por vida e, se você for reduzido a 400 de vida, o efeito de invencibilidade será interrompido\nSua vida máxima irá retornar ao normal se você morrer\nAumenta a sua taxa de disparo com todas as armas de ataque à distância\nDepois do tempo de invulnerabilidade Silva, suas armas de ataque à distância causarão 10% a mais de danos";
-		}
-		else if (set == "SilvaRogue")
-		{
-			player.setBonus = "Todos os projéteis invocam esferas de folha que te curam ao atingir o inimigo\nVelocidade de corrida e aceleração máxima aumentada em 5%\nSe você for reduzido a 1 de vida, você não morrerá de nenhum dano adicional por 10 segundos\nSe você for reduzido a 1 de vida novamente enquanto este efeito está ativo, você perderá 100 de vida máxima\nEste efeito só pode ser ativado uma vez por vida e, se você for reduzido a 400 de vida, o efeito de invencibilidade será interrompido\nSua vida máxima irá retornar ao normal se você morrer\nArmas de ataque assassino têm uma taxa de arremesso maior enquanto você está acima de 50% de vida\nDepois do tempo de invulnerabilidade Silva, suas armas de ataque assassino causarão 10% a mais de danos\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 125\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "65% de aumento nos danos por lacaios\nTodos os projéteis invocam esferas de folha que te curam ao atingir o inimigo\nVelocidade de corrida e aceleração máxima aumentada em 5%\nSe você for reduzido a 1 de vida, você não morrerá de nenhum dano adicional por 8 segundos\nEste efeito só pode ser ativado uma vez por vida\nInvoca um prisma de folha antigo para explodir seus inimigos com energia vital";
 		}
 		else if (set == "SilvaMagic")
 		{
-			player.setBonus = "Todos os projéteis invocam esferas de folha que te curam ao atingir o inimigo\nVelocidade de corrida e aceleração máxima aumentada em 5%\nSe você for reduzido a 1 de vida, você não morrerá de nenhum dano adicional por 10 segundos\nSe você for reduzido a 1 de vida novamente enquanto este efeito está ativo, você perderá 100 de vida máxima\nEste efeito só pode ser ativado uma vez por vida e, se você for reduzido a 400 de vida, o efeito de invencibilidade será interrompido\nSua vida máxima irá retornar ao normal se você morrer\nProjéteis mágicos têm uma chance de 10% de causar uma explosão gigantesca ao atingir o inimigo\nApós o tempo de invulnerabilidade Silva, suas armas de ataque mágico causarão 10% a mais de danos";
+			player.setBonus = "Todos os projéteis invocam esferas de folha que te curam ao atingir o inimigo\nVelocidade de corrida e aceleração máxima aumentada em 5%\nSe você for reduzido a 1 de vida, você não morrerá de nenhum dano adicional por 8 segundos\nEste efeito só pode ser ativado uma vez por vida\nProjéteis mágicos que não podem perfurar inimigos irão ocasionalmente disparar rajadas potentes de energia da natureza";
 		}
 		else if (set == "SnowRuffian")
 		{
-			player.setBonus = "5% de aumento nos danos por ataque assassino\nVocê pode planar para negar danos de queda\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 50\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "5% de aumento nos danos por ataque ladino\nVocê pode planar para negar danos de queda\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 50\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "StatigelMagic")
 		{
-			player.setBonus = "Quando você receber mais de 100 de dano em um acerto, você se torna imune a danos por um longo período de tempo\nFornece um pulo extra e aumenta a altura dos pulos\n30% de aumento na velocidade dos pulos";
+			player.setBonus = "Quando você receber mais de 100 de dano em um acerto, você se torna imune a danos por um longo período de tempo\nFornece um pulo extra e aumenta a altura dos pulos\n12% de aumento na velocidade dos pulos";
 		}
 		else if (set == "StatigelRanged")
 		{
-			player.setBonus = "Quando você receber mais de 100 de dano em um acerto, você se torna imune a danos por um longo período de tempo\nFornece um pulo extra e aumenta a altura dos pulos\n30% de aumento na velocidade dos pulos";
+			player.setBonus = "Quando você receber mais de 100 de dano em um acerto, você se torna imune a danos por um longo período de tempo\nFornece um pulo extra e aumenta a altura dos pulos\n12% de aumento na velocidade dos pulos";
 		}
 		else if (set == "StatigelMelee")
 		{
-			player.setBonus = "Quando você receber mais de 100 de dano em um acerto, você se torna imune a danos por um longo período de tempo\nFornece um pulo extra e aumenta a altura dos pulos\n30% de aumento na velocidade dos pulos";
+			player.setBonus = "Quando você receber mais de 100 de dano em um acerto, você se torna imune a danos por um longo período de tempo\nFornece um pulo extra e aumenta a altura dos pulos\n12% de aumento na velocidade dos pulos";
 		}
 		else if (set == "StatigelSummon")
 		{
-			player.setBonus = "18% de aumento nos danos por lacaios\nInvoca um mini Deus Geleia para lutar para você, o seu tipo depende do mal no seu mundo\nQuando você receber mais de 100 de dano em um acerto, você se torna imune a danos por um longo período de tempo\nFornece um pulo extra e aumenta a altura dos pulos\n30% de aumento na velocidade dos pulos";
+			player.setBonus = "18% de aumento nos danos por lacaios e +1 lacaio máximo\nInvoca um mini deus geleia para lutar para você, o seu tipo depende do mal no seu mundo\nQuando você receber mais de 100 de dano em um acerto, você se torna imune a danos por um longo período de tempo\nFornece um pulo extra e aumenta a altura dos pulos\n12% de aumento na velocidade dos pulos";
 		}
 		else if (set == "StatigelRogue")
 		{
-			player.setBonus = "Quando você receber mais de 100 de dano em um acerto, você se torna imune a danos por um longo período de tempo\nFornece um pulo extra e aumenta a altura dos pulos\n30% de aumento na velocidade dos pulos\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 100\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "Quando você receber mais de 100 de dano em um acerto, você se torna imune a danos por um longo período de tempo\nFornece um pulo extra e aumenta a altura dos pulos\n12% de aumento na velocidade dos pulos\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 100\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "Sulfur")
 		{
-			player.setBonus = "Atacar e ser atacado por inimigos inflige veneno\nFornece um pulo adicional que invoca uma bolha sulfurosa\nFornece mobilidade aumentada embaixo d'água e reduz a severidade das águas sulfúricas\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 100\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "Atacar e ser atacado por inimigos inflige veneno\nFornece um pulo adicional que invoca uma bolha sulfurosa\nFornece mobilidade aumentada embaixo d'água e reduz a severidade das águas sulfúricas\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 95\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "TarragonMelee")
 		{
-			player.setBonus = "Maior alcance de coleta de corações\nOs inimigos têm uma chance de deixar cair mais corações ao morrer\nVocê tem uma chance de 25% de regenerar vida ao receber danos\nAperte " + hotkey + " para se esconder em um manto de energia vital que reduz fortemente o dano por contato por 10 segundos\nEste efeito tem um tempo de recarga de 30 segundos";
+			player.setBonus = "Maior alcance de coleta de corações\nOs inimigos têm uma chance de deixar cair mais corações ao morrer\nVocê tem uma chance de 25% de regenerar vida ao receber danos\nPressione " + hotkey + " para se esconder em um manto de energia vital que reduz fortemente o dano por contato por 10 segundos\nEste efeito tem um tempo de recarga de 30 segundos";
 		}
 		else if (set == "TarragonRogue")
 		{
-			player.setBonus = "Reduz a taxa de surgimento de inimigos\nMaior alcance de coleta de corações\nOs inimigos têm uma chance de deixar cair mais corações ao morrer\nDepois de cada 25 acertos críticos assassinos, você ganhará 5 segundos de imunidade a danos\nEste efeito tem um tempo de recarga de 30 segundos\nEnquanto estiver sob os efeitos de um efeito negativo, você ganha 10% de aumento nos danos por ataque assassino\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 115\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "Reduz a taxa de surgimento de inimigos\nMaior alcance de coleta de corações\nOs inimigos têm uma chance de deixar cair mais corações ao morrer\nDepois de cada 25 acertos críticos ladinos, você ganhará 3 segundos de imunidade a danos\nEste efeito só pode ocorrer uma vez a cada 30 segundos\nEnquanto estiver sob os efeitos de um efeito negativo, você ganha 10% de aumento nos danos por ataque ladino\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 115\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "TarragonSummon")
 		{
-			player.setBonus = "55% de aumento nos danos por lacaios\nReduz a taxa de surgimento de inimigos\nMaior alcance de coleta de corações\nOs inimigos têm uma chance de deixar cair mais corações ao morrer\nInvoca uma aura vital ao seu redor que causa danos aos inimigos próximos";
+			player.setBonus = "50% de aumento nos danos por lacaios e +3 lacaios máximos\nReduz a taxa de surgimento de inimigos\nMaior alcance de coleta de corações\nOs inimigos têm uma chance de deixar cair mais corações ao morrer\nInvoca uma aura vital ao seu redor que causa danos aos inimigos próximos";
 		}
 		else if (set == "TarragonMagic")
 		{
@@ -287,35 +270,35 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		else if (set == "TarragonRanged")
 		{
-			player.setBonus = "Reduz a taxa de surgimento de inimigos\nMaior alcance de coleta de corações\nOs inimigos têm uma chance de deixar cair mais corações ao morrer\nAtaques à distância críticos causarão uma explosão de folhas\nProjéteis de ataque à distância têm uma chance de se dividir em energia vital na morte";
+			player.setBonus = "Reduz a taxa de surgimento de inimigos\nMaior alcance de coleta de corações\nOs inimigos têm uma chance de deixar cair mais corações ao morrer\nProjéteis de ataque à distância se dividem em energia vital teleguiada e folhas na morte";
 		}
 		else if (set == "TitanHeart")
 		{
-			player.setBonus = "20% de aumento nos danos por ataque assassino e no recuo\nAtaques furtivos causam o dobro do recuo e causam uma explosão astral\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 100\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "15% de aumento nos danos por ataque ladino e no recuo\nAtaques furtivos causam o dobro do recuo e causam uma explosão astral\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 100\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "Umbraphile")
 		{
-			player.setBonus = "Armas assassinas têm uma chance de criar explosões no acerto\nAtaques furtivos sempre criam uma explosão\nPoções da Penumbra sempre acumulam furtividade com eficácia máxima\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 110\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "Armas ladinas têm uma chance de criar explosões no acerto\nAtaques furtivos sempre criam uma explosão\nPoções da Penumbra sempre acumulam furtividade com eficácia máxima\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 110\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "VictideRogue")
 		{
-			player.setBonus = "Aumenta a regeneração de vida e danos por ataque assassino enquanto submerso em líquidos\nAo usar qualquer arma, você tem uma chance de 10% de arremessar um projétil de concha que retorna para você\nEssa concha causa dano verdadeiro e não se beneficia de nenhuma classe de dano\nFornece maior mobilidade embaixo d´água e levemente reduz a perca de fôlego no abismo\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 90\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "+3 regeneração de vida e 10% de aumento nos danos por ataque ladino enquanto submerso em líquidos\nAo usar qualquer arma, você tem uma chance de 10% de arremessar um projétil de concha que retorna para você\nEsta concha causa dano verdadeiro e não se beneficia de nenhuma classe de dano\nFornece maior mobilidade embaixo d´água e levemente reduz a perda de fôlego no abismo\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 90\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "VictideMelee")
 		{
-			player.setBonus = "Aumenta a regeneração de vida e danos por ataque físico enquanto submerso em líquidos\nAo usar qualquer arma, você tem uma chance de 10% de arremessar um projétil de concha que retorna para você\nEssa concha causa dano verdadeiro e não se beneficia de nenhuma classe de dano\nFornece maior mobilidade embaixo d´água e levemente reduz a perca de fôlego no abismo";
+			player.setBonus = "+3 regeneração de vida e 10% de aumento nos danos por ataque físico enquanto submerso em líquidos\nAo usar qualquer arma, você tem uma chance de 10% de arremessar um projétil de concha que retorna para você\nEsta concha causa dano verdadeiro e não se beneficia de nenhuma classe de dano\nFornece maior mobilidade embaixo d´água e levemente reduz a perda de fôlego no abismo";
 		}
 		else if (set == "VictideSummon")
 		{
-			player.setBonus = "Aumenta a regeneração de vida e danos por lacaios enquanto submerso em líquidos\nInvoca um ouriço do mar para te proteger\nAo usar qualquer arma, você tem uma chance de 10% de arremessar um projétil de concha que retorna para você\nEssa concha causa dano verdadeiro e não se beneficia de nenhuma classe de dano\nFornece maior mobilidade embaixo d´água e levemente reduz a perca de fôlego no abismo";
+			player.setBonus = "+3 regeneração de vida e 10% de aumento nos danos por lacaios enquanto submerso em líquidos\nInvoca um ouriço do mar para te proteger\nAo usar qualquer arma, você tem uma chance de 10% de arremessar um projétil de concha que retorna para você\nEsta concha causa dano verdadeiro e não se beneficia de nenhuma classe de dano\nFornece maior mobilidade embaixo d´água e levemente reduz a perda de fôlego no abismo\n+1 lacaio máximo";
 		}
 		else if (set == "VictideMagic")
 		{
-			player.setBonus = "Aumenta a regeneração de vida e danos por magia enquanto submerso em líquidos\nAo usar qualquer arma, você tem uma chance de 10% de arremessar um projétil de concha que retorna para você\nEssa concha causa dano verdadeiro e não se beneficia de nenhuma classe de dano\nFornece maior mobilidade embaixo d´água e levemente reduz a perca de fôlego no abismo";
+			player.setBonus = "+3 regeneração de vida e 10% de aumento nos danos por magia enquanto submerso em líquidos\nAo usar qualquer arma, você tem uma chance de 10% de arremessar um projétil de concha que retorna para você\nEsta concha causa dano verdadeiro e não se beneficia de nenhuma classe de dano\nFornece maior mobilidade embaixo d´água e levemente reduz a perda de fôlego no abismo";
 		}
 		else if (set == "VictideRanged")
 		{
-			player.setBonus = "Aumenta a regeneração de vida e danos por ataque à distância enquanto submerso em líquidos\nAo usar qualquer arma, você tem uma chance de 10% de arremessar um projétil de concha que retorna para você\nEssa concha causa dano verdadeiro e não se beneficia de nenhuma classe de dano\nFornece maior mobilidade embaixo d´água e levemente reduz a perca de fôlego no abismo";
+			player.setBonus = "+3 regeneração de vida e 10% de aumento nos danos por ataque à distância enquanto submerso em líquidos\nAo usar qualquer arma, você tem uma chance de 10% de arremessar um projétil de concha que retorna para você\nEsta concha causa dano verdadeiro e não se beneficia de nenhuma classe de dano\nFornece maior mobilidade embaixo d´água e levemente reduz a perda de fôlego no abismo";
 		}
 		else if (set == "WulfrumRanged")
 		{
@@ -327,7 +310,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		else if (set == "WulfrumSummon")
 		{
-			player.setBonus = "+3 defesa\n+5 defesa quando abaixo de 50% de vida";
+			player.setBonus = "+3 defesa e +1 lacaio máximo\n+5 defesa quando abaixo de 50% de vida";
 		}
 		else if (set == "WulfrumMagic")
 		{
@@ -335,24 +318,24 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		}
 		else if (set == "WulfrumRogue")
 		{
-			player.setBonus = "+3 defesa\n+5 defesa quando abaixo de 50% de vida\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 50\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "+3 defesa\n+5 defesa quando abaixo de 50% de vida\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 50\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "Xeroc")
 		{
-			player.setBonus = "	9% de aumento nos danos por ataque assassino e na velocidade dos projéteis assassinos\nProjéteis assassinos têm um efeito especial ao atingir o inimigo\nVocê será imbuído de ira e fúria cósmica quando você receber danos\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 115\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "	9% de aumento nos danos por ataque ladino e na velocidade dos projéteis ladinos\nProjéteis ladinos têm um efeito especial ao atingir o inimigo\nVocê será imbuído de ira e fúria cósmica quando você receber danos\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 115\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		
 		else if (set == "Gladiator")
 		{
-			player.setBonus = "+3 defesa\n5% de aumento nos danos por ataque assassino e 10% de aumento na velocidade dos projéteis assassinos\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 70\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos";
+			player.setBonus = "+3 defesa\n5% de aumento nos danos por ataque ladino e 10% de aumento na velocidade dos projéteis ladinos\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 70\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos";
 		}
 		else if (set == "Obsidian")
 		{
-			player.setBonus = "+2 defesa\n5% de aumento nos danos por ataque assassino e na chance de ataque assassino crítico\nOferece imunidade a blocos de fogo e imunidade temporária à lava\nFurtividade assassina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 80\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade assassina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade assassina, maior o seu dano assassino, crítico, e velocidade dos movimentos" + (CalamityWorld.death ? "\nFornece proteção contra o calor no Modo Morte" : "");
+			player.setBonus = "+2 defesa\n5% de aumento nos danos por ataque ladino e na chance de ataque ladino crítico\nOferece imunidade a blocos de fogo e imunidade temporária à lava\nFurtividade ladina se acumula enquanto não atacando e lentamente enquanto se movendo, até um máximo de 80\nDepois de acumular furtividade máxima, você será capaz de executar um Ataque Furtivo\nA furtividade ladina só reduz quando você ataca, ela não reduz enquanto se move\nQuanto maior for a sua furtividade ladina, maior o seu dano ladino, crítico, e velocidade dos movimentos" + (CalamityWorld.death ? "\nFornece proteção contra o calor no Modo Morte" : "");
 		}
 		else if (set == "Eskimo")
 		{
-			player.setBonus = "Todas as armas com tema de gelo recebem um aumento de +10% nos danos\nInimigos frios causarão dano por contato reduzido no jogador\nFornece imunidade contra aos efeitos negativos Queimadura de gelo e Estado glacial" + (CalamityWorld.death ? "\nFornece proteção contra o frio no Modo Morte" : "");
+			player.setBonus = "Todas as armas com tema de gelo recebem um aumento de 10% nos danos\nInimigos frios causarão dano por contato reduzido no jogador\nFornece imunidade contra aos efeitos negativos Queimadura de gelo e Estado glacial" + (CalamityWorld.death ? "\nFornece proteção contra o frio no Modo Morte" : "");
 		}
 	}
 
@@ -485,6 +468,10 @@ public class CalamityGlobalItemPTBR : GlobalItem
 		if (head.type == ModContent.ItemType<ForbiddenCirclet>() && body.type == 3777 && legs.type == 3778)
 		{
 			return "ForbiddenCalam";
+		}
+		if (head.type == ModContent.ItemType<GemTechHeadgear>() && body.type == ModContent.ItemType<GemTechBodyArmor>() && legs.type == ModContent.ItemType<GemTechSchynbaulds>())
+		{
+			return "GemTech";
 		}
 		if (head.type == ModContent.ItemType<GodSlayerHelm>() && body.type == ModContent.ItemType<GodSlayerChestplate>() && legs.type == ModContent.ItemType<GodSlayerLeggings>())
 		{
@@ -699,11 +686,12 @@ public class CalamityGlobalItemPTBR : GlobalItem
 	}
 	public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
 	{
-
 		foreach (TooltipLine line in tooltips)
 		{
+			//Death Mode Tooltips
 
-			if (CalamityWorld.death) {
+			if (CalamityWorld.death)
+			{
 				if (item.type == ModContent.ItemType<XerocMask>())
 				{
 					line.text = line.text.Replace("Temporary immunity to lava", "Imunidade temporária à lava");
@@ -731,7 +719,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 				}
 				if (item.type == ModContent.ItemType<BloodflareHelm>())
 				{
-					line.text = line.text.Replace("10% increased rogue damage and critical strike chance, 15% increased movement speed", "10% de aumento nos danos por ataque assassino e chance de acerto crítico assassino, 15% de aumento na velocidade dos movimentos");
+					line.text = line.text.Replace("10% increased rogue damage and critical strike chance, 15% increased movement speed", "10% de aumento nos danos por ataque ladino e chance de acerto crítico ladino, 15% de aumento na velocidade dos movimentos");
 					line.text = line.text.Replace("Provides heat protection in Death Mode", "Fornece proteção contra o calor no Modo Morte");
 				}
 				if (item.type == ModContent.ItemType<BloodflareHelmet>())
@@ -873,6 +861,8 @@ public class CalamityGlobalItemPTBR : GlobalItem
 					line.text = line.text.Replace("Provides heat and cold protection in Death Mode when is use", "Fornece proteção contra o frio e o calor no Modo Morte quando em uso");
 					line.text = line.text.Replace("Revengeance Drop", "Espólio do modo Vingança");
 				}
+
+			//Common Tooltips
 			}
 			if (item.type == ModContent.ItemType<AbandonedSlimeStaff>())
 			{
@@ -886,22 +876,18 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			if (item.type == ModContent.ItemType<CosmicWorm>())
 			{
 				line.text = line.text.Replace("WARNING! Some sentinels have not been truly defeated yet and will spawn at full power during this fight!", "ATENÇÃO! Algumas sentinelas ainda não foram verdadeiramente derrotadas e surgirão com força total durante esta luta!");
+				line.text = line.text.Replace("Not consumable", "Não consumível");
 			}
 			if (item.type == ModContent.ItemType<SunkenStew>())
 			{
 				line.text = line.text.Replace("Only gives 37 seconds of Potion Sickness", "Só dá 37 segundos de Enjoo por poção");
 			}
-			if (item.type == ModContent.ItemType<KnowledgeKingSlime>())
-			{
-				line.text = line.text.Replace("Favorite this item to gain 5% increased movement speed and 2% increased jump speed.", "Marque este item como favorito para aumentar a velocidade dos movimentos em 5% e a velocidade dos pulos em 2%.");
-				line.text = line.text.Replace("Favorite this item to gain 5% increased movement speed.", "Marque este item como favorito para aumentar a velocidade dos movimentos em 5%.");
-			}
 			if (item.type == ModContent.ItemType<Revenge>())
 			{
-				line.text = line.text.Replace("Activates rage. When rage is maxed press", "Ativa a Fúria. Quando a Fúria estiver no máximo, pressione");
-				line.text = line.text.Replace("to activate rage mode.", " para ativar o modo Fúria.");
-				line.text = line.text.Replace("Activates adrenaline. When adrenaline is maxed press", "Ativa a Adrenalina. Quando a Adrenalina estiver no máximo, pressione");
-				line.text = line.text.Replace("to activate adrenaline mode.", "para ativar o modo Adrenalina.");
+				line.text = line.text.Replace("Enables the Rage mechanic. When Rage is maxed press", "Ativa a mecânica da Fúria. Quando a Fúria estiver no máximo, pressione");
+				line.text = line.text.Replace("to activate Rage Mode.", "para ativar o Modo Fúria.");
+				line.text = line.text.Replace("Enables the Adrenaline mechanic. When Adrenaline is maxed press", "Ativa a mecânica da Adrenalina. Quando a Adrenalina estiver no máximo, pressione");
+				line.text = line.text.Replace("to activate Adrenaline Mode.", "para ativar o modo Adrenalina.");
 			}
 			if (item.type == ModContent.ItemType<VitalJelly>())
 			{
@@ -921,6 +907,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			if (item.type == ModContent.ItemType<ProfanedSoulCrystal>())
 			{
 				line.text = line.text.Replace("The soul within this crystal has been defiled by the powerful magic of a supreme witch", "A alma dentro desse cristal foi contaminada pela poderosa magia de uma bruxa suprema");
+				line.text = line.text.Replace("The soul within this crystal has been defiled by overwhelming energy waves from dangerous mechanations", "A alma dentro desse cristal foi contaminada pelas ondas de energia de maquinações");
 				line.text = line.text.Replace("Merchants will reject a defiled soul such as this.", "Comerciantes rejeitarão uma alma como essa.");
 				line.text = line.text.Replace("Transforms Magic attacks into a powerful splitting fireball for", "Transforma ataques mágicos em uma poderosa bola de fogo que se divide por");
 				line.text = line.text.Replace("mana per cast", "mana por disparo");
@@ -932,7 +919,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			}
 			if (item.type == ModContent.ItemType<Nanotech>() || item.type == ModContent.ItemType<RaidersTalisman>())
 			{
-				line.text = line.text.Replace("Rogue Crit Level:", "Nível de Crítico Assassino:");
+				line.text = line.text.Replace("Rogue Crit Level:", "Nível de Crítico Ladino:");
 			}
 			if (item.type == ModContent.ItemType<MomentumCapacitor>())
 			{
@@ -947,7 +934,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			if (item.type == ModContent.ItemType<CelestialJewel>())
 			{
 				string hotkeyCelestial = CalamityMod.CalamityMod.AstralTeleportHotKey.TooltipHotkeyString();
-				line.text = line.text.Replace("Press " + hotkeyCelestial + " to teleport to a random location", "Pressione " + hotkeyCelestial + " para teleportar para um local aleatório");
+				line.text = line.text.Replace("Press " + hotkeyCelestial + " to teleport to a random location while no bosses are alive", "Pressione " + hotkeyCelestial + " para teleportar para um local aleatório enquanto nenhum chefe estiver vivo");
 			}
 
 			if (item.type == ModContent.ItemType<BlunderBooster>())
@@ -1015,14 +1002,14 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			}
 			if (item.type == ModContent.ItemType<RogueLevelMeter>())
 			{
-				line.text = line.text.Replace("Tells you how high your rogue proficiency is", "Diz a você o nível de sua proficiência assassina");
-				line.text = line.text.Replace("While equipped you will gain rogue proficiency faster", "Enquanto equipado, você ganhará proficiência assassina mais rápido");
-				line.text = line.text.Replace("The higher your rogue level the higher your rogue damage, critical strike chance, and velocity", "Quanto maior o seu nível assassino, maior o dano por ataque assassino, a chance de acerto crítico assassino, e a velocidade dos projéteis");
-				line.text = line.text.Replace("Rogue proficiency (max of 12500):", "Proficiência assassina (máx. 12500):");
-				line.text = line.text.Replace("Rogue level (max of 15):", "Nível assassino (máx. 15):");
-				line.text = line.text.Replace("Rogue damage increase:", "Aumento nos danos por ataque assassino:");
-				line.text = line.text.Replace("Rogue velocity increase:", "Aumento na velocidade dos projéteis assassinos:");
-				line.text = line.text.Replace("Rogue crit increase:", "Aumento na chance de acerto crítico assassino:");
+				line.text = line.text.Replace("Tells you how high your rogue proficiency is", "Diz a você o nível de sua proficiência ladina");
+				line.text = line.text.Replace("While equipped you will gain rogue proficiency faster", "Enquanto equipado, você ganhará proficiência ladina mais rápido");
+				line.text = line.text.Replace("The higher your rogue level the higher your rogue damage, critical strike chance, and velocity", "Quanto maior o seu nível ladino, maior o dano por ataque ladino, a chance de acerto crítico ladino, e a velocidade dos projéteis");
+				line.text = line.text.Replace("Rogue proficiency (max of 12500):", "Proficiência ladina (máx. 12500):");
+				line.text = line.text.Replace("Rogue level (max of 15):", "Nível ladino (máx. 15):");
+				line.text = line.text.Replace("Rogue damage increase:", "Aumento nos danos por ataque ladino:");
+				line.text = line.text.Replace("Rogue velocity increase:", "Aumento na velocidade dos projéteis ladino:");
+				line.text = line.text.Replace("Rogue crit increase:", "Aumento na chance de acerto crítico ladino:");
 			}
 			if (item.type == ModContent.ItemType<SummonLevelMeter>())
 			{
@@ -1056,10 +1043,10 @@ public class CalamityGlobalItemPTBR : GlobalItem
 				line.text = line.text.Replace("Mana Regen:", "Regeneração de mana:");
 				line.text = line.text.Replace("Minion Damage:", "Dano por lacaios:");
 				line.text = line.text.Replace("Minion Slots:", "Espaços de lacaio:");
-				line.text = line.text.Replace("Rogue Damage:", "Danos por ataque assassino:");
-				line.text = line.text.Replace("Rogue Crit Chance:", "Chance de acerto crítico assassino:");
-				line.text = line.text.Replace("Rogue Velocity Boost:", "Reforço na velocidade dos projéteis assassinos:");
-				line.text = line.text.Replace("Rogue Weapon Consumption Chance:", "Chance de consumir armas assassinas:");
+				line.text = line.text.Replace("Rogue Damage:", "Danos por ataque ladino:");
+				line.text = line.text.Replace("Rogue Crit Chance:", "Chance de acerto crítico ladino:");
+				line.text = line.text.Replace("Rogue Velocity Boost:", "Reforço na velocidade dos projéteis ladinos:");
+				line.text = line.text.Replace("Rogue Weapon Consumption Chance:", "Chance de consumir armas ladin:");
 				line.text = line.text.Replace("Max Stealth:", "Furtividade máx:");
 				line.text = line.text.Replace("Standing Regen:", "Regeneração de furtividade enquanto parado:");
 				line.text = line.text.Replace("Moving Regen:", "Regeneração de furtividade enquanto se move:");
@@ -1080,6 +1067,150 @@ public class CalamityGlobalItemPTBR : GlobalItem
 				line.text = line.text.Replace("Life Lost Per Tick at Zero Breath:", "Vida perdida por tique quando sem fôlego:");
 				line.text = line.text.Replace("Defense Lost:", "Defesa perdida:");
 			}
+			if (item.type == ModContent.ItemType<ExoThrone>())
+			{
+				string hotkeySpeedUp = CalamityMod.CalamityMod.ExoChairSpeedupHotkey.TooltipHotkeyString();
+				string hotkeySlowDown = CalamityMod.CalamityMod.ExoChairSlowdownHotkey.TooltipHotkeyString();
+				line.text = line.text.Replace("Hold " + hotkeySpeedUp + " while sitting in the throne to move much faster", "Segure " + hotkeySpeedUp + " enquanto está sentado no trono para se mover muito mais rápido");
+				line.text = line.text.Replace("And hold " + hotkeySlowDown + " to move much slower", "E segure " + hotkeySlowDown + " para se mover muito mais devagar");
+			}
+			if (item.type == ModContent.ItemType<ShatteredCommunity>())
+			{
+				line.text = line.text.Replace("Current level:", "Nível Atual:");
+				line.text = line.text.Replace("Rage Mode damage", "de dano no Modo Fúria");
+				line.text = line.text.Replace("Progress to next level:", "Progresso para o próximo nível:");
+				line.text = line.text.Replace("Total Rage Mode damage:", "Dano total no Modo Fúria:");
+			}
+			if (item.type == ModContent.ItemType<BiomeBlade>())
+			{
+				line.text = line.text.Replace("Main Attumenent :", "Sintonização Principal :");
+				line.text = line.text.Replace("Secondary Attumenent :", "Sintonização Secundária :");
+				line.text = line.text.Replace("Pure Clarity", "Claridade Pura");
+				line.text = line.text.Replace("Biting Embrace", "Abraço Mordaz");
+				line.text = line.text.Replace("Arid Grandeur", "Grandeza Árida");
+				line.text = line.text.Replace("Decay's Retort", "Retorta da Decadência");
+				line.text = line.text.Replace("Grovetender's Touch", "Toque do Guarda-florestal");
+				line.text = line.text.Replace("None", "Nenhuma");
+				line.text = line.text.Replace("Does nothing.. yet", "Não faz nada.. ainda");
+				line.text = line.text.Replace("Fires a weak projectile that crushes enemy defenses", "Dispara um projétil fraco que esmaga as defesas inimigas");
+				line.text = line.text.Replace("Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second", "Execute um combo de 3 golpes com uma lâmina glacial. O golpe final congela os inimigos por uma fração de segundo");
+				line.text = line.text.Replace("Conjures searing blades in front of you that get larger and stronger the more you hit enemies. The blades can also be used to bounce off tiles when in the air", "Conjura lâminas abrasadoras à sua frente que ficam maiores e mais fortes quanto mais você atinge os inimigos. As lâminas também podem ser usadas para rebater de peças quando no ar");
+				line.text = line.text.Replace("Lunge forward using a ghostly rapier projection that leeches life off any struck foes. You also get bounced away from hit targets", "Invista para frente usando uma projeção fantasmagórica de florete que suga a vida de qualquer inimigo atingido. Você também rebate para longe de alvos atingidos");
+				line.text = line.text.Replace("Throw out the blade using a vine whip. Striking enemies with the tip of the whip as it cracks guarantees a critical hit. The whip will also propel you towards struck tiles", "Lance a espada usando um chicote de vinha. Atingir inimigos com a ponta do chicote enquanto ele estala garante um acerto crítico. O chicote também te impulsionará para peças atingidas");
+			}
+			if (item.type == ModContent.ItemType<TrueBiomeBlade>())
+			{
+				line.text = line.text.Replace("Main Attumenent :", "Sintonização Principal :");
+				line.text = line.text.Replace("Secondary Attumenent :", "Sintonização Secundária :");
+				line.text = line.text.Replace("Pure Clarity", "Claridade Pura");
+				line.text = line.text.Replace("Biting Embrace", "Abraço Mordaz");
+				line.text = line.text.Replace("Arid Grandeur", "Grandeza Árida");
+				line.text = line.text.Replace("Decay's Retort", "Retorta da Decadência");
+				line.text = line.text.Replace("Grovetender's Touch", "Toque do Guarda-florestal");
+				line.text = line.text.Replace("Heaven's Might", "Poder Celestial");
+				line.text = line.text.Replace("Extant Abhorrence", "Aversão Subsistente");
+				line.text = line.text.Replace("None", "Nenhuma");
+				line.text = line.text.Replace("Does nothing.. yet", "Não faz nada.. ainda");
+				line.text = line.text.Replace("Repairing the blade seems to have improved its attuning capacities", "Reparar a lâmina parece ter melhorado as suas capacidades de sintonização");
+				line.text = line.text.Replace("Fires a weak projectile that crushes enemy defenses", "Dispara um projétil fraco que esmaga as defesas inimigas");
+				line.text = line.text.Replace("Landing true melee hits places a sigil of purity over the enemy. Your projectiles home onto the marked foes", "Acertar golpes físicos verdadeiros coloca um sigilo de pureza sobre o inimigo. Seus projéteis seguem os inimigos marcados");
+				line.text = line.text.Replace("Perform a 3 strike combo with a glacial blade. The final strike freezes foes for a split second", "Execute um combo de 3 golpes com uma lâmina glacial. O golpe final congela os inimigos por uma fração de segundo");
+				line.text = line.text.Replace("Lingering glacial mist is released on each swing, dealing damage to enemies wandering into it", "Névoa glacial persistente é liberada em cada balanço, causando dano aos inimigos que vagam por ela");
+				line.text = line.text.Replace("Conjures searing blades in front of you that get larger and stronger the more you hit enemies. The blades can also be used to bounce off tiles when in the air", "Conjura lâminas abrasadoras à sua frente que ficam maiores e mais fortes quanto mais você atinge os inimigos. As lâminas também podem ser usadas para rebater de peças quando no ar");
+				line.text = line.text.Replace("Releasing the attack button after the blades are fully charged sends them hurtling forwards to shred your foes", "Soltar o botão de ataque depois que as lâminas estiverem totalmente carregadas as lança para frente para destruir seus inimigos");
+				line.text = line.text.Replace("Lunge forward using a ghostly rapier projection that leeches life off any struck foes. You also get bounced away from hit targets", "Invista para frente usando uma projeção fantasmagórica de florete que suga a vida de qualquer inimigo atingido. Você também rebate para longe de alvos atingidos");
+				line.text = line.text.Replace("Landing three strikes without touching the ground changes your next attack into an empowered dash thrust", "Acertar três golpes sem tocar no chão muda seu próximo ataque para um impulso fortalecido");
+				line.text = line.text.Replace("Throw out the blade using a vine whip. Striking enemies with the tip of the whip as it cracks guarantees a critical hit. The whip will also propel you towards struck tiles", "Lance a espada usando um chicote de vinha. Atingir inimigos com a ponta do chicote enquanto ele estala garante um acerto crítico. O chicote também te impulsionará para peças atingidas");
+				line.text = line.text.Replace("Spreading vines sprout from critical strikes. These vines can hit up to three targets", "Videiras que se espalham brotam de acertos críticos. Estas vinhas podem atingir até três alvos");
+				line.text = line.text.Replace("Hold the attack button to charge a star-piercing lunge, release to unleash the devastating blow", "Segure o botão de ataque para carregar uma investida que perfura as estrelas, solte para liberar o golpe devastador");
+				line.text = line.text.Replace("Striking the earth with the lunge will cause a massive impact which raises otherworldly monoliths", "Golpear a terra com a investida causará um impacto gigante que levanta monólitos sobrenaturais");
+				line.text = line.text.Replace("Hold the attack button to swing the sword around you, accelerating over time", "Segure o botão de ataque para balançar a espada ao seu redor, acelerando com o tempo");
+				line.text = line.text.Replace("Releasing the attack button hurls the sword towards your cursor. The sword then quickly returns to your hand", "Soltar o botão de ataque arremessa a espada na direção do seu cursor. A espada então rapidamente retorna à sua mão");
+			}
+			if (item.type == ModContent.ItemType<OmegaBiomeBlade>())
+			{
+				line.text = line.text.Replace("Active Attumenent :", "Sintonização Ativa :");
+				line.text = line.text.Replace("Passive Attumenent :", "Sintonização Passiva :");
+				line.text = line.text.Replace("Swordsmith's Pride", "Orgulho do Espadachim");
+				line.text = line.text.Replace("Sanguine Fury", "Fúria Sanguínea");
+				line.text = line.text.Replace("Lamentations of the Chained", "Lamentações dos Acorrentados");
+				line.text = line.text.Replace("Mercurial Tides", "Marés Mercuriais");
+				line.text = line.text.Replace("None", "Nenhuma");
+				line.text = line.text.Replace("Does nothing.. yet", "Não faz nada.. ainda");
+				line.text = line.text.Replace("It seems that upgrading the blade expanded the scope of the previous attunements", "Parece que melhorar a lâmina expandiu o escopo das sintonizações anteriores");
+				line.text = line.text.Replace("Your secondary attunement can now provide passive bonuses", "A sua sintonização secundária agora pode fornecer efeitos passivos");
+				line.text = line.text.Replace("Hold the attack button to swing the sword around you, accelerating over time. Sword beams are fired wildly while swinging", "Segure o botão de ataque para balançar a espada ao seu redor, acelerando com o tempo. Feixes de espada são disparados descontroladamente enquanto você gira");
+				line.text = line.text.Replace("Releasing the attack button hurls the sword towards your cursor. Sword beams home onto enemies struck by the thrown sword", "Soltar o botão de ataque arremessa a espada na direção do cursor. Os feixes de espadas seguem os inimigos atingidos pela espada arremessada");
+				line.text = line.text.Replace("All attacks have a chance to fire sword beams", "Todos os ataques têm uma chance de disparar um feixe de espada");
+				line.text = line.text.Replace("Conjures molten blades in front of you that get larger and stronger the more you hit enemies. The blades can also be used to bounce off tiles when in the air", "Conjura lâminas derretidas à sua frente que ficam maiores e mais fortes quanto mais você atinge os inimigos. As lâminas também podem ser usadas para rebater de peças quando no ar");
+				line.text = line.text.Replace("Releasing the attack button sends the charged blades hurtling forwards like a wheel. Attacking again immediately thereafter dashes to the wheel, shredding anything in the way", "Soltar o botão de ataque lança as lâminas carregadas como uma roda. Atacar novamente imediatamente depois te investe para a roda, destruíndo tudo no caminho");
+				line.text = line.text.Replace("Striking enemies rarely steals a small amount of life", "Golpear inimigos raramente roubará uma pequena quantidade de vida");
+				line.text = line.text.Replace("Hold the attack button to charge a heaven-shattering lunge, release to unleash the devastating blow. Shock waves are emitted as the sword charges up", "Segure o botão de ataque para carregar uma investida que perfura os céus, solte para liberar o golpe devastador. Ondas de choque são emitidas enquanto a espada está sendo carregada");
+				line.text = line.text.Replace("Striking the earth with the lunge will cause a massive shock wave on impact which raises a flood of monoliths", "Golpear a terra com a investida causará uma onda de choque gigante no impacto que levanta uma enchente de monólitos");
+				line.text = line.text.Replace("Periodically emit shock waves while attacking", "Periodicamente emite ondas de choque enquanto ataca");
+				line.text = line.text.Replace("Lash out with a flurry of chained blades. Striking enemies with the tip of the blades guarantees a critical hit", "Ataque com uma enxurrada de lâminas acorrentadas. Atingir os inimigos com a ponta de lâminas garante um acerto crítico");
+				line.text = line.text.Replace("Critical strikes send out extra phantom chains which latch onto multiple targets", "Acertos críticos enviam correntes extras que se prendem a vários alvos");
+				line.text = line.text.Replace("An enchanted chain hook floats near you. Striking enemies makes the hook whirl around you, freezing enemies", "Um gancho de corrente encantado flutua perto de você. Atingir os inimigos faz o gancho girar em torno de você, congelando os inimigos");
+			}
+			if (item.type == ModContent.ItemType<FourSeasonsGalaxia>())
+			{
+				line.text = line.text.Replace("Active Attumenent :", "Sintonização Ativa :");
+				line.text = line.text.Replace("Passive Blessing :", "Bênção Passiva :");
+				line.text = line.text.Replace("Phoenix's Pride", "Orgulho da Fênix");
+				line.text = line.text.Replace("Aries' Wrath", "Ira de Áries");
+				line.text = line.text.Replace("Polaris' Gaze", "Olhar Polar");
+				line.text = line.text.Replace("Andromeda's Stride", "Passo de Andrômeda");
+				line.text = line.text.Replace("Capricorn's Blessing", "Bênção do Capricórnio");
+				line.text = line.text.Replace("Cancer's Blessing", "Bênção de Câncer");
+				line.text = line.text.Replace("Hold the attack button to swing Galaxia around you, accelerating over time. The swirling nebula constantly emits homing cosmic bolts", "Segure o botão de ataque para balançar Galaxia ao seu redor, acelerando com o tempo. A nébula rodopiante constantemente emite raios cósmicos teleguiados");
+				line.text = line.text.Replace("Releasing the attack button hurls the sword towards your cursor alongside a burst of 6 gigantic cosmic bolts. The sword then quickly returns to your hand", "Soltar o botão de ataque arremessa a espada na direção do cursor junto de uma rajada de 6 raios cósmicos gigantescos. A espada então rapidamente retorna à sua mão");
+				line.text = line.text.Replace("Throw Galaxia to your cursor, holding it in place with constellations. Galaxia follows your cursor, rapidly spinning to shred enemies", "Arremesse Galaxia para o seu cursor, segurando-a no lugar com constelações. Galaxia segue o seu cursor, rapidamente girando para destruir os inimigos");
+				line.text = line.text.Replace("Striking enemies causes nebulous explosions which spawn homing cosmic bolts", "Golpear inimigos causa explosões nebulosas que invocam raios cósmicos teleguiados");
+				line.text = line.text.Replace("Hold the attack button to channel the Northern Star's power into a tight vortex of galactic energies, bound by concentric rings of stars. The vortex powers up over time and when hitting enemies", "Segure o botão de ataque para canalizar o poder da Estrela do Norte em um vórtice apertado de energias galácticas, ligado por anéis concêntricos de estrelas. O vórtice aumenta ao longo do tempo e ao atingir os inimigos");
+				line.text = line.text.Replace("Release the attack button to fire off the charged star. Attacking again immediately thereafter dashes to the star, emitting a nova of cosmic bolts", "Solte o botão de ataque para disparar a estrela carregada. Atacar novamente imediatamente depois te investe para a estrela, emitindo uma nova de raios cósmicos");
+				line.text = line.text.Replace("Hold the attack button to charge a god-erasing lunge, release to unleash the devastating blow. Galaxia emits cosmic bolts while charging", "Segure o botão de ataque para carregar uma investida destruidora de deuses, solte para liberar o golpe devastador. Galaxia emite raios cósmicos enquanto carrega");
+				line.text = line.text.Replace("Striking the earth with the lunge will cause a massive impact which summons an apocalyptic storm of cosmic energies", "Golpear a terra com a investida causará um impacto gigante que invoca uma tempestade apocalíptica de energias cósmicas");
+				line.text = line.text.Replace("Periodically releases a ring of weakening stars around your cursor when attacking", "Periodicamente libera um anel de estrelas enfraquecedoras em volta do seu cursor enquanto ataca");
+				line.text = line.text.Replace("The ring is repelled away from you at first, before slowing down over time", "O anel é repelido para longe de você no início, antes de desacelerar com o tempo");
+				line.text = line.text.Replace("Periodically releases a ring of lifestealing stars around yourself when attacking", "Periodicamente libera um anel de estrelas que roubam vida ao seu redor enquanto ataca");
+				line.text = line.text.Replace("The ring is attracted towards you at first, before slowing down over time", "O anel é atraído para você no início, antes de desacelerar com o tempo");
+			}
+			if (item.type == ModContent.ItemType<ArkoftheAncients>())
+			{
+				line.text = line.text.Replace("Using RMB will extend the Ark out in front of you. Hitting an enemy with it will parry them, granting you a small window of invulnerability", "Usar o BDM estenderá a Arca na sua frente. Acertar um inimigo com ela bloqueará ele, cocedendo a você uma pequena janela de invulnerabilidade");
+				line.text = line.text.Replace("You can also parry projectiles and temporarily make them deal 100 less damage", "Você também pode bloquear projéteis e temporariamente fazê-los causar 100 a menos de dano");
+				line.text = line.text.Replace("Parrying will empower the next 10 swings of the sword, boosting their damage and letting them throw projectiles out", "Bloquear fortalecerá os próximos 10 golpes da espada, aumentando seu dano e permitindo que eles arremessem projéteis");
+			}
+			if (item.type == ModContent.ItemType<TrueArkoftheAncients>())
+			{
+				line.text = line.text.Replace("Using RMB will extend the Ark out in front of you. Hitting an enemy with it will parry them, granting you a small window of invulnerability", "Usar o BDM estenderá a Arca na sua frente. Acertar um inimigo com ela bloqueará ele, cocedendo a você uma pequena janela de invulnerabilidade");
+				line.text = line.text.Replace("You can also parry projectiles and temporarily make them deal 160 less damage", "Você também pode bloquear projéteis e temporariamente fazê-los causar 160 a menos de dano");
+				line.text = line.text.Replace("Parrying will empower the next 10 swings of the sword, boosting their damage and letting them throw stronger projectiles", "Bloquear fortalecerá os próximos 10 golpes da espada, aumentando seu dano e permitindo que eles arremessem projéteis mais fortes");
+				line.text = line.text.Replace("Using RMB and pressing up while the Ark is empowered will release all the charges in a powerful burst of energy", "Usar o BDM e pressionar para cima enquanto a Arca está fortalecida liberará todas as cargas em uma poderosa explosão de energia");
+			}
+			if (item.type == ModContent.ItemType<ArkoftheElements>())
+			{
+				line.text = line.text.Replace("Performs a combo of swings, throwing the blade out every 5 swings", "Executa uma combinação de golpes, jogando a lâmina a cada 5 golpes");
+				line.text = line.text.Replace("Releasing the mouse while the blade is out will throw the second half towards it, making the scissors snap", "Soltar o mouse enquanto a lâmina ainda está fora lançará a segunda metade em direção a ela, fazendo a tesoura estalar");
+				line.text = line.text.Replace("Snapping the scissors together increase their damage and empower your next two swings", "Estalar a tesoura aumenta o dano e fortalece seus próximos dois golpes");
+				line.text = line.text.Replace("Using RMB will snip out the scissor blades in front of you", "Usar o BDM irá estalar as tesouras na sua frente");
+				line.text = line.text.Replace("Hitting an enemy with it will parry them, granting you a small window of invulnerability", "Acertar um inimigo com ela bloqueará ele, cocedendo a você uma pequena janela de invulnerabilidade");
+				line.text = line.text.Replace("You can also parry projectiles and temporarily make them deal 200 less damage", "Você também pode bloquear projéteis e temporariamente fazê-los causar 200 a menos de dano");
+				line.text = line.text.Replace("Parrying will empower the next 10 swings of the sword, letting you use both blades at once", "Bloquear fortalecerá os próximos 10 golpes da espada, permitindo que você use as duâs lâminas ao mesmo tempo");
+				line.text = line.text.Replace("Using RMB and pressing up while the Ark is empowered will throw the blades in front of you to provoke a Big Rip in spacetime, using up all your charges in the process", "Usar o BDM e pressionar para cima enquanto a Arca está fortalecida lançará as lâminas na sua frente para provocar um Grande Rasgo no espaço-tempo, usando todas as suas cargas no processo");
+			}
+			if (item.type == ModContent.ItemType<ArkoftheCosmos>())
+			{
+				line.text = line.text.Replace("Performs a combo of swings, alternating between narrow and wide swings and throwing the blade out every 5 swings", "Executa uma combinação de golpes, alternando entre golpes estreitos e largos e jogando a lâmina a cada 5 golpes");
+				line.text = line.text.Replace("The thrown blade is held in place by constellations and will follow your cursor", "A lâmina arremessada é mantida no lugar por constelações e seguirá seu cursor.");
+				line.text = line.text.Replace("Releasing the mouse while the blade is out will throw the second half towards it, making the scissors snap and explode into stars", "Soltar o mouse enquanto a lâmina ainda está fora lançará a segunda metade em direção a ela, fazendo a tesoura estalar e explodir em estrelas");
+				line.text = line.text.Replace("Using RMB will snip out the scissor blades in front of you", "Usar o BDM irá estalar as tesouras na sua frente");
+				line.text = line.text.Replace("Hitting an enemy with it will parry them, granting you a small window of invulnerability", "Acertar um inimigo com ela bloqueará ele, cocedendo a você uma pequena janela de invulnerabilidade");
+				line.text = line.text.Replace("You can also parry projectiles and temporarily make them deal 200 less damage", "Você também pode bloquear projéteis e temporariamente fazê-los causar 200 a menos de dano");
+				line.text = line.text.Replace("Parrying will empower the next 10 swings of the sword, letting you use both blades at once", "Bloquear fortalecerá os próximos 10 golpes da espada, permitindo que você use as duâs lâminas ao mesmo tempo");
+				line.text = line.text.Replace("Using RMB and pressing up while the Ark is empowered will throw the blades in front of you to provoke a Big Rip in spacetime, using up all your charges in the process", "Usar o BDM e pressionar para cima enquanto a Arca está fortalecida lançará as lâminas na sua frente para provocar um Grande Rasgo no espaço-tempo, usando todas as suas cargas no processo");
+				line.text = line.text.Replace("If more than half the charges were used up, you can dash across the rip by keeping the up key pressed down", "Se mais da metade das cargas foram usadas, você pode atravessar o rasgo mantendo a tecla para cima pressionada");
+			}
 
 			if (item.melee)
 			{
@@ -1091,10 +1222,18 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			if (item.type >= 3930 && (item.Calamity()?.UsesCharge ?? false))
 			{
 				line.text = line.text.Replace("Current Charge:", "Carga Atual:");
+			
 			}
+			if ((item.Calamity()?.UsesCharge ?? false) || item.type == ModContent.ItemType<AuricQuantumCoolingCell>() || item.type == ModContent.ItemType<PlasmaGrenade>())
+			{
+				line.text = line.text.Replace("You don't have sufficient knowledge to create this yet", "Você ainda não tem conhecimento suficiente para criar isso");
+				line.text = line.text.Replace("A specific schematic must be deciphered first", "Uma esquemática específica deve ser decifrada primeiro");
+			}
+
+
 			if (item.Calamity().rogue)
 			{
-				line.text = line.text.Replace("de danos por arremesso", "de danos por ataque assassino");
+				line.text = line.text.Replace("de danos por arremesso", "de danos por ataque ladino");
 				line.text = line.text.Replace("stealth strike damage", "de danos por ataque furtivo");
 
 				if (item.prefix > 0 && line.Name == "ItemName")
@@ -1119,13 +1258,62 @@ public class CalamityGlobalItemPTBR : GlobalItem
 
 			}
 
+			if (item.Calamity().AppliedEnchantment != null)
+			{
+				line.text = line.text.Contains("Aflame") ? line.text.Replace("Aflame", "").Trim() + " (Ardente)" : line.text;
+				line.text = line.text.Replace("Lights enemies ablaze on hit but also causes the user to take damage over time when holding this item.", "Acende os inimigos em chamas ao atingí-los, mas também faz com que o usuário sofra danos ao longo do tempo ao segurar este item.");
+				line.text = line.text.Contains("Ephemeral") ? line.text.Replace("Ephemeral", "").Trim() + " (Efêmero)" : line.text;
+				line.text = line.text.Replace("Causes the damage output of this item to discharge from exhaustive use.", "Faz com que o dano deste item descarrege por uso exaustivo.");
+				line.text = line.text.Replace("Its damage returns naturally when not being used. It starts off with more damage than it normally would have.", "O seu dano retorna ao normal enquanto ele não está em uso. Ele começa com mais dano do que ele normalmente teria.");
+				line.text = line.text.Contains("Withering") ? line.text.Replace("Withering", "").Trim() + " (Esmaescente)" : line.text;
+				line.text = line.text.Replace("When hurt, you heal a percentage of the damage taken based on how much accumulated damage you did overall beforehand, up to 100%. After this, you gain a damage boost while holding this item but also take exponential damage over time the longer you hold it.", "Ao sofrer danos, você será curado por uma porcentagem do dano sofrido baseado na quantidade de dano acumulado que você efetuou no geral anteriormente, até 100%. Depois disso, você ganha um aumento nos danos enquanto segura este item, mas também sofre danos exponenciais ao longo do tempo quanto mais tempo você o segurar.");
+				line.text = line.text.Contains("Resentful") ? line.text.Replace("Resentful", "").Trim() + " (Rancoroso)" : line.text;
+				line.text = line.text.Replace("Makes the damage of projectiles vary based on how far the hit target is from you. The farther, the more damage, and vice versa.", "Faz com que o dano dos projéteis varie de acordo com a distância do alvo atingido de você. Quanto mais longe, maior o dano, e vice versa.");
+				line.text = line.text.Contains("Bloodthirsty") ? line.text.Replace("Bloodthirsty", "").Trim() + " (Sanguinário)" : line.text;
+				line.text = line.text.Replace("Makes the damage of projectiles vary based on how far the hit target is from you. The closer, the more damage, and vice versa.", "Faz com que o dano dos projéteis varie de acordo com a distância do alvo atingido de você. Quanto mais perto, maior o dano, e vice versa.");
+				line.text = line.text.Contains("Persecuted") ? line.text.Replace("Persecuted", "").Trim() + " (Perseguido)" : line.text;
+				line.text = line.text.Replace("When attacked, or over time, demon portals appear near you.", "Quando atacado, ou ao longo do tempo, portais demoníacos aparecem perto de você.");
+				line.text = line.text.Replace("If sufficiently damaged they are friendly; otherwise they attack you. They become angered if a portal is damaged.", "Se suficiente danificados, são amigáveis; caso contrário, eles atacam você. Eles ficam irritados se um portal for danificado.");
+				line.text = line.text.Contains("Lecherous") ? line.text.Replace("Lecherous", "").Trim() + " (Lascivo)" : line.text;
+				line.text = line.text.Replace("Spawns a resilient brimstone monster that stays between you and your mouse that interferes with your homing weapons. It releases a bunch of hearts on death.", "Invoca um monstro de enxofre resiliente que fica entre você e seu mouse que inferfere com suas armas teleguiadas. Ele libera muitos corações na morte.");
+				line.text = line.text.Contains("Tainted") ? line.text.Replace("Tainted", "").Trim() + " (Manchado)" : line.text;
+				line.text = line.text.Replace("Removes projectile shooting capabilities of this item. In exchange, two skeletal arms are released on use that slice at the mouse position.", "Remove a capacidade de disparo de projéteis deste item. Em troca, dois braços esqueléticos são liberados no uso que cortam na posição do mouse.");
+				line.text = line.text.Contains("Oblatory") ? line.text.Replace("Oblatory", "").Trim() + " (Oblatório)" : line.text;
+				line.text = line.text.Replace("Reduces mana cost and greatly increases damage but sometimes causes this item to use your life.", "Reduz o custo de mana e aumenta bastante os danos, mas faz com que este item às vezes use a sua vida.");
+				line.text = line.text.Contains("Traitorous") ? line.text.Replace("Traitorous", "").Trim() + " (Traidor)" : line.text;
+				line.text = line.text.Replace("Causes this item to sometimes release a monster that hurts both you and enemies when you have less than 50% mana.", "Faz com que este item às vezes libere um monstro que machuca você e os inimigos quando você tem menos de 50% de mana.");
+				line.text = line.text.Contains("Indignant") ? line.text.Replace("Indignant", "").Trim() + " (Indignado)" : line.text;
+				line.text = line.text.Replace("Summons demons that harm you but drop healing items on death on item usage.", "Invoca demônios que te machucam mas que deixam cair itens de cura na morte ao usar o item.");
+				line.text = line.text.Contains("Hellbound") ? line.text.Replace("Hellbound", "").Trim() + " (Infernal)" : line.text;
+				line.text = line.text.Replace("Causes minions to be created with a 40 second timer.", "Faz com que os lacaios sejam criados com uma duração de 40 segundos.");
+				line.text = line.text.Replace("Once it runs out, they explode violently. Minions do more damage the longer they live and idly explode as well.", "Quando ela acabar, eles explodem violentamente. Os lacaios causam mais danos quanto mais tempo vivem e também explodem ociosamente.");
+
+				//PARA COMPLETAR
+			}
+
+			if (item.Calamity().canFirePointBlankShots)
+            {
+				line.text = line.text.Replace("Does extra damage to enemies shot at point-blank range", "Causa dano extra aos inimigos atingidos à queima-roupa");
+            }
+
+			if (item.Calamity().devItem)
+			{
+				line.text = line.text.Replace("Developer Item", "Item de Desenvolvedor");
+			}
+
+			if (item.Calamity().donorItem)
+			{
+				line.text = line.text.Replace("Donor Item", "Item de Doador");
+			}
+
+			//Untranslatable items (probably a bug)
 			if (line.Name == "ItemName")
 			{
-				line.text = line.text.Contains("Otherworldly Stone") ? line.text.Replace("Otherworldly Stone", "Pedra do Outro Mundo").Trim() : line.text;
-				line.text = line.text.Contains("Monolith Amalgam") ? line.text.Replace("Monolith Amalgam", "Amálgamo de Monólito").Trim() : line.text;
-				line.text = line.text.Contains("Effulgent Manipulator") ? line.text.Replace("Effulgent Manipulator", "Manipulador Refulgente").Trim() : line.text;
-				line.text = line.text.Contains("Eutrophic Shelf") ? line.text.Replace("Eutrophic Shelf", "Prateleira Eutrófica").Trim() : line.text;
-				line.text = line.text.Contains("Profaned Crucible") ? line.text.Replace("Profaned Crucible", "Cadinho Profano").Trim() : line.text;
+				line.text = line.text.Equals("Otherworldly Stone") ? line.text.Replace("Otherworldly Stone", "Pedra do Outro Mundo").Trim() : line.text;
+				line.text = line.text.Equals("Monolith Amalgam") ? line.text.Replace("Monolith Amalgam", "Amálgamo de Monólito").Trim() : line.text;
+				line.text = line.text.Equals("Effulgent Manipulator") ? line.text.Replace("Effulgent Manipulator", "Manipulador Refulgente").Trim() : line.text;
+				line.text = line.text.Equals("Eutrophic Shelf") ? line.text.Replace("Eutrophic Shelf", "Prateleira Eutrófica").Trim() : line.text;
+				line.text = line.text.Equals("Profaned Crucible") ? line.text.Replace("Profaned Crucible", "Cadinho Profano").Trim() : line.text;
 			}
 
 			if (item.accessory && !item.social && item.prefix > 0)
@@ -1159,8 +1347,9 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			}
 			List<int> litlleLightInAbyss = new List<int>() { 3062, 115, 3043, 1861, 1303, 1860, 88 };
 			List<int> moderateLightInAbyss = new List<int>() { 425, 3856, 298 };
-			List<int> moderateBreathLossInAbyss = new List<int>() { 1861, 268 };
-			List<int> greatBreathLossInAbyss = new List<int>() { 291, 497, 861, 3110 };
+			List<int> moderateBreathLossInAbyss = new List<int>() { 1861, 268, 3110 };
+			List<int> greatBreathLossInAbyss = new List<int>() { 291, 497, 861 };
+
 			if (litlleLightInAbyss.Contains(item.type))
 			{
 				line.text = line.text.Replace("Provides a small amount of light in the abyss", "Fornece uma pequena quantidade de luz no abismo");
@@ -1175,7 +1364,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			}
 			if (greatBreathLossInAbyss.Contains(item.type))
 			{
-				line.text = line.text.Replace("Greatly reduces breath loss in the abyss", "Reduz bastante a perda de f\u00f4lego no abismo");
+				line.text = line.text.Replace("Greatly reduces breath loss in the abyss", "Reduz bastante a perda de fôlego no abismo");
 			}
 			if (item.type == 2359)
 			{
@@ -1184,27 +1373,27 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			}
 			if (item.type == 1340)
 			{
-				line.text = line.text.Replace("Melee and rogue attacks inflict Venom on enemies", "Ataques físicos e assassinos envenenam os inimigos");
+				line.text = line.text.Replace("Melee and rogue attacks inflict Venom on enemies", "Ataques físicos e ladinos envenenam os inimigos");
 			}
 			if (item.type == 1353)
 			{
-				line.text = line.text.Replace("Melee and rogue attacks inflict enemies with cursed flames", "Ataques físicos e assassinos fazem com que seus inimigos queimem com chamas amaldiçoadas");
+				line.text = line.text.Replace("Melee and rogue attacks inflict enemies with cursed flames", "Ataques físicos e ladinos fazem com que seus inimigos queimem com chamas amaldiçoadas");
 			}
 			if (item.type == 1354)
 			{
-				line.text = line.text.Replace("Melee and rogue attacks set enemies on fire", "Ataques físicos e assassinos incendeiam seus inimigos");
+				line.text = line.text.Replace("Melee and rogue attacks set enemies on fire", "Ataques físicos e ladinos incendeiam seus inimigos");
 			}
 			if (item.type == 1355)
 			{
-				line.text = line.text.Replace("Melee and rogue attacks make enemies drop more gold", "Ataques físicos e assassinos fazem com que seus inimigos deixem cair mais ouro");
+				line.text = line.text.Replace("Melee and rogue attacks make enemies drop more gold", "Ataques físicos e ladinos fazem com que seus inimigos deixem cair mais ouro");
 			}
 			if (item.type == 1356)
 			{
-				line.text = line.text.Replace("Melee and rogue attacks decrease enemy defense", "Ataques físicos e assassinos diminuem as defesas dos inimigos");
+				line.text = line.text.Replace("Melee and rogue attacks decrease enemy defense", "Ataques físicos e ladinos diminuem as defesas dos inimigos");
 			}
 			if (item.type == 1357)
 			{
-				line.text = line.text.Replace("Melee and rogue attacks confuse enemies", "Ataques físicos e assassinos confundem os inimigos");
+				line.text = line.text.Replace("Melee and rogue attacks confuse enemies", "Ataques físicos e ladinos confundem os inimigos");
 			}
 			if (item.type == 1358)
 			{
@@ -1212,7 +1401,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			}
 			if (item.type == 1359)
 			{
-				line.text = line.text.Replace("Melee and rogue attacks poison enemies", "Ataques físicos e assassinos envenenam os inimigos");
+				line.text = line.text.Replace("Melee and rogue attacks poison enemies", "Ataques físicos e ladinos envenenam os inimigos");
 			}
 			if (item.type == 3224)
 			{
@@ -1256,7 +1445,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			}
 			if (item.type == 297)
 			{
-				line.text = line.text.Replace("Boosts certain stats when holding certain types of rogue weapons", "Reforça certas estatísticas quando você segura certos tipos de armas assassinas");
+				line.text = line.text.Replace("Boosts certain stats when holding certain types of rogue weapons", "Reforça certas estatísticas quando você segura certos tipos de armas ladinas");
 			}
 			if (item.type == 2294)
 			{
@@ -1270,7 +1459,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			if (item.type == 2786 || item.type == 2776 || item.type == 2781 || item.type == 3466)
 			{
 				line.text = line.text.Replace("Material", "Material");
-				line.text = line.text.Replace("Can mine Uelibloom Ore", "Pode minerar minério florescente");
+				line.text = line.text.Replace("Can mine Uelibloom Ore located in the Jungle", "Pode minerar minério de casca florescente localizado na Selva");
 			}
 			if (item.type == 89 || item.type == 80 || item.type == 76)
 			{
@@ -1315,32 +1504,32 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			if (item.type == 3187)
 			{
 				line.text = line.text.Replace("3 defense", "+3 defesa");
-				line.text = line.text.Replace("3% increased rogue damage", "3% de aumento nos danos por ataque assassino");
+				line.text = line.text.Replace("3% increased rogue damage", "3% de aumento nos danos por ataque ladino");
 			}
 			if (item.type == 3188)
 			{
 				line.text = line.text.Replace("5 defense", "+5 defesa");
-				line.text = line.text.Replace("3% increased rogue critical strike chance", "3% de chance de ataque assassino crítico");
+				line.text = line.text.Replace("3% increased rogue critical strike chance", "3% de chance de ataque ladino crítico");
 			}
 			if (item.type == 3189)
 			{
 				line.text = line.text.Replace("4 defense", "+4 defesa");
-				line.text = line.text.Replace("3% increased rogue velocity", "3% de aumento na velocidade dos projéteis assassinos");
+				line.text = line.text.Replace("3% increased rogue velocity", "3% de aumento na velocidade dos projéteis ladinos");
 			}
 			if (item.type == 3266)
 			{
 				line.text = line.text.Replace("4 defense", "+3 defesa");
-				line.text = line.text.Replace("3% increased rogue damage", "3% de aumento no dano assassino");
+				line.text = line.text.Replace("3% increased rogue damage", "3% de aumento no dano ladino");
 			}
 			if (item.type == 3267)
 			{
 				line.text = line.text.Replace("5 defense", "+5 defesa");
-				line.text = line.text.Replace("3% increased rogue critical strike chance", "3% de aumento na chance de ataque assassino crítico");
+				line.text = line.text.Replace("3% increased rogue critical strike chance", "3% de aumento na chance de ataque ladino crítico");
 			}
 			if (item.type == 3268)
 			{
 				line.text = line.text.Replace("4 defense", "+4 defesa");
-				line.text = line.text.Replace("3% increased rogue velocity", "3% de aumento na velocidade dos projéteis assassinos");
+				line.text = line.text.Replace("3% increased rogue velocity", "3% de aumento na velocidade dos projéteis ladinos");
 			}
 			if (item.type == 231 || item.type == 232 || item.type == 233)
 			{
@@ -1367,7 +1556,47 @@ public class CalamityGlobalItemPTBR : GlobalItem
 				line.text = line.text.Replace("Provides a regeneration boost while wearing the Eskimo armor", "Fornece um efeito de regeneração ao vestir a armadura de Esquimó");
 				line.text = line.text.Replace("Provides cold protection in Death Mode", "Fornece proteção contra o frio no Modo Morte");
 			}
-			//Ailes
+			if (item.type == 560  || item.type == 361 || item.type == 560 || item.type == 1844 || item.type == 1958 || item.type == 2767 || item.type == 3601 || item.type == 1315)
+			{
+				line.text = line.text.Replace("Not consumable", "Não consumível");
+			}
+			if (item.type == 43)
+			{
+				line.text = line.text.Replace("Not consumable", "Não consumível");
+				line.text = line.text.Replace("when used during nighttime", "quando usado durante a noite");
+			}
+			if (item.type == 1133)
+			{
+				line.text = line.text.Replace("Not consumable", "Não consumível");
+				line.text = line.text.Replace("when used in the jungle", "quando usado na selva");
+			}
+			if (item.type == 1331)
+			{
+				line.text = line.text.Replace("Not consumable", "Não consumível");
+				line.text = line.text.Replace("when used in the crimson", "quando usada no carmim");
+			}
+			if (item.type == 70)
+			{
+				line.text = line.text.Replace("Not consumable", "Não consumível");
+				line.text = line.text.Replace("when used in the corruption", "quando usado na corrupção");
+			}
+			if (item.type == 1293)
+			{
+				line.text = line.text.Replace("Not consumable", "Não consumível");
+				line.text = line.text.Replace("to summon the Golem", "para invocar o Golem");
+			}
+			if (item.type == 544 || item.type == 556 || item.type == 557)
+			{
+				line.text = line.text.Replace("Not consumable", "Não consumível");
+				line.text = line.text.Replace("when used during nighttime", "quando usado durante a noite");
+			}
+			if (item.type == 2673)
+			{
+				line.text = line.text.Replace("Not consumable", "Não consumível");
+				line.text = line.text.Replace("Summons Duke Fishron if used as bait in the ocean", "Invoca o Duque Peixe-dragão se usado como isca no oceano");
+			}
+
+
 			if (item.type == 3580 || item.type == 3582 || item.type == 3588 || item.type == 3592 || item.type == 3924 || item.type == 3928 || item.type == 3228 || item.type == 665 || item.type == 1583 || item.type == 1584 || item.type == 1585 || item.type == 1586)
 			{
 				line.text = line.text.Replace("Great for impersonating devs!", "Ótimo para fingir que é um desenvolvedor!");
@@ -1634,7 +1863,7 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			}
 			if (item.type == 3883)
 			{
-				line.text = line.text.Replace("Equipable", "Peut s'équiper");
+				line.text = line.text.Replace("Equipable", "Equipável");
 				line.text = line.text.Replace("Allows flight and slow fall", "Permite o voo e desaceleração da queda");
 				line.text = line.text.Replace("Hold DOWN and JUMP to hover", "Segure PARA BAIXO e PULAR para levitar");
 				line.text = line.text.Replace("Horizontal speed", "Velocidade horizontal");
@@ -1648,7 +1877,9 @@ public class CalamityGlobalItemPTBR : GlobalItem
 			{
 				line.text = line.text.Replace("Equipable", "Equipável");
 				line.text = line.text.Replace("Reach", "Alcance");
+				line.text = line.text.Replace("tiles", "peças");
 				line.text = line.text.Replace("Launch Velocity", "Velocidade de Lançamento");
+				line.text = line.text.Replace("Reelback Velocity", "Velocidade de Retorno");
 				line.text = line.text.Replace("Pull Velocity", "Velocidade de Tração");
 			}
 		}

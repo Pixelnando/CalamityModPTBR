@@ -20,7 +20,38 @@ public class CalamityGlobalNPCPT : GlobalNPC
 	{
 		if (npc.type == ModContent.NPCType<FAP>() && !firstButton)
 		{
-			Main.npcChatText = "Você falhou " + Main.player[Main.myPlayer].Calamity().deathCount + " vezes.";
+			if (Main.player[Main.myPlayer].Calamity().deathCount <= 100)
+			{ 
+				Main.npcChatText = "Você falhou " + Main.player[Main.myPlayer].Calamity().deathCount + " vezes.";
+			}
+			else if (Main.player[Main.myPlayer].Calamity().deathCount > 100 && Main.player[Main.myPlayer].Calamity().deathCount <= 250)
+            {
+				Main.npcChatText = "Você falhou " + Main.player[Main.myPlayer].Calamity().deathCount + " vezes. Considere diminuir a dificuldade. Se você achou essa afirmação irritante, ótimo.";
+			}
+			else if (Main.player[Main.myPlayer].Calamity().deathCount > 250 && Main.player[Main.myPlayer].Calamity().deathCount <= 500)
+			{
+				Main.npcChatText = "Você falhou " + Main.player[Main.myPlayer].Calamity().deathCount + " vezes. Eu admiro a sua tenacidade. Continue assim, os seus inimigos estão acumulando uma grande contagem de eliminações!";
+			}
+			else if (Main.player[Main.myPlayer].Calamity().deathCount > 500 && Main.player[Main.myPlayer].Calamity().deathCount <= 1000)
+			{
+				Main.npcChatText = "Você falhou " + Main.player[Main.myPlayer].Calamity().deathCount + " vezes. A sua inabilidade de evitar de morrer ao mais básico dos ataques é surpreendente para mim.";
+			}
+			else if (Main.player[Main.myPlayer].Calamity().deathCount > 1000 && Main.player[Main.myPlayer].Calamity().deathCount <= 2500)
+			{
+				Main.npcChatText = "Você falhou " + Main.player[Main.myPlayer].Calamity().deathCount + " vezes. Diz-se que o Terrariano comum tem uma vida útil de 2 minutos ou menos. ...Bem, não realmente, mas sinto que você faria parte dessa estatística.";
+			}
+			else if (Main.player[Main.myPlayer].Calamity().deathCount > 2500 && Main.player[Main.myPlayer].Calamity().deathCount <= 5000)
+			{
+				Main.npcChatText = "Você falhou " + Main.player[Main.myPlayer].Calamity().deathCount + " vezes. Abençoe seu coração. Eu poderia esquivar melhor que você, mesmo se estivesse bêbada.";
+			}
+			else if (Main.player[Main.myPlayer].Calamity().deathCount > 5000 && Main.player[Main.myPlayer].Calamity().deathCount <= 10000)
+			{
+				Main.npcChatText = "Você falhou " + Main.player[Main.myPlayer].Calamity().deathCount + " vezes. Não tenho certeza do que dizer desta vez. Que você é ruim e deveria se sentir mal? Isso todos já sabem.";
+			}
+			else if (Main.player[Main.myPlayer].Calamity().deathCount > 10000)
+			{
+				Main.npcChatText = "Você falhou " + Main.player[Main.myPlayer].Calamity().deathCount + " vezes. Parabéns! Você agora é, oficialmente, o maior perdedor da história de Terraria! Quem foi o número dois? Sei lá.";
+			}
 		}
 		if (npc.type == ModContent.NPCType<THIEF>() && !firstButton)
 		{
@@ -37,7 +68,7 @@ public class CalamityGlobalNPCPT : GlobalNPC
 		{
 			string[][] seahoeQuotes = new string[][]
 			{
-				new string[2]{ "Draedon's style of confrontation is very...alien and hands-off. You may be more likely to fight any one of his mechs before taking him down.",
+				new string[2]{ "Draedon's style of confrontation is very... alien and hands-off. You may be more likely to fight any one of his mechs before taking him down.",
 					"O estilo de luta de Draedon é bem... estranho e relaxado. É bem provável que você lute contra uma de suas bestas mecânicas antes de derrotá-lo."},
 				new string[2]{ "Lord Yharim possesses god-like strength. He may not even fight you at full power which is fortunate for you. His attacks may just kill you in one hit, so be careful.",
 					"O Senhor Yharim possui um poder divino. É possível que ele lute contra você usando apenas uma parte de sua força total, o que é uma sorte para você. Os seus ataques podem matá-lo com apenas um golpe, então tome cuidado."},
@@ -220,8 +251,669 @@ public class CalamityGlobalNPCPT : GlobalNPC
 			givenNames[11] = Main.npc[thief].GivenName;
 		}
 
-		string fabSpecialQuote = "You're all pretty good! ...wait, who are you again?";
+		string fabSpecialQuote = "You're all pretty good!";
 		string[][] translatedChat = new string[][] {
+
+			//Amidias, the Sea King
+			new string[2]{
+				"How much more has the world fallen to ruin? Even the Tyrant’s empire...",
+				"O quão mais o mundo sucumbiu às ruínas? Até o império do Tirano..."
+			},
+			new string[2]{
+				"Thank you for your service, my child, but I am afraid I am without a home now.",
+				"Obrigado pelo seu serviço, meu filho, mas infelizmente estou sem casa agora."
+			},
+			new string[2]{
+				"My home may have been destroyed and my people lost... But I will assist you to honor their memory.",
+				"Meu lar pode ter sido destruída, e meu povo perdido... Mas eu vou ajudá-lo a honrar a sua memória."
+			},
+			new string[2]{
+				"How odd it is, that your people leave the care of those yet to be born to the females. Our males carry the eggs until they hatch.",
+				"Que estranho é que seu povo deixe os cuidados daqueles que ainda não nasceram para as fêmeas. Nossos machos carregam os ovos até que eles choquem."
+			},
+			new string[2]{
+				"How can I survive on land? Ah, that is a secret. No, actually... I can breathe air like you!",
+				"Como eu consigo sobreviver fora d'água? Ah, isso é segredo. Não, na verdade... eu posso respirar ar como você!"
+			},
+			new string[2]{
+				"Ah, if only you could have seen the beauty of a kingdom submerged in water. The way the light refracted and shone over our coral homes...",
+				"Ah, se você pudesse ter visto a beleza de um reino submerso na água. A maneira que a luz refratava e brilhava sobre nossas casas de coral..."
+			},
+			new string[2]{
+				"There lurk horrifying creatures beyond the light of our homes. You should take care.",
+				"Criaturas horríveis se escondem além da luz de nossas casas. Você deve tomar cuidado."
+			},
+			new string[2]{
+				"My eyes are not well suited to bright lights after so many years of darkness. The peace of the night is welcome.",
+				"Meus olhos não são bem adequados para luzes brilhantes depois de tantos anos de escuridão. A paz da noite é bem-vinda."
+			},
+			new string[2]{
+				"Oh, me? I don't sleep, it's part of my nature.",
+				"Ah, eu? Eu não durmo, faz parte da minha natureza."
+			},
+			new string[2]{
+				"Since ancient times people have said that deities cause celestial events. Which one then, is the cause for these?",
+				"Desde os tempos antigos, pessoas dizem que divindades causam eventos celestiais. Qual delas então, é a causa destes?"
+			},
+			new string[2]{
+				"I'm never keen on these nights. They're so violent.",
+				"Nunca estou entusiasmado nestas noites. Elas são tão violentas."
+			},
+			new string[2]{
+				"Your presence is now known to a great many things. It is unlikely that they will be as friendly towards you as I have been.",
+				"Sua presença agora é conhecida por muitas coisas. É improvável que elas sejam tão amigáveis com você quanto eu fui."
+			},
+			new string[2]{
+				"Hm... The veil has fallen, and the world begins to show its true colors. I hope you will trek a righteous path, though even I am not sure what that may be.",
+				"Hm... O véu caiu, e o mundo começa a mostrar suas verdadeiras cores. Espero que você trilhe um caminho justo, embora nem mesmo eu tenha certeza do que ele seja."
+			},
+			new string[2]{
+				"These days, the night sky feels... just a little less oppressive now.",
+				"Hoje em dia, o céu noturno parece... um pouco menos opressor agora."
+			},
+			new string[2]{
+				"Some of these beings I had thought previously to be only legends. To see them in all their glory... what a macabre privilege.",
+				"Alguns desses seres eu pensava anteriormente serem apenas lendas. Vê-los em toda a sua glória... que previlégio macabro."
+			},
+			new string[2]{
+				"To see that Tyrant’s serpent free of its shackles. It gave me chills.",
+				"Para ver a serpente do Tirano livre de suas algemas. Isso me deu arrepios."
+			},
+			new string[2]{
+				"Meet me at " + givenNames[4] + "'s house at night. We're going to throw him to the Trashers.",
+				"Encontre-me na casa de " + givenNames[4] + " à noite. Vamos jogá-lo para os crocodilos."
+			},
+			new string[2]{
+				"Not sure how " + givenNames[4] + " has not been roasted and digested by now, hanging around the sulphuric seas for so long. Perhaps it got to his head.",
+				"Não sei como " + givenNames[4] + " não foi torrado e digerido agora, estando perto dos mares sulfúricos por tanto tempo. Talvez tenha subido à cabeça dele."
+			},
+			new string[2]{
+				givenNames[5] + " asked if my nose could be used as a vuvuzela. What is a vuvuzela?",
+				givenNames[5] + " perguntou se meu nariz poderia ser usado como uma vuvuzela. O que é uma vuvuzela?"
+			},
+			new string[2]{
+				"Rumor has it " + givenNames[2] + " drinks to forget her troubled past.",
+				"Rumores dizem que " + givenNames[2] + " bebe para esquecer seu passado conturbado."
+			},
+			new string[2]{
+				"I must admit, the Witch's presence is unsettling to me. But so many years have passed, and she too has suffered much.",
+				"Devo admitir, a presença da Bruxa é inquietante para mim. Mas tantos anos se passaram e ela também sofreu muito."
+			},
+
+			//Bandit
+			new string[2]{
+				"Anything is a weapon if you throw it hard enough.",
+				"Qualquer coisa pode ser uma arma se você jogá-la com força o suficiente."
+			},
+			new string[2]{
+				"That's your chucking arm? You need to work out more.",
+				"Esse é o seu braço de arremesso? Você precisa se exercitar mais."
+			},
+			new string[2]{
+				"Listen here. It's all in the wrist, the wrist! Oh, forget it.",
+				"Escuta aqui. É tudo no pulso, no pulso! Ah, esquece."
+			},
+			new string[2]{
+				"Eh you know how it goes; steal from the rich, give to the poor, but I do take a cut of the profit.",
+				"É, você sabe como é; roubar dos ricos, e dar para os pobres, mas eu recebo uma parte do lucro."
+			},
+			new string[2]{
+				"Snakes! Why does it always have to be snakes!",
+				"Cobras! Por que sempre tem que ser cobras!"
+			},
+			new string[2]{
+				"It's super nice you know, to just have everything you want. Some people never got that luxury.",
+				"É muito legal, você sabe, ter tudo o que você quer. Algumas pessoas nunca tiveram esse luxo."
+			},
+			new string[2]{
+				"It's not stealing! I'm just borrowing it until I die!",
+				"Não é roubo! Só estou pegando emprestado até que eu morra!"
+			},
+			new string[2]{
+				"Hm, the stars are too bright tonight. Makes sneaking around a little more difficult.",
+				"Hm, as estrelas estão muito brilhantes esta noite, vai ser mais difícil me esconder."
+			},
+			new string[2]{
+				"Hm, the stars are too bright tonight. Makes sneaking around a little more difficult.",
+				"Você acha que aquelas estrelas que caem ocasionalmente fariam boas armas arremessáveis??"
+			},
+			new string[2]{
+				"You think those stars that fall occasionally would make good throwing weapons?",
+				"Você acha que aquelas estrelas que caem ocasionalmente fariam boas armas arremessáveis?"
+			},
+			new string[2]{
+				"Oy, watch where you're going or I might just use you for dart practice.",
+				"Opa, presta atenção pra onde tá indo, ou posso acabar usando você como um alvo."
+			},
+			new string[2]{
+				"Bet you'd look good as a pincushion, amiright?",
+				"Aposto que você ficaria bem como um saco de pancadas, não acha?"
+			},
+			new string[2]{
+				"Zombies don't dodge very well. Maybe you'll do a bit better.",
+				"Os zumbis não conseguem desviar muito bem. Talvez você se saia um pouco melhor que eles."
+			},
+			new string[2]{
+				"Hey, careful over there. I've rigged the place. One wrong step and you're going to get a knife in your forehead.",
+				"Ei, cuidado aí, eu enchi o lugar de armadilhas. Um passo errado e você levará uma facada na testa."
+			},
+			new string[2]{
+				"Where is my party hat? Well, I stole it of course.",
+				"Onde está o meu chapéu de festa? Bem, eu roubei ele, é claro."
+			},
+			new string[2]{
+				"The nice thing about maps is I can track anything that has fallen.",
+				"A bom dos mapas é que eu posso rastrear qualquer coisa que caiu."
+			},
+			new string[2]{
+				"Imagine how fast you could throw if you just had more hands.",
+				"Imagine o quão rápido você poderia lançar se você tivesse mais mãos."
+			},
+			new string[2]{
+				"Usually I only think of animals as food or target practice, but dragons are an exception.",
+				"Normalmente, só penso nos animais como comida ou tiro ao alvo, mas os dragões são uma exceção."
+			},
+			new string[2]{
+				"I also take food for currency.",
+				"Eu também aceito comida como pagamento."
+			},
+			new string[2]{
+				"I'd rather not be here. This place has bad vibes, y'know? It brings back some unpleasant memories.",
+				"Prefiro não estar aqui. Este lugar tem uma energia ruim, sabe? Ele traz de volta algumas memórias desagradáveis."
+			},
+			new string[2]{
+				"Wouldn't be the first time I used my friends' remains as weapons.",
+				"Não seria a primeira vez que eu usei os restos mortais dos meus amigos como armas."
+			},
+			new string[2]{
+				"All sorts of new weapons to be found and looted. Get to that, and I'll share some of my collection too!",
+				"Todos os tipos de arms novas para serem encontrados e saqueados. Faça isso e eu compartilharei um pouco da minha coleção também!"
+			},
+			new string[2]{
+				"There's so much scrap around this land with valuable parts to them. Makes you wonder who could afford to leave em all around.",
+				"Há muita sucata ao redor desta terra com peças valiosas nelas. Quem será que poderia deixá-los por aí?"
+			},
+			new string[2]{
+				"Crypts, tombs, dungeons, those're all just treasure troves to me. The dead are dead, they've got nothing to do with it.",
+				"Criptas, tumbas, calabouços, todos estes são tesouros para mim. Os mortos estão mortos, eles não têm nada contra."
+			},
+			new string[2]{
+				"If you find anything cool, make sure to drop by and show it to me, I promise I’ll keep my hands off it.",
+				"Se você encontrar algo legal, não se esqueça de passar por aqui e mostrar pra mim, eu prometo que vou manter minhas mãos fora."
+			},
+			new string[2]{
+				"If you find anything cool, make sure to drop by and show it to me, I promise I’ll keep my hands off it.",
+				"Se você encontrar algo legal, não se esqueça de passar por aqui e mostrar pra mim, eu prometo que vou manter minhas mãos fora."
+			},
+			new string[2]{
+				"So many new things to steal, I can’t think of where to start!",
+				"Tantas coisas novas para roubar, não sei por onde começar!"
+			},
+			new string[2]{
+				"If I end up angering some deities or whatever, would you mind taking the blame for me?",
+				"Se eu acabar irritando algumas divindades ou algo do tipo, você se importaria de assumir a culpa por mim?"
+			},
+			new string[2]{
+				"Oh man, did you rip that off a shark!? Now that's a weapon!",
+				"Cara, você arrancou isso de um tubarão!? Isso que é uma arma de verdade!"
+			},
+			new string[2]{
+				"Don't tell " + givenNames[3] + ", but I took some of his stuff and replaced it with Angel Statues.",
+				"Não diga a " + givenNames[3] + ", mas eu peguei algumas das coisas dele e substituí por estátuas de anjo."
+			},
+			new string[2]{
+				"Hey, hey, has Calamitas seriously moved in here with us? Why???",
+				"Ei, ei! É sério que a Calamitas se mudou aqui com a gente? Por que??"
+			},
+			new string[2]{
+				"Don't tell " + givenNames[0] + " that I was responsible for " + givenNames[1] + "'s injuries.",
+				"Não diga a " + givenNames[0] + " que eu fui responsável pelas feridas de " + givenNames[1] + "."
+			},
+			new string[2]{
+				"I learned never to steal " + givenNames[2] + "'s drinks. She doesn't appreciate me right now so I'll go back to hiding.",
+				"Aprendi a nunca roubar as bebidas de " + givenNames[2] + ". Ela não gosta de mim agora, então vou voltar a me esconder."
+			},
+
+			//Drunk Princess
+			new string[2]{
+				"I could smell my vodka from MILES away!",
+				"Eu podia sentir o cheiro da minha vodka a QUILÔMETROS de distância!"
+			},
+			new string[2]{
+				"Have any spare rooms available? Preferably candle-lit with a hefty supply of booze?",
+				"Tem algum quarto disponível? De preferência à luz de velas com uma boa quantidade de bebida?"
+			},
+			new string[2]{
+				"I HATE WALMART! ...Anyway, what do you want this time?",
+				"EU ODEIO O WALMART! ...Enfim, o que você quer desta vez?"
+			},
+			new string[2]{
+				"Deals so good I'll [$$!$] myself! ...Sorry, just had a minor stroke!",
+				"Promoções tão boas que eu até me [$$!$]! ...Desculpe, acabei de ter um pequeno derrame!"
+			},
+			new string[2]{
+				"Did anyone ever tell you that large assets cause back pain? Well, they were right.",
+				"Alguém já lhe disse que coisas grandes causam dor nas costas? Bem, eles estavam certos."
+			},
+			new string[2]{
+				"Drink something that turns you into a magical flying unicorn so you can be just like me.",
+				"Beba algo que te transforme em um unicórnio voador mágico para que você possa ser igual a mim."
+			},
+			new string[2]{
+				"I'm literally balls drunk off my sass right now, what do you want?",
+				"Estou literalmente tão bêbada para ser atrevida agora, o que você quer?"
+			},
+			new string[2]{
+				"I'm either laughing because I'm drunk or because I've lost my mind, probably both.",
+				"Ou estou rindo porque estou bêbada ou porque perdi a cabeça, provavelmente os dois."
+			},
+			new string[2]{
+				"When I'm drunk I'm way happier... at least until the talking worms start to appear.",
+				"Quando estou bêbada, eu fico muito mais feliz... pelo menos até que os vermes falantes comecem a aparecer."
+			},
+			new string[2]{
+				"I should reprogram the whole mod, while drunk, then send it back to the testers.",
+				"Eu devia reprogramar o mod inteiro, enquanto estou bêbada, e então enviar ele de volta para os testadores."
+			},
+			new string[2]{
+				"A perfect night to light some candles, drink some wine and relax.",
+				"Uma noite perfeita para acender algumas velas, beber um pouco de vinho e relaxar."
+			},
+			new string[2]{
+				"Here's a challenge... take a shot for every time you've had to look at the wiki. Oh wait, you'd die.",
+				"Aqui está um desafio... beba uma dose toda vez que você teve que consultar o wiki. Ah, espera, você morreria."
+			},
+			new string[2]{
+				"Yes, everyone knows the mechworm is buggy. Well, not anymore, but still.",
+				"Sim, todo mundo sabe que o vermecânico é bugado. Bem, ele não é mais, mas ainda sim."
+			},
+			new string[2]{
+				"You lost or something? I don't mind company, but I'd rather be left alone at night.",
+				"Você está perdido ou algo assim? Não me importo de ter compania, mas prefiro ficar sozinha à noite."
+			},
+			new string[2]{
+				"You lost or something? I don't mind company, but I'd rather be left alone at night.",
+				"Você está perdido ou algo assim? Não me importo de ter compania, mas prefiro ficar sozinha à noite."
+			},
+			new string[2]{
+				"Are you sure you're 21? ...Alright, fine, but don't tell anyone I sold you these.",
+				"Você tem certeza que tem mais de 18 anos? ...Tudo bem, mas não fala para ninguém que eu vendi isso pra você."
+			},
+			new string[2]{
+				"I'm gonna make some Bloody Marys to relax, celery included. Want one?",
+				"Vou preparar algumas Marias Sangrentas, incluindo aipo. Quer uma?"
+			},
+			new string[2]{
+				"If you're too lazy to craft potions normally, try Blood Orbs. Blood is fuel, dumbass.",
+				"Se você for muito preguiçoso para criar poções normalmente, experimente os Orbes de Sangue. Sangue é combustível, idiota."
+			},
+			new string[2]{
+				"I'm trying to not be bitchy tonight, but it's hard when everyone else won't shut up.",
+				"Estou tentando não ser chata esta noite, mas é difícil quando ninguém quer calar a boca."
+			},
+			new string[2]{
+				"Sorry, I have no moral compass at the moment.",
+				"Desculpe, eu não tenho um guia moral do momento."
+			},
+			new string[2]{
+				"You'll always find me at parties where booze is involved... well, you'll always find BOOZE where I'M involved!",
+				"Você sempre me encontrará em festas onde a bebida está envolvida... bem, você sempre encontrará BEBIDAS onde EU estiver envolvida."
+			},
+			new string[2]{
+				"I'm melting! Put a stop to this inclement weather this instant before it ruins my hair!",
+				"Eu estou derretendo! Ponha um fim a este tempo inclemente antes que ele estrague meu cabelo!"
+			},
+			new string[2]{
+				"You should probably deal with those ayy lmaos before anything else, but whatever.",
+				"Você provavelmente deveria lidar com esses ets bilu antes de qualquer coisa, mas tanto faz."
+			},
+			new string[2]{
+				"Why are you talking to me right now? Shouldn't you be bumbling around and dying for my amusement?",
+				"Por que você está falando comigo agora? Você não deveria estar se atrapalhando e morrendo para a minha diversão?"
+			},
+			new string[2]{
+				"God I can't wait to smash some ice again! ...For drinks, of course.",
+				"Meu Deus, eu mal posso esperar para bater no gelo de novo! ...Para bebidas, é claro."
+			},
+			new string[2]{
+				"How could you murder such a beautiful creature!? ...The blue sexy one, not the obese cucumber.",
+				"Como você pôde matar uma criatura tão linda!? ...A gostosa de azul, não o pepino obeso."
+			},
+			new string[2]{
+				"I saw a ghost down by the old train tracks back at my homeland once, flailing wildly at the lily pads... frightening times those were.",
+				"Uma vez, na minha terra natal, vi um fantasma perto dos trilhos do velho trem, se debatendo descontroladamente nas vitórias régias... que tempos assustadores."
+			},
+			new string[2]{
+				"I hear it's amazing when the famous Devourer of Gods out in flap-jaw space, with the tuning fork, does a raw blink on Hara-kiri rock. I need scissors! 61!",
+				"Ouvi dizer que é incrível quando o famoso Devorador de Deuses no espaço da mandíbula aberta, com o diapasão, pisca bruscamente na rocha Hara-kiri. Eu preciso de uma tesoura! 61!"
+			},
+			new string[2]{
+				"Tell " + givenNames[8] + " to stop calling me. He's not wanted.",
+				"Diga a " + givenNames[8] + " para parar de me ligar. Não estou interessada."
+			},
+			new string[2]{
+				"I've had to tell baldie where my eyes are so many times that I've lost count.",
+				"Tive que dizer para o carequinha onde os meus olhos estão tantas vezes que perdi a conta."
+			},
+			new string[2]{
+				"I've had to tell baldie where my eyes are so many times that I've lost count.",
+				"Tive que dizer para o carequinha onde os meus olhos estão tantas vezes que perdi a conta."
+			},
+			new string[2]{
+				"My booze will always be better than " + givenNames[8] + "'s, and nobody can convince me otherwise.",
+				"Minha bebida sempre será melhor do que a de " + givenNames[8] + ", e ninguém pode me convencer que não."
+			},
+			new string[2]{
+				"You can't stop me from trying to move in with " + givenNames[6] + ".",
+				"Você não pode me impedir de tentar morar com " + givenNames[6] + "."
+			},
+			new string[2]{
+				"I love it when " + givenNames[6] + "'s hands get sticky from all that... wax.",
+				"Eu adoro quando as mãos de " + givenNames[6] + " ficam pegajosas com toda aquela... cera."
+			},
+			new string[2]{
+				givenNames[6] + " works wonders for my hair... among other things.",
+				givenNames[6] + " faz maravilhas para o meu cabelo... entre outras coisas."
+			},
+			new string[2]{
+				"Ever since " + givenNames[6] + " moved in I haven't been drinking as much... a strange but not unwelcome feeling.",
+				"Desde que " + givenNames[6] + " se mudou, eu não tenho bebido tanto... uma sensação estranha, mas não indesejada."
+			},
+			new string[2]{
+				"I should watch some movies with " + givenNames[6] + " tonight. You could come too, but only if you bring snacks for us.",
+				"Eu devo assistir alguns filmes com " + givenNames[6] + " hoje à noite. Você poderia vir também, mas apenas se você trouxer lanches para nós."
+			},
+			new string[2]{
+				"The abuse Calamitas went through is something I can hardly comprehend. I'd offer her a drink, but I don't think she'd enjoy it.",
+				"O abuso que Calamitas sofreu é algo que eu mal consigo compreender. Eu ofereceria a ela uma bebida, mas eu não acho que ela gostaria."
+			},
+			new string[2]{
+				"I never realized how well-endowed " + givenNames[7] + " was. It had to be the largest icicle I'd ever seen.",
+				"Eu nunca percebi o quão bem dotado " + givenNames[7] + " era. Tinha que ser o maior gelão que eu já vi."
+			},
+			new string[2]{
+				givenNames[6] + " helped me learn to accept my past. It's been rough, but I think I'm on the right track now.",
+				givenNames[6] + " me ajudou a aprender a aceitar o meu passado. Tem sido difícil, mas eu acho que estou no caminho certo agora."
+			},
+			new string[2]{
+				"Might go out for a jog later with " + givenNames[6] + ". Nice day for it.",
+				"Talvez eu saia para correr com " + givenNames[6] + " mais tarde. É um bom dia para isso.",
+			},
+			new string[2]{
+				"I drink to forget certain... things. What things, you might ask? Well, the point is to forget them, isn't it?",
+				"Eu bebo para esquecer certas... coisas. Que coisas, você pergunta? Bem, a questão é esquecê-los, não é?",
+			},
+			new string[2]{
+				"What a great day! Might just drink so much that I get poisoned again.",
+				"Que dia ótimo! Talvez eu beba tanto que fique envenenada novamente."
+			},
+			new string[2]{
+				"Ever wondered why the Moon Lord needed so many tentacles? Uh... on second thought, I won't answer that.",
+				"Já se perguntou por que o Senhor da Lua precisava de tantos tentáculos? Hm... pensando bem, não irei responder."
+			},
+			new string[2]{
+				"Oh yeah, now you're drinking the good stuff! Do you like it? I created the recipe by mixing fairy dust, crystals and other magical crap.",
+				"Aí sim, agora você está bebendo uma das boas! Você gostou? Eu criei a receita misturando pó de fada, cristais e outras porcarias mágicas."
+			},
+			new string[2]{
+				"The hell is that? Looks like something I'd carry around if I was 5 years old.",
+				"O que diabos é isso? Parece algo que eu carregaria se eu tivesse 5 anos."
+			},
+			new string[2]{
+				"Nice scales... is it hot in here or is it just me?",
+				"Belas escamas... por acaso, está ficando quente aqui ou sou só eu?"
+			},
+			new string[2]{
+				"So... you found my special bottle. Hope you enjoy it, I know I will.",
+				"Então... você encontrou a minha garrafa especial. Espero que você se divirta, eu sei que eu vou."
+			},
+			new string[2]{
+				"Be sure to dismount me once in a while, I get tired. And besides, I can't rip you off-I mean offer you excellent deals you won't find anywhere else if you're riding me 24/7.",
+				"Certifique-se de desmontar-se de mim de vez em quando, eu fico cansada. E, além disso, não posso enganá-lo- quero dizer, oferecer excelentes promoções que você não econtrará em nenhum outro lugar se você estiver montando em mim 24 horas por dia."
+			},
+			new string[2]{
+				"Before you ask, no, I do NOT have a heart on my butt while in human form. Don't question my transformation preferences!",
+				"Antes que pergunte, não, eu NÃO tenho um coração na minha bunda enquanto estou minha forma humana. Não questione as minhas preferências de transformação!"
+			},
+
+			//Archmage
+			new string[2]{
+				"I deeply appreciate you rescuing me from being trapped within my frozen castle... It's been many, many years...",
+				"Agradeço profundamente por você ter me resgatado de estar preso em meu castelo de gelo... Já se passaram anos, muitos anos..."
+			},
+			new string[2]{
+				"I have not seen such a sky in decades. Who are you, to so brazenly march against that Tyrant?",
+				"Faz décadas que não vejo tal céu. Quem é você, para marchar tão descaradamente contra aquele Tirano?"
+			},
+			new string[2]{
+				"The tundra’s unnatural state is not all my doing. Decades ago, I came across it and amplified the climate with my magic.",
+				"O estado não natural da tundra não é obra minha. Décadas atrás, eu me deparei com ela e ampliei o clima com minha magia."
+			},
+			new string[2]{
+				"If you have a request, make it quick. I am in the process of weaving a spell, which requires great focus.",
+				"Se você tem um pedido, faça-o rápido. Estou no processo de composição de um feitiço, o que requer grande concentração."
+			},
+			new string[2]{
+				"You have the makings of a gifted mage. Tell me, what do you think of ice magic?",
+				"Você tem as qualidades de um mago talentoso. Me diga, o que você acha da magia de gelo?"
+			},
+			new string[2]{
+				"Flowers and the like don’t hold a candle to the beauty of intricately formed ice.",
+				"Flores e coisas parecidas não se comparam à beleza do gelo intrincadamente formado."
+			},
+			new string[2]{
+				"O sol bate forte sobre as minhas criações aqui. Se você me permitir, posso conjurar uma nevasca de vez em quando...",
+				"The sun beats down harshly upon my creations here. If you would allow me to conjure a blizzard every now and then..."
+			},
+			new string[2]{
+				"I must admit, I’m not quite used to this weather. It's far too warm for my tastes...",
+				"Devo admitir, não estou muito acostumado com este clima. Está quente demais para o meu gosto..."
+			},
+			new string[2]{
+				"Nightfall is a good time for practicing magic. We mages often rely on celestial bodies and their fragments to enhance our mana.",
+				"O anoitecer é uma boa hora para praticar a magia. Nós, magos, dependemos muito de corpos celestes e seus fragmentos para aprimorar a nossa mana."
+			},
+			new string[2]{
+				"Necromancy was never a field I found interesting. Why utilize the rotting corpses of people, when you could form far more elegant servants of ice?",
+				"Necromancia nunca foi um campo que eu achei interessante. Por que utilizar cadáveres podres de pessoas, quando você pode formar lacaios de gelo muito mais elegantes?"
+			},
+			new string[2]{
+				"Sometimes... I feel like all I'm good for during these events is making ice cubes and slushies.",
+				"Às vezes... eu sinto que, durante esses eventos, eu sirvo apenas para fazer cubos de gelo e raspadinhas."
+			},
+			new string[2]{
+				"If your blood were to thoroughly freeze, it would be quite fatal.",
+				"Se o seu sangue congelasse completamente, seria fatal."
+			},
+			new string[2]{
+				"The undead which roam tonight are still monsters of blood and guts, but they seem... fresher.",
+				"Os mortos-vivos que vagam hoje à noite ainda são monstros de sangue e vísceras, mas eles parecem... mais frescos."
+			},
+			new string[2]{
+				"The undead which roam tonight are still monsters of blood and guts, but they seem... fresher.",
+				"Os mortos-vivos que vagam hoje à noite ainda são monstros de sangue e vísceras, mas eles parecem... mais frescos."
+			},
+			new string[2]{
+				"It is shocking, to see you have come so far. I wish you the best of luck on your future endeavours.",
+				"É chocante ver que você chegou tão longe. Eu desejo boa sorte para você em seus empreendimentos futuros."
+			},
+			new string[2]{
+				"You, having bested so many beings, even deities, I wonder if I have anything left to offer you.",
+				"Você, tendo superado tantos seres, até mesmo divindades, me pergunto se ainda tenho algo a te oferecer."
+			},
+			
+			//Calamitas
+			new string[2]{
+				"I'm considering moving back to that old cave of mine.",
+				"Estou pensando em voltar para minha velha caverna."
+			},
+			new string[2]{
+				"I certainly can't return to the Tyrant's old dwellings now, have you got any places to stay?",
+				"Certamente não posso voltar para as antigas habitações do Tirano agora, você tem algum lugar onde eu possa ficar?"
+			},
+			new string[2]{
+				"I can't pay rent, but if you've got any dead relative you want me to try and... what? You don't?",
+				"Eu não posso pagar aluguel, mas se você tiver algum parente morto que quer que eu tente... o quê? Você não quer?"
+			},
+			new string[2]{
+				"One of these days, I was thinking of starting a garden with the flowers from the old capitol of hell. I love the smell of brimstone in the morning.",
+				"Um dia desses, estava pensando em começar um jardim com as flores da antiga capital do inferno. Adoro o cheiro de enxofre pela manhã."
+			},
+			new string[2]{
+				"I think I've settled comfortably, thank you very much.",
+				"Acho que me acomodei confortavelmente, muito obrigada."
+			},
+			new string[2]{
+				"Many seasons have gone by since I first met with the Tyrant, and only now did I break free. I wish I'd been stronger...",
+				"Muitas estações se passaram desde que me encontrei com o Tirano, e só agora eu me libertei. Eu queria ter sido mais forte..."
+			},
+			new string[2]{
+				"If you've got any curses you want dispelled... well I'm not your person.",
+				"Se você tem alguma maldição que deseja dissipar... bem, eu não sou quem você procura."
+			},
+			new string[2]{
+				"These undead are horrific, I can't stand to look at them. How could anyone be satisfied with such amateur work?",
+				"Estes mortos-vivos são horríveis, eu não suporto olhar para eles. Como que alguém ficaria satisfeito com esse trabalho amador?"
+			},
+			new string[2]{
+				"I don't think it's a stretch to say that astrology is utter nonsense... but it was a hobby of mine once.",
+				"Não acho exagero dizer que astrologia é um absurdo total... mas já foi um hobby meu."
+			},
+			new string[2]{
+				"Such an unnatural shade of red. Nothing like my brimstone flames.",
+				"Um tom de vermelho tão pouco natural. Nada como minhas chamas de enxofre."
+			},
+			new string[2]{
+				"I can't work with nights like these. The stars seem to have shrunk away in fear.",
+				"Não posso trabalhar com noites como esta. As estrelas parecem ter encolhido de medo."
+			},
+			new string[2]{
+				"If another person asks me if I can dance or not, I will light their hat on fire.",
+				"Se outra pessoa me perguntar se eu sei dançar ou não, eu vou colocar fogo no chapéu dela."
+			},
+			new string[2]{
+				"I cannot understand the Sea King. He does not seem to want me dead. That amount of compassion I just can't understand.",
+				"Eu não consigo entender o Rei dos Mares. Ele parece não me querer morta. Essa quantidade de compaixão eu simplesmente não consigo entender."
+			},
+			new string[2]{
+				"That frosty old man... even if you ignore our brands of magic and our old alliances, I doubt I'd ever get along with him.",
+				"Aquele velhote gelado... mesmo que você ignore nossas marcas de magia e nossas antigas alianças, duvido que algum dia eu me daria bem com ele."
+			},
+			new string[2]{
+				"I wonder if Cirrus ever feels cold given how revealing her dress is. Perhaps she should cover up a bit more.",
+				"Eu me pergunto se Cirrus sente frio, dado o quão revelador o seu vestido é. Talvez ela devesse se cobrir um pouco mais."
+			},
+			new string[2]{
+				"Mrrp is cringe.",
+				"Mrrp é cringe."
+			},
+
+			//Vanilla NPCs
+			//Angler
+			new string[2]{
+				"Someone tell " + givenNames[10] + " to quit trying to throw me out of town, it's not going to work.",
+				"Alguém diga a " + givenNames[10] + " para parar de tentar me expulsar da cidade, não vai funcionar."
+			},
+
+			//Arms Dealer
+			new string[2]{
+				"That's the biggest moth I've ever seen for sure. You'd need one big gun to take one of those down.",
+				"Essa é a maior mariposa que eu já vi, com certeza. Você precisará de uma grande arma para derrubar uma delas."
+			},
+			new string[2]{
+				"Is it me or are your weapons getting bigger and bigger?",
+				"É impressão minha ou suas armas estão ficando cada vez maiores?"
+			},
+
+			//Clothier
+			new string[2]{
+				"Houston, we've had a problem.",
+				"Houston, temos um problema."
+			},
+			new string[2]{
+				"Who you gonna call?",
+				"Quem você vai chamar?"
+			},
+			new string[2]{
+				"Those screams...I'm not sure why, but I feel like a nameless fear has awoken in my heart.",
+				"Aqueles gritos... Não sei por que, mas sinto como se um medo sem nome tivesse despertado em meu coração."
+			},
+			new string[2]{
+				"I can faintly hear ghostly shrieks from the dungeon...and not ones I'm familiar with at all. Just what is going on in there?",
+				"Ouço vagamente gritos fantasmagóricos vindos da masmorra... e não aqueles que eu conheço. O que está acontecendo lá?"
+			},
+			new string[2]{
+				"Whatever that thing was, I'm glad it's gone now.",
+				"Não sei o que era aquela coisa, mas estou feliz que ela já foi."
+			},
+
+			//Cyborg
+			new string[2]{
+				"All these moments will be lost in time. Like tears...in the rain.",
+				"Todos esses momentos se perderão com o tempo, como lágrimas... na chuva."
+			},
+			new string[2]{
+				"Always shoot for the moon! It has clearly worked before.",
+				"Sempre mire para a lua! Claramente já funcionou antes."
+			},
+			new string[2]{
+				"Draedon? He's...a little 'high octane' if you know what I mean.",
+				"Draedon? Ele... é meio 'sobrecarregado' se você entende o que quero dizer."
+			},
+			new string[2]{
+				"Those oversized bugs terrorizing the jungle... Surely you of all people could shut them down!",
+				"Esses insetos enormes aterrorizando a selva... Certamente você, de todas as pessoas, poderia encerrá-los!"
+			},
+
+			//Demolitionist
+			new string[2]{
+				"God Slayer Dynamite? Boy do I like the sound of that!",
+				"Dinamite Assassina de Deuses? Cara, gostei do som disso!"
+			},
+
+			//Dryad
+			new string[2]{
+				"There's a dark solar energy emanating from the moths that appear during this time. Ah, the moths as you progress further get more powerful...hmm...what power was Yharon holding back?",
+				"Há uma energia solar escura emanando das mariposas que aparecem durante esse período. Ah, as mariposas ficam mais poderosas à medida que você avança...hmm...que poder Yharon estava segurando?"
+			},
+			new string[2]{
+				"That starborne illness sits upon this land like a blister. Do even more vile forces of corruption exist in worlds beyond?",
+				"Essa doença transmitida pelas estrelas assenta nesta terra como uma bolha. Existem forças ainda mais vis da corrupção em outros mundos?"
+			},
+			new string[2]{
+				"\u0093I'm not here for any reason! Just picking up mushrooms for uh, later use.",
+				"\u0093Não estou aqui por nenhum motivo em específico! Só estou recolhendo cogumelos para, uh, usar mais tarde."
+			},
+			new string[2]{
+				givenNames[2] + " put me up to this.",
+				"Foi" + givenNames[2] + " quem me disse para fazer isso."
+			},
+			new string[2]{
+				"My ancestor was lost here long ago. I must pay my respects to her.",
+				"Minha ancestral foi perdida aqui há muito tempo. Devo prestar meus respeitos a ela."
+			},
+
+			//Dye Trader
+			new string[2]{
+				"Have you seen those gemstone creatures in the caverns? Their colors are simply breathtaking!",
+				"Você já viu as criaturas de pedras preciosas nas cavernas? Suas cores são de tirar o fôlego!"
+			},
+			new string[2]{
+				"Do you think " + givenNames[7] + " knows how to 'let it go?'",
+				"Você acha que " + givenNames[7] + " diria 'livre estou?'"
+			},
+
+			//Goblin Tinkerer
+			new string[2]{
+				"Hey, is it just me or have my pockets gotten lighter ever since " + givenNames[11] + " arrived?",
+				"Ei, é impressão minha ou os meus bolsos ficaram mais leves desde que " + givenNames[11] + " chegou?"
+			},
+			new string[2]{
+				"You know...we haven't had an invasion in a while...",
+				"Sabe...não tivemos uma invasão há um tempo..."
+			},
+
+			//Guide
 			new string[2]{
 				"Could you be so kind as to, ah...check hell for me...? I left someone I kind of care about down there.",
 				"Você poderia ter a gentileza de, ah... verificar o inferno para mim...? Eu deixei alguém meio importante para mim lá embaixo."
@@ -242,50 +934,54 @@ public class CalamityGlobalNPCPT : GlobalNPC
 				"I've heard there is a portal of antimatter absorbing everything it can see in the dungeon, try using the Rune of Kos there!",
 				"Ouvi dizer que há um portal de antimatéria absorvendo tudo o que consegue ver no calabouço. Tente usar a Runa de Kós lá!"
 			},
+
+			//Mechanic
 			new string[2]{
-				"I don't feel very safe; I think there's pigs following me around and it frightens me.",
-				"Não me sinto muito seguro; acho que tem porcos me seguindo por todo o lugar, e isso me deixa aterrorizado."
+				"What do you mean your traps aren't making the cut? Don't look at me!",
+				"Como assim, as suas armadilhas não estão mais dando conta? Não olhe para mim!"
 			},
 			new string[2]{
-				"Sometimes, " + givenNames[2] + " just looks at me funny and I'm not sure how I feel about that.",
-				"Ás vezes, " + givenNames[2] + " olha para mim de um jeito engraçado e eu não tenho certeza de como eu me sinto sobre isso."
+				"Um...should my nightlight be on?",
+				"Um...minha luz noturna deveria estar acesa?"
 			},
 			new string[2]{
-				"Someone tell " + givenNames[10] + " to quit trying to throw me out of town, it's not going to work.",
-				"Alguém diga a " + givenNames[10] + " para parar de tentar me expulsar da cidade, não vai funcionar."
+				"Well, I like " + givenNames[2] + ", but I, ah...I have my eyes on someone else.",
+				"Bem, eu gosto de " + givenNames[2] + ", mas eu , ah... eu estou de olho em outra pessoa."
 			},
 			new string[2]{
-				"Tell " + givenNames[2] + " I'll take up her offer and meet with her at the back of " + givenNames[3] + "'s house.",
-				"Diga a " + givenNames[2] + " que eu aceitarei a sua oferta e me encontrarei com ela nos fundos da casa de " + givenNames[3] + "."
+				"Maybe I should've waterproofed my gadgets... They're starting to corrode.",
+				"Talvez eu devesse ter impermeabilizado meus dispositivos... Eles estão começando a corroer."
+			},
+
+			//Merchant
+			new string[2]{
+				"Each night seems only more foreboding than the last. I feel unthinkable terrors are watching your every move.",
+				"Cada noite parece apenas mais agourenta do que a anterior. Eu sinto que terrores impensáveis estão observando cada movimento seu."
 			},
 			new string[2]{
-				"What'dya buyin'?",
-				"Que que você vai comprar?"
+				"Are you daft?! Turn off those lamps!",
+				"Você está maluco?! Desligue essas lâmpadas!"
 			},
 			new string[2]{
-				"My home here has an extensive history and a mysterious past. You'll find out quickly just how extensive it is...",
-				"Meu lar aqui tem uma longa história e um passado misterioso. Você descobrirá rapidamente o quão extenso é..."
+				"If this acid rain keeps up, there'll be a shortage of Dirt Blocks soon enough!",
+				"Se essa chuva ácida continuar, logo haverá uma escassez de blocos de terra!"
 			},
 			new string[2]{
-				"I have unique items if you show me that you have bested the guardian of this jungle.",
-				"Possuo itens únicos se você me mostrar que superou o guardião desta selva."
+				"I happen to have several Angel Statues at the moment, a truely rare commodity. Want one?",
+				"Por acaso, eu tenho várias estátuas de anjo no momento, uma mercadoria realmente rara. Quer uma?"
 			},
 			new string[2]{
-				"This is as good a time as any to pick up the best ingredients for potions.",
-				"É uma boa hora para recolher os melhores ingredientes para poções."
+				"The caverns have become increasingly dark as of late, so I stocked up on some special torches if you have the funds.",
+				"As cavernas têm se tornado cada vez mais escuras ultimamente, então eu estoquei algumas tochas especiais, se você tiver dinheiro."
 			},
+
+			//Nurse
 			new string[2]{
-				"I have a feeling we're going to have absolutely fantastic parties with " + givenNames[2] + " around!",
-				"Tenho a sensação de que vamos ter festas absolutamente fantásticas com " + givenNames[2] + " por perto!"
+				"Now is not the time!",
+				"Agora não é hora!"
 			},
-			new string[2]{
-				"I think my light display is turning into an accidental bug zapper. At least the monsters are enjoying it.",
-				"Acho que meu display de luzes está virando um mata-mosquitos acidental. Pelo menos os monstros estão gostando."
-			},
-			new string[2]{
-				"Ooh! I love parties where everyone wears a scary costume!",
-				"Ooh! Eu amo festas onde todos vestem fantasias assustadoras!"
-			},
+
+			//Painter
 			new string[2]{
 				"A little sickness isn't going to stop me from doing my work as an artist!",
 				"Uma pequena doença não vao me impedir de fazer meu trabalho como artista!"
@@ -342,122 +1038,22 @@ public class CalamityGlobalNPCPT : GlobalNPC
 				"Easiest landscape I've ever painted in my life.",
 				"Esta foi a paisagem mais fácil que já pintei na minha vida."
 			},
+
+			//Party Girl
 			new string[2]{
-				"I'd let " + givenNames[7] + " coldheart MY icicle.",
-				"Eu deixaria " + givenNames[7] + " congelar o MEU sincelo."
+				"I have a feeling we're going to have absolutely fantastic parties with " + givenNames[2] + " around!",
+				"Tenho a sensação de que vamos ter festas absolutamente fantásticas com " + givenNames[2] + " por perto!"
 			},
 			new string[2]{
-				"Space just got way too close for comfort.",
-				"O espaço está perigosamente perto."
+				"I think my light display is turning into an accidental bug zapper. At least the monsters are enjoying it.",
+				"Acho que meu display de luzes está virando um mata-mosquitos acidental. Pelo menos os monstros estão gostando."
 			},
 			new string[2]{
-				"There's a dark solar energy emanating from the moths that appear during this time. Ah, the moths as you progress further get more powerful...hmm...what power was Yharon holding back?",
-				"Há uma energia solar escura emanando das mariposas que aparecem durante esse período. Ah, as mariposas ficam mais poderosas à medida que você avança...hmm...que poder Yharon estava segurando?"
+				"Ooh! I love parties where everyone wears a scary costume!",
+				"Ooh! Eu amo festas onde todos vestem fantasias assustadoras!"
 			},
-			new string[2]{
-				"That starborne illness sits upon this land like a blister. Do even more vile forces of corruption exist in worlds beyond?",
-				"Essa doença transmitida pelas estrenas assenta nesta terra como uma bolha. Existem forças ainda mais vis da corrupção em outros mundos?"
-			},
-			new string[2]{
-				givenNames[2] + " put me up to this.",
-				"Foi" + givenNames[2] + " quem me disse para fazer isso."
-			},
-			new string[2]{
-				"My ancestor was lost here long ago. I must pay my respects to her.",
-				"Minha ancestral foi perdida aqui há muito tempo. Devo prestar meus respeitos a ela."
-			},
-			new string[2]{
-				"\u0093I'm not here for any reason! Just picking up mushrooms for uh, later use.",
-				"\u0093Não estou aqui por nenhum motivo em específico! Só estou recolhendo cogumelos para, uh, usar mais tarde."
-			},
-			new string[2]{
-				"Please don't catch space lice. Or " + "Crimson" + " lice. Or just lice in general.",
-				"Por favor, não pegue piolhos espaciais. Ou piolhos do carmim. Ou apenas piolhos em geral."
-			},
-			new string[2]{
-				"Please don't catch space lice. Or " + "Corruption" + " lice. Or just lice in general.",
-				"Por favor, não pegue piolhos espaciais. Ou piolhos da corrupção. Ou apenas piolhos em geral."
-			},
-			new string[2]{
-				"Sometimes I catch " + givenNames[2] + " sneaking up from behind me.",
-				"Às vezes eu pego " + givenNames[2] + " se esgueirando atrás de mim."
-			},
-			new string[2]{
-				givenNames[2] + " is always trying to brighten my mood...even if, deep down, I know she's sad.",
-				givenNames[2] + " está sempre tentando alegrar meu humor...mesmo que, no fundo, eu saiba que ela está triste."
-			},
-			new string[2]{
-				"They look so cute and yet, I can feel their immense power just by being near them. What are you?",
-				"Eles são tão fofos e, ainda assim, posso sentir o seu imenso poder apenas por estar perto deles. O que é você?"
-			},
-			new string[2]{
-				"I hate to break it to you, but you don't have hair to cut or style, hun.",
-				"Odeio te dizer isto, mas você não tem cabelo para cortar ou pentear, meu amor."
-			},
-			new string[2]{
-				"Aww, they're so cute, do they have names?",
-				"Aww, eles são tão fofos! Eles têm nomes?"
-			},
-			new string[2]{
-				"Hey, is it just me or have my pockets gotten lighter ever since " + givenNames[11] + " arrived?",
-				"Ei, é impressão minha ou os meus bolsos ficaram mais leves desde que " + givenNames[11] + " chegou?"
-			},
-			new string[2]{
-				"You know...we haven't had an invasion in a while...",
-				"Sabe...não tivemos uma invasão há um tempo..."
-			},
-			new string[2]{
-				"That's the biggest moth I've ever seen for sure. You'd need one big gun to take one of those down.",
-				"Essa é a maior mariposa que eu já vi, com certeza. Você precisará de uma grande arma para derrubar uma delas."
-			},
-			new string[2]{
-				"Is it me or are your weapons getting bigger and bigger?",
-				"É impressão minha ou suas armas estão ficando cada vez maiores?"
-			},
-			new string[2]{
-				"Each night seems only more foreboding than the last. I feel unthinkable terrors are watching your every move.",
-				"Cada noite parece apenas mais agourenta do que a anterior. Eu sinto que terrores impensáveis estão observando cada movimento seu."
-			},
-			new string[2]{
-				"Are you daft?! Turn off those lamps!",
-				"Você está maluco?! Desligue essas lâmpadas!"
-			},
-			new string[2]{
-				"If this acid rain keeps up, there'll be a shortage of Dirt Blocks soon enough!",
-				"Se essa chuva ácida continuar, logo haverá uma escassez de blocos de terra!"
-			},
-			new string[2]{
-				"I happen to have several Angel Statues at the moment, a truely rare commodity. Want one?",
-				"Por acaso, eu tenho várias estátuas de anjo no momento, uma mercadoria realmente rara. Quer uma?"
-			},
-			new string[2]{
-				"The caverns have become increasingly dark as of late, so I stocked up on some special torches if you have the funds.",
-				"As cavernas têm se tornado cada vez mais escuras ultimamente, então eu estoquei algumas tochas especiais, se você tiver dinheiro."
-			},
-			new string[2]{
-				"What do you mean your traps aren't making the cut? Don't look at me!",
-				"Como assim, as suas armadilhas não estão mais dando conta? Não olhe para mim!"
-			},
-			new string[2]{
-				"Um...should my nightlight be on?",
-				"Um...minha luz noturna deveria estar acesa?"
-			},
-			new string[2]{
-				"Well, I like " + givenNames[2] + ", but I, ah...I have my eyes on someone else.",
-				"Bem, eu gosto de " + givenNames[2] + ", mas eu , ah... eu estou de olho em outra pessoa."
-			},
-			new string[2]{
-				"Maybe I should've waterproofed my gadgets... They're starting to corrode.",
-				"Talvez eu devesse ter impermeabilizado meus dispositivos... Eles estão começando a corroer."
-			},
-			new string[2]{
-				"Care for a little Moonshine?",
-				"Quer um pouquinho de álcool contrabandeado?"
-			},
-			new string[2]{
-				"Sheesh, " + givenNames[2] + " is a little cruel, isn't she? I never claimed to be an expert on anything but ale!",
-				"Caraamba, " + givenNames[2] + " é um pouco cruel, não acha? Nunca disse ser um especialista em nada além de cerveja!"
-			},
+
+			//Pirate
 			new string[2]{
 				"Aye, I've heard of a mythical creature in the oceans, singing with an alluring voice. Careful when yer fishin out there.",
 				"Ei, ouvi boatos sobre uma criatura mítica nos oceanos, cantando com uma voz atraente. Cuidado quando estiver pescando por aí."
@@ -486,42 +1082,14 @@ public class CalamityGlobalNPCPT : GlobalNPC
 				"Me ship might just sink from the acid alone.",
 				"É possível que meu barco afunde apenas com o ácido."
 			},
+
+			//Skeleton Merchant
 			new string[2]{
-				"All these moments will be lost in time. Like tears...in the rain.",
-				"Todos esses momentos se perderão com o tempo, como lágrimas... na chuva."
+				"What'dya buyin'?",
+				"Que que cê vai comprar?"
 			},
-			new string[2]{
-				"Always shoot for the moon! It has clearly worked before.",
-				"Sempre mire para a lua! Claramente funcionou antes."
-			},
-			new string[2]{
-				"Draedon? He's...a little 'high octane' if you know what I mean.",
-				"Draedon? Ele... é meio 'sobrecarregado' se você entende o que quero dizer."
-			},
-			new string[2]{
-				"Those oversized bugs terrorizing the jungle... Surely you of all people could shut them down!",
-				"Esses insetos enormes aterrorizando a selva... Certamente você, entre todas as pessoas, poderia encerrá-los!"
-			},
-			new string[2]{
-				"Who you gonna call?",
-				"Quem você vai chamar?"
-			},
-			new string[2]{
-				"Those screams...I'm not sure why, but I feel like a nameless fear has awoken in my heart.",
-				"Aqueles gritos... Não sei por que, mas sinto como se um medo sem nome tivesse despertado em meu coração."
-			},
-			new string[2]{
-				"I can faintly hear ghostly shrieks from the dungeon...and not ones I'm familiar with at all. Just what is going on in there?",
-				"Ouço vagamente gritos fantasmagóricos vindos da masmorra... e não aqueles que eu conheço. O que está acontecendo lá?"
-			},
-			new string[2]{
-				"Whatever that thing was, I'm glad it's gone now.",
-				"Não sei o que era aquela coisa, mas estou feliz que já tenha ido embora."
-			},
-			new string[2]{
-				"Houston, we've had a problem.",
-				"Houston, temos um problema."
-			},
+
+			//Steampunker
 			new string[2]{
 				"Just what is that contraption? It makes my Teleporters look like child's play!",
 				"Mas o que é essa engenhoca? Ela faz meus teleportadores parecerem um brinquedo de criança!"
@@ -538,14 +1106,48 @@ public class CalamityGlobalNPCPT : GlobalNPC
 				"I'm sorry I really don't have any Unicorn proof tech here, you're on your own.",
 				"Desculpe, não tenho nenhuma tecnologia à prova de unicórnios aqui. Você está por conta própria."
 			},
+
+			//Stylist
 			new string[2]{
-				"Have you seen those gemstone creatures in the caverns? Their colors are simply breathtaking!",
-				"Você já viu as criaturas de pedras preciosas nas cavernas? Suas cores são de tirar o fôlego!"
+				"Please don't catch space lice. Or " + "Crimson" + " lice. Or just lice in general.",
+				"Por favor, não pegue piolhos espaciais. Ou piolhos do carmim. Ou apenas piolhos em geral."
 			},
 			new string[2]{
-				"Do you think " + givenNames[7] + " knows how to 'let it go?'",
-				"Você acha que " + givenNames[7] + " diria 'livre estou?'"
+				"Please don't catch space lice. Or " + "Corruption" + " lice. Or just lice in general.",
+				"Por favor, não pegue piolhos espaciais. Ou piolhos da corrupção. Ou apenas piolhos em geral."
 			},
+			new string[2]{
+				"Sometimes I catch " + givenNames[2] + " sneaking up from behind me.",
+				"Às vezes eu pego " + givenNames[2] + " se esgueirando atrás de mim."
+			},
+			new string[2]{
+				givenNames[2] + " is always trying to brighten my mood...even if, deep down, I know she's sad.",
+				givenNames[2] + " está sempre tentando alegrar meu humor...mesmo que, no fundo, eu saiba que ela está triste."
+			},
+			new string[2]{
+				"They look so cute and yet, I can feel their immense power just by being near them. What are you?",
+				"Eles são tão fofos e, ainda assim, posso sentir o seu imenso poder apenas por estar perto deles. O que é você?"
+			},
+			new string[2]{
+				"I hate to break it to you, but you don't have hair to cut or style, hun.",
+				"Odeio te dizer isto, mas você não tem cabelo para cortar ou pentear, meu amor."
+			},
+			new string[2]{
+				"Aww, they're so cute, do they have names?",
+				"Aww, eles são tão fofos! Eles têm nomes?"
+			},
+
+			//Tavernkeep
+			new string[2]{
+				"Care for a little Moonshine?",
+				"Quer um pouquinho de álcool contrabandeado?"
+			},
+			new string[2]{
+				"Sheesh, " + givenNames[2] + " is a little cruel, isn't she? I never claimed to be an expert on anything but ale!",
+				"Caraamba, " + givenNames[2] + " é um pouco cruel, não acha? Nunca disse ser um especialista em nada além de cerveja!"
+			},
+
+			//Tax Collector
 			new string[2]{
 				"BAH! Doesn't seem like I'll ever be able to quarrel with the debts of the town again!",
 				"Parece que nunca mais conseguirei combater as dívidas da cidade de novo!"
@@ -566,512 +1168,53 @@ public class CalamityGlobalNPCPT : GlobalNPC
 				"Goodness! That cane has swagger!",
 				"Meu deus! Essa bengala tem estilo!"
 			},
+
+			//Travelling Merchant
 			new string[2]{
-				"I deeply appreciate you rescuing me from being trapped within my frozen castle... It's been many, many years...",
-				"Agradeço profundamente por você ter me resgatado de estar preso em meu castelo de gelo... Já se passaram anos, muitos anos..."
+				"Tell " + givenNames[2] + " I'll take up her offer and meet with her at the back of " + givenNames[3] + "'s house.",
+				"Diga a " + givenNames[2] + " que eu aceitarei a sua oferta e me encontrarei com ela nos fundos da casa de " + givenNames[3] + "."
 			},
+
+			//Truffle
 			new string[2]{
-				"Thank you for saving me...though now I admit I am without a home since mine got destroyed.",
-				"Obrigado por me salvar... embora agora eu não possua uma casa, já que a minha foi destruída."
+				"I don't feel very safe; I think there's pigs following me around and it frightens me.",
+				"Não me sinto muito seguro; acho que tem porcos me seguindo por todo o lugar, e isso me deixa aterrorizado."
 			},
 			new string[2]{
-				"I must admit...I am not quite used to this weather. It's too warm for my taste...",
-				"Devo admitir... não estou muito acostumado com esse clima. Está quente demais para o meu gosto..."
+				"Sometimes, " + givenNames[2] + " just looks at me funny and I'm not sure how I feel about that.",
+				"Ás vezes, " + givenNames[2] + " olha para mim de um jeito engraçado e eu não tenho certeza de como eu me sinto sobre isso."
 			},
+
+			//Witch Doctor
 			new string[2]{
-				"My dear! What is it you would like to talk about today?",
-				"Querido! Sobre o que você gostaria de falar hoje?"
+				"My home here has an extensive history and a mysterious past. You'll find out quickly just how extensive it is...",
+				"Meu lar aqui tem uma longa história e um passado misterioso. Você descobrirá rapidamente o quão extenso é..."
 			},
 			new string[2]{
-				"Why...I don't have to worry about any time of the day! If it is hot...then I can use my ice magic to cool down!",
-				"Bem... eu não preciso me preocupar com o tempo! Se estiver calor... então eu posso usar a minha magia de gelo para me esfriar!"
+				"I have unique items if you show me that you have bested the guardian of this jungle.",
+				"Possuo itens únicos se você me mostrar que superou o guardião desta selva."
 			},
 			new string[2]{
-				"I do usually prefer a spot of humidity for my ice magic. It likes to come out as steam when it's too hot and dry...",
-				"Geralmente, eu prefiro um pouco de umidade para a minha magia de gelo. Ela gosta de sair como vapor quando está muito quente e seco..."
+				"This is as good a time as any to pick up the best ingredients for potions.",
+				"É uma boa hora para recolher os melhores ingredientes para poções."
 			},
+
+			//Wizard
 			new string[2]{
-				"Magic is a skill that must be learned and practiced! You seem to have an inherent talent for it at your age. I have spent all of my life honing it...",
-				"A magia é uma habilidade que deve ser aprendida e praticada! Você parece ter um talento inerente para isso na sua idade. Passei toda a minha vida aprimorando-a..."
+				"Space just got way too close for comfort.",
+				"O espaço está perigosamente perto."
 			},
 			new string[2]{
-				"Why ice magic, you ask? Well, my parents were both pyromaniacs...",
-				"Por que a magia de gelo, você pergunta? Bem, meus pais eram ambos piromaníacos..."
+				"I'd let " + givenNames[7] + " coldheart MY icicle.",
+				"Eu deixaria " + givenNames[7] + " congelar o MEU gelo."
 			},
-			new string[2]{
-				"There be monsters lurking in the darkness. Most...unnatural monsters.",
-				"Existem monstros à espreita na escuridão. Monstros... não naturais."
-			},
-			new string[2]{
-				"You could break the icy stillness in the air tonight.",
-				"Você poderia quebrar a quietude gelada no ar esta noite."
-			},
-			new string[2]{
-				"Hmm...some would say that an unforeseen outside force is the root of the blood moon...",
-				"Hmm... alguns diriam que uma força externa imprevista é a raiz da lua de sangue..."
-			},
-			new string[2]{
-				"I was once the greatest Archmage of ice that ever hailed the lands. Whether or not that is still applicable, I am not sure...",
-				"Eu já fui o maior Arquimago de gelo que já saudou as terras. Se isso ainda é aplicável ou não, não tenho certeza..."
-			},
-			new string[2]{
-				"There used to be other Archmages of other elements. I wonder where they are now...if they are also alive...",
-				"Costumava existir outros Arquimagos de outros elementos. Me pergunto onde eles estão agora...e se eles também estão vivos..."
-			},
-			new string[2]{
-				"Oh...I wish I could tell you all about my life and the lessons I have learned, but it appears you have a great many things to do...",
-				"Oh... eu gostaria de contar tudo sobre minha vida e as lições que aprendi, mas parece que você tem muitas coisas a fazer..."
-			},
-			new string[2]{
-				"I assure you, I will do my best to act as the cool grandfather figure you always wanted.",
-				"Eu garanto a você, farei o meu melhor para agir como o vovô legal que você sempre quis."
-			},
-			new string[2]{
-				"Sometimes...I feel like all I'm good for during these events is making ice cubes and slushies.",
-				"Às vezes... eu sinto que, durante esses eventos, eu sirvo apenas para fazer cubos de gelo e raspadinhas."
-			},
-			new string[2]{
-				"Tread carefully, my friend... Now that the Moon Lord has been defeated, many powerful creatures will crawl out to challenge you...",
-				"Tenha cuidado, meu amigo... Agora que o Senhor da Lua foi derrotado, muitas criaturas poderosas irão rastejar para desafiá-lo..."
-			},
-			new string[2]{
-				"I feel the balance of nature tilting farther than ever before. Is it due to you, or because of the events leading to now...?",
-				"Eu sinto o equilíbrio da natureza se inclinando mais do que nunca. Será que a culpa é sua, ou é por causa dos eventos que levaram até agora...?"
-			},
-			new string[2]{
-				"I felt a sudden chill down my spine. I sense something dangerous stirring in the Abyss...",
-				"Senti um arrepio repentino no meu corpo. Eu sinto algo perigoso se agitando no Abismo..."
-			},
-			new string[2]{
-				"...Where is Lord Yharim? He must be up to something...",
-				"...Onde está o Senhor Yharim? Ele deve estar tramando algo..."
-			},
-			new string[2]{
-				"Yes, I am older than " + givenNames[9] + ". You can stop asking now...",
-				"Sim, eu sou mais velho que " + givenNames[9] + ". Você pode parar de perguntar agora..."
-			},
-			new string[2]{
-				"What an adorable tiny companion you have! Where in the world did you find such a...creature...? Actually, I'd rather not know.",
-				"Que companheira adorável você tem! Onde no mundo você encontrou tal... criatura? Na verdade, prefiro não saber."
-			},
-			new string[2]{
-				Main.player[Main.myPlayer].name + "...just between us, I think I forgot my soul in the ice castle. If you see it, please do let me know.",
-				Main.player[Main.myPlayer].name + "...só entre nós, acho que esqueci minha alma no castelo de gelo. Se você a vir, por favor, me avise."
-			},
-			new string[2]{
-				"It wouldn't be the first time something unknown and powerful dropped from the heavens...I would tread carefully if I were you...",
-				"Não é a primeira vez que algo desconhecido e poderoso cai dos céus... Eu tomaria cuidado se fosse você..."
-			},
-			new string[2]{
-				"Why are you talking to me right now? Either way, I expect you to turn in a perfect performance!",
-				"Por que você está falando comigo agora? De qualquer forma, espero que você tenha uma performance perfeita!!"
-			},
-			new string[2]{
-				"I could smell my vodka from MILES away!",
-				"Eu podia sentir o cheiro da minha vodka a QUILÔMETROS de distância!"
-			},
-			new string[2]{
-				"Have any spare rooms available? Preferably candle-lit with a hefty supply of booze.",
-				"Tem algum quarto disponível? De preferência à luz de velas com uma boa quantidade de bebida."
-			},
-			new string[2]{
-				"Hey, nice night! I'm gonna make some Bloody Marys, celery included. Want one?",
-				"Ei, boa noite! Vou preparar algumas Marias Sangrentas, incluindo aipo. Quer uma?"
-			},
-			new string[2]{
-				"More blood for the blood gods!",
-				"Mais sangue para os deuses de sangue!"
-			},
-			new string[2]{
-				"Everyone else is so rude tonight. If they don't get over it soon, I'll break down their doors and make them!",
-				"Todo mundo está tão rude esta noite. Se eles não superarem logo, eu vou arrombar suas portas e irei fazê-los parar!"
-			},
-			new string[2]{
-				"Being drunk, I have no moral compass atm.",
-				"Estando bêbada, eu não tenho nenhum guia moral no momemnto."
-			},
-			new string[2]{
-				"Nothard/10, if I fight bosses I wanna feel like screaming 'OH YES DADDY!' while I die repeatedly.",
-				"Fácil/10, se eu lutar contra chefes, eu quero ter vontade de gritar 'AI PAI, PARA!' enquanto eu morro repetidamente."
-			},
-			new string[2]{
-				"Like I always say, when you're drunk you can tolerate annoying people a lot more easily...",
-				"Como eu sempre digo, quando você está bêbado, você consegue tolerar pessoas irritantes com muito mais facilidade..."
-			},
-			new string[2]{
-				"I'm literally balls drunk off my sass right now.",
-				"Estou literalmente tão bêbada para ser atrevida agora."
-			},
-			new string[2]{
-				"I'm either laughing because I'm drunk or because I've lost my mind. Probably both.",
-				"Ou estou rindo porque estou bêbada ou porque perdi a cabeça. Provavelmente os dois."
-			},
-			new string[2]{
-				"When I'm drunk I'm way happier...at least until the talking worms start to appear.",
-				"Quando estou bêbada, eu fico muito mais feliz... pelo menos até que os vermes falantes comecem a aparecer."
-			},
-			new string[2]{
-				"I should reprogram the whole game while drunk and send it back to the testers.",
-				"Eu devia reprogramar o jogo inteiro enquanto estou bêbada e enviar ele de volta para os testadores."
-			},
-			new string[2]{
-				"What a great day, might just drink so much that I get poisoned again.",
-				"Que dia ótimo. Talvez eu beba tanto que fique envenenada novamente."
-			},
-			new string[2]{
-				"A perfect night...for alcohol! First drinks are on me!",
-				"Uma noite perfeita... para o álcool! As primeiras bebidas são por minha conta!"
-			},
-			new string[2]{
-				"Here's a challenge...take a drink whenever you get hit. Oh wait, you'd die.",
-				"Aqui está um desafio... tome uma bebida sempre que for atingido. Ah, espera, você morreria."
-			},
-			new string[2]{
-				"Well I was planning to light some candles in order to relax...ah well, time to code while drunk.",
-				"Bem, eu estava planejando acender algumas velas para relaxar... bem, hora de fazer o código enquanto estou bêbada."
-			},
-			new string[2]{
-				"Yes, everyone knows the mechworm is buggy. Well, not so much anymore, but still.",
-				"Sim, todo mundo sabe que o vermecânico é bugado. Bem, nem tanto mais, mas ainda sim."
-			},
-			new string[2]{
-				"That's west, " + Main.player[Main.myPlayer].name + ". You're fired again.",
-				"Esse é o oeste, " + Main.player[Main.myPlayer].name + ". Você está demitido. De novo."
-			},
-			new string[2]{
-				"Are you sure you're 21? ...alright, fine, but don't tell anyone I sold you this.",
-				"Você tem certeza que tem mais de 18 anos? ...tudo bem, mas não diga a ninguém que lhe vendi isso."
-			},
-			new string[2]{
-				"Drink something that turns you into a magical flying unicorn so you can be super gay.",
-				"Beba algo que te transforme em um unicórnio voador mágico para que você possa ser super gay."
-			},
-			new string[2]{
-				"Did anyone ever tell you that large assets cause back pain? Well, they were right.",
-				"Alguém já lhe disse que grandes coisas causam dor nas costas? Bem, eles estavam certos."
-			},
-			new string[2]{
-				"You'll always find me at parties where booze is involved...well, you'll always find booze where I'm involved.",
-				"Você sempre me encontrará em festas onde a bebida está envolvida... bem, você sempre encontrará a bebida onde eu estiver envolvida."
-			},
-			new string[2]{
-				"Shoot down the space invaders! Sexy time will be postponed if we are invaded by UFOs!",
-				"Dispare nos invasores do espaço! O tempo safado será adiado se formos invadidos por OVNIs!"
-			},
-			new string[2]{
-				"God I can't wait to beat on some ice again!",
-				"Meu Deus, eu mal posso esperar para bater no gelo de novo!"
-			},
-			new string[2]{
-				"The only things I'm attracted to are fish women, women, men who look like women and that's it.",
-				"As únicas coisas que me atraem são mulheres peixes, mulheres, homens que se parecem com mulheres e só."
-			},
-			new string[2]{
-				"I'll always be watching.",
-				"Sempre estarei observando."
-			},
-			new string[2]{
-				"Why did that weird monster need that many tentacles? ...actually, don't answer that.",
-				"Por que aquele monstro estranho precisava de tantos tentáculos? ...na verdade, não responda."
-			},
-			new string[2]{
-				"There's chemicals in the water...and they're turning the frogs gay!",
-				"Há produtos químicos na água... e eles estão deixando os sapos gays!"
-			},
-			new string[2]{
-				"I saw a ghost down by the old train tracks once, flailing wildly at the lily pads, those were the days.",
-				"Uma vez, vi um fantasma perto dos trilhos do velho trem, agitando-se violentamente contra as vitórias régias. Eram bons tempos!"
-			},
-			new string[2]{
-				"I hear it's amazing when the famous purple-stuffed worm out in flap-jaw space, with the tuning fork, does a raw blink on Hara-kiri rock. I need scissors! 61!",
-				"Ouvi dizer que é incrível quando o famoso verme de pelúcia roxo no espaço da mandíbula aberta, com o diapasão, pisca bruscamente na rocha Hara-kiri. Eu preciso de uma tesoura! 61!"
-			},
-			new string[2]{
-				"Tell " + givenNames[8] + " to stop calling me. He's not wanted.",
-				"Diga a " + givenNames[8] + " para parar de me ligar. Não estou interessada."
-			},
-			new string[2]{
-				"My booze will always be better than " + givenNames[8] + "'s, and nobody can convince me otherwise.",
-				"Minha bebida sempre será melhor do que a de " + givenNames[8] + ", e ninguém pode me convencer que não."
-			},
-			new string[2]{
-				"I never realized how well-endowed " + givenNames[7] + " was. It had to be the largest icicle I had ever seen.",
-				"Eu nunca percebi o quão bem dotado " + givenNames[7] + " era. Tinha que ser o maior sincelo que eu já vi."
-			},
-			new string[2]{
-				"You still can't stop me from trying to move in with " + givenNames[6] + ".",
-				"Você não pode me impedir de tentar morar com " + givenNames[6] + "."
-			},
-			new string[2]{
-				"I love it when " + givenNames[6] + "'s hands get sticky from all that...wax.",
-				"Eu adoro quando as mãos de " + givenNames[6] + " ficam pegajosas com toda aquela... cera."
-			},
-			new string[2]{
-				givenNames[6] + " works wonders for my hair...among other things.",
-				givenNames[6] + " faz maravilhas para o meu cabelo... entre outras coisas."
-			},
-			new string[2]{
-				"Ever since " + givenNames[6] + " moved in I haven't been drinking as much...it's a weird feeling.",
-				"Desde que " + givenNames[6] + " se mudou, eu não tenho bebido tanto... é uma sensação estranha."
-			},
-			new string[2]{
-				"Is that a toy? Looks like something I'd carry around if I was 5 years old.",
-				"Isso é um brinquedo? Parece algo que eu carregaria se eu tivesse 5 anos."
-			},
-			new string[2]{
-				"Nice scales...did it get hot in here?",
-				"Belas escamas... por acaso, está ficando quente aqui?"
-			},
-			new string[2]{
-				"Oh yeah, now you're drinking the good stuff! Do you like it? I created the recipe by mixing fairy dust, crystals and other magical crap.",
-				"Aí sim, agora você está bebendo uma das boas! Você gostou? Eu criei a receita misturando pó de fada, cristais e outras porcarias mágicas."
-			},
-			new string[2]{
-				"So...you're riding me, huh? That's not weird at all.",
-				"Então... você está me montando, hein? Isso não é nem um pouco estranho."
-			},
-			new string[2]{
-				"Are you coming on to me?",
-				"Você está gozando comigo?"
-			},
-			new string[2]{
-				"If I was a magical horse, I'd be out in space, swirling cocktails, as I watch space worms battle for my enjoyment.",
-				"Se eu fosse um cavalo mágico, eu estaria no espaço, misturando coquetéis, enquanto observo os vermes espaciais batalharem para meu entretenimento."
-			},
-			new string[2]{
-				"Is this...what the world is like now? It seems so much more lifeless than when I saw it before I disappeared.",
-				"É assim... como o mundo é agora? Parece muito mais sem vida do que quando o vi antes de eu desaparecer."
-			},
-			new string[2]{
-				"Thank you for your service, my child, but I am afraid I am without a home now.",
-				"Obrigado pelo seu serviço, meu filho, mas infelizmente estou sem casa agora."
-			},
-			new string[2]{
-				"My homeland may have dried up but the memories of my people still remain. I will not let them be in vain.",
-				"Minha terra natal pode ter secado, mas as memórias de meu povo ainda permanecem. Não vou permitir que sejam em vão."
-			},
-			new string[2]{
-				"There is a lot that you do not know about this world, specifically regarding the past. Much of it has been lost to history due to the many wars that plagued it.",
-				"Há muito que você não conhece sobre este mundo, especificamente sobre o passado. Muito disso se perdeu na história devido às muitas guerras que o assolaram."
-			},
-			new string[2]{
-				"How can I survive on land? Ah, that is a secret. No, actually...I can breathe air like you!",
-				"Como eu consigo sobreviver fora d'água? Ah, isso é segredo. Não, na verdade... eu posso respirar ar como você!"
-			},
-			new string[2]{
-				"Why do you ask if it's the males that carry the young? Don't your males carry their young?",
-				"Por que você pergunta se são os machos que carregam os filhotes? Seus machos não carregam seus filhotes?"
-			},
-			new string[2]{
-				"There be monsters lurking in the darkness. Most...unnatural monsters.",
-				"Existem monstros à espreita na escuridão. Monstros... não naturais."
-			},
-			new string[2]{
-				"Most creatures look up at the moon and admire it. I look up and fear it.",
-				"A maioria das criaturas olha para a lua e a admira. Eu olho para cima e temo-a."
-			},
-			new string[2]{
-				"Oh, me? I don't sleep, it's part of my nature.",
-				"Ah, eu? Eu não durmo, faz parte da minha natureza."
-			},
-			new string[2]{
-				givenNames[5] + " asked if my nose could be used as a vuvuzela. What is a vuvuzela?",
-				givenNames[5] + " perguntou se meu nariz poderia ser usado como uma vuvuzela. O que é uma vuvuzela?"
-			},
-			new string[2]{
-				"Meet me at " + givenNames[4] + "'s house at night. We're going to throw him to the Trashers.",
-				"Encontre-me na casa de " + givenNames[4] + " à noite. Vamos jogá-lo para os crocodilos."
-			},
-			new string[2]{
-				"Not sure how " + givenNames[4] + " has not been roasted and digested by now, hanging around the sulphuric seas for so long. Perhaps it got to his head.",
-				"Não sei como " + givenNames[4] + " não foi torrado e digerido agora, estando perto dos mares sulfúricos por tanto tempo. Talvez tenha subido à cabeça dele."
-			},
-			new string[2]{
-				"Rumor has it " + givenNames[2] + " drinks to forget her troubled past.",
-				"Rumores dizem que " + givenNames[2] + " bebe para esquecer seu passado conturbado."
-			},
-			new string[2]{
-				"I'm never keen on these nights. They're so violent.",
-				"Nunca estou entusiasmado nessas noites. Elas são tão violentas."
-			},
-			new string[2]{
-				"Ah, nice duds, my child!",
-				"Ah, lindos insucessos, meu filho!"
-			},
-			new string[2]{
-				"Shouldn't you be wearing a clam bra?",
-				"Você não deveria estar usando um sutiã de conchas?"
-			},
-			new string[2]{
-				"The balance between light and dark is tipping. Stay strong, my child.",
-				"O equilíbrio entre a luz e a escuridão está caindo. Fique forte, meu filho."
-			},
-			new string[2]{
-				"Ah, you are starting to realize just how complicated this world is now. You are learning the story of what became of him.",
-				"Ah, você está começando a perceber o quão complicado este mundo é agora. Você está aprendendo a história do que aconteceu com ele."
-			},
-			new string[2]{
-				"Do you ever get the feeling that something out there is watching you very carefully? Whatever it is, it's very small and sly, I think.",
-				"Você já teve a sensação de que algo lá fora está te observando com muito cuidado? Seja o que for, é muito pequeno e astuto, eu acho."
-			},
-			new string[2]{
-				"I must admit, I am quite shaken up now. Never would I have imagined that I would see one of the dark gods again. Not in this lifetime anyhow.",
-				"Devo admitir que estou bastante abalado agora. Nunca teria imaginando que veria um dos deuses das trevas novamente. Não nesta vida de qualquer maneira."
-			},
-			new string[2]{
-				"Times like this I wish my home was still in one piece instead of evaporated away. I don't blame the witch for anything, it's just...oh, never mind.",
-				"Em momentos como este, gostaria que minha casa ainda estivesse inteira, em vez de ter evaporado. Eu não culpo a bruxa por nada, é só... ah, deixa pra lá."
-			},
-			new string[2]{
-				"I suppose that witch was mistaken. Defeating the Ceaseless Void and the Devourer has not caused our world to collapse... but I would not lower my guard if I were you.",
-				"Suponho que aquela bruxa estava enganada. Derrotar o Vazio Incessante e o Devorador não causou o colapso de nosso mundo... mas eu não baixaria a minha guarda se fosse você."
-			},
-			new string[2]{
-				"Oy, watch where you're going or I might just use you for dart practice.",
-				"Opa, presta atenção pra onde tá indo, ou posso acabar usando você como um alvo."
-			},
-			new string[2]{
-				"Bet you'd look good as a pincushion, amiright?",
-				"Aposto que você ficaria bem como um saco de pancadas, não acha?"
-			},
-			new string[2]{
-				"Zombies don't dodge very well. Maybe you'll do a bit better.",
-				"Os zumbis não conseguem desviar muito bem. Talvez você se saia um pouco melhor que eles."
-			},
-			new string[2]{
-				"Hey, careful over there. I've rigged the place. One wrong step and you're going to get a knife in your forehead.",
-				"Ei, cuidado aí, eu enchi o lugar de armadilhas. Um passo errado e você levará uma facada na testa."
-			},
-			new string[2]{
-				"You know what's really cool? Watching the glint of throwing stars as they reflect the moon.",
-				"Sabe o que é realmente legal? Observar o brilho das estrelas ninja refletindo a lua."
-			},
-			new string[2]{
-				"You think those stars that fall occasionally would make good throwing weapons?",
-				"Você acha que aquelas estrelas que caem ocasionalmente seriam boas armas de arremesso?"
-			},
-			new string[2]{
-				"Statis' clan's got nothing on me. Mostly cause they're all dead.",
-				"O clã de Statis não tem nada contra mim. Afinal, eles estão todos mortos."
-			},
-			new string[2]{
-				"Where is my party hat? Well, I stole it of course.",
-				"Onde está o meu chapéu de festa? Bem, eu roubei ele, é claro."
-			},
-			new string[2]{
-				"The nice thing about maps is I can track anything that has fallen.",
-				"A bom dos mapas é que eu posso rastrear qualquer coisa que caiu."
-			},
-			new string[2]{
-				"Imagine how fast you could throw if you just had more hands.",
-				"Imagine o quão rápido você poderia lançar se você tivesse mais mãos."
-			},
-			new string[2]{
-				"I also take food for currency.",
-				"Eu também aceito comida como pagamento."
-			},
-			new string[2]{
-				"Usually I only think of animals as food or target practice, but dragons are an exception.",
-				"Normalmente, só penso nos animais como comida ou tiro ao alvo, mas os dragões são uma exceção."
-			},
-			new string[2]{
-				"Anything is a weapon if you throw it hard enough.",
-				"Qualquer coisa pode ser uma arma se você jogá-la com força o suficiente."
-			},
-			new string[2]{
-				"That's your chucking arm? You need to work out more.",
-				"Esse é o seu braço de arremesso? Você precisa se exercitar mais."
-			},
-			new string[2]{
-				"Listen here. It's all in the wrist, the wrist! Oh, forget it.",
-				"Escuta aqui. É tudo no pulso, no pulso! Ah, esquece."
-			},
-			new string[2]{
-				"I don't think Mom and Dad are proud of the job I have right now.",
-				"Eu não acho que meus pais estejam orgulhosos do trabalho que eu tenho agora."
-			},
-			new string[2]{
-				"Eh you know how it goes; steal from the rich, give to the poor. Of course, for a price.",
-				"É, você sabe como é; roubar dos ricos, e dar para os pobres. Claro, por um preço."
-			},
-			new string[2]{
-				"Want to hear about this one time I was stuck in a room with a rabid dog and a dead guy?",
-				"Quer ouvir sobre a vez em que eu estava presa em um quarto com um cachorro raivoso e um cara morto?"
-			},
-			new string[2]{
-				"Argh snakes. For some reason it's always snakes.",
-				"Droga, cobras. Por algum motivo, são sempre cobras."
-			},
-			new string[2]{
-				"Maybe I'm bitter. It's been a long time, so whatever. Just do a good job out there.",
-				"Talvez eu esteja amarga. Já faz muito tempo, então tanto faz. Só faça um bom trabalho lá fora."
-			},
-			new string[2]{
-				"It's not stealing! I'm just borrowing it until I die!",
-				"Não é roubo! Eu só estou pegando emprestado até morrer!"
-			},
-			new string[2]{
-				"Wouldn't be the first time I used my friends' remains as weapons.",
-				"Não seria a primeira vez que eu usei os restos mortais dos meus amigos como armas."
-			},
-			new string[2]{
-				"With all of this new stuff cropping up, looks like we got some easy loot and new items to craft up, eh? Well, YOU craft them, I'll steal em.",
-				"Com todas essas coisas novas aparecendo, parece que temos alguns espólios fáceis e novos itens para criar, hein? Bem, VOCÊ os cria, eu vou só roubá-los."
-			},
-			new string[2]{
-				"Draedon thinks he can build awesome machines, but he doesn't know how much crap I've stolen from him and sold by dismantling his drones.",
-				"Draedon acha que pode construir máquinas incríveis, mas ele não sabe quanta porcaria eu roubei dele e vendi desmontando seus drones."
-			},
-			new string[2]{
-				"Gramma always said never to invade ancient temples or you'll be cursed and die. Let's say both of us attest that is untrue. We're still alive. Somewhat.",
-				"Vovó sempre disse pra nunca invadir templos antigos ou você será amaldiçoado e morrerá. Digamos que nós dois atestemos que isso não é verdade. Ainda estamos vivos. Mais ou menos."
-			},
-			new string[2]{
-				"I heard that there's some really neat and awesome rogue items you can get. Show em to me if you ever get the time.",
-				"Ouvi dizer que existem alguns itens assassinos realmente legais e incríveis que você pode pegar. Mostre eles para mim qualquer dia, se tiver tempo."
-			},
-			new string[2]{
-				"Providence HATES it when you take her stuff. I learned that the hard way.",
-				"A Providência ODEIA quando você pega as coisas dela. Eu aprendi isso da pior maneira."
-			},
-			new string[2]{
-				"You think I can get away with looting from ghosts? It ain't like they can pick things up.",
-				"Você acha que eu posso sair roubando fantasmas? Não é como se eles pudessem pegar as coisas."
-			},
-			new string[2]{
-				"Oh man, did you rip that off a shark!? Now that's a weapon!",
-				"Cara, você arrancou isso de um tubarão!? Isso que é uma arma de verdade!"
-			},
-			new string[2]{
-				"I tried looting Storm Weaver's armor once. Before I could get a chunk of the stuff... well let's just say the bigger, fatter cosmic worm arrived and it didn't end well.",
-				"Eu tentei saquear a armadura do Explorador da Tempestade uma vez. Antes que eu pudesse pegar um pedaço do material... bem, vamos apenas dizer que o verme cósmico maior e mais gordo chegou e não terminou bem."
-			},
-			new string[2]{
-				"I'd rather not be here. This place has bad vibes, y'know? It brings back some unpleasant memories.",
-				"Prefiro não estar aqui. Este lugar tem uma energia ruim, sabe? Ele traz de volta algumas memórias desagradáveis."
-			},
-			new string[2]{
-				"Don't tell " + givenNames[3] + ", but I took some of his stuff and replaced it with Angel Statues.",
-				"Não diga a " + givenNames[3] + ", mas eu peguei algumas das coisas dele e substituí por estátuas de anjo."
-			},
-			new string[2]{
-				"I learned never to steal " + givenNames[2] + "'s drinks. She doesn't appreciate me right now so I'll go back to hiding.",
-				"Aprendi a nunca roubar as bebidas de " + givenNames[2] + ". Ela não gosta de mim agora, então vou voltar a me esconder."
-			},
-			new string[2]{
-				"Don't tell " + givenNames[0] + " that I was responsible for " + givenNames[1] + "'s injuries.",
-				"Não diga a " + givenNames[0] + " que eu fui responsável pelas feridas de " + givenNames[1] + "."
-			},
-			new string[2]{
-				"God Slayer Dynamite? Boy do I like the sound of that!",
-				"Dinâmite Assassina de Deuses? Cara, gostei do som disso!"
-			}
+
 		};
 		bool found = false;
 		int i = 0;
 		if (chat.EndsWith(fabSpecialQuote))
 		{
-			chat = chat.Replace("Hey ", "Ei ").Replace(" and ", " e ").Replace(fabSpecialQuote, "Vocês são todos muito bons! ...espera, quem é você mesmo?");
+			chat = chat.Replace("Hey ", "Ei ").Replace(" and ", " e ").Replace(fabSpecialQuote, "Vocês são todos muito bons!");
 			found = true;
 		}
 		while (i < translatedChat.Length && !found)
@@ -1083,6 +1226,7 @@ public class CalamityGlobalNPCPT : GlobalNPC
 			}
 			i++;
 		}
-
 	}
+
+	
 }

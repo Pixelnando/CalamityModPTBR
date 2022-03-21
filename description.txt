@@ -7,6 +7,21 @@ Para uma lista completa de todo conteúdo traduzido presente no mod, visite a p�
 
 Nota: Não sou afiliado com o Fabsol nem os desenvolvedores do Calamity Mod.
 __________________________
+v1.1.2.5
+- Armas de ataque à distância traduzidas.
+- Armas de ataque físico adicionadas na atualização 1.5 traduzidas.
+- Armas retrabalhadas na 1.5.1 traduzidas.
+- Melhoria na tradução de alguns itens.
+- Alguns itens diversos que não tinham tradução agora foram traduzidos.
+- Novo ícone para o mod.
+- Encantamentos no nome e na descrição do item traduzidos.
+
+
+v1.1.2.4
+- Várias traduções ajustadas para estarem de acordo com a 1.5.
+- Tradução de "Rogue" alterada de Assassino para Ladino.
+- Traduzido tags como Fire Weapon, Ice Weapon e Nature Weapon, bem como Developer Item e Donor Item.
+
 
 v1.1.2.3
 
