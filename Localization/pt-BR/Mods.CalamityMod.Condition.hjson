@@ -1,0 +1,78 @@
+// Drop conditions
+Drops: {
+	Cynosure: Surge após derrotar Draedon e Calamitas
+	DownedDS: Surge após derrotar a Praga Aquática
+	DownedCrab: Surge após derrotar Carangulão
+	DownedHM: Surge após derrotar a Colmeia Mental
+	DownedPerfs: Surge após derrotar os Perfuradores
+	DownedHMOrPerfs: Surge após derrotar a Colmeia Mental ou os Perfuradores
+	DownedSG: Surge após derrotar o Deus Geleia
+	DownedCryo: Surge após derrotar o Criogênio
+	DownedAS: Surge após derrotar a Praga Aquática
+	DownedBrim: Surge após derrotar a Elemental de Enxofre
+	DownedDest: Surge após derrotar o Destruidor
+	DownedCal: Surge após derrotar o Clone da Calamitas
+	DownedCalPlant: Surge após derrotar Calamitas ou Plantera
+	DownedLevi: Surge após derrotar Leviathan e Anahita
+	DownedAureus: Surge após derrotar Astrum Aureus
+	DownedPBG: Surge após derrotar a Pestífera Goliarda
+	DownedRav: Surge após derrotar o Devastador
+	DownedAD: Surge após derrotar Astrum Deus
+	DownedGuard: Surge após derrotar os Guardiões Profanos
+	DownedBirb: Surge após derrotar o Dragonfolly
+	DownedProv: Surge após derrotar Providência
+	DownedSig: Surge após derrotar Signus
+	DownedSW: Surge após derrotar o Explorador Tempestuoso
+	DownedCV: Surge após derrotar o Vazio Incessante
+	DownedPolter: Surge após derrotar o Polterghast
+	DownedOD: Surge após derrotar o Velho Duque
+	DownedDoG: Surge após derrotar o Devorador de Deuses
+	DownedYharon: Surge após derrotar Yharon
+	DownedExos: Surge após derrotar as Exo-Mecas
+	DownedSCal: Surge após derrotar Calamitas
+	DownedAEW: Surge após derrotar a Serpente Primordial
+	DownedClam: Surge após derrotar a Ostra Gigante
+	DownedClamHM: Surge após derrotar a Ostra Gigante no Modo Difícil
+	DownedGSS: Surge após derrotar o Grande Tubarão de Areia
+	DownedBetsy: Surge após derrotar Betsy
+	DownedT1AR: Surge após derrotar o primeiro nível da Chuva Ácida
+	DownedT2AR: Surge após derrotar o segundo nível da Chuva Ácida
+	FirstKill: Surge apenas na primeira morte
+	MechBoss: Surge na primeira morte do último Chefe Mecânico
+	ProvidenceHallow:
+		'''
+		Surge se Providência for invocada no Sagrado
+		ou se Providência for atacada apenas durante a noite
+		'''
+	ProvidenceUnderworld:
+		'''
+		Surge se Providência for invocada no Submundo
+		ou se Providência for atacada apenas durante a noite
+		'''
+	ProvidenceNight: Surge se Providência for atacada apenas durante a noite
+	ProvidenceChallenge:
+		'''
+		Surge se Providência for derrotada apenas com o [i:CalamityMod/ProfanedSoulArtifact] Artefato de Alma Profana
+		{$Bestiary_ItemDropConditions.IsExpert}
+		'''
+	TrasherKill: Surge se alimentado a um Lixocodilo
+}
+
+// Other conditions
+PotionConfig: Enquanto a configuração Venda de Poção por NPCs de Cidade estiver ativada
+HasFlareGun: Enquanto segura uma melhoria da Pistola Sinalizadora
+HasRogueArmor: Enquanto veste uma armadura de ladino
+HasWings: Enquanto veste asas
+InAstral: Na Infecção Astral
+InCrag: Nos Rochedos de Enxofre
+InSulph: Nos Mares Sulfúricos
+InSunken: Nos Mares Profundos
+InRev: No Modo Vingança
+InRevOrMM: No Modo Vingança ou Mestre
+AlcoholPoison: Enquanto possui Envenenamento por Álcool
+PostCal: Após derrotar o Clone da Calamitas
+PostAureus: Após derrotar Astrum Aureus
+PostPolter: Após derrotar Polterghast
+PostOD: Após derrotar o Velho Duque
+PostDoG: Após derrotar o Devorador de Deuses
+PostYharon: Após derrotar Yharon

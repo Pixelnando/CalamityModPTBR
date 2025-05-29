@@ -1,0 +1,187 @@
+// Buff Descriptions
+BuffDescription: {
+	Banner: Você tem maiores danos e defesa contra:
+	BeetleMight: Danos por ataque físico e velocidade dos ataques físicos aumentados em {0}% e {1}% respectivamente
+	ChaosState: Teleportes com o Cajado da Discórdia foram desativados
+	LeafCrystal: Emite pulsos vitais poderosos contra inimigos próximos
+	WarmthExtra: Oferece imunidade a Resfriado, Congelado e Estado glacial
+	WeaponImbueConfetti: Todos os ataques fazem com que confetes apareçam
+	WeaponImbueCursedFlames: Ataques físicos, com chicote e ataques ladinos fazem com que seus inimigos queimem com chamas amaldiçoadas
+	WeaponImbueFire: Ataques físicos, com chicote e ataques ladinos incendeiam seus inimigos
+	WeaponImbueGold: Ataques físicos, com chicote e ataques ladinos fazem com que seus inimigos deixem cair mais ouro
+	WeaponImbueIchor: Ataques físicos, com chicote e ataques ladinos diminuem as defesas dos inimigos
+	WeaponImbueNanites: Ataques físicos, com chicote e ataques ladinos confundem os inimigos
+	WeaponImbuePoison: Ataques físicos, com chicote e ataques ladinos envenenam os inimigos
+	WeaponImbueVenom: Ataques físicos, com chicote e ataques ladinos causam a Peçonha Ácida aos inimigos
+}
+
+// Vanilla NPC dialogues added by Calamity
+AnglerChat.SeaKing: Alguém diga a {0} para parar de tentar me expulsar da cidade, não vai funcionar.
+
+ArmsDealerChat: {
+	MentionQuadBarrel: Aquele velhote deixou uma arma bem surrada no seu leito de morte. Você me entende?
+	HasQuadBarrel: Hah! Olha para essa espingarda velha e enferrujada. Parece que ela veio direto da década de 70!
+	DoGDefeated: É impressão minha ou suas armas estão ficando cada vez maiores?
+	Eclipse: Essa foi a maior mariposa que eu já vi, com certeza. Você precisaria de uma grande arma para derrubar uma dessas.
+}
+
+ClothierChat: {
+	PolterghastDefeated: Seja o que tenha sido aquela coisa, estou feliz que ela tenha ido embora.
+	MoonLordDefeated1: Quem você vai chamar?
+	MoonLordDefeated2: Aqueles gritos... Não sei por que, mas sinto como se um medo sem nome tivesse despertado em meu coração.
+	MoonLordDefeated3: Ouço vagamente gritos fantasmagóricos vindos da masmorra... e não aqueles que eu conheço. O que está acontecendo lá?
+	MoonLordPresent: Houston, temos um problema.
+}
+
+CyborgChat: {
+	MoonLordDefeated1: Sempre mire para a lua! Claramente já funcionou antes.
+	MoonLordDefeated2: Draedon? Ele... é meio 'sobrecarregado' se você entende o que quero dizer..
+	MentionPlague: Esses insetos enormes aterrorizando a selva... Certamente você, de todas as pessoas, poderia encerrá-los!
+	Rain: Todos esses momentos se perderão com o tempo, como lágrimas... na chuva.
+}
+
+DemolitionistChat.DoGDefeated: Dinamite Assassina de Deuses? Cara, gostei do som disso!
+
+DryadChat: {
+	DarksunEclipse: Há uma energia solar escura emanando das mariposas que aparecem durante esse período. Ah, as mariposas ficam mais poderosas à medida que você avança...
+	Hardmode: Essa doença transmitida pelas estrelas assenta nesta terra como uma bolha. Existem forças ainda mais vis da corrupção em outros mundos?
+	DrunkPrincessShroom: Foi {0} quem me disse para fazer isso.
+	Mushroom: Não estou aqui por nenhum motivo em específico! Só estou recolhendo cogumelos para, uh, usar mais tarde.
+	SulphurSea: Minha ancestral foi perdida aqui há muito tempo. Devo prestar meus respeitos a ela.
+}
+
+DyeTraderChat: {
+	Normal: Você já viu as criaturas de pedras preciosas nas cavernas? Suas cores são de tirar o fôlego!
+	Archmage: Você acha que {0} diria 'livre estou?'
+}
+
+GoblinTinkererChat: {
+	Bandit: Ei, é impressão minha ou os meus bolsos ficaram mais leves desde que {0} chegou?
+	MoonLordDefeated: Sabe... não tivemos uma invasão há um tempo...
+}
+
+GuideChat: {
+	ProvidenceDefeated1: Parece que a extinção daquela borboleta fez com que sua vida se infiltrasse nas áreas sagradas. Tente dar uma olhada lá e ver o que você pode encontrar!
+	ProvidenceDefeated2: Ouvi dizer que há um portal de antimatéria absorvendo tudo o que consegue ver no calabouço. Tente usar a Runa de Kós lá!
+	MoonLordDefeated: O calabouço parece ainda mais inquieto do que o normal. Tenha cuidado com as poderosas abominações que se agitam por lá.
+	Hardmode1: Você poderia ter a gentileza de, ah... dar uma olhada no inferno para mim...? Eu deixei alguém meio importante para mim lá embaixo.
+	Hardmode2: Sinto um arrepio repentino pelo meu corpo, como se um meteoro tivesse acabado de cair e milhares de criaturas inocentes se transformassem em monstros das estrelas.
+}
+
+HerbTooltips: {
+	Daybloom: "[C/FFEB8A:Uma erva alegre que floresce à luz do dia]"
+	Moonglow: "[C/8AFFFF:Uma erva radiante que floresce sob o luar]"
+	Waterleaf: "[C/8AFFAF:Uma erva tenaz que floresce na chuva]"
+	Blinkroot: "[C/FFC28A:Uma erva inconstante, cujo florescimento é imprevisível]"
+	Shiverthorn: "[C/AADEFA:Uma erva frígida que floresce lentamente e permanentemente]"
+	Deathweed: "[C/A98AFF:Uma erva suja, florescendo sob a Lua Cheia ou de Sangue]"
+	Fireblossom: "[C/FF8063:Uma erva vibrante, florescendo nas horas do pôr do sol]"
+}
+
+MechanicChat: {
+	MoonLordDefeated: Como assim, as suas armadilhas não estão mais dando conta? Não olhe para mim!
+	Eclipse: Hum... eu deveria acender a minha luz noturna?
+	AcidRain: Talvez eu devesse ter impermeabilizado meus dispositivos... Eles estão começando a corroer.
+	DrunkPrincess: Bem, eu gosto de {0}, mas eu, ah... eu estou de olho em outra pessoa.
+}
+
+MerchantChat: {
+	MoonLordDefeated: Cada noite parece apenas mais agourenta do que a anterior. Eu sinto que terrores impensáveis estão observando cada movimento seu.
+	Eclipse: Você está maluco?! Desligue essas lâmpadas!
+	AcidRain: Se essa chuva ácida continuar, logo haverá uma escassez de blocos de terra!
+	Bandit: Por acaso, eu tenho várias estátuas de anjo no momento, uma mercadoria realmente rara. Quer uma?
+}
+
+NurseChat.HealNotAllowed: Agora não é hora!
+
+PainterChat: {
+	Corruption: Uma pequena doença não vao me impedir de fazer meu trabalho como artista!
+	Crimson: Há uma arte surpreendente nesta área. Uma espécie de sensação horripilante e sobrenatural. Isso me inspira!
+	Archmage: Você acha que {0} deixaria que eu pintasse ele como uma de suas garotas francesas?!
+	Tundra: Não sou exatamente adequado para este clima frio. Mas ainda assim, parece bem bonito.
+	Desert: Eu odeio a areia. Ela é grossa e áspera e entra na minha tinta.
+	Hallow: Você acha que sangue de unicórnio pode ser usado como um bom pigmento ou resina? Não, eu não vou descobrir sozinho.
+	Space: Não posso trabalhar neste ambiente. Toda a minha tinta simplesmente sai flutuando.
+	Jungle: Pintar as tartarugas em uma natureza morta não está indo muito bem.
+	Astral: Não posso pintar uma natureza morta se a fruta cresce pernas e sai andando.
+	Underworld1: Na tela, as coisas esquentam o tempo todo por aqui. Igual o ambiente!
+	Underworld2: Desculpe, estou sem tintas de aquarela. Elas não param de evaporar.
+	Crags: Rosas, sério? Isso é uma coisa muito comum de se pintar.
+	SulphurSea: Você sabia que o enxofre já foi usado como pigmento? Ou era cinábrio?
+	Abyss: Esta foi a paisagem mais fácil que já pintei na minha vida.
+}
+
+PartyGirlChat: {
+	DrunkPrincess: Tenho a sensação de que vamos ter festas absolutamente fantásticas com {0} por perto!
+	Eclipse1: Acho que minha exibição de luzes está virando um mata-mosquitos acidental. Pelo menos os monstros estão gostando.
+	Eclipse2: Ooh! Eu amo festas onde todos vestem fantasias assustadoras!
+}
+
+PirateChat: {
+	PreLeviathan: Ei, ouvi boatos sobre uma criatura mítica nos oceanos, cantando com uma voz atraente. Cuidado quando estiver pescando por aí.
+	WetScourgeDefeated: Tenho que te agradecer novamente por cuidar daquela serpente marinha. Ou aquele era outro...
+	DrunkPrincess: Vinte e nove garrafas de cerveja na parede...
+	SeaKing: Lembro-me de lendas sobre {0}. Ele não é bem como as histórias o fazem parecer.
+	Ocean: Essa sim é uma cena que posso admirar a qualquer momento! Eu sinto que algo está me observando, no entanto.
+	SulphurSea1: Não é grande espetáculo, mas ainda há vida vivendo nessas águas.
+	SulphurSea2: É possível que meu barco afunde apenas com o ácido.
+}
+
+SeedTooltips: {
+	Daybloom: "[C/FFEB8A:Deve ser plantado na Grama normal]"
+	Moonglow: "[C/8AFFFF:Deve ser plantado na Grama da Selva]"
+	Waterleaf: "[C/8AFFAF:Deve ser posicionado na Areia]"
+	Blinkroot: "[C/FFC28A:Deve ser semeado na Terra ou Lama]"
+	Shiverthorn: "[C/AADEFA:Deve ser posicionado na Neve ou Gelo]"
+	Deathweed: "[C/A98AFF:Deve ser enterrado na Grama ou Terra do bioma do mal]"
+	Fireblossom: "[C/FF8063:Deve ser enterrado em Cinzas]"
+}
+
+SkeletonMerchantChat.Normal: O que que você vai comprar?
+
+SteampunkerChat: {
+	HasPortalGun: Mas o que é essa engenhoca? Ela faz meus teleportadores parecerem um brinquedo de criança!
+	MoonLordDefeated: Sim! Também estou considerando virar uma pirata espacial.
+	Astral: Algumas máquinas minhas estão começando a enlouquecer graças à infecção astral. Eu provavelmente não devia ter construído elas aqui...
+	Hallow: Desculpe, não tenho nenhuma tecnologia à prova de unicórnios aqui. Você está por conta própria.
+}
+
+StylistChat: {
+	Hardmode: Por favor, não pegue piolhos espaciais. Ou piolhos d{0}. Ou apenas piolhos em geral.
+	DrunkPrincess1: "{0} está sempre tentando alegrar meu humor... mesmo que, no fundo, eu saiba que ela está triste."
+	DrunkPrincess2: Às vezes eu pego {0} se esgueirando atrás de mim.
+	ProfanedSoulCrystal1: Eles são tão fofos e, ainda assim, posso sentir o seu imenso poder apenas por estar perto deles. O que é você?
+	ProfanedSoulCrystal2: Odeio te dizer isto, mas você não tem cabelo para cortar ou pentear, meu amor.
+	ProfanedDonuts: Aww, eles são tão fofos! Eles têm nomes?
+}
+
+TavernkeepChat: {
+	FullMoon: Quer um pouquinho de álcool contrabandeado?
+	DrunkPrincess: Caraamba, {0} é um pouco cruel, não acha? Nunca disse ser um especialista em nada além de cerveja!
+}
+
+TaxCollectorChat: {
+	DoGDefeated: Devorador de quê? Fundos? Se é que seu pagamento é alguma coisa!
+	PreBrimmy: Talvez, com todo esse tempo livre que você tem, você poderia verificar aquelas velhas ruínas? Tenho certeza que haverá algo de valor para você!
+	HasSlickCane: Meu deus! Essa bengala tem estilo!
+	Has500Plat: Onde e como você está conseguindo todo esse dinheiro?
+	Has100Plat: Parece que nunca mais conseguirei combater as dívidas da cidade de novo!
+}
+
+TravellingMerchantChat.DrunkPrincessMerchant: Diga a {0} que eu aceitarei a sua oferta e me encontrarei com ela nos fundos da casa de {1}.
+
+TruffleChat: {
+	Normal: Não me sinto muito seguro; acho que tem porcos me seguindo por todo o lugar, e isso me deixa aterrorizado
+	DrunkPrincess: Ás vezes, {0} olha para mim de um jeito engraçado e eu não tenho certeza de como eu me sinto sobre isso.
+}
+
+WitchDoctorChat: {
+	BloodMoon: É uma boa hora para recolher os melhores ingredientes para poções.
+	PrePlantera: Possuo itens únicos se você me mostrar que superou o guardião desta selva.
+	Jungle: Meu lar aqui tem uma longa história e um passado misterioso. Você descobrirá rapidamente o quão extenso é...
+}
+
+WizardChat: {
+	Hardmode: O espaço está perigosamente perto.
+	MentionRoD: Eu queria te vender um cajado especial que eu encontrei no Sagrado, mas parece que eu o perdi. Talvez uma viagem lá refresque minha memória.
+}

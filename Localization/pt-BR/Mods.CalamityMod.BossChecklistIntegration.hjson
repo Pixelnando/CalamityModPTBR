@@ -1,0 +1,203 @@
+AcidRainT1: {
+	EntryName: Chuva Ácida
+	SpawnInfo: Use uma [i:CalamityMod/CausticTear] ou espere que a invasão ocorra naturalmente depois de derrotar o Olho de Cthulhu.
+}
+
+AcidRainT2: {
+	EntryName: Chuva Ácida (Nível 2)
+	SpawnInfo: Use uma [i:CalamityMod/CausticTear] ou espere que a invasão ocorra naturalmente depois de derrotar o Flagelo Aquático
+}
+
+AcidRainT3: {
+	EntryName: Chuva Ácida (Nível 3)
+	SpawnInfo: Use uma [i:CalamityMod/CausticTear] ou espere que a invasão ocorra naturalmente depois de derrotar o Polterghast
+}
+
+AquaticScourge: {
+	EntryName: Flagelo Aquático
+	SpawnInfo: Use [i:CalamityMod/Seafood] no Mar Sulfuroso, ou espere que ele surja naturalmente no Mar Sulfuroso.
+	DespawnMessage: "[c/F0E68C:O flagelo envenenado nada de volta ao oceano tranquilo e aberto.]"
+}
+
+AstrumAureus: {
+	SpawnInfo: Use um [i:CalamityMod/AstralChunk] de noite na Infecção Astral.
+	DespawnMessage: "[c/FFD700:Aureus neutralizou todas as ameaças. Retomar o reconhecimento prévio.]"
+}
+
+AstrumDeus: {
+	EntryName: Astrum Deus
+	SpawnInfo: Use um [i:CalamityMod/TitanHeart] ou [i:CalamityMod/Starcore] como uma oferenda em um [i:CalamityMod/AstralBeaconItem].
+	DespawnMessage: "[c/FFD700:A divindade infectada recua ao céu.]"
+}
+
+BossRush: {
+	EntryName: Corrida de Chefes
+	SpawnInfo: Use um [i:CalamityMod/Terminus] encontrado no fundo do Abismo
+}
+
+BrimstoneElemental: {
+	SpawnInfo: Use um [i:CalamityMod/CharredIdol] no Rochedo de Enxofre ou Azafure.
+	DespawnMessage: "[c/DC143C:A elemental ainda mantém sua vigília sombria sobre Azafure...]"
+}
+
+Calamitas: {
+	EntryName: Calamitas, a Bruxa Suprema
+	SpawnInfo: Use [i:CalamityMod/AshesofCalamity] ou uma [i:CalamityMod/CeremonialUrn] como uma oferenda em um [i:CalamityMod/AltarOfTheAccursedItem].
+	DespawnMessage: "[c/FFA500:A bruxa desaparece, deixando apenas um calor sufocante em seu rastro.]"
+}
+
+CalamitasClone: {
+	SpawnInfo: Use um [i:CalamityMod/EyeofDesolation] de noite.
+	DespawnMessage: "[c/FFA500:O clone cospe um pouco de sangue de desgosto e desaparece.]"
+}
+
+CeaselessVoid: {
+	EntryName: Vazio Incessante
+	SpawnInfo: Use uma [i:CalamityMod/RuneofKos] no calabouço.
+	DespawnMessage: "[c/4B0082:A antiga fenda espacial desaparece para lugares desconhecidos.]"
+}
+
+Crabulon: {
+	SpawnInfo: Use um [i:CalamityMod/DecapoditaSprout] em um bioma de Cogumelos Brilhantes.
+	DespawnMessage: "[c/6495ED:O monstruoso caranguejo micelial se afasta...]"
+}
+
+CragmawMire: {
+	SpawnInfo:
+		'''
+		Surge durante o evento da Chuva Ácida depois que o Flagelo Aquático for derrotado.
+		Comece uma chuva ácida com uma [i:CalamityMod/CausticTear] ou espere que ocorra naturalmente.
+		'''
+	DespawnMessage: "[c/F0E68C:O Charco de Presas Rochosas se enterra na areia.]"
+}
+
+Cryogen: {
+	SpawnInfo: Use uma [i:CalamityMod/CryoKey] na tundra.
+	DespawnMessage: "[c/00FFFF:Criogênio desaparece em meio aos ventos cortantes da nevasca.]"
+}
+
+DesertScourge: {
+	EntryName: Flagelo do Deserto
+	SpawnInfo: Use um [i:CalamityMod/DesertMedallion] no deserto.
+	DespawnMessage: "[c/EEE8AA:O flagelo do deserto mergulha de volta na areia.]"
+}
+
+DevourerofGods: {
+	EntryName: Devorador de Deuses
+	SpawnInfo: Use um [i:CalamityMod/CosmicWorm].
+	DespawnMessage: "[c/00FFFF:O Devorador de Deuses retorna arrogantemente às profundezas da Distorção.]"
+}
+
+Dragonfolly: {
+	SpawnInfo: Use [i:CalamityMod/ExoticPheromones] na selva.
+	DespawnMessage: "[c/FFD700:O folião retorna ao retorna ao seu poleiro isolado.]"
+}
+
+ExoMechs: {
+	EntryName: As Exo-Mecas
+	SpawnInfo: Use um Decifrador completamente potente para entrar em contato com Draedon...
+	DespawnMessage: "[c/7FFFD4:Uma imperfeição afinal... que pena.]"
+}
+
+GiantClam: {
+	SpawnInfo: Surge naturalmente debaixo d'água no Mar Profundo.
+	DespawnMessage: "[c/7FFFD4:A Ostra Gigante volta a se esconder em sua gruta.]"
+}
+
+GreatSandShark: {
+	SpawnInfo: Mate 10 Tubarões de Areia depois de derrotar a Plantera ou use um [i:CalamityMod/SandstormsCore] no deserto.
+	DespawnMessage: "[c/DAA520:O predador ápice das areias desaparece entre as dunas.]"
+}
+
+HiveMind: {
+	SpawnInfo: Mate um Tumor da Colmeia ou use um [i:CalamityMod/Teratoma] na Corrupção.
+	DespawnMessage: "[c/9400D3:A Colmeia Mental foge para meditar em outro lugar.]"
+}
+
+Leviathan: {
+	EntryName: Anahita e a Leviatã
+	SpawnInfo: Derrote uma cantora elusiva no oceano...
+	DespawnMessage: "[c/7FFFD4:Os párias aquáticos retornam à sua companhia solitária.]"
+}
+
+Mauler: {
+	SpawnInfo:
+		'''
+		Surge durante o evento da Chuva Ácida depois que o Polterghast for derrotado.
+		Comece uma chuva ácida com uma [i:CalamityMod/CausticTear] ou espere que ocorra naturalmente.
+		'''
+	DespawnMessage: "[c/F0E68C:O tubarão brutal procura outro lugar para levar sua agressividade.]"
+}
+
+NuclearTerror: {
+	SpawnInfo:
+		'''
+		Surge durante o evento da Chuva Ácida depois que o Polterghast for derrotado.
+		Comece uma chuva ácida com uma [i:CalamityMod/CausticTear] ou espere que ocorra naturalmente.
+		'''
+	DespawnMessage: "[c/F0E68C:A aberração radioativa desaparece sob uma luz doentia.]"
+}
+
+OldDuke: {
+	EntryName: Velho Duque
+	SpawnInfo: Conclua o Nível 3 do evento da Chuva Ácida, ou pesque usando um [i:CalamityMod/BloodwormItem] como isca no Mar Sulfuroso.
+	DespawnMessage: "[c/F0E68C:O velho duque recua ainda mais fundo na chuva ácida.]"
+}
+
+Perforators: {
+	EntryName: Os Perfuradores
+	SpawnInfo: Mate um Cisto do Perfurador no Carmim ou use uma [i:CalamityMod/BloodyWormFood] no Carmim.
+	DespawnMessage: "[c/DC143C:Os Perfuradores procuram por mais hospedeiros para se alimentarem.]"
+}
+
+PlaguebringerGoliath: {
+	SpawnInfo: Use uma [i:CalamityMod/Abombination] na selva.
+	DespawnMessage: "[c/00FF00:ESPÉCIMES EUTANASIADOS. SAINDO DO PROTOCOLO DE COMBATE.]"
+}
+
+Polterghast: {
+	EntryName: Polterghast
+	SpawnInfo: Mate 30 Espíritos Fantasma ou use um [i:CalamityMod/NecroplasmicBeacon] no calabouço.
+	DespawnMessage: "[c/B0E0E6:O fantasma volátil se dispersa em um lamento ecoante.]"
+}
+
+ProfanedGuardians: {
+	EntryName: Guardiões Profanos
+	SpawnInfo: Use um [i:CalamityMod/ProfanedShard] no sagrado ou no submundo.
+	DespawnMessage: "[c/FFA500:Os Guardiões são chamados de volta ao lado de sua Deusa.]"
+}
+
+Providence: {
+	SpawnInfo: Use um [i:CalamityMod/ProfanedCore] no sagrado ou no submundo.
+	DespawnMessage: "[c/FFA500:A Deusa Profana se cobre com uma chama purificadora, deixando apenas cinzas para trás...]"
+}
+
+Ravager: {
+	EntryName: Devastador
+	SpawnInfo: Use um [i:CalamityMod/DeathWhistle].
+	DespawnMessage: "[c/B22222:O Devastador retoma sua violência horrível e sem objetivo.]"
+}
+
+Signus: {
+	EntryName: Signus
+	SpawnInfo: Use uma [i:CalamityMod/RuneofKos] no submundo.
+	DespawnMessage: "[c/BA55D3:Signus inexplicavelmente deixa de estar onde estava.]"
+}
+
+SlimeGod: {
+	EntryName: O Deus Geleia
+	SpawnInfo: Use uma [i:CalamityMod/OverloadedSludge].
+	DespawnMessage: "[c/BA5533:O Deus sujo e gelatinoso salta para longe, com sua vingança alcançada.]"
+}
+
+StormWeaver: {
+	EntryName: Tecelão de Tempestades
+	SpawnInfo: Use uma [i:CalamityMod/RuneofKos] no alto do céu ou no espaço.
+	DespawnMessage: "[c/EE82EE:O Explorador Tempestuoso se esconde entre as ferozes nuvens-bigorna.]"
+}
+
+Yharon: {
+	EntryName: Yharon
+	SpawnInfo: Use um [i:CalamityMod/YharonEgg].
+	DespawnMessage: "[c/FFA500:Yharon desaparece de vista, com sua tarefa cumprida.]"
+}

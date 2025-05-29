@@ -1,0 +1,132 @@
+﻿"Calamity Mod [c/00923f:P][c/f8c301:T][c/2a1770:-][c/f8c301:B][c/00923f:R] Translation"
+é um mod que fornece uma tradução não-oficial do Calamity Mod para o Português brasileiro.
+
+[i:75] Tradução feita por [c/8df0f3:Pixelnando].
+[i:149] Lore e entradas no bestiário traduzidas por [c/6f3fea:StipulateVenus].
+
+[g:5] Nota: Não sou afiliado com o Fabsol nem os desenvolvedores do Calamity Mod.
+__________________________
+v2025.02.22.1
+- Corrigido um erro onde os novos nomes dos chefes não tinham sido atualizados na integração do Boss Checklist
+
+v2025.02.22
+- Corrigido um pequeno erro onde um chefe tinha seu nome com uma tradução antiga
+
+v2025.02.21
+- Adicionado um novo móvel: Projetor de Holograma BR-451L
+	- Criado com 10 Placas de Laboratório e 5 Placas Dúbias em uma bigorna
+
+v2025.02.18
+- Traduzido armas mágicas, de invocação, entradas no bestiário, lore e outros conteúdos diversos
+
+v1.2.0.7
+- Compatível com a versão 2.0.2.1 do Calamity Mod (parte do conteúdo novo não foi traduzida (lore))
+- O código do mod sofreu mudanças para ficar mais organizado
+
+v1.2.0.6
+- Compatível com a versão 2.0.1.3 do Calamity Mod
+
+v1.2.0.5
+- Compatível com a versão 2.0.1.2 do Calamity Mod
+- Traduzido o conteúdo introduzido até a versão 2.0.1.2
+
+v1.2.0.3
+- Revertido a tradução das configurações do Calamity Mod
+
+v1.2.0.2
+- Compatível com a versão 2.0.1.1 do Calamity Mod (As mudanças e o conteúdo novo não foram traduzidos)
+- As mensagens de status estão traduzidas novamente
+- Configurações do Calamity Mod traduzidas
+
+v1.2.0.1
+- Portado para a nova atualização do tModLoader.
+- Relíquias traduzidas.
+
+v1.2.0.0
+- Portado para a versão 1.4.
+- Ícone atualizado.
+
+v1.1.2.6
+- Pequenas correções na tradução de vários itens.
+- Dicas de itens diversas traduzidas.
+- Correções às armas retrabalhadas na 1.5.1.
+
+v1.1.2.5
+- Armas de ataque à distância traduzidas.
+- Armas de ataque físico adicionadas na atualização 1.5 traduzidas.
+- Armas retrabalhadas na 1.5.1 traduzidas.
+- Melhoria na tradução de alguns itens.
+- Alguns itens diversos que não tinham tradução agora foram traduzidos.
+- Novo ícone para o mod.
+- Encantamentos no nome e na descrição do item traduzidos.
+
+v1.1.2.4
+- Várias traduções ajustadas para estarem de acordo com a 1.5.
+- Tradução de "Rogue" alterada de Assassino para Ladino.
+- Traduzido tags como Fire Weapon, Ice Weapon e Nature Weapon, bem como Developer Item e Donor Item.
+
+
+v1.1.2.3
+
+- Compatível com a versão 1.5.0.003.
+- Itens introduzidos na versão 1.5 traduzidos.
+- Draedon e seu trio Exo traduzidos.
+- Novo diálogo da Calamitas Suprema durante a batalha traduzido.
+
+v1.1.2.2
+
+- Compatível com a nova versão 1.5 do Calamity (o conteúdo novo ainda não foi traduzido).
+- Ícone atualizado.
+
+v1.1.2.1
+
+- Descrição do mod alterada.
+
+v1.1.2
+
+- Diálogos de NPCs traduzidos (exceto as opções dos mesmos).
+
+v1.1.1
+
+- Ferramentas traduzidas.
+- Bônus definidos traduzidos.
+- Ícone atualizado.
+- Dicas de hotkeys traduzidas.
+- Dicas de itens no Modo Morte traduzidas.
+- Modificadores traduzidos.
+
+v1.1
+
+- Consumíveis traduzidos.
+- Novo ícone adicionado ao mod.
+- Mensagens de status no chat traduzidas.
+
+v1.0.3
+
+- Montarias traduzidas.
+- Animais de estimação traduzidos.
+- Adicionado um novo ícone para o mod.
+
+v1.0.2
+
+- Tinturas traduzidas.
+- Móveis traduzidos
+- Itens de invocação de chefe e eventos traduzidos.
+- Variados sacos de coleta traduzidos.
+- Lore traduzida.
+- Nomes dos registros de Draedon traduzidos.
+
+v1.0.1
+
+- Adicionado uma página inicial para o mod.
+
+v1.0 - Lançamento do mod
+
+- Acessórios traduzidos.
+- Munições traduzidas.
+- Armaduras traduzidas (sem o bônus).
+- Blocos traduzidos.
+- Materiais traduzidos.
+- Inimigos traduzidos
+- NPCs traduzidos.
+- Armas do tipo físico traduzidas.

@@ -1,0 +1,10 @@
+Mods: {
+	CalamityModPTBR: {
+		Items: {
+			FlagHologramTileItem: {
+				DisplayName: BR-4Z1L Hologram Projector
+				Tooltip: This model seems to have been designed by Draedon himself
+			}
+		}
+	}
+}

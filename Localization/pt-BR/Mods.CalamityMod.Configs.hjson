@@ -1,0 +1,478 @@
+CalamityConfig: {
+	DisplayName: Configuração Principal
+
+	Headers: {
+		ExpertMaster: Mudanças no Modo Perito e Mestre
+		Gameplay: Mudanças Gerais da Jogatina
+		Graphics: Mudanças Gráficas
+		Revengeance: Mudanças no Modo Vingança
+		UI: Mudanças da Interface do Usuário
+		BaseBoosts: Aumentos em Estatísticas Básicas
+		MusicEvents: Eventos de Música
+	}
+
+	AdrenalineMeterPosX: {
+		Label: "[i:LaserRuler] Posição X do medidor de Adrenalina"
+		Tooltip:
+			'''
+			A posição X do medidor de Adrenalina, medido como uma porcentagem da largura da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	AdrenalineMeterPosY: {
+		Label: "[i:LaserRuler] Posição Y do medidor de Adrenalina"
+		Tooltip:
+			'''
+			A posição Y do medidor de Adrenalina, medido como uma porcentagem da altura da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	Afterimages: {
+		Label: "[i:SteampunkGoggles] Pós-imagens"
+		Tooltip:
+			'''
+			Permite a renderização de pós-imagens para os NPCs, projéteis etc. do Calamity.
+			Desative para melhorar o desempenho.
+			'''
+	}
+
+	BossesStopWeather: {
+		Label: "[i:CalamityMod/TorrentialTear] Chefes interrompem o clima"
+		Tooltip:
+			'''
+			Quando ativado, vários chefes tardios interromperão a chuva e climas relacionados quando invocados.
+			Ative se você tiver problemas de desempenho durante lutas contra chefes tardios.
+			'''
+	}
+
+	BossHealthBarExtraInfo: {
+		Label: "[i:CalamityMod/EncryptedSchematicPlanetoid] Informação adicional na barra de vida dos chefes"
+		Tooltip:
+			'''
+			Adiciona informações adicionais à barra de vida do chefe do Calamity.
+			Isto exibe a vida exata do chefe ou o número de partes ou segmentos restantes.
+			'''
+	}
+
+	BossHealthBoost: {
+		Label: "[i:LifeCrystal] Porcentagem de aumento na vida dos chefes"
+		Tooltip:
+			'''
+			Aumenta globalmente a vida de todos os chefes pela porcentagem especificada.
+			Isso se acumula com os aumentos de vida dos chefes do multijogador.
+			Não afeta chefes que já foram invocados.
+			'''
+	}
+
+	DefaultDashEnabled: {
+		Label: "[i:Tabi] Corrida padrão"
+		Tooltip:
+			'''
+			Concede ao jogador uma corrida fraca padrão que não requer equipamentos ou itens para ser realizada.
+			Essa corrida será substituída por qualquer outra corrida disponível, incluindo corridas de outros mods.
+			'''
+	}
+
+	BossZen: {
+		Label: "[i:CalamityMod/ZenPotion] Chefes reduzem drasticamente as taxas de surgimento"
+		Tooltip:
+			'''
+			Todos os chefes vivos irão reduzir drasticamente a taxa de surgimento de inimigos comuns.
+			Isso também impede que a Chuva de Geleias ocorra enquanto um chefe está vivo.
+			'''
+	}
+
+	ChargeMeter: {
+		Label: "[i:CalamityMod/DraedonPowerCell] Exibir o medidor de carga"
+		Tooltip:
+			'''
+			Ativa a interface do medidor de carga, que exibe a carga atual da arma carregada pelo jogador.
+			O medidor de carga sempre estará escondido se o jogador não estiver segurando uma arma que requer carga.
+			'''
+	}
+
+	ChargeMeterPosX: {
+		Label: "[i:LaserRuler] Posição X do medidor de carga"
+		Tooltip:
+			'''
+			A posição X do medidor de carga, medido como uma porcentagem da largura da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	ChargeMeterPosY: {
+		Label: "[i:LaserRuler] Posição Y do medidor de carga"
+		Tooltip:
+			'''
+			A posição Y do medidor de carga, medido como uma porcentagem da altura da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	ChilledWaterRework: {
+		Label: "[i:ArcticDivingGear] Retrabalho da água congelada"
+		Tooltip: Quando ativado, a água nos biomas de neve e gelo drenará rapidamente a respiração do jogador em vez de infligir Resfriado.
+	}
+
+	CooldownDisplay: {
+		Label: "[i:CalamityMod/NebulousCore] Modo de exibição do quadro de recargas"
+		Tooltip:
+			'''
+			Adiciona o quadro de recargas, que exibe todas as recargas importantes logo abaixo dos efeitos e efeitos negativos.
+			Defina isso como 1 para exibir o quadro de recargas no modo compacto, e 0 para escondê-lo completamente.
+			'''
+	}
+
+	DebuffDisplay: {
+		Label: "[i:FlaskofIchor] Exibir efeitos negativos no inimigo"
+		Tooltip: Adiciona uma série de ícones de efeitos negativos acima de todos os chefes e minichefes.
+	}
+
+	DevourerofGodsEulogy: {
+		Label: "[i:CalamityModMusic/DevourerofGodsEulogyMusicBox] Eulogy for the Ego"
+		Tooltip: Toca "Scourge of The Universe (Eulogy for The Ego)" da Trilha Sonora do Calamity depois de derrotar o Devorador de Deuses.
+	}
+
+	EarlyHardmodeProgressionRework: {
+		Label: "[i:Pwnhammer] Retrabalho da progressão do início do modo difícil"
+		Tooltip:
+			'''
+			Altares Demoníacos não invocam mais minérios e blocos de corrupção/carmim quando quebrados.
+			A Parede de Carne invoca minérios de cobalto e paládio quando derrotada pela primeira vez.
+			O primeiro chefe mecânico que você enfrenta tem 20% a menos de vida e dano e invoca minérios de mithril e oricalco quando derrotado pela primeira vez.
+			O segundo chefe mecânico que você enfrenta tem 105 a menos de vida e dano e invoca minérios de adamantina e titânio quando derrotado pela primeira vez.
+			O terceiro chefe mecânico invoca minérios consagrados quando derrotado pela primeira vez.
+			'''
+	}
+
+	FasterBaseSpeed: {
+		Label: "[i:HermesBoots] Aumentar a velocidade dos movimentos básica"
+		Tooltip:
+			'''
+			Aumenta a velocidade básica do jogador substancialmente, sempre fornecendo um aumento de 50% na velocidade dos movimentos.
+			Esta ferramenta não faz nada se o mod Terraria Overhaul estiver carregado.
+			O Calamity é balanceado em torno da ativação desta configuração.
+			'''
+	}
+
+	FasterFallHotkey: {
+		Label: "[i:CalamityMod/BallAndChain] Ativar a queda rápida"
+		Tooltip:
+			'''
+			Quando ativado, você pode pressionar a tecla PARA BAIXO no ar para acelerar para baixo mais rapidamente.
+			Esta configuração não aumenta a sua velocidade de queda máxima, apenas o quão rápido você a atinge.
+			O Calamity é balanceado em torno da ativação desta configuração.
+			'''
+	}
+
+	FasterJumpSpeed: {
+		Label: "[i:FrogLeg] Aumentar a velocidade dos pulos básica"
+		Tooltip:
+			'''
+			Aumenta levemente a velocidade dos pulos básica do jogador.
+			O Calamity é balanceado em torno da ativação desta configuração.
+			'''
+	}
+
+	FasterTilePlacement: {
+		Label: "[i:ArchitectGizmoPack] Aumentar a velocidade de construção básica"
+		Tooltip:
+			'''
+			Aumenta substancialmente a velocidade que o jogador consegue posicionar peças e paredes.
+			Esta configuração se acumula com a Camada de Tijolos, Betoneira Portátil e outros acessórios.
+			'''
+	}
+
+	FlightBar: {
+		Label: "[i:CalamityMod/DrewsWings] Exibir barra de voo"
+		Tooltip: Ativa a interface da barra de voo, que exibe a capacidade de voo do jogador.
+	}
+
+	FlightBarPosX: {
+		Label: "[i:LaserRuler] Posição X da barra de voo"
+		Tooltip:
+			'''
+			A posição X da barra de voo, medido como uma porcentagem da largura da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	FlightBarPosY: {
+		Label: "[i:LaserRuler] Posição Y da barra de voo"
+		Tooltip:
+			'''
+			A posição Y da barra de voo, medido como uma porcentagem da altura da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	ForceTownSafety: {
+		Label: "[i:Sunflower] Forçar a segurança nas cidades"
+		Tooltip:
+			'''
+			Diminui enormemente as taxas de surgimento perto das cidades, neutralizando os efeitos dos modos Perito e Mestre.
+			Isso pode ter efeitos colaterais indesejados, como dificultar a localização de animais.
+			'''
+	}
+
+	HigherJumpHeight: {
+		Label: "[i:ShinyRedBalloon] Aumentar a altura dos pulos básica"
+		Tooltip:
+			'''
+			Aumenta a altura dos pulos básica do jogador em 10% para que seja possível pular 7 peças.
+			O Calamity é balanceado em torno da ativação desta configuração.
+			'''
+	}
+
+	Interlude1: {
+		Label: "[i:CalamityModMusic/Interlude1MusicBox] Interlúdio 1"
+		Tooltip: Toca o Interlúdio 1, "Silence before the storms", da Trilha Sonora do Calamity depois que o Clone da Calamitas for derrotado.
+	}
+
+	Interlude2: {
+		Label: "[i:CalamityModMusic/Interlude2MusicBox] Interlúdio 2"
+		Tooltip: Toca o Interlúdio 2, "Storms before the catastrophes", da Trilha Sonora do Calamity depois que o Senhor da Lua for derrotado.
+	}
+
+	Interlude3: {
+		Label: "[i:CalamityModMusic/Interlude3MusicBox] Interlúdio 3"
+		Tooltip: Toca o Interlúdio 3, "Catastrophes before the calamity", da Trilha Sonora do Calamity depois que Yharon for derrotado.
+	}
+
+	MeterPosLock: {
+		Label: "[i:GemLockTopaz] Travar a posição dos medidores"
+		Tooltip:
+			'''
+			Impede que os medidores de furtividade, carga, Fúria e Adrenalina sejam clicados.
+			Isso evita que eles sejam arrastados pelo mouse.
+			'''
+	}
+
+	MusicModReminderMessage: {
+		Label: "[i:MusicBoxMartians] Lembrete do mod de música"
+		Tooltip:
+			'''
+			Ativa ou desativa a mensagem de status que lembra o usuário de instalar o Calamity Music Mod.
+			Essa mensagem é exibida ao entrar em um mundo.
+			'''
+	}
+
+	NerfExpertDebuffs: {
+		Label: "[i:AnkhCharm] Remover o aumento na duração dos efeitos negativos"
+		Tooltip:
+			'''
+			Desativa a duplicação (triplicação no modo Mestre) de efeitos negativos infligidos no jogador no modo Perito.
+			O Calamity é balanceado em torno da ativação desta configuração.
+			'''
+	}
+
+	NewVanillaTextures: {
+		Label: "[i:Paintbrush] Novas texturas para o vanilla"
+		Tooltip:
+			'''
+			Ativa ou desativa as novas texturas para o vanilla.
+			Desative isso para manter compatiblidade com pacotes de textura.
+			'''
+	}
+
+	ParticleLimit: {
+		Label: "[i:FragmentStardust] Limite máximo de partículas"
+		Tooltip:
+			'''
+			Define o máximo de efeitos de partículas que podem existir ao mesmo tempo.
+			Partículas são separadas de poeira e gores.
+			Abaixe para melhorar o desempenho.
+			'''
+	}
+
+	RageMeterPosX: {
+		Label: "[i:LaserRuler] Posição X do medidor de Fúria"
+		Tooltip:
+			'''
+			A posição X do medidor de Fúria, medido como uma porcentagem da largura da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	RageMeterPosY: {
+		Label: "[i:LaserRuler] Posição Y do medidor de Fúria"
+		Tooltip:
+			'''
+			A posição Y do medidor de Fúria, medido como uma porcentagem da altura da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	RemoveLavaDropsFromLavaSlimes: {
+		Label: "[i:LavaWaders] Impedir que Geleias de Lava deixem cair lava"
+		Tooltip: Quando está ativado, Geleias de Lava serão substituídas por uma nova Geleia de Lava que não deixa cair lava.
+	}
+
+	RemoveReforgeRNG: {
+		Label: "[i:TinHammer] Remover a dependência de sorte nas reforjas"
+		Tooltip:
+			'''
+			Remove a aleatoriedade das reforjas do Inventor Goblin, tanto para armas quanto para acessórios.
+			Desative isso se estiver usando mods que alteram o reforjamento por conta própria para evitar conflitos.
+			'''
+	}
+
+	RipperMeterShake: {
+		Label: "[i:CalamityMod/RedLightningContainer] Tremor do medidor de Fúria e Adrenalina"
+		Tooltip:
+			'''
+			O quanto os medidores de Fúria e Adrenalina tremem enquanto estão em uso.
+			Defina como 0 para desativar o tremor por completo.
+			'''
+	}
+
+	ScreenshakePower: {
+		Label: "[i:CalamityMod/WavePounder] Poder do tremor da tela"
+		Tooltip:
+			'''
+			A intensidade de efeitos que tremem a tela.
+			Defina como 0 para desativar o tremor de tela completamente.
+			[c/FF232C:Todos os visuais de tremor de tela são balanceados em torno de um valor de 1.]
+			[c/FF232C:Valores altos podem ser nauseantes ou causarem mal-estar para alguns.]
+			'''
+	}
+
+	ShopNewAlert: {
+		Label: "[i:GoldChest] Alertas de novos itens no inventário das lojas"
+		Tooltip: Adiciona um ícone que aparece sobre os NPCs de cidade quando eles têm novos itens em suas lojas.
+	}
+
+	SpeedrunTimer: {
+		Label: "[i:Stopwatch] Exibir temporizador de speedrun"
+		Tooltip:
+			'''
+			Ativa um temporizador de speedrun dentro do jogo que mostra o tempo dentro do jogo até o milissegundo.
+			Uma segunda linha exibe o momento da sua derrota de chefe mais recente.
+			O tempo é rastreado por jogador e só conta o tempo enquanto carregado em um mundo.
+			'''
+	}
+
+	SpeedrunTimerPosX: {
+		Label: "[i:LaserRuler] Posição X do temporizador de speedrun"
+		Tooltip:
+			'''
+			A posição X do temporizador de speedrun, medido como uma porcentagem da largura da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	SpeedrunTimerPosY: {
+		Label: "[i:LaserRuler] Posição Y do temporizador de speedrun"
+		Tooltip:
+			'''
+			A posição Y do temporizador de speedrun, medido como uma porcentagem da alturas da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	StealthInvisibility: {
+		Label: "[i:CalamityMod/StealthHairDye] Invisibilidade da furtividade"
+		Tooltip:
+			'''
+			Ativa a invisibilidade gradual do jogador conforme a sua furtividade aumenta.
+			Este efeito é visualmente semelhante à furtividade da armadura de Cogumelita.
+			'''
+	}
+
+	StealthMeter: {
+		Label: "[i:CalamityMod/EclipseMirror] Exibir o medidor de furtividade"
+		Tooltip:
+			'''
+			Ativa a interface do medidor de furtividade, que mostra o nível de furtividade atual do jogador.
+			O medidor de furtividade sempre estará escondido se o jogador não estiver vestindo uma armadura ladina.
+			'''
+	}
+
+	StealthMeterPosX: {
+		Label: "[i:LaserRuler] Posição X do medidor de furtividade"
+		Tooltip:
+			'''
+			A posição X do medidor de furtividade, medido como uma porcentagem da largura da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	StealthMeterPosY: {
+		Label: "[i:LaserRuler] Posição Y do medidor de furtividade"
+		Tooltip:
+			'''
+			A posição Y do medidor de furtividade, medido como uma porcentagem da altura da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	SulphuricWaterMeterPosX: {
+		Label: "[i:LaserRuler] Posição X do medidor de envenenamento sulfúrico"
+		Tooltip:
+			'''
+			A posição X do medidor de envenenamento por água sulfúrica, medido como uma porcentagem da largura da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	SulphuricWaterMeterPosY: {
+		Label: "[i:LaserRuler] Posição Y do medidor de envenenamento sulfúrico"
+		Tooltip:
+			'''
+			A posição Y do medidor de envenenamento por água sulfúrica, medido como uma porcentagem da altura da tela.
+			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
+			'''
+	}
+
+	PotionSelling: {
+		Label: "[i:SpelunkerPotion] Venda de poções por NPCs de cidade"
+		Tooltip:
+			'''
+			Permite que os NPCs de cidade vendam várias poções.
+			Certas poções são vendidas depois que chefes específicos são derrotados.
+			'''
+	}
+
+	PlayerRespawnTime_BossAlive: {
+		Label: "[i:Stopwatch] Tempo de renascimento durante lutas contra chefes"
+		Tooltip:
+			'''
+			Define, em segundos, o tempo de renascimento para os jogadores enquanto um chefe está vivo. Isso se acplica igualmente no modo de um jogador e multijogador.
+			Enquanto nenhum chefe está vivo, os jogadores renascerão em 3 segundos no modo de um jogador e multijogador.
+			'''
+	}
+
+	TownNPCSpawnRateMultiplier: {
+		Label: "[i:GuideVoodooDoll] Multiplicador da taxa de surgimento de NPCs de cidade"
+		Tooltip:
+			'''
+			Multiplica diretamente a taxa em que NPCs de cidade surjem e renascem.
+			Isso reduz o tempo de espera caso um chefe ou evento limpe toda a sua cidade.
+			'''
+	}
+
+	TownNPCsSpawnAtNight: {
+		Label: "[i:ClothierVoodooDoll] NPCs de cidade surgem à noite"
+		Tooltip:
+			'''
+			Quando ativado, NPCs de cidade podem surgir e renascer de noite.
+			Isso inclui o Velho.
+			'''
+	}
+
+	VanillaCooldownDisplay: {
+		Label: "[i:HealingPotion] Mostrar recargas do vanilla"
+		Tooltip:
+			'''
+			Adiciona os efeitos negativos do vanilla, Enjoo por poção e Estado de caos, ao quadro de recargas.
+			Isso não os remove da sua lista de efeitos, mas pode ajudar na visiblidade mesmo assim.
+			'''
+	}
+
+	WikiStatusMessage: {
+		Label: "[i:Book] Mensagem de status sobre o wiki"
+		Tooltip: Ative ou desative a mensagem de status promovendo o Wiki Oficial do Calamity que aparece ao entrar no mundo.
+	}
+}

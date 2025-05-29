@@ -1,0 +1,27 @@
+Accessory: {
+	Cloaked.DisplayName: (Coberto)
+	Silent.DisplayName: (Silencioso)
+	// New modifier effects (this is only positive)
+	StealthGenTooltip: +{0}% de geração de furtividade
+}
+
+Weapon: {
+	Atrocious.DisplayName: (Atroz)
+	Blunt.DisplayName: (Cego)
+	Feathered.DisplayName: (Penado)
+	Flawless.DisplayName: (Perfeito)
+	Flimsy.DisplayName: (Frágil)
+	Glorious.DisplayName: (Glorioso)
+	Hefty.DisplayName: (Robusto)
+	Lethal.DisplayName: (Letal)
+	Mighty.DisplayName: (Poderoso)
+	Pointy.DisplayName: (Pontudo)
+	Radical.DisplayName: (Radical)
+	Serrated.DisplayName: (Serrado)
+	Sharp.DisplayName: (Afiado)
+	Sleek.DisplayName: (Lustroso)
+	Unbalanced.DisplayName: (Desigual)
+	Vicious.DisplayName: (Vicioso)
+	// New modifier effects (plus sign added in-code)
+	StealthDamageTooltip: "{0}% de dano por ataque furtivo"
+}

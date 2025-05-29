@@ -1,0 +1,56 @@
+AcidRain: Chuva Ácida
+AcidRainStart: Uma chuva tóxica cai sobre os mares devastados!
+AcidRainEnd: Os céus sulfúricos começam a clarear...
+BossRush: Corrida de Chefes
+// Boss Rush Xeroc Dialogue
+// Intro text
+BossRushStartText_1: ...Quanto tempo faz? Séculos? Talvez até um milênio?
+BossRushStartText_2: Afundei este meu artefato nas profundezas do mundo para evitar que ele fosse usado novamente.
+BossRushStartText_3: Poucos estão cientes de sua existência, e aqueles que estão?
+BossRushStartText_4: Eles sabem que o poder ilimitado que antes era capaz de fornecer não pode mais ser aproveitado.
+BossRushStartText_5: É uma surpresa ver que há outra pessoa corajosa o suficiente para recuperá-lo, especialmente dadas estas circunstâncias.
+BossRushStartText_6: Desta vez, nada menos que um mortal! Que interessante...
+BossRushStartText_7: O que exatamente fez você se esforçar para reivindicar o que agora nada mais é do que uma placa de pedra decomposta?
+BossRushStartText_8: ...Talvez esta seja uma oportunidade. Reivindicar esta relíquia não é tarefa fácil, e tive breves vislumbres de sua jornada.
+BossRushStartText_9: Você, que reivindicou este artefato que encerrou uma era em sua busca para acabar com outra...
+// Extra text based on defeated bosses
+// You should see all of these if you are at the right progression point for Boss Rush
+BossRushStartText_DoG: Que matou a serpente sem nome...
+BossRushStartText_Yharon: Que superou até meu velho amigo, a Fênix...
+BossRushStartText_DraedonSCal: Cujo poder pode se igualar ao do único mortal que já me fez duvidar do meu próprio...
+// Further intro text
+BossRushStartText_10: Desejo testar sua força, utilizando fragmentos da minha Luz Primordial assumindo a forma de seus antigos inimigos.
+BossRushStartText_11: Não será uma tarefa fácil, mas se você provar que é forte o suficiente, terei uma proposta para você.
+BossRushStartText_12: Você se acha capaz de vencer tal desafio?
+// Shortened intro text for repeat attempts
+BossRushStartText_Repeat: Você deseja enfrentar meu desafio?
+// Player responses. Death is if you somehow die while Xeroc is waiting
+BossRushStartText_Decline: Eu vejo. Talvez minha fé em você estivesse errada. Até a próxima.
+BossRushStartText_Accept: Muito bem. Que comece o julgamento!
+BossRushStartText_Death: ...Retornei para presenciar isso, entre todas as coisas?
+// Sequential text at the end of Boss Rush Tier 1
+BossRushTierOneEndText_1: Uma apresentação razoável até agora, mas está longe de ser o bastante para atender às minhas expectativas.
+BossRushTierOneEndText_2: Prepare tanto seu corpo quanto sua alma para o que ainda está por vir.
+// Sequential text at the end of Boss Rush Tier 2
+BossRushTierTwoEndText_1: Eu não estava enganado. Você é de fato um guerreiro admirável.
+BossRushTierTwoEndText_2: Ainda assim, você não me mostrou o suficiente. Devemos intensificar as coisas ainda mais?
+// Sequential text at the end of Boss Rush Tier 3
+BossRushTierThreeEndText_1: Sua determinação e vontade de se tornar mais forte... isso me lembra de mim mesmo, quando eu era mortal.
+BossRushTierThreeEndText_2: Mas os desafios mais difíceis ainda estão por vir. Não baixe sua guarda, nem por um momento.
+// Sequential text at the end of Boss Rush Tier 4
+BossRushTierFourEndText_1: O julgamento logo alcançará seu clímax.
+BossRushTierFourEndText_2: Agora é o momento de demonstrar sua convicção e o verdadeiro alcance de sua força e vontade.
+BossRushTierFourEndText_3: Prove-me que você é capaz de superar até mesmo a si mesmo.
+// Victory text
+BossRushEndText_1: Uma apresentação realmente excelente. Vejo que eu estava correto! Você realmente pode ser o guerreiro mais poderoso deste mundo. No entanto...
+BossRushEndText_2: Parece que mesmo esse poder... não é o bastante. Receio que não compartilharei minha proposta com você.
+BossRushEndText_3: omo um prêmio de consolação, desejo que você fique com esta pedra antiga que esculpi do Ninho da Águia.
+BossRushEndText_4: Há muito tempo eu a guardo como uma... lembrança, de certa forma.
+BossRushEndText_5: Embora você possa não ter atendido aos meus requisitos, é improvável que esta seja a única vez que nossos caminhos se cruzarão!
+BossRushEndText_6: Continue buscando uma força maior, e quando nos encontrarmos novamente, talvez você tenha crescido o suficiente em poder para ser digno.
+BossRushEndText_7: Enquanto isso, tenho meus próprios assuntos que devo resolver.
+BossRushEndText_8: Por ora, adeus.
+// Shortened victory text for repeat attempts
+BossRushEndText_Repeat: Você mostrou ser um guerreiro formidável, porém não é o bastante. Busque novos patamares de poder, para que um dia possa ser digno
+// Dying during Xeroc's victory monologue gives you this
+BossRushEndText_Death: ...Eu suponho que eu estava certo ao assumir que este mundo não pode ajudar a si mesmo, muito menos a mim.

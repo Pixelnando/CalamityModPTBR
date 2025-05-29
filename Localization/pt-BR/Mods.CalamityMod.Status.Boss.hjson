@@ -1,0 +1,121 @@
+// Slime God
+SlimeGodRun: O Deus Geleia foge para lutar outro dia...
+// Cryogen
+CryogenBossText: Criogênio está ficando louco!
+PyrogenBossText: Pirogênio está ficando louco!
+// Calamitas Clone
+CalamitasBossText: Você subestima meu poder...
+CalamitasBossText2: Os irmãos renasceram!
+CalamitasBossText3: Impressionante, criança, muito impressionante...
+// Great Sand Shark
+SandSharkText: Algo se agita nas quentes areias do deserto...
+SandSharkText2: Um predador ápice se aproxima...
+// Plaguebringer Goliath
+PlagueBossText: BARRAGEM NUCLEAR DE PRAGA ARMADA, PREPARAR PARA O LANÇAMENTO!!!
+PlagueBossText2: MÍSSEIS LANÇADOS, ROTINA DE PERSEGUIÇÃO INICIADA!!!
+// Astrum Deus
+DeusAltarRejectNightText: O deus das estrelas rejeita sua oferta. O ritual só pode ser realizado à noite.
+// Providence
+ProfanedBossText: Chamas sagradas estão queimando suas asas...
+// Polterghast
+GhostBossText2: Lamentos ecoam pelos corredores do calabouço arruinado...
+GhostBossText3: Prisioneiros mortos há muito tempo buscam sua vingança zelosa...
+// Devourer of Gods
+EdgyBossText: Não fique convencido!
+EdgyBossText2: Um erro fatal!
+EdgyBossText3: Delicioso...
+EdgyBossText4: Doeu?
+EdgyBossText5: Não acabou ainda!
+EdgyBossText6: UM DEUS NÃO TEME A MORTE!
+EdgyBossText7: Você não é nenhum deus... mas irei me banquetear com a sua essência mesmo assim!
+EdgyBossText8: Você acha... que você pode.. ME EXTERMINAR!?
+// Yharon
+FlameText: O ar está ficando mais quente ao seu redor.
+// Draedon (introduction)
+DraedonIntroductionText1: Eu esperei muito por este momento.
+DraedonIntroductionText2: Sua natureza me fascina, pois não a entendo.
+DraedonIntroductionText3: Você enfrentará minhas criações que ultrapassaram os deuses.
+DraedonIntroductionText4: E você me mostrará a sua disposição através da batalha.
+DraedonIntroductionText5: Agora, escolha.
+DraedonResummonText: Faça a sua escolha. Você tem 20 segundos.
+DraedonBossRushText: Faça a sua escolha. Você tem 20 segundos.
+// Draedon (Exo Mechs mid-battle dialogue)
+DraedonExoPhase1Text1: Designs aprimorados com o tempo e o conhecimento são a essência do meu trabalho.
+DraedonExoPhase1Text2: Por nenhum outro método posso chegar à perfeição.
+DraedonExoPhase2Text1: Seu desempenho cai perfeitamente dentro das margens de erro.
+DraedonExoPhase2Text2: Isso é muito satisfatório. Avançaremos para a próxima fase de testes.
+DraedonExoPhase3Text1: Desde que fui alertado de sua presença, processei suas batalhas para tornar minhas máquinas mais fortes.
+DraedonExoPhase3Text2: Mesmo agora, eu monitoro as suas ações. Nada deve escapar dos limites dos meus cálculos.
+DraedonExoPhase4Text1: Curioso. Muito curioso.
+DraedonExoPhase4Text2: Você progride constantemente contra desafios cada vez mais difíceis.
+DraedonExoPhase5Text1: Sua natureza permanece desconhecida para mim. Isso não é o suficiente.
+DraedonExoPhase5Text2: ...Eu busquei a perfeição. O destino deve favorecer a ironia, pois esse deve ter sido o meu primeiro erro.
+DraedonExoPhase6Text1: Que absurdo.
+DraedonExoPhase6Text2: Não vou mais permitir que meus cálculos impeçam a minha observação desta batalha.
+DraedonExoPhase6Text3: Vou mostrar a você toda a fúria de minha máquina final.
+DraedonAresEnrageText: Que tolice. Você não pode escapar.
+// Draedon (ending)
+DraedonEndText1: Um fator desconhecido - um catalisador é o que você é.
+DraedonEndText2: Quase tão alienígena quanto eu, a esta terra e sua história.
+DraedonEndText3: ...Desculpe minha introspecção. Devo organizar meus pensamentos após essa exibição.
+DraedonEndText4: Esta terra se tornou obsoleta e rígida com o sangue que foi derramado até agora.
+DraedonEndText5: Você também derramou sangue, mas pode ser o suficiente para começar uma nova era... Do quê, eu não sei. Mas é algo que estou ansioso para ver.
+DraedonEndText6: Então, você deseja alcançar o Tirano. Eu não posso te ajudar nisso.
+DraedonEndText7: Não é uma questão de despeito, pois nada mais desejaria do que observar tal conflito.
+DraedonEndText8: Mas você conseguiu antes. Você encontrará um caminho eventualmente.
+DraedonEndText9: Devo reconhecer o seu triunfo, mas voltarei agora ao meu maquinário.
+DraedonEndKillAttemptText: ...Isso foi totalmente desnecessário.
+// Draedon (GFB)
+DraedonMechdusaBeginText: ...Morra.
+DraedonMechdusaEndText1: Pera, o quê? Como?
+DraedonMechdusaEndText2: Não
+// SCal (First Battle)
+SCalSummonText: Você gosta de passar pelo inferno?
+SCalStartText: Você devia ter apenas morrido...
+SCalBH2Text: Não faz muito tempo desde que você mal conseguiu derrotar meu clone. Um grande fracasso, não é?
+SCalBH3Text: Você conquistou um grande poder, mas não o exerce para ninguém além de si mesmo.
+SCalBrothersText: Você gostaria de conhecer a minha família? Horrível, não é?
+SCalPhase2Text: Você vai sofrer muito.
+SCalBH4Text: É um absurdo pensar em tentar fugir. Enquanto você estiver vivo, você sofrerá.
+SCalSeekerRingText: Um arrivista que imprudentemente roubou e matou muitos pelo poder. Eu me pergunto, quem isso me lembra...?
+SCalBH5Text: Esta batalha não é de seu interesse. Ninguém lhe permitiu dar sua opinião sobre este assunto!
+SCalSepulcher2Text: Quando tudo se acalmar e só sobrar um de nós, se for você, que valor isto terá tido?!
+SCalDesparationText1: Simplesmente pare!
+SCalDesparationText2: Eu não tenho um futuro se eu perder aqui.
+SCalDesparationText3: Depois de me superar, você terá apenas um caminho a seguir.
+SCalDesparationText4: E esse caminho... também não tem futuro.
+SCalAcceptanceText1: Mesmo que ele tenha jogado tudo fora, seu poder permanece.
+SCalAcceptanceText2: Eu não tenho mais energia para ficar ressentida com ele, ou com você...
+SCalAcceptanceText3: Tudo estará em suas mãos agora.
+// SCal (Rematch)
+SCalSummonTextRematch: Se você está procurando por queimaduras de quarto grau, você encontrou a pessoa certa.
+SCalStartTextRematch: Quando chegar a hora, você gostaria de se juntar à minha criação?
+SCalBH2TextRematch: Você ainda terá que se esforçar para esta vitória.
+SCalBH3TextRematch: Faz muito tempo que eu não tenho um boneco de treinamento tão interessante para testar minha magia.
+SCalBrothersTextRematch: Eles são apenas carcaças de seu antigo eu. Duvido que até mesmo um fragmento de seus espíritos permaneça.
+SCalPhase2TextRematch: Aqui vamos nós, novamente.
+SCalBH4TextRematch: Eu me pergunto se você já viu isso em seus pesadelos desde nossa primeira batalha.
+SCalSeekerRingTextRematch: Sua habilidade não esmoreceu nem um pouco.
+SCalBH5TextRematch: Não é emocionante?
+SCalSepulcher2TextRematch: Lá vem a tumba rastejante, uma última vez.
+SCalDesparationText1Rematch: Uma exibição fantástica, admito esta partida para você.
+SCalDesparationText2Rematch: Sem dúvida, você enfrentará inimigos mais fortes do que eu.
+SCalDesparationText3Rematch: Espero que você não comita os mesmos erros que ele.
+SCalDesparationText4Rematch: Não consigo imaginar o que o seu futuro reserva para você agora.
+// Cirrus (GFB)
+CirrusSummonText: Você está preparado para uma tarefa mais Sísifa?
+CirrusBirbSwarmText: Aqueles corações são meio chatos. Que tal uma infestação de pássaros?
+CirrusBH2Text: Tá com sede? Eu posso corrigir isso!
+CirrusBH3Text: Saca só esse brinquedinho legal que eu encontrei!
+CirrusDoGText: Eu te disse que os vermes falantes eram reais! Mas você não acreditou em mim!
+CirrusPhase2Text: Hora de uma transformação!
+CirrusBH4Text: É hora de HAGE!
+CirrusHallowBossSpamText: Eu tenho mais amigos do que você poderia imaginar!
+CirrusBH5Text: Hah! Você é bom, mas eu sou melhor!
+CirrusSecondBirbSwarmText: Hora de outra infestação!
+CirrusNonchalantText: Tô ficando cansada...
+CirrusBruhText: Brincadeirinha! Hora do meu ataque especial!
+CirrusGiveUpText: Meh, que seja, tô meio cansada disso.
+// April Fools
+AprilFools: O LORDE está se aproximando...
+AprilFoolsGFB: La Ruga está se aproximando...

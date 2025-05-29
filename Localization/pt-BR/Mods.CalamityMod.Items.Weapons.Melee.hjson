@@ -1,0 +1,1439 @@
+AbsoluteZero: {
+	DisplayName: Zero Absoluto
+	Tooltip:
+		'''
+		Dispara cristais de gelo escuros
+		A lâmina cria explosões de gelo em acertos diretos
+		Lâmina de gelo antiga imbuída com a magia do Arquimago de Gelo
+		'''
+}
+
+AbyssBlade: {
+	DisplayName: Lâmina do Abismo
+	Tooltip:
+		'''
+		Dispara tridentes de curto alcance
+		Acertar inimigos infligirá o efeito negativo Pressão das profundezas
+		Quanto mais baixa a defesa do inimigo, mais dano ele recebe desse efeito negativo
+		'''
+}
+
+AegisBlade: {
+	DisplayName: Lâmina da Égide
+	Tooltip:
+		'''
+		Atacar um inimigo com a lâmina causa uma erupção terrestre
+		Pressione <right> para disparar um raio da égide
+		'''
+}
+
+Aftershock: {
+	DisplayName: Pós-Choque
+	Tooltip: Invoca rochedos do céu ao atingir o inimigo
+}
+
+AirSpinner: {
+	DisplayName: Rotador Aéreo
+	Tooltip:
+		'''
+		Dispara penas quando os inimigos estão próximos
+		Um ioiô muito ágil
+		'''
+}
+
+AmidiasTrident: {
+	DisplayName: Tridente de Amidias
+	Tooltip: Dispara redemoinhos teleguiados
+}
+
+AnarchyBlade: {
+	DisplayName: Lâmina da Anarquia
+	Tooltip:
+		'''
+		Quanto menor for a sua vida, mais danos esta lâmina causa
+		Seus acertos irão gerar uma grande explosão
+		Se você estiver com menos de 50% de vida, seus acertos têm a chance de matar inimigos normais instantaneamente
+		'''
+}
+
+Aorta: {
+	DisplayName: Aorta
+	Tooltip:
+		'''
+		Dispara sangue teleguiado quando os inimigos estão próximos
+		Um ioiô muito ágil
+		'''
+}
+
+ArkoftheCosmos: {
+	DisplayName: Arca do Cosmos
+	Tooltip:
+		'''
+		[COMBO]
+		[PARRY]
+		[BLAST]
+		A culminação física de sua jornada, capaz de rasgar deuses em pedaços
+		'''
+	ComboInfo:
+		'''
+		<left> para executar um combo de 5 golpes que termina com o arremesso da lâmina
+		A lâmina arremessada seguirá seu cursor
+		Soltar o ataque enquanto a lâmina estiver fora causará um estalo explosivo
+		'''
+	ParryInfo:
+		'''
+		Pressione <right> para cortar as lâminas de tesoura na sua frente
+		Atingir um inimigo com elas aparará-lo, concedendo-lhe uma invulnerabilidade breve
+		Você pode aparar projéteis para fazê-los causarem 160 a menos de dano por um curto período
+		Aparar qualquer coisa fortalecerá os próximos 10 ataques da espada
+		'''
+	BlastInfo:
+		'''
+		Pressionar <right> enquanto segura PARA CIMA com cargas fortalecidas provocará um Grande Rasgo no espaço-tempo e usará todas as cargas
+		Se mais de 5 cargas forem usadas, você pode fazer uma investida através do rasgo segurando PARA CIMA
+		'''
+}
+
+ArkoftheElements: {
+	DisplayName: Arca dos Elementos
+	Tooltip:
+		'''
+		[COMBO]
+		[PARRY]
+		[BLAST]
+		A heavenly pair of blades infused with the essence of Terraria, powerful enough to cut through the fabric of reality
+		'''
+	ComboInfo:
+		'''
+		<left> para executar um combo de 5 golpes que termina com o arremesso da lâmina
+		Soltar o ataque enquanto a lâmina estiver fora causará dano adicional e lhe dará 2 cargas
+		'''
+	ParryInfo:
+		'''
+		Pressione <right> para cortar as lâminas de tesoura na sua frente
+		Atingir um inimigo com elas aparará-lo, concedendo-lhe uma invulnerabilidade breve
+		Você pode aparar projéteis para fazê-los causarem 100 a menos de dano por um curto período
+		Aparar fortalecerá os próximos 10 ataques da espada, permitindo que você use as duas lâminas ao mesmo tempo
+		'''
+	BlastInfo: Pressionar <right> enquanto segura PARA CIMA com cargas fortalecidas provocará um Grande Rasgo no espaço-tempo e usará todas as cargas
+}
+
+AstralBlade: {
+	DisplayName: Lâmina Astral
+	Tooltip: Causa mais dano quanto mais vida resta do inimigo
+}
+
+AstralPike: {
+	DisplayName: Lança Astral
+	Tooltip: Invoca barragens de estrelas astrais em acertos críticos
+}
+
+AstralScythe: {
+	DisplayName: Foice Astral
+	Tooltip: Dispara um anel de foice que acelera com o tempo
+}
+
+Ataraxia: {
+	DisplayName: Ataraxia
+	Tooltip: Equanimidade
+}
+
+Avalanche: {
+	DisplayName: Avalanche
+	Tooltip: Invoca bombas de gelo ao atingir o inimigo que explodem em fragmentos de gelo após 3 segundos
+}
+
+Azathoth: {
+	DisplayName: Azathoth
+	Tooltip:
+		'''
+		Dispara orbes cósmicos que atingem os inimigos próximos com lasers
+		Um ioiô excepcionalmente ágil
+		'Destrua o universo num piscar de olhos'
+		'''
+}
+
+BalefulHarvester: {
+	DisplayName: Ceifeiro Sinistro
+	Tooltip: Dispara abóboras e crânios flamejantes que se dividem em orbes de fogo teleguiados ao atingir o inimigo
+}
+
+BallOFugu: {
+	DisplayName: Pelota de Baiacu
+	Tooltip: Lança um peixe que cospe espinhos teleguiados
+}
+
+BansheeHook: {
+	DisplayName: Gancho das Almas Penadas
+	Tooltip: Balança um gancho de almas penadas que dispara lâminas e explode ao atingir o inimigo
+}
+
+Basher: {
+	DisplayName: Batedor
+	Tooltip: Inflige irradiação ao atingir o inimigo
+}
+
+BladecrestOathsword: {
+	DisplayName: Lâmina da Crista do Juramento
+	Tooltip: Dispara barragens de foices demoníacas que desaceleram exponencialmente e explodem
+}
+
+BlightedCleaver: {
+	DisplayName: Cutelo Arruinado
+	Tooltip:
+		'''
+		Dispara lâminas flamejantes teleguiadas
+		Dá ao jogador o efeito Carnificina Brutal ao atingir o inimigo
+		Esse efeito aumenta o dano por ataque físico em 25% e a chance de ataque físico crítico em 10%
+		'''
+}
+
+Bonebreaker: {
+	DisplayName: Quebra-Ossos
+	Tooltip: Dispara dardos que grudam nos inimigos antes de explodir em estilhaços
+}
+
+BotanicPiercer: {
+	DisplayName: Perfurador Botânico
+	Tooltip: Dispara um feixe de energia botânico
+}
+
+Brimlance: {
+	DisplayName: Enxolança
+	Tooltip: Cria explosões de enxofre ao atingir o inimigo
+}
+
+Brimlash: {
+	DisplayName: Cortador de Enxofre
+	Tooltip: Dispara um raio de enxofre que explode em mais raios na morte
+}
+
+BrimstoneSword: {
+	DisplayName: Espada de Enxofre
+	Tooltip:
+		'''
+		Invoca gêiseres de enxofre ao atingir o inimigo
+		Pressione <right> para lançar a espada como um dardo que explode no acerto
+		'''
+}
+
+BrinyBaron: {
+	DisplayName: Lâmina Salgada
+	Tooltip:
+		'''
+		Atacar um inimigo com a lâmina faz com que um tufão salgado apareça
+		Pressione <right> para disparar uma lâmina de água de vento cortante
+		'''
+}
+
+BrokenBiomeBlade: {
+	DisplayName: Lâmina do Bioma Quebrada
+	// See the attunement file for each attunement
+	Tooltip:
+		'''
+		[FUNC]
+		Segure <right> enquanto está parado em terreno plano para sintonizar a arma com os poderes do bioma em sua volta
+		Caso contrário, pressionar <right> alterna entre a sintonização atual e uma adicional armazenada
+		Sintonização Principal: [ATT1]
+		Sintonização Secundária: [ATT2]
+		'''
+	DefaultFunction: Não faz nada... ainda
+}
+
+BurningRevelation: {
+	DisplayName: Relevação Ardente
+	Tooltip:
+		'''
+		Emite explosões enormes ao atingir o inimigo
+		Um ioiô excepcionalmente ágil
+		'''
+}
+
+BurntSienna: {
+	DisplayName: Sienna Queimada
+	Tooltip: Faz com que os inimigos explodam em projéteis de cura na morte
+}
+
+Carnage: {
+	DisplayName: Carnificina
+	Tooltip: Inimigos explodem em sangue teleguiado na morte
+}
+
+CatastropheClaymore: {
+	DisplayName: Claymore Catastrófica
+	Tooltip: Dispara faíscas que infligem Queimadura de Frio, Fogo do Inferno, ou Ichor
+}
+
+CelestialClaymore: {
+	DisplayName: Claymore Celestial
+	Tooltip: Invoca chamas de energia cósmica perto do jogador que geram grandes explosões
+}
+
+ClamCrusher: {
+	DisplayName: Ostra Esmagadora
+	Tooltip:
+		'''
+		Lança uma ostra enorme que atordoa os inimigos por um curto período de tempo
+		Começa a ser afetado pela gravidade e causa muito mais danos depois de estar no ar por um tempo
+		'''
+}
+
+CometQuasher: {
+	DisplayName: Esmagador de Cometas
+	Tooltip: Invoca uma chuva de meteoros do céu ao atingir o inimigo
+}
+
+CosmicDischarge: {
+	DisplayName: Descarga Cósmica
+	Tooltip:
+		'''
+		Atingir um inimigo com o chicote causa explosões glaciais e concede ao jogador o efeito de congelamento cósmico
+		Esse efeito dá ao jogador maior regeneração de vida enquanto está parado e congela os inimigos perto do jogador
+		'''
+}
+
+CosmicShiv: {
+	DisplayName: Faca Cósmica
+	Tooltip:
+		'''
+		Dispara um feixe cósmico que segue os inimigos
+		Ao atingir um inimigo, uma barragem de objetos fora da tela atingem o inimigo, além de chover estrelas
+		'''
+}
+
+CrescentMoon: {
+	DisplayName: Lua Crescente
+	Tooltip:
+		'''
+		Dispara uma espada de chicote que invoca luas crescentes teleguiadas
+		'As pessoas queriam a lua, então vamos trazer a lua para elas'
+		'''
+}
+
+DarklightGreatsword: {
+	DisplayName: Montante da Luz Sombria
+	Tooltip: Dispara lâminas de luz sombria que se dividem na morte
+}
+
+DeathsAscension: {
+	DisplayName: Ascensão da Morte
+	Tooltip:
+		'''
+		Pressione <right> para lançar uma barragem de foices teleguiadas
+		Você pode sentir as mãos da própria Morte sobre as suas
+		'''
+}
+
+DefiledGreatsword: {
+	DisplayName: Montante Profano
+	Tooltip:
+		'''
+		Dispara lâminas ardentes, hiper e solares
+		Dá ao jogador o efeito Carnificina Brutal ao atingir o inimigo
+		Esse efeito aumenta o dano por ataque físico em 25% e a chance de ataque físico crítico em 10%
+		'''
+}
+
+DepthCrusher: {
+	DisplayName: Triturador das Profundezas
+	Tooltip:
+		'''
+		Acertar inimigos infligirá o efeito negativo Correnteza
+		Pressione <right> para usar sem martelar as paredes
+		'''
+}
+
+Devastation: {
+	DisplayName: Devastação
+	Tooltip: Dispara explosões galácticas
+}
+
+DevilsDevastation: {
+	DisplayName: Devastação do Diabo
+	Tooltip:
+		'''
+		Dispara uma série de foices demoníacas
+		Tridentes emergem do submundo para espetar seus inimigos
+		Acertos críticos causam explosões de chamas das sombras
+		'''
+}
+
+DevilsSunrise: {
+	DisplayName: Nascer do Sol do Diabo
+	Tooltip: Bolas? Pequenas.
+}
+
+DiseasedPike: {
+	DisplayName: Lança Infectada
+	Tooltip: Dispara caçadores da praga ao atingir o inimigo
+}
+
+DraconicDestruction: {
+	DisplayName: Destruição Dracônica
+	Tooltip:
+		'''
+		Dispara um feixe de espada dracônico que explode em feixes adicionais
+		Feixes adicionais voam para cima e para baixo para destruir os inimigos
+		'''
+}
+
+DragonPow: {
+	DisplayName: Poder do Dragão
+	Tooltip:
+		'''
+		Dispara uma cabeça de dragão que libera faíscas dracônicas
+		Invoca uma barragem de pétalas e cachoeiras ao atingir o inimigo
+		'''
+}
+
+DragonRage: {
+	DisplayName: Raiva do Dragão
+	Tooltip:
+		'''
+		Gira um bastão que causa explosões ao atingir o inimigo
+		Cada décimo acerto invocará um anel de bolas de fogo
+		'''
+}
+
+Earth: {
+	DisplayName: Terra
+	Tooltip:
+		'''
+		Diminui a defesa do inimigo em 1 com cada ataque
+		Seus ataques vão te curar bastante
+		Chove meteoros RGB ao atingir o inimigo que explodem em mais meteoros após um curto período de tempo
+		Meteoros de gelo congelam os inimigos
+		Meteoros de chamas explodem
+		Meteoros verdes germa orbes de cura
+		'''
+}
+
+EarthenPike: {
+	DisplayName: Lança Terrestre
+	Tooltip:
+		'''
+		Espalha fragmentos de fóssil no uso
+		Esmaga a defesa do inimigo
+		'''
+}
+
+ElementalLance: {
+	DisplayName: Lança Elemental
+	Tooltip:
+		'''
+		Dispara um feixe de lança que se divide várias vezes enquanto viaja
+		'Rasgue o cosmos em pedaços!'
+		'''
+}
+
+ElementalShiv: {
+	DisplayName: Faca Elemental
+	Tooltip: Dispara uma faca de arco-íris que gera facas adicionais no acerto
+}
+
+EmpyreanKnives: {
+	DisplayName: Facas Empíricas
+	Tooltip: Lança uma série de facas saltitantes que podem curar o usuário
+}
+
+EntropicClaymore: {
+	DisplayName: Claymore Entrópica
+	Tooltip: Dispara uma série de bolas de plasma teleguiadas
+}
+
+EssenceFlayer: {
+	DisplayName: Esfolador de Essências
+	Tooltip: Atira uma foice de essência que gera espíritos de cura ao matar o inimigo
+}
+
+EutrophicScimitar: {
+	DisplayName: Cimitarra Eutrófica
+	Tooltip: Dispara um feixe quando balançada que atordoa os inimigos
+}
+
+EvilSmasher: {
+	DisplayName: Esmagador Malígno
+	Tooltip:
+		'''
+		Para cada inimigo que você matar, este martelo ganha um bônus em suas estatísticas
+		Estes bônus acumulam até que um limite é atingido
+		O acúmulo de bônus será redefinido se você selecionar um item diferente
+		O acúmulo de bônus será reduzido em 1 toda vez que você for atingido
+		'MAl! eSMagAR o mAL! EsmAga...DOR!'
+		'''
+}
+
+ExaltedOathblade: {
+	DisplayName: Lâmina do Juramento Exaltada
+	Tooltip: Dispara uma série de foices demoníacas e acertos críticos causam explosões de chamas das sombras
+}
+
+Excelsus: {
+	DisplayName: Excelsus
+	Tooltip:
+		'''
+		Dispara uma série de lâminas giratórias
+		Invoca fontes de laser no acerto
+		'''
+}
+
+Exoblade: {
+	DisplayName: Exo-Lâmina
+	Tooltip:
+		'''
+		Pressione <left> para liberar vários feixes de energia que seguem os inimigos e os cortam ao atingí-los
+		Pressione <right> para fazer uma investida na direção do cursor com a lâmina
+		Atingir inimigos com a lâmina durante a investida resultam em dano massivo e um ricochete
+		Pressione <left> imediatamente após um ricochete para executar um corte poderoso que explode ao atingir o inimigo
+		'''
+}
+
+FallenPaladinsHammer: {
+	DisplayName: Martelo do Paladino Caído
+	Tooltip:
+		'''
+		Lança um martelo pesado afetado pela gravidade que retornará para você após atingir um inimigo
+		Depois de retornar três vezes, um martelo espectral teleguiado é invocado com impacto devastador
+		'''
+}
+
+FaultLine: {
+	DisplayName: Linha de Colapso
+	Tooltip:
+		'''
+		Explode ao atingir o inimigo
+		Um ioiô muito ágil
+		'''
+}
+
+FeralthornClaymore: {
+	DisplayName: Claymore de Espinhos Selvagens
+	Tooltip: Invoca espinhos ao atingir o inimigo
+}
+
+FlarefrostBlade: {
+	DisplayName: Lâmina Quente-Fria
+	Tooltip: Dispara um orbe quente-frio teleguiado
+}
+
+Floodtide: {
+	DisplayName: Maré Inundante
+	Tooltip: Dispara tubarões, porque tubarões são fantásticos!
+}
+
+ForbiddenOathblade: {
+	DisplayName: Lâmina do Juramento Proibído
+	Tooltip: Dispara uma foice demoníaca e acertos críticos causam explosões de chamas das sombras
+}
+
+ForsakenSaber: {
+	DisplayName: Sabre Abandonado
+	Tooltip: Dispara duas lâminas de areia que alteram a velocidade à medida que viajam
+}
+
+FourSeasonsGalaxia: {
+	DisplayName: Galáxia
+	// See the attunement file for each attunement
+	Tooltip:
+		'''
+		[FUNC]
+		[PASS]
+		Livre das algemas terrenas e fluindo com poder cósmico
+		Tem acesso a todas as sintonizações a todo momento
+		Pressione <right> para alternar a sintonização da espada dependendo da posição do 
+		Sintonização Ativa: [ATT]
+		Bênção Passiva: [BLE]
+		'''
+}
+
+FracturedArk: {
+	DisplayName: Arca Fraturada
+	Tooltip:
+		'''
+		[PARRY]
+		Uma lâmina desgastada e enferrujada uma vez empunhada contra o mal deste mundo, pronta para ser usada mais uma vez
+		'''
+	ParryInfo:
+		'''
+		Pressione <right> para estender a Arca à sua frente
+		Atingir um inimigo com ela aparará-lo, concedendo-lhe um curto período de invulnerabilidade
+		Você pode aparar projéteis para fazê-los causarem 50 a menos de dano temporariamente
+		Aparar fortalecerá os próximos 10 ataques da espada, aumentando o dano e permitindo que ela lance projéteis
+		'''
+}
+
+GaelsGreatsword: {
+	DisplayName: Montante de Gael
+	Tooltip:
+		'''
+		O primeiro balanço dispara crânios teleguiados
+		O segundo balanço atira um crânio gigante e poderoso
+		O terceiro balanço não tem projéteis
+		Gera fúria constantemente quando em uso
+		Ataques deixam trilhas de sangue quando estiver com menos de 50% de vida
+		Ocasionalmente invoca uma barragem de relâmpagos quando estiver com menos de 50% de vida
+		Substitui o Modo Fúria com uma barragem enorme de crânios
+		Esse ataque tem um tempo de recarga de 30 segundos
+		'Passe para cá, essa coisa. Sua alma sombria'
+		'''
+}
+
+GalactusBlade: {
+	DisplayName: Lâmina de Galactus
+	Tooltip:
+		'''
+		Lança uma barragem de cometas do céu
+		Forjada com a fúria do caos nuclear
+		'''
+}
+
+GalaxySmasher: {
+	DisplayName: Esmagador de Galáxias
+	Tooltip:
+		'''
+		Lança um martelo pesado afetado pela gravidade que retornará para você após atingir um inimigo
+		Acertos consecutivos invocam mais martelos cósmicos
+		Depois de atingir oito vezes, o martelo se sobrecarrega com energias galácticas,
+		liberando um ataque apocalíptico que reverbera através do espaço e do tempo
+		'''
+}
+
+GalileoGladius: {
+	DisplayName: Galileo Gladius
+	Tooltip:
+		'''
+		Dispara uma lua crescente teleguiada
+		Invoca planetóides ao atingir o inimigo
+		'Não subestime o poder das pequenas espadas espaciais'
+		'''
+}
+
+GeliticBlade: {
+	DisplayName: Espada Gelítica
+	Tooltip: Dispara uma onda de gel que desacelera o inimigo ao atingí-lo
+}
+
+GildedProboscis: {
+	DisplayName: Probóscide Dourada
+	Tooltip: Cura o jogador no acerto
+}
+
+GoldplumeSpear: {
+	DisplayName: Lança de Plumas Douradas
+	Tooltip: Dispara penas que caem
+}
+
+GrandGuardian: {
+	DisplayName: Grande Guardião
+	Tooltip:
+		'''
+		Diminui a defesa do inimigo em 1 com cada ataque
+		Se a defesa do inimigo for 0 ou inferior, seus ataques irão te curar
+		Atacar os inimigos causa uma grande explosão
+		Atacar inimigos que têm menos que metade da vida fará com que você solte raios de arco-íris
+		Inimigos geram orbes de cura na morte
+		'''
+}
+
+GreatswordofJudgement: {
+	DisplayName: Montante do Julgamento
+	Tooltip:
+		'''
+		Dispara um orbe branco que emite chuva branca na morte por um tempo
+		Uma espada branca pálida de uma terra esquecida
+		Você pode ouvir sussurros fracos, mas reconfortantes, emanando da lâmina
+		'Não importa onde você esteja, você nunca está sozinho
+		Eu estarei sempre ao seu lado, meu senhor'
+		'''
+}
+
+Greentide: {
+	DisplayName: Maré Verde
+	Tooltip: Invoca dentes do céu no acerto
+}
+
+HellfireFlamberge: {
+	DisplayName: Flamberge do Fogo Infernal
+	Tooltip: Dispara uma série de bolas de fogo vulcânicas
+}
+
+HellionFlowerSpear: {
+	DisplayName: Lança da Flor Selvagem
+	Tooltip:
+		'''
+		Dispara uma ponta de lança de flores
+		Invoca pétalas do céu em acertos críticos
+		'''
+}
+
+Hellkite: {
+	DisplayName: Espada do Fogo Cruel
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		Invoca explosões de gêiser de chamas ao atingir o inimigo
+		Contém o poder de um dragão antigo
+		'''
+	TooltipGFB: "'Minha Amada <3'"
+}
+
+HolyCollider: {
+	DisplayName: Colisor Sagrado
+	Tooltip: Atacar os inimigos fará com que eles explodam em fogo sagrado
+}
+
+IllustriousKnives: {
+	DisplayName: Facas Ilustres
+	Tooltip: Lança uma série de facas teleguiadas que podem curar o usuário
+}
+
+InsidiousImpaler: {
+	DisplayName: Empalador Insidioso
+	Tooltip: Dispara um arpão que gruda nos inimigos e explode
+}
+
+IridescentExcalibur: {
+	DisplayName: Excalibur Iridescente
+	Tooltip:
+		'''
+		Congela os inimigos e cura o jogador no acerto
+		Dispara feixes de arco-íris que mudam seu comportamento com base em sua cor
+		Pressione <right> para um ataque físico verdadeiro
+		'''
+}
+
+Lacerator: {
+	DisplayName: Dilacerador
+	Tooltip:
+		'''
+		Inimigos que forem atingidos pelo ioiô terão suas vidas drenadas
+		Um ioiô excepcionalmente ágil
+		[GFB]
+		'''
+	TooltipNormal: Alguém achou que essa arma seria viável contra o DdD uma vez lol
+	TooltipGFB: Talvez seja uma arma viável contra o DdD...
+}
+
+LifehuntScythe: {
+	DisplayName: Foice Caça-à-Vida
+	Tooltip: Cura você ao atingir o inimigo e dispara uma foice energizada
+}
+
+LionHeart: {
+	DisplayName: Coração de Leão
+	Tooltip:
+		'''
+		Invoca uma explosão de energia ao atingir o inimigo
+		Pressione <right> para invocar um escudo de energia por alguns segundos que corta todas as fontes de dano pela metade
+		Isso tem um tempo de recarga de 45 segundos
+		'''
+}
+
+Lucrecia: {
+	DisplayName: Lucrecia
+	Tooltip:
+		'''
+		Atacar um inimigo te deixará imune por um curto período de tempo
+		Dispara uma cadeia de DNA
+		Delicadeza
+		'''
+}
+
+MajesticGuard: {
+	DisplayName: Guarda Majestosa
+	Tooltip:
+		'''
+		Diminui a defesa do inimigo em 1 com cada ataque
+		Se a defesa do inimigo for 0 ou inferior, seus ataques irão te curar
+		'''
+}
+
+MantisClaws: {
+	DisplayName: Garras de Tamarutaca
+	Tooltip:
+		'''
+		Explode ao atingir o inimigo
+		'Camarão que dorme, a onda leva'
+		'''
+}
+
+MirrorBlade: {
+	DisplayName: Lâmina Espelhada
+	Tooltip:
+		'''
+		A quantidade de dano de contato que um inimigo causa é adicionada ao dano dessa arma
+		Você deve atingir um inimigo com a lâmina para ativar esse efeito
+		'''
+}
+
+MonstrousKnives: {
+	DisplayName: Facas Monstruosas
+	Tooltip: Lança uma série de facas que podem curar o usuário
+}
+
+Mourningstar: {
+	DisplayName: Estrela do Luto
+	Tooltip: Lança duas espadas de chicote solares que explodem no acerto
+}
+
+Murasama: {
+	DisplayName: Murasama
+	Tooltip:
+		'''
+		Uma lâmina de alta frequência que pode cortar até mesmo o inimigo mais poderoso
+		Cada terceiro golpe causa muito dano
+		Prove seu valor matando o Devorador de Deuses para desembainhar essa espada
+		[c/F41A31:'Haverá sangue!']
+		'''
+}
+
+MycelialClaws: {
+	DisplayName: Garras Miceliais
+	Tooltip: Grants the Mushy buff for 6 seconds on enemy hits
+}
+
+Nadir: {
+	DisplayName: Nadir
+	Tooltip:
+		'''
+		Atira essências vazias que esfolam os inimigos próximos com tentáculos
+		Ignora quadros de imunidade
+		'O abismo te observou por tempo o suficiente. Agora ele fala, e não fala baixinho'
+		'''
+}
+
+Nebulash: {
+	DisplayName: Chicote de Nébula
+	Tooltip: Dispara uma espada de chicote que emite explosões de partículas no acerto
+}
+
+NeptunesBounty: {
+	DisplayName: Remuneração de Netuno
+	Tooltip:
+		'''
+		Dispara um tridente que faz chover tridentes adicionais enquanto viaja
+		Acertar inimigos infligirá o efeito negativo Pressão das profundezas
+		'''
+}
+
+Oblivion: {
+	DisplayName: Oblívio
+	Tooltip:
+		'''
+		Dispara lasers de enxofre quando os inimigos estão próximos
+		Um ioiô muito ágil
+		'''
+}
+
+OldLordClaymore: {
+	DisplayName: Claymore do Velho Senhor
+	Tooltip:
+		'''
+		Segurar <right> rapidamente absorve energia na lâmina até que esteja carregada
+		Pressione <left> com a carga completa para voar na direção do cursor
+		Usar o avanço redefine a carga da lâmina para zero
+		'''
+}
+
+OmegaBiomeBlade: {
+	DisplayName: Verdadeira Lâmina do Bioma
+	// See the attunement file for each attunement
+	Tooltip:
+		'''
+		[FUNC]
+		[PASS]
+		Segurar <right> por 2 segundos sintoniza a arma com os poderes do bioma em sua volta
+		Pressionar <right> por um período de tempo mais curto alterna as suas sintonizações ativas e passivas
+		Sintonização Ativa: [ATT1]
+		Sintonização Passiva: [ATT2]
+		'''
+	DefaultFunction:
+		'''
+		Não faz nada... ainda
+		Parece que melhorar a lâmina expandiu o escopo das sintonizações anteriores
+		'''
+	DefaultPassive: A sua sintonização secundária agora pode fornecer efeitos passivos
+}
+
+Omniblade: {
+	DisplayName: Omnilâmina
+	Tooltip: Uma lâmina antiga forjada pelo lendário Omnir
+}
+
+Orderbringer: {
+	DisplayName: O Ordeiro
+	Tooltip:
+		'''
+		Dispara uma lâmina arco-íris que emite chuva arco-íris na morte por um tempo
+		Uma espada branca pálida de uma terra esquecida
+		Você pode ouvir sussurros fracos, mas reconfortantes, emanando da lâmina
+		'Não importa onde você esteja, você nunca está sozinho
+		Eu estarei sempre ao seu lado, meu senhor'
+		'''
+}
+
+Pandemic: {
+	DisplayName: Pandemia
+	Tooltip:
+		'''
+		Dispara caçadores da praga quando os inimigos estão próximos
+		Um ioiô muito ágil
+		'''
+}
+
+PerfectDark: {
+	DisplayName: Escuridão Perfeita
+	Tooltip: Dispara uma bola vil que gruda nas peças e explode
+}
+
+PhosphorescentGauntlet: {
+	DisplayName: Manopla Fosforescente
+	Tooltip:
+		'''
+		Libera golpes sulfurosos rápidos
+		Ao usar, você avança na direção do mouse
+		Na colisão, você é empurrado para trás
+		'''
+}
+
+PhotonRipper: {
+	DisplayName: Estripador de Fótons
+	Tooltip:
+		'''
+		Projeta um fluxo direcionado de dentes de luz dura em velocidade ulta alta
+		Esta arma e seus projéteis funcionam como uma motoserra
+		'''
+}
+
+PlagueKeeper: {
+	DisplayName: Guardião da Praga
+	Tooltip: Dispara uma nuvem de praga e de abelhas
+}
+
+PrismaticBreaker: {
+	DisplayName: Destruidor Prismático
+	Tooltip:
+		'''
+		Dispare para carregar um poderoso laser arco-íris
+		Pressione <right> para balançar a espada e disparar ondas arco-íris
+		A espada recebe reforços por dano por ataque físico e dano por ataque a distância
+		Parece pertencer a uma certa garota mágica. Irradia uma intensa energia cósmica
+		'''
+}
+
+Pwnagehammer: {
+	DisplayName: Pwnagemartelo
+	Tooltip:
+		'''
+		Lança um martelo pesado afetado pela gravidade que cria uma forte explosão de energia sagrada quando atinge algo
+		Depois de acertar quatro vezes, um martelo espectral será invocado para atingir o inimigo
+		'''
+}
+
+Quagmire: {
+	DisplayName: Pântano
+	Tooltip:
+		'''
+		Dispara nuvens de esporo
+		Um ioiô muito ágil
+		'''
+}
+
+RedSun: {
+	DisplayName: Sol Vermelho
+	Tooltip:
+		'''
+		Lança uma barragem de erupções solares do céu
+		'Sobre o paraíso'
+		'''
+}
+
+RedtideSpear: {
+	DisplayName: Lança da Maré Vermelha
+	Tooltip:
+		'''
+		Envenena inimigos ao atingí-los
+		Apontar a lança à sua frente enquanto corre a segura com recuo aumentado
+		Soltar o botão de ataque após a corrida faz um corte para cima, enviando os inimigos voando para o ar
+		[c/5C95A1:'Os povos do mar eram caçadores adeptos, mas abominavam a violência desnecessária.]
+		[c/5C95A1:Infelizmente, as nações vizinhas eram brutais, então moldaram suas ferramentas para a guerra.']
+		'''
+}
+
+RemsRevenge: {
+	DisplayName: Vingança de Rem
+	Tooltip:
+		'''
+		Invoca explosões de sangue e reduz a defesa do inimigo no acerto
+		Empunhada pela lutadora mais poderosa
+		'''
+}
+
+Respiteblock: {
+	DisplayName: Anti-Tréguas
+	Tooltip:
+		'''
+		Uma serra-elétrica branca cintilante que expele sangue verde e roxo disseminadamente
+		Atingir inimigos com a lâmina cura você e causa muito dano
+		[c/0e8401:'Não Há Problema Em Ser Perigoso']
+		'''
+}
+
+Riptide: {
+	DisplayName: Correnteza
+	Tooltip: Espalha uma espiral de fluxos d'água
+}
+
+Roxcalibur: {
+	DisplayName: Roxcalibur
+	// The WOF tag generates a new line above when placed at the start of a line
+	Tooltip:
+		'''
+		[WOF]Segure <left> para carregar um ataque
+		Libere com o cursor acima de você para balançar normalmente, liberando fragmentos de rocha
+		Libere com o cursor abaixo de você para mergulhar para baixo e ricochetear de inimigos
+		Mergulhar em blocos cria uma onda de choque
+		Você não conseguia tirá-la da rocha, então você levou a rocha junto
+		'''
+	LockedInfo: A infernal Parede de Carne detém a chave para o poder desta arma
+}
+
+SaharaSlicers: {
+	DisplayName: Fatiadores do Saara
+	Tooltip:
+		'''
+		Um par de adagas duplas de curto alcance
+		Atingir inimigos com as adagas lhe dará dois espinhos para cada acerto, até um limite de 10
+		Pressionar <right> permitirá que você jogue espinhos coletados nos inimigos
+		'''
+}
+
+SausageMaker: {
+	DisplayName: Fabricante de Linguiças
+	Tooltip: Espalha sangue teleguiado no acerto
+}
+
+ScourgeoftheCosmos: {
+	DisplayName: Tormento dos Cosmos
+	Tooltip: Lança um tormento cósmico saltitante que emite pequenos tormentos cósmicos teleguiados na morte e ao atingir peças
+}
+
+SeashineSword: {
+	DisplayName: Espada do Brilho dos Mares
+	Tooltip: Atira um feixe de espada d'água
+}
+
+SeekingScorcher: {
+	DisplayName: Chama Perseguidora
+	Tooltip:
+		'''
+		Lança um bumerangue sagrado que busca até quatro inimigos antes de retornar ao jogador
+		'Que seus inimigos queimem no inferno pelos pecados que cometeram'
+		'''
+}
+
+Shimmerspark: {
+	DisplayName: Faísca Cintilante
+	Tooltip:
+		'''
+		Dispara estrelas quando os inimigos estão próximos
+		Um ioiô muito ágil
+		'''
+}
+
+SmokingComet: {
+	DisplayName: Cometa Fumegante
+	Tooltip: Faz chover estrelas do céu
+}
+
+SolsticeClaymore: {
+	DisplayName: Claymore do Solstício
+	Tooltip:
+		'''
+		Muda a cor do projétil com base na época do ano
+		Inflige Queimado pelo Sol durante o dia e Decomposição noturna durante a noite
+		'''
+}
+
+SoulHarvester: {
+	DisplayName: Ceifador de Almas
+	Tooltip:
+		'''
+		Atira uma foice de alma
+		Inimigos explodem quando estão com a vida baixa, espalhando a praga
+		'''
+}
+
+SpineOfThanatos: {
+	DisplayName: Coluna de Thanatos
+	Tooltip:
+		'''
+		Arremessa 3 chicotes metálicos rápidos para fora
+		Quando os três colidirem, um prisma de luz é disparado para fora
+		Se um inimigo estiver dentro da linha de visão dos chicotes na colisão, a luz dispersará em direção a ele
+		'''
+}
+
+StarnightLance: {
+	DisplayName: Lança da Luz da Noite
+	Tooltip: Dispara um feixe da luz da noite frígido
+}
+
+StellarContempt: {
+	DisplayName: Desprezo Estelar
+	Tooltip:
+		'''
+		Lança um martelo pesado afetado pela gravidade que retornará para você após atingir um inimigo
+		Acertos consecutivos chamarão mais chamas lunares do céu
+		Depois de acertar cinco vezes, o martelo sobrecarrega com energia lunar para pulverizar o alvo
+		'''
+}
+
+StellarStriker: {
+	DisplayName: Atacante Estelar
+	Tooltip: Invoca uma série de chamas lunares do céu ao atingir o inimigo
+}
+
+StormRuler: {
+	DisplayName: Imperador das Tempestades
+	Tooltip:
+		'''
+		Dispara feixes que geram tornados na morte
+		Os tornados sugam os inimigos
+		'Apenas uma tempestade pode derrubar um grande bosque'
+		'''
+}
+
+StormSaber: {
+	DisplayName: Sabre das Tempestades
+	Tooltip:
+		'''
+		Dispara dois feixes de tempestade
+		Um da lâmina e um do céu
+		'''
+}
+
+StreamGouge: {
+	DisplayName: Fluxo de Fissuras
+	Tooltip:
+		'''
+		Invoca um portal que a lança atravessa
+		Logo após atravessar o portal, portais aparecem perto do mouse que liberam cópias da lâmina cortante da lança
+		Inimigos atingidos pelas cópias criam lacerações no espaço, relevando um fundo cósmico
+		'''
+}
+
+StygianShield: {
+	DisplayName: Escudo Estígio
+	Tooltip:
+		'''
+		Segura <left> para carregar uma investida omnidirecional que atravessa os inimigos
+		Pressione <right> para lançar um escudo que salta em direção a um inimigo próximo após a colisão
+		Concede imunidade a recuos e {0} de defesa quando estiver sendo segurado
+		No entanto, investidas são desativadas até que você pare de segurar essa arma por {1} segundos
+		'''
+}
+
+SubmarineShocker: {
+	DisplayName: Eletrocutador Submersível
+	Tooltip: Inimigos liberam faíscas elétricas ao serem atingidos
+}
+
+SulphurousGrabber: {
+	DisplayName: Agarrador Sulfuroso
+	Tooltip:
+		'''
+		Ocasionalmente libera um anel de bolhas coloridas
+		O ioiô fica mais forte depois de tocar em uma bolha verde
+		Um ioiô muito ágil
+		'''
+}
+
+Swordsplosion: {
+	DisplayName: Espadexplosão
+	Tooltip:
+		'''
+		Dispara várias espadas de feixe arco-íris que chovem do céu
+		Barragem de espadas
+		'''
+}
+
+TaintedBlade: {
+	DisplayName: Lâmina Manchada
+	Tooltip: Inflige veneno ao atingir o inimigo
+}
+
+TeardropCleaver: {
+	DisplayName: Cutelo Lacrimogêneo
+	Tooltip: Faz seus inimigos chorarem
+}
+
+TenebreusTides: {
+	DisplayName: Maré Tenebrosa
+	Tooltip:
+		'''
+		Atira uma lança d'agua que perfura os inimigos e o terreno
+		Atacar inimigos invoca lâminas e lanças líquidas para atacar o inimigo atingido
+		'Inundatio ex Laminis'
+		'''
+}
+
+Terratomere: {
+	DisplayName: Terratomere
+	Tooltip:
+		'''
+		Cura o jogador em ataques físicos verdadeiros
+		Dispara um raio de energia perfurante que faz com que inimigos atingidos explodam e sejam cortados
+		'Ligado à essência do Terraria'
+		'''
+}
+
+TerrorBlade: {
+	DisplayName: Lâmina do Terror
+	Tooltip:
+		'''
+		Dispara um feixe de terror que salta em peças
+		Em cada salto, ele emite uma explosão
+		'''
+}
+
+TheBurningSky: {
+	DisplayName: O Céu Flamejante
+	Tooltip:
+		'''
+		Faz chover um fluxo de fogo dracônico no cursor
+		'Segure a lâmina aos céus, e testemunhe o Armagedom'
+		'''
+}
+
+TheDarkMaster: {
+	DisplayName: O Mestre Sombrio
+	Tooltip:
+		'''
+		Dispara projéteis cortantes ecoantes vermelhos com a vida cheia
+		O dano do projétil aumenta com cada ponto de vida acima de 400
+		Pressione <right> para invocar três clones das sombras em uma formação em Delta
+		Os clones seguirão seus balanços de espadas e liberarão projéteis
+		Os clones sempre dispararão projéteis independentemente da sua própria vida
+		Os clones existirão apenas ao segurar essa arma
+		'A lâmina pela qual as sombras lançam sobre seus inimigos um destino abominável'
+		'''
+}
+
+TheEnforcer: {
+	DisplayName: O Enforçador
+	Tooltip: Gera chamas da essência ao atingir o inimigo
+}
+
+TheGodsGambit: {
+	DisplayName: O Gambito dos Deuses
+	Tooltip:
+		'''
+		Dispara um fluxo de geleia quando os inimigos estão próximos
+		Um ioiô muito ágil
+		'''
+}
+
+TheLastMourning: {
+	DisplayName: A Última Manhã
+	Tooltip: Invoca abóboras flamejantes e crânios do luto que se dividem em orbes de fogo ao atingir o inimigo
+}
+
+TheMicrowave: {
+	DisplayName: O Micro-Ondas
+	Tooltip:
+		'''
+		Frita os inimigos próximos com radiação
+		Um ioiô excepcionalmente ágil
+		'Cozinhando ao estilo Infecção Astral'
+		'''
+}
+
+TheMutilator: {
+	DisplayName: O Mutilador
+	Tooltip:
+		'''
+		Atacar um inimigo com menos de 20% de vida ativará uma explosão de sangue
+		Explosões de sangue fazem cair corações que podem ser pegos para te curar
+		'''
+}
+
+TheObliterator: {
+	DisplayName: O Obliterador
+	Tooltip:
+		'''
+		Destrói os inimigos próximos com lasers mortais
+		Um ioiô excepcionalmente ágil
+		'''
+	TooltipNormal:
+		'''
+		Arruina os inimigos próximos com lasers mortais
+		Um ioiô excepcionalmente ágil
+		'''
+	TooltipGFB: temo que há só um pouquinho de spam de poeira nessa arma
+}
+
+TheOracle: {
+	DisplayName: O Oráculo
+	Tooltip:
+		'''
+		Emite uma arma de relâmpâgos vermelhos que é carregada conforme atinge os inimigos
+		Dispara orbes áuricos quando está supercarregado
+		Um ioiô excepcionalmente ágil
+		'Contemple o passado, o presente, e o futuro... e as circunstâncias de sua morte inevitável'
+		'''
+}
+
+TitanArm: {
+	DisplayName: Braço de Titã
+	Tooltip:
+		'''
+		Envia os inimigos direto para as estrelas na velocidade da luz
+		Ponteiro do Dar um Tapa, só que melhor
+		'''
+}
+
+TriactisTruePaladinianMageHammerofMightMelee: {
+	DisplayName: Verdadeiro Martelo Mágico Paladino do Poder de Triactis
+	Tooltip: Explode ao atingir o inimigo
+}
+
+TrueArkoftheAncients: {
+	DisplayName: Arca dos Anciões
+	Tooltip:
+		'''
+		[PARRY]
+		Uma lâmina celestial forjada para acabar com todo o mal
+		'''
+	ParryInfo:
+		'''
+		Pressione <right> para estender a Arca à sua frente
+		Atingir um inimigo com ela aparará-lo, concedendo-lhe uma breve invulnerabilidade
+		Você também pode aparar projéteis para fazê-los causarem 80 a menos de dano por um curto período
+		Aparar fortalecerá os próximos 10 ataques da espada, permitindo que ela lance projéteis mais fortes
+		Pressionar <right> enquanto segura PARA CIMA liberará todas as cargas fortalecidas em uma poderosa explosão de energia
+		'''
+}
+
+TrueBiomeBlade: {
+	DisplayName: Lâmina do Bioma
+	// See the attunement file for each attunement
+	Tooltip:
+		'''
+		[FUNC]
+		Segure <right> enquanto está parado em terreno plano para sintonizar a arma com os poderes do bioma em sua volta
+		Caso contrário, pressionar <right> alterna entre a sintonização atual e uma adicional armazenada
+		Sintonização Principal: [ATT1]
+		Sintonização Secundária: [ATT2]
+		'''
+	DefaultFunction:
+		'''
+		Não faz nada... ainda
+		Reparar a lâmina parece ter melhorado as suas capacidades de sintonização
+		'''
+}
+
+TrueCausticEdge: {
+	DisplayName: Lâmina Cáustica
+	Tooltip:
+		'''
+		Dispara um feixe cáustico saltitante
+		Inflige peçonha ao atingir o inimigo
+		'''
+}
+
+Tumbleweed: {
+	DisplayName: Arbusto Rolante
+	Tooltip: Libera um arbusto rolante ao atingir o inimigo
+}
+
+TyphonsGreed: {
+	DisplayName: Ganância de Typhon
+	Tooltip:
+		'''
+		Invoca espíritos d'água durante o uso
+		Esses espíritos d'água seguirão os inimigos depois de viajar na direção do jogador
+		'''
+}
+
+UltimusCleaver: {
+	DisplayName: Cutelo Ultimus
+	Tooltip: Lança faíscas teleguiadas que machucam e explode ao atingir o inimigo
+}
+
+UrchinFlail: {
+	DisplayName: Mangual de Ouriço-do-Mar
+	Tooltip: Lança uma bola de ouriço, que atira um espinho ao entrar em contato com um inimigo
+}
+
+UrchinMace: {
+	DisplayName: Maça do Ouriço-do-Mar
+	Tooltip: Lança um redemoinho quando liberado na carga máxima
+}
+
+VeinBurster: {
+	DisplayName: Estourador de Veias
+	Tooltip: Dispara uma bola de sangue que gruda nas peças e explode
+}
+
+Violence: {
+	DisplayName: Violência
+	Tooltip: Libera um garfo flamejante que fica perto do mouse e destrói os inimigos
+}
+
+Virulence: {
+	DisplayName: Virulência
+	Tooltip: Dispara uma nuvem da praga
+}
+
+VoidEdge: {
+	DisplayName: Lâmina do Vazio
+	Tooltip:
+		'''
+		Dispara as almas horrendas de antigos habitantes do abismo
+		Golpear com a lâmina invoca mais almas do subterrâneo
+		'''
+}
+
+VulcaniteLance: {
+	DisplayName: Lança de Vulcanita
+	Tooltip: Explode ao atingir o inimigo e invoca chamas teleguiadas em acertos críticos
+}
+
+WindBlade: {
+	DisplayName: Lâmina do Vento
+	Tooltip: Dispara ciclones que puxam os inimigos
+}
+
+WulfrumScrewdriver: {
+	DisplayName: Chave de Fenda de Vulfrúmio
+	Tooltip:
+		'''
+		Pode ser usado para rapidamente e regiamente aferir uma fenda nos inimigos
+		Atacar um inimigo às vezes lhe dá um parafuso de vulfrúmio que você pode jogar pressionando <right>
+		Atinja um parafuso arremessado com a chave de fenda para lançá-lo para frente em alta velocidade
+		[c/83B87E:'Quem faz parafusos escareados deste tamanho?? Para que diabos devo usá-la?!]
+		[c/83B87E:Ela poderia arrancar um olho!]
+		[c/83B87E:...Ah.]
+		'''
+}
+
+YateveoBloom: {
+	DisplayName: Flor Yateveo
+	Tooltip:
+		'''
+		Uma síntese da flora da selva
+		Lança um poderoso mangual de rosa
+		Pressione <right> para atacar com uma lança de flores
+		'''
+}
+
+YinYo: {
+	DisplayName: Yin-Iô
+	Tooltip:
+		'''
+		Dispara fragmentos claros ou escuros quando os inimigos estão próximos
+		Os fragmentos voam para frente e para trás
+		Um ioiô muito ágil
+		'''
+}

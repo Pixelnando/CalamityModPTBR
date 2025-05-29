@@ -1,0 +1,708 @@
+ShortTooltip:
+	'''
+	[c/E3AF40:Sussurros do alto dançam em seus ouvidos...]
+	[c/BEBEBE:Pressione "Shift Esquerdo" para ouvir mais de perto]
+	'''
+
+LoreAbyss: {
+	DisplayName: O Abismo
+	Lore:
+		'''
+		Embora existam muitas fendas tenebrosas nas profundezas do mar, esta é uma maravilha geológica.
+		Ela está localizada espantosamente perto do litoral. De algum modo, mesmo eras de tectonismo não puderam selá-la ou esmagá-la.
+		O isolado Abismo é o lar discutivelmente tranquilo da náiade Anahita e outras criaturas marinhas reclusas.
+		Aqui me livrei dos restos arrebentados de Silva, a própria Deusa da Vida. Obviamente, ela entre todos os Deuses se recusou a morrer de verdade.
+		Desejava que ela fosse esquecida, mas sua tenacidade e força de vontade é notável.
+		Difusa, sua influência inundou aquela fossa de pressão esmagadora com uma abundância de fauna e flora.
+		Suas grandes raízes continuam a assolar e retalhar a pedra incrivelmente densa, crescendo sem controle.
+		Ela logo vai refazê-lo à sua imagem. Não posso conceber um destino pior para este maldito domínio hadal.
+		'''
+}
+
+LoreAquaticScourge: {
+	DisplayName: Flagelo Aquático
+	Lore:
+		'''
+		Outra uma vez grandiosa serpente marinha, bem adaptada ao seu duro ambiente.
+		Ao contrário do outro Flagelo, que estava meio desnutrido e caçando migalhas como sua próxima refeição; este vivia com conforto.
+		Microorganismos evoluem rapidamente, então ele pôde manter seus hábitos de filtrador enquanto o mar apodrecia.
+		Que contraste nítido ao resto do ecossistema. Quase toda outra criatura no Mar Sulfúrico é hostil.
+		É uma pena que sua última guarda de tranquilidade tenha caído. 
+		'''
+}
+
+LoreArchmage: {
+	DisplayName: O Arquimago
+	Lore:
+		'''
+		Ele ainda vive?! Pensei que fosse morto por Calamitas. Parece que ela aprisionou o Arquimago para poupar sua vida.
+		Eu assumi que aquela massa congelada era uma velha criação dele, andando desnorteada sem seu mestre para a ordenar.
+		Pergelissolo era um velho aliado meu, levando o título prestigioso de Arquimago com grande renome.
+		Sua sabedoria guiou minhas conquistas iniciais, tornando muitas delas mesmo possíveis.
+		À medida que minha cruzada evoluiu e minhas ambições cresceram, ele expressou intensa revolta.
+		Onde a justiça era antes vista, tirania a havia cegado. Ele partiu assim como a Bruxa não muito depois.
+		'''
+}
+
+LoreAstralInfection: {
+	DisplayName: Infecção Astral
+	Lore:
+		'''
+		Este devaneio distorcido é o equivalente estelar da podridão mundana que você vê em suas terras.
+		Eu não conheço o processo em detalhes, mas até as estrelas acima podem morrer.
+		Deixados de lado, seus corpos incham e apodrecem.
+		Tipicamente, algum feitio de ordem é mantido. Não é diferente do ciclo da vida.
+		Seres cósmicos patrulham o vazio inconcebível e mordiscam a carniça, deixando nada além de ossos limpos.
+		A Infecção em si é uma perturbação das profundezas do espaço. Ela tem uma mente própria, projetando sua vontade sobre a vida e a terra.
+		Aqueles cuja mente consegue compreender a verdadeira forma do universo são, em grande parte, imunes.
+		Eles não podem ser encantados por uma suposta verdade maior, muito menos uma pregada por uma pústula.
+		'''
+}
+
+LoreAstrumAureus: {
+	DisplayName: Astrum Aureus
+	Lore:
+		'''
+		Sempre pragmático, Draedon enviou esta máquina para encontrar e analisar a fonte da Infecção Astral.
+		Enquanto nominalmente feito para reconhecimento, o modelo Aureus é altamente armado e capaz de atravessar qualquer terreno.
+		Ele funcionou admiravelmente, pelo menos até ser assimilado pela Infecção.
+		Mentes sapientes têm vontade o suficiente para resistir ao chamado da Infecção indefinidamente.
+		No entanto, até o melhor silício não está além de seu alcance. Draedon prefere que suas criações sirvam, afinal.
+		Com este experimento concluído, ele certamente examinará você em seguida. Cuide-se.
+		'''
+}
+
+LoreAstrumDeus: {
+	DisplayName: Astrum Deus
+	Lore:
+		'''
+		Em nosso mundo, este ser é adorado como o Deus do céu noturno. Dizem que ele devora estrelas moribundas e cria novas em retorno.
+		Diferente dos muitos Deuses que você ou eu conhecemos, ele é inocente. Uma distinção importante, pois ele estava tão doente quanto.
+		A infecção que maculou seu corpo vem de além Terraria. Nem eu ou Draedon a reconhecemos totalmente.
+		Com sua vontade subjugada, ele jogou um pedaço de matéria astral infectada contra nosso mundo, e veio protegê-lo.
+		Felizmente, um ser tão grandioso que anda em meio às estrelas provavelmente não está morto de fato.
+		Enquanto a terra pagou um preço terrível, o preço de uma sentença equivocada é ainda pior.
+		'''
+}
+
+LoreAwakening: {
+	DisplayName: Despertar
+	Lore:
+		'''
+		Os túmulos dos Dragões se agitam. Meus olhos erguem-se para ver poeira anciã dançando em altos beirais.
+		Essas grandes asas… faz quanto tempo desde que era um herói digno de seu nome?
+		Sinto que séculos se passaram, mas tudo que fiz foi piscar os olhos.
+		Observe os meus labores, como estão… Arruinados. Nenhum ousaria me buscar; seguir o meu caminho.
+		Nada os aguarda neste mundo cruel.
+		'''
+}
+
+LoreAzafure: {
+	DisplayName: Azafure
+	Lore:
+		'''
+		Muito mencionada como a Primeira Cidade, sua história tumultuosa se estende até a Era Dracônica.
+		Uma estranha jóia da civilização, o calor intenso do submundo a fornecia potencial ilimitado para defesa e indústria.
+		Tal era a habilidade de seus mestres-ferreiros que quando os trouxe para minha causa, nunca me faltaram armas.
+		Dói-me dizer mesmo em retrospecto, mas sua própria arte abriu caminho para a queda da cidade inteira.
+		Para a Bruxa e eu... o ar aqui sempre estará cheio de arrependimento. Não há nada a ser feito.
+		'''
+}
+
+LoreBloodMoon: {
+	DisplayName: Lua de Sangue
+	Lore:
+		'''
+		Esta malevolência não é criação de Deus algum. Luas de Sangue se originam além da alvorada da história.
+		É uma ocorrência igualmente sinistra e banal. Todos estão acostumados às hordas cambaleantes dos mortos-vivos.
+		Sociedades organizadas não são ameaçadas nem um pouco. Na verdade, elas acolhem a oportunidade de treinar novos soldados rasos.
+		Aqueles com fogo nas veias podem se aventurar sozinhos, para deleitar-se no massacre.
+		É assim que me lembro das noites sem descanso da minha juventude... até o joelho em corpos.
+		'''
+}
+
+LoreBrainofCthulhu: {
+	DisplayName: O Cérebro de Cthulhu
+	Lore:
+		'''
+		É verdade que abominações indescritíveis podem agora ser comuns, em grande parte pelas minhas ações.
+		Embora elas sempre tenham sido um produto da insensatez dos Deuses, os mesmos Deuses os eliminavam em igual medida
+		Minha chacina dos falsamente divinos deixou muitos velhos horrores livres, com novos surgindo a cada ano.
+		Agora, eles são os seus degraus.
+		'''
+}
+
+LoreBrimstoneElemental: {
+	DisplayName: Elemental de Enxofre
+	Lore:
+		'''
+		Um ser peculiar. Até recentemente, ela esteve adormecida por eras. Servindo como a silenciosa matrona da cidade, presente em sua cultura.
+		Enquanto sua economia decolou, traços de enxofre chegaram a todos os cantos do mundo.
+		Nunca foi esclarecido o porquê do sono dela ter acabado. No início era um remexer. As pessoas estavam cuidadosamente otimistas.
+		Seu despertar foi terrível. O inferno jorrou pelas ruas. Ninguém estava a salvo das chamas.
+		O destino teve um senso de humor doentio naquele dia, pois Calamitas estava lá para enfrentá-la.
+		Talvez as duas estivessem em sintonia, de algum modo....
+		Elas lutaram de igual para igual, fogo contra fogo.
+		Nenhuma foi vitoriosa, com a cidade sendo devorada pelas chamas apesar das intenções dela.
+		'''
+}
+
+LoreCalamitas: {
+	DisplayName: Calamitas
+	Lore:
+		'''
+		Ninguém carregou o fardo do infortúnio tanto quanto a Bruxa do Enxofre, Calamitas.
+		Quando vi-la pela primeira vez, ela ainda era uma garota. Prostrada na minha corte, vestida em trapos carbonizados enquanto tremia.
+		Eu não podia entender o imensurável, bruto poder da magia terrível que corria por ela.
+		Ele podia pouco controlá-la si mesma. Permafrost reconheceu isso imediatamente. Com um olhar aflito, ele me aconselhou a cuidar dela.
+		A Bruxa entrou em sua tutela, e logo depois em meu serviço. Ela queimava com o desejo de extinguir os Deuses em sua ira perversa.
+		De fato, os crentes já estremeciam em sua presença. O nome dela era um apelido deles, um proferido em sussurros amedrontados.
+		Em minhas campanhas, contava com a pura capacidade de aniquilação dela como minha carta fora do baralho.
+		Nenhum homem: exército, cidade ou Deus podia enfrentar sua fúria desenfreada.
+		Eventualmente, o pecado horrível da garota ficou pesado demais para carregar. Ela deixou o meu lado assim como seu mentor.
+		O peso de seus feitos a assombra até hoje. Ela me detesta, e eu não posso culpá-la.
+		Por favor, se puder... mostre-a respeito onde eu não o fiz.
+		'''
+}
+
+LoreCalamitasClone: {
+	DisplayName: Calamitas Clone
+	Lore:
+		'''
+		Eu tinha visto esse monstro vagueando pela noite anteriormente e nada pensei sobre ele.
+		Com sua tecnologia, decerto era uma das criações de Draedon.
+		Mas pensar que ele continha um clone da Bruxa... Deplorável.
+		Certamente Calamitas não iria querer se envolver com tal projeto.
+		Eu não sei porque isto carrega a magia de enxofre dela. Talvez no futuro um de nós encontre respostas.
+		'''
+}
+
+LoreCeaselessVoid: {
+	DisplayName: Vazio Incessante
+	Lore:
+		'''
+		Um portal contido, anteriormente inerte, selado no Calabouço. O culto presidente o manteve como um segredo guardado a sete chaves.
+		Ao ver o Devorador de Deuses, o líder deles apressadamente me levou à sua câmara para revelar sua existência a mim.
+		O portal levava ao lar do Devorador. Era idêntico ao dele, só que ancião e perfeitamente estável.
+		A serpente falou: este também era de sua criação. Sua permanência era um erro que ele já havia corrigido.
+		Mas essa fenda era sem dúvida bem mais antiga que ele. Ela existia desde a Era de Ouro dos Dragões.
+		Algo muito mais poderoso que o Devorador estava em questão.
+		Sua persistência desconcertante consumia minha mente. Não ameaçava somente a mim. Ameaçava todos. Tudo.
+		Mesmo enfrentando mentiras descaradas e perigo cruciante, eu simplesmente saí andando e não retornei...
+		'''
+}
+
+LoreCorruption: {
+	DisplayName: A Corrupção
+	Lore:
+		'''
+		Não descartar apropriadamente a essência de um Deus morto é um erro fatal. Esta terra inculta é prova disso.
+		Tendo assassinado meus primeiros Deuses, eu fiz vista grossa enquanto essência corrupta jorrava de suas formas fendidas e alastrava-se pelas entranhas da Terraria.
+		A mera existência deste lugar pútrido prova que os Deuses de outrora estavam além da redenção.
+		'''
+}
+
+LoreCrabulon: {
+	DisplayName: Carangulão
+	Lore:
+		'''
+		Fungo e um caranguejo do mar. Um buscava um hospedeiro; outro, um novo lar.
+		Estes cogumelos possuem uma tenacidade perturbadora. Nada que procure o descanso eterno em seu domínio o consegue.
+		É este tipo de controle medonho e forçado sobre aqueles relutantes que me levou ao meu caminho.
+		'''
+}
+
+LoreCrimson: {
+	DisplayName: The Crimson
+	Lore:
+		'''
+		O ar imundo, a fauna mórbida, o terreno repugnante… Aqui está o primeiro erro da minha cruzada.
+		A essência de um Deus não simplesmente desaparece quando o corpo morre. Ela deve ser descartada adequadamente ou destruída por completo.
+		Essência de um Deus piedoso nunca poderia apodrecer tornando-se um brejo tão terrível como este.
+		'''
+}
+
+LoreCynosure: {
+	DisplayName: Cinosura
+	Lore:
+		'''
+		Você agora se encontra à beira do infinito. O poder que você reuniu é extraordinário.
+		Valor e ilusão, verdade e falsidade, lealdade e traição… você está além dessas noções.
+		Todos você rompeu ao cruzá-los em seu caminho. A própria terra se curva à sua vontade
+		Não vê como a grama se parte por onde anda, como as estrelas se iluminam por onde vislumbra?
+		Terraria em si ajoelha-se para ti, seja por temor ou por estima.
+		Esta é a força que os Dragões portavam. O poder primordial que comandavam.
+		Pouco está entre nós agora. Se não buscasse batalhar contra mim, eu duvido que teria chegado tão longe.
+		Quando estiver preparado: procure o túmulo da Luz, no cume do Ninho dos Dragões.
+		Eu aguardo seu desafio.
+		'''
+}
+
+LoreDesertScourge: {
+	DisplayName: Flagelo do Deserto
+	Lore:
+		'''
+		Uma vez, isto era uma majestosa serpente marinha que ameaçava nada além das criaturas microscópicas que consumia.
+		Depois que Ilmeris foi incinerada, ela se acostumou à caça. Para sobreviver, ela logo aprendeu a buscar presas maiores.
+		Infelizmente para o Flagelo, parece que também terminou como presa. Afinal, sempre há um peixe maior no mar.
+		'''
+}
+
+LoreDestroyer: {
+	DisplayName: O Destruidor
+	Lore:
+		'''
+		Os Cavaleiros Caça-Deuses de minha companhia eram de longe meus melhores soldados.
+		Eles apoiavam a minha causa, e eu os apoiava em retorno.
+		Concedi-lhes pesadas armaduras e armas colossais, para que sua força nunca fraquejasse.
+		Em alguns dias eu reservava tempo para treinarmos lado a lado, inspirando-os a novas alturas de fúria justiceira.
+		Draedon entendia bem e os deu estas formas gigantes. Lotados de armamentos e armadura interligada forjada de metal abençoado.
+		Enquanto na verdade eram equipamento de mineração reutilizado, sua pura presença na batalha era enorme.
+		'''
+}
+
+LoreDevourerofGods: {
+	DisplayName: O Devorador de Deuses
+	Lore:
+		'''
+		O infame e sobrenatural glutão, em carne e osso. Seu título imponente era auto-concedido, mas a verdade inquestionável o fez pegar.
+		Ele é um inimigo formidável: capaz de engolir Deuses inteiros, absorvendo sua essência completamente.
+		Eu ordenei que Draedon blindasse sua forma gigantesca, para que ele pudesse seguramente derrotar até os maiores Deuses em combate individual. 
+		propriadamente, ele tinha a língua de uma serpente. Ele me manipulava incessantemente, me levando aos piores atos.
+		Eu o recrutei por desespero. Minha guerra havia se estendido por décadas, e eu faria tudo para que ela acabasse.
+		Foi então que minha negligência nasceu. Minha decadência começou no momento em que recrutar este vagabundo cruzou a minha mente.
+		Sua falta de lealdade era clara como o dia, mesmo naquele tempo. Entretanto, suspeito que vá além disso.
+		As habilidades estranhas e táticas dominadoras do Devorador sugerem que sua fidelidade repousa em algum outro lugar.
+		Será ele apenas um soldado, um mero peão de uma malevolência bem além...?
+		'''
+}
+
+LoreDragonfolly: {
+	DisplayName: Dragão-Folião
+	Lore:
+		'''
+		Perto do fim da Era Dracônica, apareceram registros das espécies "impuras" de Dragão.
+		Serpes, Basiliscos, Porcos-dragão e semelhantes estão documentados. Embora ninguém saiba exatamente como vieram a ser.
+		Até a atualidade, estudiosos discutem sobre os verdadeiros nomes e linhagens dessas criaturas.
+		Ignorando nomes: é evidente que as primeiras proles são puras o suficiente para reter a grande força dos seus progenitores.
+		Naturalmente, isso os tornou alvos de governos divinos cruéis, e a maioria foi caçada até a extinção.
+		Sabe-se que os Peixes-Dragão, os Dragões-Foliões e as Serpentes Abissais sobreviveram aos expurgos da Era Deífica.
+		Notavelmente, todos agora são reclusos ou excessivamente violentos. É trágico como evoluíram para ser desse jeito.
+		'''
+}
+
+LoreDukeFishron: {
+	DisplayName: Duke Fishron
+	Lore:
+		'''
+		Por mais viajado que seja, esta espécie é sozinha a mais poderosa dos mares.
+		Eles são caçadores incansáveis e podem facilmente passar bastante tempo fora d'água.
+		Folclore diz que os Peixes-dragão têm herança dos verdadeiros Dragões; incontáveis anos atrás.
+		Enquanto há muitas histórias assim de criaturas vindas de ancestrais dracônicos, este caso é factual.
+		Herança genética ou não; os Peixes-dragão não têm Sangue de Dragão ou almas Áureas. Eu saberia bem.
+		'''
+}
+
+LoreEaterofWorlds: {
+	DisplayName: The Eater of Worlds
+	Lore:
+		'''
+		Qualquer ser poderoso vai originar contos e lendas, da sua grandeza e do seu terror. Aquele verme monstruoso não era exceção.
+		Aquela coisa mísera, devorando um planeta? Ridículo. No entanto, o ridículo se espalha veloz com mesmo uma gota de verdade por trás.
+		Não se precisa procurar muito para achar exemplos. Estamos todos cercados de desenfreada superstição e suposição.
+		Eu mesmo já fui submetido a uma ladainha de ostentações e acusações infundadas em meu tempo.
+		'''
+}
+
+LoreEmpressofLight: {
+	DisplayName: Imperatriz da Luz
+	Lore:
+		'''
+		Embora seu título seja altivo, ela é mais como uma emissária para os poderes além e as forças da natureza.
+		Em plena luz do sol, ela pode canalizar a própria Luz Primordial, tornando-se quase intocável.
+		Felizmente, com apenas luz estelar para usar, ela cai como qualquer outro déspota deselegante.
+		Sua propensão para sugar a força de outros grandes seres é singularmente deplorável.
+		Isso a deu uma obediência doentia. Dependente, mas de bom grado, já que a permite saciar sua sede primal.
+		Eu havia decidido matá-la pessoalmente, mas ela foi um alvo notoriamente evasivo.
+		'''
+}
+
+LoreExoMechs: {
+	DisplayName: O Trio Exo Mecânico
+	Lore:
+		'''
+		Que terrível maravilha da engenharia. A especialidade de Draedon sempre foi maquinaria de guerra, mas estas são impecáveis.
+		Sua ousada afirmação que nenhum Deus pode se igualar ao seu trabalho está, no entanto... incorreta. Ele não está a par do Traitor altíssimo.
+		O que seja, com aço e inteligência sozinhos, ele forjou motores da destruição que rivalizam com Calamitas.
+		Traz-me pouco conforto notar que até ela, pelo menos, tem um coração.
+		Draedon é um monstro amoral sem comparação. Ele é totalmente desprovido de humanidade e compaixão.
+		Com tecnologia tão inexplicavelmente avançada, ele está ao precipício da apoteose.
+		Ele pode fabricar tais pesadelos sintéticos à sua vontade. Seus recursos devem ser quase ilimitados.
+		Caso perdesse o temperamento: se ele sequer tem um, todas as esperanças da vida seriam sufocadas em um instante, silenciadas por uma torrente de silício.
+		No entanto, talvez você possa aproveitar-se do ofício inimaginável dele para sua vantagem, e buscar seu conhecimento.
+		'''
+}
+
+LoreEyeofCthulhu: {
+	DisplayName: O Olho de Cthulhu
+	Lore:
+		'''
+		Em eras passadas, heróis ganharam renome ao enfrentar monstros assim.
+		Agora eles vagam desenfreados, surgindo de influências vis deixadas incontidas. Eles se misturam bem com a injustiça horrível de seus progenitores.
+		Matar um simplesmente abre o caminho para mais uma dúzia. Certamente isso não o preocupa, também.
+		'''
+}
+
+LoreGolem: {
+	DisplayName: Golem
+	Lore:
+		'''
+		Que coisa triste e lamentável. Realmente, um escárnio em todo sentido da palavra.
+		Os Laghartos foram abandonados pela sua divindade há tempo. Eles criaram este ídolo como um patético substituto.
+		O resultado é uma amalgamação dos conceitos e temas de muitos Deuses, principalmente o calor do sol.
+		Está longe de ser um deus mecânico... para melhor. A alternativa é arrepiante demais para considerar.
+		Enquanto acredito que esta criação insignificante não mereça menção, os Laghartos o louvam sem hesitar.
+		Não vejo razão para interferir em questões abaixo de mim e meu povo.
+		'''
+}
+
+LoreHiveMind: {
+	DisplayName: A Colmeia Mental
+	Lore:
+		'''
+		Algum feitio da mente de um Deus pode sobreviver à morte, como os espasmos de um inseto esmagado.
+		O pouco que sobrou tenta se reunir e coalescer em culto. Uma tentativa desesperada de restaurar seu poder. Quão patético.
+		Felizmente para nós, a futilidade deste esforço é inigualada. A biomassa obedece; embora nada seja realizado.
+		Sabe-se que o poder divino está enraizado na fé. Deuses são forjados de sua própria força, e a difusão sem mente da corrupção é sua própria reverência nojenta.
+		'''
+}
+
+LoreKingSlime: {
+	DisplayName: Geleia Rei
+	Lore:
+		'''
+		Dadas tempo, estas criaturas gelatinosas absorvem umas às outras e lentamente crescem em tamanho e força.
+		Há pouca necessidade de se preocupar com isso. Naturalmente, geleias são quase irracionais e juntam-se ao acaso.
+		Entretanto, parece que elas conseguem absorver conhecimento, mesmo em forma rudimentar.
+		'''
+}
+
+LoreLeviathanAnahita: {
+	DisplayName: Leviatã e Anahita
+	Lore:
+		'''
+		Apesar de ostentar domínio sobre todos os oceanos do mundo, na verdade ela é uma reclusa das profundezas.
+		Elementais como ela representam um grave perigo àqueles ao seu redor. Outras Elementais não são exceção.
+		Anahita foi expulsa de seu lar no Abismo pela vegetação opressora da Silva.
+		Relatos variam quanto à besta ao seu lado. Alguns dizem que Anahita invocou a Leviatã si mesma.
+		Acredite no que quiser, mas certamente são inseparáveis mesmo na morte.
+		Que lealdade valorosa! Ela me lembra de Yharon.
+		'''
+}
+
+LoreMechs: {
+	DisplayName: O Trio Mecânico
+	Lore:
+		'''
+		Estas bestas de aço desajeitadas foram os experimentos de Draedon, meu ex-colega e prodigioso engenheiro.
+		Sua intenção era abastecer uma máquina de guerra com energia de almas, a fazendo lutar com propósito e ardor.
+		As criações foram um sucesso, talvez até demais, já que as almas continuaram a expressar seu livre arbítrio.
+		Draedon estava insatisfeito com os resultados. Entretanto estes eram meus soldados, com sua lealdade reforjada em ferro.
+		Eu os dispensei do serviço, mas eles permanecem aqui. Varrendo a terra em busca de vestígios do divino.
+		Infelizmente para você, isso o coloca na mira deles. Dê-lhes uma luta na qual valha a pena morrer..
+		'''
+}
+
+LoreOldDuke: {
+	DisplayName: O Velho Duque
+	Lore:
+		'''
+		Este era possivelmente um dos mais velhos seres mundanos na face do planeta.
+		Os primeiros Peixes-dragão foram identificados ao meio da Era Dracônica. Que exótico prestígio...!
+		Peixes-dragão foram uma das proles originais de puros Dragões Áureos.
+		Eles são tão antigos e venerados que muitos historiadores estão convencidos de que são os monstros marinhos originais do folclore
+		A astúcia deste Duque em particular é evidente: ele evadiu séculos de caça, e até agora tinha sobrevivido a um envenenamento mui intenso.
+		Acima de quase todos, esta criatura era uma lenda viva. Deve-se perguntar o que passa pela mente de uma fábula que se apaga...
+		'''
+}
+
+LorePerforators: {
+	DisplayName: Os Perfuradores e Sua Colmeia
+	Lore:
+		'''
+		Estas criaturas eram singulares. Elas brandiam o poder dos Deuses mortos mais puro possível, ichor derramado correndo por suas veias.
+		Tudo que existe no Carmim é realmente o divino exposto; suas vísceras agora reluzem com perfídia perversa para todos testemunharem.
+		O brejo fede a séculos de manipulação vil e insensível dominação dos desafortunados.
+		Julgamento já se passou há muito e apenas a extinção aguarda.
+		'''
+}
+
+LorePlaguebringerGoliath: {
+	DisplayName: Pestífera Goliarda
+	Lore:
+		'''
+		Uma inocente rainha, forçada a suportar uma vida agonizante. Isto é nada menos que um crime contra a natureza.
+		Sem me consultar, Draedon buscou armar as já bem-organizadas abelhas da Selva.
+		Quando ele revelou seu projeto finalizado, eu fiquei furioso. Ele as tinha escravizado, era desprezível. Vil mesmo.
+		Draedon deu pouca importância à minha fúria e retornou ao trabalho sem outro incidente.
+		A partir daquele ponto, parei de fazer pedidos a Draedon. Ele havia me mostrado suas cores verdadeiras...
+		Nos meus dias posteriores eu não fui o mais virtuoso. Mas eu nunca acorrentaria uma criatura para lutar em meu nome.
+		Isso me faria nada melhor que os canalhas divinos que eu caçava. 
+		'''
+}
+
+LorePlantera: {
+	DisplayName: Plantera
+	Lore:
+		'''
+		Esta aberração floral é outro exemplo do poder volátil extraído das almas.
+		Levando sua maestria da agricultura a novas alturas, os habitantes da Selva criaram um broto especial.
+		Pela bênção ritual do solo, ele foi alimentado com legiões de almas.
+		Os anciãos do vilarejo desejavam isso para trazer uma nova era de prosperidade botânica.
+		De fato, a planta era maravilhosa. Mas era selvagem e rebelde, com uma vontade própria.
+		Agora que você a matou, energias espirituais ainda mais caóticas inundam essas terras.
+		A ignorância do vilarejo era vergonhosa de seu próprio jeito, mas isto é ainda pior.
+		'''
+}
+
+LorePolterghast: {
+	DisplayName: Polterghast
+	Lore:
+		'''
+		Quanto mais minha guerra se estendia, mais eu me afundava em negligência. Este espectro é o cerne do meu fracasso.
+		Escondi-me atrás de desculpas, chamando-as de deveres. Combatendo os deuses. Treinando. Governando.
+		Eu tinha tempo e recursos para dedicar. Estava simplesmente paralizado pela apatia.
+		As multidões de pessoas que mantinha no calabouço pereceram com seus carcereiros.
+		Dentro daqueles corredores enfeitiçados, nenhum encontra descanso. Suas almas coalesceram em um monstro amorfo.
+		Fervendo em raiva, afogado em tristeza, gritando em loucura. A amalgamação era incontrolável.
+		O culto aos dragões estava furioso, seu líder exigindo que eu derrotasse a assombração pessoalmente.
+		Eu não o respondi. Eu tinha muito antes me tornado surdo ao mundo fora da minha cruzada. Não caia como caí.
+		'''
+}
+
+LorePrelude: {
+	DisplayName: Prelúdio
+	Lore:
+		'''
+		Em tempos passados, agora chamados de Era Dracônica, os majestosos Dragões protegiam Terraria de todas ameaças.
+		Seu célebre poder foi posto à prova derradeira por uma aberração monstruosa d'além das estrelas.
+		Lutando com todas as suas forças, os Dragões podiam feri-lo e enfraquecê-lo... mas não destruí-lo.
+		Sem opções, eles dilaceraram o monstro até uma sombra de seu antigo ser; selando-o.
+		O que restou dele está aprisionado na Lua, tão longe quanto os Dragões conseguiram baní-lo.
+		Muito da raça dracônica foi perdido como vítimas naquela contenda, e eles nunca se recuperaram.
+		O próprio Zeratros estava gravemente ferido. Parecia que seu poder, assim como sua vida, seriam perdidos para sempre.
+		Um mortal, jurado ao serviço dos Dragões, ergueu-se em determinação para salvar o virtuoso Rei deles.
+		'''
+}
+
+LoreProfanedGuardians: {
+	DisplayName: As Guardiãs Profanas
+	Lore:
+		'''
+		As Guardiãs são criações mui simples, extensões do poder da Deusa Profana.
+		Elas são concedidas autonomia parcial para caçar ameaças e são raramente vistas fora de templos santificados no nome dela.
+		Ela esteve tentando expandir seu domínio, não é surpresa que ela o veja como a maior ameaça a tal.
+		Afinal, foi você quem deu um fim ao terror sideral que catalisou a queda dos Dragões.
+		Atraia ela de seu esconderijo. Abandone a piedade, pois a Deusa Profana nenhuma tem.
+		'''
+}
+
+LoreProvidence: {
+	DisplayName: Providência, a Deusa Profana
+	Lore:
+		'''
+		Um dia glorioso.
+		Feitos de valor deste calibre estão consagrados em lendas. Desta era apenas a Bruxa, Braelor e eu mesmo estamos à altura.
+		Providência era talvez uma das Deusas mais perversas, obcecada com a purificação pelo extermínio.
+		Seus seguidores viam pouco valor na vida. Dor não era um preço que achavam justo se pagar.
+		A Deusa Profana prometeu-lhes que eliminaria a desigualdade ao reduzir tudo a cinzas indistintas.
+		Aqueles devotos a ela eram fracos em vontade, mas ela reinava como uma das Deusas mais poderosas.
+		Talvez o que a deixou extrair tanta força foram suas naturezas abaláveis.
+		'''
+}
+
+LoreQueenBee: {
+	DisplayName: Abelha Rainha
+	Lore:
+		'''
+		Apesar do seu tamanho tremendo, estas criaturas são dóceis até serem provocadas. Sua natureza idílica é uma raridade atualmente. ...algo belo ainda.
+		No passado, vilas inteiras se formavam ao redor das grandes colmeias para pacificamente coletar sua fração de mel enquanto as protegiam do perigo.
+		Embora sua morte seja compreensível dadas as circunstâncias, eu sinto pena desses seres majestosos.
+		O destino foi cruel a muitas de sua espécie.
+		'''
+}
+
+LoreQueenSlime: {
+	DisplayName: Geleia Rainha
+	Lore:
+		'''
+		Tendo fugido da sua batalha, parece que o Deus das Geleias moldou um novo guardião das essências liberadas.
+		Enredado no processo de absorção do poder recém-adquirido... ele não pôde fugir de novo.
+		Ou talvez foi tomado por seu desespero em sobreviver.
+		Uma caçada gloriosa, um belo inimigo. Agora você sabe que deve perseguí-los até os fins do mundo.
+		'''
+}
+
+LoreRavager: {
+	DisplayName: O Devastador
+	Lore:
+		'''
+		Um doentio golem de carne construído para o único propósito de selvagem, infinda destruição.
+		Esta monstruosidade era uma aposta desesperada para virar o jogo contra os meus exércitos caça-Deuses.
+		Eu mesmo mal podia acreditar, mas ele nasceu de um ritual de grande sacrifício, realizado em fé ardente.
+		O ritual condenou e fundiu os corpos e almas dos seus aliados caídos nessa coisa horrorosa.
+		Quando os feiticeiros prometeram suas próprias vidas a ela como oferenda, ela acordou e facilmente os massacrou.
+		Agora banhada em sangue fresco, ela desejava mais, partindo em uma devastação sem rumo.
+		Eu suponho que sua brutalidade sirva como um lembrete para ter cuidado com o que se acredita.
+		'''
+}
+
+LoreRequiem: {
+	DisplayName: Réquiem
+	Lore:
+		'''
+		Enquanto o Dragão da Luz desvanecia, um monge o visitou. Quase ninguém entende o que transpirou naquele dia.
+		Muitos dizem que sua partida foi aliviada. A verdade? A alma Áurea de Zeratros foi consumida totalmente.
+		O monge levantou-se, vestido em Luz Primordial, se declarando como Xeroc. O Primeiro Deus.
+		Quando um Dragão é posto a descansar no Ninho, seu poder é cedido para que um dia possa retornar.
+		Xeroc renunciou ao seu juramento e quebrou o ciclo, tornando-se um traidor sem igual
+		Rumores da ascensão se espalharam rapidamente. Muitos tentaram segui-lo, esperando tomar uma alma Áurea para si mesmos.
+		Agora você sabe... Boas intenções ou não, todos os Deuses são pecadores. Todo e cada um cúmplice de um genocídio.
+		Onde quer que sua jornada o leve, esteja você com ou contra minha pessoa.... Que a sorte o favoreça.
+		Pois ninguém mais o fará.
+		'''
+}
+
+LoreSignus: {
+	DisplayName: Signus
+	Lore:
+		'''
+		Uma aberração que desafia qualquer explicação, nascido da Distorção e louvado pela Fraternidade de Ônix.
+		Quase toda informação sobre esta entidade vem daquele clã enigmático. Tudo mais são rumores.
+		Foi reportado a manifestar-se em múltiplos locais ao mesmo tempo. Sua capacidade para engano e astúcia impiedosa não tem par.
+		O compatriota de Statis, Braelor, lutou contra mim em um grande embate. Com nossas lâminas travadas, o ronin tentou um golpe letal.
+		O Devorador dispensa honra e lealdade. Mas ele sentiu fraqueza. Hesitação. Uma presa fácil.
+		A serpente apanhou meus dois agressores em um vórtice dimensional. Garantindo-me que estavam bem quanto mortos.
+		No entanto, Statis, deve ter fechado um acordo com Signus. Ele escapou de seu banimento incólume.
+		'''
+}
+
+LoreSkeletron: {
+	DisplayName: Esqueletron
+	Lore:
+		'''
+		Um infeliz velhote que foi pego por um culto ancestral, sendo amaldiçoado por trespassar na biblioteca anciã deles.
+		Eles já foram meus amigos. O líder é apaixonado por Dragões, e até sonha em ressuscitar um.
+		As próprias paredes daquele lugar continuam malditas. A magia há muito minguou enquanto os soldados apodreciam lá dentro.
+		Não espere aprender muito daqueles tomos manchados. Eles foram escritos com um ardor equivocado.
+		'''
+}
+
+LoreSkeletronPrime: {
+	DisplayName: Esqueletron Prime
+	Lore:
+		'''
+		Tão consumidas pelo ódio estavam algumas almas, que juraram que fariam qualquer coisa pelo meu nome.
+		Sua devoção era infalível. Absoluta. Nenhuma atrocidade estava além deles; sua vingança não conhecia limites.
+		Eu os organizei em tropas de choque, temidos pelos seus lança-chamas e incendiários.
+		Destruindo locais de louvor e torrando os falsamente devotos, sua especialidade era desfazer fé com chama.
+		Draedon entendia bem isso. Para eles criou um feitio tão sinistro que evocava a própria perdição.
+		'''
+}
+
+LoreSlimeGod: {
+	DisplayName: O Deus Geleia
+	Lore:
+		'''
+		Um antigo clã uma vez adorava esta coisa como um ídolo defendendo o equilíbrio da natureza. Agora sua pureza está manchada por sujeira e imundície recém-absorvidas.
+		O ser gelatinoso não sabe de ou se preocupa com o último sobrevivente do clã.
+		Tal tragédia é comum demais na adoração.
+		Infelizmente, o Deus das Geleias é sábio o suficiente para ser covarde. Fugindo de batalhas que não pode vencer quando seus servos são derrotados.
+		Talvez a sorte o favoreça se pegá-lo desprevenido.
+		'''
+}
+
+LoreStormWeaver: {
+	DisplayName: Tecelão de Tempestades
+	Lore:
+		'''
+		Esta besta, mesmo de menor estatura que o Devorador, é propriamente uma grande ameaça.
+		Eles são claramente da mesma espécie. Até esta serpente é conhecida por devorar Serpes inteiras.
+		Muito pouco se sabe do plano ou espaço do qual o Grande Devorador vem.
+		Mesmo Draedon e sua obsessiva pesquisa têm sido incapazes de decifrar sua verdadeira natureza.
+		O Tecelão passou por uma fenda desse lugar aberta pelo Devorador, e este monitora o clandestino desde então.
+		Em sua mente, os poderes da serpente menor poderiam levá-lo a ser ameaçador demais para continuar vivendo.
+		Pouco ele sabe que sempre esteve em uma posição parecida. Ele se acha invencível afinal.
+		'''
+}
+
+LoreSulphurSea: {
+	DisplayName: Mar Sulfúrico
+	Lore:
+		'''
+		Este litoral nunca foi agradável, embora tenha visto dias bem melhores.
+		Fumaça incessante subindo da indústria de Azafure inunda a água com íons cáusticos.
+		Apesar disso, a vida resistente se adaptou ao novo ambiente. Sem dúvida ajudada pela Silva, enquanto ela afundava até o submundo.
+		Há muito considerada inabitável, sua seguinte deterioração levou Draedon a designá-la como um lixão.
+		Anos de despejo irresponsável de lixo agora deixaram a transformação da costa irreversível.
+		'''
+}
+
+LoreTwins: {
+	DisplayName: Os Gêmeos
+	Lore:
+		'''
+		Nem tudo na guerra é combate direto. Logística, inteligência e astúcia são igualmente essenciais para garantir a vitória.
+		Estas máquinas eram meus melhores batedores e agentes, renascidos em uma forma que os dá visão sem igual.
+		Um inimigo só está tão seguro quanto admiti-lo: Arqueiros, espiões, assassinos e mais o permitem manter uma vantagem decisiva.
+		Draedon entendia bem que a única luta justa é aquela que se vence.
+		Sua assistência era infalível, seus cálculos frios e cruéis.
+		Nem mesmo o alvo mais evasivo tinha uma chance.
+		'''
+}
+
+LoreUnderworld: {
+	DisplayName: O Submundo
+	Lore:
+		'''
+		A reputação infernal que o submundo tem é relativamente recente.
+		As camadas de cinzas sufocando as previamente grandes cidades ainda estão quentes.
+		Os mais autoritários dos Deuses queriam que eu defendesse suas causas, me pedindo para governar sua sociedade a partir daqui.
+		Mas mesmo cercada pelo magma, Azafure simplesmente queimou quando seus desejos não foram atendidos.
+		Tal é o infeliz preço da guerra, embora eu não me arrependa de lutar por meu povo.
+		'''
+}
+
+LoreWallofFlesh: {
+	DisplayName: A Parede de Carne
+	Lore:
+		'''
+		Conter a essência de um Deus morto não é pouca coisa. É na verdade uma muralha imponente e medonha.
+		A Parede foi costurada com ligamentos sórdidos e feitiços piores, formando uma prisão rudimentar de carne.
+		Ela servia seu propósito: parar a difusão de influência divina indevida.
+		Se não fosse por este avanço da alquimia, o próprio mundo pelo qual lutava poderia ter se perdido na carnificina que causei.
+		Meus métodos evoluíram desde então. Não preciso conter as essências, quando elas podem ser devoradas.
+		Que você invoque o meu valor ao combater o derramamento resultante das energias.
+		'''
+}
+
+LoreYharon: {
+	DisplayName: Yharon, Fênix Resplandecente
+	Lore:
+		'''
+		O retorno da Era dos Dragões, cortado. Simples assim, sobram só cinzas ao vento...
+		Yharon era o último dos Dragões Áureos. Como uma fênix, seu domínio de poder inclui o renascimento.
+		Os Deuses consideraram-no abatido com o resto de sua raça, mas ele retornou como um ovo. Escondido no Ninho.
+		Eu estava destinado a consumir sua alma Áurea quando ele chocasse, e reinar eterno como Deus-Rei.
+
+		[c/FCA92B:Destino é para os fracos.]
+
+		Eu rejeitei seus caprichos, e derrubei seus planos. Eu fui sentenciado à execução por traição.
+		Os cornos mansos e ingratos lançaram a mim e ao ovo de Yharon no magma do Inferno.
+		O calor intenso me desfigurou terrivelmente, mas deu nova vida a Yharon. Ele subiu, coberto em chamas, e salvou a minha vida.
+		Desde aquele dia, nossas almas são uma. Ele partilhou comigo o conto de Zeratros, e o genocídio de sua raça.
+		Eu prometi que haveria justiça. Então a guerra começou, Yharon reunindo todos como um farol de esperança.
+		Agora, essa esperança está há muito murcha. Eu sou apenas uma sombra do herói que já fui, e isto é a prova absoluta.
+		Yharon deve retornar, como ele o faz, mas ele... ele se despediu de mim.
+		'''
+}

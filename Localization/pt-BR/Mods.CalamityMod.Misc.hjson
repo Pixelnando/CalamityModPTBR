@@ -1,0 +1,59 @@
+// Recipe Groups
+RecipeGroup: {
+	HardmodeAnvil: Qualquer Bigorna do Modo Difícil
+	HardmodeForge: Qualquer Forja do Modo Difícil
+	AnyLargeGem: Qualquer Joia Grande
+	AnyFood: Qualquer Item de Comida
+	AnyEvilBar: Qualquer Barra do Mal
+	AnyEvilPowder: Qualquer Pó do Mal
+	Boss2Material: Placa das Sombras ou Amostra de Tecido
+	CursedFlameIchor: Chama Amaldiçoada ou Ichor
+	AnyEvilWater: Qualquer Água do Mal
+	AnyEvilFlask: Qualquer Frasco do Mal
+	AnyEvilBlock: Qualquer Bloco do Mal
+	AnyGoodBlock: Qualquer Bloco do Bem
+	LunarPickaxe: Qualquer Picareta Lunar
+	LunarHamaxe: Qualquer Martelo-Machado Lunar
+	AnyQuiver: Qualquer Aljava
+	AnyWings: Qualquer Asa
+}
+
+// Status
+WikiStatus1: "[i:Book][c/EE4939:Nota: O wiki Fandom não é mais suportado pelo Calamity.] [i:Book]"
+WikiStatus2: "[i:Book][c/EE4939:Verifique o Wiki Oficial do Calamity em ][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [i:Book]"
+GimmeSwagPlushieCampaign: "[i:GreenPresent] [c/3BE022:DISPONÍVEL AGORA! Boneco de Pelúcia do Yharon!] [c/3989FF:calamitymod.com/plush] [i:GreenPresent]"
+// Recipe Conditions
+Tier1ArsenalRecipeCondition: Veja uma esquemática descriptografada do laboratório perto do Mar Profundo
+Tier2ArsenalRecipeCondition: Descriptografe uma esquemática do laboratório no grande Planetóide no céu
+Tier3ArsenalRecipeCondition: Descriptografe uma esquemática do labóratorio nas profundezas da selva
+Tier4ArsenalRecipeCondition: Descriptografe uma esquemática do labóratorio perto das bordas do submundo
+Tier5ArsenalRecipeCondition: Descriptografe uma esquemática do labóratorio nas profundezas das cavernas congeladas
+SunkenSeaSchematicRecipeCondition: Coloque uma esquemática do laboratório perto do Mar Profundo em seu inventário pelo menos uma vez
+PlanetoidSchematicRecipeCondition: Coloque uma esquemática do laboratório no grande Planetóide no céu pelo menos uma vez
+JungleSchematicRecipeCondition: Coloque uma esquemática do laboratório nas profundezas da selva em seu inventário pelo menos uma vez
+UnderworldSchematicRecipeCondition: Coloque uma esquemática do laboratório perto das bordas do submundo em seu inventário pelo menos uma vez
+IceSchematicRecipeCondition: Coloque uma esquemática do laboratório nas profundezas das cavernas congeladas em seu inventário pelo menos uma vez
+// Other CombatText uses and Item Messages
+ShiftToExpand: Segure SHIFT para ver uma descrição expandida
+LearnedSchematic: Você aprendeu como criar coisas novas!
+CragmawVibeCheck: Vibe check.
+AutocannonHot: AI! QUENTE!
+NoComputer: Nenhum computador de descriptografia instalado
+ArkParry: Aparada!
+ClockworkTick: Tic
+ClockworkTock: Toc
+SevensJackpot: Jackpot!!!
+SevensBust: Fracasso!
+SevensDoubles: Duplos!
+SevensTriples: Triplos!
+StylishHammerHit: Estiloso!
+GenericConsumedText: "[c/8A8A8A:Você já consumiu este item]"
+BloodOrangeText: Você já consumiu uma Laranja de Sangue. Comer mais não seria bom pra você.
+MiracleFruitText: Você já consumiu uma Fruta do Milagre. Comer mais uma o deixaria doente.
+ElderberryText: Você já consumiu um Sabugueiro Ancião. Provavelmente não é aconselhável comer mais que um.
+DragonfruitText: Você já consumiu uma Pitaia-do-dragão. Seu estômago não aguenta mais uma.
+CometShardText: Você já usou um Fragmento de Cometa. Usar mais o deixaria enjoado.
+EtherealCoreText: Você já usou um Núcleo Etéreo. É melhor não usar mais do que você pode.
+PhantomHeartText: Você já usou um Coração Fantasma. Provavelmente é bom que você não possa usar outro.
+SulphurSwitchLeft: O Mar Sulfuroso agora está do lado esquerdo do mundo.
+SulphurSwitchRight: O Mar Sulfuroso agora está do lado direito do mundo.
