@@ -1,0 +1,581 @@
+AuricTeslaBodyArmor: {
+	DisplayName: Armadura Corporal de Tesla Áurica
+	Tooltip:
+		'''
+		+100 de vida máxima
+		8% de aumento nos danos e 5% de aumento na chance de acerto crítico
+		'''
+}
+
+AuricTeslaCuisses: {
+	DisplayName: Grevas de Tesla Áurica
+	Tooltip:
+		'''
+		10% de aumento na velocidade dos movimentos
+		12% de aumento nos danos e 5% de aumento na chance de acerto crítico
+		Efeito do Tapete Mágico
+		'''
+}
+
+AuricTeslaHoodedFacemask: {
+	DisplayName: Máscara Facial Encapuzada de Tesla Áurica
+	Tooltip: 30% de aumento nos danos por ataque à distância e na chance de acerto crítico à distância
+	SetBonus: Efeitos dos conjuntos de ataque à distância de Estragão, Chamas Sangrentas e Caça-Deuses
+}
+
+AuricTeslaPlumedHelm: {
+	DisplayName: Elmo Emplumado de Tesla Áurica
+	Tooltip:
+		'''
+		20% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
+		5% de aumento na velocidade dos movimentos
+		'''
+	SetBonus:
+		'''
+		Efeitos dos conjuntos de ataque ladino de Estragão, Chamas Sangrentas e Caça-Deuses
+		+130 de furtividade máxima
+		'''
+}
+
+AuricTeslaRoyalHelm: {
+	DisplayName: Elmo Real de Tesla Áurica
+	Tooltip:
+		'''
+		20% de aumento nos danos por ataque físico
+		10% de aumento na chance de acerto crítico físico
+		'''
+	SetBonus:
+		'''
+		Efeitos dos conjuntos de ataque físico de Estragão, Chamas Sangrentas e Caça-Deuses
+		A chance dos inimigos mirarem em você é maior
+		28% de aumento na velocidade do ataque físico
+		'''
+}
+
+AuricTeslaSpaceHelmet: {
+	DisplayName: Elmo Espacial de Tesla Áurica
+	Tooltip: 15% de aumento nos danos por invocação
+	SetBonus:
+		'''
+		Efeitos dos conjuntos de invocação de Estragão, Chamas Sangrentas e Silva
+		5% de aumento na velocidade de corrida e aceleração máxima
+		+6 lacaios máximos e 75% de aumento nos danos por invocação
+		'''
+}
+
+AuricTeslaWireHemmedVisage: {
+	DisplayName: Protetor Facial Aramado de Tesla Áurica
+	Tooltip: 30% de aumento nos danos por magia, 20% de aumento na chance de acerto crítico mágico, +100 de mana máxima e 20% de de redução no custo de mana
+	SetBonus:
+		'''
+		Efeitos dos conjuntos de magia de Estragão, Chamas Sangrentas e Silva
+		5% de aumento na velocidade de corrida e aceleração máxima
+		'''
+}
+
+BloodflareBodyArmor: {
+	DisplayName: Armadura Corporal de Chamas Sangrentas
+	Tooltip:
+		'''
+		12% de aumento nos danos e 8% de aumento na chance de acerto crítico
+		+40 de vida máxima
+		'''
+	CommonSetBonus:
+		'''
+		Aumenta muito a regeneração de vida, equivalente à armadura do Carmim
+		Inimigos com menos de 50% de vida deixam cair corações quando atingidos
+		Este efeito tem um tempo de recarga de 5 segundos
+		'''
+}
+
+BloodflareCuisses: {
+	DisplayName: Grevas de Chamas Sangrentas
+	Tooltip: 17% de aumento na velocidade dos movimentos, 10% de aumento nos danos e 7% de aumento na chance de acerto crítico
+}
+
+BloodflareHeadMagic: {
+	DisplayName: Capuz da Hidra de Chamas Sangrentas
+	Tooltip: 20% de aumento nos danos por magia, 10% de aumento na chance de acerto crítico mágico, +100 de mana máxima e 17% de de redução no custo de mana
+	SetBonus:
+		'''
+		Armas de magia disparam raios fantasmagóricos a cada 1,67 segundos
+		Acertos críticos mágicos causam explosões de chamas a cada 2 segundos
+		'''
+}
+
+BloodflareHeadMelee: {
+	DisplayName: Máscara do Carneiro de Chamas Sangrentas
+	Tooltip: 10% de aumento nos danos por ataque físico e 5% de aumento na chance de acerto crítico físico
+	SetBonus:
+		'''
+		18% de aumento na velocidade do ataque físico
+		A chance dos inimigos mirarem em você é maior
+		Ataques físicos verdadeiros irão curar você
+		Depois de atingir um inimigo 15 vezes com ataques físicos verdadeiros, você entrará em um frenesi de sangue por 5 segundos
+		Durante a frenesi, você receberá 25% de aumento nos danos por ataque físico, chance de acerto crítico físico e o dano de contato será cortado pela metade
+		Este efeito tem um tempo de recarga de 30 segundos
+		'''
+}
+
+BloodflareHeadRanged: {
+	DisplayName: Elmo com Chifres de Chamas Sangrentas
+	Tooltip: 10% de aumento nos danos por ataque à distância e na chance de acerto crítico à distância
+	SetBonus:
+		'''
+		Pressione {0} para liberar as almas perdidas de polterghast para destruir seus inimigos
+		Este efeito tem um tempo de recarga de 30 segundos
+		Armas de ataque à distância disparam orbes de explosão de sangue a cada 2,5 segundos
+		'''
+}
+
+BloodflareHeadRogue: {
+	DisplayName: Máscara do Demônio de Chamas Sangrentas
+	Tooltip:
+		'''
+		10% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
+		5% de aumento na velocidade dos movimentos
+		'''
+	SetBonus:
+		'''
+		+120 de furtividade máxima
+		Estar com mais de 80% de vida aumenta a sua defesa em 30 e na chance de acerto crítico ladino em 5%
+		Estar com menos de 80% de vida aumenta os danos por ataque ladino em 10%
+		Acertos críticos ladinos têm 50% de na chance de curar você
+		'''
+}
+
+BloodflareHeadSummon: {
+	DisplayName: Elmo da Serpe de Chamas Sangrentas
+	Tooltip: 5% de aumento nos danos por invocação
+	SetBonus:
+		'''
+		50% de aumento nos danos por invocação e +3 lacaios máximos
+		Invoca minas de Polterghast para circularem ao seu redor
+		Com 90% de vida ou mais, você recebe 10% de aumento nos danos por invocação
+		Com 50% de vida ou mais, você recebe 20 de defesa e regeneração de +1 de vida por segundo
+		'''
+}
+
+DemonshadeBreastplate: {
+	DisplayName: Peitoral das Sombras Demoníacas
+	Tooltip:
+		'''
+		25% de aumento na velocidade do ataque físico, 15% de aumento nos danos e na chance de acerto crítico
+		Inimigos recebem danos ímpios quando tocam em você
+		Aumenta a vida e mana máxima em 200
+		Ficar parado permite que você absorva as sombras e acelere sua regeneração de vida exponencialmente		
+		'''
+}
+
+DemonshadeGreaves: {
+	DisplayName: Grevas das Sombras Demoníacas
+	Tooltip: Velocidade sombria
+}
+
+DemonshadeHelm: {
+	DisplayName: Elmo das Sombras Demoníacas
+	Tooltip: 30% de aumento nos danos e 15% de aumento na chance de acerto crítico
+	SetBonus:
+		'''
+		100% de aumento nos danos por invocação e +10 lacaios máximos
+		Feixes das sombras e foices demoníacas cairão dos céus quando você for atingido
+		Um diabo vermelho amigável segue você
+		Press {0} para enfurecer inimigos próximos com um feitiço de magia negra por 10 segundos
+		Isso faz com que eles sofram 2,25x o dano total, mas eles causarão 1,25x o dano em você
+		'''
+}
+
+EmpyreanCloak: {
+	DisplayName: Manto Empírico
+	Tooltip:
+		'''
+		Armadura do cosmos
+		+20 de vida máxima
+		7% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
+		'''
+}
+
+EmpyreanCuisses: {
+	DisplayName: Grevas Empíricas
+	Tooltip:
+		'''
+		5% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
+		15% de aumento na velocidade dos movimentos
+		'''
+}
+
+EmpyreanMask: {
+	DisplayName: Máscara Empírica
+	Tooltip:
+		'''
+		11% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
+		5% de aumento na velocidade dos movimentos
+		'''
+	SetBonus:
+		'''
+		9% de aumento nos danos por ataque ladino e na velocidade dos projéteis ladinos
+		+115 de furtividade máxima
+		Projéteis ladinos têm um efeito especial ao atingir o inimigo
+		Você é imbuído de ira e fúria cósmica quando é atingido
+		'''
+}
+
+FearmongerGreathelm: {
+	DisplayName: Grande Elmo Amedrontador
+	Tooltip:
+		'''
+		Puro terror irradia de seus olhos
+		+60 de mana máxima e 10% de de redução no custo de mana
+		10% de aumento nos danos por invocação
+		'''
+	SetBonus:
+		'''
+		20% de aumento nos danos por invocação e +2 lacaios máximos
+		Minions no longer deal less damage while wielding non-summoner weapons
+		Immunity to all forms of frost e flame
+		Minion attacks grant +3.5 HP/s life regen e massively accelerate life regen
+		15% de aumento na redução dos danos during the Pumpkin e Frost Moons
+		This extra damage reduction ignores the soft cap
+		'''
+}
+
+FearmongerGreaves: {
+	DisplayName: Grevas Amedrontadoras
+	Tooltip:
+		'''
+		6% de aumento nos danos
+		50% de aumento no recuo dos lacaios
+		10% de aumento na velocidade dos movimentos
+		Sofrer danos aumenta a velocidade dos movimentos em 40% por 4 segundos
+		'''
+}
+
+FearmongerPlateMail: {
+	DisplayName: Armadura de Placas Amedrontadora
+	Tooltip:
+		'''
+		+100 de vida máxima e 8% de aumento na redução dos danos
+		5% de aumento nos danos e na chance de acerto crítico
+		'''
+}
+
+GemTechBodyArmor: {
+	DisplayName: Armadura Corporal da Tecnologia Joalheira
+	Tooltip: "'Você afundou o suficiente para que eu o pudesse alcançar.'"
+}
+
+GemTechHeadgear: {
+	DisplayName: Capacete da Tecnologia Joalheira
+	Tooltip: "'O Diabo disse: Deleite-se com sua vitória; Você conquistou sua condenação. Arrume suas coisas e vá embora.'"
+	AbilityBrief: Joias do Poder - Seis fragmentos de joias orbitam você ociosamente; uma para cada classe e uma joia base
+	AbilityDescription:
+		'''
+		Cada joia ativa fornece um bônus para sua classe respectiva, enquanto a gema defensiva concede reforços defensivos
+		Ataques poderosos de inimigos desalojarão as joias, lançando-as contra o inimigo mais próximo e causando um dano enorme
+		As joias perdidas se regeneram após um tempo
+		A joia perdida é da mesma classe da arma que você está usando, então é melhor se preparar para alternar entre armas!
+		'''
+	GeneralGemInfo:
+		'''
+		Uma joia é perdida quando você sofre mais que {0} de dano em um único ataque.
+		O tipo de joia perdida é o mesmo que a classe anterior que você estava usando
+		Se a mesma joia já foi perdida, você perderá a joia base
+		Quando uma joia é perdida, ela se desprende e segue o inimigo ou chefe mais próximo, se houver algum, causando {1} de dano básico
+		As joias têm um atraso de {2} segundos antes de aparecerem novamente"
+		'''
+	RedGemInfo: "[i:Ruby] A joia vermelha concede {0} de furtividade máxima, melhorias nas estatísticas ladinas, e torna a furtividade apenas consumível por armas ladinas"
+	YellowGemInfo: "[i:Topaz] A joia amarela fornece melhorias nas estatísticas físicas e faz com que ataques físicos liberem fragmentos ao atingir o inimigo com um tempo de recarga. Este tempo de recarga é mais curto para ataques físicos verdadeiros"
+	GreenGemInfo: "[i:Emerald] A joia verde fornece melhorias nas estatísticas de ataque à distância e faz com que dardos voem rapidamente em direção aos alvos quando são atingidos por um projétil de ataque à distância"
+	BlueGemInfo: "[i:Sapphire] A joia azul concede {0} lacaios máximos adicionais, aumenta o dano por lacaios e reduz a penalidade para itens de invocador enquanto estiver segurando uma arma não-invocadora"
+	PurpleGemInfo: "[i:Amethyst] A joia violeta concede {0} de mana máxima adicional, melhorias nas estatísticas mágicas, e faz com que a mana regenere rapidamente ao segurar uma arma não-mágica"
+	PinkGemInfo: "[i:Diamond] A joia base rosa fornece {0} de defesa adicional, redução dos danos adicional, melhor velocidade dos movimentos e dos pulos e regeneração de +{1} de vida por segundo"
+	GemBonusInfo:
+		'''
+		Quando todas as gemas existirem simultaneamente, acertar um alvo com qualquer arma concede a você regeneração de +{0} de vida por segundo por {1} segundos
+		Isto é aumentado para +{2} de vida por segundo se uma arma de outra classe for usada durante esse período de {1} segundos por {3} segundos
+		'''
+}
+
+GemTechSchynbaulds: {
+	DisplayName: Cobre-Canela da Tecnologia Joalheira
+	Tooltip: "'Se eles te machucarem, derrube-os.'"
+}
+
+GodSlayerChestplate: {
+	DisplayName: Peitoral do Caça-Deuses
+	Tooltip:
+		'''
+		+60 de vida máxima
+		Inimigos sofrem dano quando te acertam
+		11% de aumento nos danos e 6% de aumento na chance de acerto crítico
+		'''
+	CommonSetBonus:
+		'''
+		Permite que você faça uma corrida de uma distância imensa em 8 direções
+		Pressione {0} enquanto segura as teclas de movimento na direção em que quer correr
+		Inimigos atingidos pela corrida sofrem muito dano
+		Durante a corrida, você se torna imune à maioria dos efeitos negativos
+		A corrida possui um tempo de recarga de {1}
+		'''
+}
+
+GodSlayerHeadMelee: {
+	DisplayName: Grande Elmo com Chifres do Caça-Deuses
+	Tooltip:
+		'''
+		14% de aumento nos danos por ataque físico
+		7% de aumento na chance de acerto crítico físico
+		'''
+	SetBonus:
+		'''
+		20% de aumento na velocidade do ataque físico
+		A chance dos inimigos mirarem em você é maior
+		Sofrer mais do que 80 de dano em um ataque fará com que você libere uma barragem de dados caça-deuses que causam muito dano
+		Inimigos sofrem muito dano quando te acertam
+		'''
+}
+
+GodSlayerHeadRanged: {
+	DisplayName: Elmo do Caça-Deuses
+	Tooltip: 14% de aumento nos danos por ataque à distância e na chance de acerto crítico à distância
+	SetBonus: Você dispara uma bala de estilhaços mata-deuses enquanto dispara armas de ataque à distância a cada 2,5 segundos
+}
+
+GodSlayerHeadRogue: {
+	DisplayName: Máscara do Caça-Deuses
+	Tooltip:
+		'''
+		14% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
+		5% de aumento na velocidade dos movimentos
+		'''
+	SetBonus:
+		'''
+		+120 de furtividade máxima
+		Quando você estiver com a vida máxima, todos as suas estatísticas ladinas são aumentadas em 10%
+		Se você sofrer mais do que 80 de dano em um ataque, você receberá mais quadros de imunidade
+		'''
+}
+
+GodSlayerLeggings: {
+	DisplayName: Calça do Caça-Deuses
+	Tooltip:
+		'''
+		5% de aumento na velocidade dos movimentos
+		10% de aumento nos danos e na chance de acerto crítico
+		'''
+}
+
+OmegaBlueChestplate: {
+	DisplayName: Peitoral Ômega Azul
+	Tooltip:
+		'''
+		12% de aumento nos danos e 8% de aumento na chance de acerto crítico
+		Seus ataques infligem Pressão das profundezas
+		Sem regeneração de vida positiva
+		'''
+}
+
+OmegaBlueHelmet: {
+	DisplayName: Elmo Ômega Azul
+	Tooltip:
+		'''
+		Você pode mover-se livremente por líquidos
+		12% de aumento nos danos e 8% de aumento na chance de acerto crítico
+		'''
+	SetBonus:
+		'''
+		Aumenta a perfuração de blindagem em 15
+		10% de aumento nos danos e na chance de acerto crítico e +2 lacaios máximos
+		Tentáculos de curto alcance curam você ao sugar a vida do inimigo
+		Pressione {0} para ativar a loucura abissal por 5 segundos
+		A loucura abissal aumenta o dano, chance de acerto crítico, e agressividade/alcance dos tentáculos
+		Este efeito tem um tempo de recarga de 25 segundos
+		'''
+}
+
+OmegaBlueTentacles: {
+	DisplayName: Tentáculos Ômega Azuis
+	Tooltip:
+		'''
+		12% de aumento na velocidade dos movimentos
+		12% de aumento nos danos e na chance de acerto crítico
+		'''
+}
+
+PrismaticGreaves: {
+	DisplayName: Grevas Prismáticas
+	Tooltip:
+		'''
+		10% de aumento nos danos por magia e 12% de aumento na chance de acerto crítico mágico
+		20% de redução nos danos não-mágicos
+		10% de aumento no tempo de voo e 2% de aumento na velocidade dos pulos
+		'''
+}
+
+PrismaticHelmet: {
+	DisplayName: Elmo Prismático
+	Tooltip:
+		'''
+		18% de aumento nos danos por magia e 12% de aumento na chance de acerto crítico mágico
+		20% de redução nos danos não-mágicos
+		Inimigos com menos de 500 de vida máxima não causam danos de contato
+		Isso não ocorre enquanto um chefe está vivo
+		'''
+	SetBonus:
+		'''
+		+40 de mana máxima e 15% de redução no custo de mana
+		Aumenta a taxa de regeneração de mana
+		Pressione {0} para liberar uma barragem de lasers da morte no cursor durante os próximos 5 segundos
+		Isso tem um tempo de recarga de 30 segundos
+		'''
+}
+
+PrismaticRegalia: {
+	DisplayName: Regalia Prismática
+	Tooltip:
+		'''
+		12% de aumento nos danos por magia e 15% de aumento na chance de acerto crítico mágico
+		20% de redução nos danos não-mágicos
+		+20 de vida máxima e +40 de mana máxima
+		Ataques mágicos ocasionalmente disparam um par de foguetes teleguiados
+		'''
+}
+
+SilvaArmor: {
+	DisplayName: Armadura de Silva
+	Tooltip:
+		'''
+		+80 de vida máxima
+		12% de aumento nos danos e 8% de aumento na chance de acerto crítico
+		'''
+	CommonSetBonus:
+		'''
+		Todos os projéteis invocam esferas de folha curadoras ao atingir o inimigo
+		5% de aumento na velocidade de corrida e aceleração máxima
+		Se você for reduzido a 1 de vida, você não morrerá de nenhum dano adicional pelos próximos 8 segundos
+		Este efeito tem um tempo de recarga de 5 minutos
+		O tempo de recarga não diminui se houver chefes ou eventos ativos
+		'''
+}
+
+SilvaHeadMagic: {
+	DisplayName: Boné Mascarado de Silva
+	Tooltip:
+		'''
+		23% de aumento nos danos por magia e 13% de aumento na chance de acerto crítico mágico
+		+100 de mana máxima e 19% de de redução no custo de mana
+		'''
+	SetBonus: Projéteis mágicos que não podem perfurar inimigos irão ocasionalmente disparar rajadas potentes de energia da natureza
+}
+
+SilvaHeadSummon: {
+	DisplayName: Capuz com Chifres de Silva
+	Tooltip: 10% de aumento nos danos por invocação
+	SetBonus:
+		'''
+		65% de aumento nos danos por invocação e +5 lacaios máximos
+		Invoca um prisma de folha antigo para explodir seus inimigos com energia vital
+		'''
+}
+
+SilvaLeggings: {
+	DisplayName: Calça de Silva
+	Tooltip:
+		'''
+		10% de aumento na velocidade dos movimentos
+		12% de aumento nos danos e na chance de acerto crítico
+		'''
+}
+
+TarragonBreastplate: {
+	DisplayName: Peitoral de Estragão
+	Tooltip:
+		'''
+		10% de aumento nos danos e 5% de aumento na chance de acerto crítico
+		Regeneração de +1 de vida por segundo e +40 de vida máxima
+		'''
+	CommonSetBonus:
+		'''
+		Reduz a taxa de surgimento de inimigos
+		Maior alcance de coleta de corações
+		Os inimigos têm uma chance de deixar cair mais corações ao morrer
+		'''
+}
+
+TarragonHeadMagic: {
+	DisplayName: Máscara de Estragão
+	Tooltip:
+		'''
+		20% de aumento nos danos por magia e 10% de aumento na chance de acerto crítico mágico
+		5% de aumento na redução dos danos, +100 de mana máxima e 15% de de redução no custo de mana
+		'''
+	SetBonus:
+		'''
+		A cada quinto acerto crítico, você disparará uma tempestade de folhas
+		Projéteis mágicos curam você ao atingir o inimigo
+		A quantidade curada é baseada no dano do projétil
+		'''
+}
+
+TarragonHeadMelee: {
+	DisplayName: Elmo de Estragão
+	Tooltip:
+		'''
+		10% de aumento nos danos por ataque físico
+		5% de aumento na chance de acerto crítico físico
+		5% de aumento na redução dos danos
+		'''
+	/* SetBonus:
+		'''
+		15% increased melee speed
+		Enemies are more likely to target you
+		Taking damage gives the Tarra Life buff, which grants +1.5 HP/s life regen
+		Press {0} to cloak yourself in life energy that heavily reduces enemy contact damage for 10 seconds
+		This has a 30 second cooldown
+		''' */
+}
+
+TarragonHeadRanged: {
+	DisplayName: Protetor Facial de Estragão
+	Tooltip:
+		'''
+		10% de aumento nos danos por ataque à distância e na chance de acerto crítico à distância
+		5% de aumento na redução dos danos
+		'''
+	SetBonus: Projéteis de ataque à distância se dividem em energia vital teleguiada e folhas ao morrerem
+}
+
+TarragonHeadRogue: {
+	DisplayName: Casco de Estragão
+	Tooltip:
+		'''
+		10% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
+		5% de aumento na redução dos danos e na velocidade dos movimentos
+		'''
+	SetBonus:
+		'''
+		+115 de furtividade máxima
+		A cada 50 acertos críticos ladinos, você ganhará 2,5 segundos de imunidade a danos
+		Este efeito tem um tempo de recarga de 25 segundos
+		Enquanto estiver sob um efeito negativo, você ganha 10% de aumento nos danos por ataque ladino
+		'''
+}
+
+TarragonHeadSummon: {
+	DisplayName: Elmo com Chifres de Estragão
+	Tooltip: 5% de aumento na redução dos danos e nos danos por invocação
+	SetBonus:
+		'''
+		50% de aumento nos danos por invocação e +3 lacaios máximos
+		Invoca uma aura vital ao seu redor que causa danos aos inimigos próximos
+		'''
+}
+
+TarragonLeggings: {
+	DisplayName: Calça de Estragão
+	Tooltip:
+		'''
+		10% de aumento na velocidade dos movimentos
+		8% de aumento nos danos e na chance de acerto crítico
+		'''
+}

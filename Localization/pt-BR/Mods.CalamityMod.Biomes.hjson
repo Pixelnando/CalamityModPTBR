@@ -1,0 +1,82 @@
+// For general uses
+Abyss: Abismo
+AstralInfection: Infecção Astral
+AstralSnow: Neve Astral
+BrimstoneCrags: Rochedos de Enxofre
+SulphurousSea: Mar Sulfuroso
+SunkenSea: Mar Profundo
+
+AstralDesert: {
+	DisplayName: Deserto Astral
+	TownNPCDialogueName: Deserto Astral
+}
+
+AstralBiome: {
+	DisplayName: Infecção Astral
+	TownNPCDialogueName: Infecção Astral
+}
+
+AstralInfectionBiome: {
+	DisplayName: Infecção Astral
+	TownNPCDialogueName: Infecção Astral
+}
+
+AstralIce: {
+	DisplayName: Gelo Astral
+	TownNPCDialogueName: Neve Astral
+}
+
+AbyssLayer1Biome: {
+	DisplayName: Profundezas Sulfúricas
+	TownNPCDialogueName: Profundezas Sulfúricas
+}
+
+AbyssLayer2Biome: {
+	DisplayName: Águas Turvas
+	TownNPCDialogueName: Águas Turvas
+}
+
+AbyssLayer3Biome: {
+	DisplayName: Aberturas Térmicas
+	TownNPCDialogueName: Aberturas Térmicas
+}
+
+AbyssLayer4Biome: {
+	DisplayName: O Vazio
+	TownNPCDialogueName: Vazio
+}
+
+AcidRainBiome: {
+	DisplayName: Chuva Ácida
+	TownNPCDialogueName: Chuva Ácida
+}
+
+ArsenalLabBiome: {
+	DisplayName: Laboratórios Arsenais
+	TownNPCDialogueName: Laboratório Arsenal
+}
+
+BrimstoneCragsBiome: {
+	DisplayName: Rochedo de Enxofre
+	TownNPCDialogueName: Rochedo de Enxofre
+}
+
+SulphurousSeaBiome: {
+	DisplayName: Mar Sulfuroso
+	TownNPCDialogueName: Mar Sulfuroso
+}
+
+SunkenSeaBiome: {
+	DisplayName: Mar Profundo
+	TownNPCDialogueName: Mar Profundo
+}
+
+AstralUnderground: {
+	DisplayName: Subterrâneo Astral
+	TownNPCDialogueName: Subterrâneo da Infecção Astral
+}
+
+AstralCaveDesert: {
+	DisplayName: Caverna do Deserto Astral
+	TownNPCDialogueName: a Caverna do Deserto Astral
+}

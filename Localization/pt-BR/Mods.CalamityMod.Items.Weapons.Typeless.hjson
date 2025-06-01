@@ -1,0 +1,80 @@
+Aestheticus: {
+	DisplayName: Estéticus
+	Tooltip:
+		'''
+		Dispara cristais que explodem e deixam os inimigos lentos
+		O dano desta arma aumenta com base em todas as suas estatísticas de dano
+		'''
+}
+
+EyeofMagnus: {
+	DisplayName: Olho de Magnus
+	Tooltip:
+		'''
+		Dispara feixes teleguiados poderosos que reduzem a proteção do inimigo
+		Recupera mana e vida ao atingir o inimigo
+		O dano desta arma aumenta com base em todas as suas estatísticas de dano
+		'''
+}
+
+LunicEye: {
+	DisplayName: Olho Lúnico
+	Tooltip:
+		'''
+		Dispara feixes lúnicos teleguiados que reduzem a proteção do inimigo
+		O dano desta arma aumenta com base em todas as suas estatísticas de dano
+		'''
+}
+
+RelicOfDeliverance: {
+	DisplayName: Relíquia da Libertação
+	Tooltip:
+		'''
+		Aperte <left> para começar a carregar um ataque de lança
+		Aperte <left> novamente para liberar a carga e avançar em direção ao cursor
+		Aperte <left> enquanto avança para redirecionar o avanço ao cursor
+		Segurar qualquer outro item cancelará a carga
+		'''
+}
+
+RelicOfResilience: {
+	DisplayName: Relíquia da Resiliência
+	Tooltip:
+		'''
+		Invoca um artefato na posição do mouse
+		O artefato pode ser atingido por inimigos e todos os projéteis
+		Ao ser destruído, o artefato explode em uma explosão de fragmentos giratórios
+		Se um inimigo estiver na área dos fragmentos, seu próximo ataque causará 45% menos dano
+		Este efeito tem um tempo de recarga
+		Depois de 5 segundos, os fragmentos se juntam para reformar o artefato original
+		Essa reforma só pode acontecer 3 vezes antes do artefato precisar ser invocado novamente
+		Você recebe um tempo de recarga de 5 segundos ao invocar um novo artefato
+		Se um artefato já existir, usar este item novamente irá realocá-lo ao cursor
+		'''
+}
+
+Skynamite: {
+	DisplayName: Dinamite Celestial
+	Tooltip:
+		'''
+		Arremessa um explosivo flutuante que desafia a gravidade
+		'Você não precisa ser formado em aerodinâmica para usar isso...'
+		'''
+}
+
+StarStruckWater: {
+	DisplayName: Água Estrelada
+	Tooltip: Espalha a Infecção Astral a alguns blocos
+}
+
+YanmeisKnife: {
+	DisplayName: Faca de Yanmei
+	Tooltip:
+		'''
+		Os inimigos atingidos serão incapacitados
+		Você receberá um aumento na velocidade dos movimentos e nos danos por 10 segundos ao atingir o inimigo
+		'Uma faca de um mundo desconhecido
+		Um dono cujo coração é puro e livre de mácula
+		Um coração de ferro e bravura'
+		'''
+}

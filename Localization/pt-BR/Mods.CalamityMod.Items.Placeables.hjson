@@ -1,0 +1,3581 @@
+FormattedBannerName: Bandeira de {0}
+FormattedBannerTooltip: "{$CommonItemTooltip.BannerBonus}{0}"
+
+AstralPylon: {
+	DisplayName: Pilar Astral
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
+}
+
+CragsPylon: {
+	DisplayName: Pilar do Rochedo
+	Tooltip:
+		'''
+		Teleporte até outro pilar
+		A natureza dos rochedos permite que você teleporte para este pilar sem habitantes próximos
+		Apenas um de cada tipo pode ser posicionado no respectivo bioma
+		'''
+}
+
+SulphurPylon: {
+	DisplayName: Pilar Sulfúrico
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
+}
+
+SunkenPylon: {
+	DisplayName: Pilar Profundo
+	Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
+}
+
+AbyssGravel: {
+	DisplayName: Cascalho do Abismo
+	Tooltip: ""
+}
+
+Acidwood: {
+	DisplayName: Madeira Ácida
+	Tooltip: ""
+}
+
+AerialiteBrick: {
+	DisplayName: Tijolo de Aerólita
+	Tooltip: ""
+}
+
+AstralBrick: {
+	DisplayName: Tijolo Astral
+	Tooltip: ""
+}
+
+AstralClay: {
+	DisplayName: Argila Astral
+	Tooltip: ""
+}
+
+AstralDirt: {
+	DisplayName: Terra Astral
+	Tooltip: ""
+}
+
+AstralGrassSeeds: {
+	DisplayName: Sementes de Grama Astral
+	Tooltip: Coloca grama na terra astral
+}
+
+AstralIce: {
+	DisplayName: Gelo Astral
+	Tooltip: ""
+}
+
+AstralMonolith: {
+	DisplayName: Monólito Astral
+	Tooltip: ""
+}
+
+AstralSand: {
+	DisplayName: Areia Astral
+	Tooltip: ""
+}
+
+AstralSandstone: {
+	DisplayName: Arenito Astral
+	Tooltip: ""
+}
+
+AstralSnow: {
+	DisplayName: Neve Astral
+	Tooltip: ""
+}
+
+AstralStone: {
+	DisplayName: Pedra Astral
+	Tooltip: ""
+}
+
+BrimstoneSlab: {
+	DisplayName: Placa de Enxofre
+	Tooltip: ""
+}
+
+BrimstoneSlag: {
+	DisplayName: Escória de Enxofre
+	Tooltip: ""
+}
+
+CelestialRemains: {
+	DisplayName: Restos Celetiais
+	Tooltip: ""
+}
+
+CinderBlossomSeeds: {
+	DisplayName: Sementes de Cinzeira
+	Tooltip: Coloca grama de cinzeira em restos queimados
+}
+
+CryonicBrick: {
+	DisplayName: Tijolo de Crionita
+	Tooltip: ""
+}
+
+AgedLaboratoryConsoleItem: {
+	DisplayName: Console de Laboratório Antigo
+	Tooltip: ""
+}
+
+AgedLaboratoryContainmentBoxItem: {
+	DisplayName: Caixa de Contenção de Laboratório Antiga
+	Tooltip: ""
+}
+
+AgedLaboratoryDisplayItem: {
+	DisplayName: Display de Laboratório Antigo
+	Tooltip: ""
+}
+
+AgedLaboratoryDoorItem: {
+	DisplayName: Porta de Laboratório Antiga
+	Tooltip: ""
+}
+
+AgedLaboratoryElectricPanelItem: {
+	DisplayName: Painel Elétrico de Laboratório Antigo
+	Tooltip: ""
+}
+
+AgedLaboratoryScreenItem: {
+	DisplayName: Tela de Laboratório Antigo
+	Tooltip: ""
+}
+
+AgedLaboratoryServerItem: {
+	DisplayName: Server de Laboratório Antigo
+	Tooltip: ""
+}
+
+AgedLaboratoryTerminalItem: {
+	DisplayName: Terminal de Laboratório Antigo
+	Tooltip: ""
+}
+
+AgedReinforcedCrateItem: {
+	DisplayName: Caixa Reforçada Antiga
+	Tooltip: ""
+}
+
+AgedSecurityChest: {
+	DisplayName: Baú da Segurança Antigo
+	Tooltip: ""
+}
+
+ChargingStationItem: {
+	DisplayName: Estação de Carregamento
+	Tooltip:
+		'''
+		Carrega itens do Arsenal de Draedon usando Baterias
+		Coloque um item junto com as Baterias na Estação de Carregamento para carregar o item
+		'''
+}
+
+HazardChevronPanels: {
+	DisplayName: Painéis de Divisa de Perigo
+	Tooltip: ""
+}
+
+LabHologramProjectorItem: {
+	DisplayName: Projetor de Holograma de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryConsoleItem: {
+	DisplayName: Console de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryContainmentBoxItem: {
+	DisplayName: Caixa de Contenção de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryDisplayItem: {
+	DisplayName: Display de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryDoorItem: {
+	DisplayName: Porta de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryElectricPanelItem: {
+	DisplayName: Painel Elétrico de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryPanels: {
+	DisplayName: Painéis de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryPipePlating: {
+	DisplayName: Placa de Canos de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryPlating: {
+	DisplayName: Placa de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryScreenItem: {
+	DisplayName: Tela de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryServerItem: {
+	DisplayName: Server de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryShelf: {
+	DisplayName: Estante de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryTerminalItem: {
+	DisplayName: Terminal de Laboratório
+	Tooltip: ""
+}
+
+PowerCellFactoryItem: {
+	DisplayName: Fábrica de Baterias
+	Tooltip:
+		'''
+		Produz Baterias de Draedon ao longo do tempo
+		Uma bateria é produzida a cada 15 segundos
+		'''
+}
+
+ReinforcedCrateItem: {
+	DisplayName: Caixa Reforçada
+	Tooltip: ""
+}
+
+RustedPipes: {
+	DisplayName: Canos Enferrujados
+	Tooltip: ""
+}
+
+RustedPlating: {
+	DisplayName: Placa Enferrujada
+	Tooltip: ""
+}
+
+RustedShelf: {
+	DisplayName: Estante Enferrujada
+	Tooltip: ""
+}
+
+SecurityChest: {
+	DisplayName: Baú da Segurança
+	Tooltip: ""
+}
+
+EutrophicGlass: {
+	DisplayName: Vidro Eutrófico
+	Tooltip: ""
+}
+
+EutrophicSand: {
+	DisplayName: Areia Eutrófica
+	Tooltip: ""
+}
+
+HardenedEutrophicSand: {
+	DisplayName: Areia Endurecida Eutrófica
+	Tooltip: ""
+}
+
+AbyssTreasureChest: {
+	DisplayName: Baú do Tesouro Antigo
+	Tooltip: ""
+}
+
+AlgalPrismTorch: {
+	DisplayName: Tocha de Prisma de Algas
+	Tooltip: Pode ser posicionado na água
+}
+
+AstralBeaconItem: {
+	DisplayName: Sinalizador Astral
+	Tooltip: Invoca Astrum Deus em troca de oferendas específicas
+}
+
+AstralChest: {
+	DisplayName: Baú Astral
+	Tooltip: ""
+}
+
+AstralTorch: {
+	DisplayName: Tocha Astral
+	Tooltip: ""
+}
+
+AuricToilet: {
+	DisplayName: Privada Áurica
+	Tooltip:
+		'''
+		Isso foi usado pelos deuses
+		Sentar em tal trono seria uma desonra a todos
+		'''
+}
+
+BabyCannonballJellyfishBowl: {
+	DisplayName: Aquário de Água-Viva Bala de Canhão Bebê
+	Tooltip: ""
+}
+
+BabyFlakCrabCage: {
+	DisplayName: Gaiola de Caranguejo Flak Bebê
+	Tooltip: ""
+}
+
+BabyGhostBellJar: {
+	DisplayName: Sino Fantasma Bebê Engarrafado
+	Tooltip: ""
+}
+
+CirrusCouch: {
+	DisplayName: Sofá de Cirrus
+	Tooltip: Isso não deveria existir...
+}
+
+AquaticScourgeRelic: {
+	DisplayName: Relíquia do Flagelo Aquático
+	Tooltip: Um vislumbre do que poderia ter sido...
+}
+
+AstrumAureusRelic: {
+	DisplayName: Relíquia do Astrum Aureus
+	Tooltip: ""
+}
+
+AstrumDeusRelic: {
+	DisplayName: Relíquia do Astrum Deus
+	Tooltip: Um vislumbre do que poderia ter sido...
+}
+
+BrimstoneElementalRelic: {
+	DisplayName: Relíquia da Elemental de Enxofre
+	Tooltip: Um vislumbre do que poderia ter sido...
+}
+
+CalamitasCloneRelic: {
+	DisplayName: Relíquia do Clone da Calamitas
+	Tooltip: ""
+}
+
+CalamitasRelic: {
+	DisplayName: Relíquia da Calamitas
+	Tooltip: ""
+}
+
+CeaselessVoidRelic: {
+	DisplayName: Relíquia do Vazio Incessante
+	Tooltip: Um vislumbre do que poderia ter sido...
+}
+
+CrabulonRelic: {
+	DisplayName: Relíquia do Carangulão
+	Tooltip: ""
+}
+
+CragmawMireRelic: {
+	DisplayName: Relíquia das Presas-de-Promontório
+	Tooltip: ""
+}
+
+CryogenRelic: {
+	DisplayName: Relíquia do Criogênio
+	Tooltip: ""
+}
+
+DesertScourgeRelic: {
+	DisplayName: Relíquia do Flagelo do Deserto
+	Tooltip: Um vislumbre do que poderia ter sido...
+}
+
+DevourerOfGodsRelic: {
+	DisplayName: Relíquia do Devorador de Deuses
+	Tooltip: Um vislumbre do que poderia ter sido...
+}
+
+DraedonRelic: {
+	DisplayName: Relíquia do Draedon
+	Tooltip: ""
+}
+
+DragonfollyRelic: {
+	DisplayName: Relíquia do Dragonfolly
+	Tooltip: ""
+}
+
+GiantClamRelic: {
+	DisplayName: Relíquia da Ostra Gigante
+	Tooltip: ""
+}
+
+GreatSandSharkRelic: {
+	DisplayName: Relíquia do Grande Tubarão de Areia
+	Tooltip: ""
+}
+
+HiveMindRelic: {
+	DisplayName: Relíquia da Colmeia Mental
+	Tooltip: Um vislumbre do que poderia ter sido...
+}
+
+LeviathanAnahitaRelic: {
+	DisplayName: Relíquia da Leviathan e Anahita
+	Tooltip: ""
+}
+
+MaulerRelic: {
+	DisplayName: Relíquia do Malhador
+	Tooltip: ""
+}
+
+NuclearTerrorRelic: {
+	DisplayName: Relíquia do Terror Nuclear
+	Tooltip: ""
+}
+
+OldDukeRelic: {
+	DisplayName: Relíquia do Velho Duque
+	Tooltip: ""
+}
+
+PerforatorsRelic: {
+	DisplayName: Relíquia dos Perfuradores
+	Tooltip: Um vislumbre do que poderia ter sido...
+}
+
+PlaguebringerGoliathRelic: {
+	DisplayName: Relíquia da Pestífera Goliarda
+	Tooltip: Um vislumbre do que poderia ter sido...
+}
+
+PolterghastRelic: {
+	DisplayName: Relíquia do Polterghast
+	Tooltip: Um vislumbre do que poderia ter sido...
+}
+
+ProfanedGuardiansRelic: {
+	DisplayName: Relíquia dos Guardiões Profanos
+	Tooltip: ""
+}
+
+ProvidenceRelic: {
+	DisplayName: Relíquia da Providência
+	Tooltip: ""
+}
+
+RavagerRelic: {
+	DisplayName: Relíquia do Devastador
+	Tooltip: Um vislumbre do que poderia ter sido...
+}
+
+SignusRelic: {
+	DisplayName: Relíquia do Signus
+	Tooltip: Um vislumbre do que será...
+}
+
+SlimeGodRelic: {
+	DisplayName: Relíquia do Deus Geleia
+	Tooltip: ""
+}
+
+StormWeaverRelic: {
+	DisplayName: Relíquia do Explorador Tempestuoso
+	Tooltip: Um vislumbre do que poderia ter sido...
+}
+
+YharonRelic: {
+	DisplayName: Relíquia do Yharon
+	Tooltip: Um vislumbre do que será...
+}
+
+ChaosCandle: {
+	DisplayName: Vela do Caos
+	Tooltip: A mera presença desta vela enfurece os inimigos ao redor drasticamente
+}
+
+CorruptionEffigy: {
+	DisplayName: Efígie da Corrupção
+	Tooltip:
+		'''
+		Quando posicionado, os jogadores próximos têm sua velocidade dos movimentos e chance de acerto crítico aumentada em 10%
+		Jogadores próximos também sofrem uma redução de 5% na sua redução dos danos
+		'''
+}
+
+AltarOfTheAccursedItem: {
+	DisplayName: Altar Amaldiçoado
+	Tooltip:
+		'''
+		Ofereça Cinzas da Calamidade neste altar para invocar a Bruxa
+		Fazer isso criará uma arena quadrada de blocos, com o altar em seu centro
+		Durante a batalha, a coleta de corações cura pela metade do normal
+		A Bruxa fica enfurecida enquanto você está fora da arena
+		{$CommonItemTooltip.SpecialCrafting}
+		'''
+}
+
+AncientAltar: {
+	DisplayName: Altar Antigo
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+AshenAltar: {
+	DisplayName: Altar Cinzento
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+BotanicPlanter: {
+	DisplayName: Plantador Botânico
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+CosmicAnvilItem: {
+	DisplayName: Bigorna Cósmica
+	Tooltip:
+		'''
+		Uma bigorna de outro mundo capaz de resistir às pressões do colapso estelar
+		Também funciona como todos os níveis anteriores de bigorna
+		'''
+}
+
+DraedonsForge: {
+	DisplayName: Forja de Draedon
+	Tooltip:
+		'''
+		Uma nanoforja de rede de plasma alimentada por exo-energias ilimitadas
+		Funciona como todas as principais estações de criação simultaneamente
+		'''
+}
+
+EffulgentManipulator: {
+	DisplayName: Manipulador Refulgente
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+EutrophicShelf: {
+	DisplayName: Prateleira Eutrófica
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+MonolithAmalgam: {
+	DisplayName: Amálgamo de Monólito
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+PlagueInfuser: {
+	DisplayName: Infusor da Praga
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+ProfanedCrucible: {
+	DisplayName: Cadinho Profano
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+StaticRefiner: {
+	DisplayName: Refinador Estático
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+VoidCondenser: {
+	DisplayName: Condensador do Vazio
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+WulfrumLabstationItem: {
+	DisplayName: Estação de Laboratório de Vulfrúmio
+	Tooltip: "{$CommonItemTooltip.SpecialCrafting}"
+}
+
+CrimsonEffigy: {
+	DisplayName: Efígie do Carmim
+	Tooltip:
+		'''
+		Quando posicionado, os jogadores próximos têm seus danos aumentados em 15% e sua defesa aumentada em 10
+		Jogadores próximos também sofrem uma redução de 10% na sua vida máxima
+		'''
+}
+
+ThankYouPainting: {
+	DisplayName: Thank You
+	Tooltip:
+		'''
+		Obrigado a toda equipe, a todos que apoiaram e a todos que jogam o mod e o mantêm vivo!
+		Os limites desta pintura não são suficientes para caber toda a equipe
+		Segure SHIFT para ver uma lista de desenvolvedores anteriores e atuais
+		'''
+}
+
+EffigyOfDecay: {
+	DisplayName: Efígie da Decadência
+	Tooltip:
+		'''
+		Quando posicionado, os jogadores próximos podem respirar debaixo d'água
+		Esse efeito não funciona no abismo
+		Jogadores próximos também são imunes ao envenenamento sulfúrico
+		'''
+}
+
+AbyssFountainItem: {
+	DisplayName: Fonte de Água do Abismo
+	Tooltip: ""
+}
+
+AstralFountainItem: {
+	DisplayName: Fonte de Água Astral
+	Tooltip: ""
+}
+
+BrimstoneLavaFountainItem: {
+	DisplayName: Fonte de Lava de Enxofre
+	Tooltip: ""
+}
+
+SulphurousFountainItem: {
+	DisplayName: Fonte de Água Sulfúrica
+	Tooltip: ""
+}
+
+SunkenSeaFountain: {
+	DisplayName: Fonte de Água Profunda
+	Tooltip: ""
+}
+
+GloomTorch: {
+	DisplayName: Tocha Melancólica
+	Tooltip: ""
+}
+
+LanternCenter: {
+	DisplayName: Centro de Lanternas
+	Tooltip: Ilumina o céu da noite com lanternas celebratórias
+}
+
+AstralProjector: {
+	DisplayName: Projetor Astral
+	Tooltip: "'Controle uma pequena porção da influência da Infecção Astral.'"
+}
+
+BlueDistortedMonolith: {
+	DisplayName: Monólito Distorcido Azul
+	Tooltip: "'Crie uma ruptura localizada no tecido da realidade.'"
+}
+
+BossRushMonolith: {
+	DisplayName: Monólito da Corrida de Chefes
+	Tooltip: "'Traga à tona o fim.'"
+}
+
+DeepSeaAnchor: {
+	DisplayName: Âncora do Mar Profundo
+	Tooltip: "'Umedeça o ar com grandes quantidades de água salgada.'"
+}
+
+DraconicIncense: {
+	DisplayName: Incenso Dracônico
+	Tooltip: "'Acenda o ar com fogo de dragão.'"
+}
+
+ExoObelisk: {
+	DisplayName: Exo-Obelisco
+	Tooltip: "'Energize a atmosfera com exo-energia.'"
+}
+
+FrigidMonolith: {
+	DisplayName: Monólito Frígido
+	Tooltip: "'Encante o céu com auroras geladas.'"
+}
+
+PlagueHumidifier: {
+	DisplayName: Humidificador da Praga
+	Tooltip: "'Espalhe pequenas quantidades da praga pelo ar.'"
+}
+
+PurpleDistortedMonolith: {
+	DisplayName: Monólito Distorcido Roxo
+	Tooltip: "'Crie uma ruptura localizada no tecido da realidade.'"
+}
+
+NavyPrismTorch: {
+	DisplayName: Tocha de Prisma Marinho
+	Tooltip: Pode ser posicionado na água
+}
+
+PiggyCage: {
+	DisplayName: Gaiola de Porquinho
+	Tooltip: ""
+}
+
+RefractivePrismTorch: {
+	DisplayName: Tocha de Prisma Refrativo
+	Tooltip: Pode ser posicionado na água
+}
+
+ResilientCandle: {
+	DisplayName: Vela Resiliente
+	Tooltip:
+		'''
+		Quando colocada, a defesa dos jogadores próximos bloqueia 15% a mais de dano
+		'Nem a chuva nem o vento podem apagar sua chama imortal'
+		'''
+}
+
+RustyChest: {
+	DisplayName: Baú Enferrujado
+	Tooltip: ""
+}
+
+SeaMinnowJar: {
+	DisplayName: Peixinho do Mar Engarrafado
+	Tooltip: ""
+}
+
+SpitefulCandle: {
+	DisplayName: Vela Vingativa
+	Tooltip:
+		'''
+		Quando colocada, os inimigos próximos recebem 5% a mais de dano
+		Esse dano adicional ignora a redução de dano e defesa do inimigo
+		'Seu brilho de ódio cintila com a ira'
+		'''
+}
+
+SulphurousTorch: {
+	DisplayName: Tocha Sulfurosa
+	Tooltip: Pode ser posicionado na água
+}
+
+ThaumaticChair: {
+	DisplayName: Cadeira Taumática
+	Tooltip: Uma das melhores criações de Chloe
+}
+
+TranquilityCandle: {
+	DisplayName: Vela da Tranquilidade
+	Tooltip: A mera presença desta vela acalma os inimigos ao redor drasticamente
+}
+
+AnahitaTrophy: {
+	DisplayName: Troféu da Anahita
+	Tooltip: ""
+}
+
+ApolloTrophy: {
+	DisplayName: Troféu do Apolo
+	Tooltip: ""
+}
+
+AquaticScourgeTrophy: {
+	DisplayName: Troféu do Flagelo Aquático
+	Tooltip: ""
+}
+
+AresTrophy: {
+	DisplayName: Troféu do Ares
+	Tooltip: ""
+}
+
+ArtemisTrophy: {
+	DisplayName: Troféu da Ártemis
+	Tooltip: ""
+}
+
+AstrumAureusTrophy: {
+	DisplayName: Troféu do Astrum Aureus
+	Tooltip: ""
+}
+
+AstrumDeusTrophy: {
+	DisplayName: Troféu do Astrum Deus
+	Tooltip: ""
+}
+
+BrimstoneElementalTrophy: {
+	DisplayName: Troféu da Elemental de Enxofre
+	Tooltip: ""
+}
+
+CalamitasCloneTrophy: {
+	DisplayName: Troféu do Clone da Calamitas
+	Tooltip: ""
+}
+
+CataclysmTrophy: {
+	DisplayName: Troféu da Criação Cataclísmica
+	Tooltip: ""
+}
+
+CatastropheTrophy: {
+	DisplayName: Troféu da Criação Catastrófica
+	Tooltip: ""
+}
+
+CeaselessVoidTrophy: {
+	DisplayName: Troféu do Vazio Incessante
+	Tooltip: ""
+}
+
+CrabulonTrophy: {
+	DisplayName: Troféu do Carangulão
+	Tooltip: ""
+}
+
+CragmawMireTrophy: {
+	DisplayName: Troféu das Presas-de-Promontório
+	Tooltip: ""
+}
+
+CryogenTrophy: {
+	DisplayName: Troféu do Criogênio
+	Tooltip: ""
+}
+
+DesertScourgeTrophy: {
+	DisplayName: Troféu do Flagelo do Deserto
+	Tooltip: ""
+}
+
+DevourerofGodsTrophy: {
+	DisplayName: Troféu do Devorador de Deuses
+	Tooltip: ""
+}
+
+DragonfollyTrophy: {
+	DisplayName: Troféu do Dragão-Folião
+	Tooltip: ""
+}
+
+GiantClamTrophy: {
+	DisplayName: Troféu da Amêijoa Gigante
+	Tooltip: ""
+}
+
+GreatSandSharkTrophy: {
+	DisplayName: Troféu do Grande Tubarão de Areia
+	Tooltip: ""
+}
+
+HiveMindTrophy: {
+	DisplayName: Troféu da Colmeia Mental
+	Tooltip: ""
+}
+
+LeviathanTrophy: {
+	DisplayName: Troféu da Leviatã
+	Tooltip: ""
+}
+
+MaulerTrophy: {
+	DisplayName: Troféu do Malhador
+	Tooltip: ""
+}
+
+NuclearTerrorTrophy: {
+	DisplayName: Troféu do Terror Nuclear
+	Tooltip: ""
+}
+
+OldDukeTrophy: {
+	DisplayName: Troféu do Velho Duque
+	Tooltip: ""
+}
+
+PerforatorTrophy: {
+	DisplayName: Troféu do Perfurador
+	Tooltip: ""
+}
+
+PlaguebringerGoliathTrophy: {
+	DisplayName: Troféu da Pestífera Goliarda
+	Tooltip: ""
+}
+
+PolterghastTrophy: {
+	DisplayName: Troféu do Polterghast
+	Tooltip: ""
+}
+
+ProfanedGuardianTrophy: {
+	DisplayName: Troféu do Guardião Profano
+	Tooltip: ""
+}
+
+ProvidenceTrophy: {
+	DisplayName: Troféu da Providência
+	Tooltip: ""
+}
+
+RavagerTrophy: {
+	DisplayName: Troféu do Devastador
+	Tooltip: ""
+}
+
+SignusTrophy: {
+	DisplayName: Troféu do Signus
+	Tooltip: ""
+}
+
+SlimeGodTrophy: {
+	DisplayName: Troféu do Deus Geleia
+	Tooltip: ""
+}
+
+SupremeCalamitasTrophy: {
+	DisplayName: Troféu da Calamitas
+	Tooltip: ""
+}
+
+SupremeCataclysmTrophy: {
+	DisplayName: Troféu do Cataclismo Supremo
+	Tooltip: ""
+}
+
+SupremeCatastropheTrophy: {
+	DisplayName: Troféu da Catástrofe Suprema
+	Tooltip: ""
+}
+
+ThanatosTrophy: {
+	DisplayName: Troféu do Thanatos
+	Tooltip: ""
+}
+
+WeaverTrophy: {
+	DisplayName: Troféu do Tecelão de Tempestades
+	Tooltip: ""
+}
+
+YharonTrophy: {
+	DisplayName: Troféu do Yharon
+	Tooltip: ""
+}
+
+TwinklerInABottle: {
+	DisplayName: Cintilampo na Garrafa
+	Tooltip: ""
+}
+
+VigorousCandle: {
+	DisplayName: Vela Vigorosa
+	Tooltip:
+		'''
+		Quando colocada, os jogadores próximos regeneram 0,4% de sua vida máxima por segundo
+		Esta regeneração está com força total mesmo enquanto se move e ignora os limites do Modo Vingança
+		'Sua luz brilhante enche de esperança os que estão por perto'
+		'''
+}
+
+WeightlessCandle: {
+	DisplayName: Vela da Leveza
+	Tooltip:
+		'''
+		Quando colocada, os jogadores próximos ganham 10% de aumento na velocidade dos movimentos,
+		10% de aumento no tempo de voo das asas e 5% de aumento na aceleração
+		'A chama flutuante parece elevar o seu próprio espírito'
+		'''
+}
+
+WulfrumLureItem: {
+	DisplayName: Chamariz de Vulfrúmio
+	Tooltip:
+		'''
+		Consome [i:CalamityMod/EnergyCore] Núcleos de Energia para emitir um sinal de vulfrúmio que atrai autômatos de Vulfrúmio
+		O sinal dura 30 segundos
+		'''
+}
+
+AbyssBathtub: {
+	DisplayName: Banheira do Abismo
+	Tooltip: ""
+}
+
+AbyssBed: {
+	DisplayName: Cama do Abismo
+	Tooltip: ""
+}
+
+AbyssBookcase: {
+	DisplayName: Estante do Abismo
+	Tooltip: ""
+}
+
+AbyssCandelabra: {
+	DisplayName: Candelabro do Abismo
+	Tooltip: ""
+}
+
+AbyssCandle: {
+	DisplayName: Vela do Abismo
+	Tooltip: ""
+}
+
+AbyssChair: {
+	DisplayName: Cadeira do Abismo
+	Tooltip: ""
+}
+
+AbyssChandelier: {
+	DisplayName: Lustre do Abismo
+	Tooltip: ""
+}
+
+AbyssChest: {
+	DisplayName: Baú do Abismo
+	Tooltip: ""
+}
+
+AbyssClock: {
+	DisplayName: Relógio do Abismo
+	Tooltip: ""
+}
+
+AbyssDoor: {
+	DisplayName: Porta do Abismo
+	Tooltip: ""
+}
+
+AbyssDresser: {
+	DisplayName: Cômoda do Abismo
+	Tooltip: ""
+}
+
+AbyssLamp: {
+	DisplayName: Lâmpada do Abismo
+	Tooltip: ""
+}
+
+AbyssLantern: {
+	DisplayName: Lanterna do Abismo
+	Tooltip: ""
+}
+
+AbyssSink: {
+	DisplayName: Pia do Abismo
+	Tooltip: Conta como uma fonte de água
+}
+
+AbyssSofa: {
+	DisplayName: Sofá do Abismo
+	Tooltip: ""
+}
+
+AbyssSynth: {
+	DisplayName: Sintetizador do Abismo
+	Tooltip: ""
+}
+
+AbyssTable: {
+	DisplayName: Mesa do Abismo
+	Tooltip: ""
+}
+
+AbyssTorch: {
+	DisplayName: Tocha do Abismo
+	Tooltip: Pode ser posicionado na água
+}
+
+AbyssWorkBench: {
+	DisplayName: Bancada de Trabalho do Abismo
+	Tooltip: ""
+}
+
+SmoothAbyssGravel: {
+	DisplayName: Cascalho do Abismo Liso
+	Tooltip: ""
+}
+
+SmoothAbyssGravelPlatform: {
+	DisplayName: Plataforma de Cascalho do Abismo Liso
+	Tooltip: ""
+}
+
+AcidwoodBathtub: {
+	DisplayName: Banheira de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodBed: {
+	DisplayName: Cama de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodBench: {
+	DisplayName: Banco de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodBookcase: {
+	DisplayName: Estante de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodCandelabra: {
+	DisplayName: Candelabro de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodCandle: {
+	DisplayName: Vela de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodChair: {
+	DisplayName: Cadeira de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodChandelier: {
+	DisplayName: Lustre de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodChest: {
+	DisplayName: Baú de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodClock: {
+	DisplayName: Relógio de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodDoor: {
+	DisplayName: Porta de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodDresser: {
+	DisplayName: Cômoda de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodLamp: {
+	DisplayName: Lâmpada de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodLantern: {
+	DisplayName: Lanterna de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodPiano: {
+	DisplayName: Piano de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodPlatform: {
+	DisplayName: Plataforma de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodSink: {
+	DisplayName: Pia de Madeira Ácida
+	Tooltip: Conta como uma fonte de água
+}
+
+AcidwoodTable: {
+	DisplayName: Mesa de Madeira Ácida
+	Tooltip: ""
+}
+
+AcidwoodWorkBench: {
+	DisplayName: Bancada de Trabalho de Madeira Ácida
+	Tooltip: ""
+}
+
+AncientBasin: {
+	DisplayName: Bacia Antiga
+	Tooltip: ""
+}
+
+AncientBathtub: {
+	DisplayName: Banheira Antiga
+	Tooltip: ""
+}
+
+AncientBed: {
+	DisplayName: Cama Antiga
+	Tooltip: ""
+}
+
+AncientBookcase: {
+	DisplayName: Estante Antiga
+	Tooltip: ""
+}
+
+AncientChair: {
+	DisplayName: Mesa Antiga
+	Tooltip: ""
+}
+
+AncientChandelier: {
+	DisplayName: Lustre Antigo
+	Tooltip: ""
+}
+
+AncientDoor: {
+	DisplayName: Porta Antiga
+	Tooltip: ""
+}
+
+AncientDresser: {
+	DisplayName: Cômoda Antiga
+	Tooltip: ""
+}
+
+AncientLamp: {
+	DisplayName: Lâmpada Antiga
+	Tooltip: ""
+}
+
+AncientLantern: {
+	DisplayName: Lanterna Antiga
+	Tooltip: ""
+}
+
+AncientMonolith: {
+	DisplayName: Monólito Antigo
+	Tooltip: ""
+}
+
+AncientPipeOrgan: {
+	DisplayName: Órgão de Tubos Antigo
+	Tooltip: ""
+}
+
+AncientSink: {
+	DisplayName: Pia Antiga
+	Tooltip: Conta como uma fonte de água
+}
+
+AncientSofa: {
+	DisplayName: Sofá Antigo
+	Tooltip: ""
+}
+
+AncientTable: {
+	DisplayName: Mesa Antiga
+	Tooltip: ""
+}
+
+AncientWorkBench: {
+	DisplayName: Bancada de Trabalho Antiga
+	Tooltip: ""
+}
+
+AshenAccentSlab: {
+	DisplayName: Placa de Detalhe Cinzenta
+	Tooltip:
+		'''
+		Uma variação da Placa Cinzenta que se une aos blocos próximos de um jeito diferente
+		'É preferida por construtores avançados'
+		'''
+}
+
+AshenBasin: {
+	DisplayName: Bacia Cinzenta
+	Tooltip: ""
+}
+
+AshenBathtub: {
+	DisplayName: Banheira Cinzenta
+	Tooltip: ""
+}
+
+AshenBed: {
+	DisplayName: Cama Cinzenta
+	Tooltip: ""
+}
+
+AshenBookcase: {
+	DisplayName: Estante Cinzenta
+	Tooltip: ""
+}
+
+AshenCandelabra: {
+	DisplayName: Candelabro Cinzento
+	Tooltip: ""
+}
+
+AshenCandle: {
+	DisplayName: Vela Cinzenta
+	Tooltip: ""
+}
+
+AshenChair: {
+	DisplayName: Cadeira Cinzenta
+	Tooltip: ""
+}
+
+AshenChandelier: {
+	DisplayName: Lustre Cinzento
+	Tooltip: ""
+}
+
+AshenChest: {
+	DisplayName: Baú Cinzento
+	Tooltip: ""
+}
+
+AshenDoor: {
+	DisplayName: Porta Cinzenta
+	Tooltip: ""
+}
+
+AshenDresser: {
+	DisplayName: Cômoda Cinzenta
+	Tooltip: ""
+}
+
+AshenLamp: {
+	DisplayName: Lâmpada Cinzenta
+	Tooltip: ""
+}
+
+AshenLantern: {
+	DisplayName: Lanterna Cinzenta
+	Tooltip: ""
+}
+
+AshenMonolith: {
+	DisplayName: Monólito Cinzento
+	Tooltip: ""
+}
+
+AshenPipeOrgan: {
+	DisplayName: Órgão de Tubos Cinzento
+	Tooltip: ""
+}
+
+AshenPlatform: {
+	DisplayName: Plataforma Cinzenta
+	Tooltip: ""
+}
+
+AshenSink: {
+	DisplayName: Pia Cinzenta
+	Tooltip: Conta como uma fonte de lava
+}
+
+AshenSlab: {
+	DisplayName: Placa Cinzenta
+	Tooltip: ""
+}
+
+AshenSofa: {
+	DisplayName: Sofá Cinzento
+	Tooltip: ""
+}
+
+AshenTable: {
+	DisplayName: Mesa Cinzenta
+	Tooltip: ""
+}
+
+AshenWorkBench: {
+	DisplayName: Bancada de Trabalho Cinzenta
+	Tooltip: ""
+}
+
+SmoothBrimstoneSlag: {
+	DisplayName: Escória de Enxofre Lisa
+	Tooltip: ""
+}
+
+ActivatedAuricPanel: {
+	DisplayName: Painel Áurico Ativado
+	Tooltip: ""
+}
+
+AuricAbsorber: {
+	DisplayName: Absorvedor Áurico
+	Tooltip: ""
+}
+
+AuricConsole: {
+	DisplayName: Console Áurico
+	Tooltip: ""
+}
+
+AuricDisplay: {
+	DisplayName: Display Áurico
+	Tooltip: ""
+}
+
+AuricPanel: {
+	DisplayName: Painel Áurico
+	Tooltip: ""
+}
+
+AuricPlatform: {
+	DisplayName: Plataforma Áurica
+	Tooltip: ""
+}
+
+AuricReinforcedCrate: {
+	DisplayName: Caixa Reforçada Áurica
+	Tooltip: ""
+}
+
+AuricRepulserPanel: {
+	DisplayName: Painel Repulsor Áurico
+	Tooltip: Repele jogadores que entram em contato
+}
+
+AuricScreen: {
+	DisplayName: Tela Áurica
+	Tooltip: ""
+}
+
+AuricServer: {
+	DisplayName: Servidor Áurico
+	Tooltip: ""
+}
+
+AuricTerminal: {
+	DisplayName: Terminal Áurico
+	Tooltip: ""
+}
+
+ExoAuricPanel: {
+	DisplayName: Painel Exo-Áurico
+	Tooltip: ""
+}
+
+BotanicBathtub: {
+	DisplayName: Banheira Botânica
+	Tooltip: ""
+}
+
+BotanicBed: {
+	DisplayName: Cama Botânica
+	Tooltip: ""
+}
+
+BotanicBench: {
+	DisplayName: Banco Botânico
+	Tooltip: ""
+}
+
+BotanicBookcase: {
+	DisplayName: Estante Botânica
+	Tooltip: ""
+}
+
+BotanicCandelabra: {
+	DisplayName: Candelabro Botânico
+	Tooltip: ""
+}
+
+BotanicCandle: {
+	DisplayName: Vela Botânica
+	Tooltip: ""
+}
+
+BotanicChair: {
+	DisplayName: Cadeira Botânica
+	Tooltip: ""
+}
+
+BotanicChandelier: {
+	DisplayName: Lustre Botânico
+	Tooltip: ""
+}
+
+BotanicChest: {
+	DisplayName: Baú Botânico
+	Tooltip: ""
+}
+
+BotanicClock: {
+	DisplayName: Relógio Botânico
+	Tooltip: ""
+}
+
+BotanicDoor: {
+	DisplayName: Porta Botânica
+	Tooltip: ""
+}
+
+BotanicDresser: {
+	DisplayName: Cômoda Botânica
+	Tooltip: ""
+}
+
+BotanicLamp: {
+	DisplayName: Lâmpada Botânica
+	Tooltip: ""
+}
+
+BotanicLantern: {
+	DisplayName: Lanterna Botânica
+	Tooltip: ""
+}
+
+BotanicPiano: {
+	DisplayName: Piano Botânico
+	Tooltip: ""
+}
+
+BotanicPlatform: {
+	DisplayName: Plataforma Botânica
+	Tooltip: ""
+}
+
+BotanicSink: {
+	DisplayName: Pia Botânica
+	Tooltip: Conta como uma fonte de mel
+}
+
+BotanicTable: {
+	DisplayName: Mesa Botânica
+	Tooltip: ""
+}
+
+BotanicWorkBench: {
+	DisplayName: Bancada de Trabalho Botânica
+	Tooltip: ""
+}
+
+CosmiliteBasin: {
+	DisplayName: Bacia de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteBathtub: {
+	DisplayName: Banheira de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteBed: {
+	DisplayName: Cama de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteBookcase: {
+	DisplayName: Estante de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteBrick: {
+	DisplayName: Brick de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteCandelabra: {
+	DisplayName: Candelabro de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteCandle: {
+	DisplayName: Vela de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteChair: {
+	DisplayName: Cadeira de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteChandelier: {
+	DisplayName: Lustre de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteChest: {
+	DisplayName: Baú de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteClock: {
+	DisplayName: Relógio de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteDoor: {
+	DisplayName: Porta de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteDresser: {
+	DisplayName: Cômoda de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteLamp: {
+	DisplayName: Lâmpada de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteLantern: {
+	DisplayName: Lanterna de Cosmilita
+	Tooltip: ""
+}
+
+CosmilitePiano: {
+	DisplayName: Piano de Cosmilita
+	Tooltip: ""
+}
+
+CosmilitePlatform: {
+	DisplayName: Plataforma de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteSconce: {
+	DisplayName: Arandela de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteSink: {
+	DisplayName: Pia de Cosmilita
+	Tooltip: Conta como uma fonte de água
+}
+
+CosmiliteSofa: {
+	DisplayName: Sofá de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteTable: {
+	DisplayName: Mesa de Cosmilita
+	Tooltip: ""
+}
+
+CosmiliteWorkBench: {
+	DisplayName: Bancada de Trabalho de Cosmilita
+	Tooltip: ""
+}
+
+EutrophicBathtub: {
+	DisplayName: Banheira Eutrófica
+	Tooltip: ""
+}
+
+EutrophicBed: {
+	DisplayName: Cama Eutrófica
+	Tooltip: ""
+}
+
+EutrophicBench: {
+	DisplayName: Banco Eutrófico
+	Tooltip: ""
+}
+
+EutrophicBookcase: {
+	DisplayName: Estante Eutrófica
+	Tooltip: ""
+}
+
+EutrophicCandelabra: {
+	DisplayName: Candelabro Eutrófico
+	Tooltip: ""
+}
+
+EutrophicCandle: {
+	DisplayName: Vela Eutrófica
+	Tooltip: ""
+}
+
+EutrophicChair: {
+	DisplayName: Cadeira Eutrófica
+	Tooltip: ""
+}
+
+EutrophicChandelier: {
+	DisplayName: Lustre Eutrófico
+	Tooltip: ""
+}
+
+EutrophicChest: {
+	DisplayName: Baú Eutrófico
+	Tooltip: ""
+}
+
+EutrophicClock: {
+	DisplayName: Relógio Eutrófico
+	Tooltip: ""
+}
+
+EutrophicDoor: {
+	DisplayName: Porta Eutrófica
+	Tooltip: ""
+}
+
+EutrophicDresser: {
+	DisplayName: Cômoda Eutrófica
+	Tooltip: ""
+}
+
+EutrophicLamp: {
+	DisplayName: Lâmpada Eutrófica
+	Tooltip: ""
+}
+
+EutrophicLantern: {
+	DisplayName: Lanterna Eutrófica
+	Tooltip: ""
+}
+
+EutrophicPiano: {
+	DisplayName: Piano Eutrófico
+	Tooltip: ""
+}
+
+EutrophicPlatform: {
+	DisplayName: Plataforma Eutrófica
+	Tooltip: ""
+}
+
+EutrophicSink: {
+	DisplayName: Pia Eutrófica
+	Tooltip: Conta como uma fonte de água
+}
+
+EutrophicTable: {
+	DisplayName: Mesa Eutrófica
+	Tooltip: ""
+}
+
+EutrophicWorkBench: {
+	DisplayName: Bancada de Trabalho Eutrófica
+	Tooltip: ""
+}
+
+SmoothNavystone: {
+	DisplayName: Pedra Marinha Lisa
+	Tooltip: ""
+}
+
+ExoBathtub: {
+	DisplayName: Exo-Banheira
+	Tooltip: ""
+}
+
+ExoBed: {
+	DisplayName: Exo-Cama
+	Tooltip: ""
+}
+
+ExoBookcase: {
+	DisplayName: Exo-Estante
+	Tooltip: ""
+}
+
+ExoCandelabra: {
+	DisplayName: Exo-Candelabro
+	Tooltip: ""
+}
+
+ExoCandle: {
+	DisplayName: Exo-Vela
+	Tooltip: ""
+}
+
+ExoChair: {
+	DisplayName: Exo-Cadeira
+	Tooltip: ""
+}
+
+ExoChandelier: {
+	DisplayName: Exo-Lustre
+	Tooltip: ""
+}
+
+ExoChest: {
+	DisplayName: Exo-Baú
+	Tooltip: ""
+}
+
+ExoClock: {
+	DisplayName: Exo-Relógio
+	Tooltip: ""
+}
+
+ExoConsole: {
+	DisplayName: Exo-Console
+	Tooltip: ""
+}
+
+ExoDisplay: {
+	DisplayName: Exo-Display
+	Tooltip: ""
+}
+
+ExoDoor: {
+	DisplayName: Exo-Porta
+	Tooltip: ""
+}
+
+ExoDresser: {
+	DisplayName: Exo-Cômoda
+	Tooltip: ""
+}
+
+ExoKeyboard: {
+	DisplayName: Exo-Teclado
+	Tooltip: ""
+}
+
+ExoLamp: {
+	DisplayName: Exo-Lâmpada
+	Tooltip: ""
+}
+
+ExoLantern: {
+	DisplayName: Exo-Lanterna
+	Tooltip: ""
+}
+
+ExoPlatform: {
+	DisplayName: Exo-Platforma
+	Tooltip: ""
+}
+
+ExoPlating: {
+	DisplayName: Exo-Placa
+	Tooltip: ""
+}
+
+ExoPrismPanel: {
+	DisplayName: Painel de Exo-Prisma
+	Tooltip: ""
+}
+
+ExoPrismPlatform: {
+	DisplayName: Plataforma de Exo-Prisma
+	Tooltip: ""
+}
+
+ExoScreen: {
+	DisplayName: Exo-Tela
+	Tooltip: ""
+}
+
+ExoServer: {
+	DisplayName: Exo-Servidor
+	Tooltip: ""
+}
+
+ExoSink: {
+	DisplayName: Exo-Pia
+	Tooltip: Conta como uma fonte de água, mel e lava
+}
+
+ExoSofa: {
+	DisplayName: Exo-Sofá
+	Tooltip: ""
+}
+
+ExoTable: {
+	DisplayName: Exo-Mesa
+	Tooltip: ""
+}
+
+ExoTerminal: {
+	DisplayName: Exo-Terminal
+	Tooltip: ""
+}
+
+ExoToilet: {
+	DisplayName: Exo-Privada
+	Tooltip: ""
+}
+
+ExoWorkBench: {
+	DisplayName: Exo-Bancada de Trabalho
+	Tooltip: ""
+}
+
+MonolithBathtub: {
+	DisplayName: Banheira de Monólito
+	Tooltip: ""
+}
+
+MonolithBed: {
+	DisplayName: Cama de Monólito
+	Tooltip: ""
+}
+
+MonolithBench: {
+	DisplayName: Banco de Monólito
+	Tooltip: ""
+}
+
+MonolithBookcase: {
+	DisplayName: Estante de Monólito
+	Tooltip: ""
+}
+
+MonolithCandelabra: {
+	DisplayName: Candelabro de Monólito
+	Tooltip: ""
+}
+
+MonolithCandle: {
+	DisplayName: Vela de Monólito
+	Tooltip: ""
+}
+
+MonolithChair: {
+	DisplayName: Cadeira de Monólito
+	Tooltip: ""
+}
+
+MonolithChandelier: {
+	DisplayName: Lustre de Monólito
+	Tooltip: ""
+}
+
+MonolithChest: {
+	DisplayName: Baú de Monólito
+	Tooltip: ""
+}
+
+MonolithClock: {
+	DisplayName: Relógio de Monólito
+	Tooltip: ""
+}
+
+MonolithDoor: {
+	DisplayName: Porta de Monólito
+	Tooltip: ""
+}
+
+MonolithDresser: {
+	DisplayName: Cômoda de Monólito
+	Tooltip: ""
+}
+
+MonolithLamp: {
+	DisplayName: Lâmpada de Monólito
+	Tooltip: ""
+}
+
+MonolithLantern: {
+	DisplayName: Lanterna de Monólito
+	Tooltip: ""
+}
+
+MonolithPiano: {
+	DisplayName: Piano de Monólito
+	Tooltip: ""
+}
+
+MonolithPlatform: {
+	DisplayName: Plataforma de Monólito
+	Tooltip: ""
+}
+
+MonolithSink: {
+	DisplayName: Pia de Monólito
+	Tooltip: Conta como uma fonte de água
+}
+
+MonolithTable: {
+	DisplayName: Mesa de Monólito
+	Tooltip: ""
+}
+
+MonolithWorkBench: {
+	DisplayName: Bancada de Trabalho de Monólito
+	Tooltip: ""
+}
+
+OtherworldlyBathtub: {
+	DisplayName: Banheira de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyBed: {
+	DisplayName: Cama de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyBookcase: {
+	DisplayName: Estante de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyCandelabra: {
+	DisplayName: Candelabro de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyCandle: {
+	DisplayName: Vela de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyChair: {
+	DisplayName: Cadeira de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyChandelier: {
+	DisplayName: Lustre de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyChest: {
+	DisplayName: Baú de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyClock: {
+	DisplayName: Relógio de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyDoor: {
+	DisplayName: Porta de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyDresser: {
+	DisplayName: Cômoda de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyLamp: {
+	DisplayName: Lâmpada de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyLantern: {
+	DisplayName: Lanterna de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyPiano: {
+	DisplayName: Piano de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyPlatform: {
+	DisplayName: Plataforma de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlySink: {
+	DisplayName: Pia de Outro Mundo
+	Tooltip: Conta como uma fonte de água
+}
+
+OtherworldlySofa: {
+	DisplayName: Sofá de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyStone: {
+	DisplayName: Pedra de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyTable: {
+	DisplayName: Mesa de Outro Mundo
+	Tooltip: ""
+}
+
+OtherworldlyWorkBench: {
+	DisplayName: Bancada de Trabalho de Outro Mundo
+	Tooltip: ""
+}
+
+BrokenPlaguedBed: {
+	DisplayName: "'Cama' Infestada Quebrada"
+	Tooltip: ""
+}
+
+PlaguedContainmentBrick: {
+	DisplayName: Tijolo de Contenção Infestado
+	Tooltip: ""
+}
+
+PlaguedPlateBathtub: {
+	DisplayName: Banheira Infestada
+	Tooltip: ""
+}
+
+PlaguedPlateBed: {
+	DisplayName: "'Cama' Infestada"
+	Tooltip: Conta como uma cama
+}
+
+PlaguedPlateBookcase: {
+	DisplayName: Estante Infestada
+	Tooltip: ""
+}
+
+PlaguedPlateCandelabra: {
+	DisplayName: Candelabro Infestado
+	Tooltip: ""
+}
+
+PlaguedPlateCandle: {
+	DisplayName: Vela Infestada
+	Tooltip: ""
+}
+
+PlaguedPlateChair: {
+	DisplayName: Cadeira Infestada
+	Tooltip: ""
+}
+
+PlaguedPlateChandelier: {
+	DisplayName: Lustre Infestado
+	Tooltip: ""
+}
+
+PlaguedPlateChest: {
+	DisplayName: Baú Infestado
+	Tooltip: ""
+}
+
+PlaguedPlateClock: {
+	DisplayName: Relógio Infestado
+	Tooltip: ""
+}
+
+PlaguedPlateDoor: {
+	DisplayName: Porta Infestada
+	Tooltip: ""
+}
+
+PlaguedPlateDresser: {
+	DisplayName: Cômoda Infestada
+	Tooltip: ""
+}
+
+PlaguedPlateLamp: {
+	DisplayName: Lâmpada Infestada
+	Tooltip: ""
+}
+
+PlaguedPlateLantern: {
+	DisplayName: Lanterna Infestada
+	Tooltip: ""
+}
+
+PlaguedPlatePiano: {
+	DisplayName: Piano Infestado
+	Tooltip: ""
+}
+
+PlaguedPlatePlatform: {
+	DisplayName: Prateleira Infestada
+	Tooltip: ""
+}
+
+PlaguedPlateSink: {
+	DisplayName: Pia Infestada
+	Tooltip: Conta como uma fonte de água
+}
+
+PlaguedPlateSofa: {
+	DisplayName: Sofá Infestado
+	Tooltip: ""
+}
+
+PlaguedPlateTable: {
+	DisplayName: Mesa Infestada
+	Tooltip: ""
+}
+
+PlaguedWorkBench: {
+	DisplayName: Bancada de Trabalho Infestada
+	Tooltip: ""
+}
+
+ProfanedBathtub: {
+	DisplayName: Banheira Profana
+	Tooltip: ""
+}
+
+ProfanedBed: {
+	DisplayName: Cama Profana
+	Tooltip: ""
+}
+
+ProfanedBench: {
+	DisplayName: Banco Profano
+	Tooltip: ""
+}
+
+ProfanedBookcase: {
+	DisplayName: Estante Profana
+	Tooltip: ""
+}
+
+ProfanedCandelabra: {
+	DisplayName: Candelabro Profano
+	Tooltip: ""
+}
+
+ProfanedCandle: {
+	DisplayName: Vela Profana
+	Tooltip: ""
+}
+
+ProfanedChair: {
+	DisplayName: Cadeira Profana
+	Tooltip: ""
+}
+
+ProfanedChandelier: {
+	DisplayName: Lustre Profano
+	Tooltip: ""
+}
+
+ProfanedChest: {
+	DisplayName: Baú Profano
+	Tooltip: ""
+}
+
+ProfanedClock: {
+	DisplayName: Relógio Profano
+	Tooltip: ""
+}
+
+ProfanedCrystal: {
+	DisplayName: Cristal Profano
+	Tooltip: ""
+}
+
+ProfanedDoor: {
+	DisplayName: Porta Profana
+	Tooltip: ""
+}
+
+ProfanedDresser: {
+	DisplayName: Cômoda Profana
+	Tooltip: ""
+}
+
+ProfanedLamp: {
+	DisplayName: Lâmpada Profana
+	Tooltip: ""
+}
+
+ProfanedLantern: {
+	DisplayName: Lanterna Profana
+	Tooltip: ""
+}
+
+ProfanedPiano: {
+	DisplayName: Piano Profano
+	Tooltip: ""
+}
+
+ProfanedPlatform: {
+	DisplayName: Plataforma Profana
+	Tooltip: ""
+}
+
+ProfanedRock: {
+	DisplayName: Rocha Profana
+	Tooltip: ""
+}
+
+ProfanedSink: {
+	DisplayName: Pia Profana
+	Tooltip: Conta como uma fonte de lava
+}
+
+ProfanedSlab: {
+	DisplayName: Placa Profana
+	Tooltip: ""
+}
+
+ProfanedTable: {
+	DisplayName: Mesa Profana
+	Tooltip: ""
+}
+
+ProfanedWorkBench: {
+	DisplayName: Bancada de Trabalho Profana
+	Tooltip: ""
+}
+
+RunicProfanedBrick: {
+	DisplayName: Tijolo Profano Rúnico
+	Tooltip: ""
+}
+
+EyeOfTheAccursedBanner: {
+	DisplayName: Bandeira do Olho Amaldiçoado
+	Tooltip: ""
+}
+
+LargeRitualCandle: {
+	DisplayName: Vela de Ritual Grande
+	Tooltip: Pressione <right> para posicionar em um estilo diferente
+}
+
+MonolithOfTheAccursed: {
+	DisplayName: Monólito Amaldiçoado
+	Tooltip:
+		'''
+		Deixe o céu queimar com um vermelho ardente
+		O monólito tem dois modos diferentes
+		'''
+}
+
+OccultBrickItem: {
+	DisplayName: Tijolo Oculto
+	Tooltip: ""
+}
+
+OccultLegionnaireBanner: {
+	DisplayName: Bandeira do Legionário Oculto
+	Tooltip: ""
+}
+
+OccultPlatformItem: {
+	DisplayName: Plataforma Oculta
+	Tooltip: ""
+}
+
+RitualCandle: {
+	DisplayName: Vela de Ritual
+	Tooltip: Pressione <right> para posicionar em um estilo diferente
+}
+
+SacrilegiousBathtub: {
+	DisplayName: Banheira Sacrílega
+	Tooltip: ""
+}
+
+SacrilegiousBed: {
+	DisplayName: Cama Sacrílega
+	Tooltip: ""
+}
+
+SacrilegiousBench: {
+	DisplayName: Banco Sacrílego
+	Tooltip: ""
+}
+
+SacrilegiousBookcase: {
+	DisplayName: Estante Sacrílega
+	Tooltip: ""
+}
+
+SacrilegiousCandelabra: {
+	DisplayName: Candelabro Sacrílego
+	Tooltip: ""
+}
+
+SacrilegiousCandle: {
+	DisplayName: Vela Sacrílega
+	Tooltip: ""
+}
+
+SacrilegiousChair: {
+	DisplayName: Cadeira Sacrílega
+	Tooltip: ""
+}
+
+SacrilegiousChandelier: {
+	DisplayName: Lustre Sacrílego
+	Tooltip: ""
+}
+
+SacrilegiousChest: {
+	DisplayName: Baú Sacrílego
+	Tooltip: ""
+}
+
+SacrilegiousClock: {
+	DisplayName: Relógio Sacrílego
+	Tooltip: ""
+}
+
+SacrilegiousDoor: {
+	DisplayName: Porta Sacrílega
+	Tooltip: ""
+}
+
+SacrilegiousDresser: {
+	DisplayName: Cômoda Sacrílega
+	Tooltip: ""
+}
+
+SacrilegiousLamp: {
+	DisplayName: Lâmpada Sacrílega
+	Tooltip: ""
+}
+
+SacrilegiousLantern: {
+	DisplayName: Lanterna Sacrílega
+	Tooltip: ""
+}
+
+SacrilegiousOrgan: {
+	DisplayName: Órgão Sacrílego
+	Tooltip: ""
+}
+
+SacrilegiousSink: {
+	DisplayName: Pia Sacrílega
+	Tooltip: Conta como uma fonte de água, mel e lava
+}
+
+SacrilegiousTable: {
+	DisplayName: Mesa Sacrílega
+	Tooltip: ""
+}
+
+SacrilegiousWorkBench: {
+	DisplayName: Bancada de Trabalho Sacrílega
+	Tooltip: ""
+}
+
+SilvaBathtub: {
+	DisplayName: Banheira de Silva
+	Tooltip: ""
+}
+
+SilvaBed: {
+	DisplayName: Cama de Silva
+	Tooltip: ""
+}
+
+SilvaBench: {
+	DisplayName: Banco de Silva
+	Tooltip: ""
+}
+
+SilvaBookcase: {
+	DisplayName: Estante de Silva
+	Tooltip: ""
+}
+
+SilvaCandelabra: {
+	DisplayName: Candelabro de Silva
+	Tooltip: ""
+}
+
+SilvaCandle: {
+	DisplayName: Vela de Silva
+	Tooltip: ""
+}
+
+SilvaChair: {
+	DisplayName: Cadeira de Silva
+	Tooltip: ""
+}
+
+SilvaChandelier: {
+	DisplayName: Lustre de Silva
+	Tooltip: ""
+}
+
+SilvaChest: {
+	DisplayName: Baú de Silva
+	Tooltip: ""
+}
+
+SilvaClock: {
+	DisplayName: Relógio de Silva
+	Tooltip: ""
+}
+
+SilvaCrystal: {
+	DisplayName: Cristal de Silva
+	Tooltip: ""
+}
+
+SilvaDoor: {
+	DisplayName: Porta de Silva
+	Tooltip: ""
+}
+
+SilvaDresser: {
+	DisplayName: Cômoda de Silva
+	Tooltip: ""
+}
+
+SilvaLamp: {
+	DisplayName: Lâmpada de Silva
+	Tooltip: ""
+}
+
+SilvaLantern: {
+	DisplayName: Lanterna de Silva
+	Tooltip: ""
+}
+
+SilvaPiano: {
+	DisplayName: Piano de Silva
+	Tooltip: ""
+}
+
+SilvaPlatform: {
+	DisplayName: Plataforma de Silva
+	Tooltip: ""
+}
+
+SilvaSink: {
+	DisplayName: Pia de Silva
+	Tooltip: Conta como uma fonte de água
+}
+
+SilvaTable: {
+	DisplayName: Mesa de Silva
+	Tooltip: ""
+}
+
+SilvaWorkBench: {
+	DisplayName: Bancada de Trabalho de Silva
+	Tooltip: ""
+}
+
+StatigelBathtub: {
+	DisplayName: Banheira de Estatigel
+	Tooltip: ""
+}
+
+StatigelBed: {
+	DisplayName: Cama de Estatigel
+	Tooltip: ""
+}
+
+StatigelBlock: {
+	DisplayName: Block de Estatigel
+	Tooltip: ""
+}
+
+StatigelBookcase: {
+	DisplayName: Estante de Estatigel
+	Tooltip: ""
+}
+
+StatigelCandelabra: {
+	DisplayName: Candelabro de Estatigel
+	Tooltip: ""
+}
+
+StatigelCandle: {
+	DisplayName: Vela de Estatigel
+	Tooltip: ""
+}
+
+StatigelChair: {
+	DisplayName: Cadeira de Estatigel
+	Tooltip: ""
+}
+
+StatigelChandelier: {
+	DisplayName: Lustre de Estatigel
+	Tooltip: ""
+}
+
+StatigelChest: {
+	DisplayName: Baú de Estatigel
+	Tooltip: ""
+}
+
+StatigelClock: {
+	DisplayName: Relógio de Estatigel
+	Tooltip: ""
+}
+
+StatigelDoor: {
+	DisplayName: Porta de Estatigel
+	Tooltip: ""
+}
+
+StatigelDresser: {
+	DisplayName: Cômoda de Estatigel
+	Tooltip: ""
+}
+
+StatigelLamp: {
+	DisplayName: Lâmpada de Estatigel
+	Tooltip: ""
+}
+
+StatigelLantern: {
+	DisplayName: Lanterna de Estatigel
+	Tooltip: ""
+}
+
+StatigelPiano: {
+	DisplayName: Piano de Estatigel
+	Tooltip: ""
+}
+
+StatigelPlatform: {
+	DisplayName: Plataforma de Estatigel
+	Tooltip: ""
+}
+
+StatigelSink: {
+	DisplayName: Pia de Estatigel
+	Tooltip: Conta como uma fonte de água
+}
+
+StatigelSofa: {
+	DisplayName: Sofá de Estatigel
+	Tooltip: ""
+}
+
+StatigelTable: {
+	DisplayName: Mesa de Estatigel
+	Tooltip: ""
+}
+
+StatigelWorkBench: {
+	DisplayName: Bancada de Trabalho de Estatigel
+	Tooltip: ""
+}
+
+StratusBathtub: {
+	DisplayName: Banheira de Stratus
+	Tooltip: ""
+}
+
+StratusBed: {
+	DisplayName: Cama de Stratus
+	Tooltip: ""
+}
+
+StratusBookcase: {
+	DisplayName: Estante de Stratus
+	Tooltip: ""
+}
+
+StratusBricks: {
+	DisplayName: Tijolo de Stratus
+	Tooltip: ""
+}
+
+StratusCandelabra: {
+	DisplayName: Candelabro de Stratus
+	Tooltip: ""
+}
+
+StratusCandle: {
+	DisplayName: Vela de Stratus
+	Tooltip: ""
+}
+
+StratusChair: {
+	DisplayName: Cadeira de Stratus
+	Tooltip: ""
+}
+
+StratusChandelier: {
+	DisplayName: Lustre de Stratus
+	Tooltip: ""
+}
+
+StratusChest: {
+	DisplayName: Baú de Stratus
+	Tooltip: ""
+}
+
+StratusClock: {
+	DisplayName: Relógio de Stratus
+	Tooltip: ""
+}
+
+StratusDoor: {
+	DisplayName: Porta de Stratus
+	Tooltip: ""
+}
+
+StratusDresser: {
+	DisplayName: Cômoda de Stratus
+	Tooltip: ""
+}
+
+StratusLamp: {
+	DisplayName: Lâmpada de Stratus
+	Tooltip: ""
+}
+
+StratusLantern: {
+	DisplayName: Lanterna de Stratus
+	Tooltip: ""
+}
+
+StratusPiano: {
+	DisplayName: Piano de Stratus
+	Tooltip: ""
+}
+
+StratusPlatform: {
+	DisplayName: Plataforma de Stratus
+	Tooltip: ""
+}
+
+StratusSink: {
+	DisplayName: Pia de Stratus
+	Tooltip: Conta como uma fonte de água
+}
+
+StratusSofa: {
+	DisplayName: Sofá de Stratus
+	Tooltip: ""
+}
+
+StratusStarPlatformItem: {
+	DisplayName: Star Plataforma de Stratus
+	Tooltip: ""
+}
+
+StratusTable: {
+	DisplayName: Mesa de Stratus
+	Tooltip: ""
+}
+
+StratusWorkBench: {
+	DisplayName: Bancada de Trabalho de Stratus
+	Tooltip: ""
+}
+
+SmoothVoidstone: {
+	DisplayName: Pedra do Vazio Lisa
+	Tooltip: ""
+}
+
+SmoothVoidstonePlatform: {
+	DisplayName: Plataforma de Pedra do Vazio Lisa
+	Tooltip: ""
+}
+
+VoidBathtub: {
+	DisplayName: Banheira Vazia
+	Tooltip: ""
+}
+
+VoidBed: {
+	DisplayName: Cama Vazia
+	Tooltip: ""
+}
+
+VoidBookcase: {
+	DisplayName: Estante Vazia
+	Tooltip: ""
+}
+
+VoidCandelabra: {
+	DisplayName: Candelabro Vazio
+	Tooltip: ""
+}
+
+VoidCandle: {
+	DisplayName: Vela Vazia
+	Tooltip: ""
+}
+
+VoidChair: {
+	DisplayName: Cadeira Vazia
+	Tooltip: ""
+}
+
+VoidChandelier: {
+	DisplayName: Lustre Vazio
+	Tooltip: ""
+}
+
+VoidChest: {
+	DisplayName: Baú Vazio
+	Tooltip: ""
+}
+
+VoidDoor: {
+	DisplayName: Porta Vazia
+	Tooltip: ""
+}
+
+VoidDresser: {
+	DisplayName: Cômoda Vazia
+	Tooltip: ""
+}
+
+VoidLamp: {
+	DisplayName: Lâmpada Vazia
+	Tooltip: ""
+}
+
+VoidLantern: {
+	DisplayName: Lanterna Vazia
+	Tooltip: ""
+}
+
+VoidObelisk: {
+	DisplayName: Obelisco Vazio
+	Tooltip: ""
+}
+
+VoidPiano: {
+	DisplayName: Piano Vazio
+	Tooltip: ""
+}
+
+VoidSink: {
+	DisplayName: Pia Vazia
+	Tooltip: Conta como uma fonte de água
+}
+
+VoidSofa: {
+	DisplayName: Sofá Vazio
+	Tooltip: ""
+}
+
+VoidstoneSlab: {
+	DisplayName: Placa de Pedra do Vazio
+	Tooltip: ""
+}
+
+VoidTable: {
+	DisplayName: Mesa Vazia
+	Tooltip: ""
+}
+
+VoidWorkBench: {
+	DisplayName: Bancada de Trabalho Vazia
+	Tooltip: ""
+}
+
+WulfrumBathtub: {
+	DisplayName: Banheira de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumBed: {
+	DisplayName: Cama de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumBookcase: {
+	DisplayName: Estante de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumCandelabra: {
+	DisplayName: Candelabro de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumCandle: {
+	DisplayName: Vela de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumChair: {
+	DisplayName: Cadeira de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumChandelier: {
+	DisplayName: Lustre de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumClock: {
+	DisplayName: Relógio de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumDresser: {
+	DisplayName: Cômoda de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumLamp: {
+	DisplayName: Lâmpada de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumLantern: {
+	DisplayName: Lanterna de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumPiano: {
+	DisplayName: Piano de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumPlating: {
+	DisplayName: Placa de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumSink: {
+	DisplayName: Pia de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumSofa: {
+	DisplayName: Sofá de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumTable: {
+	DisplayName: Mesa de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumToilet: {
+	DisplayName: Privada de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumWorkBench: {
+	DisplayName: Bancada de Trabalho de Vulfrúmio
+	Tooltip: ""
+}
+
+HardenedAstralSand: {
+	DisplayName: Areia Astral Endurecida
+	Tooltip: ""
+}
+
+HardenedSulphurousSandstone: {
+	DisplayName: Arenito Sulfuroso Endurecido
+	Tooltip: ""
+}
+
+LivingBrimstoneFireBlock: {
+	DisplayName: Bloco de Fogo de Enxofre Vivo
+	Tooltip: ""
+}
+
+LivingGodSlayerFireBlock: {
+	DisplayName: Bloco de Fogo Caça-Deuses Vivo
+	Tooltip: ""
+}
+
+LivingHolyFireBlock: {
+	DisplayName: Bloco de Fogo Sagrado Vivo
+	Tooltip: ""
+}
+
+DraedonExoSelectMusicBox: {
+	DisplayName: Caixinha de Música (Seleção de Exo-Meca)
+	Tooltip: Toca 'Signal Received' por CDMusic
+}
+
+DraedonTalkMusicBox: {
+	DisplayName: Caixinha de Música (Descriptografador)
+	Tooltip: Toca uma variante de 'Signal Received' por CDMusic
+}
+
+Navystone: {
+	DisplayName: Pedra Marinha
+	Tooltip: ""
+}
+
+NovaeSlag: {
+	DisplayName: Escória Novae
+	Tooltip: ""
+}
+
+AerialiteOre: {
+	DisplayName: Minério de Aerólita
+	Tooltip: ""
+}
+
+AerialiteOreDisenchanted: {
+	DisplayName: Minério de Aerólita Desencantado
+	Tooltip: ""
+}
+
+AstralOre: {
+	DisplayName: Minério Astral
+	Tooltip: ""
+}
+
+AuricOre: {
+	DisplayName: Minério de Auricanita
+	Tooltip: Infundido com energias dracônicas perdidas há muito tempo
+}
+
+CryonicOre: {
+	DisplayName: Minério de Crionita
+	Tooltip: ""
+}
+
+ExodiumCluster: {
+	DisplayName: Aglomerado de Exódio
+	Tooltip: Um aglomerado frio do grande desconhecido
+}
+
+HallowedOre: {
+	DisplayName: Minério Consagrado
+	Tooltip: ""
+}
+
+InfernalSuevite: {
+	DisplayName: Suevite Infernal
+	Tooltip: ""
+}
+
+PerennialOre: {
+	DisplayName: Minério de Perene
+	Tooltip: ""
+}
+
+ScoriaOre: {
+	DisplayName: Minério de Escória
+	Tooltip: ""
+}
+
+UelibloomOre: {
+	DisplayName: Minério de Ueliflor
+	Tooltip: ""
+}
+
+PerennialBrick: {
+	DisplayName: Tijolo de Perene
+	Tooltip: ""
+}
+
+PlantyMush: {
+	DisplayName: Polpa de Planta
+	Tooltip: ""
+}
+
+Cinderplate: {
+	DisplayName: Placa das Cinzas
+	Tooltip: Ressoa com energia sobrenatural
+}
+
+Elumplate: {
+	DisplayName: Placa de Elum
+	Tooltip: Ressoa com energia sobrenatural
+}
+
+Havocplate: {
+	DisplayName: Placa da Devastação
+	Tooltip: Ressoa com energia sobrenatural
+}
+
+Navyplate: {
+	DisplayName: Placa Marinha
+	Tooltip: Ressoa com energia sobrenatural
+}
+
+Onyxplate: {
+	DisplayName: Placa de Ônix
+	Tooltip: Ressoa com energia sobrenatural
+}
+
+Plagueplate: {
+	DisplayName: Placa da Praga
+	Tooltip: Ressoa com energia sobrenatural
+}
+
+PrismShard: {
+	DisplayName: Fragmento de Prisma
+	Tooltip: Brilha mais forte debaixo d’água
+}
+
+PyreMantle: {
+	DisplayName: Piromanto
+	Tooltip: ""
+}
+
+PyreMantleMolten: {
+	DisplayName: Piromanto Derretido
+	Tooltip: ""
+}
+
+ScorchedBone: {
+	DisplayName: Osso Queimado
+	Tooltip: ""
+}
+
+ScorchedRemains: {
+	DisplayName: Restos Queimados
+	Tooltip: ""
+}
+
+ScoriaBrick: {
+	DisplayName: Tijolo de Escória
+	Tooltip: ""
+}
+
+SeaPrism: {
+	DisplayName: Prisma do Mar
+	Tooltip: ""
+}
+
+SeaPrismBrick: {
+	DisplayName: Tijolo de Prisma do Mar
+	Tooltip: ""
+}
+
+SpineSapling: {
+	DisplayName: Espinha Pequena
+	Tooltip: Planta mudas de Espinha Gigante em Escória de Enxofre
+}
+
+SulphurousSand: {
+	DisplayName: Areia Sulfurosa
+	Tooltip: ""
+}
+
+SulphurousSandstone: {
+	DisplayName: Arenito Sulfuroso
+	Tooltip: ""
+}
+
+SulphurousShale: {
+	DisplayName: Folhelho Sulfuroso
+	Tooltip: ""
+}
+
+UelibloomBrick: {
+	DisplayName: Tijolo de Ueliflor
+	Tooltip: ""
+}
+
+VernalSoil: {
+	DisplayName: Solo Vernal
+	Tooltip: ""
+}
+
+Voidstone: {
+	DisplayName: Pedra do Vazio
+	Tooltip: ""
+}
+
+AbyssGravelWallItem: {
+	DisplayName: Parede de Cascalho do Abismo
+	Tooltip: ""
+}
+
+AcidwoodWallItem: {
+	DisplayName: Parede de Madeira Ácida
+	Tooltip: ""
+}
+
+AerialiteBrickWall: {
+	DisplayName: Parede de Tijolos de Aerólita
+	Tooltip: ""
+}
+
+AshenSlabWall: {
+	DisplayName: Parede de Placa Cinzenta
+	Tooltip: ""
+}
+
+AstralBrickWall: {
+	DisplayName: Parede de Tijolos Astrais
+	Tooltip: ""
+}
+
+AstralDirtWall: {
+	DisplayName: Parede de Terra Astral
+	Tooltip: ""
+}
+
+AstralGrassWall: {
+	DisplayName: Parede de Grama Astral
+	Tooltip: ""
+}
+
+AstralIceWall: {
+	DisplayName: Parede de Gelo Astral
+	Tooltip: ""
+}
+
+AstralMonolithWall: {
+	DisplayName: Parede de Monólito Astral
+	Tooltip: ""
+}
+
+AstralSandstoneWall: {
+	DisplayName: Parede de Arenito Astral
+	Tooltip: ""
+}
+
+AstralSnowWall: {
+	DisplayName: Parede de Neve Astral
+	Tooltip: ""
+}
+
+AstralStoneWall: {
+	DisplayName: Parede de Pedra Astral
+	Tooltip: ""
+}
+
+BrimstoneSlabWall: {
+	DisplayName: Parede de Placa de Enxofre
+	Tooltip: ""
+}
+
+BrimstoneSlagWall: {
+	DisplayName: Parede de Escória de Enxofre
+	Tooltip: ""
+}
+
+CelestialRemainsWall: {
+	DisplayName: Parede de Restos Celestiais
+	Tooltip: ""
+}
+
+CinderplateWall: {
+	DisplayName: Parede de Placas das Cinzas
+	Tooltip: ""
+}
+
+CosmiliteBrickWall: {
+	DisplayName: Parede de Tijolos de Cosmilita
+	Tooltip: ""
+}
+
+CryonicBrickWall: {
+	DisplayName: Parede de Tijolos de Crionita
+	Tooltip: ""
+}
+
+HazardChevronWall: {
+	DisplayName: Parede de Divisa de Perigo
+	Tooltip: ""
+}
+
+LaboratoryPanelWall: {
+	DisplayName: Parede de Painéis de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryPlateBeam: {
+	DisplayName: Viga de Placas de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryPlatePillar: {
+	DisplayName: Pilar de Placas de Laboratório
+	Tooltip: ""
+}
+
+LaboratoryPlatingWall: {
+	DisplayName: Parede de Placas de Laboratório
+	Tooltip: ""
+}
+
+RustedPlateBeam: {
+	DisplayName: Viga de Placas Enferrujadas
+	Tooltip: ""
+}
+
+RustedPlatePillar: {
+	DisplayName: Pilar de Placas Enferrujadas
+	Tooltip: ""
+}
+
+RustedPlatingWall: {
+	DisplayName: Parede de Placas Enferrujadas
+	Tooltip: ""
+}
+
+ElumplateWall: {
+	DisplayName: Parede de Placas de Elum
+	Tooltip: ""
+}
+
+EutrophicSandWall: {
+	DisplayName: Parede de Areia Eutrófica Insegura
+	Tooltip: ""
+}
+
+EutrophicSandWallSafe: {
+	DisplayName: Parede de Areia Eutrófica
+	Tooltip: ""
+}
+
+ExoPlatingWallItem: {
+	DisplayName: Parede de Exo-Placas
+	Tooltip: ""
+}
+
+ExoPrismPanelWallItem: {
+	DisplayName: Parede de Paineis de Exo-Prisma
+	Tooltip: ""
+}
+
+FloralWall: {
+	DisplayName: Parede Floral
+	Tooltip: ""
+}
+
+HardenedAstralSandWall: {
+	DisplayName: Parede de Areia Astral Endurecida
+	Tooltip: ""
+}
+
+HardenedSulphurousSandstoneWall: {
+	DisplayName: Parede de Arenito Sulfuroso Inseguro
+	Tooltip: ""
+}
+
+HavocplateWall: {
+	DisplayName: Parede de Placas da Devastação
+	Tooltip: ""
+}
+
+NavyplateWall: {
+	DisplayName: Parede de Placas Marinhas
+	Tooltip: ""
+}
+
+NavystoneWall: {
+	DisplayName: Parede de Pedra Marinha Insegura
+	Tooltip: ""
+}
+
+NavystoneWallSafe: {
+	DisplayName: Parede de Pedra Marinha
+	Tooltip: ""
+}
+
+OccultBrickWallItem: {
+	DisplayName: Parede de Tijolo Oculto
+	Tooltip: ""
+}
+
+OnyxplateWall: {
+	DisplayName: Parede de Placas de Ônix
+	Tooltip: ""
+}
+
+OtherworldlyStoneWall: {
+	DisplayName: Parede de Pedra de Outro Mundo
+	Tooltip: ""
+}
+
+PerennialBrickWall: {
+	DisplayName: Parede de Tijolos de Perene
+	Tooltip: ""
+}
+
+PlagueContainmentCellsWall: {
+	DisplayName: Parede de Placas da Praga
+	Tooltip: ""
+}
+
+PlaguedPlateWall: {
+	DisplayName: Parede de Contenção
+	Tooltip: ""
+}
+
+ProfanedCrystalWall: {
+	DisplayName: Parede de Cristal Profano
+	Tooltip: ""
+}
+
+ProfanedRockWall: {
+	DisplayName: Parede de Rocha Profana
+	Tooltip: ""
+}
+
+ProfanedSlabWall: {
+	DisplayName: Parede de Placa Profana
+	Tooltip: ""
+}
+
+RunicProfanedBrickWall: {
+	DisplayName: Parede de Tijolo Profano Rúnico
+	Tooltip: ""
+}
+
+ScorchedBoneWall: {
+	DisplayName: Parede de Osso Queimado
+	Tooltip: ""
+}
+
+ScoriaBrickWall: {
+	DisplayName: Parede de Tijolos de Escória
+	Tooltip: ""
+}
+
+SilvaWall: {
+	DisplayName: Parede de Silva
+	Tooltip: ""
+}
+
+SmoothAbyssGravelWall: {
+	DisplayName: Parede de Cascalho do Abismo Liso
+	Tooltip: ""
+}
+
+SmoothBrimstoneSlagWall: {
+	DisplayName: Parede de Escória de Enxofre
+	Tooltip: ""
+}
+
+SmoothNavystoneWall: {
+	DisplayName: Parede de Pedra Marinha Lisa
+	Tooltip: ""
+}
+
+SmoothVoidstoneWall: {
+	DisplayName: Parede de Pedra do Vazio Lisa
+	Tooltip: ""
+}
+
+StatigelWall: {
+	DisplayName: Parede de Estatigel
+	Tooltip: ""
+}
+
+StratusWall: {
+	DisplayName: Parede de Stratus
+	Tooltip: ""
+}
+
+SulphurousSandstoneWall: {
+	DisplayName: Parede de Arenito Sulfuroso
+	Tooltip: ""
+}
+
+SulphurousSandWall: {
+	DisplayName: Parede de Areia Sulfurosa
+	Tooltip: ""
+}
+
+SulphurousShaleWall: {
+	DisplayName: Parede de Folhelho Sulfuroso
+	Tooltip: ""
+}
+
+UelibloomBrickWall: {
+	DisplayName: Parede de Tijolos de Ueliflor
+	Tooltip: ""
+}
+
+VoidstoneSlabWall: {
+	DisplayName: Parede de Placa de Pedra do Vazio
+	Tooltip: ""
+}
+
+VoidstoneWall: {
+	DisplayName: Parede de Placa de Pedra
+	Tooltip: ""
+}
+
+WulfrumPlatingWall: {
+	DisplayName: Parede de Placas de Vulfrúmio
+	Tooltip: ""
+}
+
+FireTurret: {
+	DisplayName: Torreão de Fogo
+	Tooltip:
+		'''
+		Assa inimigos próximos com um lança-chamas a todo vapor
+		Não ataca enquanto um chefe estiver vivo
+		'''
+}
+
+HostileFireTurret: {
+	DisplayName: Torreão de Fogo Hostil
+	Tooltip: Assa jogadores próximos com um lança-chamas a todo vapor
+}
+
+HostileIceTurret: {
+	DisplayName: Torreão de Gelo Hostil
+	Tooltip: Lança bombas de névoa de gelo frágeis em jogadores próximos
+}
+
+HostileLabTurret: {
+	DisplayName: Torreão de Laboratório Hostil
+	Tooltip: Atira feixes laser em jogadores próximos
+}
+
+HostileLaserTurret: {
+	DisplayName: Torreão Laser Hostil
+	Tooltip: Ataca jogadores próximos com raios laser extremamente rápidos
+}
+
+HostileOnyxTurret: {
+	DisplayName: Torreão de Ônix Hostil
+	Tooltip: Atira projéteis em várias direções em jogadores próximos
+}
+
+HostilePlagueTurret: {
+	DisplayName: Torreão da Praga Hostil
+	Tooltip: Ejeta mísseis da praga teleguiados em jogadores próximos
+}
+
+HostileWaterTurret: {
+	DisplayName: Torreão de Água Hostil
+	Tooltip: Atira rajadas de água em alta velocidade em jogadores próximos
+}
+
+IceTurret: {
+	DisplayName: Torreão de Gelo
+	Tooltip:
+		'''
+		Lança bombas de névoa de gelo frágeis em inimigos próximos
+		Não ataca enquanto um chefe estiver vivo
+		'''
+}
+
+LabTurret: {
+	DisplayName: Torreão de Laboratório
+	Tooltip:
+		'''
+		Atira feixes laser em inimigos próximos
+		Não ataca enquanto um chefe estiver vivo
+		'''
+}
+
+LaserTurret: {
+	DisplayName: Torreão Laser
+	Tooltip:
+		'''
+		Ataca inimigos próximos com raios laser extremamente rápidos
+		Não ataca enquanto um chefe estiver vivo
+		'''
+}
+
+OnyxTurret: {
+	DisplayName: Torreão de Ônix
+	Tooltip:
+		'''
+		Atira projéteis em várias direções em inimigos próximos
+		Não ataca enquanto um chefe estiver vivo
+		'''
+}
+
+PlagueTurret: {
+	DisplayName: Torreão da Praga
+	Tooltip:
+		'''
+		Ejeta mísseis da praga teleguiados em inimigos próximos
+		Não ataca enquanto um chefe estiver vivo
+		'''
+}
+
+WaterTurret: {
+	DisplayName: Torreão de Água
+	Tooltip:
+		'''
+		Atira rajadas de água em alta velocidade em inimigos próximos
+		Não ataca enquanto um chefe estiver vivo
+		'''
+}

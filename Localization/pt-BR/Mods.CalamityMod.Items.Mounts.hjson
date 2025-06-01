@@ -1,0 +1,63 @@
+Brimrose: {
+	DisplayName: Rosa de Enxofre
+	Tooltip: Invoca uma rosa de enxofre que pode ser montada
+}
+
+ExoThrone: {
+	DisplayName: Exo-Caixa
+	Tooltip:
+		'''
+		Materializa um Exo-Trono bem aconchegante e extremamente ágil
+		Segure [KEY] enquanto estiver sentado no trono para movimentar-se mais lento para obter mais precisão
+		'Um gamer confortável é um gamer perigoso'
+		'''
+}
+
+Fabsol: {
+	DisplayName: Espírito da Princesa na Garrafa
+	Tooltip:
+		'''
+		Invoca o espírito de Cirrus, a Princesa Bêbada, em sua forma de alicórnio
+		Montar nela irá transformar Cirrus, desmontar irá transformá-la de volta
+		'''
+}
+
+FollyFeed: {
+	DisplayName: Comida de Bobos
+	Tooltip: Invoca uma monstruosidade
+}
+
+GazeOfCrysthamyr: {
+	DisplayName: Olhar de Crysthamyr
+	Tooltip:
+		'''
+		Invoca um dragão das sombras
+		Segure W para ascender mais rápido
+		'''
+}
+
+TheCartofGods: {
+	DisplayName: A Vagoneta dos Deuses
+	Tooltip: ""
+}
+
+OnyxExcavatorKey: {
+	DisplayName: Chave da Escavadeira de Ônix
+	Tooltip:
+		'''
+		Invoca uma broca para perfurar o mundo para que você possa destruir toda a geração de mundo pura
+		com total desconsideração por todas as criaturas que habitam essas terras. Tenho certeza que a EPA
+		e a PETA gostariam de ter uma palavra com você depois.
+		O poder da destruição aumenta com a picareta de maior potência em seu inventário
+		'''
+}
+
+SuspiciousLookingJellyBean: {
+	DisplayName: Jujuba Suspeita
+	Tooltip: JUJUBA
+}
+
+TundraLeash: {
+	DisplayName: Coleira da Tundra
+	Tooltip: Invoca um Cão-da-Geada que pode ser montado
+}

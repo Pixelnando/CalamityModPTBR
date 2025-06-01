@@ -1,0 +1,10 @@
+Mods: {
+	CalamityModPTBR: {
+		Items: {
+			FlagHologramTileItem: {
+				DisplayName: Projetor de Holograma BR-451L
+				Tooltip: Parece que o próprio Draedon projetou este modelo
+			}
+		}
+	}
+}

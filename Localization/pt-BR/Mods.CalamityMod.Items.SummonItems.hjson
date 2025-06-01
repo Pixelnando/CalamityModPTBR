@@ -1,0 +1,321 @@
+Abombination: {
+	DisplayName: Abombinação
+	Tooltip:
+		'''
+		Invoca a Pestífera Goliarda quando é usado na Selva
+		O chefe fica enfurecido quando está fora da Selva
+		Não consumível
+		'Rádio capaz de emitir uma frequência reconhecida pelo nanovírus da Peste.'
+		'''
+}
+
+AstralChunk: {
+	DisplayName: Pedaço Astral
+	Tooltip:
+		'''
+		Invoca o Astrum Aureus quando é usado na Infecção Astral
+		O chefe fica enfurecido durante o dia ou quando está fora da Infecção Astral
+		Não consumível
+		'A fortaleza da Infecção localizou um novo alvo.'
+		'''
+}
+
+BloodwormItem: {
+	DisplayName: Verme de Sangue
+	Tooltip:
+		'''
+		Invoca o Velho Duque se for usado como isca no Mar Sulfuroso
+		O chefe fica enfurecido fora do Mar Sulfuroso
+		'''
+}
+
+BloodyWormFood: {
+	DisplayName: Comida de Verme Sangrenta
+	Tooltip:
+		'''
+		Invoca a Colmeia dos Perfuradores quando é usada no Carmim
+		O chefe fica enfurecido fora do Subterrâneo Carmim
+		Não consumível
+		'Não brinque com a sua comida, pois eles não brincam com a deles.'
+		'''
+}
+
+CeremonialUrn: {
+	DisplayName: Urna Ceremonial
+	Tooltip:
+		'''
+		Use no Altar Amaldiçoado para invocar Calamitas, a Bruxa Suprema
+		Não consumível
+		'A Bruxa não permitirá que isso aconteça novamente.'
+		'''
+}
+
+CharredIdol: {
+	DisplayName: Ídolo Carbonizado
+	Tooltip:
+		'''
+		Invoca a Elemental de Enxofre quando é usado nos Rochedos de Enxofre
+		O chefe fica enfurecido fora dos Rochedos de Enxofre
+		Não consumível
+		'Qualquer coisa sob seu olhar deve ser carbonizada até tornar-se irreconhecível.'
+		'''
+}
+
+CosmicWorm: {
+	DisplayName: Verme Cósmico
+	Tooltip:
+		'''
+		Invoca o Devorador de Deuses
+		Não consumível
+		'A Serpente sem Nome partiu para caçá-lo.'
+		'''
+}
+
+CryoKey: {
+	DisplayName: Chave Criônica
+	GFBName: Chave Pirotécnica
+	Tooltip:
+		'''
+		[SPAWN]
+		O chefe fica enfurecido fora da tundra
+		Não consumível
+		'Uma chave para uma prisão glacial.'
+		'''
+	SpawnNormal: Invoca o Criogênio quando é usado na tundra
+	SpawnGFB: Invoca o Criogênio...? quando é usado na tundra
+}
+
+DeathWhistle: {
+	DisplayName: Apito da Morte
+	Tooltip:
+		'''
+		Invoca o Devastador
+		Não consumível
+		'Um dos poucos sons reconhecíveis pelo golem de carne.'
+		'''
+}
+
+DecapoditaSprout: {
+	DisplayName: Broto de Decapodita
+	Tooltip:
+		'''
+		Invoca o Carangulão quando é usado no bioma de Cogumelos
+		O chefe fica enfurecido fora do bioma de Cogumelos Subterrâneo
+		Não consumível
+		'Cheio de esporos de uma cepa parasita única.'
+		'''
+}
+
+DesertMedallion: {
+	DisplayName: Medalhão do Deserto
+	Tooltip:
+		'''
+		Invoca o Flagelo do Deserto quando é usado no Deserto
+		O chefe fica enfurecido fora do Deserto
+		Não consumível
+		'O Flagelo procura por outra refeição.'
+		'''
+}
+
+EidolonTablet: {
+	DisplayName: Placa de Eidolon
+	Tooltip:
+		'''
+		Invoca o Cultista Lunático
+		Não consumível
+		'Um artefato antigo venerado pelo Culto do Dragão.'
+		'''
+}
+
+ExoticPheromones: {
+	DisplayName: Fermônios Exóticos
+	Tooltip:
+		'''
+		Invoca o Dragão-Folião quando é usado na Selva
+		O chefe fira enfurecido fora da Selva
+		Não consumível
+		'Fermônios utilizados para caçar Ramificações Dracônicas.'
+		'''
+}
+
+EyeofDesolation: {
+	DisplayName: Olho da Desolação
+	// The GFB tag generates a new line below when placed at the end of a line
+	Tooltip:
+		'''
+		Invoca o Clone da Calamitas quando é usado durante a noite[GFB]
+		O chefe fira enfurecido durante o dia
+		Não consumível
+		'Ela chegou.'
+		'''
+	GFBInfo: Cria uma arena quadrada de blocos, com você no seu centro
+}
+
+CausticTear: {
+	DisplayName: Lágrima Cáustica
+	Tooltip:
+		'''
+		Causa uma chuva ácida no Mar Sulfuroso
+		Não consumível
+		'''
+}
+
+MartianDistressRemote: {
+	DisplayName: Controle de Socorro Marciano
+	Tooltip:
+		'''
+		Invoca a Loucura de Marte
+		Não consumível
+		'''
+}
+
+NecroplasmicBeacon: {
+	DisplayName: Sinalizador Necroplasmático
+	Tooltip:
+		'''
+		Invoca o Polterghast quando é usado no Calabouço
+		Não consumível
+		'Os lamentos dos espíritos perturbaram algo muito mais aterrorizante.'
+		'''
+}
+
+NO: {
+	DisplayName: É
+	Tooltip: VC
+}
+
+OldPowerCell: {
+	DisplayName: Bateria Antiga
+	Tooltip:
+		'''
+		Invoca o Golem quando é usado na Selva
+		O chefe fica enfurecido fora do Templo da Selva
+		Não consumível
+		'''
+}
+
+OverloadedSludge: {
+	DisplayName: Lama Sobrecarregada
+	Tooltip:
+		'''
+		Invoca o Deus Geleia
+		Não consumível
+		'Contorcendo-se e inchado com o pus de Deuses já mortos há muito tempo.'
+		'''
+}
+
+Portabulb: {
+	DisplayName: Bulbo Portável
+	Tooltip:
+		'''
+		Invoca a Plantera quando é usado na Selva
+		O chefe fica enfurecido fora da Selva Subterrânea
+		Não consumível
+		'''
+}
+
+ProfanedCore: {
+	DisplayName: Núcleo Profano
+	Tooltip:
+		'''
+		Invoca a Providência quando é usado no Sagrado ou Submundo
+		O espólio único muda dependendo do bioma onde ela é enfrentada
+		O chefe fica enfurecido durante a noite
+		Não consumível
+		'O coração de Seus Guardiões, Sua ira perversa queimará sobre quem quer que o empunhe agora.'
+		'''
+}
+
+ProfanedShard: {
+	DisplayName: Fragmento Profano
+	Tooltip:
+		'''
+		[SPAWN]
+		Os chefes ficam enfurecidos fora do Sagrado ou Submundo
+		Não consumível
+		'Seus Guardiões buscam o detentor de um poder tão vasto e roubado."'
+		'''
+	SpawnNormal: Invoca os Guardiões Profanos quando é usado no Sagrado ou no Submundo durante o dia
+	SpawnRemix: Invoca os Guardiões Profanos quando é usado no Sagrado ou no Submundo
+}
+
+RuneofKos: {
+	DisplayName: Runa de Kos
+	Tooltip:
+		'''
+		Um sigilo ornamentado da Chama Profana
+		O ódio ainda queima em seu fronte
+		[SPAWN]
+		Não consumível
+		'''
+	SpawnInfo: Tal poder atrai seres de outros mundos.
+	SpawnVoid:
+		'''
+		Invoca o Vazio Incessante
+		O chefe fica enfurecido na superfície
+		'''
+	SpawnSignus: Invoca Signus, o Emissário do Devorador
+	SpawnWeaver: Invoca o Explorador Tempestuoso
+}
+
+SandstormsCore: {
+	DisplayName: Núcleo da Tempestade de Areia
+	Tooltip:
+		'''
+		Invoca o Grande Tubarão de Areia quando é usado no [BIOME]
+		Não consumível
+		'''
+}
+
+Seafood: {
+	DisplayName: Frutos do Mar
+	Tooltip:
+		'''
+		Invoca o Flagelo Aquático quando é usado no Mar Sulfuroso
+		O chefe fica enfurecido fora do Mar Sulfuroso
+		Não consumível
+		'Iscas grandes para uma captura grande. Cuidado com os monstros dos mares.'
+		'''
+}
+
+Starcore: {
+	DisplayName: Núcleo Estelar
+	Tooltip:
+		'''
+		Invoca o Astrum Deus no Sinalizador Astral, mas não é consumido
+		O chefe fica enfurecido durante o dia
+		'Que as estrelas guiem o seu caminho'
+		'''
+}
+
+Teratoma: {
+	DisplayName: Teratoma
+	Tooltip:
+		'''
+		Invoca a Colmeia Mental quando é usado na Corrupção
+		O chefe fica enfurecido fora do Subterrâneo Corrompido
+		Não consumível
+		'Um tumor exquisitamente horrendo para aqueles doentes na cabeça.'
+		'''
+}
+
+Terminus: {
+	DisplayName: Terminus
+	GFBName: Ogscule
+	Tooltip:
+		'''
+		Ativa o Modo Corrida de Chefes, usá-lo novamente desativará o Modo Corrida de Chefes
+		Durante a Corrida de Chefes, todos os fios e dispositivos com fio serão desativados
+		'''
+}
+
+YharonEgg: {
+	DisplayName: Ovo de Dragão Abençoado
+	Tooltip:
+		'''
+		Invoca Yharon, o Dragão do Renascimento
+		O chefe fica enfurecido fora das paredes de fogo
+		Não consumível
+		'Um símbolo do Dragão observando e esperando por você.'
+		'''
+}

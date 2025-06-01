@@ -1,0 +1,204 @@
+AureateBooster: {
+	DisplayName: Impulsionador Aurífero
+	Tooltip:
+		'''
+		Velocidade horizontal: 8.00
+		Multiplicador de aceleração: 1.5
+		Velocidade vertical boa
+		Tempo de voo: 120
+		'Velocidade máxima com estilo!'
+		'''
+}
+
+DrewsWings: {
+	DisplayName: Asas de Drew
+	Tooltip:
+		'''
+		Velocidade horizontal: 11.50
+		Multiplicador de aceleração: 2.9
+		Velocidade vertical excelente
+		Tempo de voo: 361
+		'Absolutamente fabulosas'
+		'''
+}
+
+ElysianWings: {
+	DisplayName: Asas do Elisio
+	Tooltip:
+		'''
+		Velocidade horizontal: 9.50
+		Multiplicador de aceleração: 2.7
+		Velocidade vertical ótima
+		Tempo de voo: 240
+		Imunidade temporária à lava e 10% de aumento na velocidade dos movimentos
+		Abençoadas pela Chama Profana
+		'''
+}
+
+ExodusWings: {
+	DisplayName: Asas do Êxodo
+	Tooltip:
+		'''
+		Velocidade horizontal: 9.00
+		Multiplicador de aceleração: 2.5
+		Velocidade vertical ótima
+		Tempo de voo: 180
+		5% de aumento nos danos por ataques ladinos e na chance de ataque crítico ladino ao vestir a armadura empírica
+		Pulsando com um batimento cardíaco alienígena
+		'''
+}
+
+HadalMantle: {
+	DisplayName: Manto Hadal
+	Tooltip:
+		'''
+		Velocidade horizontal: 7.75
+		Multiplicador de aceleração: 1.5
+		Velocidade vertical mediana
+		Tempo de voo: 180
+		5% de aumento nos danos ao vestir a armadura hidrotérmica
+		Alimentado pela fúria das profundezas
+		'''
+}
+
+HadarianWings: {
+	DisplayName: Asas Hadarianas
+	Tooltip:
+		'''
+		Velocidade horizontal: 9.00
+		Multiplicador de aceleração: 1.75
+		Velocidade vertical boa
+		Tempo de voo: 90
+		{$CommonItemTooltip.PressDownToHover}
+		Alimentado pela Infecção Astral
+		'''
+}
+
+MOAB: {
+	DisplayName: MOAB
+	Tooltip:
+		'''
+		Conta como asas
+		Velocidade horizontal: 6.50
+		Multiplicador de aceleração: 1.0
+		Velocidade vertical boa
+		Tempo de voo: 75
+		10% de aumento na velocidade dos pulos e permite o pulo automático
+		Concede ao jogador saltos no ar de nuvem, nevasca e tempestade de areia
+		'A mãe de todos os balões'
+		'''
+}
+
+SilvaWings: {
+	DisplayName: Asas de Silva
+	Tooltip:
+		'''
+		Velocidade horizontal: 10.50
+		Multiplicador de aceleração: 2.8
+		Velocidade vertical excelente
+		Tempo de voo: 270
+		O reviver Silva cura você até a metade da vida ao vestir a armadura de Silva
+		'As mais puras da natureza'
+		'''
+}
+
+SkylineWings: {
+	DisplayName: Asas do Horizonte
+	Tooltip:
+		'''
+		Velocidade horizontal: 6.25
+		Multiplicador de aceleração: 1.0
+		Velocidade vertical mediana
+		Tempo de voo: 80
+		'''
+}
+
+SoulofCryogen: {
+	DisplayName: Alma do Criogênio
+	Tooltip:
+		'''
+		Conta como asas
+		Velocidade horizontal: 6.25
+		Multiplicador de aceleração: 1.0
+		Velocidade vertical mediana
+		Tempo de voo: 120
+		7% de aumento em todos os danos
+		Todos os ataques físicos e projéteis causam queimadura de gelo
+		Gelo chove enquanto você voa
+		'''
+}
+
+StarlightWings: {
+	DisplayName: Asas da Luz Estelar
+	Tooltip:
+		'''
+		Velocidade horizontal: 7.50
+		Multiplicador de aceleração: 1.0
+		Velocidade vertical mediana
+		Tempo de voo: 150
+		5% de aumento nos danos e na chance de ataque crítico ao vestir a armadura de Dédalo
+		Asas do Rouxinol
+		'''
+}
+
+TarragonWings: {
+	DisplayName: Asas de Estragão
+	Tooltip:
+		'''
+		Velocidade horizontal: 9.50
+		Multiplicador de aceleração: 2.5
+		Velocidade vertical ótima
+		Tempo de voo: 250
+		15 de aumento na defesa e regeneração de +1 de vida por segundo ao vestir a armadura de estragão
+		'Nascido da selva'
+		'''
+}
+
+TracersCelestial: {
+	DisplayName: Rastreadores Celestiais
+	Tooltip:
+		'''
+		Conta como asas
+		Velocidade horizontal: 9.00
+		Multiplicador de aceleração: 2.6
+		Velocidade vertical boa
+		Tempo de voo: 140
+		24% de aumento na aceleração de corrida e melhor mobilidade no gelo
+		Permite andar sobre a água, mel e lava
+		Concede imunidade temporária à lava
+		'Velocidade ridícula!'
+		'''
+}
+
+TracersElysian: {
+	DisplayName: Rastreadores do Elísio
+	Tooltip:
+		'''
+		Conta como asas
+		Velocidade horizontal: 10.00
+		Multiplicador de aceleração: 2.7
+		Velocidade vertical ótima
+		Tempo de voo: 180
+		36% de aumento na aceleração de corrida e melhor mobilidade no gelo
+		Permite andar sobre a água, mel e lava
+		Concede imunidade temporária ao fogo e à lava
+		'Velocidade ridícula!'
+		'''
+}
+
+TracersSeraph: {
+	DisplayName: Rastreadores Serafim
+	Tooltip:
+		'''
+		Conta como asas
+		Velocidade horizontal: 11.00
+		Multiplicador de aceleração: 2.8
+		Velocidade vertical excelente
+		Tempo de voo: 250
+		50% de aumento na aceleração de corrida e melhor mobilidade no gelo
+		Permite andar sobre a água, mel e lava
+		Concede imunidade temporária ao fogo, lava, e blocos com efeitos daníficos
+		Ser atingido por mais de 200 de dano o deixará imune por um longo período de tempo
+		'Levando a velocidade AO ALÉM!'
+		'''
+}

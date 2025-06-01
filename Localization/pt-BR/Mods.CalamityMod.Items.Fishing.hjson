@@ -1,0 +1,356 @@
+// Quest fish tooltips
+CaughtInAstral: "'Capturado na Infecção Astral'"
+CaughtInBrimstoneCrag: "'Capturado nos Rochedos de Enxofre'"
+CaughtInSunkenSea: "'Capturado no Mar Profundo'"
+
+// Astral Infection Catches
+AldebaranAlewife: {
+	DisplayName: Alosa Cinzenta de Aldebarã
+	Tooltip: Uma entidade estrelada na forma de um peixe
+}
+
+ArcturusAstroidean: {
+	DisplayName: Arcturo Astroideano
+	Tooltip: Aumenta o poder de pescaria quando é usado na Infecção Astral ou no Mar Sulfuroso
+}
+
+AstralCrate: {
+	DisplayName: Caixote Astral
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+AstrophageItem: {
+	DisplayName: Astrófago
+	Tooltip: Invoca um astrófago para seguir você
+}
+
+MonolithCrate: {
+	// DisplayName: Monolith Crate
+	// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+ProcyonidPrawn: {
+	DisplayName: Camarão Procionídeo
+	Tooltip: ""
+}
+
+TwinklingPollox: {
+	DisplayName: Pólox Cintilante
+	Tooltip: Suas escamas brilham como cristais
+}
+
+UrsaSergeant: {
+	DisplayName: Ursa Sargento
+	Tooltip:
+		'''
+		15% de redução na velocidade dos movimentos
+		Imune a Infecção astral e Mordida Feroz
+		Aumento na regeneração de vida quando você estiver com vida baixa
+		'''
+}
+
+// Brimstone Crag Catches
+Bloodfin: {
+	DisplayName: Barbatana-de-Sangue
+	Tooltip:
+		'''
+		Concede um efeito que aumenta a regeneração de vida por 10 segundos
+		O reforço na regeneração de vida é mais forte se você estiver abaixo de 75% de vida
+		10 segundos de duração
+		'As maravilhas da angiogênese'
+		'''
+}
+
+Brimlish: {
+	DisplayName: Peixofre
+	QuestDescription: Quando você derrotou a Elemental de Enxofre, os filhotes dela caíram na lava como resultado. Andam dizendo por aí que eles sofreram uma mutação e se transformaram em peixes. Eu adoraria se você pegasse um para o meu novo aquário cheio de lava.
+}
+
+BrimstoneCrate: {
+	DisplayName: Caixote de Enxofre
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+CharredLasher: {
+	DisplayName: Peixe-Chicote Carbonizado
+	Tooltip: Este peixe elusivo é uma mercadoria valiosa
+}
+
+CoastalDemonfish: {
+	DisplayName: Peixe-Demônio Costeiro
+	Tooltip: Seus chifres colocam uma maldição sobre aqueles que o tocam
+}
+
+CragBullhead: {
+	DisplayName: Cabeça-de-Touro do Rochedo
+	Tooltip: Suas escamas são escaldantes
+}
+
+DragoonDrizzlefish: {
+	DisplayName: Peixe-Garoa Dragão
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		Dispara uma variedade de bolas de fogo de enxofre e fogo do inferno
+		Ocasionalmente dispara uma bola de fogo maior que se divide
+		O saco de enxofre parece conter combustível
+		'A vingança é um prato que se serve queimando'
+		'''
+	TooltipGFB:
+		'''
+		Dispara uma variedade de bolas de fogo de enxofre e fogo do inferno
+		Ocasionalmente dispara uma bola de fogo maior que se divide
+		Pressione <right> para alimentar o garotinho com um pouco de gel delicioso
+		'Ele é um garoto faminto'
+		'''
+}
+
+Havocfish: {
+	DisplayName: Peixe-da-Devastação
+	Tooltip: Pressione <right> para extrair essências
+}
+
+Shadowfish: {
+	DisplayName: Peixe-Sombra
+	Tooltip: A escuridão se espalha
+}
+
+SlagCrate: {
+	DisplayName: Caixote da Escória
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+Slurpfish: {
+	DisplayName: Peixe-Sorvedor
+	QuestDescription: Sabe, seria uma calamidade total se eu enviasse você às antigas ruínas nas profundidades do inferno para pescar um peixe. E é exatamente isso que eu planejo fazer. Agora, suma! O peixe não vai se pescar sozinho.
+}
+
+// Sunken Sea Catches
+EutrophicCrate: {
+	DisplayName: Caixote Eutrófico
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+EutrophicSandfish: {
+	DisplayName: Peixe-Areia Eutrófico
+	QuestDescription: Já pensou no que aconteceria se um lagarto que vive no deserto acabasse muito fundo no subterrâneo? Eu vi, e eles são demais! Mas está muito escorregadio para que eu possa pegá-lo agora. Vá lá e pegue-o para mim, para que eu possa tê-lo como animal de estimação!
+}
+
+GreenwaveLoach: {
+	DisplayName: Botia da Onda Verde
+	Tooltip: Um peixe ameaçado de extinção que é altamente valorizado no mercado
+}
+
+PrismCrate: {
+	DisplayName: Caixote de Prisma
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+PrismaticGuppy: {
+	DisplayName: Guppy Prismático
+	Tooltip: Jogá-lo em um aquário seria uma loucura
+}
+
+RustedJingleBell: {
+	DisplayName: Sino Enferrujado
+	Tooltip:
+		'''
+		Invoca um sino fantasma bebê luminoso de estimação
+		Fornece uma quantidade razoável de luz enquanto você está debaixo d'água
+		'''
+}
+
+SerpentsBite: {
+	DisplayName: Mordida da Serpente
+	Tooltip:
+		'''
+		Alcance: 28.125
+		Velocidade de Lançamento: 18
+		Velocidade de Retorno: 14
+		Velocidade de Tração: 12
+		'''
+}
+
+Serpentuna: {
+	DisplayName: Serpentum
+	QuestDescription: Serpentes marinhas são bonitas, mas não tão bonitas quanto a cara de quem encontra uma na sua cadeira. Preciso que você pesque os adereços para o meu próximo grande susto, e o prazo é amanhã.
+}
+
+SparklingEmpress: {
+	DisplayName: Imperatriz Cintilante
+	Tooltip:
+		'''
+		Dispara um laser concentrado para aniquilar seus inimigos
+		Inimigos derrotados explodem em fragmentos de prisma
+		'''
+}
+
+SunkenSailfish: {
+	DisplayName: Peixe-Vela Afundado
+	Tooltip: Correndo a 90 quilômetros por hora
+}
+
+SurfClam: {
+	DisplayName: Amêijoa Surfada
+	QuestDescription: Você sabia que as amêijoas são uma iguaria? Dizem que uma grande colônia vive sob o Deserto. Só de falar sobre elas, já me dá fome. Preciso que você pegue uma para mim, para que eu possa praticar minhas habilidades culinárias e saciar minha fome.
+}
+
+// Other Catches
+EnchantedStarfish: {
+	DisplayName: Estrela-do-Mar Encantada
+	Tooltip:
+		'''
+		{$ItemTooltip.ManaCrystal}
+		Funciona como uma alternativa para [i:ManaCrystal] {$ItemName.ManaCrystal}
+		'''
+}
+
+FishofEleum: {
+	DisplayName: Peixe-de-Eleum
+	Tooltip: Pressione <right> para extrair essências
+}
+
+FishofFlight: {
+	DisplayName: Peixe-do-Voo
+	Tooltip: Pressione <right> para extrair almas
+}
+
+FishofLight: {
+	DisplayName: Peixe-da-Luz
+	Tooltip: Pressione <right> para extrair almas
+}
+
+FishofNight: {
+	DisplayName: Peixe-da-Noite
+	Tooltip: Pressione <right> para extrair almas
+}
+
+GlimmeringGemfish: {
+	DisplayName: Peixe-Gema
+	Tooltip: Pressione <right> para extrair joias
+}
+
+Gorecodile: {
+	DisplayName: Sangrocodilo
+	Tooltip: Pressione <right> para extrair orbes de sangue
+}
+
+HydrothermalCrate: {
+	// DisplayName: Hydrothermal Crate
+	// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+Spadefish: {
+	DisplayName: Peixe-Pá
+	Tooltip:
+		'''
+		'Como que um peixe pode ser usado para cavar?
+		Algumas perguntas devem ser deixadas sem resposta...'
+		'''
+}
+
+StuffedFish: {
+	DisplayName: Peixe Recheado
+	Tooltip: Pressione <right> para extrair ervas e sementes
+}
+
+SulphurousCrate: {
+	DisplayName: Caixote Sulfuroso
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+SunbeamFish: {
+	DisplayName: Peixe-do-Raio-Solar
+	Tooltip: Pressione <right> para extrair essências
+}
+
+// Fishing Rods
+EarlyBloomRod: {
+	DisplayName: Vara do Florescer
+	Tooltip:
+		'''
+		Dispara seis linhas de uma vez
+		A linha de pesca nunca irá quebrar
+		'O pássaro que madruga é o que pega o peixe'
+		'''
+}
+
+FeralDoubleRod: {
+	DisplayName: Vara Dupla Selvagem
+	Tooltip:
+		'''
+		Dispara duas linhas de uma vez
+		Assim como você domesticou o monstro da selva, agora você pode domar os peixes no mar
+		'''
+}
+
+HeronRod: {
+	DisplayName: Vara da Garça
+	Tooltip:
+		'''
+		Maior poder de pesca no espaço
+		'Uma cabeça e um bico silenciosos lançaram-se para baixo e arrancaram-no pela cabeça,
+		e o bico engoliu o peixinho enquanto sua cauda balançava freneticamente.'
+		'''
+}
+
+NavyFishingRod: {
+	DisplayName: Vara de Pescar Marinha
+	Tooltip:
+		'''
+		Enquanto é segurada, eletrifrica lentamente os inimigos próximos
+		'O mar é uma cidade.
+		Logo abaixo estão rodovias, avenidas, ruas e rotatórias movimentadas com o tráfego submarino.'
+		'''
+}
+
+RiftReeler: {
+	DisplayName: Carretel da Fratura
+	Tooltip:
+		'''
+		Dispara de três a cinco linhas de uma vez
+		Pode pescar na lava
+		'O campo de batalha é um cenário de caos constante.
+		O vencedor será aquele que controlar esse caos, tanto a vara quanto os peixes.'
+		'''
+}
+
+SlurperPole: {
+	DisplayName: Vara Sorvedora
+	Tooltip:
+		'''
+		Pode pescar na lava
+		'É a lava ardente da alma que tem uma fornalha dentro; um vulcão de dor e tristeza.'
+		'''
+}
+
+TheDevourerofCods: {
+	DisplayName: O Devorador de Bacalhaus
+	Tooltip:
+		'''
+		Dispara dez linhas de uma vez
+		A linha de pesca nunca irá quebrar
+		Pode pescar na lava
+		'O devorador já foi apenas um Devorador de Cardumes'
+		'''
+}
+
+VerstaltiteFishingRod: {
+	DisplayName: Vara de Pescar de Verstaltita
+	Tooltip:
+		'''
+		Maior poder de pesca na tundra
+		As qualidades prismáticas da liga antiga são perfeitas para atrair peixes
+		'''
+}
+
+WulfrumRod: {
+	DisplayName: Vara de Pescar de Vulfrúmio
+	Tooltip: "'Isso quase não funciona, mas é melhor do que nada...'"
+}
+
+// Bait
+GrandMarquisBait: {
+	DisplayName: Isca do Grande Marquês
+	Tooltip: ""
+}

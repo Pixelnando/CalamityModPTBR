@@ -1,0 +1,224 @@
+// Broken Biome Blade
+DefaultAttunement: {
+	Name: Claridade Pura
+	Function: Dispara um projétil fraco que esmaga as defesas inimigas
+}
+
+HotAttunement: {
+	Name: Grandeza Árida
+	Function:
+		'''
+		Segure <left> para conjurar lâminas abrasadoras à sua frente que ficam maiores e mais fortes conforme você atinge os inimigos
+		As lâminas também podem ser usadas para rebater de peças quando no ar
+		'''
+}
+
+ColdAttunement: {
+	Name: Abraço Mordaz
+	Function: Execute um combo de 3 golpes com uma lâmina glacial. O golpe final congela os inimigos por uma fração de segundo
+}
+
+TropicalAttunement: {
+	Name: Toque do Guarda-Florestal
+	Function:
+		'''
+		Lance a espada usando um chicote de vinha
+		Atingir inimigos com a ponta do chicote enquanto ele estala garante um acerto crítico
+		O chicote também te impulsionará para peças atingidas
+		'''
+}
+
+EvilAttunement: {
+	Name: Retorta da Decadência
+	Function:
+		'''
+		Invista para frente usando uma projeção fantasmagórica de um florete que suga a vida de qualquer inimigo atingido
+		Você será empurrado para longe de alvos atingidos
+		'''
+}
+
+// Mended Biome Blade
+TrueDefaultAttunement: {
+	Name: Claridade Pura
+	Function:
+		'''
+		Dispara um projétil fraco que esmaga as defesas inimigas
+		Acertar golpes físicos verdadeiros coloca um sigilo de pureza sobre o inimigo. Seus projéteis seguem os inimigos marcados
+		'''
+}
+
+TrueHotAttunement: {
+	Name: Grandeza Árida
+	Function:
+		'''
+		Segure <left> para conjurar lâminas abrasadoras à sua frente que ficam maiores e mais fortes conforme você atinge os inimigos
+		As lâminas também podem ser usadas para rebater de peças quando no ar
+		Solte depois que as lâminas estiverem totalmente carregadas para as lançar para frente para destruir seus inimigos
+		'''
+}
+
+TrueColdAttunement: {
+	Name: Abraço Mordaz
+	Function:
+		'''
+		Execute um combo de 3 golpes com uma lâmina glacial. O golpe final congela os inimigos por uma fração de segundo
+		Névoa glacial persistente é liberada em cada balanço, causando dano aos inimigos que vagam por ela
+		'''
+}
+
+TrueTropicalAttunement: {
+	Name: Toque do Guarda-Florestal
+	Function:
+		'''
+		Lance a espada usando um chicote de vinha
+		Atingir inimigos com a ponta do chicote enquanto ele estala garante um acerto crítico
+		O chicote também te impulsionará para peças atingidas
+		Videiras que se espalham brotam de acertos críticos. Estas vinhas podem atingir até três alvos
+		'''
+}
+
+TrueEvilAttunement: {
+	Name: Retorta da Decadência
+	Function:
+		'''
+		Invista para frente usando uma projeção fantasmagórica de um florete que suga a vida de qualquer inimigo atingido. Você também será empurrado para longe de alvos atingidos
+		Acertar três golpes sem tocar no chão muda seu próximo ataque para um impulso fortalecido
+		'''
+}
+
+HolyAttunement: {
+	Name: Poder Celestial
+	Function:
+		'''
+		Segure <left> para balançar a espada ao seu redor, acelerando com o tempo
+		Solte para arremessar a espada na direção do seu cursor. A espada então rapidamente retorna à sua mão
+		'''
+}
+
+AstralAttunement: {
+	Name: Aversão Subsistente
+	Function:
+		'''
+		Segure <left> para carregar uma investida que perfura as estrelas, solte para liberar o golpe devastador
+		Golpear a terra com a investida causará um impacto gigante que levanta monólitos sobrenaturais
+		'''
+}
+
+MarineAttunement: {
+	Name: Gesto para os Afogados
+	Function:
+		'''
+		Dispare duas bolas d'água aos seus lados. Ao entrar em contato com o solo, as bolas d'água se transformarão em pequenas ondas que caminham ao longo do chão
+		Ondas disparadas debaixo d'água ou que tocam a água se tornarão muito maiores e mais rápidas
+		'''
+}
+
+// True Biome Blade
+WhirlwindAttunement: {
+	Name: Orgulho do Espadachim
+	Function:
+		'''
+		Segure <left> para balançar a espada ao seu redor, acelerando com o tempo. Feixes de espada são disparados descontroladamente enquanto você gira
+		Solte para arremessar a espada na direção do cursor. Os feixes de espadas seguem os inimigos atingidos pela espada arremessada
+		'''
+	PassiveDesc: Todos os ataques têm uma chance de disparar um feixe de espada
+}
+
+FlailBladeAttunement: {
+	Name: Lamentações dos Acorrentados
+	Function:
+		'''
+		Ataque com uma enxurrada de lâminas acorrentadas. Atingir os inimigos com a ponta de lâminas garante um acerto crítico
+		Acertos críticos enviam correntes extras que se prendem a vários alvos
+		'''
+	PassiveDesc: Um gancho de corrente encantado flutua perto de você. Atingir os inimigos faz o gancho girar em torno de você, congelando os inimigos
+}
+
+SuperPogoAttunement: {
+	Name: Fúria Sanguínea
+	Function:
+		'''
+		Segure <left> para conjurar lâminas derretidas à sua frente que ficam maiores e mais fortes quanto mais você atinge os inimigos
+		As lâminas também podem ser usadas para rebater de peças quando no ar
+		Solte para lançar as lâminas carregadas para frente como uma roda
+		Atacar novamente imediatamente depois te investe para a roda, destruíndo tudo no caminho
+		'''
+	PassiveDesc: Golpear inimigos raramente roubará uma pequena quantidade de vida
+}
+
+ShockwaveAttunement: {
+	Name: Marés Mercuriais
+	Function:
+		'''
+		Segure <left> para carregar uma investida que perfura os céus, solte para liberar o golpe devastador
+		Ondas de choque são emitidas enquanto a espada está sendo carregada
+		Golpear a terra com a investida causará uma onda de choque gigante no impacto que levanta uma enchente de monólitos
+		'''
+	PassiveDesc: Periodicamente emite ondas de choque enquanto ataca
+}
+
+// Galaxia
+PhoenixAttunement: {
+	Name: Orgulho da Fênix
+	Function:
+		'''
+		<left> para balançar Galaxia ao seu redor, acelerando com o tempo
+		A nébula rodopiante constantemente emite raios cósmicos teleguiados
+		Solte para arremessar Galaxia na direção do cursor junto de uma rajada de 6 raios cósmicos gigantescos
+		'''
+	PassiveName: Bênção do Capricórnio
+	PassiveDesc:
+		'''
+		Periodicamente libera um anel de estrelas que roubam vida ao seu redor enquanto ataca
+		O anel é atraído para você no início, antes de desacelerar com o tempo
+		'''
+}
+
+AriesAttunement: {
+	Name: Ira de Áries
+	Function:
+		'''
+		Arremesse Galaxia para o seu cursor, segurando-a no lugar com constelações
+		Galaxia segue o seu cursor, rapidamente girando para destruir os inimigos
+		Golpear inimigos causa explosões nebulosas que invocam raios cósmicos teleguiados
+		'''
+	PassiveName: Bênção do Capricórnio
+	PassiveDesc:
+		'''
+		Periodicamente libera um anel de estrelas que roubam vida ao seu redor enquanto ataca
+		O anel é atraído para você no início, antes de desacelerar com o tempo
+		'''
+}
+
+PolarisAttunement: {
+	Name: Olhar Polar
+	Function:
+		'''
+		Segure <left> para canalizar o poder da Galáxia em um vórtice apertado de energias galácticas
+		O vórtice aumenta ao longo do tempo e ao atingir os inimigos
+		Solte para disparar a estrela carregada em uma linha reta
+		Aperte <left> novamente imediatamente para investir-se à estrela e emitir raios cósmicos
+		'''
+	PassiveName: Bênção de Câncer
+	PassiveDesc:
+		'''
+		Periodicamente libera um anel de estrelas que roubam vida ao seu redor enquanto ataca
+		O anel é atraído para você no início, antes de desacelerar com o tempo
+		'''
+}
+
+AndromedaAttunement: {
+	Name: Passo de Andrômeda
+	Function:
+		'''
+		Segure <left> para carregar uma investida destruidora de deuses, solte para liberar o golpe devastador
+		Galaxia emite raios cósmicos enquanto carrega
+		Atingir o chão causará uma onda de choque que invoca uma tempestade de energias cósmicas
+		'''
+	PassiveName: Bênção de Câncer
+	PassiveDesc:
+		'''
+		Periodicamente libera um anel de estrelas que roubam vida ao seu redor enquanto ataca
+		O anel é atraído para você no início, antes de desacelerar com o tempo
+		'''
+}

@@ -1,0 +1,18 @@
+﻿[h1] Introdução [/h1]
+Este mod fornece uma tradução não-oficial do Calamity Mod para o Português Brasileiro.
+A tradução está atualizada à versão v2.0.0.3 do Calamity Mod.
+
+[b]Nota: O conteúdo e as mudanças da atualização 2.0.1.1 do Calamity Mod não foram traduzidos!![/b]
+
+[h1] Planos [/h1]
+Traduzir o seguinte conteúdo:
+[list]
+    [*] Todos os itens restantes
+    [*] Mensagens de felicidade dos NPCs
+[/list]
+
+[h1] Créditos [/h1]
+Tradução feita por [b]Pixelnando[/b], com a ajuda de [b]Master Dong/Skyshadow[/b] no código.
+Agradecimentos a [b]Tolsyak[/b] pelo seu mod de tradução de código aberto no Github.
+
+[b]Nota: Não sou afiliado com o Fabsol nem os desenvolvedores do Calamity Mod.[/b]

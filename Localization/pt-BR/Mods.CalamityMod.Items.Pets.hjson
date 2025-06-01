@@ -1,0 +1,198 @@
+AbyssShellFossil: {
+	DisplayName: Fóssil de Concha do Abismo
+	Tooltip:
+		'''
+		Um fóssil de uma criatura pré-histórica, há muito esquecido no abismo profundo
+		Invoca um Caracol Escargidolon de estimação para seguir você
+		Reduz levemente a capacidade das criaturas de detectá-lo no abismo enquanto estiver equipado
+		'''
+}
+
+BearsEye: {
+	DisplayName: Olho de Bear
+	Tooltip: Invoca um anjo da guarda de estimação
+}
+
+BloodyVein: {
+	DisplayName: Veia Sangrenta
+	Tooltip: Invoca uma pilha de carne amalgamada
+}
+
+BrimstoneJewel: {
+	DisplayName: Joia de Enxofre
+	Tooltip:
+		'''
+		'A recompensa definitiva por derrotar uma fera tão poderosa...
+		Quem diria que ela seria tão fofinha!'
+		'''
+}
+
+CharredRelic: {
+	DisplayName: Relíquia Carbonizada
+	Tooltip: Contém uma pequena de quantidade de enxofre
+}
+
+ChromaticOrb: {
+	DisplayName: Orbe Cromático
+	Tooltip:
+		'''
+		Invoca um antigo dragão leve de estimação que destaca os inimigos e as fontes de perigo próximas
+		Fornece uma pequena quantidade de luz no abismo
+		'Brilha calorosamente na sua mão'
+		'''
+}
+
+CosmicPlushie: {
+	DisplayName: Bichinho de Pelúcia Cósmico
+	Tooltip:
+		'''
+		Invoca o devorador do cosmos...?
+		Suprime diabos vermelhos amigáveis
+		'Objetos pontudos possivelmente incluídos'
+		'''
+}
+
+EnchantedButterfly: {
+	DisplayName: Borboleta Encantada
+	Tooltip:
+		'''
+		Invoca uma misteriosa libélula luminosa de estimação
+		Fornece uma pequena quantidade de luz no abismo
+		'Alimente-o com borboletas para mantê-lo forte!'
+		'''
+}
+
+ForgottenDragonEgg: {
+	DisplayName: Ovo de Dragão Esquecido
+	Tooltip: Chama Akato, o filho de Yharon, para o seu lado
+}
+
+FoxDrive: {
+	DisplayName: Drive de Raposa
+	Tooltip:
+		'''
+		'Contém 1 arquivo nele'
+		'Raposa.cs'
+		'''
+}
+
+GeyserShell: {
+	DisplayName: Concha Gêiser
+	Tooltip: Invoca um pequeno eremita flak
+}
+
+HermitsBoxofOneHundredMedicines: {
+	DisplayName: Caixa dos Cem Medicamentos do Eremita
+	Tooltip:
+		'''
+		Invoca o Terceiro Sábio
+		Use o item pressionando <right> na hotbar para alternar a bênção do Terceiro Sábio
+		Com a bênção, o jogador irá nascer com vida cheia ao invés da metade
+		'Conforme o gelo derrete na primaveira
+		E as ondas lavam o cabelo do velho musgo...
+		Obrigado, adeus.'
+		'''
+}
+
+JoyfulHeart: {
+	DisplayName: Coração Alegre
+	Tooltip: Está estranhamente quente. Atrai o proibido
+}
+
+Levi: {
+	DisplayName: Levi
+	Tooltip: Invoca uma Leviathan bebê de estimação
+}
+
+LittleLight: {
+	DisplayName: Luzinha
+	Tooltip:
+		'''
+		Invoca uma pequena construção que o segue e fornece uma grande quantidade de luz
+		Fornece uma grande quantidade de luz no abismo
+		'Ela está procurando por você há muito tempo'
+		'''
+}
+
+McNuggets: {
+	DisplayName: McNuggets de Frango
+	Tooltip: "'Estes nuggets não são pra você comer!'"
+}
+
+PineapplePet: {
+	DisplayName: Abacaxi
+	Tooltip: Invoca um abacaxi
+}
+
+PlagueCaller: {
+	DisplayName: Chamador da Praga
+	Tooltip: Invoca uma Pestífera bebê de estimação
+}
+
+PrimroseKeepsake: {
+	DisplayName: Prímula da Lembrança
+	Tooltip: Eles acabaram de...
+}
+
+RadiatingCrystal: {
+	DisplayName: Cristal Radiante
+	Tooltip:
+		'''
+		Invoca um radiador luminoso de estimação
+		Fornece uma pequena quantidade de luz no abismo
+		'O cristal contém traços de holoturina'
+		'''
+}
+
+RomajedaOrchid: {
+	DisplayName: Orquídea Romajeda
+	Tooltip: Invoca um amigo nunca esquecido
+}
+
+RottingEyeball: {
+	DisplayName: Olho Apodrecido
+	Tooltip: Invoca um conglomerado corrompido
+}
+
+StrangeOrb: {
+	DisplayName: Orbe Estranho
+	Tooltip:
+		'''
+		Invoca um Espírito do Oceano luminoso em miniatura de estimação
+		Fornece uma grande quantidade de luz enquanto debaixo d'água
+		'''
+}
+
+SuspiciousLookingNOU: {
+	DisplayName: É VC Suspeito
+	Tooltip:
+		'''
+		Invoca um mini Lorde que fornece luz
+		'Ele vive!'
+		'''
+}
+
+TheEtomer: {
+	DisplayName: O Otomer Elo-RTNOC
+	Tooltip:
+		'''
+		Invoca um encrenqueiro elétrico
+		Uma pequena nota está anexada:
+		'Obrigado, Aloe! Muito apreciado de Ben'
+		'''
+}
+
+ThiefsDime: {
+	DisplayName: Moeda do Ladrão
+	Tooltip:
+		'''
+		Invoca Ourinho, a moeda ladina que coleta moedas próximas e ilumina seu caminho
+		Fornece uma pequena quantidade de luz no abismo
+		'Uma vez já foi um tesouro sem valor, agora ela é uma relíquia da companhia de um ladrão'
+		'''
+}
+
+TrashmanTrashcan: {
+	DisplayName: Lata de Lixo
+	Tooltip: Invoca o homem lixo
+}

@@ -1,0 +1,212 @@
+AbyssalWarhammer: {
+	DisplayName: Martelo de Guerra Abissal
+	Tooltip: ""
+}
+
+AerialHamaxe: {
+	DisplayName: Martelo-Machado Aéreo
+	Tooltip: ""
+}
+
+AstralHamaxe: {
+	DisplayName: Martelo-Machado Astral
+	Tooltip: ""
+}
+
+AstralPickaxe: {
+	DisplayName: Picareta Astral
+	Tooltip: ""
+}
+
+AxeofPurity: {
+	DisplayName: Machado da Pureza
+	Tooltip:
+		'''
+		Clique com o botão esquerdo para usar como ferramenta
+		Clique com o botão direito para purificar o mal
+		'''
+}
+
+BeastialPickaxe: {
+	DisplayName: Picareta Bestial
+	Tooltip: ""
+}
+
+BerserkerWaraxe: {
+	DisplayName: Machado de Guerra Furioso
+	Tooltip: ""
+}
+
+BlossomPickaxe: {
+	DisplayName: Picareta Floral
+	Tooltip: Pode minerar Minério Áurico
+}
+
+BobbitHook: {
+	DisplayName: Gancho Bobbit
+	Tooltip:
+		'''
+		Retrai ao atingir uma peça com velocidades extremas
+		Alcance: 40
+		Velocidade de Lançamento: 25
+		Velocidade de Retorno: 28
+		Velocidade de Tração: 24
+		'''
+}
+
+AridArtifact: {
+	DisplayName: Artefato Árido
+	Tooltip:
+		'''
+		Invoca uma tempestade de areia
+		A tempestade de areia acontecerá logo após este item ser usado
+		Se usado durante uma tempestade de areia, a tempestade de areia irá acabar após um tempo
+		'''
+}
+
+Cosmolight: {
+	DisplayName: Luz Cósmica
+	Tooltip:
+		'''
+		Avança o tempo imediatamente para o próximo amanhecer, meio-dia, anoitecer ou meia-noite
+		Não funciona enquanto um chefe está vivo
+		'''
+}
+
+TorrentialTear: {
+	DisplayName: Lágrima Torrencial
+	Tooltip:
+		'''
+		Invoca a chuva
+		A chuva começará um tempo depois que este item for usado
+		Se usado enquanto está chovendo, a chuva irá acabar após um tempo
+		'''
+}
+
+CrystylCrusher: {
+	DisplayName: Trituradora Cristalina
+	Tooltip:
+		'''
+		Segure <right> para canalizar um feixe que destrói praticamente qualquer coisa
+		'Tenho que cavar mais rápido, tenho que ir mais profundo'
+		'''
+}
+
+FellerofEvergreens: {
+	DisplayName: Derruba-Árvores
+	Tooltip: ""
+}
+
+Gelpick: {
+	DisplayName: Gelcareta
+	Tooltip: ""
+}
+
+GenesisPickaxe: {
+	DisplayName: Picareta do Gênese
+	Tooltip: Pode minerar minério ueliflorescente
+}
+
+Grax: {
+	DisplayName: Grax
+	Tooltip:
+		'''
+		Atingir um inimigo aumentará bastante a sua defesa, dano por ataque físico e chance de acerto crítico por ataque físico por um curto período de tempo
+		Aperte <right> para utilizar sem martelar paredes ou quebrar árvores
+		'''
+}
+
+GreatbayPickaxe: {
+	DisplayName: Picareta da Grande Baía
+	Tooltip: Pode minerar Demonita, Carminita, Meteorito, Prismas Marinhos e Cristais de Prisma Marinho
+}
+
+InfernaCutter: {
+	DisplayName: Cortador Infernal
+	Tooltip:
+		'''
+		Ataques críticos com a lâmina causam pequenas explosões
+		Gera uma série de pequenas faíscas quando balançado
+		'''
+}
+
+MarniteDeconstructor: {
+	DisplayName: Deconstrutor de Marnito
+	Tooltip:
+		'''
+		Seu motor gera raios de luz dura capazes de escavar paredes a longa distância
+		Ignora 10 pontos de defesa do inimigo
+		'''
+}
+
+MarniteObliterator: {
+	DisplayName: Obliterador de Marnito
+	Tooltip:
+		'''
+		Ele usa seu foco de diamante para projetar um feixe de luz de escavação de longo alcance
+		Ignora 5 pontos de defesa do inimigo
+		'''
+}
+
+ReefclawHamaxe: {
+	DisplayName: Martelo-Machado da Garra do Recife
+	Tooltip: ""
+}
+
+SeismicHampick: {
+	DisplayName: Picareta-Martelo Sísmica
+	Tooltip:
+		'''
+		Capaz de minerar tijolos lagharto
+		Aperte <left> para usar como uma picareta
+		Aperte <right> para usar como um martelo
+		'''
+}
+
+ShardlightPickaxe: {
+	DisplayName: Picareta do Fragmento da Luz
+	Tooltip: ""
+}
+
+SkyfringePickaxe: {
+	DisplayName: Picareta da Beira dos Céus
+	Tooltip: Permite a mineração de pedras infernais
+}
+
+TectonicTruncator: {
+	DisplayName: Truncador Tectônico
+	Tooltip: ""
+}
+
+WulfrumDiggingTurtle: {
+	DisplayName: Tartaruga de Escavação de Vulfrúmio
+	Tooltip:
+		'''
+		Lança uma engenhoca de mineração frágil para cavar um pequeno túnel
+		Em caso de emergência, aperte <right> para detonar instantaneamente todas as suas tartarugas de escavação
+		'''
+}
+
+WulfrumDrill: {
+	DisplayName: Furadeira de Vulfrúmio
+	Tooltip: ""
+}
+
+WulfrumScaffoldKit: {
+	DisplayName: Kit de Andaime de Vulfrúmio
+	Tooltip:
+		'''
+		Coloca andaimes de metal temporários. Usa uma sucata de metal vulfrúmio para construir 40 peças
+		O andaime precisa estar adjacente a uma peça sólida para ser colocado
+		"Para quando você precisa de algo construído rapidamente e não precisa que dure."
+		'''
+}
+
+WulfrumTreasurePinger: {
+	DisplayName: Alertador de Tesouros de Vulfrúmio
+	Tooltip:
+		'''
+		Localiza metais que são mais valiosos que o vulfrúmio
+		A qualidade desta engenhoca parece incrívelmente ruim. [c/fc4903:Vai quebrar mais cedo que tarde com certeza]
+		'''
+}

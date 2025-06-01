@@ -1,0 +1,840 @@
+AbandonedSlimeStaff: {
+	DisplayName: Cajado da Geleia Abandonada
+	Tooltip:
+		'''
+		Consome todos os espaços de lacaio restantes ao ser usado
+		Deve ser utilizado pela hotbar
+		O poder e o tamanho aumentam de acordo com o número de espaços de lacaio utilizados
+		Segurar essa arma concede 10% de aumento na velocidade dos pulos
+		Expulsa dos céus com desgosto, esta relíquia canta uma canção de tragédia silenciosa...
+		'''
+}
+
+AncientIceChunk: {
+	DisplayName: Pedaço de Gelo Antigo
+	Tooltip:
+		'''
+		Invoca um Pinça-de-Gelo para lutar por você
+		O Pinça-de-Gelo dispara fragmentos de gelo em inimigos distantes
+		Quando estiver próximo dos inimigos, ele irá atacá-los agressivamente com a fúria congelada
+		'''
+}
+
+AquasScepter: {
+	DisplayName: Cetro de Aqua
+	Tooltip:
+		'''
+		Invoca uma sentinela de tempestade enorme para fazer chover nos inimigos e golpeá-los com energia tesla sobrecarregada
+		'Capitão! Eu acho- que temos risco de chuva!'
+		'''
+}
+
+AresExoskeleton: {
+	DisplayName: Exoesqueleto de Ares
+	Tooltip:
+		'''
+		Cria um painel com quatro espaços para quatro escolhas acima dele: Plasma, Tesla, Laser e Gauss
+		Clicar em uma das escolhas e depois clicar em um dos espaços invoca um canhão do tipo escolhido
+		Clicar em um espaço que já está ocupado destrói o canhão associado e limpa o espaço
+		Os canhões ocupam 3 espaços de lacaio cada
+		'''
+}
+
+AtlasMunitionsBeacon: {
+	DisplayName: Sinalizador de Munições Atlas
+	Tooltip:
+		'''
+		[c/F2B629:Traz um canhão estacionário com exo-energia
+		[c/F2B629:O canhão atirará em inimigos dentro de seu alcance]
+		[c/F27049:Se um inimigo estiver próximo, ele entrará no modo de Sobrecarga]
+		[c/F27049:No modo Sobrecarga, o canhão usa todo o seu poder para derrubar qualquer inimigo]
+		[c/F27049:No modo Sobrecarga, o canhão acumulará calor, eventualmente superaquecendo]
+		[c/69F0DC:<right> enquando segura esse item para pegar o canhão e utilizá-lo por conta própria]
+		[c/69F0DC:Enquanto é segurado, o canhão sempre estará no modo Sobrecarga]
+		[c/69F0DC:Se o canhão superaquecer enquanto você o segura, você será forçado a soltá-lo]
+		[c/9AA4AE:Pressionar o <right> permite que você solte-o manualmente]
+		[c/9AA4AE:Se for soltado perto da base, ele será reconectado automaticamente]
+		'É surpreendentemente fácil carregar isso'
+		'''
+}
+
+BelladonnaSpiritStaff: {
+	DisplayName: Cajado do Espírito de Beladona
+	Tooltip: Invoca um espírito fofo da floresta que arremessa pétalas mágicas e tóxicas
+}
+
+BlackHawkRemote: {
+	DisplayName: Controle Remoto Black Hawk
+	Tooltip:
+		'''
+		Invoca um jato Black Hawk para lutar por você
+		Os jatos dispararão projéteis do seu inventário
+		50% de chance de economizar munição
+		'''
+}
+
+BorealisBomber: {
+	DisplayName: Bombardeiro Boreal
+	Tooltip:
+		'''
+		Invoca bombardeiros de aureus para caçar seus inimigos
+		Os bombardeiros de aureus explodem violentamente ao atingir um inimigo
+		Não consome espaços de lacaio
+		'''
+}
+
+BrittleStarStaff: {
+	DisplayName: Cajado da Estrelinha
+	Tooltip:
+		'''
+		Invoca uma estrelinha para investir através dos inimigos até que despedace
+		As estrelas-do-mar regenerarão rapidamente depois de despedaçarem
+		Segurar o botão direito alternará o comportamento das estrelas-do-mar, fazendo com que invistam ou circulem-o
+		Quando as estrelas-do-mar estão te circulando, cada uma concede 5 pontos de defesa
+		'''
+}
+
+CadaverousCarrion: {
+	DisplayName: Carniça Cadavérica
+	Tooltip: Invoca uma cabeça nojenta do Velho Duque no chão que vomita tubarões
+}
+
+CalamarisLament: {
+	DisplayName: Lamento da Lula
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		Invoca uma lula em miniatura que cospe tinta ferozmente nos inimigos
+		Em longas distâncias, a lula disparará barragens de tinta agressivamente teleguiadas
+		Em curtas distâncias, a lula grudará nos inimigos e causar mais dano
+		'No Abismo, todos os tipos de recursos são escassos.
+		Cada espécie é solitária. Simplesmente não há o suficiente para compartilhar.'
+		'''
+	TooltipGFB: "'Woomy!'"
+}
+
+CausticCroakerStaff: {
+	DisplayName: Cajado do Coaxador Cáustico
+	Tooltip: Invoca um sapo que explode caso inimigos se aproximem
+}
+
+CausticStaff: {
+	DisplayName: Cajado Cáustico
+	Tooltip:
+		'''
+		Invoca um mini dragão para lutar por você
+		O dragão inflige diversos efeitos negativos debilitantes
+		Os efeitos são aplicados apenas se você estiver segurando uma arma de invocação ou ferramenta
+		'''
+}
+
+CinderBlossomStaff: {
+	DisplayName: Cajado da Flor-de-Cinzas
+	Tooltip:
+		'''
+		Invoca uma flor escaldante sobre sua cabeça
+		Só pode haver uma flor
+		'''
+}
+
+CindersOfLament: {
+	DisplayName: Cinzas Lamentosas
+	Tooltip:
+		'''
+		Invoca Cataclismo ou Catástrofe dependendo da posição do mouse
+		Eles olharão para você antes de realizar uma investida na sua direção
+		Eles podem machucar você e os inimigos
+		[c/C61B40:'A Bruxa, uma pecadora de suas próprias criações,]
+		[c/C61B40:Dentro de sua mente jaz seu demônio, sempre paciente, até o fim dos tempos.']
+		'''
+}
+
+Cnidarian: {
+	DisplayName: Cnidariano
+	Tooltip:
+		'''
+		Pesca uma água-viva elétrica
+		Periodicamente libera faísca para eletrocutar inimigos próximos
+		[c/5C95A1:'Observando seus irmãos menos sábios, os habitantes do Velho Reino adaptaram ferramentas e armas projetadas para eficiência subaquática.]
+		[c/5C95A1:As propriedades elétricas dos sinos fantasmas permanecem úteis mesmo após a morte, tendo sido comumente usados como condutores.']
+		'''
+}
+
+CorroslimeStaff: {
+	DisplayName: Cajado da Geleia Corrosiva
+	Tooltip: Invoca uma Geleia Corrosiva para lutar por você
+}
+
+CorvidHarbringerStaff: {
+	DisplayName: Cajado do Mensageiro Corvídeo
+	Tooltip:
+		'''
+		Invoca um corvo poderoso que teleporta e realiza investidas
+		'Nunca mais'
+		'''
+}
+
+CosmicImmaterializer: {
+	DisplayName: Imaterializador Cósmico
+	Tooltip:
+		'''
+		Invoca um espiral de energia cósmica para lutar por você
+		O orbe disparará barragens de raios de energia teleguiados quando inimigos forem detectados por ele
+		Requer 10 espaços de lacaio e só pode haver um espiral de energia
+		'''
+}
+
+CosmicViperEngine: {
+	DisplayName: Motor da Víbora Cósmica
+	Tooltip:
+		'''
+		Invoca uma nave de guerra cósmica para abater seus inimigos
+		As naves de guerra dispararão projéteis de seu inventário
+		Alterna entre disparar foguetes e projéteis
+		50% de chance de economizar munição
+		Os foguetes não consomem munição
+		'''
+}
+
+Cosmilamp: {
+	DisplayName: Lâmpada Cósmica
+	Tooltip:
+		'''
+		Invoca uma lâmpada cósmica sobre sua cabeça para lutar por você
+		Cada lâmpada requer 2 espaços de lacaio
+		'''
+}
+
+CrimslimeStaff: {
+	DisplayName: Cajado da Geleia do Carmim
+	Tooltip: Invoca uma geleia do carmim para lutar por você
+}
+
+CryogenicStaff: {
+	DisplayName: Cajado Criogênico
+	Tooltip:
+		'''
+		Invoca uma construção de gelo animada para protegê-lo
+		A taxa de disparo e o alcance aumentam à medida que o inimigo é focado por mais tempo
+		'''
+}
+
+DaedalusGolemStaff: {
+	DisplayName: Cajado do Golem de Dédalo
+	Tooltip:
+		'''
+		Invoca um soldado Golem de Dédalo que dispara pelotas e eletricidade
+		'O brilhante deus da ganância'
+		'''
+}
+
+DankStaff: {
+	DisplayName: Cajado Nojento
+	Tooltip: Invoca um rastejante nojento para lutar por você
+}
+
+DazzlingStabberStaff: {
+	DisplayName: Cajado do Esfaqueador Deslumbrante
+	Tooltip: Invoca uma lâmina sagrada para lutar por você
+}
+
+DeathstareRod: {
+	DisplayName: Bastão do Olhar da Morte
+	Tooltip:
+		'''
+		Invoca um olho sobre sua cabeça que observa-o e atira nos inimigos
+		Só pode haver um olho por vez
+		'''
+}
+
+DeepseaStaff: {
+	DisplayName: Cajado do Mar Profundo
+	Tooltip: Invoca uma estrela aquática para lutar por você
+}
+
+DormantBrimseeker: {
+	DisplayName: Caçador de Enxofre
+	Tooltip:
+		'''
+		Invoca um caçador de enxofre para acompanhar você
+		Disparar outro caçador de enxofre quando todos os espaços de lacaio estiverem cheios invoca uma aura de enxofre
+		A aura fortalece seus caçadores de enxofre e produz bolas de fogo que causam dano
+		Apenas uma aura pode estar ativada por vez
+		Você podia jurar que eles ficaram ainda mais assustadores quando olhou para seus reflexos no espelho
+		'''
+}
+
+DragonbloodDisgorger: {
+	DisplayName: Expurgador de Sangue
+	Tooltip:
+		'''
+		Invoca um dragão esqueletal e suas duas crianças
+		Os cuspes dos bebês curam passivamente o jogador
+		Requer seis espaços de lacaios para ser invocado
+		Só pode haver uma família por vez
+		'''
+}
+
+DreadmineStaff: {
+	DisplayName: Cajado da Mina Medonha
+	Tooltip: Invoca uma torreta de minas medonhas para lutar por você
+}
+
+ElementalAxe: {
+	DisplayName: Machado Elemental
+	Tooltip: Invoca um machado elemental para lutar por você
+}
+
+EnchantedConch: {
+	DisplayName: Concha Encantada
+	Tooltip: Invoca um caranguejo eremita para lutar por você
+}
+
+Endogenesis: {
+	DisplayName: Endogênese
+	Tooltip:
+		'''
+		Invoca uma construção de gelo ascendida para protegê-lo
+		Alterne entre modos de ataque reinvocando ou reutilizando o cajado
+		O primeiro modo a faz disparar lasers varredores na direção do inimigo
+		O segundo modo sacrifica seus membros para disparar projéteis teleguiados
+		O terceiro modo permite que ela colida agressivamente contra seus inimigos
+		O quarto modo faz com que os membros funcionem como lança-chamas endotérmicos
+		Requer 10 espaços de lacaio para ser invocado
+		Só pode haver uma construção por vez
+		[c/B0FBFF:'Sem trocadilhos gelados']
+		'''
+}
+
+EndoHydraStaff: {
+	DisplayName: Cajado da Endo-Hidra
+	Tooltip:
+		'''
+		Invoca uma entidadee endotérmica frígida de uma cabeça
+		Se a entidade já existe, utilizar este item novamente fará com que ela receba mais cabeças
+		'''
+}
+
+EntropysVigil: {
+	DisplayName: Vigília da Entropia
+	Tooltip:
+		'''
+		Invoca um Clone da Calamitas em miniatura e seus mini-irmãos para te proteger
+		Um trio de lacaios requer dois espaços de lacaios
+		'''
+}
+
+EtherealSubjugator: {
+	DisplayName: Subjugador Etéreo
+	Tooltip: Invoca um fantasma para te proteger
+}
+
+EyeOfNight: {
+	DisplayName: Olho da Noite
+	Tooltip: Invoca um globo ocular doentio que dispara células que grudam nos inimigos
+}
+
+FlamsteedRing: {
+	DisplayName: Anel de Flamsteed
+	NoSpaceTextTop: Impossível Implantar
+	NoSpaceTextBottom: Espaço insuficiente!
+	Tooltip:
+		'''
+		Invoca uma meca colossal que pode ser controlada
+		<right> para exibir o painel de controle da meca
+		O painel possui três configurações, selecionadas utilizando os colchetes nas bordas da interface
+		Cada colchete liga dois de três funções possíveis, representados pelos ícones circulares
+		O ícone do canto inferior esquerdo miniaturiza a meca ao tamanho do jogador, mas enfraquece suas armas
+		O ícone no canto inferior direito é um impulsionador a jato poderoso que reforça muito o movimento
+		O ícone do topo é o equipamento da meca. Ele deve ser ligado para que seja possível atacar
+		Clique no ícone no topo para alternar entre Regicídio, uma lâmina de energia enorme, e um rifle Gauss poderoso
+		Sair da montaria enquanto um chefe estiver vivo irá temporariamente reduzir a sua velocidade de movimento
+		[c/87CEEB:'Agora, faça-os pagar']
+		'''
+}
+
+FleshOfInfidelity: {
+	DisplayName: Carne da Infidelidade
+	Tooltip: Invoca uma bola de carne com tentáculos que espirra sangue nos inimigos
+}
+
+FlowersOfMortality: {
+	DisplayName: Flores da Mortalidade
+	Tooltip:
+		'''
+		Invoca cinco flores arco-íris sobre sua cabeça
+		As flores combinadas consomem 3 espaços de lacaio
+		'''
+}
+
+ForgottenApexWand: {
+	DisplayName: Varinha do Ápice Esquecida
+	Tooltip:
+		'''
+		Invoca tubarões minerais antigos para enfrentar seus inimigos
+		'Parece ter perdido a mandíbula há algum tempo'
+		'''
+}
+
+FrostBlossomStaff: {
+	DisplayName: Cajado da Flor Congelante
+	Tooltip:
+		'''
+		Invoca uma flor congelada sobre sua cabeça
+		Só pode haver uma flor por vez
+		'''
+}
+
+FuelCellBundle: {
+	DisplayName: Pacote de Célula-Combustível
+	Tooltip: Libera uma variante pequena especial das pestíferas
+}
+
+GammaHeart: {
+	DisplayName: Coração Gama
+	Tooltip: Invoca cabeças radiativas que são anexadas ao seu corpo
+}
+
+GastricBelcherStaff: {
+	DisplayName: Cajado do Arrotador Gástrico
+	Tooltip:
+		'''
+		Invoca aberrações aquáticas para protegê-lo
+		As aberrações disparam vômito em inimigos próximos a cada três golpes de disparar bolhas
+		'''
+}
+
+GlacialEmbrace: {
+	DisplayName: Abraço Glacial
+	Tooltip:
+		'''
+		Invoca o poder do antigo castelo de gelo
+		Para cada espaço de lacaio, você receberá um espinho de escudo orbital adicional
+		Estes espinhos aceleram rapidamente na direção de um inimigo próximo para infligir um dano pesado
+		Eles levam um tempo para regenerar depois de lançarem-se no alvo
+		<right> para invocar um outro anel em volta do inimigo alvo, que lentamente converge e depois explode
+		'''
+}
+
+GuidelightofOblivion: {
+	DisplayName: Luz-Guia do Oblívio
+	Tooltip:
+		'''
+		Invoca uma torreta lanterna para lutar por você
+		'As sombras sonham com fogo sem fim, chamas devoram e brasas mergulham'
+		'''
+}
+
+HauntedScroll: {
+	DisplayName: Pergaminho Amaldiçoado
+	Tooltip: Invoca uma pilha de pratos amaldiçoados para lutar por você
+}
+
+HerringStaff: {
+	DisplayName: Cajado do Arenque
+	Tooltip: Invoca um cardume de arenques para lutar por você
+}
+
+HivePod: {
+	DisplayName: Casulo-Colmeia
+	Tooltip: Invoca uma colmeia astral para protegê-lo
+}
+
+IgneousExaltation: {
+	DisplayName: Exaltação Ígnea
+	Tooltip:
+		'''
+		Invoca uma lâmina ígnea que orbita o cursor
+		Clique com o botão direito para disparar todas as lâminas na direção do cursor
+		'''
+}
+
+InfectedRemote: {
+	DisplayName: Controle Remoto Infectado
+	Tooltip:
+		'''
+		Invoca um híbrido de pestífera humanóide, de codinome 'Virili', para auxiliá-lo na batalha
+		Virili requer 3 espaços de lacaio para ser invocada, e só pode ser invocada uma vez
+		Virili usa uma variedade de ataques em ciclo cronometrado
+		Todos os ataques espalham a praga, como era sua intenção original
+
+		'Há uma única etiqueta na parte de trás:
+		[c/1FFBFF:AVISO: Sujeito é extremamente corrosivo e contagioso. Evite contato direto.']
+		'''
+}
+
+KingofConstellationsTenryu: {
+	DisplayName: Tenryū, Rei das Constelações
+	Tooltip:
+		'''
+		Usa 4 espaços de lacaio para invocar um par de dragões celestiais para lutar por você
+		Só pode haver um par de dragões por vez
+		'Aqueles que devorarão a Estrela Imóvel'
+		'''
+}
+
+Metastasis: {
+	DisplayName: Metástase
+	Tooltip:
+		'''
+		Invoca um Sepulcro para lutar por você
+		Enquanto o Sepulcro está ativado, corações de enxofre começarão a aparecer e orbitar você
+		Ele tentará atacá-lo com mais frequência dependendo da quantidade de corações presentes
+		Custa 4 espaços de lacaio e só pode ser invocado uma vez
+		[c/C61B40:Um possível futuro contemplado da serpente cósmica,]
+		[c/C61B40:Um aviso terrível para aqueles cegos pela fome de poder.]
+		'''
+}
+
+MidnightSunBeacon: {
+	DisplayName: Sinalizador do Sol da Meia-Noite
+	Tooltip: Invoca um OVNI para vaporizar os inimigos
+}
+
+MirrorofKalandra: {
+	DisplayName: Espelho de Kalandra
+	Tooltip:
+		'''
+		Invoca cinco armas antigas para aniquilar seus inimigos
+		Só pode haver uma de cada arma individual
+		[c/BD7F59:O Desfavor de Atziri corta brutalmente os inimigos]
+		[c/E7A7FF:A Forja Estelar rasga os inimigos e ocasionalmente induz explosões cósmica]
+		[c/868B8F:A Paradóxica se teletransporta para os inimigos e os atravessa em alta velocidade]
+		[c/EBC3A5:A Rasga-Ventos dispara uma única flecha poderosa e de alta velocidade nos inimigos]
+		[c/9B6856:O Triturador de Esperanças atira flechas que se dividem em três e perfuram os inimigos duas vezes]
+		'Supremo, Imensurável, Indescritível'
+		'''
+}
+
+OrthoceraShell: {
+	DisplayName: Concha de Ortocera
+	Tooltip: Invoca uma ortocera sentinela na posição do mouse
+}
+
+Perdition: {
+	DisplayName: Perdição
+	Tooltip:
+		'''
+		Invoca um sinalizador na posição do mouse
+		Quando um alvo é selecionado manualmente através do clique direito, ele libera torrentes de almas de baixo para cima do alvo
+		Requer 5 espaços de lacaio para invocar e apenas um sinalizador pode existir por vez
+		'''
+}
+
+PlantationStaff: {
+	DisplayName: Cajado da Plantação
+	Tooltip:
+		'''
+		Invoca uma Plantera em miniatura para devastar os inimigos com sua fúria floral
+		Requer 3 espaços de lacaio e só pode haver uma Mini-Plantera por vez
+		'''
+}
+
+PolypLauncher: {
+	DisplayName: Lançador de Pólipos
+	Tooltip: Invoca um aglomerado de pólipos que lançam pedaços de coral nos inimigos próximos
+}
+
+PuffShroom: {
+	DisplayName: Cogumelo-Folha
+	Tooltip: Invoca um guerreiro cogumelo fofinho para lutar por você
+}
+
+ResurrectionButterfly: {
+	DisplayName: Borboleta da Ressurreição
+	Tooltip:
+		'''
+		Invoca um par de borboletas para lutar por você
+		'Lembrando da melancolia da existência humana
+		Até os fantasmas se desviam do caminho da retidão'
+		'''
+}
+
+RustyBeaconPrototype: {
+	DisplayName: Protótipo de Sinalizador Enferrujado
+	Tooltip:
+		'''
+		Invoca um drone há muito abandonado para apoiá-lo
+		O drone flutua parado The drone hovers in place and releases toxic waves that irradiate hit enemies
+		'''
+}
+
+SanctifiedSpark: {
+	DisplayName: Faísca Santificada
+	Tooltip: Invoca uma torreta de energia para lutar por você
+}
+
+SandSharknadoStaff: {
+	DisplayName: Cajado do Tornado de Tubarão-Areia
+	Tooltip: Invoca um tornado de areia para lutar por você
+}
+
+SarosPossession: {
+	DisplayName: Posse de Saros
+	Tooltip:
+		'''
+		Invoca uma aura radiante que dá controle absoluto da própria luz
+		A aura aniquilará os inimigos com orbes de radiância
+		Só pode haver uma aura por vez
+		Requer 8 espaços de lacaio
+		'''
+}
+
+ScabRipper: {
+	DisplayName: Arranca-Crostas
+	Tooltip: Invoca uma aranha de sangue bebê para protegê-lo
+}
+
+ShellfishStaff: {
+	DisplayName: Cajado do Marisco
+	Tooltip:
+		'''
+		Invoca um marisco para lutar por você
+		Cada marisco requer 2 espaços de lacaio
+		'''
+}
+
+Sirius: {
+	DisplayName: Sírius
+	Tooltip:
+		'''
+		Invoca a estrela mais brilhante do céu noturno para brilhar sobre seus inimigos
+		Só pode haver uma estrela por vez
+		Requer 6 espaços de lacaio
+		'''
+}
+
+SlimePuppetStaff: {
+	DisplayName: Cajado do Fantoche de Geleia
+	Tooltip:
+		'''
+		Invoca uma bola de geleia para seguí-lo
+		A bola voa na direção dos inimigos próximos e explode em mais geleia ao atingir o inimigo
+		Não consome espaços de lacaio
+		'''
+}
+
+SpikecragStaff: {
+	DisplayName: Cajado de Picos-De-Promontório
+	Tooltip: "[GFB]"
+	TooltipNormal: Invoca um picos-de-promontório para protegê-lo
+	TooltipGFB:
+		'''
+		Invoca um picos-de-promontório para protegê-lo"
+		Derrotar a Deusa Profana libera seu verdadeiro poder
+		'''
+}
+
+SquirrelSquireStaff: {
+	DisplayName: Cajado do Esquilo Escudeiro
+	Tooltip: Invoca um esquilo escudeiro para lutar por você
+}
+
+StaffOfNecrosteocytes: {
+	DisplayName: Cajado de Necrosteócitos
+	Tooltip:
+		'''
+		Invoca pequenos esqueletos para lutar por você
+		Os esqueletos deixam para trás células ósseas conforme viajam
+		'''
+}
+
+StaffoftheMechworm: {
+	DisplayName: Cajado do Mecaverme
+	Tooltip: Invoca um mecaverme aéreo para lutar por você
+}
+
+StarspawnHelixStaff: {
+	DisplayName: Cajado Espiralado da Cria Estelar
+	Tooltip: Invoca sondas astrais para protegê-lo
+}
+
+StellarTorusStaff: {
+	DisplayName: Cajado do Toro Estelar
+	Tooltip: Invoca um Toro Orbital que frita os inimigos com um feixe de luz telescópico
+}
+
+StormjawStaff: {
+	DisplayName: Cajado da Mandíbula-Trovão
+	Tooltip: Invoca uma formiga-trovão para lutar por você
+}
+
+SunSpiritStaff: {
+	DisplayName: Cajado do Espírito Solar
+	Tooltip:
+		'''
+		Invoca um espírito solar para protegê-lo
+		Só pode haver um espírito por vez
+		'''
+}
+
+TacticalPlagueEngine: {
+	DisplayName: Motor de Praga Tático
+	Tooltip:
+		'''
+		Invoca um jato da praga para esmagar seus inimigos até a submissão
+		Os jatos dispararão projéteis de seu inventário
+		Ás vezes disparam um míssil em vez de um projétil
+		50% de chance de economizar munição
+		Os mísseis não consomem munição
+		'''
+}
+
+TemporalUmbrella: {
+	DisplayName: Guarda-Chuva Temporal
+	Tooltip:
+		'''
+		Invoca uma variedade de ferramentas para auxiliá-lo na batalha
+			- Uma flecha vermelha para perfurar seus adversários
+			- Um martelo marmelada para bater nos inimigos com estilo
+			- Um machado de jade para cortar monstros e ocasionalmente derrubar uma árvore
+			- Um guarda-chuva ciano para derrotar seus inimigos com elegância
+			- Um rifle de lavanda para atirar em quem estiver no seu caminho
+		E o melhor de tudo, você pode usar uma cartola
+		Requer 5 espaços de lacaios para usar e só pode haver um conjunto de ferramentas por vez
+		'Surpreendentemente resistente, acho que isso poderia derrotar a Máfia com um único golpe'
+		'''
+}
+
+TundraFlameBlossomsStaff: {
+	DisplayName: Cajado das Flores da Tundra Flamejante
+	Tooltip:
+		'''
+		Invoca três orquídeas sobre sua cabeça
+		Cada flor consome um espaço de lacaio
+		'''
+}
+
+UniverseSplitter: {
+	DisplayName: Divisor de Universos
+	Tooltip:
+		'''
+		Invoca um campo de energia no cursor
+		Após o campo ser implantado, ele começa a convocar vários pequenos feixes
+		Após vários segundos, um enorme raio laser aparece na posição do campo
+		Este efeito possui um tempo de recarga
+		Tentar usar este item durante o tempo de recarga causará um curto-circuito e causará dano a você
+		[c/BB57FF:'Um artefato antigo de uma era passada aguarda seu comando.]
+		[c/BB57FF:Essa é uma ideia terrível, mas não é sua de qualquer maneira... né?']
+		'''
+}
+
+VengefulSunStaff: {
+	DisplayName: Cajado do Sol Vingativo
+	Tooltip:
+		'''
+		Invoca um espírito solar vingativo para protegê-lo
+		Só pode haver um espírito por vez
+		'''
+}
+
+Vigilance: {
+	DisplayName: Vigilância
+	Tooltip: Summons a soul seeker to fight for you
+}
+
+VileFeeder: {
+	DisplayName: Alimentador Vil
+	Tooltip:
+		'''
+		Invoca um devorador de almas bebê para protegê-lo
+		'Este aqui não devora bebês... eu acho.'
+		'''
+}
+
+ViralSprout: {
+	DisplayName: Broto Viral
+	Tooltip:
+		'''
+		Invoca um espírito sábio para lutar por você
+		Inflige Veneno de Sábio, um efeito negativo que se torna mais forte conforme a quantidade de espíritos invocados
+		'''
+}
+
+ViridVanguard: {
+	DisplayName: Vanguarda Viril
+	Tooltip: Invoca uma formação circular de lâminas que cortam inimigos próximos em mil pedaços
+}
+
+VoidConcentrationStaff: {
+	DisplayName: Cajado da Concentração do Vazio
+	Tooltip:
+		'''
+		Invoca uma aura agourenta que ataca disparando orbes do vazio
+		O dano por invocação é aumentado em 5% enquanto a aura estiver ativa
+		Requer três espaços de lacaio para ser utilizado
+		Só pode haver uma aura por vez
+		<right> para lançar um buraco negro que cresce em tamanho
+		'''
+}
+
+WarloksMoonFist: {
+	DisplayName: Punho da Lua de Warloks
+	Tooltip:
+		'''
+		Invoca um punho celestial para socar os inimigos para você
+		Requer quatro espaços de lacaio para ser utilizado
+		'''
+}
+
+WitherBlossomsStaff: {
+	DisplayName: Cajado de Flores Murchas
+	Tooltip:
+		'''
+		Invoca flores em decomposição sobre sua cabeça
+		As flores combinadas consomem 2 espaços de lacaio
+		'''
+}
+
+WulfrumController: {
+	DisplayName: Controle de Vulfrúmio
+	Tooltip:
+		'''
+		Invoca um dróide de vulfrúmio para lutar por você
+		Segure o <right> enquanto segura o controle para alternar o modo de seus drones para a supercarga
+		Dróides supercarregados não atacarão e focarão energia de vulfrúmio em você
+		Dróides supercarregados concedem regeneração de +0,5 de vida por segundo e 3 de defesa por dróide
+		Também pode ser usado para curar outros jogadores mantendo o cursor do mouse próximo o suficiente deles
+		'''
+}
+
+YharonsKindleStaff: {
+	DisplayName: Cajado da Chama de Yharon
+	Tooltip:
+		'''
+		Invoca um draconídeo flamejante para lutar por você
+		Requer 5 espaços de lacaio para ser utilizado
+		'''
+}
+
+MutatedTruffle: {
+	DisplayName: Trufa Mutada
+	Tooltip:
+		'''
+		Invoca um peixe-dragão mais jovem para irradiar seus inimigos
+		O peixe-dragão alternará entre carga, projéteis e um tufão
+		Requer 3 espaços de lacaio para ser utilizada
+		Só pode haver um desse lacaio
+		'''
+}
+
+HarvestStaff: {
+	DisplayName: Cajado da Colheita
+	Tooltip:
+		'''
+		Cultiva um canteiro de abóboras que brota abóboras por perto
+		As abóboras saltarão quando criaturas ou jogadores próximos se aproximarem
+		Uma vez fora, elas atacarão agressivamente os inimigos, explodindo ao serem atingidas
+		'Já olhou pra alguém e pensou: O que se passa na cabeça dela?'
+		'''
+}
+
+LiliesOfFinality: {
+	DisplayName: Lírios da Finalidade
+	Tooltip:
+		'''
+		Requer 2 espaços de lacaio para ser utilizado
+		Só pode ser invocado uma vez
+		'Acorde'
+		'''
+}

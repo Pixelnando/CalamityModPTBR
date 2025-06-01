@@ -1,0 +1,164 @@
+SetBonus: {
+	Adamantite: {
+		$parentVal:
+			'''
+			Metade da sua redução dos danos é adicionado à sua chance de acerto crítico
+			Causar dano continuamente faz com que você ganhe mais defesa gradualmente, até um máximo de {0}
+			Enquanto não causa dano, esse bônus decai gradualmente
+			Esta defesa adicional pode ser quebrada por dano na defesa
+			'''
+		Melee: 15% de aumento na velocidade dos ataques físicos e 20% de aumento na velocidade dos movimentos
+	}
+
+	Chlorophyte:
+		'''
+		Invoca um poderoso cristal de folha para disparar pulsos vitais a cada {0} segundos
+		Os pulsos causam um dano básico de {1} a inimigos no seu alcance
+		Os pulsos também concedem um reforço de {2} de vida a você e a todos os jogadores no seu time
+		Jogadores curados por pulsos não podem ser curados por outros pulsos até que {3} segundos tenham passado
+		O reforço de vida e o dano aumentam de acordo com a sua classe mais poderosa
+		'''
+
+	Cobalt: {
+		$parentVal:
+			'''
+			{0}% de aumento na velocidade máxima e aceleração máxima
+			Você ganha um aumento no dano e na chance de acerto crítico com base na sua velocidade de movimento atual, até {0}%
+			'''
+		Melee: 10% de aumento nos danos por ataque físico
+	}
+
+	Copper: Aumenta todos os danos em 2
+	Crimson:
+		'''
+		Regeneração de vida natural muito maior
+		A regeneração de vida é aumentada à medida que você não sofre danos
+		Ficar parado também amplifica muito a regeneração de vida
+		'''
+	Eskimo:
+		'''
+		Multiplica os danos de todos os efeitos negativos relacionados ao frio em 1,25x
+		Inimigos gelados causam menos dano de contato ao jogador
+		Concede imunidade aos efeitos negativos Resfriado, Congelado, Queimadura de gelo, e Estado glacial
+		'''
+	Frost:
+		'''
+		Os ataques físicos e à distância causam queimadura de gelo
+		{0}% de aumento nos danos que aumenta de acordo com a distância que o alvo está de você
+		A proximidade concede mais dano por ataque físico, enquanto a distância concede mais dano por ataque à distância
+		'''
+	Gladiator:
+		'''
+		+3 de defesa
+		+60 de furtividade máxima
+		5% de aumento nos danos por ataque ladino e 10% de aumento na velocidade dos projéteis ladinos
+		'''
+	Gold:
+		'''
+		Todos os inimigos têm 4% de chance de deixar cair 1 ouro
+		Todos os chefes derrotados deixam cair 3 ouros
+		Você ganha 1% de chance de acerto crítico para cada 5 ouros no seu inventário, com um limite de 10%
+		'''
+	Iron:
+		'''
+		Aumenta a redução dos danos em 6%
+		Regeneração de +1 de vida por segundo
+		'''
+	Jungle: 10% de redução no custo de mana
+	Lead:
+		'''
+		Aumenta a redução dos danos em 3%
+		Regeneração de +0.5 de vida por segundo
+		Concede imunidade ao recuo
+		'''
+	Meteor: Arma espacial custa 50% a menos de mana
+	Mining: A mineração de minérios às vezes terá um rendimento adicional
+	Molten:
+		'''
+		20% de aumento no dano por ataque físico
+		Concede imunidade a blocos de fogo e imunidade temporária à lava
+		'''
+	MonkTier2:
+		'''
+		10% de aumento na velocidade do ataque físico, chance de acerto crítico físico, e dano por ataque físico
+		15% de aumento nos danos por invocação
+		'''
+	Mythril:
+		'''
+		Atingir o inimigo fará com que sinalizadores de mithril sejam liberados, que seguirão o inimigo após um curto período de tempo
+		Quando um sinalizador é criado, há um tempo de recarga de {0} quadros antes que outro possa aparecer
+		'''
+	/* Nebula:
+		'''
+		Pink damage boosters grant 7.5% damage per stack
+		Orange life boosters grant +2 HP/s life regen per stack
+		Blue mana boosters grant +5 MP/s mana regen per stack
+		''' */
+	Necro:
+		'''
+		Permite que você sobreviva temporariamente a danos fatais
+		Concede até {0} segundos de vida antes da morte iminente
+		'''
+	Obsidian:
+		'''
+		Aumenta o alcance dos chicotes em 50% e a velocidade em 15%
+		Aumenta os danos por invocação em 15%
+		Concede imunidade a blocos de fogo e imunidade temporária à lava
+		'''
+	/* Palladium:
+		'''
+		Grants +2 HP/s life regeneration after striking an enemy
+		This life regeneration bypasses negative life regeneration
+		''' */
+	PlatinumChainmail: 3% de aumento na chance de acerto crítico
+	Platinum:
+		'''
+		Cada 10 pontos de defesa lhe concede regeneração de +0,5 de vida por segundo, 1% de aumento nos danos e 1% de aumento na chance de acerto crítico
+		Estes efeitos atingem seus limites com 40 de defesa
+		'''
+	Silver:
+		'''
+		Concede regeneração de +0,5 de vida por segundo
+		Dois segundos depois de ser atingido por 20 ou mais de dano, você é curado em 10 de vida
+		Ser atingido novamente reinicia o efeito, atrasando a cura
+		'''
+	Tin: Aumenta a perfuração da blindagem em 5
+	Tungsten:
+		'''
+		Aumenta a sua chance de acerto crítico em 100% do recuo da sua arma selecionada
+		Este efeito atinge seu limite no recuo insano, que concede 10% de aumento na chance de acerto crítico
+		Aumenta todo o recuo em 33%, isto conta para o reforço acima
+		Bônus atual: {0}% de aumento na chance de acerto crítico de {1} de recuo
+		'''
+	MagicHat: Aumenta a mana máxima em 40
+	Wizard: 4% de aumento na chance de acerto crítico mágico
+	CrystalAssassin:
+		'''
+		Permite realizar uma investida
+		10% de aumento nos danos e na chance de acerto crítico
+		'''
+	SquireTier2:
+		'''
+		Aumenta sua regeneração de vida
+		15% de aumento nos danos por invocação e 10% de aumento na chance de acerto crítico físico
+		'''
+	HuntressTier2: 10% de aumento nos danos por invocação e no dano por ataque à distância
+	ApprenticeTier2: 5% de aumento nos danos por invocação e 15% de aumento na chance de acerto mágico crítico
+	MonkTier3:
+		'''
+		10% de aumento nos danos por ataque físico, chance de acerto crítico físico e velocidade do ataque físico
+		30% de aumento nos danos por invocação
+		'''
+	SquireTier3:
+		'''
+		Aumenta de forma significativa a regeneração de vida
+		10% de aumento nos danos por invocação e na chance de acerto crítico físico
+		'''
+	HuntressTier3: 10% de aumento nos danos por invocação e ataque à distância
+	ApprenticeTier3: 10% de aumento nos danos por invocação e 15% de aumento na chance de acerto crítico mágico
+	SpectreHealing:
+		'''
+		Reduz o dano por Magia em 20% e converte-o em força de cura
+		O dano por magia causado a inimigos cura o jogador com menos vida restante
+		'''
+}

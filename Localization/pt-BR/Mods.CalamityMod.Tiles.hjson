@@ -1,0 +1,60 @@
+// Ambient Objects
+GiantBulb: Bulbo Gigante da Plantera
+Fossil: Fóssil
+Column: Coluna
+Ribs: Costelas
+Stalagmite: Estalagmite
+Stalactite: Estalactite
+PirateCrate: Caixote Abandonado
+// Basic Calamity Furniture
+Basin: Cadinho
+// LavaFountain: Lava Fountain
+PipeOrgan: Órgão de Tubos
+Sconce: Arandela
+// Draedon Lab Furniture
+Console: Console
+ContainmentBox: Caixa de Contenção
+Display: Monitor
+ElectricPanel: Painel Elétrico
+ReinforcedCrate: Caixote Reforçado
+Screen: Tela
+Server: Servidor
+Terminal: Terminal
+// Individual entries
+// Sulphurous Sea & Abyss
+SteamGeyser.MapEntry: Gêiser
+AbyssVent.MapEntry: Abertura de Vapor
+ThermalVent.MapEntry: Abertura Térmica
+// Brimstone Crag
+SpineSapling.MapEntry: Muda de Espinha
+SpineTree.MapEntry: Espinha Gigante
+// Draedon
+InactivePowerCellFactory.MapEntry: Fábrica de Baterias Inativa
+OnyxExcavatorTile.MapEntry: Escavadeira de Ônix
+CodebreakerTile.MapEntry: O Decifrador
+// Ores
+AerialiteOre.MapEntry: Aerólita
+AerialiteOreDisenchanted.MapEntry: Aerólita Desencantada
+AstralOre.MapEntry: Minério Astral
+AuricOre.MapEntry: Auricanita
+CryonicOre.MapEntry: Crionita
+ExodiumOre.MapEntry: Exódio
+HallowedOre.MapEntry: Minério Consagrado
+InfernalSuevite.MapEntry: Suevite Infernal
+PerennialOre.MapEntry: Perene
+ScoriaOre.MapEntry: Escória
+UelibloomOre.MapEntry: Ueliflor
+// Misc
+ArenaTile.MapEntry: Arena
+
+AshenChest: {
+	MapEntry0: "{$Mods.CalamityMod.Items.Placeables.AshenChest.DisplayName}"
+	MapEntry1: "{$Mods.CalamityMod.Items.Placeables.AshenChest.DisplayName} Bloqueado"
+}
+
+AstralChestLocked: {
+	MapEntry0: "{$Mods.CalamityMod.Items.Placeables.AstralChest.DisplayName}"
+	MapEntry1: "{$Mods.CalamityMod.Items.Placeables.AstralChest.DisplayName} Bloqueado"
+}
+
+PlaguedPlateBed.MapEntry: "'Cama'"

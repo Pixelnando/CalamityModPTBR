@@ -1,0 +1,227 @@
+DraedonPowerCell: {
+	DisplayName: Bateria de Draedon
+	Tooltip:
+		'''
+		Usado para carregar o armamento de Draedon em uma Estação de Carregamento
+		Também pode ser processado no Extrator para receber peças extras
+		'''
+}
+
+// Codebreaker Pieces
+AdvancedDisplay: {
+	DisplayName: Monitor Avançado
+	Tooltip:
+		'''
+		Pode ser colocado no Decifrador
+		Permite que você descriptografe a esquemática do Submundo
+		Isso permite que você aprenda como criar coisas novas
+		'''
+}
+
+AuricQuantumCoolingCell: {
+	DisplayName: Célula de Resfriamento Quântico Áurico
+	Tooltip:
+		'''
+		Pode ser colocado no Decifrador, completando-o
+		Reduz bastante o tempo levado para descriptografar algo
+		A conclusão do Decifrador permite que você entre em contato com seu criador original
+		[c/8B00000:O criador deste maquinário está pronto, e espera que você também esteja.]
+		'''
+}
+
+CodebreakerBase: {
+	DisplayName: Base do Decifrador
+	Tooltip: ""
+}
+
+DecryptionComputer: {
+	DisplayName: Computador de Descriptografia
+	Tooltip:
+		'''
+		Pode ser colocado no Decifrador
+		Permite que você descriptografe a esquemática do Planetoide
+		Isso permite que você aprenda como criar coisas novas
+		'''
+}
+
+LongRangedSensorArray: {
+	DisplayName: Matriz de Sensores de Longo Alcance
+	Tooltip:
+		'''
+		Pode ser colocado no Decifrador
+		Permite que você descriptografe a esquemática da Selva
+		Isso permite que você aprenda como criar coisas novas
+		'''
+}
+
+VoltageRegulationSystem: {
+	DisplayName: Sistema de Regulação de Voltagem
+	Tooltip:
+		'''
+		Pode ser colocado no Decifrador
+		Permite que você descriptografe a esquemática do bioma de Gelo
+		Isso permite que você aprenda como criar coisas novas
+		'''
+}
+
+// Draedon Logs
+DraedonsLogHell: {
+	DisplayName: Registro de Poluição Ambiental
+	Tooltip:
+		'''
+		[Registro de Ambiente] - Poluição e a "Parede de Carne"
+		Clique para ver o conteúdo
+		'''
+	ContentPage1: O submundo é um reino com uma história que se origina a mais de um milênio, quando os Rochedos foram colonizados pela primeira vez, e age como uma visão do mundo moderno e antigo ao mesmo tempo. Antes de me aliar às forças do Yharim, Azafure era o centro do avanço da ciência neste mundo. Dispositivos explosivos, armas de fogo, técnicas de forja, e até mesmo escolas de magia enraizam-se na cidade. É incontestável que a cidade foi, em grande parte, auxiliada pelo fato de que a forja é algo banal, junto de uma abundância de comida proveniente do escorrimento da essência de Silva do Abismo logo acima. Graças a isso, a cidade prosperou, mesmo com os ataques de demônios ocasionais.
+	ContentPage2: No entanto, Azafure não existiu sem consequências, é claro. Qualquer sociedade de escala tão alta deixa uma pegada ecológica para trás. Isso pode ser visto com a mais alta clareza no mar localizado a quilômetros acima da cidade, conhecido apropriadamente como o Mar Sulfuroso. Gases de enxofre tornaram-se intensos o suficiente pela cidade que começaram a subir através do Abismo por meio de um processo similar à osmose, e eventualmente alcançaram o mar. Reduzir a poluição criada pela cidade, especialmente pela forja, é uma meta a qual Yharim demanda que haja prioridade. Não vejo necessidade nisso, porém ainda é um campo de estudo onde poucos nesse mundo se aprofundaram. Eu me recuso a desperdiçar uma oportunidade de avanço científico.
+	ContentPage3: Um ser em particular aqui tornou-se um sujeito de meu interesse: uma parede enorme criada de material biológico que repousa neste lugar e que foi criada há muitos anos pelos melhores magos de todos os tempos em Azafure. É um ser vivo, mas apenas isso. Não sofre dor, não possui emoções e ocasiona o terror àqueles que a avistam. Ela é altamente protegida pela cidade, e poucos além dos aliados mais próximos do Caça-Deuses tiveram a oportunidade de observá-la.  Por quanto mais Azafure permanecer em pé, é improvável que ela seja realmente libertada. Porém, ainda não deixo de dizer que eu ficaria fascinado em ver os efeitos que a sua libertação causaria no mundo.
+}
+
+DraedonsLogJungle: {
+	DisplayName: Registro de Nanomáquinas da Praga
+	Tooltip:
+		'''
+		[Resultados de Experimentação com Nanomáquinas] - "A Praga"
+		Clique para ver o conteúdo
+		'''
+	ContentPage1: Não seria loucura chamar a selva de núcleo deste planeta. Tudo se encontra ao seu redor, e não há quem não a conheça. Me sinto apreensivo observando seres vivos desconfortáveis em suas formas cruas passando por suas jornadas acima. Felizmente, estes laboratórios me fornecem tudo que eu preciso para minhas pesquisas e mais. Não há por que visitar a superfície, exceto para quando Yharim me convoca.
+	ContentPage2: Poucos viajam por aqui, e ainda menos chegam às profundezas desta estação de pesquisa. Portanto, comecei a usar esse isolamento para desenvolver uma nanotecnologia avançada para controlar mentes biológicas. Eu anseio que ela se torne capaz de se espalhar de organismo a organismo, uma mistura perfeita de um vírus e da nanotecnologia. Ainda assim, é uma tarefa árdua, mesmo com minhas tecnologias recém-desenvolvidas. Isto exige mais experimentação e uma pesquisa mais profunda.
+	ContentPage3: Experimentos contínuos trouxeram resultados significativos. Utilizando uma Abelha Rainha mecanicamente modificada como um hospedeiro primário, ela pode agir como o núcleo da mente coletiva daqueles tocados pela minha praga. No entanto, Yharim ficou indignado quando descobriu sobre os meus experimentos, declarando-os "desumanos". Depois de um breve conflito verbal, ele saiu em silêncio e eu não ouvi mais nada sobre ele desde então. Felizmente, não preciso mais depender daquele que abate os deuses, e nem tenho precisado há anos.
+}
+
+DraedonsLogPlanetoid: {
+	DisplayName: Registro de Estudo de Órbita Baixa
+	Tooltip:
+		'''
+		[Levantamento sobre o Espaço e o Solo] - Órbita Baixa de Terraria
+		Clique para ver o conteúdo
+		'''
+	ContentPage1: Localizado além até mesmo das ilhas celestiais elevadas há tempos imemoriais, encontra-se um fenômeno geológico muito fascinante. No entanto, ao contrário das ilhas, a sua natureza aérea parece ter se desenvolvido de forma mais orgânica. Especulo que eles tenham sido formados há muito tempo, quando o mundo estava em sua infância, julgando pelos exemplos de solo que coletei enquanto testava o crescimento de plantas em atmosfera alta.  Talvez estes "planetóides", como muitos a eles se referem, formaram-se através de impactos de meteoros que arremessaram matéria ao alto da atmosfera. Isso simultaneamente explicaria muitas estranhezas geológicas que eu encontrei na superfície deste mundo.
+	ContentPage2: Viajar entre mundos é uma fascinação minha. Os planetas que estão a distâncias razoáveis a este não me fornecem utilidade alguma em termos de materiais ou oportunidades de estudo. Então, eu desejo ir além deste mero aglomerado de planetas algum dia. No entanto, muitas mais décadas de avanço tecnológico serão necessárias para permitir isso, pois a viagem interplanetária levaria anos mesmo na velocidade máxima atingível pela matéria atualmente. Talvez eu encontrarei uma maneira de atravessar este limite no momento em que este mundo não me interessar mais.
+	ContentPage3: Um pedido de Yharim foi entregue. Um inquérito para criar uma armadura para a serpente que se uniu a suas forças recentemente, o "Devorador de Deuses", como ele se autodenomina. Ele é um ser arrogante, porém muito fascinante. Então, aproveitei a oportunidade para aprender mais sobre a dimensão dele. Usando materiais do seu lugar de origem, eu forjei uma armadura de proporções imensas e resistência extrema, porém dotada de uma flexibilidade extraordinária. Certamente, é um dos materiais mais únicos com os quais eu já tive a oportunidade de trabalhar, e avançou grandemente o meu conhecimento. Contudo, com isso, tenho aprendido mais do que o esperado sobre a besta cósmica. Talvez mais do que ele gostaria que eu soubesse.
+}
+
+DraedonsLogSnowBiome: {
+	DisplayName: Registro de Material Criônico
+	Tooltip:
+		'''
+		[Relatório de Ciência Material] - 'Metal Criônico' do Arquimago
+		Clique para ver o conteúdo
+		'''
+	ContentPage1: Uma tundra congelante, onde prosperam apenas aquelas criaturas que adaptaram-se à temperatura abaixo do zero. Poucos seres sagazes já chegaram a habitar este local permanentemente, incluindo alguns mineradores e o Arquimago. Com este fato em mente, Yharim solicitou que eu observasse este lugar em busca de estranhezas, pois os exércitos nunca prestavam atenção neste local. Além disso, fui solicitado pelo Arquimago para realizar estudos sobre seus metais frígidos. Não há muito mais a fazer neste deserto congelado, e então o seu pedido foi aceito.
+	ContentPage2: Minério Criônico, como é simplesmente chamado pelo Arquimago, é um material aparentemente semelhante ao vidro congelado. Suponharia-se à primeira vista que o material é frágil, porém, após a realização de diversos testes, torna-se claro que este não é o caso. Descobriu-se que revestimentos produzidos com o material são mais duráveis e resistentes que a liga de mithril por meio de testes de flexão e tração seguidos de tentativas de destruição. E, ainda por cima, é apenas uma fração do peso. Talvez, quantidades em massa deste material poderiam ser utilizadas para forjar armadura para unidades que não gostam do peso ocasionado por revestimentos de metal. Provavelmente irei inquirir mais sobre os métodos de criação do Minério Criônico para atingir isso.
+	ContentPage3: Como descrito anteriormente, o Minério Criônico foi desenvolvido pelo Arquimago, Pergelissolo. Embora esteja encarregado de ser o mago dos magos, ele tem pouca vontade de entrar em combate. Em vez disso, ele age como um orientador a Yharim, auxiliando-o em grande parte do gerenciamento de cidades e vilarejos tomados ou aliados ao Caça-Deuses. Além disso, ele parece ter desenvolvido laços com a garota que chegou em busca de Yharim há alguns meses, agindo como uma figura paterna para ela. Eu mesmo me interessei pelo imenso poder natural que emana dela.
+}
+
+DraedonsLogSunkenSea: {
+	DisplayName: Registro de Biologia Marinha
+	Tooltip:
+		'''
+		[Pesquisa sobre Bioforma] - Vida Aquática de Ilmeris
+		Clique para ver o conteúdo
+		'''
+	ContentPage1: Um núcleo de diversas espécies marinhas, e todos os restos de Ilmeris que não foram carbonizados. Outrora uma periferia rural, é agora o fragmento final de um reino já não mais poderoso. É de grande sorte que a Bruxa se concentrou apenas em atacar as cidades propriamente ditas e poupou uma parte do mar da Incineração. Há muito tempo anseio por analisar estas águas mais profundamente, mas nunca tive uma oportunidade, devido ao conflito em curso. Apesar da vasta extinção decorrente da devastação, muitas espécies ainda prosperam aqui nas profundezas. É neste laboratório que poderei finalmente estudar de forma adequada a vida aquática e aprender sobre sua natureza.
+	ContentPage2: Embora muitos dos seres marinhos aqui possuam olhos, grande parte sofre de uma visão inepta, podendo processar poucas cores do espectro. São feitos para ver apenas as luzes emitidas pelos prismas ubíquos, e muitas das criaturas dependem deles para se guiarem pelas cavernas submersas. Suas peles são duras e nodosas, e possuem brotos de cristal que de primeira vista suponhei serem os prismas residiando em seus cascos. No entanto, resultados de uma dissecação revelam que, na realidade, estes cristais têm uma origem interna, sendo os brotos tais prismas internos crescendo para fora das suas peles. O crescimento destes cristais, em certos casos, atinge um nível que torna algumas criaturas mais geológicas que biológicas em certas áreas.
+	ContentPage3: Dentre os espécimes presentes aqui, as amêijoas anormalmente enormes são as que mais me chamam a atenção. Seu tamanho, que excede em muitos níveis o tamanho de uma pessoa normal, torna-as imóveis pelos mesmos métodos utilizados por seus homólogos menores. Portanto, elas dependem da teletransportação para locomover seus corpos pesados e fortemente blindados. Tais poderes originam-se de suas habilidades mágicas, relatadas por algumas testemunhas. No entanto, como apenas avistaram-as de longe, seus relatórios podem facilmente ser equivocados. Alternativamente, sua fonte de poder pode ter simplesmente desaparecido após a queda de Ilmeris. Não é sensato descartar inteiramente esta última possibilidade.
+}
+
+// Lab Finders
+CyanSeekingMechanism: {
+	DisplayName: Mecanismo de Procura Ciano
+	Tooltip: Move-se rapidamente em direção a um laboratório nas profundezas do deserto
+}
+
+GreenSeekingMechanism: {
+	DisplayName: Mecanismo de Procura Verde
+	Tooltip: Move-se rapidamente em direção a um laboratório dentro da selva
+}
+
+LabSeekingMechanism: {
+	DisplayName: Mecanismo de Procura de Laboratórios
+	Tooltip: Um receptáculo para tecnologia que localiza os núcleos de poder dos Laboratórios de Draedon
+}
+
+OnyxSeekingMechanism: {
+	DisplayName: Mecanismo de Procura Ônix
+	Tooltip: Move-se rapidamente em direção a um laboratório dentro das cavernas
+}
+
+RedSeekingMechanism: {
+	DisplayName: Mecanismo de Procura Vermelho
+	Tooltip: Move-se rapidamente em direção a um laboratório dentro do submundo
+}
+
+WhiteSeekingMechanism: {
+	DisplayName: Mecanismo de Procura Branco
+	Tooltip: Move-se rapidamente em direção a um laboratório dentro das cavernas congeladas
+}
+
+YellowSeekingMechanism: {
+	DisplayName: Mecanismo de Procura Amarelo
+	Tooltip: Move-se rapidamente em direção a um laboratório no céu
+}
+
+// Schematics
+SchematicUnlocked:
+	'''
+	Já foi decifrada.
+	Clique para ver o conteúdo.
+	Receitas desbloqueadas:
+	'''
+
+EncryptedSchematicHell: {
+	DisplayName: Esquemática Criptografada (Submundo)
+	Tooltip: Requer um Decifrador com um monitor sofisticado para descriptografar
+	Content:
+		'''
+		Apenas os mais graduados nos batalhões de Yharim possuíam essas armas. Contudo, estas ainda não são as minhas ferramentas mais potentes. Tais... personagens não mereciam minha confiança.
+		Adendo: A peça final permanece. Viaje agora do fogo mais ardente, ao frio mais frígido que esta terra tem a oferecer. Não posso negar ter algum senso de simetria poética.
+		'''
+}
+
+EncryptedSchematicIce: {
+	DisplayName: Esquemática Criptografada (Gelo)
+	Tooltip: Requer um Decifrador com um sistema de regulação de voltagem complexo para descriptografar
+	Content:
+		'''
+		Desde então, tenho progredido a armas ainda melhores que estas, mas elas ainda permanecem criações das quais me orgulho. A vontade derivada da dissatisfação é o que garante o progresso.
+		Adendo: O momento chegou. Você está pronto. 
+		'''
+}
+
+EncryptedSchematicJungle: {
+	DisplayName: Esquemática Criptografada (Selva)
+	Tooltip: Requer um Decifrador com um sensor de longo alcance bem ajustado para descriptografar
+	Content:
+		'''
+		A letalidade dos equipamentos progride conforme você gradua. Nas mãos de soldados competentes, as armas têm a capacidade de promover mudanças. No entanto, soldados competentes não tomam ação senão por ordens superiores.
+		Adendo: Se você ler isto, significa que você veio longe. Não decepcione. Agora, vá para o Inferno para coletar o próximo componente, armazenado em minhas antigas forjas.
+		'''
+}
+
+EncryptedSchematicPlanetoid: {
+	DisplayName: Esquemática Criptografada (Planetóide)
+	Tooltip: Requer um Decifrador com um computador de descriptografia básico para descriptografar
+	Content:
+		'''
+		Dentro de um exército, assim como as armas, os soldados servem a diferentes propósitos. Essa distinção é crucial, pois a ferramenta errada nas mãos erradas, não importa quão potente, pode ser tão inútil quanto um porrete de madeira.
+		Adendo: Busque a minha base de operações mais próxima da casa dos Laghartos. Desejo-lhe toda a sorte do mundo, com toda sinceridade, pois já faz muito tempo desde que tive um sujeito de testes digno.
+		'''
+}
+
+EncryptedSchematicSunkenSea: {
+	DisplayName: Esquemática (Mar Profundo)
+	Tooltip:
+		'''
+		Diagramas detalhados de vários dispositivos e armas dançam na tela holográfica
+		Recolher este item ou segurá-lo no seu inventário permanentemente desbloqueará novas receitas
+		Clique para ver o conteúdo
+		'''
+	Content:
+		'''
+		O armamento que forneço aos trabalhadores dos laboratórios é fraco. Pouco adequado para a batalha.
+		No entanto, eles são suficientes para a garantir a autodefesa contra quaisquer mecanismos de laboratório ou criações que possam ter se tornado fora de controle.
+		Adendo: para aqueles que se consideram poderosos, procure nos limites superiores da atmosfera deste planeta uma estrutura semelhante à dos mares profundos.
+		Eu saberei no final se você é digno de lutar contra minhas criações.
+		'''
+}

@@ -1,0 +1,316 @@
+AerospecBreastplate: {
+	DisplayName: Peitoral Aeroespectral
+	Tooltip: 3% de aumento na chance de acerto crítico
+	CommonSetBonus:
+		'''
+		Sofrer mais de 25 de dano de um ataque fará com que penas teleguiadas caiam do céu
+		Faz com que você caia mais rapidamente e desativa o dano de queda
+		'''
+}
+
+AerospecHat: {
+	DisplayName: Chapéu Aeroespectral
+	Tooltip: 8% de aumento nos danos por magia e +20 mana máxima
+	SetBonus: 5% de aumento na velocidade dos movimentos e chance de acerto crítico mágico
+}
+
+AerospecHeadgear: {
+	DisplayName: Capacete Aeroespectral
+	Tooltip: 8% de aumento nos danos por ataque ladino e 5% de aumento na velocidade dos movimentos
+	SetBonus:
+		'''
+		5% de aumento na velocidade dos movimentos e chance de acerto crítico ladino
+		+80 de furtividade máxima
+		'''
+}
+
+AerospecHelm: {
+	DisplayName: Elmo Aeroespectral
+	Tooltip: 8% de aumento nos danos por ataque físico
+	SetBonus:
+		'''
+		5% de aumento na velocidade dos movimentos e chance de acerto crítico físico
+		A chance dos inimigos mirarem em você é maior
+		'''
+}
+
+AerospecHelmet: {
+	DisplayName: Casco Aeroespectral
+	Tooltip: 5% de aumento na velocidade dos movimentos e dano por invocação
+	SetBonus:
+		'''
+		11% de aumento de dano por invocação e +1 lacaio máximo
+		Invoca uma valquíria para te proteger
+		'''
+}
+
+AerospecHood: {
+	DisplayName: Capuz Aeroespectral
+	Tooltip: 8% de aumento nos danos por ataque à distância
+	SetBonus: 5% de aumento na velocidade dos movimentos e chance de acerto crítico à distância
+}
+
+AerospecLeggings: {
+	DisplayName: Calças Aeroespectrais
+	Tooltip: 12% de aumento na velocidade dos movimentos
+}
+
+DesertProwlerHat: {
+	DisplayName: Chapéu do Gatuno do Deserto
+	Tooltip: 4% de aumento na chance de ataque à distância crítico e 20% de chance economizar munição
+	SetBonus: Ataques à distância causam {0} a mais de dano plano
+	AbilityBrief: Bomba de Fumaça de Areia - Aperte duas vezes {0} para se envolver em uma pequena nuvem de areia
+	AbilityDescription:
+		'''
+		Enquanto a nuvem de areia está ativa, você um aumento na mobilidade ao custo de uma redução pesada na sua defesa
+		Usar uma arma de ataque à distância dissipa instantaneamente o manto de areia, mas garante um super acerto crítico de {0}% de dano
+		O super acerto crítico se aplica apenas se o acerto resultante não exceder {1} de dano
+		Acertar o golpe fatal em um inimigo com este tiro reduz o tempo de recarga da habilidade para {2} segundo(s)
+		'''
+}
+
+DesertProwlerPants: {
+	DisplayName: Calça do Gatuno do Deserto
+	Tooltip: 10% de aumento na velocidade dos movimentos e imunidade ao efeito negativo Vento Poderoso
+}
+
+DesertProwlerShirt: {
+	DisplayName: Camisa do Gatuno do Deserto
+	Tooltip: 5% de aumento na chance de ataque à distância crítico
+}
+
+MarniteArchitectHeadgear: {
+	DisplayName: Capacete do Arquiteto de Marnito
+	Tooltip: Aumenta o alcance do posicionamento de peças em 5
+	AbilityBrief: Elevador de Marnito - Você pode invocar um elevador abaixo de seus pés para chegar mais alto
+	AbilityDescription:
+		'''
+		O elevador é invocado quando a hotkey de montaria é apertada [c/D4C870:sem nenhuma montaria equipada]
+		Usar as teclas PARA CIMA e PARA BAIXO pode alterar a altura do elevador
+		'''
+}
+
+MarniteArchitectToga: {
+	DisplayName: Toga do Arquiteto de Marnito
+	Tooltip: Aumenta a velocidade do posicionamento de peças em 50%
+}
+
+SnowRuffianChestplate: {
+	DisplayName: Peitoral do Rufião das Neves
+	Tooltip: 3% de aumento na chance de ataque ladino crítico
+}
+
+SnowRuffianGreaves: {
+	DisplayName: Grevas do Rufião das Neves
+	Tooltip: 5% de aumento na velocidade dos movimentos
+}
+
+SnowRuffianMask: {
+	DisplayName: Máscara do Rufião das Neves
+	Tooltip: 2% de aumento nos danos por ataques ladinos
+	SetBonus:
+		'''
+		5% de aumento nos danos por ataque ladino
+		+50 de furtividade máxima
+		Você pode planar para negar danos de queda
+		'''
+}
+
+StatigelArmor: {
+	DisplayName: Armadura de Estatigel
+	Tooltip: 5% de aumento na chance de acerto crítico
+	CommonSetBonus:
+		'''
+		Quando você receber mais de 100 de dano, você se torna imune a danos por um longo período de tempo
+		Concede um pulo extra e aumenta a altura dos pulos
+		12% de aumento na velocidade dos pulos
+		'''
+}
+
+StatigelGreaves: {
+	DisplayName: Grevas de Estatigel
+	Tooltip: 5% de aumento nos danos e na velocidade dos movimentos
+}
+
+StatigelHeadMagic: {
+	DisplayName: Boné de Estatigel
+	Tooltip:
+		'''
+		10% de aumento nos danos por magia e 10% de redução no custo de mana
+		7% de aumento na chance de acerto crítico mágico e +30 mana máxima
+		'''
+}
+
+StatigelHeadMelee: {
+	DisplayName: Elmo de Estatigel
+	Tooltip:
+		'''
+		10% de aumento no dano por ataque físico e na velocidade de ataque físico
+		7% de aumento na chance de acerto crítico físico
+		'''
+	SetBonus: A chance dos inimigos mirarem em você é maior
+}
+
+StatigelHeadRanged: {
+	DisplayName: Capacete de Estatigel
+	Tooltip:
+		'''
+		10% de aumento nos danos por ataque à distância
+		7% de aumento na chance de acerto crítico à distância
+		'''
+}
+
+StatigelHeadRogue: {
+	DisplayName: Máscara de Estatigel
+	Tooltip:
+		'''
+		10% de aumento nos danos ladinos e 34% de chance de economizar itens ladinos
+		7% de aumento na chance de acerto crítico ladino e 12% de aumento na velocidade dos movimentos
+		'''
+	SetBonus: +90 de furtividade máxima
+}
+
+StatigelHeadSummon: {
+	DisplayName: Capuz de Estatigel
+	Tooltip: Maior recuo dos lacaios
+	SetBonus:
+		'''
+		18% de aumento nos danos por lacaios e +1 lacaio máximo
+		Invoca um deus geleia em miniatura para lutar para você, o seu tipo depende do mal no seu mundo
+		'''
+}
+
+SulphurousBreastplate: {
+	DisplayName: Peitoral Sulfúrico
+	Tooltip: 8% de danos por ataques ladinos e 5% de chance de acerto crítico ladino
+}
+
+SulphurousHelmet: {
+	DisplayName: Elmo Sulfúrico
+	Tooltip:
+		'''
+		4% de aumento nos danos por ataques ladinos
+		2% de aumento na chance de acerto ladino crítico
+		Permite respirar embaixo d'água
+		'''
+	SetBonus:
+		'''
+		+70 de furtividade máxima
+		Atacar e ser atacado por inimigos inflige veneno
+		Concede um pulo adicional que invoca uma bolha sulfurosa
+		Concede mobilidade aumentada embaixo d'água e reduz a severidade das águas sulfúricas
+		'''
+}
+
+SulphurousLeggings: {
+	DisplayName: Calças Sulfúricas
+	Tooltip:
+		'''
+		10% de aumento na velocidade dos movimentos
+		35% de aumento na velocidade dos movimento enquanto você está submerso em líquidos
+		'''
+}
+
+VictideBreastplate: {
+	DisplayName: Peitoral de Vimaré
+	Tooltip:
+		'''
+		5% de aumento na redução dos danos e chance de acerto crítico
+		+5 de defesa e 10% de aumento nos danos enquanto você está submerso em líquidos
+		'''
+	CommonSetBonus:
+		'''
+		Enquanto você usa qualquer arma, você tem 10% de chance de arremessar um projétil de concha que retorna para você
+		Esta concha causa dano verdadeiro e não se beneficia de nenhuma classe de dano
+		Concede maior mobilidade embaixo d´água e levemente reduz a perda de fôlego no abismo
+		'''
+}
+
+VictideGreaves: {
+	DisplayName: Grevas de Vimaré
+	Tooltip:
+		'''
+		8% de aumento na velocidade dos movimentos
+		30% de aumento na velocidade dos movimento enquanto você está submerso em líquidos
+		'''
+}
+
+VictideHeadMagic: {
+	DisplayName: Elmo do Eremita de Vimaré
+	Tooltip: 5% de aumento nos danos por magia
+	SetBonus: Regeneração de +1.5 de vida por segundo e 10% de aumento nos danos por magia enquanto você está submerso em líquidos
+}
+
+VictideHeadMelee: {
+	DisplayName: Conchelmo de Vimaré
+	Tooltip: 5% de aumento nos danos por ataques físicos
+	SetBonus:
+		'''
+		A chance dos inimigos mirarem em você é maior
+		Regeneração de +1.5 de vida por segundo 10% de aumento nos danos por ataque físico enquanto você está submerso em líquidos
+		'''
+}
+
+VictideHeadRanged: {
+	DisplayName: Turbante de Coral de Vimaré
+	Tooltip: 5% de aumento nos danos por ataque à distância
+	SetBonus: Regeneração de +1.5 de vida por segundo e 10% de aumento nos danos por ataque à distância enquanto você está submerso em líquidos
+}
+
+VictideHeadRogue: {
+	DisplayName: Carapacete de Vimaré
+	Tooltip: 5% de aumento nos danos por ataques ladinos
+	SetBonus:
+		'''
+		+60 de furtividade máxima
+		Regeneração de +1.5 de vida por segundo e 10% de aumento nos danos por ataque ladino enquanto você está submerso em líquidos
+		'''
+}
+
+VictideHeadSummon: {
+	DisplayName: Máscara de Vimaré
+	Tooltip: 10% de aumento nos danos por lacaios
+	SetBonus:
+		'''
+		+1 lacaio máximo
+		Invoca um ouriço do mar para te proteger
+		Regeneração de +1.5 de vida por segundo e 10% de aumento nos danos por lacaios enquanto você está submerso em líquidos
+		'''
+}
+
+WulfrumFusionCannon: {
+	DisplayName: Matriz de Fusão de Vulfrúmio Experimental
+	Tooltip:
+		'''
+		Dispara rajadas rápidas de pelotas de médio alcance
+		Ignora 10 pontos da defesa do inimigo
+		[c/878787:"Quem precisa de chicotes quando você pode simplesmente se tornar a invocação?"]
+		'''
+}
+
+WulfrumHat: {
+	DisplayName: Chapéu e Óculos de Vulfrúmio
+	Tooltip:
+		'''
+		10% de aumento nos danos por invocação
+		Vem equipado com extensões de cabelo
+		'''
+	SetBonus: +1 lacaio máximo
+	AbilityBrief: Bastião de Vulfrânio - Pressione duas vezes {0} enquanto estiver desmontado para equipar uma armadura pesada de vulfrânio
+	AbilityDescription:
+		'''
+		Enquanto a armadura está ativada, você só pode usar o canhão de fusão integrado, mas você recebe um aumento nas estatísticas de defesa
+		Invocar a armadura consome uma peça de {0}, e a armadura perderá durabilidade mais rapidamente quando for atingida
+		'''
+	ShiftToExpand: Segure SHIFT para ver as estatísticas do canhão de fusão
+}
+
+WulfrumJacket: {
+	DisplayName: Jaqueta de Vulfrúmio
+	Tooltip: 5% de aumento na redução dos danos
+}
+
+WulfrumOveralls: {
+	DisplayName: Macacão de Vulfrúmio
+	Tooltip: 5% de aumento na velocidade dos movimentos
+}

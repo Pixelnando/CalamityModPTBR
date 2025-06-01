@@ -1,0 +1,169 @@
+// Boss Bags
+AquaticScourgeBag: {
+	DisplayName: Bolsa do Tesouro (Flagelo Aquático)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+AstrumAureusBag: {
+	DisplayName: Bolsa do Tesouro (Astrum Aureus)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+AstrumDeusBag: {
+	DisplayName: Bolsa do Tesouro (Astrum Deus)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+BrimstoneWaifuBag: {
+	DisplayName: Bolsa do Tesouro (Elemental de Enxofre)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+CalamitasCloneBag: {
+	DisplayName: Bolsa do Tesouro (Clone da Calamitas)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+CalamitasCoffer: {
+	DisplayName: Cofre do Tesouro (Calamitas)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+CeaselessVoidBag: {
+	DisplayName: Bolsa do Tesouro (Vazio Incessante)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+CrabulonBag: {
+	DisplayName: Bolsa do Tesouro (Crabulon)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+CryogenBag: {
+	DisplayName: Bolsa do Tesouro (Criogênio)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+DesertScourgeBag: {
+	DisplayName: Bolsa do Tesouro (Flagelo do Deserto)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+DevourerofGodsBag: {
+	DisplayName: Bolsa do Tesouro (O Devorador de Deuses)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+DraedonBag: {
+	DisplayName: Caixa do Tesouro (Exo-Mecas)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+DragonfollyBag: {
+	DisplayName: Bolsa do Tesouro (O Dragão-Folião)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+HiveMindBag: {
+	DisplayName: Bolsa do Tesouro (A Colmeia Mental)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+LeviathanBag: {
+	DisplayName: Bolsa do Tesouro (Leviathan e Anahita)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+OldDukeBag: {
+	DisplayName: Bolsa do Tesouro (O Velho Duque)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+PerforatorBag: {
+	DisplayName: Bolsa do Tesouro (Os Perfuradores)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+PlaguebringerGoliathBag: {
+	DisplayName: Bolsa do Tesouro (Pestífera Goliarda)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+PolterghastBag: {
+	DisplayName: Bolsa do Tesouro (Polterghast)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+ProvidenceBag: {
+	DisplayName: Bolsa do Tesouro (Providência, a Deusa Profana)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+RavagerBag: {
+	DisplayName: Bolsa do Tesouro (Devastador)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+SignusBag: {
+	DisplayName: Bolsa do Tesouro (Signus, Emissário do Devorador)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+SlimeGodBag: {
+	DisplayName: Bolsa do Tesouro (O Deus Geleia)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+StormWeaverBag: {
+	DisplayName: Bolsa do Tesouro (Explorador Tempestuoso)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+YharonBag: {
+	DisplayName: Bolsa do Tesouro (Yharon)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+// Miscellaneous Bags
+AbyssalTreasure: {
+	DisplayName: Tesouro Abissal
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+BleachedAnglingKit: {
+	DisplayName: Kit de Pesca Branqueado
+	Tooltip:
+		'''
+		Tem a chance de conter vários equipamentos de pesca
+		{$CommonItemTooltip.RightClickToOpen}
+		'''
+}
+
+FleshyGeode: {
+	DisplayName: Geodo Carnudo
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+NecromanticGeode: {
+	DisplayName: Geodo Necromântico
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+SandyAnglingKit: {
+	DisplayName: Kit de Pesca Arenoso
+	Tooltip:
+		'''
+		Tem a chance de conter vários equipamentos de pesca
+		{$CommonItemTooltip.RightClickToOpen}
+		'''
+}
+
+StarterBag: {
+	DisplayName: Bolsa de Iniciante
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+SulphuricTreasure: {
+	DisplayName: Tesouro Sulfúrico
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}

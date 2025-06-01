@@ -1,0 +1,169 @@
+AerialiteDye: {
+	DisplayName: Tintura de Aerólita
+	Tooltip: ""
+}
+
+AstralBlueDye: {
+	DisplayName: Tintura Azul Astral
+	Tooltip: ""
+}
+
+AstralDye: {
+	DisplayName: Tintura de Carne Astral
+	Tooltip: ""
+}
+
+AstralOrangeDye: {
+	DisplayName: Tintura Laranja Astral
+	Tooltip: ""
+}
+
+AstralSwirlDye: {
+	DisplayName: Tintura de Redemoinho Astral
+	Tooltip: ""
+}
+
+AuricDye: {
+	DisplayName: Tintura de Auricanita
+	Tooltip: ""
+}
+
+BloodflareDye: {
+	DisplayName: Tintura de Chamas Sangrentas
+	Tooltip: ""
+}
+
+BlueCosmicFlameDye: {
+	DisplayName: Tintura de Chamas Cósmicas Azuis
+	Tooltip: ""
+}
+
+BlueStatigelDye: {
+	DisplayName: Tintura de Estatigel Azul
+	Tooltip: ""
+}
+
+BrimflameDye: {
+	DisplayName: Tintura de Chamas de Enxofre
+	Tooltip: ""
+}
+
+CalamitousDye: {
+	DisplayName: Tintura Calamitosa
+	Tooltip: ""
+}
+
+CeaselessDye: {
+	DisplayName: Tintura Incessante
+	Tooltip: ""
+}
+
+CosmiliteDye: {
+	DisplayName: Tintura de Cosmilita
+	Tooltip: ""
+}
+
+CryonicDye: {
+	DisplayName: Tintura de Crionita
+	Tooltip: ""
+}
+
+DefiledFlameDye: {
+	DisplayName: Tintura de Chamas Profanas
+	Tooltip: ""
+}
+
+DragonSoulDye: {
+	DisplayName: Tintura de Alma de Dragão
+	Tooltip: ""
+}
+
+ElementalDye: {
+	DisplayName: Tintura Elemental
+	Tooltip: ""
+}
+
+EndothermicDye: {
+	DisplayName: Tintura Endotérmica
+	Tooltip: ""
+}
+
+ExoDye: {
+	DisplayName: Exo-Tintura
+	Tooltip: ""
+}
+
+AdrenalineHairDye: {
+	DisplayName: Tintura para Cabelo de Adrenalina
+	Tooltip: ""
+}
+
+RageHairDye: {
+	DisplayName: Tintura para Cabelo de Fúria
+	Tooltip: ""
+}
+
+StealthHairDye: {
+	DisplayName: Tintura para Cabelo de Furtividade
+	Tooltip: ""
+}
+
+WingTimeHairDye: {
+	DisplayName: Tintura para Cabelo de Tempo de Voo da Asa
+	Tooltip: ""
+}
+
+NecroplasmicDye: {
+	// DisplayName: Necroplasmic Dye
+	// Tooltip: ""
+}
+
+NightmareDye: {
+	DisplayName: Tintura do Pesadelo
+	Tooltip: ""
+}
+
+PinkCosmicFlameDye: {
+	DisplayName: Tintura de Chamas Cósmicas Rosas
+	Tooltip: ""
+}
+
+PinkStatigelDye: {
+	DisplayName: Tintura de Estatigel Rosa
+	Tooltip: ""
+}
+
+ProfanedFlameDye: {
+	DisplayName: Tintura de Chamas Profanas
+	Tooltip: ""
+}
+
+ProfanedMoonlightDye: {
+	DisplayName: Tintura do Luar Profano
+	Tooltip: ""
+}
+
+ReaverDye: {
+	DisplayName: Tintura do Ladrão
+	Tooltip: ""
+}
+
+ShadowspecDye: {
+	DisplayName: Tintura Umbrífera
+	Tooltip: ""
+}
+
+SlimeGodDye: {
+	DisplayName: Tintura do Deus Geleia
+	Tooltip: ""
+}
+
+StratusDye: {
+	DisplayName: Tintura de Stratus
+	Tooltip: ""
+}
+
+SwirlingCosmicFlameDye: {
+	DisplayName: Tintura de Redemoinho de Chamas Cósmicas
+	Tooltip: ""
+}

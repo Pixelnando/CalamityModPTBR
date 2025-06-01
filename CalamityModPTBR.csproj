@@ -1,0 +1,16 @@
+
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>CalamityModPTBR</AssemblyName>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="localization\en-US.hjson" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CalamityMod">
+      <HintPath>..\..\..\..\..\..\..\Downloads\TML.Patcher.Release.0.2.1.0\Extracted\CalamityMod.tmod\CalamityMod.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

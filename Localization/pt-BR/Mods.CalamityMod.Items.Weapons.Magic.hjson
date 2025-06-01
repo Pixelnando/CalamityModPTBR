@@ -1,0 +1,1001 @@
+AbyssalTome: {
+	DisplayName: Tomo Abissal
+	Tooltip: Conjura uma lenta esfera de energia escura
+}
+
+AbyssShocker: {
+	DisplayName: Eletrocutor do Abismo
+	Tooltip: Dispara um raio errático que se movimenta em um arco e ricocheteia entre inimigos
+}
+
+AcidGun: {
+	DisplayName: Pistola Ácida
+	Tooltip: Libera três fluxos de ácido
+}
+
+AetherfluxCannon: {
+	DisplayName: Canhão Fluxetéreo
+	Tooltip: Dispara uma hélice de fótons que atravessa tudo
+}
+
+AethersWhisper: {
+	DisplayName: Sussurro de Éter
+	Tooltip:
+		'''
+		Inflige chamas das sombras duradouras que se dividem ao atingir peças
+		Projéteis recebem dano adicional conforme viajam
+		'''
+}
+
+AlulaAustralis: {
+	DisplayName: Alula Australis
+	Tooltip: Dispara uma linda aurora trilhada por uma chuva de estrelas
+}
+
+AnahitasArpeggio: {
+	DisplayName: Arpejo da Anahita
+	Tooltip: Conjura lentas clavas de sol que confundem os inimigos
+}
+
+ApoctosisArray: {
+	DisplayName: Matriz Apoctótica
+	Tooltip:
+		'''
+		Dispara raios de íons que aceleram e explodem
+		O dano aumenta de acordo com o quão cheia sua mana está
+		Usar a Injeção Astral reduz a efetividade do reforço de mana
+		'''
+}
+
+Apotheosis: {
+	DisplayName: Apoteose
+	Tooltip:
+		'''
+		Libera uma magia de projeção interdimensional
+		Engula vermes
+		'''
+}
+
+AquamarineStaff: {
+	DisplayName: Cajado de Água-Marinha
+	Tooltip: Dispara dois raios azuis
+}
+
+ArchAmaryllis: {
+	DisplayName: Arqui-Amarílis
+	Tooltip: Conjura uma flor radiante que explode em pétalas teleguiadas
+}
+
+ArcticBearPaw: {
+	DisplayName: Pata de Urso Ártico
+	Tooltip:
+		'''
+		Dispara garras espirituais que ignoram paredes
+		'A surra selvagem que cabe no seu bolso'
+		'''
+}
+
+ArtAttack: {
+	DisplayName: Ataque Artístico
+	Tooltip:
+		'''
+		Conjura uma estrela que segue o mouse e cria um rastro arco-íris conforme viaja
+		Quando uma forma inteira for criada com o rastro, todos os inimigos dentro dela sofrerão dano proporcional ao tempo levado para desenhá-la
+		'E a plateia vai à loucura!'
+		'''
+}
+
+AsteroidStaff: {
+	DisplayName: Cajado de Asteroides
+	Tooltip: Invoca asteroides dos céus
+}
+
+AstralachneaStaff: {
+	DisplayName: Cajado Astralacneia
+	Tooltip: Dispada uma série de presas de aranha astrais teleguiadas
+}
+
+AstralStaff: {
+	DisplayName: Cajado Astral
+	Tooltip: Invoca um grande cristal dos céus que possui uma enorme área de efeito no impacto
+}
+
+Atlantis: {
+	DisplayName: Atlântida
+	Tooltip: "[GFB]"
+	TooltipNormal: Conjura lanças aquáticas que se dividem conforme viajam
+	TooltipGFB: Uma serpente cósmica impede que o verdadeiro potencial desta arma brilhe
+	TooltipGFBDoG: Cuide bem da minha arma, se não... -CIT
+}
+
+AuguroftheElements: {
+	DisplayName: Áugure dos Elementos
+	Tooltip: Conjura uma rajada de tentáculos elementais para empalar seus inimigos
+}
+
+BelchingSaxophone: {
+	DisplayName: Saxofone Arrotante
+	Tooltip:
+		'''
+		Dispara uma série de juncos sujos, notas musicais e bolhas sulfúricas
+		Doot
+		'''
+}
+
+Biofusillade: {
+	DisplayName: Biofuzilaria
+	Tooltip: Libera um feixe de energia vital concentrada
+}
+
+BlackAnurian: {
+	DisplayName: Anuro Preto
+	Tooltip: Vomita bolhas e plânctons teleguiados
+}
+
+BloodBath: {
+	DisplayName: Banho de Sangue
+	Tooltip: Encharca seus inimigos de sangue
+}
+
+BrimroseStaff: {
+	DisplayName: Cajado da Rosa de Enxofre
+	Tooltip: Dispara feixes de enxofre espalhadamente
+}
+
+BurningSea: {
+	DisplayName: Mar Ardente
+	Tooltip: Dispara uma bola de fogo de enxofre saltitante que se divide em mais bolas de fogo teleguiadas ao colidirem com a água
+}
+
+ChronomancersScythe: {
+	DisplayName: Foice do Cronomante
+	Tooltip:
+		'''
+		Dispara pedaços de gelo rapidamente
+		Pressione <right> para balançar a foice ao seu redor, criando um padrão de relógio de gelos teleguiados
+		Acertos diretos com a foice podem invocar relógios
+		Coletar os relógios aumenta a velocidade de movimento e aceleração em 5% para cada relógio coletado
+		Isso acumula até 3 vezes e desaparece gradualmente após 5 segundos
+		'''
+}
+
+ClamorNoctus: {
+	DisplayName: Clamor Noctus
+	Tooltip:
+		'''
+		Dispara serpes noturnas e estrelas dos céus que grudam nos inimigos e peças e explodem
+		'Deixe o céu cair'
+		'''
+}
+
+ClothiersWrath: {
+	DisplayName: Ira do Alfaiate
+	Tooltip: Atira três caveiras de chamas das sombras
+}
+
+CoralSpout: {
+	DisplayName: Bico Coralino
+	Tooltip:
+		'''
+		Conjura uma rajada espalhada de fragmentos de corais
+		Segure o botão de ataque para diminuir a dispersão
+		Carregar o ataque até o final libera um pedaço maior de coral que gruda nos inimigos
+		Pegar o pedaço de coral depois que ele cair do inimigo recupera 150 de mana
+		O coral carregado de mana também fornece um efeito que aumenta o dano e a velocidade de convergência do coral
+		[c/5C95A1:'O conhecimento é importante, e os muitos escribas do Velho Reino do Mar sabiam que ele precisava ser preservado a qualquer custo.]
+		[c/5C95A1:Suas bibliotecas eram muito maiores do que a maioria, graças às tábuas de pedra à prova d'água que as ocupavam.']
+		'''
+}
+
+CosmicRainbow: {
+	DisplayName: Arco-Íris Cósmico
+	Tooltip: Libera uma barragem de árcos-íris
+}
+
+Cryophobia: {
+	DisplayName: Criofobia
+	Tooltip:
+		'''
+		Dispara uma onda gelada que se divide diversas vezes e explode em fragmentos
+		'Fica frio aí'
+		'''
+}
+
+DarkSpark: {
+	DisplayName: Faísca Negra
+	Tooltip:
+		'''
+		'E tudo sob o Sol está em perfeita sintonia,
+		Mas o Sol está coberto pela Lua'
+		'''
+}
+
+DeathhailStaff: {
+	DisplayName: Cajado do Granizo da Morte
+	Tooltip:
+		'''
+		Conjura uma tempestade de lasers da nébula dos céus
+		'Faça chover morte sobre seus inimigos!'
+		'''
+}
+
+DeathValleyDuster: {
+	DisplayName: Espanador do Vale da Morte
+	Tooltip: Conjura uma enorme rajada de poeira
+}
+
+DivineRetribution: {
+	DisplayName: Retribuição Divina
+	Tooltip: Mago é melhor que ladino; olha só, temos uma arma de doador para provar isso!
+}
+
+Downpour: {
+	DisplayName: Aguaceiro
+	Tooltip:
+		'''
+		Dispara uma fluxo de areia explosivo que cai ao atingir um inimigo
+		A explosão ocorre apenas quando o projétil expirar
+		'''
+}
+
+Effervescence: {
+	DisplayName: Efervescência
+	Tooltip: Dispara uma vasta rajada de bolhas
+}
+
+EidolicWail: {
+	DisplayName: Uivo Eidólico
+	Tooltip:
+		'''
+		Dispara uma série de ondas sonoras que ficam mais fortes conforme viajam
+		Descansem em paz, usuários de fones de ouvido
+		'''
+}
+
+EidolonStaff: {
+	DisplayName: Cajado Eidolon
+	Tooltip: Dispara uma rajada de luz antiga e um aglomerado de gelo giratório
+}
+
+EldritchTome: {
+	DisplayName: Tomo Sobrenatural
+	Tooltip: Conjura tentáculos sobrenaturais para empalar seus inimigos
+}
+
+ElementalRay: {
+	DisplayName: Raio Elemental
+	Tooltip:
+		'''
+		Conjura quatro feixes celestiais perto do jogador
+		Feixes solares explodem em fogo ao atingir um inimigo
+		Feixes de nébula se estendem um pouco ao longo do tempo
+		Feixes do vórtice agem como raios velozes e eletrificam os inimigos ao atingí-los
+		Feixes de pó das estrelas liberam pequenas estrelas teleguiadas ao atingir um inimigo
+		'''
+}
+
+Eternity: {
+	DisplayName: Eternidade
+	// Color changes at the second line of tooltip via ModifyTooltips.
+	Tooltip:
+		'''
+		Enfeitiça um possível inimigo próximo, prendendo-o em uma brilhante demonstração de destruição
+		'Há fotos de pôneis no livro'
+		'''
+}
+
+EventHorizon: {
+	DisplayName: Horizonte de Eventos
+	Tooltip:
+		'''
+		Dispara um anel de estrelas que são teleguiadas aos inimigos próximos
+		As estrelas invocam buracos negros ao atingir um inimigo
+		'Nada, nem mesmo a luz, pode retornar'
+		'''
+}
+
+EvergladeSpray: {
+	DisplayName: Jato do Pântano
+	Tooltip: Dispara um fluxo de icor verde ardente
+}
+
+Fabstaff: {
+	DisplayName: Cajabuloso
+	Tooltip: Conjura um feixe que rebate em paredes e se divide quando inimigos estão próximos
+}
+
+FaceMelter: {
+	DisplayName: Derrete-Rostos
+	Tooltip:
+		'''
+		Dispara notas musicais
+		<right> para invocar um amplificador que dispara na direção do seu mouse
+		'WOOO!! MUUUUUUUUUUUUNDOO FANTÁSTICOOOOO!'
+		'''
+}
+
+FatesReveal: {
+	DisplayName: Revelação do Destino
+	Tooltip: Invoca bolas de fogo fantasmagóricas que seguem o jogador
+}
+
+FlareBolt: {
+	DisplayName: Raio de Fogo
+	Tooltip: Lança uma bola de fogo lenta
+}
+
+ForbiddenSun: {
+	DisplayName: Sol Proibido
+	Tooltip: Conjura um orbe de fogo que emite uma explosão enorme no acerto
+}
+
+FrigidflashBolt: {
+	DisplayName: Raio do Clarão Gélido
+	Tooltip: Lança uma esfera de magma congelante que se move lentamente
+}
+
+FrostBolt: {
+	DisplayName: Raio Congelante
+	Tooltip: Lança uma esfera de gelo lenta
+}
+
+Genesis: {
+	DisplayName: Gênese
+	Tooltip:
+		'''
+		Dispara uma matriz de lasers com o raio de dispersão reduzido a cada tiro
+		Cada sexto tiro dispara um Feixe Gênese que se divide e redefine a dispersão da arma
+		Atingir um inimigo antes que o Feixe Gênese se divida causa um dano maior
+		'''
+}
+
+GhastlyVisage: {
+	DisplayName: Visagem Fantasmagórica
+	Tooltip: Dispara energia fantasmagórica explosiva que é teleguiada ao inimigo mais próximo
+}
+
+GleamingMagnolia: {
+	DisplayName: Magnólia Cintilante
+	Tooltip: Conjura uma flor cintilante que explode em pétalas
+}
+
+GloriousEnd: {
+	DisplayName: Final Glorioso
+	Tooltip:
+		'''
+		Conjura uma estrela cadente que pode ser montada e viaja na direção do cursor
+		A estrela cadente explode após atingir um inimigo, uma parede, ou após 6 segundos
+		Esta explosão machuca os inimigos e o jogador
+		Soltar o ataque antes da estrela explodir fará com que ela exploda prematuramente, causando menos dano
+		Montarias não funcionam enquanto esta arma está sendo usada
+		'''
+}
+
+GruesomeEminence: {
+	DisplayName: Eminência Macabra
+	Tooltip:
+		'''
+		Invoca um aglomerado gasoso de espíritos perto do cursor
+		Inicialmente, os espíritos voarão descontroladamente. Isso pode machucar inimigos e jogadores
+		Com o tempo, eles começarão a se acumular para criar uma monstruosidade única que pode ser controlada
+		[c/C61B40:'Os espíritos do amálgama jamais puderam seguir para a pós-vida que desejavam,]
+		[c/C61B40:Manchados e unidos pela fúria que os dominava.']
+		'''
+}
+
+HadalUrn: {
+	DisplayName: Urna Hadal
+	Tooltip:
+		'''
+		Dispara diversas criaturas do oceano
+		'Não há como dizer quanto tempo isto esteve lá embaixo... ou o que se esconde dentro'
+		'''
+}
+
+HeliumFlash: {
+	DisplayName: Flash de Hélio
+	Tooltip:
+		'''
+		Lança núcleos de estrela voláteis que irrompem em explosões de fusão enormes
+		'O poder e uma galáxia, mesmo que apenas por alguns instantes'
+		'''
+}
+
+HellwingStaff: {
+	DisplayName: Cajado de Asas do Inferno
+	Tooltip: Conjura morcegos em chamas
+}
+
+Hematemesis: {
+	DisplayName: Hematêmese
+	Tooltip: Conjura uma barragem de gêiseres de sangue por baixo
+}
+
+Heresy: {
+	DisplayName: Heresia
+	Tooltip:
+		'''
+		Libera fogo e almas para cima de um livro em suas mãos
+		O poder de ambos aumenta conforme o livro é segurado
+		'''
+}
+
+HyphaeRod: {
+	DisplayName: Cajado de Hifas
+	Tooltip: Cria esporos de cogumelo perto do jogador
+}
+
+IceBarrage: {
+	DisplayName: Barragem de Gelo
+	Tooltip:
+		'''
+		Conjura um feitiço de gelo poderoso e mortal na posição do cursor
+		Este feitiço de gelo se fixa na posição de inimigos próximos
+		Consome 2 Runas de Sangue toda vez que é usado
+		'Ah, que pena, você está morto!'
+		'''
+}
+
+IcicleStaff: {
+	DisplayName: Cajado de Gelo
+	Tooltip: Conjura gelo do céu
+}
+
+IcicleTrident: {
+	DisplayName: Tridente de Gelo
+	Tooltip: Dispara gelos perfurantes
+}
+
+InfernalRift: {
+	DisplayName: Fenda Infernal
+	Tooltip: Invoca lâminas infernais que invocam mais lâminas ao atingir um inimigo
+}
+
+IonBlaster: {
+	DisplayName: Detonador de Íons
+	Tooltip:
+		'''
+		Dispara raios de íons que aceleram e explodem
+		O dano aumenta de acordo com o quão cheia sua mana está
+		Usar a Injeção Astral reduz a efetividade do reforço de mana
+		'''
+}
+
+Keelhaul: {
+	DisplayName: Quilha
+	Tooltip:
+		'''
+		Invoca um gêiser ao atingir um inimigo
+		'Esmague-os que nem papel'
+		'''
+}
+
+LashesofChaos: {
+	DisplayName: Açoite do Caos
+	Tooltip: "'Observe o mundo pegar fogo...'"
+}
+
+Lazhar: {
+	DisplayName: Leihzer
+	Tooltip: Dispara um feixe solar concentrado e altamente volátil
+}
+
+LightGodsBrilliance: {
+	DisplayName: Brilho do Deus da Luz
+	Tooltip: Conjura pequenas lágrimas de luz teleguiadas e bolas de luz explosivas
+}
+
+MadAlchemistsCocktailGlove: {
+	DisplayName: Luva de Coquetel do Alquimista Maluco
+	Tooltip:
+		'''
+		Dispara uma variedade de frascos de alta velocidade
+		<right> para disparar um frasco prismático que causa diversos efeitos negativos
+		Frascos vermelhos explodem violentamente
+		Frascos azuis contêm gás venenoso
+		Frascos verdes invocam chamas da lua
+		Frascos roxos explodem em estilhaços teleguiados
+		'''
+}
+
+MagneticMeltdown: {
+	DisplayName: Colapso Magnético
+	Tooltip: Lança uma cruz em diamante de esferas magnéticas sobrecarregadas
+}
+
+ManaRose: {
+	DisplayName: Rosa de Mana
+	Tooltip: Conjura uma flor de mana que explode em pétalas
+}
+
+Miasma: {
+	DisplayName: Miasma
+	Tooltip: Dispara espalhadamente núvens de gás que desaceleram ao atingir um inimigo
+}
+
+Mistlestorm: {
+	DisplayName: Tempestade Herbal
+	Tooltip: Conjura uma tempestade de espinhos e folhas
+}
+
+NanoPurge: {
+	DisplayName: Nanoexpurgo
+	Tooltip: Dispara uma barragem de nanolasers
+}
+
+NebulousCataclysm: {
+	DisplayName: Cataclismo Nebuloso
+	Tooltip: "'O verdadeiro poder do Mago da Nébula reside em suas mãos...'"
+}
+
+NightsRay: {
+	DisplayName: Raio da Noite
+	Tooltip:
+		'''
+		Dispara um raio de escuridão pura e concentrada
+		Ao atingir um inimigo, ele será atingido por diversos outros raios vindos de seus lados
+		'''
+}
+
+NuclearFury: {
+	DisplayName: Fúria Nuclear
+	Tooltip: Conjura uma torrente de tufões cósmicos
+}
+
+Omicron: {
+	DisplayName: Ômicron
+	Tooltip:
+		'''
+		Dispara uma barragem contínua de lasers e invoca dois Braços-Direitos que orbitam você e disparam lasers na direção do cursor
+		<right> enquanto dispara para atirar um Feixe Ômicron que se divide ao atingir um inimigo
+		Depois de disparar um Feixe Ômicron, seus Braços-Direitos lançarão um par de granadas
+		Atingir um inimigo com um Feixe Ômicron logo após ser disparado aumentará muito o dano causado e evitará a divisão do feixe
+		'''
+}
+
+ParasiticSceptor: {
+	DisplayName: Cetro Parasíico
+	Tooltip: Dispara uma barragem de sanguessugas que grudam nos inimigos, aumentando o dano causado ao longo do tempo por cada sanguessuga
+}
+
+PhantasmalFury: {
+	DisplayName: Fúria Fantasmagórica
+	Tooltip: Conjura um raio fantasmagórico que explode em mais raios
+}
+
+PhoenixFlameBarrage: {
+	DisplayName: Barragem de Chamas da Fênix
+	Tooltip:
+		'''
+		Conjura uma barragem de fogo dos céus
+		'Batismo por fogo dracônico'
+		'''
+}
+
+Photosynthesis: {
+	DisplayName: Fotossíntese
+	Tooltip:
+		'''
+		Conjura um raio brilhante que dissolve em energia ao atingir um inimigo
+		Mais energia é criada de acordo com a distância do inimigo atingido no raio
+		'''
+}
+
+PlagueStaff: {
+	DisplayName: Cajado da Praga
+	Tooltip: Dispara uma sequência de 4 presas da praga
+}
+
+PlasmaRifle: {
+	DisplayName: Rifle de Plasma
+	Tooltip:
+		'''
+		Dispara uma rajada de plasma que explode
+		<right> para disparar rapidamente raios de plasma
+		'''
+}
+
+PlasmaRod: {
+	DisplayName: Bastão de Plasma
+	Tooltip:
+		'''
+		Conjura um raio de plasma fraco
+		Atingir uma peça dispersará diversos raios com dano de fogo aumentado
+		Atingir um inimigo infligirá Chama das Sombras
+		'''
+}
+
+Poseidon: {
+	DisplayName: Poseidon
+	Tooltip: Conjura um tufão de Poseidon
+}
+
+PrimordialAncient: {
+	DisplayName: Antiguidade Primordial
+	Tooltip: Conjura uma explosão de poeira enorme
+}
+
+PrimordialEarth: {
+	DisplayName: Terra Primordial
+	Tooltip: Conjura uma explosão de poeira grande
+}
+
+PurgeGuzzler: {
+	DisplayName: Beberrão da Purificação
+	Tooltip: Emite três feixes de energia sagrada em um pequeno arco
+}
+
+RainbowPartyCannon: {
+	DisplayName: Canhão de Festa Arco-Íris
+	// Color changes at the first line of tooltip via ModifyTooltips.
+	Tooltip: "'Deixe o arco-íris te lembrar que juntos sempre iremos brilhar...'"
+}
+
+Rancor: {
+	DisplayName: Rancor
+	Tooltip:
+		'''
+		Conjura um círculo mágico que carrega energia e eventualmente libera uma explosão poderosa de lasers com magia maléfica controlada
+		Os lasers fazem com que braços e lava ardente apareçam em superfícies que eles tocam, causando dano a você e aos inimigos.
+		[c/C61B40:'O perdão só pode curar até certo ponto,]
+		[c/C61B40:Se o destinatário ainda não se perdoou.']
+		'''
+}
+
+RecitationoftheBeast: {
+	DisplayName: Recitação da Besta
+	Tooltip:
+		'''
+		Invoca foices da besta em volta do jogador em um círculo pequeno
+		As foices são disparadas na direção do cursor e perseguem inimigos próximos
+		'''
+}
+
+RelicofRuin: {
+	DisplayName: Relíquia da Ruína
+	Tooltip: Conjura uma série de lâminas de areia
+}
+
+RougeSlash: {
+	DisplayName: Corte Escarlate
+	Tooltip: Dispara uma onda de 3 cortes aéreos escarlates
+}
+
+SandstreamScepter: {
+	DisplayName: Cetro do Fluxo de Areia
+	Tooltip:
+		'''
+		Dispara um fluxo de areia explosivo que cai ao atingir um inimigo
+		A explosão ocorre apenas quando o projétil expira
+		'''
+}
+
+SanguineFlare: {
+	DisplayName: Chama Sanguinária
+	Tooltip: Dispara uma explosão de chamas sanguinárias que drenam a vida do inimigo
+}
+
+SeethingDischarge: {
+	DisplayName: Descarga Fervente
+	Tooltip: Dispara uma barragem de explosões de enxofre
+}
+
+Serpentine: {
+	DisplayName: Serpentina
+	Tooltip:
+		'''
+		Conjura uma serpente que segue o cursor
+		Ignora 15 pontos de Defesa do inimigo
+		'''
+}
+
+ShadecrystalBarrage: {
+	DisplayName: Barragem de Cristais Sombrios
+	Tooltip: Invoca rajadas de cristais sombrios que perseguem os inimigos
+}
+
+ShaderainStaff: {
+	DisplayName: Cajado da Chuva Sombria
+	Tooltip: Dispara nuvens e chuvas malignas em um arco
+}
+
+ShadowboltStaff: {
+	DisplayName: Cajado do Raio Sombrio
+	Tooltip: Quanto mais peças e inimigos o feixe atingir ou atravessar, mais dano ele causará
+}
+
+ShiftingSands: {
+	DisplayName: Cajado da Areia Movediça
+	Tooltip: Conjura um fragmento de areia que segue o cursor
+}
+
+SHPC: {
+	DisplayName: CPSA
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		Dispara orbes de plasma duradouros que emitem explosões enormes
+		<right> para disparar feixes de energia poderosos
+		'''
+	TooltipGFB: Ele escala novamente :)
+}
+
+SkyGlaze: {
+	DisplayName: Brilho Celeste
+	Tooltip: Dispara penas dos céus que grudam nos inimigos e peças e explodem
+}
+
+SlitheringEels: {
+	DisplayName: Enguias Rastejantes
+	Tooltip: Conjura uma enguia ácida mágica que libera ácido conforme viaja
+}
+
+SnowstormStaff: {
+	DisplayName: Cajado da Nevasca
+	Tooltip:
+		'''
+		Dispara flocos de neve que seguem o cursor
+		Os flocos de neve se dividem em estrelas de gelo ao atingir um inimigo
+		'''
+}
+
+SoulPiercer: {
+	DisplayName: Perfurador de Almas
+	Tooltip: Conjura um raio poderoso que invoca mais raios no primeiro acerto
+}
+
+StaffofBlushie: {
+	DisplayName: Cajado de Blushie
+	Tooltip: Segure o botão esquerdo, espere, espere, espere, e confie no poder da magia azul
+}
+
+StarShower: {
+	DisplayName: Chuva de Estrelas
+	Tooltip: Conjura uma série de estrelas astrais dos céus que convergem no cursor
+}
+
+SubsumingVortex: {
+	DisplayName: Vórtice Subsumidor
+	Tooltip:
+		'''
+		<left> para liberar uma barragem de vórtices que correm atrás dos inimigos
+		<right> para conjurar um vórtice enorme na sua frente que tende a seguir o mouse
+		Quando os inimigos estiverem próximos ao vórtice, ele lança diversos vórtices menores e mais rápidos na direção dele
+		Soltar o <right> dispara o vórtice em direção ao mouse se tempo suficiente tiver passado
+		O dano aumenta de acordo com o tempo de carregamento do vórtice
+		'''
+}
+
+TacticiansTrumpCard: {
+	DisplayName: O Trunfo do Estrategista
+	Tooltip:
+		'''
+		Dispara um feixe de lâmina que eletrifica os inimigos atingidos
+		'Lembranças vagas de uma princesa do futuro cruzam sua mente...'
+		'''
+}
+
+TearsofHeaven: {
+	DisplayName: Lágrimas do Céu
+	Tooltip: Conjura bolas de luz celestiais lentas que perseguem o inimigo
+}
+
+Teslastaff: {
+	DisplayName: Cajado de Tesla
+	Tooltip:
+		'''
+		Dispara um feixe canalizado de relâmpagos precisos
+		O feixe tem uma capacidade de rotação limitada
+		Cada acerto sucessivo no mesmo inimigo aumenta o dano causado
+		O dano aumenta em 10% por acerto até um máximo de 500% de dano
+		Este dano cairá rapidamente depois que o inimigo parar de ser atingido
+		'''
+}
+
+TheCauldron: {
+	DisplayName: O Caldeirão
+	Tooltip:
+		'''
+		Lança bombas de lava que explodem em mais bombas de lava
+		80% de redução no custo de mana enquanto estiver submergido em lava ou no submundo
+		'Acredite se quiser, mas seu portador original tinha apenas alguns centímetros de altura!'
+		'''
+}
+
+TheDanceofLight: {
+	DisplayName: A Dança da Luz
+	Tooltip:
+		'''
+		Barragens de inimigos com uma geada de Lâminas da Luz
+		'E num clarão de luz, nada resta'
+		'''
+}
+
+ThePrince: {
+	DisplayName: O Príncipe
+	Tooltip:
+		'''
+		Conjura uma bola de fogo sagrada que explode em 6 chamas
+		'Então você tá me dizendo que o príncipe explodiu... e depois virou uma flor?'
+		-Dain, o druida marinheiro
+		'''
+}
+
+TheSwarmer: {
+	DisplayName: O Enxameador
+	Tooltip: Dispara um enxame de abelhas e vespas
+}
+
+TheWand: {
+	DisplayName: A Varinha
+	Tooltip: A varinha suprema
+}
+
+ThornBlossom: {
+	DisplayName: Flor-de-Espinho
+	Tooltip:
+		'''
+		Conjura uma flor radiante que explode em pétalas teleguiadas junto de um espinho mortal
+		Custa 3 de vida para disparar
+		'Nem tudo é um mar de rosas'
+		'''
+}
+
+Thunderstorm: {
+	DisplayName: A Tempestade
+	Tooltip:
+		'''
+		Dispara uma série de projéteis de plasma verde que despejam mais plasma dos céus
+		'Chove chuva, chove sem parar'
+		'''
+}
+
+TomeofFates: {
+	DisplayName: Tomo dos Destinos
+	Tooltip:
+		'''
+		Conjura tentáculos cósmicos para empalar seus inimigos
+		Pode aleatoriamente disparar um tentáculo vermelho que causa muito dano
+		'''
+}
+
+Tradewinds: {
+	DisplayName: Alísios
+	Tooltip: Conjura penas de luz solar que se movem rapidamente
+}
+
+UltraLiquidator: {
+	DisplayName: Ultra Liquidador
+	Tooltip: Invoca lâminas de liquidação que invocam mais lâminas ao atingir um inimigo
+}
+
+UndinesRetribution: {
+	DisplayName: Retribuição de Undine
+	Tooltip: Conjura uma barragem de lanças teleguiadas
+}
+
+ValkyrieRay: {
+	DisplayName: Raio da Valquíria
+	Tooltip: Conjura um raio devastador de poder sagrado
+}
+
+VeeringWind: {
+	DisplayName: Ventomoinho
+	Tooltip:
+		'''
+		Conjura uma barragem circular de ondas de vento com um alto recuo
+		<right> para conjurar uma barragem circular de ondas de frio
+		'''
+}
+
+Vehemence: {
+	DisplayName: Veemência
+	Tooltip: Conjura raios intensos de poder infernal que explodem em crânios
+}
+
+VenusianTrident: {
+	DisplayName: Tridente Venusiano
+	Tooltip: Conjura um tridente infernal que irrompe em uma explosão gigantesca de fogo e fragmentos de magma
+}
+
+Vesuvius: {
+	DisplayName: Vesúvio
+	Tooltip:
+		'''
+		Invoca uma barragem de asteróides derretidos
+		<right> para disparar uma barragem de asteróides derretidos do cajado
+		'''
+}
+
+Viscera: {
+	DisplayName: Víscera
+	Tooltip:
+		'''
+		Dispara uma barragem rápida de feixes de sangue perfurantes que curam você ao atingir um inimigo
+		Cada feixe sucessivo na barragem causa mais dano
+		O último feixe da barragem causa uma explosão ao atingir um inimigo
+		'''
+}
+
+VitriolicViper: {
+	DisplayName: Víbora Vitriólica
+	Tooltip: Libera uma saraivada de presas e saliva venenosas
+}
+
+VividClarity: {
+	DisplayName: Clareza Vívida
+	Tooltip:
+		'''
+		Dispara cinco raios aleatórios de exo-energia na direção do cursor
+		Ao atingir um inimigo ou uma peça, os feixes podem explodir com um clarão enorme,
+		invocar mais lasers dos céus, ou dividirem-se em mais orbes de energia
+		'Sua majestade inspira um golpe de gênio incomparável'
+		'''
+}
+
+VoidVortex: {
+	DisplayName: Vórtice do Vazio
+	Tooltip: Conjura um vórtice giratório de esferas magnéticas supercarregadas ao redor do cursor que explode em uma tempestade de mini esferas teleguiadas
+}
+
+VoltaicClimax: {
+	DisplayName: Clímax Voltaico
+	Tooltip: Conjura um anel de esferas magnéticas supercarregadas ao redor do cursor
+}
+
+Waywasher: {
+	DisplayName: Lava-Caminhos
+	Tooltip: Conjura um dilúvio de raios d'água imprecisos
+}
+
+Wingman: {
+	DisplayName: Braço-Direito
+	Tooltip:
+		'''
+		Invoca dois Braços-Direitos que orbitam você e disparam lasers na direção do cursor
+		<right> enquanto dispara para mandar os Braços-Direitos dispararem granadas
+		As granadas têm um tempo de recarga que é reduzido se os Braços-Direitos estiverem totalmente aquecidos 
+		'''
+}
+
+WintersFury: {
+	DisplayName: Fúria do Inverno
+	Tooltip:
+		'''
+		Dispara uma série de orbes de gelo e uma barragem de estilhaços de gelo na direção do cursor
+		'As páginas estão congelantes ao toque'
+		'''
+}
+
+WrathoftheAncients: {
+	DisplayName: Ira dos Anciões
+	Tooltip: Invoca um pulso de energia no cursor para invocar periodicamente espíritos teleguiados
+}
+
+WulfrumProsthesis: {
+	DisplayName: Prótese de Vulfrúmio
+	Tooltip:
+		'''
+		Conjura um raio de vulfrúmio
+		<right> para drenar mana de criaturas em sua frente
+		[c/83B87E:'Tecnologia e magia estão há muito tempo presas em uma corrida armamentista de imitação e retaliação.]
+		[c/83B87E:Às vezes, eles trabalham em conjunto, como visto em certos membros protéticos.']
+		'''
+}
+
+WyvernsCall: {
+	DisplayName: Rugido da Serpe
+	Tooltip:
+		'''
+		Dispara serpes e penas coloridas dos céus que grudam nos inimigos e peças e explodem
+		'Eu invoco a mítica Serpe para abençoar as terras com sua graça.'
+		'''
+}
+
+YharimsCrystal: {
+	DisplayName: Cristal de Yharim
+	GFBName: cristal de yermes
+	Tooltip: "[GFB]"
+	TooltipNormal: Dispara feixes dracônicos de aniquilação total
+	TooltipGFB: ...lanssa um pedasso de dnamite
+}

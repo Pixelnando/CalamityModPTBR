@@ -1,0 +1,241 @@
+FrequencyManipulator: {
+	DisplayName: Manipulador de Frequências
+	Tooltip:
+		'''
+		Balança uma lança e a arremessa
+		Na colisão, a lança libera uma rajada de energia teleguiada
+		Ataques furtivos liberam mais energia e explodem na colisão
+		[c/1FFBFF:'Um longo dispositivo originalmente usado para afinação mecânica.']
+		'''
+}
+
+GalvanizingGlaive: {
+	DisplayName: Gládio de Galvanização
+	Tooltip:
+		'''
+		Balança uma lança que envolve os inimigos atingidos em um campo de energia
+		Quando termina de balançar, a lança descarrega um pulso extra de energia
+		[c/1FFBFF:'Uma ferramenta que divide um objeto em dois de maneira rápida e precisa.]
+		[c/1FFBFF:Sua eficiência e confiabilidade como arma são inconfundíveis.']
+		'''
+}
+
+GatlingLaser: {
+	DisplayName: Metralhadora de Plasma
+	Tooltip:
+		'''
+		Dispara uma barragem rápida de lasers acelerados para aniquilar os inimigos
+		[c/1FFBFF:'Desenvolvida para ser usada principalmente pela frota e força de defesa da base de Yharim.']
+		'''
+}
+
+GaussDagger: {
+	DisplayName: Adaga de Gauss
+	Tooltip:
+		'''
+		Corta os inimigos com força magnética turbulenta
+		Ataques repetidos envolvem os inimigos em um fluxo magnético que causam danos
+		'''
+}
+
+GaussPistol: {
+	DisplayName: Pistola de Gauss
+	Tooltip:
+		'''
+		Dispara um raio devastador de alta velocidade com recuo extremamente forte
+		[c/1FFBFF:'Embora esta pistola arcana possa parecer mundana, ela é enganosamente poderosa.]
+		[c/1FFBFF:Uma das várias vantagens das armas de fogo mágicas é que tamanho não é documento.']
+		'''
+}
+
+GaussRifle: {
+	DisplayName: Rifle de Gauss
+	Tooltip: Dispara uma raio devastador de alta velocidade com recuo absurdo
+}
+
+HeavyLaserRifle: {
+	DisplayName: Rifle à Laser Pesado
+	Tooltip:
+		'''
+		Dispara um par incrivelmente preciso de feixes laser destrutivos
+		[c/1FFBFF:'Embora a maioria dos Cavaleiros Caça-Deuses sejam brutais, nem todos preferem o combate físico.]
+		[c/1FFBFF:Como tal, Yharim solicitou pessoalmente que eu criasse armamento pesado para eles, apesar de serem poucos.']
+		'''
+}
+
+HydraulicVoltCrasher: {
+	DisplayName: Esmagador de Tensão Hidráulica
+	Tooltip:
+		'''
+		Uma britadeira eletricamente carregada que choca todos os inimigos próximos ao atingí-los
+		[c/1FFBFF:'Um dispositivo feito para estampar eletricamente placas de metal, fundindo-as instantaneamente.]
+		[c/1FFBFF:Naturalmente, também pode funcionar como uma arma devastadora.']
+		'''
+}
+
+MatterModulator: {
+	DisplayName: Modulador de Matéria
+	Tooltip:
+		'''
+		Dispara um raio de matéria instável que perfura infinitamente mas causa pouco dano
+		Depois de atingir uma peça, a matéria terá seu dano aumentado e não perfurará mais
+		'''
+}
+
+MountedScanner: {
+	// DisplayName: Mounted Scanner
+	// Tooltip: Summons a powerful scanner module above your head that fires lasers at nearby enemies
+}
+
+Phaseslayer: {
+	DisplayName: Exterminador Fásico
+	Tooltip:
+		'''
+		Projeta uma lâmina laser colossal que é controlada pelo cursor
+		Movimente o cursor para balançar a lâmina e rasgar completamente os inimigos
+		Balanços mais rápidos causam mais danos e liberam raios de espada
+		Quando estiver com carga baixa, a lâmina é menor e mais fraca
+		'''
+}
+
+PlasmaCaster: {
+	// DisplayName: Plasma Caster
+	/* Tooltip:
+		'''
+		Press <left> to fire a large, exploding plasma bolt
+		Press <right> to fire in turbo mode, increasing rate of fire but with hindered accuracy
+		''' */
+}
+
+PlasmaGrenade: {
+	// DisplayName: Plasma Grenade
+	/* Tooltip:
+		'''
+		Throws a grenade that explodes into plasma on collision
+		Stealth strikes explode violently on collision into a vaporizing blast
+		[c/1FFBFF:'Each grenade contains a heavily condensed and heated unit of plasma. Use with extreme caution.']
+		''' */
+}
+
+PoleWarper: {
+	// DisplayName: Pole Warper
+	/* Tooltip:
+		'''
+		Summons a pair of floating magnets that repel each other and relentlessly swarm enemies
+		Magnetic devices which tear at foes by propelling themselves off their opposite counterparts
+		''' */
+}
+
+PulseDragon: {
+	DisplayName: Dragão Pulsante
+	Tooltip:
+		'''
+		Arremessa duas cabeças de dragão mecânicas que emitem campos elétricos que causam danos
+		[c/1FFBFF:'Yharim solicitou especificamente que esta arma fosse modelada com base nos Dragões de antigamente.]
+		[c/1FFBFF:Que banal.']
+		'''
+}
+
+PulsePistol: {
+	// DisplayName: Pulse Pistol
+	// Tooltip: Fires a pulse that arcs to a new target on enemy hits
+}
+
+PulseRifle: {
+	// DisplayName: Pulse Rifle
+	/* Tooltip:
+		'''
+		Fires an enhanced pulse beam that dissipates into 4 high-frequency pulse orbs on hit
+		Pulse orbs aggressively track nearby targets and track faster the more they hit
+		Pulse orb pierce will not decrease when killing enemies or dealing low damage
+		[c/1FFBFF:'My own personal weapon, used to stamp out failed creations.]
+		[c/1FFBFF:I have backed up the schematics in the event of the original's destruction.']
+		''' */
+}
+
+PulseTurretRemote: {
+	// DisplayName: Pulse Turret Remote
+	/* Tooltip:
+		'''
+		Summons a pulse turret which eradicates nearby foes with focused energy blasts
+		Only one pulse turret may exist at a time
+		''' */
+}
+
+SnakeEyes: {
+	// DisplayName: Snake Eyes
+	/* Tooltip:
+		'''
+		Summons a levitating drone which fires piercing, highly calibrated energy bolts
+		If a bolt hits, the drone will teleport into its path and reflect the bolt
+		Reflected bolts home in and explode on impact
+		[c/1FFBFF:'Equipped with high-end sensors, little can evade them. Even less are able to escape their ever watchful eyes.]
+		[c/1FFBFF:An excellent bridge between my experiments with the sight-based soul powered machines and my latest project.']
+		''' */
+}
+
+StarSwallowerContainmentUnit: {
+	// DisplayName: Star Swallower Containment Unit
+	/* Tooltip:
+		'''
+		Summons a biomechanical frog that vomits plasma onto enemies
+		[c/1FFBFF:'These simplistic creatures were mechanized to autonomously transport plasma.]
+		[c/1FFBFF:They are vastly more servicable than their mundane organic counterparts.']
+		''' */
+}
+
+SystemBane: {
+	// DisplayName: System Bane
+	/* Tooltip:
+		'''
+		Hurls an unstable device which sticks to the ground and shocks nearby enemies with lightning
+		Stealth strikes make the device emit a large, damaging electromagnetic field
+		''' */
+}
+
+Taser: {
+	DisplayName: Taser
+	Tooltip:
+		'''
+		Dispara um gancho que se prende nos inimigos e os eletrocuta antes de retornar
+		Uma arma elétrica simples e lenta, destinada apenas a guardas de baixo escalão
+		'''
+}
+
+TeslaCannon: {
+	// DisplayName: Tesla Cannon
+	/* Tooltip:
+		'''
+		A lightweight energy cannon that blasts an intense electrical beam that explodes
+		The beam can arc to nearby targets
+		''' */
+}
+
+TheAnomalysNanogun: {
+	DisplayName: A Nanoarma da Anomalia
+	Tooltip:
+		'''
+		Pressione <left> para carregar 5 feixes de plasma de disparo rápido
+		Pressione <right> para lançar 3 bombas de fissão
+		'Bem-vindo à festa, amigo'
+		'''
+}
+
+TrackingDisk: {
+	// DisplayName: Tracking Disk
+	/* Tooltip:
+		'''
+		Releases a flying disk that fires lasers at nearby enemies
+		This disk gains acceleration as it returns to the player
+		Stealth strikes fire lasers at a faster rate and distance, and can fire at multiple different targets
+		''' */
+}
+
+WavePounder: {
+	// DisplayName: Wave Pounder
+	/* Tooltip:
+		'''
+		Throws a bomb which explodes into a agonizingly forceful shockwave
+		Stealth strikes emit absurdly powerful shockwaves
+		''' */
+}

@@ -1,0 +1,573 @@
+AstralBreastplate: {
+	DisplayName: Peitoral Astral
+	Tooltip:
+		'''
+		+80 mana máxima e +20 vida máxima
+		Detecção de criaturas
+		'''
+}
+
+AstralHelm: {
+	DisplayName: Elmo Astral
+	Tooltip: Detecção de perigos
+	SetBonus:
+		'''
+		5% de aumento na velocidade dos movimentos e +3 lacaios máximos
+		35% de aumento nos danos e 25% de aumento na chance de acerto crítico
+		Sempre que você atingir um acerto crítico em um inimigo, uma barragem de estrelas cairá do céu
+		Este efeito tem um tempo de recarga de 1 segundo antes que possa ser ativado novamente
+		'''
+}
+
+AstralLeggings: {
+	DisplayName: Calças Astrais
+	Tooltip:
+		'''
+		10% de aumento na velocidade dos movimentos
+		Detecção de tesouros e minérios
+		'''
+}
+
+BrimflameBoots: {
+	DisplayName: Botas de Chamas de Enxofre
+	Tooltip:
+		'''
+		5% de aumento nos danos por magia
+		5% de aumento na velocidade dos movimentos
+		'''
+}
+
+BrimflameRobes: {
+	DisplayName: Roupão de Chamas de Enxofre
+	Tooltip: 5% de aumento nos danos por magia e na chance de acerto crítico
+}
+
+BrimflameScowl: {
+	DisplayName: Capuz de Chamas de Enxofre
+	Tooltip:
+		'''
+		5% de aumento nos danos por magia e na chance de acerto crítico mágico
+		Aumenta a mana máxima em 70 e reduz o uso de mana em 10%
+		Imunidade a Em chamas! Chamas de enxofre, e Queimadura de gelo
+		'''
+	SetBonus:
+		'''
+		Concede 15% de aumento nos danos por magia e chance de acerto crítico mágico
+		Pressione {0} para ativar um efeito de frenesi de chamas de enxofre
+		Durante este efeito, você recebe 40% de aumento no dano por magia
+		No entanto, isso vem ao custo de uma rápida perda de vida e nenhuma regeneração de mana
+		O efeito pode ser desativado, no entanto, uma frenesi de chamas de enxofre tem um tempo de recarga de 30 segundos
+		'''
+}
+
+CirrusDress: {
+	DisplayName: Vestido de Cirrus
+	Tooltip:
+		'''
+		5% de aumento nos danos por magia e na chance de acerto crítico mágico
+		20% de redução na velocidade dos movimentos e aumenta a velocidade máxima de queda para 61 mph
+		[c/B00BA5:'Aqui, isto deve ajudá-lo a beber tanto álcool quanto quiser!']
+		'Você se sente gostosão...'
+		'''
+}
+
+DaedalusBreastplate: {
+	DisplayName: Peitoral de Dédalo
+	Tooltip: 3% de aumento nos danos e na chance de acerto crítico
+}
+
+DaedalusHeadMagic: {
+	DisplayName: Capuz de Dédalo
+	Tooltip:
+		'''
+		13% de aumento nos danos por magia e 7% de aumento na chance de acerto crítico mágico
+		10% de redução no custo de mana e +60 mana máxima
+		'''
+	SetBonus:
+		'''
+		5% de aumento nos danos por magia
+		Você tem 10% de chance de absorver ataques físicos quando atingido
+		Se você absorver um ataque, você é curado por metade do dano causado por ele
+		'''
+}
+
+DaedalusHeadMelee: {
+	DisplayName: Elmo de Dédalo
+	Tooltip:
+		'''
+		15% de aumento nos danos por ataque físico
+		10% de aumento na chance de acerto crítico físico
+		'''
+	SetBonus:
+		'''
+		10% de aumento na velocidade do ataque físico
+		A chance dos inimigos mirarem em você é maior
+		Você reflete projéteis de volta nos inimigos
+		Projéteis refletidos causam 50% a menos de dano a você
+		Este reflexo tem um tempo de recarga de 90 segundos que é compartilhado com todos os outros desvios e reflexos
+		'''
+}
+
+DaedalusHeadRanged: {
+	DisplayName: Capacete de Dédalo
+	Tooltip:
+		'''
+		13% de aumento nos danos por ataque à distância e 7% de aumento na chance de acerto crítico à distância
+		20% de chance de economizar munição
+		'''
+	SetBonus:
+		'''
+		5% de aumento nos danos por ataque à distância
+		Ser atingido faz com que você emita uma explosão de fragmentos de cristal
+		'''
+}
+
+DaedalusHeadRogue: {
+	DisplayName: Máscara Facial de Dédalo
+	Tooltip:
+		'''
+		13% de aumento nos danos por ataques ladinos e 7% de aumento na chance de acerto crítico ladino
+		15% de aumento na velocidade de projéteis ladinos e 5% de aumento na velocidade dos movimentos
+		'''
+	SetBonus:
+		'''
+		5% de aumento nos danos por ataque ladino
+		+105 de furtividade máxima
+		Projéteis ladinos disparam fragmentos de cristal conforme viajam
+		'''
+}
+
+DaedalusHeadSummon: {
+	DisplayName: Máscara de Dédalo
+	Tooltip: 5% de aumento nos danos por lacaios
+	SetBonus:
+		'''
+		20% de aumento nos danos por invocação e +2 lacaios máximos
+		Um cristal de dédalo flutua acima de você para te proteger
+		'''
+}
+
+DaedalusLeggings: {
+	DisplayName: Calças de Dédalo
+	Tooltip:
+		'''
+		3% de aumento na chance de acerto crítico
+		10% de aumento na velocidade dos movimentos
+		'''
+}
+
+FathomSwarmerBoots: {
+	DisplayName: Grevas do Enxame das Profundezas
+	Tooltip:
+		'''
+		4% de aumento nos danos por invocação
+		Concede a capacidade de nadar
+		40% de aumento na velocidade dos movimentos enquanto você estiver submerso em líquidos
+		'''
+}
+
+FathomSwarmerBreastplate: {
+	DisplayName: Peitoral do Enxame das Profundezas
+	Tooltip:
+		'''
+		6% de aumento na redução dos danos
+		6% de aumento nos danos por invocação
+		Aumenta a defesa em 10 e concede regeneração de +2.5 de vida por segundo enquanto você estiver submerso em líquidos
+		Reduz a perda de defesa dentro do Abismo
+		'''
+}
+
+FathomSwarmerVisage: {
+	DisplayName: Protetor Facial do Enxame das Profundezas
+	Tooltip:
+		'''
+		5% de aumento nos danos por invocação
+		Concede respiração e luz embaixo d'água
+		'''
+	SetBonus:
+		'''
+		10% de aumento nos danos por invocação e +2 lacaios máximos
+		Concede a capacidade de escalar paredes
+		30% increased summon damage while submerged in liquid
+		Fornece uma quantidade razoável de luz e reduz razoavelmente a perda de fôlego no abismo
+		'''
+}
+
+ForbiddenCirclet: {
+	DisplayName: Argola Proibída
+	Tooltip: 10% de aumento nos danos por invocação e 15% de aumento na velocidade dos projéteis ladinos
+	SetBonus:
+		'''
+		+40 de furtividade máxima
+		Pressione {0} para invocar uma tempestade antiga na posição do cursor
+		A tempestade antiga custa {1} de mana e recebe benefícios de bônus de invocação e bônus ladinos
+		Ataques furtivos ladinos invocam devoradores teleguiados ao atingir o inimigo
+		Danos por ataques ladino e por invocação receberão aumentos com base na estatística com o maior aumento
+		'''
+}
+
+HydrothermicArmor: {
+	DisplayName: Armadura Hidrotérmica
+	Tooltip:
+		'''
+		+20 de vida máxima
+		8% de aumento nos danos e 4% de aumento na chance de acerto crítico
+		'''
+	CommonSetBonus:
+		'''
+		Efeito da poção infernal quando estiver com menos de 50% de vida
+		Você emite uma explosão ardente quando é atingido
+		'''
+}
+
+HydrothermicHeadMagic: {
+	DisplayName: Máscara Hidrotérmica
+	Tooltip:
+		'''
+		12% de aumento nos danos por magia, +100 mana máxima, e 10% na chance de acerto crítico mágico
+		Concede imunidade ao fogo e à lava
+		'''
+	SetBonus:
+		'''
+		5% de aumento nos danos por magia e 15% de redução no custo de mana
+		Ataques mágicos invocam orbes daníficos e curativos ao atingir o inimigo
+		'''
+}
+
+HydrothermicHeadMelee: {
+	DisplayName: Elmo Hidrotérmico
+	Tooltip:
+		'''
+		17% de aumento nos danos por ataque físico e 10% de aumento na chance de acerto crítico físico
+		Ataques e projéteis físicos infligem Em chamas!
+		Concede imunidade ao fogo e à lava
+		'''
+	SetBonus:
+		'''
+		15% de aumento na velocidade do ataque físico
+		A chance dos inimigos mirarem em você é maior
+		Ataques e projéteis físicos fazem com que chamas do caos explodam ao atingir o inimigo
+		'''
+}
+
+HydrothermicHeadRanged: {
+	DisplayName: Capacete Hidrotérmico
+	Tooltip:
+		'''
+		12% de aumento nos danos por ataque à distância e 10% de aumento na chance de acerto crítico à distância
+		25% de chance de economizar munição
+		Concede imunidade ao fogo e à lava
+		'''
+	SetBonus:
+		'''
+		5% de aumento nos danos por ataque à distância
+		Você dispara uma chama do caos teleguiada enquanto usando armas de ataque à distância a cada 1/3 de segundo
+		'''
+}
+
+HydrothermicHeadRogue: {
+	DisplayName: Capuz Hidrotérmico
+	Tooltip:
+		'''
+		12% de aumento nos danos por ataque ladino e 10% de aumento na chance de acerto crítico ladino
+		50% de chance de não consumir itens ladinos e 5% de aumento na velocidade dos movimentos
+		Concede imunidade ao fogo e à lava
+		'''
+	SetBonus:
+		'''
+		5% de aumento nos danos por ataque ladino
+		+110 de furtividade máxima
+		Armas ladinas liberam uma rajada de chamas do caos ao redor do jogador a cada 2 segundos
+		'''
+}
+
+HydrothermicHeadSummon: {
+	DisplayName: Casco Hidrotérmico
+	Tooltip:
+		'''
+		5% de aumento nos danos por invocação e maior recuo dos lacaios
+		Concede imunidade ao fogo e à lava
+		'''
+	SetBonus:
+		'''
+		40% de aumento nos danos por invocação e +2 lacaios máximos
+		Invoca um respiradouro hidrotérmico para protegê-lo
+		'''
+}
+
+HydrothermicSubligar: {
+	DisplayName: Subligar Hidrotérmico
+	Tooltip:
+		'''
+		5% de aumento na chance de acerto crítico
+		10% de aumento na velocidade dos movimentos
+		'''
+}
+
+LunicCorpsBoots: {
+	DisplayName: Botas do Corpo Lunático
+	Tooltip:
+		'''
+		15% de aumento na velocidade dos movimentos
+		4% de aumento na chance de acerto crítico à distância
+		10% de aumento na velocidade máxima e na aceleração máxima
+		'''
+}
+
+LunicCorpsHelmet: {
+	DisplayName: Elmo do Corpo Lunático
+	Tooltip:
+		'''
+		12% de aumento nos danos por ataque à distância
+		Visão noturna e detecção de criaturas
+		'''
+	SetBonus:
+		'''
+		'Acabe com a luta'
+		Projeta um escudo bolha que absorve até 50 de dano
+		O escudo começa a recarregar 5 segundos depois de ser atingido
+		Recarregar do zero até o máximo leva 2 segundos
+		Ser atingido novamente durante a recarga reinicia o tempo de recarga
+		10% de aumento nos danos por projétil
+		10% de aumento nos danos por ataques à distância especialistas
+		Estes são lançadores, armas de dardo, ou qualquer outra coisa que não dispara flechas/projéteis
+		20% de aumento na velocidade dos pulos
+		'''
+	ShieldAdren: Você perde apenas metade da Adrenalina ao ser atingido se o escudo absorver totalmente o impacto
+}
+
+LunicCorpsVest: {
+	DisplayName: Colete do Corpo Lunático
+	Tooltip:
+		'''
+		3% de aumento nos danos por ataque à distância 
+		11% de aumento na chance de acerto crítico à distância
+		'''
+}
+
+MolluskShelleggings: {
+	DisplayName: Calças de Conchas de Molusco
+	Tooltip:
+		'''
+		12% de aumento nos danos e 4% de aumento na chance de acerto crítico
+		7% de redução na velocidade dos movimentos
+		'''
+}
+
+MolluskShellmet: {
+	DisplayName: Elmo de Conchas de Molusco
+	Tooltip:
+		'''
+		5% de aumento nos danos e 4% de aumento na chance de acerto crítico
+		Você pode se mover livremente em líquidos
+		'''
+	SetBonus:
+		'''
+		Dois moluscos te auxiliarão no combate
+		10% de aumento nos danos
+		Sua velocidade de movimento horizontal é reduzida
+		'''
+}
+
+MolluskShellplate: {
+	DisplayName: Peitoral de Conchas de Molusco
+	Tooltip:
+		'''
+		10% de aumento nos danos e 6% de aumento na chance de acerto crítico
+		15% de redução na velocidade dos movimentos
+		'''
+}
+
+PlaguebringerCarapace: {
+	DisplayName: Carapaça Pestífera
+	Tooltip:
+		'''
+		Concede imunidade à Praga
+		15% de aumento nos danos por invocação
+		Abelhas amigáveis infligem a praga
+		'''
+}
+
+PlaguebringerPistons: {
+	DisplayName: Pistões Pestíferos
+	Tooltip:
+		'''
+		15% de aumento nos danos por invocação e na velocidade dos movimentos
+		Você cultiva flores na grama abaixo de você, com chance de cultivar plantas de tintura aleatórias em terra sem grama
+		'''
+}
+
+PlaguebringerVisor: {
+	DisplayName: Viseira Pestífera
+	Tooltip:
+		'''
+		15% de aumento nos danos por invocação
+		+20 de vida máxima
+		'''
+	SetBonus:
+		'''
+		Concede uma investida da praga que permite atravessar os inimigos sem sofrer danos
+		Invoca uma pestífera filhote que enxameia seus inimigos com pequenas abelhas
+		+3 lacaios máximos
+		'''
+}
+
+PlagueReaperMask: {
+	DisplayName: Máscara do Ceifador da Praga
+	Tooltip: 10% de aumento nos danos por ataque à distância e 8% de aumento na chance de acerto crítico à distância
+	SetBonus:
+		'''
+		25% de chance de economizar munição e 5% de aumento no tempo de voo
+		Inimigos recebem 10% a mais de dano de projéteis de ataque à distância quando afligidos pela Praga
+		Ser atingido faz com que cinzas da praga caiam dos céus
+		Pressione {0} para ficar cego por 5 segundos, mas aumentar drasticamente seu dano por ataque à distância
+		Este efeito tem um tempo de recarga de 25 segundos
+		'''
+}
+
+PlagueReaperStriders: {
+	DisplayName: Botas do Ceifador da Praga
+	Tooltip:
+		'''
+		3% de aumento na chance de acerto crítico à distância
+		15% de aumento na velocidade dos movimentos
+		'''
+}
+
+PlagueReaperVest: {
+	DisplayName: Colete do Ceifador da Praga
+	Tooltip:
+		'''
+		Concede imunidade à Praga
+		15% de aumento nos danos por ataque à distância e 5% de aumento na chance de acerto crítico à distância
+		'''
+}
+
+ReaverCuisses: {
+	DisplayName: Grevas do Ladrão
+	Tooltip:
+		'''
+		5% de aumento na chance de acerto crítico
+		12% de aumento na velocidade dos movimentos
+		'''
+}
+
+ReaverHeadExplore: {
+	DisplayName: Capacete do Ladrão
+	Tooltip:
+		'''
+		20% de aumento na velocidade de mineração e na velocidade do posicionamento de blocos/paredes
+		Concede imunidade à lava e permite que você possa mover-se livremente em líquidos
+		'''
+	SetBonus:
+		'''
+		Destaca todos os tesouros próximos
+		Alcance de coleta de itens e posicionamento de blocos aumentado
+		Minerar peças restaura o fôlego enquanto você está embaixo d'água
+		Invoca um orbe ladrão para iluminar á área ao seu redor
+		Reduz a agressão dos inimigos, até mesmo no abismo
+		Fornece uma pequena quantidade de luz no abismo
+		'''
+}
+
+ReaverHeadMobility: {
+	DisplayName: Protetor Facial do Ladrão
+	Tooltip: 10% de aumento na velocidade dos pulos e 15% de aumento na velocidade dos movimentos
+	SetBonus:
+		'''
+		Concede imunidade ao dano de queda e permite o pulo automático
+		10% de aumento no tempo de voo e velocidade horizontal da asa
+		Ganchos disparam e retraem 10% mais rápido
+		Reduz o tempo de recarga de investidas
+		'''
+}
+
+ReaverHeadTank: {
+	DisplayName: Elmo do Ladrão
+	Tooltip:
+		'''
+		15% de aumento na redução dos danos
+		30% de redução nos danos
+		+50 de vida máxima
+		Regenera 1 de vida por segundo, isto se aplica separadamente da regeneração de vida
+		'''
+	SetBonus:
+		'''
+		+10 de defesa e regeneração de +1.5 de vida por segundo
+		A chance dos inimigos mirarem em você é maior
+		Reduz a regeneração de vida perdida por efeitos negativos daníficos em 20%
+		Todos os ataques têm uma pequena chance de roubar vida e acelerar a taxa de regeneração de vida
+		20% de redução na velocidade dos movimentos e no tempo de voo
+		O dano inimigo é refletido e invoca um espinho
+		A Fúria do Ladrão tem 25% de chance de ser ativada quando você sofrer dano
+		'''
+}
+
+ReaverScaleMail: {
+	DisplayName: Armadura de Malha do Ladrão
+	Tooltip:
+		'''
+		9% de aumento nos danos e 4% de aumento na chance de acerto crítico
+		+20 de vida máxima
+		'''
+}
+
+TitanHeartBoots: {
+	DisplayName: Botas do Coração do Titã
+	Tooltip:
+		'''
+		4% de aumento nos danos por ataque ladino e 10% de aumento na velocidade dos projéteis ladinos
+		5% de aumento no recuo por ataque ladino
+		'''
+}
+
+TitanHeartMantle: {
+	DisplayName: Manto do Coração do Titã
+	Tooltip:
+		'''
+		45% de chance de não consumir itens ladinos
+		5% de aumento no recuo por ataque ladino
+		15% de redução na velocidade do ataque ladino
+		'''
+}
+
+TitanHeartMask: {
+	DisplayName: Máscara do Coração do Titã
+	Tooltip:
+		'''
+		5% de aumento nos danos por ataque ladino e recuo por ataque ladino
+		Armas ladinas infligem o efeito negativo Infecção astral
+		'''
+	SetBonus:
+		'''
+		15% de aumento nos danos por ataque ladino e recuo por ataque ladino
+		+100 de furtividade máxima
+		Ataques furtivos causam o dobro do recuo e causam uma explosão astral
+		Concede imunidade ao recuo
+		'''
+}
+
+UmbraphileBoots: {
+	DisplayName: Botas de Umbrafile
+	Tooltip:
+		'''
+		9% de aumento nos danos por ataque ladino e 6% de aumento na chance de acerto crítico ladino
+		20% de aumento na velocidade dos movimentos
+		'''
+}
+
+UmbraphileHood: {
+	DisplayName: Capuz de Umbrafile
+	Tooltip: 8% de aumento nos danos por ataque ladino e 10% de aumento na velocidade dos projéteis ladinos
+	SetBonus:
+		'''
+		+110 de furtividade máxima
+		Armas ladinas têm uma chance de criar explosões ao atingir o inimigo
+		Ataques furtivos sempre criam uma explosão
+		'''
+}
+
+UmbraphileRegalia: {
+	DisplayName: Regalia de Umbrafile
+	Tooltip: 10% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
+}

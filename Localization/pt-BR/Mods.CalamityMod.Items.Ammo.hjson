@@ -1,0 +1,165 @@
+AstralSolution: {
+	DisplayName: Solução Astral
+	Tooltip:
+		'''
+		Utilizado pelo Limpaminador
+		Espalha a Infecção Astral
+		'''
+}
+
+BloodfireArrow: {
+	DisplayName: Flecha de Fogo Sangrento
+	Tooltip: Cura você em uma pequena quantidade ao atingir o inimigo
+}
+
+BloodfireBullet: {
+	DisplayName: Projétil de Fogo Sangrento
+	Tooltip:
+		'''
+		Acelera a sua regeneração de vida ao atingir o inimigo
+		Causa dano bônus com base em sua regeneração de vida atual
+		'''
+}
+
+BloodRune: {
+	DisplayName: Runa de Sangue
+	Tooltip:
+		'''
+		Usado com a Barragem de Gelo
+		Encontrado em algum tipo de paisagem rúnica
+		'''
+}
+
+BubonicRound: {
+	DisplayName: Tiro Bubônico
+	Tooltip:
+		'''
+		Explode em praga virulenta no contato
+		Ignora 25% da defesa do inimigo
+		'''
+}
+
+CinderArrow: {
+	DisplayName: Flecha Cinzenta
+	Tooltip: Flecha explosiva que explode em fragmentos flamejantes menores que infligem Chamas de Enxofre
+}
+
+DryadsTear: {
+	DisplayName: Lágrima da Dríade
+	Tooltip: Divide em fragmentos da natureza teleguiados no impacto que ignoram a defesa do inimigo
+}
+
+ElysianArrow: {
+	DisplayName: Flecha do Elísio
+	Tooltip: Invoca meteoros do céu na morte
+}
+
+FlashRound: {
+	DisplayName: Tiro Brilhante
+	Tooltip: Emite uma explosão contundente que confunde os inimigos em uma grande área por um curto período de tempo
+}
+
+GodSlayerSlug: {
+	DisplayName: Bala Caça-Deuses
+	Tooltip:
+		'''
+		Munição pesada com perfuração ilimitada que dilacera o espaço-tempo
+		Depois que uma bala acerta, se ela atingir uma parede ou ficar sem alvos para perfurar,
+		ela se dobra para trás através do espaço e sobrecarrega, explodindo com o impacto
+		'''
+}
+
+HallowPointRound: {
+	DisplayName: Bala de Ponta Sagrada
+	Tooltip:
+		'''
+		A luz galante causa 6 a mais de dano ao atingir o inimigo
+		Esse efeito não ocorre se os projéteis forem convertidos por armas especiais
+		'''
+}
+
+HolyFireBullet: {
+	DisplayName: Projétil de Fogo Sagrado
+	Tooltip: Balas sagradas explosivas
+}
+
+HailstormBullet: {
+	DisplayName: Projétil de Granizo
+	Tooltip:
+		'''
+		Projéteis imbuídos com uma magia de gelo potente
+		Esses projéteis desaceleram rapidamente após serem disparados
+		Acertos críticos causam um congelamento instantâneo, causando mais dano e congelando inimigos normais
+		'''
+}
+
+HyperiusBullet: {
+	DisplayName: Projétil de Hipério
+	Tooltip:
+		'''
+		Seus inimigos podem ter um momento ruim
+		Gera projéteis adicionais ao atingir inimigos
+		'''
+}
+
+IcicleArrow: {
+	DisplayName: Flecha de Gelo
+	Tooltip: Se quebra em fragmentos no impacto
+}
+
+MarksmanRound: {
+	DisplayName: Tiro do Atirador
+	Tooltip:
+		'''
+		Um tiro cuidadosamente elaborado que pode ricochetear em moedas no ar
+		Isso permite que outras armas utilizem as moedas lançadas por Colt do Tiro do Craque e Midas Alfa
+		'''
+}
+
+MortarRound: {
+	DisplayName: Tiro de Morteiro
+	Tooltip:
+		'''
+		Tiros altamente explosivos especializados com um grande raio de impacto
+		Destrói peças
+		Usado por armas normais
+		'''
+}
+
+RubberMortarRound: {
+	DisplayName: Tiro de Morteiro de Borracha
+	Tooltip:
+		'''
+		Tiros altamente explosivos especializados com um grande raio de impacto
+		Destrói peças cada vez que saltita
+		Usado por armas normais
+		'''
+}
+
+SproutingArrow: {
+	DisplayName: Flecha Brotante
+	Tooltip:
+		'''
+		Dispara uma flecha energizada que rapidamente se divide em duas flechas
+		Essas flehcas ignoram 8 pontos de defesa
+		'''
+}
+
+VanquisherArrow: {
+	DisplayName: Flecha do Vencedor
+	Tooltip:
+		'''
+		Perfura peças
+		Gera flechas teleguiadas adicionais enquanto viaja
+		'''
+}
+
+VeriumBolt: {
+	DisplayName: Feixe de Vério
+	Tooltip:
+		'''
+		Marca os inimigos ao atingí-los, causando mais dano após um curto período de tempo
+		Este dano é acumulado com base na quantidade de feixes que atingiram o inimigo
+		'Não há escapatória...'
+		'''
+}
