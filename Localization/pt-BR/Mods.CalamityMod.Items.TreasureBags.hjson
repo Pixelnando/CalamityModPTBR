@@ -35,7 +35,7 @@ CeaselessVoidBag: {
 }
 
 CrabulonBag: {
-	DisplayName: Bolsa do Tesouro (Crabulon)
+	DisplayName: Bolsa do Tesouro (Carangulão)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -70,7 +70,7 @@ HiveMindBag: {
 }
 
 LeviathanBag: {
-	DisplayName: Bolsa do Tesouro (Leviathan e Anahita)
+	DisplayName: Bolsa do Tesouro (Leviatã e Anahita)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -105,7 +105,7 @@ RavagerBag: {
 }
 
 SignusBag: {
-	DisplayName: Bolsa do Tesouro (Signus, Emissário do Devorador)
+	DisplayName: Bolsa do Tesouro (Signus, Arauto do Devorador)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 

@@ -343,11 +343,6 @@ BabyGhostBellJar: {
 	Tooltip: ""
 }
 
-CirrusCouch: {
-	DisplayName: Sofá de Cirrus
-	Tooltip: Isso não deveria existir...
-}
-
 AquaticScourgeRelic: {
 	DisplayName: Relíquia do Flagelo Aquático
 	Tooltip: Um vislumbre do que poderia ter sido...
@@ -612,7 +607,7 @@ CrimsonEffigy: {
 }
 
 ThankYouPainting: {
-	DisplayName: Thank You
+	DisplayName: Obrigado
 	Tooltip:
 		'''
 		Obrigado a toda equipe, a todos que apoiaram e a todos que jogam o mod e o mantêm vivo!

@@ -216,15 +216,6 @@ BulletFilledShotgun: {
 		'''
 }
 
-Butcher: {
-	DisplayName: Açougueiro
-	Tooltip:
-		'''
-		Dispara projéteis mais rápido e com mais precisão quanto mais tempo você segurar o gatilho
-		25% de chance de economizar munição
-		'''
-}
-
 ChickenCannon: {
 	DisplayName: Canhão de Galinhas
 	Tooltip:
@@ -404,15 +395,6 @@ Disseminator: {
 		'''
 }
 
-DodusHandcannon: {
-	DisplayName: Canhão de Mão de Dodu
-	Tooltip:
-		'''
-		Dispara cascas de amendoim altamente explosivas, literalmente
-		'O poder da noz está em suas mãos'
-		'''
-}
-
 DragonsBreath: {
 	DisplayName: Sopro do Dragão
 	Tooltip:
@@ -434,15 +416,6 @@ Drataliornus: {
 		Sofrer danos enquanto dispara o fluxo irá interrompê-lo e reduzirá o tempo de voo da sua asa
 		Pressione <right> para disparar duas barragens devastadoras de cinco bolas de fogo fortalecidas
 		'Só não seja atingido'
-		'''
-}
-
-ElementalBlaster: {
-	DisplayName: Detonador Elemental
-	Tooltip:
-		'''
-		Dispara uma tempestade de explosões arco-íris
-		Não consume munição
 		'''
 }
 
@@ -1402,36 +1375,36 @@ WulfrumBlunderbuss: {
 }
 
 Buzzkill: {
-	// DisplayName: Buzzkill
-	/* Tooltip:
+	DisplayName: Estraga-Seres
+	Tooltip:
 		'''
-		Hold <left> to rev up a close-range buzzsaw
-		When released, the saw bounces off tiles and lacerates foes
-		Revving the saw increases its damage and piercing capabilities
-		'Not to be confused with the Sawed-On Shotgun'
-		''' */
+		Segure o <left> para acelerar uma serra de curto alcance
+		Ao ser liberada, a serra ricocheteia em peças e dilacera os oponentes
+		Acelerar a serra aumenta o seu dano e suas capacidades de perfuração
+		'Não confundir com a Escopeta de Cano Alongado'
+		'''
 }
 
 SuperradiantSlaughterer: {
-	// DisplayName: Superradiant Slaughterer
-	/* Tooltip:
+	DisplayName: Massacrador Super-Radiante
+	Tooltip:
 		'''
 		[MAIN]
 		[ALT]
-		[c/c91a1a:'No one knows how it turns blood into rainbows...']
-		''' */
-	/* MainInfo:
+		[c/c91a1a:'Ninguém sabe como ele transforma sangue em arco-íris...']
 		'''
-		Hold <left> to rev up a close-range elemental buzzsaw
-		When released, the saw bounces off tiles and lacerates foes
-		Fired buzzsaws eventually return to the player and release homing bolts, scaling with enemy and tile hits
-		Revving up the saw increases its damage and piercing capabilities
-		''' */
-	/* AltInfo:
+	MainInfo:
 		'''
-		Press <right> to fire a lingering buzzsaw towards the cursor that constantly fires homing bolts
-		Using this ability rapidly propels you in the direction you are moving if movement keys are held
-		This ability has a {0} second cooldown
-		During this cooldown, fired buzzsaws home in on the cursor and will release homing bolts while returning
-		''' */
+		Segure o <left> para acelerar uma serra elemental de curto alcance
+		Ao ser liberada, a serra ricocheteia em peças e dilacera os oponentes
+		Serras disparadas eventualmente retornam ao jogador e liberam raios teleguiados adicionais para cada inimigo ou peça atingido
+		Acelerar a serra aumenta o seu dano e suas capacidades de perfuração
+		'''
+	AltInfo:
+		'''
+		Pressione <right> para disparar uma serra persistente na direção do cursor que constantemente dispara raios teleguiados
+		Usar essa habilidade impulsiona você rapidamente na direção em que está se movendo se as teclas de movimento forem pressionadas
+		Esta habilidade possui um tempo de recarga de {0} segundos
+		Durante este tempo de recarga, serras disparadas seguirão o cursor e liberarão raios teleguiados enquanto retornam
+		'''
 }

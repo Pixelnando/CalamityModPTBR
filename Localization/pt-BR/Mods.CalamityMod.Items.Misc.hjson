@@ -230,11 +230,6 @@ VoodooDemonVoodooDoll: {
 }
 
 // Uncategorized
-AlicornonaStick: {
-	DisplayName: Alicórnio de Pau
-	Tooltip: "'Parabéns, você ganhou! Aqui está a minha cabeça em um graveto.'"
-}
-
 BallAndChain: {
 	DisplayName: Bola e Corrente
 	Tooltip:
@@ -319,6 +314,6 @@ SuperDummy: {
 }
 
 ColdheartIcicle: {
-	// DisplayName: Coldheart Icicle
-	// Tooltip: "'N(ice) work'"
+	DisplayName: Gelo do Coração Gelado
+	Tooltip: "'É de dar calafrios'"
 }

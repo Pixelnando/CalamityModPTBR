@@ -102,34 +102,20 @@ SCalDesparationText1Rematch: Uma exibição fantástica, admito esta partida par
 SCalDesparationText2Rematch: Sem dúvida, você enfrentará inimigos mais fortes do que eu.
 SCalDesparationText3Rematch: Espero que você não comita os mesmos erros que ele.
 SCalDesparationText4Rematch: Não consigo imaginar o que o seu futuro reserva para você agora.
-// Cirrus (GFB)
-CirrusSummonText: Você está preparado para uma tarefa mais Sísifa?
-CirrusBirbSwarmText: Aqueles corações são meio chatos. Que tal uma infestação de pássaros?
-CirrusBH2Text: Tá com sede? Eu posso corrigir isso!
-CirrusBH3Text: Saca só esse brinquedinho legal que eu encontrei!
-CirrusDoGText: Eu te disse que os vermes falantes eram reais! Mas você não acreditou em mim!
-CirrusPhase2Text: Hora de uma transformação!
-CirrusBH4Text: É hora de HAGE!
-CirrusHallowBossSpamText: Eu tenho mais amigos do que você poderia imaginar!
-CirrusBH5Text: Hah! Você é bom, mas eu sou melhor!
-CirrusSecondBirbSwarmText: Hora de outra infestação!
-CirrusNonchalantText: Tô ficando cansada...
-CirrusBruhText: Brincadeirinha! Hora do meu ataque especial!
-CirrusGiveUpText: Meh, que seja, tô meio cansada disso.
 // April Fools
 AprilFools: O LORDE está se aproximando...
 AprilFoolsGFB: La Ruga está se aproximando...
 // Permafrost (GFB)
-// PermafrostSummonText: Are you prepared for a task most Sisyphean?
-// PermafrostBirbSwarmText: Those hearts were a bit too brutal for my taste. How about some lovely birds instead?
-// PermafrostBH2Text: Getting tired from the battle, adventurer? Hungry? How does some Delicious Meat sound?
-// PermafrostBH3Text: Suprised at how I am holding my own again you? I did train Calamitas, after all!
-// PermafrostDoGText: The serpent!? How!? What is HE doing here!? Is he here to torment me further!? Kill it, adventurer!
-// PermafrostPhase2Text: Ha! I suppose I can no longer be "chill" about this duel! Get it?
-// PermafrostBH4Text: Need a break? Can you not even keep up with an old man?
-// PermafrostHallowBossSpamText: You truly have grown strong! Thankfully, I and Calamitas reconstructed this to assist me.
-// PermafrostBH5Text: Why, it has been quite long since I have had an excuse to use these magics!
-// PermafrostSecondBirbSwarmText: I must say, those birds earlier were rather cute! Do some more not sound nice?
-// PermafrostNonchalantText: I must say, I am not the mage I used to be. This is starting to tire my old body...
-// PermafrostBruhText: Ha! Just kidding! Watch what happens when I cast a spell I know!
-// PermafrostGiveUpText: Gah, I think I pulled a muscle! Ah, well. I seems that I must concede. Well fought!
+PermafrostSummonText: Você está preparado para uma tarefa mais Sísifa?
+PermafrostBirbSwarmText: Aqueles corações foram um pouco brutais demais para meu gosto. Que tal alguns lindos pássaros?
+PermafrostBH2Text: Se cansando da batalha, aventureiro? Está com fome? Que tal uma Carne Deliciosa?
+PermafrostBH3Text: Ficou surpreso com a forma como estou me saindo contra você? Eu treinei a Calamitas, afinal de contas! 
+PermafrostDoGText: A serpente!? Como!? O que ELE está fazendo aqui!? Será que ele está aqui para me atormentar ainda mais!? Mate-o, aventureiro!
+PermafrostPhase2Text: Ha! Acho que não posso mais "ficar frio" em relação a este duelo! Entendeu?
+PermafrostBH4Text: Precisa descansar? Você não consegue nem acompanhar um velhote?
+PermafrostHallowBossSpamText: Você realmente ficou mais forte! Felizmente, eu e a Calamitas reconstruímos isso para me ajudar.
+PermafrostBH5Text: Ora, já faz muito tempo que não tenho uma desculpa para usar essas magias!
+PermafrostSecondBirbSwarmText: Devo dizer que aqueles pássaros de antes eram muito fofos! Não seria uma boa trazer mais deles?
+PermafrostNonchalantText: Devo dizer que não sou mais o mago que costumava ser. Isso está começando a cansar meu corpo velho...
+PermafrostBruhText: Ha! Brincadeira! Veja o que acontece quando eu uso uma magia que eu conheço!
+PermafrostGiveUpText: Nossa, acho que distendi um músculo! Ah, bem. Parece que tenho que ceder. Boa luta!

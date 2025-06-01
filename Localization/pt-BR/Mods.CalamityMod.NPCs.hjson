@@ -274,7 +274,6 @@ BrimstoneHeart.DisplayName: Coração de Enxofre
 SepulcherHead.DisplayName: Sepulcro
 SoulSeekerSupreme.DisplayName: Caça-Almas
 SupremeCalamitas.DisplayName: Calamitas, a Bruxa Suprema
-SupremeCirrus: Cirrus, a Alquimista Suprema
 SupremeCataclysm.DisplayName: Cataclismo
 SupremeCatastrophe.DisplayName: Catástrofe
 Yharon.DisplayName: Yharon, Dragão do Renascer
@@ -318,101 +317,6 @@ DILF: {
 		DislikeNPC: Eu não gosto do flagrante desrespeito de {NPCName} pela magia. Não posso culpá-lo por suas funções, mas ele é bastante ignorante.
 		LikeNPC_Princess: "{NPCName} tem alguns feitiços muito singulares. Estou bastante impressionado, considerando sua idade."
 		Princess_LovesNPC: Eu gosto de {NPCName}.
-	}
-}
-
-FAP: {
-	DisplayName: Princesa Bêbada
-	Census.SpawnCondition: Tenha {$Mods.CalamityMod.Items.Potions.FabsolsVodka.DisplayName} [i:CalamityMod/FabsolsVodka] no seu inventário no Modo Difícil
-	Name.Cirrus: Cirrus
-
-	Chat: {
-		BossAlive: Por que você está falando comigo agora? Você deveria estar se atrapalhando e morrendo para a minha diversão!
-		Homeless1: Eu senti o cheiro da minha vodka a QUILÔMETROS de distância!
-		Homeless2: Tem algum quarto disponível? De preferência à luz de velas com uma boa quantidade de bebida?
-		BloodMoon1: Vou preparar algumas Marias Sangrentas para relaxar, incluindo aipo. Quer uma?
-		BloodMoon2: Se você for muito preguiçoso para criar poções normalmente, experimente os Orbes de Sangue. Sangue é combustível, idiota.
-		BloodMoon3: Estou tentando não ser chata nesta noite, mas é difícil quando ninguém quer calar a boca.
-		BloodMoonSlap: Desculpe, não possuo um guia moral no momento.
-		Normal1: TÔ DE SACO CHEIO COM O WALMART! ...Enfim, o que você quer desta vez?
-		Normal2: Beba algo que te transforme em um unicórnio voador mágico para que você possa ser igual a mim.
-		Normal3: Promoções tão boas que eu até me [$$!$]! ...Desculpe, acabei de ter um pequeno derrame!
-		Normal4: Alguém já lhe disse que coisas grandes causam dor nas costas? Bem, eles estavam certos.
-		Archmage: "{0} pode tomar uma comigo a qualquer momento! ...Ou talvez não, não tenho certeza se o coração velho dele aguentaria."
-		BrimstoneWitch: O abuso que {0} sofreu é algo que eu mal consigo compreender. Eu ofereceria uma bebida a ela, mas eu não acho que ela gostaria.
-		Tavernkeep1: Minha bebida sempre será melhor do que as bebidas de {0}, e nada me fará mudar de opinião.
-		Tavernkeep2: Diga a {0} para parar de me ligar. Não estou interessada.
-		Tavernkeep3: Tive que dizer para o carequinha onde os meus olhos estão tantas vezes que perdi a conta.
-		Stylist1: Desde que {0} se mudou, eu não tenho bebido tanto... uma sensação estranha, mas não indesejada.
-		Stylist2: Você não pode me impedir de tentar morar com {0}.
-		Stylist3: Eu adoro quando as mãos de {0} ficam grudentas com toda aquela... cera.
-		Day1: Estou bêbada demais para ser atrevidinha agora, o que você quer?
-		Day2: Ou estou rindo porque estou bêbada, ou porque perdi a cabeça. Provavelmente os dois.
-		Day3: Quando estou bêbada, fico muito mais feliz... até que os vermes falantes apareçam.
-		Day4: Eu devia reprogramar o mod inteiro, enquanto estou bêbada, e enviar ele de volta para os testadores.
-		DayStylist1: "{0} me ajudou a aprender a aceitar o meu passado. Tem sido difícil, mas eu acho que estou no caminho certo agora."
-		DayStylist2: Talvez eu saia para correr com {0}. É um bom dia para isso.
-		DayDrunk1: Eu bebo para esquecer certas... coisas. Que coisas, você pergunta? Bem, a questão é esquecê-los, não é?
-		DayDrunk2: Que dia ótimo! Talvez eu beba tanto que fique envenenada novamente.
-		Night1: Uma noite perfeita para acender algumas velas, beber um pouco de vinho e relaxar.
-		Night2: Aqui está um desafio... beba uma dose toda vez que você teve que consultar o wiki. Ah, espera, você morreria.
-		Night3: Sim, todo mundo sabe que o vermecânico é bugado. Bem, ele não é mais, mas ainda sim.
-		Night4: Você está perdido ou algo assim? Não me importo de ter compania, mas prefiro ficar sozinha à noite.
-		Night5: Você tem mesmo 18 anos? ...Tudo bem, mas não fala para ninguém que eu vendi isso pra você.
-		NightStylist: Eu deveria assistir alguns filmes com {0} hoje à noite. Você pode vir também, contanto que nos traga lanchinhos.
-		Party: Você sempre me encontrará em festas onde a bebida está envolvida... bem, você sempre encontrará BEBIDAS onde EU estiver envolvida.
-		AcidRain: Eu estou derretendo! Ponha um fim a este tempo inclemente antes que ele estrague meu cabelo!
-		Martians: Você provavelmente deveria lidar com esses ETs bilus antes de qualquer coisa, mas tanto faz.
-		CryogenDefeated: Meu Deus, eu mal posso esperar para bater no gelo de novo! ...Para bebidas, é claro.
-		LeviathanDefeated: Como você pôde matar uma criatura tão linda!? ...A gostosa de azul, não o pepino obeso.
-		MoonLordDefeated: Já se perguntou por que o Senhor da Lua precisava de tantos tentáculos? Hm... pensando bem, não irei responder.
-		PolterghastDefeated: Uma vez, na minha terra natal, vi um fantasma perto dos trilhos do velho trem, se debatendo descontroladamente nas vitórias régias... que tempos assustadores.
-		DoGDefeated: Ouvi dizer que é incrível quando o famoso Devorador de Deuses no espaço da mandíbula aberta, com o diapasão, pisca bruscamente na rocha Hara-kiri. Eu preciso de uma tesoura! 61!
-		HasChibii: O que diabos é isso? Parece algo que eu carregaria se eu tivesse 5 anos.
-		HasAnahitaTrans: Belas escamas... por acaso, está ficando quente aqui ou sou só eu?
-		HasVodka: Você gostou da minha vodka? Eu criei ela misturando pó de fada, suor de caverna cristalizado e outras porcarias mágicas.
-		HasAlicorn1: Então... você encontrou a minha garrafa especial. Espero que você se divirta, eu sei que eu vou.
-		HasAlicorn2: Certifique-se de desmontar-se de mim de vez em quando, eu fico cansada. E, além disso, não posso enganá-lo- quero dizer, oferecer excelentes promoções que você não econtrará em nenhum outro lugar se você estiver montando em mim 24 horas por dia.
-		HasAlicorn3: Antes que pergunte, não, eu NÃO tenho um coração na minha bunda enquanto estou minha forma humana. Não questione as minhas preferências de transformação!
-	}
-
-	// Death Count stuffs
-	DeathCountButton: Cont. Mortes + Doadores
-	DeathCount: Você falhou {0} {^0:vez;vezes}.
-	Death10000: Parabéns! Você agora é, oficialmente, o maior perdedor da história de Terraria! Quem foi o número dois? Sei lá.
-	Death5000: Não tenho certeza do que dizer desta vez. Que você é ruim e deveria se sentir mal? Isso todos já sabem.
-	Death2500: Abençoe seu coração. Eu poderia esquivar melhor que você, mesmo se estivesse bêbada.
-	Death1000: Diz-se que o Terrariano comum tem uma vida útil de 2 minutos ou menos. ...Bem, não realmente, mas sinto que você faria parte dessa estatística.
-	Death500: A sua inabilidade de evitar de morrer ao mais básico dos ataques é surpreendente para mim.
-	Death250: Eu admiro a sua tenacidade. Continue assim, os seus inimigos estão acumulando uma grande contagem de eliminações!
-	Death100: Considere diminuir a dificuldade. Se você achou essa afirmação irritante, ótimo.
-	DonorShoutout: Ei {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {19}, {20}, {21}, {22}, {23} e {24}! Vocês são todos muito bons!
-
-	TownNPCMood: {
-		Content: São 5 da tarde em algum lugar do mundo.
-		NoHome: Preciso de um lugar para descansar! Minhas bebidas precisam ser devidamente refrigeradas antes de serem servidas!
-		LoveSpace: Finalmente, um pouco de paz e tranquilidade. Grandes quantidades de pessoas tendem a me irritar.
-		FarFromHome: Estou acostumada a fugir de casa, mas isso aqui é um pouco ridículo.
-		DislikeCrowded: Se mais alguém me disser 'é happy hour em outro lugar do mundo' para tentar conseguir um desconto, vou surtar!
-		HateCrowded: Nenhuma quantidade de álcool consegue abafar o barulho que essas pessoas fazem!
-		LoveBiome: Outros unicórnios? Nunca imaginei que veria esse dia! Este lugar é incrível!
-		LikeBiome: Uma boa brisa para refrescar as cabeças, esse é o jeito de lidar com clientes que exageraram nas bebidas!
-		DislikeBiome: Esse ar seco e calor não é bom para o meu cabelo, nem para as minhas bebidas.
-		HateBiome: Você acha que posso consertar essa bagunça com um arco-íris mágico da amizade? Não é assim que funciona, idiota! Me tire daqui logo!
-		LoveNPC_Stylist: "{NPCName} faz maravilhas para o meu cabelo... entre outras coisas, hehe."
-		LoveNPC_BestiaryGirl: "{NPCName} é tão fofa e macia! Ela também diz que minha forma de alicórnio é 'mega radical'."
-		LikeNPC_Truffle: "{NPCName} me deixa com tanta fome... Fico imaginando que viagem incrível ele proporcionaria..."
-		LikeNPC_PartyGirl: "{NPCName} seria uma ótima bartender um dia. Ela realmente sabe como animar o ambiente!"
-		DislikeNPC_DD2Bartender: "{NPCName} é muito careca."
-		DislikeNPC_TaxCollector: "{NPCName} melhor manter distância... ele não vai querer acordar uma manhã com uma bomba caseira na sua caixa de correio."
-		HateNPC_GoblinTinkerer: "{NPCName} era tão terrível que eu tive que FORÇÁ-LO a ter um sistema de reforjas melhor. Por que você me colocaria ao lado dele? Você gosta de me ver reviver o estresse que ele me causou!?"
-		HateNPC_Angler: "{NPCName} nunca para de tagarelar sobre suas missões de pesca inúteis. Tire-me dele antes que eu o esmague no chão!"
-		LikeNPC_Princess: Você achou que eu não gostaria de {NPCName} porque somos muito diferentes? Muito pelo contrário, há muitas coisas sobre as quais gostamos de conversar, é claro, com bebidas não alcoólicas.
-		Princess_LovesNPC: Eu gosto de {NPCName}.
-		HateNPC: Eu odeio {NPCName}.
-		DislikeNPC: Eu não gosto de {NPCName}.
-		LikeNPC: Eu gosto de {NPCName}.
-		LoveNPC: Eu amo {NPCName}.
 	}
 }
 
@@ -623,8 +527,8 @@ WITCH: {
 		Princess_LovesNPC: Eu gosto de {NPCName}.
 	}
 
-	// DonorButton: Donors
-	// DonorShoutout: Hey {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {19}, {20}, {21}, {22}, {23} and {24}. You guys are good people.
+	DonorButton: Doadores
+	DonorShoutout: Ei, {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {19}, {20}, {21}, {22}, {23} e {24}. Vocês são boas pessoas.
 }
 
-// SupremePermafrost: Supreme Ultramage, Permafrost
+SupremePermafrost: Ultramago Supremo, Pergelissolo

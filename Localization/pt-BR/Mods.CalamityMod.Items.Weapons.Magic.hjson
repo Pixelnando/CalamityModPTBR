@@ -224,11 +224,6 @@ DeathValleyDuster: {
 	Tooltip: Conjura uma enorme rajada de poeira
 }
 
-DivineRetribution: {
-	DisplayName: Retribuição Divina
-	Tooltip: Mago é melhor que ladino; olha só, temos uma arma de doador para provar isso!
-}
-
 Downpour: {
 	DisplayName: Aguaceiro
 	Tooltip:
@@ -297,11 +292,6 @@ EventHorizon: {
 EvergladeSpray: {
 	DisplayName: Jato do Pântano
 	Tooltip: Dispara um fluxo de icor verde ardente
-}
-
-Fabstaff: {
-	DisplayName: Cajabuloso
-	Tooltip: Conjura um feixe que rebate em paredes e se divide quando inimigos estão próximos
 }
 
 FaceMelter: {
@@ -1001,10 +991,11 @@ YharimsCrystal: {
 }
 
 Sylvestaff: {
-	// DisplayName: Sylvestaff
-	/* Tooltip:
+	DisplayName: Cajado Silvestre
+	Tooltip:
 		'''
-		Casts a bouncing beam that splits when enemies are near it
-		'Also known as the Karma Staff!'
-		''' */
+		Conjura um feixe que rebate em paredes e se divide quando inimigos estão próximos
+		'Também conhecido como o Cajado do Carma!'
+		'''
+		
 }

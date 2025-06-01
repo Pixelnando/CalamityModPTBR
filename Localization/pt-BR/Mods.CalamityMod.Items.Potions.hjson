@@ -18,7 +18,7 @@ Baguette: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MinorStats}
-		Melhora os efeitos do Vinho Tinto
+		O Vinho Tinto agora cura 250 de vida, mas reduz a regeneração de vida em 2 de vida por segundo
 		[c/FCE391:'je suis Monte']
 		'''
 }
@@ -53,15 +53,6 @@ DeliciousMeat: {
 		'''
 		{$CommonItemTooltip.MediumStats}
 		'Muito, mas muito deliciosa'
-		'''
-}
-
-Fabsoup: {
-	DisplayName: Pote da Dor
-	Tooltip:
-		'''
-		{$CommonItemTooltip.MajorStats}
-		'hrngh, sopa'
 		'''
 }
 
@@ -178,7 +169,7 @@ BloodyMary: {
 		'''
 		10% de aumento nos danos e na velocidade dos movimentos durante uma Lua de Sangue
 		Reduz a regeneração de vida em 2 de vida por segundo e a defesa em 4%
-		[c/B00BA5:'Extremamente picante e sangrento!']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -186,9 +177,9 @@ CaribbeanRum: {
 	DisplayName: Rum Caribenho
 	Tooltip:
 		'''
-		Aumenta a regeneração de vida em 1 de vida por segundo, a velocidade dos movimentos em 10%, e o tempo de voo da asa em 20%
+		Aumenta a regeneração de vida em 1 de vida por segundo e a velocidade dos movimentos em 10%
 		Faz você sentir-se flutuante e reduz a defesa em 10%
-		[c/B00BA5:'Por que o rum sumiu?']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -198,7 +189,7 @@ CinnamonRoll: {
 		'''
 		Aumenta a taxa de regeneração de mana e multiplica os danos de todos os efeitos negativos relacionados ao fogo em 1,5x
 		Reduz a defesa em 10%
-		[c/B00BA5:'Um uísque de canela com um ótimo sabor e um toque de vaca-preta.']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -208,7 +199,8 @@ Everclear: {
 		'''
 		Aumenta o dano em 25%
 		Reduz a regeneração de vida em 5 de vida por segundo e a defesa em 30%
-		[c/B00BA5:'Esta é a bebida mais potente que eu tenho, tome cuidado com ela.']
+		Conta como 2 bebidas alcoólicas para o Envenenamento por Álcool
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -218,17 +210,7 @@ EvergreenGin: {
 		'''
 		Multiplica os danos de todos os efeitos negativos relacionados à água em 1,25x
 		Reduz a regeneração de vida em 0,5 de vida por segundo
-		[c/B00BA5:'Tem gosto de árvore de Natal, se você conseguir imaginar isso.']
-		'''
-}
-
-FabsolsVodka: {
-	DisplayName: Vodka de Fabsol
-	Tooltip:
-		'''
-		8% de aumento nos danos, mas reduz a defesa em 10%
-		Aumenta o tempo de imunidade depois de ser atacado
-		Este licor mágico é muito procurado por quem tem um paladar requintado
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -238,7 +220,7 @@ Fireball: {
 		'''
 		Multiplica os danos de todos os efeitos negativos relacionados ao fogo em 1,25x
 		Reduz a regeneração de vida em 0,5 de vida por segundo
-		[c/B00BA5:'Um uísque de canela com um ótimo sabor.']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -247,7 +229,7 @@ GrapeBeer: {
 	Tooltip:
 		'''
 		Reduz a defesa em 3% por 15 segundos
-		[c/B00BA5:'Esta porcaria é horrível, mas você pode gostar.']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -257,8 +239,8 @@ Margarita: {
 		'''
 		Reduz a duração da maioria dos efeitos negativos pela metade
 		Reduz a defesa em 6% e a regeneração de vida em 0,5 de vida por segundo
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		3 minuto(s) de duração
-		[c/B00BA5:'Uma das melhores bebidas já criadas, aproveite enquanto pode.']
 		'''
 }
 
@@ -268,7 +250,7 @@ Moonshine: {
 		'''
 		Aumenta a defesa em 10 e a redução dos danos em 3%
 		Reduz a regeneração de vida em 0,5 de vida por segundo
-		[c/B00BA5:'Esta coisa é muito forte, mas tenho certeza que você aguenta.']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -278,7 +260,7 @@ MoscowMule: {
 		'''
 		Aumenta o dano em 9%, recuo em 50% e chance de acerto crítico em 3%
 		Reduz a regeneração de vida em 2 de vida por segundo
-		[c/B00BA5:'Uma vez eu ouvi que a caneca de cobre pode ser tóxica e eu disse 'olha aqui cara, eu já tô me envenenando'']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -298,7 +280,7 @@ OldFashioned: {
 		'''
 		Multiplica os danos de todos os acessórios e bônus de conjunto em 1,5x
 		Reduz todos os danos em 25%
-		[c/B00BA5:'Um antigo favorito meu.']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -307,7 +289,7 @@ RedWine: {
 	Tooltip:
 		'''
 		Reduz a regeneração de vida em 0.5 de vida por segundo por 15 segundos
-		[c/B00BA5:'Muito seco para o meu gosto.']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -317,7 +299,7 @@ Rum: {
 		'''
 		Aumenta a regeneração de vida em 1 de vida por segundo e a velocidade dos movimentos em 10%
 		Reduz a defesa em 5%
-		[c/B00BA5:'Doce e potente, do jeitinho que eu gosto.']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -327,7 +309,7 @@ Screwdriver: {
 		'''
 		Multiplica o dano de projéteis perfurantes em 1,05x
 		Reduz a regeneração de vida em 0.5 de vida por segundo
-		[c/B00BA5:'Você tem um parafuso solto?']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -337,7 +319,7 @@ StarBeamRye: {
 		'''
 		Aumenta a mana máxima em 50, dano mágico em 8% e reduz o uso de mana em 10%
 		Reduz a defesa em 6% e a regeneração de vida em 1 de vida por segundo
-		[c/B00BA5:'Feito de algumas coisas que eu encontrei perto da queda do Meteoro Astral, não se preocupe, é seguro, confie em mim...']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -347,7 +329,7 @@ Tequila: {
 		'''
 		Aumenta o recuo em 10%, chance de acerto crítico em 4% e defesa em 5 durante o dia
 		Reduz a regeneração de vida em 0.5 de vida por segundo
-		[c/B00BA5:'Ótimo para preparar bebidas diurnas.']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -357,7 +339,7 @@ TequilaSunrise: {
 		'''
 		Aumenta o recuo em 20%, chance de acerto crítico em 8% e defesa em 10 durante o dia
 		Reduz a regeneração de vida em 1 de vida por segundo
-		[c/B00BA5:'A melhor bebida diurna que eu já tomei.']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -367,7 +349,7 @@ Vodka: {
 		'''
 		Aumenta o dano em 6% e a chance de acerto crítico em 2%
 		Reduz a regeneração de vida em 0.5 de vida por segundo e a defesa em 5%
-		[c/B00BA5:'O álcool número um para a criação de ótimas bebidas mistas.']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -377,7 +359,7 @@ Whiskey: {
 		'''
 		Aumenta o dano em 4%, recuo em 20% e chance de acerto crítico em 2%
 		Reduz a defesa em 5%
-		[c/B00BA5:'A sensação de queimação torna-o mais saboroso.']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
@@ -387,25 +369,25 @@ WhiteWine: {
 		'''
 		Aumenta o dano mágico em 8%
 		Reduz a defesa em 6 e a regeneração de vida em 0,5 de vida por segundo
-		[c/B00BA5:'Uma vez, eu bebi um barril cheio disso em uma noite. Eu não conseguia lembrar de quem eu era no dia seguinte.']
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }
 
 LavaChickenBroth: {
-	// DisplayName: Lava Chicken Broth
-	/* Tooltip:
+	DisplayName: Caldo de Galinha de Lava
+	Tooltip:
 		'''
 		{$CommonItemTooltip.MajorStats}
-		'It's tasty as hell'
-		''' */
+		'É tudo bem gostosinho'
+		'''
 }
 
 PurpleHaze: {
-	// DisplayName: Purple Haze
-	/* Tooltip:
+	DisplayName: Névoa Púrpura
+	Tooltip:
 		'''
-		8% increased damage, but lowers defense by 5%
-		Increases immune time after being struck
-		Drinking more than 3 different alcohols might not end well with your liver
-		''' */
+		8% de aumento nos danos, mas reduz a defesa em 5%
+		Aumenta o tempo de imunidade depois de ser atacado
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
+		'''
 }

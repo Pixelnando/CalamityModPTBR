@@ -28,11 +28,6 @@ EvergreenGinBuff: {
 	Description: Danos por efeitos negativos de doença e de água aumentados, regeneração de vida reduzida
 }
 
-FabsolVodkaBuff: {
-	DisplayName: Fabuloso
-	Description: Você se sente fabuloso
-}
-
 FireballBuff: {
 	DisplayName: Bola de Fogo
 	Description: Dano por efeitos negativo de fogo aumentado, regeneração de vida reduzida
@@ -241,11 +236,6 @@ VulnerabilityHex: {
 WeakBrimstoneFlames: {
 	DisplayName: Chamas Fracas de Enxofre
 	Description: Usar o poder da Bruxa Suprema faz com que você sofra, mas torna suas armas mais fortes
-}
-
-AlicornBuff: {
-	DisplayName: Alicórnio
-	Description: Você derrotou o DdD bêbado, você é realmente fabuloso!
 }
 
 AndromedaBuff: {
@@ -458,26 +448,6 @@ ChaosCandleBuff: {
 	Description: As taxas de surgimento em torno da vela são aumentadas!
 }
 
-CirrusBlueCandleBuff: {
-	DisplayName: Flexibilidade
-	Description: A chama flutuante parece elevar o seu espírito
-}
-
-CirrusPinkCandleBuff: {
-	DisplayName: Vigor
-	Description: Sua luz brilhante enche aqueles por perto com esperança
-}
-
-CirrusPurpleCandleBuff: {
-	DisplayName: Resiliência
-	Description: Nem a chuva nem o vento podem apagar sua chama eterna
-}
-
-CirrusYellowCandleBuff: {
-	DisplayName: Vingança
-	Description: Seu brilho odioso cintila de ira
-}
-
 CorruptionEffigyBuff: {
 	DisplayName: Efígie da Corrupção
 	Description: A corrupção te fortalece
@@ -520,7 +490,7 @@ AstralInjectionBuff: {
 
 BaguetteBuff: {
 	DisplayName: Baguete
-	Description: "[c/B00BA5:'Se eu soubesse...' ~Cirrus]"
+	Description: Vai bem com o Vinho Tinto
 }
 
 BloodfinBoost: {
@@ -763,11 +733,6 @@ IceShieldBuff: {
 	Description: Absorve 20% do dano do próximo acerto que você sofrer, então se despedaça
 }
 
-KamiBuff: {
-	DisplayName: Injeção Kami
-	Description: 15% de aumento na velocidade dos movimentos máxima, na aceleração e nos danos
-}
-
 Mushy: {
 	DisplayName: Molenga
 	Description: Defesa aumentada em 6 e regeneração de vida em 1 de vida por segundo
@@ -945,11 +910,6 @@ IcarusFolly: {
 Irradiated: {
 	DisplayName: Irradiado
 	Description: Sua pele está queimando
-}
-
-KamiFlu: {
-	DisplayName: Gripe Kami
-	Description: Sem defesas e morrendo
 }
 
 MarkedforDeath: {
@@ -1522,36 +1482,37 @@ LiliesOfFinalityBuff: {
 }
 
 PurpleHazeBuff: {
-	// DisplayName: Purple Haze
-	// Description: Increases damage and gives extra immunity frames, defense reduced
+	DisplayName: Névoa Púrpura
+	Description: Aumenta o dano e concede quadros de imunidade adicionais, defesa reduzida
 }
 
 HeavyBleeding: {
-	// DisplayName: Heavy Bleeding
-	// Description: That's gonna need stitches
+	DisplayName: Sangramento Pesado
+	Description: Vai precisar de pontos
 }
 
 Laceration: {
-	// DisplayName: Laceration
-	// Description: You're a bloody mess
+	DisplayName: Dilaceração
+	Description: Você está todo ensanguentado
 }
 
 BlueCandleBuff: {
-	// DisplayName: Limber
-	// Description: The floating flame seems to uplift your very spirit
+	DisplayName: Flexibilidade
+	Description: A chama flutuante parece elevar o seu espírito
 }
 
 PinkCandleBuff: {
-	// DisplayName: Vigor
-	// Description: The brilliant light suffuses you with hope
+	DisplayName: Vigor
+	Description: Sua luz brilhante te enche de esperança
 }
 
 PurpleCandleBuff: {
-	// DisplayName: Resilience
-	// Description: Neither rain nor wind can snuff your undying flame
+	DisplayName: Resiliência
+	Description: Nem a chuva nem o vento podem apagar sua chama eterna
 }
 
 YellowCandleBuff: {
-	// DisplayName: Spite
-	// Description: The hateful, flickering glow fuels your ire
+	DisplayName: Vingança
+	Description: O brilho odioso e cintilante alimenta sua ira
 }
+

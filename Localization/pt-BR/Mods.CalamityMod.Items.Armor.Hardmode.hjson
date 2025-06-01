@@ -60,17 +60,6 @@ BrimflameScowl: {
 		'''
 }
 
-CirrusDress: {
-	DisplayName: Vestido de Cirrus
-	Tooltip:
-		'''
-		5% de aumento nos danos por magia e na chance de acerto crítico mágico
-		20% de redução na velocidade dos movimentos e aumenta a velocidade máxima de queda para 61 mph
-		[c/B00BA5:'Aqui, isto deve ajudá-lo a beber tanto álcool quanto quiser!']
-		'Você se sente gostosão...'
-		'''
-}
-
 DaedalusBreastplate: {
 	DisplayName: Peitoral de Dédalo
 	Tooltip: 3% de aumento nos danos e na chance de acerto crítico

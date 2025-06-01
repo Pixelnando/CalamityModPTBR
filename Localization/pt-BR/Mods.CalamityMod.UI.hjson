@@ -126,7 +126,7 @@ Cooldowns: {
 	WulfrumBastionCooldown: Tempo de Recarga do Bastião de Vulfrúmio
 	WulfrumRoverDriveDurability: Durabilidade da Matriz Protetora
 	WulfrumRoverDriveRecharge: Recarga da Matriz Protetora
-	// SuperradiantSawBoost: Superradiant Saw Boost
+	SuperradiantSawBoost: Impulso da Serra Super-Radiante
 }
 
 // Enchantment + Draedon UI

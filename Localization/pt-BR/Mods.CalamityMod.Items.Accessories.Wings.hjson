@@ -10,18 +10,6 @@ AureateBooster: {
 		'''
 }
 
-DrewsWings: {
-	DisplayName: Asas de Drew
-	Tooltip:
-		'''
-		Velocidade horizontal: 11.50
-		Multiplicador de aceleração: 2.9
-		Velocidade vertical excelente
-		Tempo de voo: 361
-		'Absolutamente fabulosas'
-		'''
-}
-
 ElysianWings: {
 	DisplayName: Asas do Elisio
 	Tooltip:
@@ -204,13 +192,13 @@ TracersSeraph: {
 }
 
 WingsofRebirth: {
-	// DisplayName: Wings of Rebirth
-	/* Tooltip:
+	DisplayName: Asas do Renascimento
+	Tooltip:
 		'''
-		Horizontal speed: 11.50
-		Acceleration multiplier: 2.9
-		Excellent vertical speed
-		Flight time: 360
-		'Resplendent to the very end'
-		''' */
+		Velocidade horizontal: 11.50
+		Multiplicador de aceleração: 2.9
+		Velocidade vertical excelente
+		Tempo de voo: 360
+		'Resplandecentes até o fim'
+		'''
 }

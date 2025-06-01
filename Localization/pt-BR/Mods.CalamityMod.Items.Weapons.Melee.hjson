@@ -143,16 +143,6 @@ Avalanche: {
 	Tooltip: Invoca bombas de gelo ao atingir o inimigo que explodem em fragmentos de gelo após 3 segundos
 }
 
-Azathoth: {
-	DisplayName: Azathoth
-	Tooltip:
-		'''
-		Dispara orbes cósmicos que atingem os inimigos próximos com lasers
-		Um ioiô excepcionalmente ágil
-		'Destrua o universo num piscar de olhos'
-		'''
-}
-
 BalefulHarvester: {
 	DisplayName: Ceifeiro Sinistro
 	Tooltip: Dispara abóboras e crânios flamejantes que se dividem em orbes de fogo teleguiados ao atingir o inimigo
@@ -1439,11 +1429,11 @@ YinYo: {
 }
 
 Ozzathoth: {
-	// DisplayName: Ozzathoth
-	/* Tooltip:
+	DisplayName: Ozzathoth
+	Tooltip:
 		'''
-		Fires cosmic orbs that blast nearby enemies with lasers
-		An exceptionally agile yoyo
-		'Destroy the universe in the blink of an eye'
-		''' */
+		Dispara orbes cósmicos que atingem os inimigos próximos com lasers
+		Um ioiô excepcionalmente ágil
+		'Destrua o universo num piscar de olhos'
+		'''
 }

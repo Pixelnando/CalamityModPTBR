@@ -66,15 +66,3 @@ StarStruckWater: {
 	DisplayName: Água Estrelada
 	Tooltip: Espalha a Infecção Astral a alguns blocos
 }
-
-YanmeisKnife: {
-	DisplayName: Faca de Yanmei
-	Tooltip:
-		'''
-		Os inimigos atingidos serão incapacitados
-		Você receberá um aumento na velocidade dos movimentos e nos danos por 10 segundos ao atingir o inimigo
-		'Uma faca de um mundo desconhecido
-		Um dono cujo coração é puro e livre de mácula
-		Um coração de ferro e bravura'
-		'''
-}

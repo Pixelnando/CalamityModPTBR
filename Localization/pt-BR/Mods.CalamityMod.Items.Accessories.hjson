@@ -1790,7 +1790,7 @@ TheCommunity: {
 		'''
 		[STATS]
 		'O coração (da maioria) da comunidade do Terraria'
-		[c/B00BA5:Obrigado a todos os meus apoiadores que tornaram este mod uma realidade!]
+		Obrigado a todos os nossos apoiadores que tornaram este mod uma realidade!
 		'''
 	StatsList:
 		'''
@@ -1997,11 +1997,6 @@ AbandonedWulfrumHelmet: {
 		[c/83B87E:'Esta frágil armadura era comumente usada por necrófagos e saqueadores.]
 		[c/83B87E:Sua versatilidade e natureza comum levaram-na a ser usada como moeda em negociações.']
 		'''
-}
-
-CrystalHeartVodka: {
-	DisplayName: Vodka do Coração de Cristal
-	Tooltip: "'Tem gosto de licor de creme de morango (e estrogênio)'"
 }
 
 HapuFruit: {
