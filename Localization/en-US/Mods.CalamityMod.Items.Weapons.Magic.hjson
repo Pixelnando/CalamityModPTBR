@@ -999,3 +999,12 @@ YharimsCrystal: {
 	TooltipNormal: Fires draconic beams of total annihilation
 	TooltipGFB: ...throughs a pice of dnimite
 }
+
+Sylvestaff: {
+	DisplayName: Sylvestaff
+	Tooltip:
+		'''
+		Casts a bouncing beam that splits when enemies are near it
+		'Also known as the Karma Staff!'
+		'''
+}

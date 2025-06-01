@@ -1400,3 +1400,38 @@ WulfrumBlunderbuss: {
 		[c/83B87E:"De fato, é bastante comum que um robô seja transformado em munição logo após parar de funcionar']
 		'''
 }
+
+Buzzkill: {
+	// DisplayName: Buzzkill
+	/* Tooltip:
+		'''
+		Hold <left> to rev up a close-range buzzsaw
+		When released, the saw bounces off tiles and lacerates foes
+		Revving the saw increases its damage and piercing capabilities
+		'Not to be confused with the Sawed-On Shotgun'
+		''' */
+}
+
+SuperradiantSlaughterer: {
+	// DisplayName: Superradiant Slaughterer
+	/* Tooltip:
+		'''
+		[MAIN]
+		[ALT]
+		[c/c91a1a:'No one knows how it turns blood into rainbows...']
+		''' */
+	/* MainInfo:
+		'''
+		Hold <left> to rev up a close-range elemental buzzsaw
+		When released, the saw bounces off tiles and lacerates foes
+		Fired buzzsaws eventually return to the player and release homing bolts, scaling with enemy and tile hits
+		Revving up the saw increases its damage and piercing capabilities
+		''' */
+	/* AltInfo:
+		'''
+		Press <right> to fire a lingering buzzsaw towards the cursor that constantly fires homing bolts
+		Using this ability rapidly propels you in the direction you are moving if movement keys are held
+		This ability has a {0} second cooldown
+		During this cooldown, fired buzzsaws home in on the cursor and will release homing bolts while returning
+		''' */
+}

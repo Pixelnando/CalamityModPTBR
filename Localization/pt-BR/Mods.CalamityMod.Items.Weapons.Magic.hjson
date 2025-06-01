@@ -999,3 +999,12 @@ YharimsCrystal: {
 	TooltipNormal: Dispara feixes dracônicos de aniquilação total
 	TooltipGFB: ...lanssa um pedasso de dnamite
 }
+
+Sylvestaff: {
+	// DisplayName: Sylvestaff
+	/* Tooltip:
+		'''
+		Casts a bouncing beam that splits when enemies are near it
+		'Also known as the Karma Staff!'
+		''' */
+}

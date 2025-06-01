@@ -1520,3 +1520,38 @@ LiliesOfFinalityBuff: {
 	DisplayName: Finalidade
 	Description: Lembre-se de nossa promessa
 }
+
+PurpleHazeBuff: {
+	// DisplayName: Purple Haze
+	// Description: Increases damage and gives extra immunity frames, defense reduced
+}
+
+HeavyBleeding: {
+	// DisplayName: Heavy Bleeding
+	// Description: That's gonna need stitches
+}
+
+Laceration: {
+	// DisplayName: Laceration
+	// Description: You're a bloody mess
+}
+
+BlueCandleBuff: {
+	// DisplayName: Limber
+	// Description: The floating flame seems to uplift your very spirit
+}
+
+PinkCandleBuff: {
+	// DisplayName: Vigor
+	// Description: The brilliant light suffuses you with hope
+}
+
+PurpleCandleBuff: {
+	// DisplayName: Resilience
+	// Description: Neither rain nor wind can snuff your undying flame
+}
+
+YellowCandleBuff: {
+	// DisplayName: Spite
+	// Description: The hateful, flickering glow fuels your ire
+}

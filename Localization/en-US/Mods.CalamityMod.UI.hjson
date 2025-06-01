@@ -126,6 +126,7 @@ Cooldowns: {
 	WulfrumBastionCooldown: Wulfrum Bastion Cooldown
 	WulfrumRoverDriveDurability: Protective Matrix Durability
 	WulfrumRoverDriveRecharge: Protective Matrix Recharge
+	SuperradiantSawBoost: Superradiant Saw Boost
 }
 
 // Enchantment + Draedon UI

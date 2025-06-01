@@ -347,3 +347,8 @@ SuperDummy: {
 		Right click to kill all super dummies
 		'''
 }
+
+ColdheartIcicle: {
+	DisplayName: Coldheart Icicle
+	Tooltip: "'N(ice) work'"
+}

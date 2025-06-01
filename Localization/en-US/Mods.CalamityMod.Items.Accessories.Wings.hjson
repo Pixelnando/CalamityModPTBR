@@ -200,3 +200,15 @@ TracersSeraph: {
 		'Taking speed EVEN FURTHER BEYOND!'
 		'''
 }
+
+WingsofRebirth: {
+	DisplayName: Wings of Rebirth
+	Tooltip:
+		'''
+		Horizontal speed: 11.50
+		Acceleration multiplier: 2.9
+		Excellent vertical speed
+		Flight time: 360
+		'Resplendent to the very end'
+		'''
+}

@@ -1437,3 +1437,13 @@ YinYo: {
 		Um ioiô muito ágil
 		'''
 }
+
+Ozzathoth: {
+	// DisplayName: Ozzathoth
+	/* Tooltip:
+		'''
+		Fires cosmic orbs that blast nearby enemies with lasers
+		An exceptionally agile yoyo
+		'Destroy the universe in the blink of an eye'
+		''' */
+}

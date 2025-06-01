@@ -317,3 +317,8 @@ SuperDummy: {
 		Pressione <right> para matar todos os super bonecos
 		'''
 }
+
+ColdheartIcicle: {
+	// DisplayName: Coldheart Icicle
+	// Tooltip: "'N(ice) work'"
+}
