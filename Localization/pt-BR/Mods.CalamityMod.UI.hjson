@@ -19,7 +19,7 @@ StealthInfoText:
 	Isso é compensado por você ser capaz de usar ataques furtivos com muito mais frequência
 	'''
 // Difficulty UI
-DifficultyStatusText: Modo {0}{1} está ativado.
+DifficultyStatusText: "Modo {0}{1} está ativado."
 ModeAppend: ""
 Active: ""
 NotActive: " não"
