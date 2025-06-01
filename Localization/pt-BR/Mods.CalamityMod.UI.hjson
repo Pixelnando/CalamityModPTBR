@@ -46,7 +46,7 @@ RevengeanceExpandedInfo:
 	[c/F7342A:Este modo é mais difícil que o Modo Perito. Prepare-se para o desafio]
 	'''
 RevengeanceActivate: O Modo Vingança foi ativado.
-RevengeanceDeactivate: O Modo Vingança foi está ativado.
+RevengeanceDeactivate: O Modo Vingança foi desativado.
 Death: Morte
 DeathMaster: Morte + Mestre
 DeathLegend: Morte + Lend.
