@@ -188,7 +188,7 @@ BloodBoiler: {
 		'''
 		Dispara dois fluxos que fogo de sangue que roubam vida e retornam para você
 		Utiliza sua vida como munição
-		40% de chance de economizar vida
+		60% de chance de economizar vida
 		'''
 }
 

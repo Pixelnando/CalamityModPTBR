@@ -132,7 +132,7 @@ AmbrosialAmpoule: {
 	Tooltip:
 		'''
 		+70 vida máxima
-		Concede regeneração de +2 a +6 de vida por segundo com base na vida ausente
+		Concede regeneração de +1 a +5 de vida por segundo com base na vida ausente
 		Concede regeneração de vida equivalente ao Mel
 		Ficar parado no Mel concede uma regeneração extremamente poderosa
 		Reduz na metade o tempo de duração de efeitos negativos de fogo e doenças
@@ -1312,7 +1312,7 @@ Radiance: {
 	Tooltip:
 		'''
 		+70 de vida máxima
-		Concede regeneração de +2 a +6 de vida por segundo com base na vida ausente
+		Concede regeneração de +1 a +5 de vida por segundo com base na vida ausente
 		Concede regeneração de +1 de vida por segundo e regeneração de +1 de vida por segundo quando afligido com qualquer efeito negativo
 		Ficar parado concede regeneração de +2 de vida por segundo
 		Condede 20 de defense e cura constante quando afligido com qualquer efeito negativo

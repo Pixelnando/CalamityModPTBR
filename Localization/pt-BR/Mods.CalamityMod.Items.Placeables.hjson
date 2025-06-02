@@ -725,7 +725,9 @@ ResilientCandle: {
 	DisplayName: Vela Resiliente
 	Tooltip:
 		'''
-		Quando colocada, a defesa dos jogadores próximos bloqueia 15% a mais de dano
+		<right> quando posicionada para fazer com que a defesa bloqueie 10% a mais de dano
+		(60% no Clássico, 85% no Perito e 110% no Mestre)
+		Isto não pode ser acumulado com outros efeitos de vela
 		'Nem a chuva nem o vento podem apagar sua chama imortal'
 		'''
 }
@@ -744,8 +746,9 @@ SpitefulCandle: {
 	DisplayName: Vela Vingativa
 	Tooltip:
 		'''
-		Quando colocada, os inimigos próximos recebem 5% a mais de dano
-		Esse dano adicional ignora a redução de dano e defesa do inimigo
+		<right> quando posicionada para causar 1,07x o dano a todos os inimigos
+		O dano extra de 0,07x ignora a defesa e a redução de danos do inimigo
+		Isto não pode ser acumulado com outros efeitos de vela
 		'Seu brilho de ódio cintila com a ira'
 		'''
 }
@@ -969,8 +972,9 @@ VigorousCandle: {
 	DisplayName: Vela Vigorosa
 	Tooltip:
 		'''
-		Quando colocada, os jogadores próximos regeneram 0,4% de sua vida máxima por segundo
-		Esta regeneração está com força total mesmo enquanto se move e ignora os limites do Modo Vingança
+		<right> quando posicionada para regenerar 0,4% de sua vida máxima por segundo
+		Esta regeneração está no poder máximo mesmo enquanto você se movimenta e ela ultrapassa os limites do Modo Vingança
+		Isto não pode ser acumulado com outros efeitos de vela
 		'Sua luz brilhante enche de esperança os que estão por perto'
 		'''
 }
@@ -979,8 +983,8 @@ WeightlessCandle: {
 	DisplayName: Vela da Leveza
 	Tooltip:
 		'''
-		Quando colocada, os jogadores próximos ganham 10% de aumento na velocidade dos movimentos,
-		10% de aumento no tempo de voo das asas e 5% de aumento na aceleração
+		<right> quando posicionada para ganhar 10% de aumento na velocidade dos movimentos, no tempo de voo e na aceleração
+		Isto não pode ser acumulado com outros efeitos de vela
 		'A chama flutuante parece elevar o seu próprio espírito'
 		'''
 }
