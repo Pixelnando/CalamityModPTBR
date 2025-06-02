@@ -4,8 +4,12 @@
 [i:75] Tradução feita por [c/8df0f3:Pixelnando].
 [i:149] Lore e entradas no bestiário traduzidas por [c/6f3fea:StipulateVenus].
 
-[g:5] Nota: Não sou afiliado com o Fabsol nem os desenvolvedores do Calamity Mod.
+[g:5] Nota: Não sou afiliado com os desenvolvedores do Calamity Mod.
 __________________________
+
+v2025.06.02
+- Traduzido o conteúdo introduzido na versão 2.0.5
+
 v2025.02.22.1
 - Corrigido um erro onde os novos nomes dos chefes não tinham sido atualizados na integração do Boss Checklist
 
