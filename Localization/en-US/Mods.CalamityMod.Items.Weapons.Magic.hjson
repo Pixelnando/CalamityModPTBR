@@ -224,11 +224,6 @@ DeathValleyDuster: {
 	Tooltip: Casts a large blast of dust
 }
 
-DivineRetribution: {
-	DisplayName: Divine Retribution
-	Tooltip: Mage is superior to rogue; look, we got a donor weapon to prove it!
-}
-
 Downpour: {
 	DisplayName: Downpour
 	Tooltip:
@@ -297,11 +292,6 @@ EventHorizon: {
 EvergladeSpray: {
 	DisplayName: Everglade Spray
 	Tooltip: Fires a stream of burning green ichor
-}
-
-Fabstaff: {
-	DisplayName: Fabstaff
-	Tooltip: Casts a bouncing beam that splits when enemies are near it
 }
 
 FaceMelter: {
@@ -766,6 +756,15 @@ SubsumingVortex: {
 		'''
 }
 
+Sylvestaff: {
+	DisplayName: Sylvestaff
+	Tooltip:
+		'''
+		Casts a bouncing beam that splits when enemies are near it
+		'Also known as the Karma Staff!'
+		'''
+}
+
 TacticiansTrumpCard: {
 	DisplayName: Tactician's Trump Card
 	Tooltip:
@@ -998,13 +997,4 @@ YharimsCrystal: {
 	Tooltip: "[GFB]"
 	TooltipNormal: Fires draconic beams of total annihilation
 	TooltipGFB: ...throughs a pice of dnimite
-}
-
-Sylvestaff: {
-	DisplayName: Sylvestaff
-	Tooltip:
-		'''
-		Casts a bouncing beam that splits when enemies are near it
-		'Also known as the Karma Staff!'
-		'''
 }

@@ -119,6 +119,7 @@ Cooldowns: {
 	SpeedBlasterBoost: Reforço do Detonador Veloz
 	SpongeDurability: Durabilidade da Barreira da Esponja
 	SpongeRecharge: Recarga da Barreira da Esponja
+	SuperradiantSawBoost: Impulso da Serra Super-Radiante
 	TarragonCloak: Tempo de Recarga da Capa de Estragão
 	TarragonImmunity: Tempo de Recarga da Imunidade do Estragão
 	UniverseSplitter: Tempo de Recarga Divisor de Universos
@@ -126,7 +127,6 @@ Cooldowns: {
 	WulfrumBastionCooldown: Tempo de Recarga do Bastião de Vulfrúmio
 	WulfrumRoverDriveDurability: Durabilidade da Matriz Protetora
 	WulfrumRoverDriveRecharge: Recarga da Matriz Protetora
-	SuperradiantSawBoost: Impulso da Serra Super-Radiante
 }
 
 // Enchantment + Draedon UI

@@ -862,6 +862,16 @@ Orderbringer: {
 		'''
 }
 
+Ozzathoth: {
+	DisplayName: Ozzathoth
+	Tooltip:
+		'''
+		Dispara orbes cósmicos que atingem os inimigos próximos com lasers
+		Um ioiô excepcionalmente ágil
+		'Destrua o universo num piscar de olhos'
+		'''
+}
+
 Pandemic: {
 	DisplayName: Pandemia
 	Tooltip:
@@ -1425,15 +1435,5 @@ YinYo: {
 		Dispara fragmentos claros ou escuros quando os inimigos estão próximos
 		Os fragmentos voam para frente e para trás
 		Um ioiô muito ágil
-		'''
-}
-
-Ozzathoth: {
-	DisplayName: Ozzathoth
-	Tooltip:
-		'''
-		Dispara orbes cósmicos que atingem os inimigos próximos com lasers
-		Um ioiô excepcionalmente ágil
-		'Destrua o universo num piscar de olhos'
 		'''
 }

@@ -216,6 +216,17 @@ BulletFilledShotgun: {
 		'''
 }
 
+Buzzkill: {
+	DisplayName: Estraga-Seres
+	Tooltip:
+		'''
+		Segure o <left> para acelerar uma serra de curto alcance
+		Ao ser liberada, a serra ricocheteia em peças e dilacera os oponentes
+		Acelerar a serra aumenta o seu dano e suas capacidades de perfuração
+		'Não confundir com a Escopeta de Cano Alongado'
+		'''
+}
+
 ChickenCannon: {
 	DisplayName: Canhão de Galinhas
 	Tooltip:
@@ -1197,6 +1208,30 @@ SulphuricAcidCannon: {
 	Tooltip: Dispara um tiro acídico que gruda nos inimigos e os dissolve
 }
 
+SuperradiantSlaughterer: {
+	DisplayName: Massacrador Super-Radiante
+	Tooltip:
+		'''
+		[MAIN]
+		[ALT]
+		[c/c91a1a:'Ninguém sabe como ele transforma sangue em arco-íris...']
+		'''
+	MainInfo:
+		'''
+		Segure o <left> para acelerar uma serra elemental de curto alcance
+		Ao ser liberada, a serra ricocheteia em peças e dilacera os oponentes
+		Serras disparadas eventualmente retornam ao jogador e liberam raios teleguiados adicionais para cada inimigo ou peça atingido
+		Acelerar a serra aumenta o seu dano e suas capacidades de perfuração
+		'''
+	AltInfo:
+		'''
+		Pressione <right> para disparar uma serra persistente na direção do cursor que constantemente dispara raios teleguiados
+		Usar essa habilidade impulsiona você rapidamente na direção em que está se movendo se as teclas de movimento forem pressionadas
+		Esta habilidade possui um tempo de recarga de {0} segundos
+		Durante este tempo de recarga, serras disparadas seguirão o cursor e liberarão raios teleguiados enquanto retornam
+		'''
+}
+
 SurgeDriver: {
 	DisplayName: Condutor de Correntes
 	Tooltip:
@@ -1371,40 +1406,5 @@ WulfrumBlunderbuss: {
 		Ignora 3 pontos de defesa do inimigo
 		[c/83B87E:'O bom do Vulfrúmio é que, embora quebre rápido, ele pode ser reutilizado ainda mais rápido"]
 		[c/83B87E:"De fato, é bastante comum que um robô seja transformado em munição logo após parar de funcionar']
-		'''
-}
-
-Buzzkill: {
-	DisplayName: Estraga-Seres
-	Tooltip:
-		'''
-		Segure o <left> para acelerar uma serra de curto alcance
-		Ao ser liberada, a serra ricocheteia em peças e dilacera os oponentes
-		Acelerar a serra aumenta o seu dano e suas capacidades de perfuração
-		'Não confundir com a Escopeta de Cano Alongado'
-		'''
-}
-
-SuperradiantSlaughterer: {
-	DisplayName: Massacrador Super-Radiante
-	Tooltip:
-		'''
-		[MAIN]
-		[ALT]
-		[c/c91a1a:'Ninguém sabe como ele transforma sangue em arco-íris...']
-		'''
-	MainInfo:
-		'''
-		Segure o <left> para acelerar uma serra elemental de curto alcance
-		Ao ser liberada, a serra ricocheteia em peças e dilacera os oponentes
-		Serras disparadas eventualmente retornam ao jogador e liberam raios teleguiados adicionais para cada inimigo ou peça atingido
-		Acelerar a serra aumenta o seu dano e suas capacidades de perfuração
-		'''
-	AltInfo:
-		'''
-		Pressione <right> para disparar uma serra persistente na direção do cursor que constantemente dispara raios teleguiados
-		Usar essa habilidade impulsiona você rapidamente na direção em que está se movendo se as teclas de movimento forem pressionadas
-		Esta habilidade possui um tempo de recarga de {0} segundos
-		Durante este tempo de recarga, serras disparadas seguirão o cursor e liberarão raios teleguiados enquanto retornam
 		'''
 }

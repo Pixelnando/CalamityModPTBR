@@ -249,6 +249,11 @@ BrimstoneLocus: {
 		'''
 }
 
+ColdheartIcicle: {
+	DisplayName: Gelo do Coração Gelado
+	Tooltip: "'É de dar calafrios'"
+}
+
 MomentumCapacitor: {
 	DisplayName: Capacitor de Impulso
 	Tooltip:
@@ -311,9 +316,4 @@ SuperDummy: {
 		Não morrerá ao receber dano ao longo do tempo de efeitos negativos
 		Pressione <right> para matar todos os super bonecos
 		'''
-}
-
-ColdheartIcicle: {
-	DisplayName: Gelo do Coração Gelado
-	Tooltip: "'É de dar calafrios'"
 }

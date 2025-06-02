@@ -45,7 +45,6 @@ DemolitionistChat.DoGDefeated: Dinamite Assassina de Deuses? Cara, gostei do som
 DryadChat: {
 	DarksunEclipse: Há uma energia solar escura emanando das mariposas que aparecem durante esse período. Ah, as mariposas ficam mais poderosas à medida que você avança...
 	Hardmode: Essa doença transmitida pelas estrelas assenta nesta terra como uma bolha. Existem forças ainda mais vis da corrupção em outros mundos?
-	DrunkPrincessShroom: Foi {0} quem me disse para fazer isso.
 	Mushroom: Não estou aqui por nenhum motivo em específico! Só estou recolhendo cogumelos para, uh, usar mais tarde.
 	SulphurSea: Minha ancestral foi perdida aqui há muito tempo. Devo prestar meus respeitos a ela.
 }
@@ -82,7 +81,6 @@ MechanicChat: {
 	MoonLordDefeated: Como assim, as suas armadilhas não estão mais dando conta? Não olhe para mim!
 	Eclipse: Hum... eu deveria acender a minha luz noturna?
 	AcidRain: Talvez eu devesse ter impermeabilizado meus dispositivos... Eles estão começando a corroer.
-	DrunkPrincess: Bem, eu gosto de {0}, mas eu, ah... eu estou de olho em outra pessoa.
 }
 
 MerchantChat: {
@@ -112,7 +110,6 @@ PainterChat: {
 }
 
 PartyGirlChat: {
-	DrunkPrincess: Tenho a sensação de que vamos ter festas absolutamente fantásticas com {0} por perto!
 	Eclipse1: Acho que minha exibição de luzes está virando um mata-mosquitos acidental. Pelo menos os monstros estão gostando.
 	Eclipse2: Ooh! Eu amo festas onde todos vestem fantasias assustadoras!
 }
@@ -120,7 +117,6 @@ PartyGirlChat: {
 PirateChat: {
 	PreLeviathan: Ei, ouvi boatos sobre uma criatura mítica nos oceanos, cantando com uma voz atraente. Cuidado quando estiver pescando por aí.
 	WetScourgeDefeated: Tenho que te agradecer novamente por cuidar daquela serpente marinha. Ou aquele era outro...
-	DrunkPrincess: Vinte e nove garrafas de cerveja na parede...
 	SeaKing: Lembro-me de lendas sobre {0}. Ele não é bem como as histórias o fazem parecer.
 	Ocean: Essa sim é uma cena que posso admirar a qualquer momento! Eu sinto que algo está me observando, no entanto.
 	SulphurSea1: Não é grande espetáculo, mas ainda há vida vivendo nessas águas.
@@ -148,17 +144,12 @@ SteampunkerChat: {
 
 StylistChat: {
 	Hardmode: Por favor, não pegue piolhos espaciais. Ou piolhos d{0}. Ou apenas piolhos em geral.
-	DrunkPrincess1: "{0} está sempre tentando alegrar meu humor... mesmo que, no fundo, eu saiba que ela está triste."
-	DrunkPrincess2: Às vezes eu pego {0} se esgueirando atrás de mim.
 	ProfanedSoulCrystal1: Eles são tão fofos e, ainda assim, posso sentir o seu imenso poder apenas por estar perto deles. O que é você?
 	ProfanedSoulCrystal2: Odeio te dizer isto, mas você não tem cabelo para cortar ou pentear, meu amor.
 	ProfanedDonuts: Aww, eles são tão fofos! Eles têm nomes?
 }
 
-TavernkeepChat: {
-	FullMoon: Quer um pouquinho de álcool contrabandeado?
-	DrunkPrincess: Caraamba, {0} é um pouco cruel, não acha? Nunca disse ser um especialista em nada além de cerveja!
-}
+TavernkeepChat.FullMoon: Quer um pouquinho de álcool contrabandeado?
 
 TaxCollectorChat: {
 	DoGDefeated: Devorador de quê? Fundos? Se é que seu pagamento é alguma coisa!
@@ -168,12 +159,7 @@ TaxCollectorChat: {
 	Has100Plat: Parece que nunca mais conseguirei combater as dívidas da cidade de novo!
 }
 
-TravellingMerchantChat.DrunkPrincessMerchant: Diga a {0} que eu aceitarei a sua oferta e me encontrarei com ela nos fundos da casa de {1}.
-
-TruffleChat: {
-	Normal: Não me sinto muito seguro; acho que tem porcos me seguindo por todo o lugar, e isso me deixa aterrorizado
-	DrunkPrincess: Ás vezes, {0} olha para mim de um jeito engraçado e eu não tenho certeza de como eu me sinto sobre isso.
-}
+TruffleChat.Normal: Não me sinto muito seguro; acho que tem porcos me seguindo por todo o lugar, e isso me deixa aterrorizado
 
 WitchDoctorChat: {
 	BloodMoon: É uma boa hora para recolher os melhores ingredientes para poções.

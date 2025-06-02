@@ -13,15 +13,6 @@ ExoThrone: {
 		'''
 }
 
-Fabsol: {
-	DisplayName: Espírito da Princesa na Garrafa
-	Tooltip:
-		'''
-		Invoca o espírito de Cirrus, a Princesa Bêbada, em sua forma de alicórnio
-		Montar nela irá transformar Cirrus, desmontar irá transformá-la de volta
-		'''
-}
-
 FollyFeed: {
 	DisplayName: Comida de Bobos
 	Tooltip: Invoca uma monstruosidade

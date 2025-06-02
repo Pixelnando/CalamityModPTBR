@@ -142,16 +142,6 @@ Avalanche: {
 	Tooltip: Spawns ice bombs that explode after 3 seconds into ice shards on hit
 }
 
-Azathoth: {
-	DisplayName: Azathoth
-	Tooltip:
-		'''
-		Fires cosmic orbs that blast nearby enemies with lasers
-		An exceptionally agile yoyo
-		'Destroy the universe in the blink of an eye'
-		'''
-}
-
 BalefulHarvester: {
 	DisplayName: Baleful Harvester
 	Tooltip: Summons flaming pumpkins and skulls that split into homing fire orbs on enemy hits
@@ -872,6 +862,16 @@ Orderbringer: {
 		'''
 }
 
+Ozzathoth: {
+	DisplayName: Ozzathoth
+	Tooltip:
+		'''
+		Fires cosmic orbs that blast nearby enemies with lasers
+		An exceptionally agile yoyo
+		'Destroy the universe in the blink of an eye'
+		'''
+}
+
 Pandemic: {
 	DisplayName: Pandemic
 	Tooltip:
@@ -1433,15 +1433,5 @@ YinYo: {
 		Fires light or dark shards when enemies are near
 		Shards fly back and forth
 		A very agile yoyo
-		'''
-}
-
-Ozzathoth: {
-	DisplayName: Ozzathoth
-	Tooltip:
-		'''
-		Fires cosmic orbs that blast nearby enemies with lasers
-		An exceptionally agile yoyo
-		'Destroy the universe in the blink of an eye'
 		'''
 }

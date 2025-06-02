@@ -58,6 +58,11 @@ OldFashionedBuff: {
 	Description: Dano por acessórios e bônus de conjunto multiplicados, dano reduzido
 }
 
+PurpleHazeBuff: {
+	DisplayName: Névoa Púrpura
+	Description: Aumenta o dano e concede quadros de imunidade adicionais, defesa reduzida
+}
+
 RedWineBuff: {
 	DisplayName: Vinho Tinto
 	Description: Regeneração de vida reduzida
@@ -163,6 +168,11 @@ GodSlayerInferno: {
 	Description: Sua carne está queimando
 }
 
+HeavyBleeding: {
+	DisplayName: Sangramento Pesado
+	Description: Vai precisar de pontos
+}
+
 HolyFlames: {
 	DisplayName: Chamas Sagradas
 	Description: Dissolvendo-se na luz divina
@@ -171,6 +181,11 @@ HolyFlames: {
 HolyInferno: {
 	DisplayName: Inferno Sagrado
 	Description: Você se afastou demais da Deusa Profana!
+}
+
+Laceration: {
+	DisplayName: Dilaceração
+	Description: Você está todo ensanguentado
 }
 
 ManaBurn: {
@@ -443,6 +458,11 @@ YharonSonBuff: {
 	Description: É melhor você não comer a janta dele
 }
 
+BlueCandleBuff: {
+	DisplayName: Flexibilidade
+	Description: A chama flutuante parece elevar o seu espírito
+}
+
 ChaosCandleBuff: {
 	DisplayName: Vela do Caos
 	Description: As taxas de surgimento em torno da vela são aumentadas!
@@ -463,9 +483,24 @@ EffigyOfDecayBuff: {
 	Description: As águas sulfúricas te fortalecem
 }
 
+PinkCandleBuff: {
+	DisplayName: Vigor
+	Description: Sua luz brilhante te enche de esperança
+}
+
+PurpleCandleBuff: {
+	DisplayName: Resiliência
+	Description: Nem a chuva nem o vento podem apagar sua chama eterna
+}
+
 TranquilityCandleBuff: {
 	DisplayName: Vela da tranquilidade
 	Description: As taxas de surgimento em torno da vela são reduzidas!
+}
+
+YellowCandleBuff: {
+	DisplayName: Vingança
+	Description: O brilho odioso e cintilante alimenta sua ira
 }
 
 PopoBuff: {
@@ -1480,39 +1515,3 @@ LiliesOfFinalityBuff: {
 	DisplayName: Finalidade
 	Description: Lembre-se de nossa promessa
 }
-
-PurpleHazeBuff: {
-	DisplayName: Névoa Púrpura
-	Description: Aumenta o dano e concede quadros de imunidade adicionais, defesa reduzida
-}
-
-HeavyBleeding: {
-	DisplayName: Sangramento Pesado
-	Description: Vai precisar de pontos
-}
-
-Laceration: {
-	DisplayName: Dilaceração
-	Description: Você está todo ensanguentado
-}
-
-BlueCandleBuff: {
-	DisplayName: Flexibilidade
-	Description: A chama flutuante parece elevar o seu espírito
-}
-
-PinkCandleBuff: {
-	DisplayName: Vigor
-	Description: Sua luz brilhante te enche de esperança
-}
-
-PurpleCandleBuff: {
-	DisplayName: Resiliência
-	Description: Nem a chuva nem o vento podem apagar sua chama eterna
-}
-
-YellowCandleBuff: {
-	DisplayName: Vingança
-	Description: O brilho odioso e cintilante alimenta sua ira
-}
-

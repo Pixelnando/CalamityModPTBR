@@ -276,6 +276,7 @@ SoulSeekerSupreme.DisplayName: Caça-Almas
 SupremeCalamitas.DisplayName: Calamitas, a Bruxa Suprema
 SupremeCataclysm.DisplayName: Cataclismo
 SupremeCatastrophe.DisplayName: Catástrofe
+SupremePermafrost: Ultramago Supremo, Pergelissolo
 Yharon.DisplayName: Yharon, Dragão do Renascer
 YharonPhase2: Yharon, a Fênix Resplandecente
 // Town NPCs, Pets, etc
@@ -338,7 +339,6 @@ SEAHOE: {
 		Angler1: Me encontre na casa de {0} à noite. Nós vamos jogá-lo aos Lixocodilos.
 		Angler2: Não sei como {0} ainda não foi torrado e digerido, estando perto dos mares sulfúricos por tanto tempo. Talvez tenha subido à cabeça dele.
 		BrimstoneWitch: Devo admitir, a presença da Bruxa é inquietante para mim. Mas tantos anos se passaram e ela também sofreu muito.
-		DrunkPrincess: Rumores dizem que {0} bebe para esquecer seu passado conturbado.
 		PartyGirl: "{0} perguntou se meu nariz poderia ser usado como uma vuvuzela. O que é uma vuvuzela?"
 		BloodMoon1: Desde os tempos antigos, pessoas dizem que divindades causam eventos celestiais. Qual delas então, é a causa destes?
 		BloodMoon2: Nunca estou entusiasmado durante noites como essa. Elas são tão violentas.
@@ -445,7 +445,6 @@ THIEF: {
 		Night1: Hm, as estrelas estão muito brilhantes esta noite, vai ser mais difícil me esconder.
 		Night2: Você acha que aquelas estrelas que caem de vez em quando fariam boas armas arremessáveis?
 		BrimstoneWitch: Ei, ei! É sério que {0} se mudou para cá com a gente? Por quê??
-		DrunkPrincess: Aprendi que nunca devo roubar as bebidas de {0}. Ela não gosta de mim mais, então vou voltar para o meu esconderijo.
 		Merchant: Não conte para {0}, mas peguei algumas das coisas dele e as substituí por Estátuas de Anjo.
 		NurseArmsDealer: Não conte para {0} que eu fui responsável pelos ferimentos de {1}.
 		NamedLaura: A coisa boa sobre os mapas é que eu posso rastrear qualquer coisa que tenha caído.
@@ -504,12 +503,13 @@ WITCH: {
 		BloodMoon2: Não posso trabalhar com noites como esta. As estrelas parecem ter encolhido de medo.
 		Night1: Estes mortos-vivos são horríveis, eu não suporto olhar para eles. Como que alguém ficaria satisfeito com esse trabalho amador?
 		Night2: Não acho exagero dizer que astrologia é um absurdo total... mas já foi um hobby meu.
-		DrunkPrincess: Eu me pergunto se {0} sente frio, dado o quão revelador o seu vestido é. Talvez ela devesse se cobrir um pouco mais.
 		SeaKing: Eu não consigo entender o Rei do Mar. Ele parece não me querer morta. Simplesmente não consigo entender essa quantidade de compaixão.
 		Party: Se outra pessoa me perguntar se eu sei dançar ou não, eu vou colocar fogo no chapéu dela.
 	}
 
 	EnchantButton: Encantar
+	DonorButton: Doadores
+	DonorShoutout: Ei, {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {19}, {20}, {21}, {22}, {23} e {24}. Vocês são boas pessoas.
 
 	TownNPCMood: {
 		Content: Realmente, não posso reclamar.
@@ -526,9 +526,4 @@ WITCH: {
 		LikeNPC_Princess: É estranhamente agradável conviver com uma criança como {NPCName}.
 		Princess_LovesNPC: Eu gosto de {NPCName}.
 	}
-
-	DonorButton: Doadores
-	DonorShoutout: Ei, {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {19}, {20}, {21}, {22}, {23} e {24}. Vocês são boas pessoas.
 }
-
-SupremePermafrost: Ultramago Supremo, Pergelissolo

@@ -756,6 +756,15 @@ SubsumingVortex: {
 		'''
 }
 
+Sylvestaff: {
+	DisplayName: Cajado Silvestre
+	Tooltip:
+		'''
+		Conjura um feixe que rebate em paredes e se divide quando inimigos estão próximos
+		'Também conhecido como o Cajado do Carma!'
+		'''
+}
+
 TacticiansTrumpCard: {
 	DisplayName: O Trunfo do Estrategista
 	Tooltip:
@@ -988,14 +997,4 @@ YharimsCrystal: {
 	Tooltip: "[GFB]"
 	TooltipNormal: Dispara feixes dracônicos de aniquilação total
 	TooltipGFB: ...lanssa um pedasso de dnamite
-}
-
-Sylvestaff: {
-	DisplayName: Cajado Silvestre
-	Tooltip:
-		'''
-		Conjura um feixe que rebate em paredes e se divide quando inimigos estão próximos
-		'Também conhecido como o Cajado do Carma!'
-		'''
-		
 }

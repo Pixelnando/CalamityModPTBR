@@ -86,6 +86,15 @@ HadalStew: {
 		'''
 }
 
+LavaChickenBroth: {
+	DisplayName: Caldo de Galinha de Lava
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MajorStats}
+		'É tudo bem gostosinho'
+		'''
+}
+
 OmegaHealingPotion: {
 	DisplayName: Poção de Cura Ômega
 	Tooltip: ""
@@ -162,7 +171,7 @@ ZergPotion: {
 	Tooltip: Aumenta enormemente a taxa de surgimento dos inimigos
 }
 
-// Drunk Princess Shop Items
+// Very normal Keg crafts
 BloodyMary: {
 	DisplayName: Maria Sangrenta
 	Tooltip:
@@ -284,6 +293,16 @@ OldFashioned: {
 		'''
 }
 
+PurpleHaze: {
+	DisplayName: Névoa Púrpura
+	Tooltip:
+		'''
+		8% de aumento nos danos, mas reduz a defesa em 5%
+		Aumenta o tempo de imunidade depois de ser atacado
+		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
+		'''
+}
+
 RedWine: {
 	DisplayName: Vinho Tinto
 	Tooltip:
@@ -369,25 +388,6 @@ WhiteWine: {
 		'''
 		Aumenta o dano mágico em 8%
 		Reduz a defesa em 6 e a regeneração de vida em 0,5 de vida por segundo
-		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
-		'''
-}
-
-LavaChickenBroth: {
-	DisplayName: Caldo de Galinha de Lava
-	Tooltip:
-		'''
-		{$CommonItemTooltip.MajorStats}
-		'É tudo bem gostosinho'
-		'''
-}
-
-PurpleHaze: {
-	DisplayName: Névoa Púrpura
-	Tooltip:
-		'''
-		8% de aumento nos danos, mas reduz a defesa em 5%
-		Aumenta o tempo de imunidade depois de ser atacado
 		Beber mais de 3 bebidas alcoólicas diferentes pode não fazer bem para seu fígado
 		'''
 }

@@ -10,6 +10,18 @@ AureateBooster: {
 		'''
 }
 
+WingsofRebirth: {
+	DisplayName: Asas do Renascimento
+	Tooltip:
+		'''
+		Velocidade horizontal: 11.50
+		Multiplicador de aceleração: 2.9
+		Velocidade vertical excelente
+		Tempo de voo: 360
+		'Resplandecentes até o fim'
+		'''
+}
+
 ElysianWings: {
 	DisplayName: Asas do Elisio
 	Tooltip:
@@ -188,17 +200,5 @@ TracersSeraph: {
 		Concede imunidade temporária ao fogo, lava, e blocos com efeitos daníficos
 		Ser atingido por mais de 200 de dano o deixará imune por um longo período de tempo
 		'Levando a velocidade AO ALÉM!'
-		'''
-}
-
-WingsofRebirth: {
-	DisplayName: Asas do Renascimento
-	Tooltip:
-		'''
-		Velocidade horizontal: 11.50
-		Multiplicador de aceleração: 2.9
-		Velocidade vertical excelente
-		Tempo de voo: 360
-		'Resplandecentes até o fim'
 		'''
 }
