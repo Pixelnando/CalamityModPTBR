@@ -413,7 +413,7 @@ CorruptFlask: {
 }
 
 CounterScarf: {
-	DisplayName: Cachecol do Contra-ataque
+	DisplayName: Cachecol do Contra-Ataque
 	Tooltip:
 		'''
 		10% de aumento nos danos por ataque físico verdadeiro
