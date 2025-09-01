@@ -7,6 +7,9 @@
 [g:5] Nota: Não sou afiliado com os desenvolvedores do Calamity Mod.
 __________________________
 
+v2025.08.31
+- Nova configuração para exibir o nome interno do item em parênteses junto do nome original. Por exemplo: Punho da Lua de Warlok (WarloksMoonFist). Isso ajudará aqueles que desejam buscar itens no wiki do Calamity.
+
 v2025.06.02
 - Traduzido o conteúdo introduzido na versão 2.0.5
 

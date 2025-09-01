@@ -1796,7 +1796,7 @@ TheCommunity: {
 		'''
 		Aumenta o dano em {0}% e a chance de acerto crítico em {1}%
 		Aumenta a vida máxima em {2}%, redução dos danos em {3}%, e defesa em {4}
-		Regeneração de +{5} de vida por segundo quando afligido com efeitos negativos que causam dano com o tempo
+		Regeneração de +{5} de vida por segundo quando afligido com efeitos negativos danosos
 		Aumenta a velocidade dos movimentos em {6}% e o tempo de voo em {7}%
 		Torne-se mais poderoso conforme você derrota os chefes ({8}% de poder)
 		'''

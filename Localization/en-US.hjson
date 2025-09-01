@@ -6,5 +6,23 @@ Mods: {
 				Tooltip: This model seems to have been designed by Draedon himself
 			}
 		}
+
+		Configs: {
+			TranslationConfig: {
+				DisplayName: Configurar tradução
+				Header: Opções de Tradução
+
+				MostrarNomeOriginal: {
+					Label: Mostrar nome interno junto do traduzido
+					Tooltip:
+						'''
+						Exibe o nome traduzido seguido do nome interno do item entre parênteses.
+						Isso pode ser útil caso deseje usar o Wiki para verificar os itens.
+
+						Exemplo de resultado: Arca dos Anciões (TrueArkoftheAncients)
+						'''
+				}
+			}
+		}
 	}
 }
