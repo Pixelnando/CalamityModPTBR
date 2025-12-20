@@ -114,8 +114,8 @@ WingTimeHairDye: {
 }
 
 NecroplasmicDye: {
-	// DisplayName: Necroplasmic Dye
-	// Tooltip: ""
+	DisplayName: Tintura de Necroplasma
+	Tooltip: ""
 }
 
 NightmareDye: {
