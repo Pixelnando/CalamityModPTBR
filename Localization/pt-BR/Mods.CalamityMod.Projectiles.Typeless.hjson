@@ -1,18 +1,19 @@
-// AbaddonCrit.DisplayName: Brimstone Blast
+AbaddonCrit.DisplayName: Explosão de Enxofre
 // AeroExplosive.DisplayName: Aeroboom
 // AllianceTriangle.DisplayName: Alliance Triangle
 // ArcZap.DisplayName: Arc Zap
-// ArtifactOfResilienceShard1.DisplayName: Artifact Shard
-// ArtifactOfResilienceShard2.DisplayName: Artifact Shard
-// ArtifactOfResilienceShard3.DisplayName: Artifact Shard
-// ArtifactOfResilienceShard4.DisplayName: Artifact Shard
-// ArtifactOfResilienceShard5.DisplayName: Artifact Shard
-// ArtifactOfResilienceShard6.DisplayName: Artifact Shard
-// AscendantAura.DisplayName: Ascendant Aura
+// Essa tradução ficou meio estranho, melhor mudar futuramente
+ArtifactOfResilienceShard1.DisplayName: Pedaço de Artefato
+ArtifactOfResilienceShard2.DisplayName: Pedaço de Artefato
+ArtifactOfResilienceShard3.DisplayName: Pedaço de Artefato
+ArtifactOfResilienceShard4.DisplayName: Pedaço de Artefato
+ArtifactOfResilienceShard5.DisplayName: Pedaço de Artefato
+ArtifactOfResilienceShard6.DisplayName: Pedaço de Artefato
+AscendantAura.DisplayName: Aura Ascendente
 // AstralFallingSand.DisplayName: Astral Falling Sand
-// AstralSandBallFalling.DisplayName: Astral Sand
-// AstralSandBallGun.DisplayName: Astral Sand
-// AstralSpray.DisplayName: Astral Spray
+AstralSandBallFalling.DisplayName: Areia Astral
+AstralSandBallGun.DisplayName: Areia Astral
+AstralSpray.DisplayName: Spray Astral
 // AstralStar.DisplayName: Star
 // BallisticPoisonCloud.DisplayName: Ballistic Cloud
 // BasicPlagueBee.DisplayName: Basic Plague Bee
