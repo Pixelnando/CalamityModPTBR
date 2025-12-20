@@ -21,7 +21,7 @@ RecipeGroup: {
 // Status
 WikiStatus1: "[i:Book][c/EE4939:Nota: O wiki Fandom não é mais suportado pelo Calamity.] [i:Book]"
 WikiStatus2: "[i:Book][c/EE4939:Verifique o Wiki Oficial do Calamity em ][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [i:Book]"
-GimmeSwagPlushieCampaign: "[i:GreenPresent] [c/3BE022:DISPONÍVEL AGORA! Boneco de Pelúcia do Yharon!] [c/3989FF:calamitymod.com/plush] [i:GreenPresent]"
+VCMMStatus: "[i:MusicBoxMartians] [c/67F567:Experimente o Vanilla Calamity Music Mod! Acesse: ][c/3898FF:calamitymod.com/downloadvanillamusic] [i:MusicBoxMartians]"
 // Recipe Conditions
 Tier1ArsenalRecipeCondition: Veja uma esquemática descriptografada do laboratório perto do Mar Profundo
 Tier2ArsenalRecipeCondition: Descriptografe uma esquemática do laboratório no grande Planetóide no céu

@@ -2,8 +2,8 @@ AcidicRainBarrel: {
 	DisplayName: Barril de Chuva Acídica
 	Tooltip:
 		'''
-		Arremessa um barril rolante que explode ao colidir com paredes
-		Golpes furtivos causam uma chuva localizada na colisão
+		Arremessa um barril rolante que explode ao colidir com uma parede
+		Golpes furtivos causam uma chuva no local da colisão
 		'''
 }
 
@@ -27,7 +27,7 @@ Apoctolith: {
 		'''
 		Ataques críticos rasgam a defesa dos inimigos
 		Golpes furtivos explodem em fragmentos e atordoam brevemente os inimigos
-		'Talvez pegar tijolos com o rosto não seja uma ideia tão boa...'
+		'Pensando bem, tentar pegar tijolos com a cara não foi uma boa ideia...'
 		'''
 }
 
@@ -60,254 +60,257 @@ BallisticPoisonBomb: {
 }
 
 BlastBarrel: {
-	// DisplayName: Blast Barrel
-	/* Tooltip:
+	DisplayName: Barril da Rajada
+	Tooltip:
 		'''
-		Throws a rolling barrel that explodes on wall collision
-		Stealth strikes make the barrel bounce twice before disappearing with varied effects after each bounce
-		'Some people used to jump over these'
-		''' */
+		Arremessa um barril rolante que explode ao colidir com uma parede
+		Golpes furtivos fazem com que o barril ricocheteie duas vezes antes de desaparecer com efeitos variados após cada ricochete
+		'Algumas pessoas pulavam por cima de barris como esses'
+		'''
 }
 
 BlazingStar: {
-	// DisplayName: Blazing Star
-	/* Tooltip:
+	DisplayName: Estela Ardente
+	Tooltip:
 		'''
-		Tosses up to 3 red hot returning glaives
-		Stealth strikes throw three glaives with infinite piercing
-		''' */
+		Arremessa até 3 gládios super quentes que vão e voltam
+		Golpes furtivos arremessam três gládios com perfuração infinita
+		'''
 }
 
 BloodsoakedCrasher: {
-	// DisplayName: Bloodsoaked Crasher
-	/* Tooltip:
+	DisplayName: Esmagador Ensanguentado
+	Tooltip:
 		'''
-		Throws a bloody axe that is affected by gravity and can bounce twice
-		The axe speeds up over time, but will slow down upon hitting an enemy
-		Heals on enemy hits
-		Stealth strikes spawn homing blood on enemy hits
-		''' */
+		Lança um machado ensanguentado que é afetado pela gravidade e pode ricochetear duas vezes
+		O machado acelera com o tempo, mas desacelerará ao atingir um inimigo
+		Concede cura ao atingir um inimigo
+		Golpes furtivos invocam fluxos de sangue teleguiados ao atingir um inimigo
+		'''
 }
 
 BouncingEyeball: {
-	// DisplayName: Bouncing Eyeball
-	/* Tooltip:
+	DisplayName: Globo Ocular Saltitante
+	Tooltip:
 		'''
-		Throws an eyeball that bounces off of surfaces
-		Stealth strikes cause the eyeballs to move much faster and bounce more energetically
-		Knockback is much stronger during a blood moon
-		''' */
+		Lança um globo ocular que ricocheteia em superfícies
+		Golpes furtivos tornam os globos oculares muito mais velozes e ainda mais saltitantes
+		O recuo é mais forte durante uma lua de sangue
+		'''
 }
 
 BouncySpikyBall: {
-	// DisplayName: Bouncy Spiky Ball
-	/* Tooltip:
+	DisplayName: Bola com Espinhos Saltitante
+	Tooltip:
 		'''
-		Throws a very bouncy ball that ricochets off walls and enemies
-		Receives a small boost in damage and velocity after bouncing off an enemy
-		Stealth strikes throw four at once
-		''' */
+		Lança uma bola bem saltitante que ricocheteia de paredes e inimigos
+		Recebe um pequeno impulso no dano e na velocidade depois de ricochetear de um inimigo
+		Golpes furtivos lançam quatro de uma só vez
+		'''
 }
 
 BrackishFlask: {
-	// DisplayName: Brackish Flask
-	/* Tooltip:
+	DisplayName: Frasco Salobro
+	Tooltip:
 		'''
-		Throws a flask that explodes into poisonous seawater blasts
-		Stealth strikes summon a brackish spear spike
-		''' */
+		Lança um frasco que explode em rajadas de água marinha venenosa
+		Golpes furtivos invocam um enorme espinho salobro
+		'''
 }
 
 Brimblade: {
-	// DisplayName: Brimblade
-	/* Tooltip:
+	DisplayName: Serra de Enxofre
+	Tooltip:
 		'''
-		Throws a blade that splits on enemy hits
-		Stealth strikes split further and cause the player to launch a barrage of brimstone darts
-		''' */
+		Lança uma serra que se divide ao atingir um inimigo
+		Golpes furtivos se dividem ainda mais e lançam adicionalmente uma barragem de dardos de enxofre
+		'''
 }
 
 BurningStrife: {
-	// DisplayName: Burning Strife
-	/* Tooltip:
+	DisplayName: Porfia Ardente
+	Tooltip:
 		'''
-		Throws a shadowflame spiky ball that bursts into flames
-		Stealth strikes make the ball linger and explode more violently
-		'Definitely not pocket safe'
-		''' */
+		Lança uma bola com espinhos de chama das sombras que explode em chamas
+		Golpes furtivos tornam a bola mais duradoura e sua explosão mais violenta
+		'Nem pense em colocá-la em seus bolsos'
+		'''
 }
 
 CelestialReaper: {
-	// DisplayName: Celestial Reaper
-	/* Tooltip:
+	DisplayName: Ceifador Celestial
+	Tooltip:
 		'''
-		Throws a fast homing scythe
-		The scythe will bounce after hitting an enemy up to six times
-		Stealth strikes create damaging afterimages
-		''' */
+		Lança uma foice veloz e teleguiada
+		A foice ricocheteará depois de atingir um inimigo até no máximo seis vezes
+		Golpes furtivos criam pós-imagens danosas
+		'''
 }
 
 Celestus: {
-	// DisplayName: Celestus
-	/* Tooltip:
+	DisplayName: Celestus
+	Tooltip:
 		'''
-		Throws a high-velocity scythe that splits into multiple phantom scythes on enemy hits
-		Stealth strikes reverse direction and home in on enemies after returning to the player
-		''' */
+		Arremessa uma foice de alta velocidade que se divide em diversas foices-fantasma ao atingir um inimigo
+		Golpes furtivos invertem a direção e seguem os inimigos após retornarem ao jogador
+		'''
 }
 
 Cinquedea: {
-	// DisplayName: Cinquedea
-	// Tooltip: Stealth strikes home in after hitting an enemy
+	DisplayName: Cinquedea
+	Tooltip: Golpes furtivos tornam-se teleguiados após atingir um inimigo
 }
 
 CobaltKunai: {
-	// DisplayName: Cobalt Kunai
-	// Tooltip: Stealth strikes fire three homing cobalt energy bolts
+	DisplayName: Kunai de Cobalto
+	Tooltip: Golpes furtivos disparam três raios de energia de cobalto teleguiados
 }
 
 ConsecratedWater: {
-	// DisplayName: Consecrated Water
-	/* Tooltip:
+	DisplayName: Água Consagrada
+	Tooltip:
 		'''
-		Throws a holy flask of water that explodes into a sacred flame pillar
-		The pillar is destroyed if there's no tiles below it
-		Stealth strikes create three flame pillars instead of one on impact
-		The bottle is surprisingly dusty
-		''' */
+		Lança um frasco de água que explode em um pilar de chamas sagradas
+		O pilar é destruído se não houver peças abaixo dele
+		Golpes furtivos criam três pilares em vez de um no impacto
+		A garrafa está surpreendentemente empoeirada
+		'''
 }
 
 ContaminatedBile: {
-	// DisplayName: Contaminated Bile
-	/* Tooltip:
+	DisplayName: Bile Contaminada
+	Tooltip:
 		'''
-		Throws a flask of sickly green, irradiated bile which explodes on collision
-		Stealth strikes make the explosion much more violent and powerful
-		''' */
+		Lança um frasco de bile irradiada de uma cor verde doentia que explode ao colidir
+		Golpes furtivos tornam a explosão muito mais violenta e poderosa
+		'''
 }
 
 CorpusAvertor: {
-	// DisplayName: Corpus Avertor
-	/* Tooltip:
+	DisplayName: Corpus Avertor
+	Tooltip:
 		'''
-		Attacks grant lifesteal based on damage dealt
-		The lower your HP the more damage this weapon does and heals the player on enemy hits
-		Stealth strikes throw a single rainbow outlined dagger
-		On enemy hits, this dagger grants 10% damage and +2 HP/s life regen to all members of your team
-		However, there is a small chance it will cut your health in half instead
-		'Seems like it has worn down over time'
-		''' */
+		Ataques roubam vida com base no dano causado
+		Esta arma causa mais dano e rouba mais vida do inimigo caso sua vida esteja baixa
+		Golpes furtivos lançam uma adaga contornada por um arco-íris
+		Ao atingir um inimigo, esta adaga concede os seguintes efeitos para todos os membros do time:
+		10% de aumento nos danos e regeneração de +2 de vida por segundo 
+		No entanto, há uma pequena chance da adaga cortar a sua vida na metade e anular o efeito anterior
+		'Parece que se desgastou com o tempo'
+		'''
 }
 
 CosmicKunai: {
-	// DisplayName: Cosmic Kunai
-	/* Tooltip:
+	DisplayName: Kunai Cósmica
+	Tooltip:
 		'''
-		Fires a rapid stream of short-range kunai
-		Stealth strikes make kunai pierce foes, travel farther, and spawn 5 homing scythes
-		''' */
+		Dispara um fluxo rápido de kunais de curto alcance
+		Golpes furtivos tornam as kunais perfurantes, mais duradouras e adicionalmente invocam cinco foices teleguiadas
+		'''
 }
 
 CraniumSmasher: {
-	// DisplayName: Cranium Smasher
-	/* Tooltip:
+	DisplayName: Esmaga-Crânios
+	Tooltip:
 		'''
-		Throws disks that roll on the ground, occasionally launches an explosive disk
-		Stealth strikes launch an explosive disk that can pierce several enemies
-		''' */
+		Lança discos que rolam no chão
+		Ocasionalmente lança um disco explosivo
+		Golpes furtivos lançam um disco explosivo que pode perfurar diversos inimigos
+		'''
 }
 
 CrushsawCrasher: {
-	// DisplayName: Crushsaw Crasher
-	/* Tooltip:
+	DisplayName: Garra Esmagadora
+	Tooltip:
 		'''
-		Throws bouncing axes
-		Stealth strikes throw five at once
-		''' */
+		Lança machados saltitantes
+		Golpes furtivos lançam cinco de uma só vez
+		'''
 }
 
 Crystalline: {
-	// DisplayName: Crystalline
-	/* Tooltip:
+	DisplayName: Cristalina
+	Tooltip:
 		'''
-		Splits into several projectiles as it travels
-		Stealth strikes make the blade split more and create crystals when destroyed
-		''' */
+		Divide-se em vários projéteis conforme viaja
+		Golpes furtivos fazem a lâmina se dividir mais e criar cristais ao ser destruída
+		'''
 }
 
 CrystalPiercer: {
-	// DisplayName: Crystal Piercer
-	/* Tooltip:
+	DisplayName: Perfurador Cristalino
+	Tooltip:
 		'''
-		Throws a crystal javelin that pierces infinitely
-		Stealth strikes travel through blocks, ignore gravity, and summon crystal shards as they fly
-		''' */
+		Lança uma azagaia cristalina que perfura infinitamente
+		Golpes furtivos atravessam blocos, ignoram gravidade e invocam fragmentos de cristal conforme viajam
+		'''
 }
 
 CursedDagger: {
-	// DisplayName: Cursed Dagger
-	/* Tooltip:
+	DisplayName: Adaga Amaldiçoada
+	Tooltip:
 		'''
-		Throws a fast cursed dagger and two inaccurate weaker daggers
-		Stealth strikes throw a single dagger that bursts into a vortex of cursed flames
-		''' */
+		Lança uma adaga amaldiçoada veloz e duas adagas menores e imprecisas
+		Golpes furtivos lançam uma única adaga que explode em um vórtice de chamas amaldiçoadas
+		'''
 }
 
 DeepSeaDumbbell: {
-	// DisplayName: Deep Sea Dumbbell
-	/* Tooltip:
+	DisplayName: Halter do Fundo do Mar
+	Tooltip:
 		'''
-		Throws a dumbbell that bounces and flings weights with each bounce
-		Press <right> to flex, increasing the damage of your next attack up to 5 times damage
-		Flexes can hit enemies directly
-		''' */
+		Lança um halter que ricocheteia e arremessa pesos com cada ricochete
+		Pressione <right> para fazer flexões, aumentando o dano do seu próximo ataque em até 5 vezes
+		Flexões podem atingir diretamente os inimigos
+		'''
 }
 
 DeepWounder: {
-	// DisplayName: Deep Wounder
-	/* Tooltip:
+	DisplayName: Feridor Profundo
+	Tooltip:
 		'''
-		Throws an abyssal hatchet that inflicts Armor Crunch and Crush Depth to the enemies it hits
-		Stealth strikes cause the hatchet to be thrown faster and trail water, inflicting Marked for Death in addition to the other debuffs
-		''' */
+		Lança uma machadinha abissal que inflige Trituração de Armadura e Pressão das Profundezas no inimigo
+		Golpes furtivos lançam uma machadinha mais veloz e que deixa um trilho de água
+		Essa machadinha inflige Marcado para a Morte junto dos outros efeitos anteriores
+		'''
 }
 
 DefectiveSphere: {
-	// DisplayName: Defective Sphere
-	/* Tooltip:
+	DisplayName: Esfera Defeituosa
+	Tooltip:
 		'''
-		Fires a variety of deadly spheres with different effects
-		Up to five spheres can be thrown at a time
-		Stealth strikes launch all 4 sphere types at once
-		''' */
+		Dispara várias esferas mortais com efeitos diferentes
+		Até cinco esferas podem ser lançadas por vez
+		Golpes furtivos lançam todos os 4 tipos de esferas de uma só vez
+		'''
 }
 
 DesecratedWater: {
-	// DisplayName: Desecrated Water
-	/* Tooltip:
+	DisplayName: Água Vil
+	Tooltip:
 		'''
-		Throws an unholy flask of water that explodes into an explosion of evil bubbles
-		Stealth strikes spawn additional bubbles that inflict Ichor and Cursed Inferno
-		''' */
+		Lança um frasco de água profana que explode em diversas bolhas malignas
+		Golpes furtivos invocam mais bolhas e as fazem infligir Ichor e Inferno Amaldiçoado
+		'''
 }
 
 DukesDecapitator: {
-	// DisplayName: Duke's Decapitator
-	/* Tooltip:
+	DisplayName: Decapitador do Duque
+	Tooltip:
 		'''
-		Throws a hydro axe which shreds enemies when it comes into contact with them
-		The faster the axe is spinning, the more times it hits before disappearing
-		Stealth strikes emit short-ranged bubbles
-		''' */
+		Lança um hidromachado que destrói os inimigos ao atingí-los
+		A quantidade de acertos antes de desaparecer é afetada pela velocidade do machado
+		Golpes furtivos emitem bolhas de curto alcance
+		'''
 }
 
 DuststormInABottle: {
-	// DisplayName: Duststorm in a Bottle
-	/* Tooltip:
+	DisplayName: Tempestade de Poeira na Garrafa
+	Tooltip:
 		'''
-		Explodes into a dust cloud
-		Stealth strikes form a more intense and longer lasting dust cloud
-		''' */
+		Explode em uma nuvem de poeira
+		Golpes furtivos formam uma nuvem de poeira mais intensa e duradoura
+		'''
 }
 
 DynamicPursuer: {
@@ -1000,20 +1003,6 @@ SealedSingularity: {
 		'''
 		Shatters on impact, summoning a black hole that sucks in nearby enemies
 		Stealth strikes summon a black hole that lasts longer and sucks enemies with stronger force
-		''' */
-}
-
-SearedPan: {
-	// DisplayName: Seared Pan
-	/* Tooltip:
-		'''
-		Fires a frying pan at high velocity
-		Enemy hits summon fireballs that linger around the target
-		Landing three consecutive hits will launch a golden pan on the next throw
-		Golden pans cause all fireballs to aggressively home in on their target on hit
-		Stealth strikes act similar to golden pans but also explode into golden sparks
-		Stealth strikes also summon additional fireballs on hit
-		[c/842593:'dAMaGe iS rAthEr cOnSisTeNT']
 		''' */
 }
 

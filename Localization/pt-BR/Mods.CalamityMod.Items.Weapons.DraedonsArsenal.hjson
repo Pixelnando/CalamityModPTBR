@@ -83,8 +83,8 @@ MatterModulator: {
 }
 
 MountedScanner: {
-	// DisplayName: Mounted Scanner
-	// Tooltip: Summons a powerful scanner module above your head that fires lasers at nearby enemies
+	DisplayName: Escaneador Montado
+	Tooltip: Invoca um módulo escaneador poderoso sobre sua cabeça que dispara lasers nos inimigos próximos
 }
 
 Phaseslayer: {
@@ -99,31 +99,31 @@ Phaseslayer: {
 }
 
 PlasmaCaster: {
-	// DisplayName: Plasma Caster
-	/* Tooltip:
+	DisplayName: Lançador Plasmático
+	Tooltip:
 		'''
-		Press <left> to fire a large, exploding plasma bolt
-		Press <right> to fire in turbo mode, increasing rate of fire but with hindered accuracy
-		''' */
+		Pressione <left> para disparar um raio de plasma explosivo enorme
+		Pressione <right> para disparar no modo turbo, aumentando a taxa de disparo em troca de precisão
+		'''
 }
 
 PlasmaGrenade: {
-	// DisplayName: Plasma Grenade
-	/* Tooltip:
+	DisplayName: Granada de Plasma
+	Tooltip:
 		'''
-		Throws a grenade that explodes into plasma on collision
-		Stealth strikes explode violently on collision into a vaporizing blast
-		[c/1FFBFF:'Each grenade contains a heavily condensed and heated unit of plasma. Use with extreme caution.']
-		''' */
+		Arremessa uma granada que explode em plasma no impacto
+		Golpes furtivos explodem violentamente no impacto, causando uma explosão vaporizante
+		[c/1FFBFF:'Cada granada contém uma unidade altamente condensada e aquecida. Utilize com extrema cautela']
+		'''
 }
 
 PoleWarper: {
-	// DisplayName: Pole Warper
-	/* Tooltip:
+	DisplayName: Torcedor de Polos
+	Tooltip:
 		'''
-		Summons a pair of floating magnets that repel each other and relentlessly swarm enemies
-		Magnetic devices which tear at foes by propelling themselves off their opposite counterparts
-		''' */
+		Invoca um par de ímãs flutuantes que se repelem e atacam incessantemente os inimigos
+		Dispositivos magnéticos que rasgam seus inimigos impulsionando-se contra suas contrapartes opostas
+		'''
 }
 
 PulseDragon: {
@@ -137,60 +137,61 @@ PulseDragon: {
 }
 
 PulsePistol: {
-	// DisplayName: Pulse Pistol
-	// Tooltip: Fires a pulse that arcs to a new target on enemy hits
+	DisplayName: Pistola de Pulso
+	Tooltip: Dispara um pulso que arqueia em direção a um novo alvo ao atingir o inimigo
 }
 
 PulseRifle: {
-	// DisplayName: Pulse Rifle
-	/* Tooltip:
+	DisplayName: Rifle de Pulso
+	Tooltip:
 		'''
-		Fires an enhanced pulse beam that dissipates into 4 high-frequency pulse orbs on hit
-		Pulse orbs aggressively track nearby targets and track faster the more they hit
-		Pulse orb pierce will not decrease when killing enemies or dealing low damage
-		[c/1FFBFF:'My own personal weapon, used to stamp out failed creations.]
-		[c/1FFBFF:I have backed up the schematics in the event of the original's destruction.']
-		''' */
+		Dispara um feixe de pulso fortalecido que se dissipa em quatro orbes de pulso de alta frequência ao atingir o inimigo
+		Orbes de pulso seguem agressivamente inimigos próximos, seguindo mais rapidamente conforme atingem mais inimigos
+		A perfuração do orbe de pulso não será reduzida ao matar inimigos ou ao causar pouco dano
+		[c/1FFBFF:'Minha arma pessoal, usada para eliminar criações fracassadas.]
+		[c/1FFBFF:Fiz uma cópia de segurança das esquemáticas para caso o original seja destruído.']
+		'''
 }
 
 PulseTurretRemote: {
-	// DisplayName: Pulse Turret Remote
-	/* Tooltip:
+	DisplayName: Controle Remoto da Torreta de Pulso
+	Tooltip:
 		'''
-		Summons a pulse turret which eradicates nearby foes with focused energy blasts
-		Only one pulse turret may exist at a time
-		''' */
+		{$CommonItemTooltip.Sentry}
+		Invoca uma torreta para disparar rajadas de pulso explosivas nos inimigos
+		Apenas uma torreta de pulso pode existir por vez
+		'''
 }
 
 SnakeEyes: {
-	// DisplayName: Snake Eyes
-	/* Tooltip:
+	DisplayName: Olhos de Cobra
+	Tooltip:
 		'''
-		Summons a levitating drone which fires piercing, highly calibrated energy bolts
-		If a bolt hits, the drone will teleport into its path and reflect the bolt
-		Reflected bolts home in and explode on impact
-		[c/1FFBFF:'Equipped with high-end sensors, little can evade them. Even less are able to escape their ever watchful eyes.]
-		[c/1FFBFF:An excellent bridge between my experiments with the sight-based soul powered machines and my latest project.']
-		''' */
+		Invoca um drone flutuante que dispara rajadas de energia perfurantes e altamente calibradas
+		Se uma rajada atingir um inimigo, o drone será teletransportado no seu caminho e refletirá a rajada
+		Rajadas refletidas são teleguiadas e explodem no impacto
+		[c/1FFBFF:'Equipados com sensores de última geração, poucos conseguem escapar deles. Menos ainda conseguem fugir de seus olhares sempre vigilantes.]
+		[c/1FFBFF:Uma ponte excelente entre meus experimentos com máquinas movidas a alma baseadas na visão e meu projeto mais recente.']
+		'''
 }
 
 StarSwallowerContainmentUnit: {
-	// DisplayName: Star Swallower Containment Unit
-	/* Tooltip:
+	DisplayName: Unidade de Contenção do Engolidor de Estrelas
+	Tooltip:
 		'''
-		Summons a biomechanical frog that vomits plasma onto enemies
-		[c/1FFBFF:'These simplistic creatures were mechanized to autonomously transport plasma.]
-		[c/1FFBFF:They are vastly more servicable than their mundane organic counterparts.']
-		''' */
+		Invoca um sapo biomecânico que vomita plasma nos inimigos
+		[c/1FFBFF:'Estas criaturas simplistas foram mecanizadas para transportar plasma de forma autônoma.]
+		[c/1FFBFF:Eles são muito mais úteis do que suas contrapartes orgânicas comuns.']
+		'''
 }
 
 SystemBane: {
-	// DisplayName: System Bane
-	/* Tooltip:
+	DisplayName: Praga do Sistema
+	Tooltip:
 		'''
-		Hurls an unstable device which sticks to the ground and shocks nearby enemies with lightning
-		Stealth strikes make the device emit a large, damaging electromagnetic field
-		''' */
+		Arremessa um dispositivo instável que gruda no chão e eletrocuta inimigos próximos com raios
+		Golpes furtivos fazem o dispositivo emitir um campo eletromagnético danoso enorme
+		'''
 }
 
 Taser: {
@@ -203,12 +204,12 @@ Taser: {
 }
 
 TeslaCannon: {
-	// DisplayName: Tesla Cannon
-	/* Tooltip:
+	DisplayName: Canhão Tesla
+	Tooltip:
 		'''
-		A lightweight energy cannon that blasts an intense electrical beam that explodes
-		The beam can arc to nearby targets
-		''' */
+		Um canhão de energia leve que dispara um feixe elétrico intenso que explode
+		O feixe pode arquear em direção a alvos próximos
+		'''
 }
 
 TheAnomalysNanogun: {
@@ -222,20 +223,20 @@ TheAnomalysNanogun: {
 }
 
 TrackingDisk: {
-	// DisplayName: Tracking Disk
-	/* Tooltip:
+	DisplayName: Disco Perseguidor
+	Tooltip:
 		'''
-		Releases a flying disk that fires lasers at nearby enemies
-		This disk gains acceleration as it returns to the player
-		Stealth strikes fire lasers at a faster rate and distance, and can fire at multiple different targets
-		''' */
+		Libera um disco voador que dispara lasers em inimigos próximos
+		Este disco ganha aceleração conforme retorna ao jogador
+		Golpes furtivos disparam lasers com uma taxa e distância maiores, e podem disparar em vários alvos diferentes
+		'''
 }
 
 WavePounder: {
-	// DisplayName: Wave Pounder
-	/* Tooltip:
+	DisplayName: Batedor de Ondas
+	Tooltip:
 		'''
-		Throws a bomb which explodes into a agonizingly forceful shockwave
-		Stealth strikes emit absurdly powerful shockwaves
-		''' */
+		Arremessa uma bomba que explode numa onda de choque agonizantemente forte
+		Golpes furtivos emitem ondas de choque absurdamente poderosas
+		'''
 }

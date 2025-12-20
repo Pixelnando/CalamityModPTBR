@@ -1,13 +1,11 @@
-CalamityConfig: {
-	DisplayName: Configuração Principal
+CalamityClientConfig: {
+	DisplayName: Configurações do Client
 
 	Headers: {
-		ExpertMaster: Mudanças no Modo Perito e Mestre
-		Gameplay: Mudanças Gerais da Jogatina
-		Graphics: Mudanças Gráficas
-		Revengeance: Mudanças no Modo Vingança
-		UI: Mudanças da Interface do Usuário
-		BaseBoosts: Aumentos em Estatísticas Básicas
+		Gameplay: Mudanças de Jogatina Gerais
+		Graphics: Mudanças de Gráfico
+		MeterPositions: Posições dos Medidores
+		UI: Mudanças na IU
 		MusicEvents: Eventos de Música
 	}
 
@@ -38,49 +36,12 @@ CalamityConfig: {
 			'''
 	}
 
-	BossesStopWeather: {
-		Label: "[i:CalamityMod/TorrentialTear] Chefes interrompem o clima"
-		Tooltip:
-			'''
-			Quando ativado, vários chefes tardios interromperão a chuva e climas relacionados quando invocados.
-			Ative se você tiver problemas de desempenho durante lutas contra chefes tardios.
-			'''
-	}
-
 	BossHealthBarExtraInfo: {
 		Label: "[i:CalamityMod/EncryptedSchematicPlanetoid] Informação adicional na barra de vida dos chefes"
 		Tooltip:
 			'''
 			Adiciona informações adicionais à barra de vida do chefe do Calamity.
 			Isto exibe a vida exata do chefe ou o número de partes ou segmentos restantes.
-			'''
-	}
-
-	BossHealthBoost: {
-		Label: "[i:LifeCrystal] Porcentagem de aumento na vida dos chefes"
-		Tooltip:
-			'''
-			Aumenta globalmente a vida de todos os chefes pela porcentagem especificada.
-			Isso se acumula com os aumentos de vida dos chefes do multijogador.
-			Não afeta chefes que já foram invocados.
-			'''
-	}
-
-	DefaultDashEnabled: {
-		Label: "[i:Tabi] Corrida padrão"
-		Tooltip:
-			'''
-			Concede ao jogador uma corrida fraca padrão que não requer equipamentos ou itens para ser realizada.
-			Essa corrida será substituída por qualquer outra corrida disponível, incluindo corridas de outros mods.
-			'''
-	}
-
-	BossZen: {
-		Label: "[i:CalamityMod/ZenPotion] Chefes reduzem drasticamente as taxas de surgimento"
-		Tooltip:
-			'''
-			Todos os chefes vivos irão reduzir drasticamente a taxa de surgimento de inimigos comuns.
-			Isso também impede que a Chuva de Geleias ocorra enquanto um chefe está vivo.
 			'''
 	}
 
@@ -111,11 +72,6 @@ CalamityConfig: {
 			'''
 	}
 
-	ChilledWaterRework: {
-		Label: "[i:ArcticDivingGear] Retrabalho da água congelada"
-		Tooltip: Quando ativado, a água nos biomas de neve e gelo drenará rapidamente a respiração do jogador em vez de infligir Resfriado.
-	}
-
 	CooldownDisplay: {
 		Label: "[i:CalamityMod/NebulousCore] Modo de exibição do quadro de recargas"
 		Tooltip:
@@ -135,28 +91,6 @@ CalamityConfig: {
 		Tooltip: Toca "Scourge of The Universe (Eulogy for The Ego)" da Trilha Sonora do Calamity depois de derrotar o Devorador de Deuses.
 	}
 
-	EarlyHardmodeProgressionRework: {
-		Label: "[i:Pwnhammer] Retrabalho da progressão do início do modo difícil"
-		Tooltip:
-			'''
-			Altares Demoníacos não invocam mais minérios e blocos de corrupção/carmim quando quebrados.
-			A Parede de Carne invoca minérios de cobalto e paládio quando derrotada pela primeira vez.
-			O primeiro chefe mecânico que você enfrenta tem 20% a menos de vida e dano e invoca minérios de mithril e oricalco quando derrotado pela primeira vez.
-			O segundo chefe mecânico que você enfrenta tem 105 a menos de vida e dano e invoca minérios de adamantina e titânio quando derrotado pela primeira vez.
-			O terceiro chefe mecânico invoca minérios consagrados quando derrotado pela primeira vez.
-			'''
-	}
-
-	FasterBaseSpeed: {
-		Label: "[i:HermesBoots] Aumentar a velocidade dos movimentos básica"
-		Tooltip:
-			'''
-			Aumenta a velocidade básica do jogador substancialmente, sempre fornecendo um aumento de 50% na velocidade dos movimentos.
-			Esta ferramenta não faz nada se o mod Terraria Overhaul estiver carregado.
-			O Calamity é balanceado em torno da ativação desta configuração.
-			'''
-	}
-
 	FasterFallHotkey: {
 		Label: "[i:CalamityMod/BallAndChain] Ativar a queda rápida"
 		Tooltip:
@@ -167,26 +101,8 @@ CalamityConfig: {
 			'''
 	}
 
-	FasterJumpSpeed: {
-		Label: "[i:FrogLeg] Aumentar a velocidade dos pulos básica"
-		Tooltip:
-			'''
-			Aumenta levemente a velocidade dos pulos básica do jogador.
-			O Calamity é balanceado em torno da ativação desta configuração.
-			'''
-	}
-
-	FasterTilePlacement: {
-		Label: "[i:ArchitectGizmoPack] Aumentar a velocidade de construção básica"
-		Tooltip:
-			'''
-			Aumenta substancialmente a velocidade que o jogador consegue posicionar peças e paredes.
-			Esta configuração se acumula com a Camada de Tijolos, Betoneira Portátil e outros acessórios.
-			'''
-	}
-
 	FlightBar: {
-		Label: "[i:CalamityMod/DrewsWings] Exibir barra de voo"
+		Label: "[i:AngelWings] Exibir barra de voo"
 		Tooltip: Ativa a interface da barra de voo, que exibe a capacidade de voo do jogador.
 	}
 
@@ -208,37 +124,15 @@ CalamityConfig: {
 			'''
 	}
 
-	ForceTownSafety: {
-		Label: "[i:Sunflower] Forçar a segurança nas cidades"
+	Interludes: {
+		Label: "[i:CalamityModMusic/Interlude1MusicBox] Interlúdios"
 		Tooltip:
 			'''
-			Diminui enormemente as taxas de surgimento perto das cidades, neutralizando os efeitos dos modos Perito e Mestre.
-			Isso pode ter efeitos colaterais indesejados, como dificultar a localização de animais.
+			Ativa três trilhas sonoras para serem tocadas no jogo:
+			Toca o Interlúdio 1, "Silence before the storms", da Trilha Sonora do Calamity depois que o Clone da Calamitas for derrotado.
+			Toca o Interlúdio 2, "Storms before the catastrophes", da Trilha Sonora do Calamity depois que o Senhor da Lua for derrotado.
+			Toca o Interlúdio 3, "Catastrophes before the calamity", da Trilha Sonora do Calamity depois que Yharon for derrotado.
 			'''
-	}
-
-	HigherJumpHeight: {
-		Label: "[i:ShinyRedBalloon] Aumentar a altura dos pulos básica"
-		Tooltip:
-			'''
-			Aumenta a altura dos pulos básica do jogador em 10% para que seja possível pular 7 peças.
-			O Calamity é balanceado em torno da ativação desta configuração.
-			'''
-	}
-
-	Interlude1: {
-		Label: "[i:CalamityModMusic/Interlude1MusicBox] Interlúdio 1"
-		Tooltip: Toca o Interlúdio 1, "Silence before the storms", da Trilha Sonora do Calamity depois que o Clone da Calamitas for derrotado.
-	}
-
-	Interlude2: {
-		Label: "[i:CalamityModMusic/Interlude2MusicBox] Interlúdio 2"
-		Tooltip: Toca o Interlúdio 2, "Storms before the catastrophes", da Trilha Sonora do Calamity depois que o Senhor da Lua for derrotado.
-	}
-
-	Interlude3: {
-		Label: "[i:CalamityModMusic/Interlude3MusicBox] Interlúdio 3"
-		Tooltip: Toca o Interlúdio 3, "Catastrophes before the calamity", da Trilha Sonora do Calamity depois que Yharon for derrotado.
 	}
 
 	MeterPosLock: {
@@ -259,21 +153,12 @@ CalamityConfig: {
 			'''
 	}
 
-	NerfExpertDebuffs: {
-		Label: "[i:AnkhCharm] Remover o aumento na duração dos efeitos negativos"
-		Tooltip:
-			'''
-			Desativa a duplicação (triplicação no modo Mestre) de efeitos negativos infligidos no jogador no modo Perito.
-			O Calamity é balanceado em torno da ativação desta configuração.
-			'''
-	}
-
 	NewVanillaTextures: {
 		Label: "[i:Paintbrush] Novas texturas para o vanilla"
 		Tooltip:
 			'''
 			Ativa ou desativa as novas texturas para o vanilla.
-			Desative isso para manter compatiblidade com pacotes de textura.
+			Desative isso para garantir a compatibilidade com pacotes de textura.
 			'''
 	}
 
@@ -284,6 +169,7 @@ CalamityConfig: {
 			Define o máximo de efeitos de partículas que podem existir ao mesmo tempo.
 			Partículas são separadas de poeira e gores.
 			Abaixe para melhorar o desempenho.
+			[c/F05A5A:Valores menores que 1000 podem fazer com que algumas coisas não sejam exibidas corretamente.]
 			'''
 	}
 
@@ -302,20 +188,6 @@ CalamityConfig: {
 			'''
 			A posição Y do medidor de Fúria, medido como uma porcentagem da altura da tela.
 			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
-			'''
-	}
-
-	RemoveLavaDropsFromLavaSlimes: {
-		Label: "[i:LavaWaders] Impedir que Geleias de Lava deixem cair lava"
-		Tooltip: Quando está ativado, Geleias de Lava serão substituídas por uma nova Geleia de Lava que não deixa cair lava.
-	}
-
-	RemoveReforgeRNG: {
-		Label: "[i:TinHammer] Remover a dependência de sorte nas reforjas"
-		Tooltip:
-			'''
-			Remove a aleatoriedade das reforjas do Inventor Goblin, tanto para armas quanto para acessórios.
-			Desative isso se estiver usando mods que alteram o reforjamento por conta própria para evitar conflitos.
 			'''
 	}
 
@@ -426,6 +298,155 @@ CalamityConfig: {
 			'''
 	}
 
+	VanillaCooldownDisplay: {
+		Label: "[i:HealingPotion] Mostrar recargas do vanilla"
+		Tooltip:
+			'''
+			Adiciona os efeitos negativos do vanilla, Enjoo por poção e Estado de caos, ao quadro de recargas.
+			Isso não os remove da sua lista de efeitos, mas pode ajudar na visiblidade mesmo assim.
+			'''
+	}
+
+	VCMMStatusMessage: {
+		Label: "[i:MusicBoxMartians] Mensagem de status sobre o VCMM"
+		Tooltip: Ative ou desative a mensagem de status anunciando o Vanilla Calamity Music Mod que aparece ao entrar no mundo.
+	}
+
+	WikiStatusMessage: {
+		Label: "[i:Book] Mensagem de status sobre o wiki"
+		Tooltip: Ative ou desative a mensagem de status anunciando o Wiki Oficial do Calamity que aparece ao entrar no mundo.
+	}
+}
+
+CalamityServerConfig: {
+	DisplayName: Configurações do Servidor
+	Denied: Você não têm permissão para mudar esta configuração
+
+	Headers: {
+		ExpertMaster: Mudanças no Modo Perito e Mestre
+		Gameplay: Mudanças Gerais da Jogatina
+		BaseBoosts: Impulsos nas Estatísticas Básicas
+	}
+
+	BossesStopWeather: {
+		Label: "[i:CalamityMod/TorrentialTear] Chefes interrompem o clima"
+		Tooltip:
+			'''
+			Quando ativado, vários chefes tardios interromperão a chuva e climas relacionados quando invocados.
+			Ative se você tiver problemas de desempenho durante lutas contra chefes tardios.
+			'''
+	}
+
+	BossHealthBoost: {
+		Label: "[i:LifeCrystal] Porcentagem de aumento na vida dos chefes"
+		Tooltip:
+			'''
+			Aumenta globalmente a vida de todos os chefes pela porcentagem especificada.
+			Isso se acumula com os aumentos de vida dos chefes do multijogador.
+			Não afeta chefes que já foram invocados.
+			'''
+	}
+
+	BossZen: {
+		Label: "[i:CalamityMod/ZenPotion] Chefes reduzem drasticamente as taxas de surgimento"
+		Tooltip:
+			'''
+			Todos os chefes vivos irão reduzir drasticamente a taxa de surgimento de inimigos comuns.
+			Isso também impede que a Chuva de Geleias ocorra enquanto um chefe está vivo.
+			O Calamity é balanceado em torno da ativação desta configuração.
+			'''
+	}
+
+	ChilledWaterRework: {
+		Label: "[i:ArcticDivingGear] Retrabalho da água congelada"
+		Tooltip: Quando ativado, a água nos biomas de neve e gelo drenará rapidamente a respiração do jogador em vez de infligir Resfriado.
+	}
+
+	DefaultDashEnabled: {
+		Label: "[i:Tabi] Corrida padrão"
+		Tooltip:
+			'''
+			Concede ao jogador uma corrida fraca padrão que não requer equipamentos ou itens para ser realizada.
+			Essa corrida será substituída por qualquer outra corrida disponível, incluindo corridas de outros mods.
+			'''
+	}
+
+	EarlyHardmodeProgressionRework: {
+		Label: "[i:Pwnhammer] Retrabalho da progressão do início do modo difícil"
+		Tooltip:
+			'''
+			Altares Demoníacos não invocam mais minérios quando quebrados.
+			A Parede de Carne invoca minérios de cobalto e paládio quando derrotada pela primeira vez.
+			O primeiro chefe mecânico enfrentado tem 20% (10% no Perito e Mestre) a menos de vida e dano e gera minérios de mithril e oricalco quando derrotado pela primeira vez.
+			O segundo chefe mecânico enfrentado tem 10% (5% no Perito e Mestre) a menos de vida e dano e gera minérios de adamantina e titânio quando derrotado pela primeira vez.
+			O terceiro chefe mecânico invoca minérios consagrados quando derrotado pela primeira vez.
+			'''
+	}
+
+	FasterBaseSpeed: {
+		Label: "[i:HermesBoots] Aumentar a velocidade dos movimentos básica"
+		Tooltip:
+			'''
+			Aumenta a velocidade básica do jogador substancialmente, sempre fornecendo um aumento de 50% na velocidade dos movimentos.
+			Esta ferramenta não faz nada se o mod Terraria Overhaul estiver carregado.
+			O Calamity é balanceado em torno da ativação desta configuração.
+			'''
+	}
+
+	FasterJumpSpeed: {
+		Label: "[i:FrogLeg] Aumentar a velocidade dos pulos básica"
+		Tooltip:
+			'''
+			Aumenta levemente a velocidade dos pulos básica do jogador.
+			O Calamity é balanceado em torno da ativação desta configuração.
+			'''
+	}
+
+	FasterTilePlacement: {
+		Label: "[i:ArchitectGizmoPack] Aumentar a velocidade de construção básica"
+		Tooltip:
+			'''
+			Aumenta substancialmente a velocidade que o jogador consegue posicionar peças e paredes.
+			Esta configuração se acumula com a Camada de Tijolos, Betoneira Portátil e outros acessórios.
+			'''
+	}
+
+	ForceTownSafety: {
+		Label: "[i:Sunflower] Forçar a segurança nas cidades"
+		Tooltip:
+			'''
+			Diminui enormemente as taxas de surgimento perto das cidades, neutralizando os efeitos dos modos Perito e Mestre.
+			Isso pode ter efeitos colaterais indesejados, como dificultar a localização de animais.
+			'''
+	}
+
+	HigherJumpHeight: {
+		Label: "[i:ShinyRedBalloon] Aumentar a altura dos pulos básica"
+		Tooltip:
+			'''
+			Aumenta a altura dos pulos básica do jogador em 10% para que seja possível pular 7 peças.
+			O Calamity é balanceado em torno da ativação desta configuração.
+			'''
+	}
+
+	NerfExpertDebuffs: {
+		Label: "[i:AnkhCharm] Remover o aumento na duração dos efeitos negativos"
+		Tooltip:
+			'''
+			Desativa a duplicação (triplicação no modo Mestre) de efeitos negativos infligidos no jogador no modo Perito.
+			O Calamity é balanceado em torno da ativação desta configuração.
+			'''
+	}
+
+	PlayerRespawnTime_BossAlive: {
+		Label: "[i:Stopwatch] Tempo de renascimento durante lutas contra chefes"
+		Tooltip:
+			'''
+			Define, em segundos, o tempo de renascimento para os jogadores enquanto um chefe está vivo. Isso se aplica igualmente no modo de um jogador e multijogador.
+			Enquanto nenhum chefe está vivo, os jogadores renascerão em 3 segundos no modo de um jogador e multijogador.
+			'''
+	}
+
 	PotionSelling: {
 		Label: "[i:SpelunkerPotion] Venda de poções por NPCs de cidade"
 		Tooltip:
@@ -435,12 +456,17 @@ CalamityConfig: {
 			'''
 	}
 
-	PlayerRespawnTime_BossAlive: {
-		Label: "[i:Stopwatch] Tempo de renascimento durante lutas contra chefes"
+	RemoveLavaDropsFromLavaSlimes: {
+		Label: "[i:LavaWaders] Impedir que Geleias de Lava deixem cair lava"
+		Tooltip: Quando está ativado, Geleias de Lava serão substituídas por uma nova Geleia de Lava que não deixa cair lava.
+	}
+
+	RemoveReforgeRNG: {
+		Label: "[i:TinHammer] Remover a dependência de sorte nas reforjas"
 		Tooltip:
 			'''
-			Define, em segundos, o tempo de renascimento para os jogadores enquanto um chefe está vivo. Isso se acplica igualmente no modo de um jogador e multijogador.
-			Enquanto nenhum chefe está vivo, os jogadores renascerão em 3 segundos no modo de um jogador e multijogador.
+			Remove a aleatoriedade das reforjas do Inventor Goblin, tanto para armas quanto para acessórios.
+			Desative isso se estiver usando mods que alteram o reforjamento por conta própria para evitar conflitos.
 			'''
 	}
 
@@ -458,21 +484,7 @@ CalamityConfig: {
 		Tooltip:
 			'''
 			Quando ativado, NPCs de cidade podem surgir e renascer de noite.
-			Isso inclui o Velho.
+			Isso inclui o Velho na frente do calabouço.
 			'''
-	}
-
-	VanillaCooldownDisplay: {
-		Label: "[i:HealingPotion] Mostrar recargas do vanilla"
-		Tooltip:
-			'''
-			Adiciona os efeitos negativos do vanilla, Enjoo por poção e Estado de caos, ao quadro de recargas.
-			Isso não os remove da sua lista de efeitos, mas pode ajudar na visiblidade mesmo assim.
-			'''
-	}
-
-	WikiStatusMessage: {
-		Label: "[i:Book] Mensagem de status sobre o wiki"
-		Tooltip: Ative ou desative a mensagem de status promovendo o Wiki Oficial do Calamity que aparece ao entrar no mundo.
 	}
 }
