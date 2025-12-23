@@ -334,22 +334,22 @@ EclipsesFall: {
 }
 
 ElementalDisk: {
-	// DisplayName: Elemental Disk
-	/* Tooltip:
+	DisplayName: Disco Elemental
+	Tooltip:
 		'''
-		Throws a disk that has a chance to generate several disks if enemies are near it
-		Stealth strikes fly slower but travel farther, pierce through enemies, and spawn extra disks more frequently
-		''' */
+		Lança um disco que pode gerar discos extras perto de inimigos
+		Golpes furtivos voam mais devagar mas tem alcance maior, perfura inimigos, e gera discos extras mais frequentemente
+		'''
 }
 
 EnchantedAxe: {
-	// DisplayName: Enchanted Axe
-	/* Tooltip:
+	DisplayName: Machado Encantado
+	Tooltip:
 		'''
-		Throws a high velocity axe that returns to you after travelling a short distance or hitting a wall
-		At the furthest point from the player, a magical axe that travels through walls will be cast towards the nearest enemy
-		Stealth strikes make the axe fly further, throwing out many other magical axes in all directions
-		''' */
+		Lança um machado em alta velocidade que retorna para você depois de atingir uma pequena distância ou ao atingir uma parede
+		No ponto mais distante do jogador, um machado mágico que pode atravessar paredes será lançado em direção do inimigo mais próximo
+		Golpes furtivos faz o machado ir mais longe, e lança mais machados encantados em todas as direções
+		'''
 }
 
 EpidemicShredder: {
@@ -382,11 +382,11 @@ Eradicator: {
 }
 
 ExecutionersBlade: {
-	// DisplayName: Executioner's Blade
+	DisplayName: Lâmina do Executor
 	/* Tooltip:
 		'''
-		Throws a stream of homing blades
-		Stealth strikes summon a guillotine of blades on hit
+		Lança um fluxo de lâminas perseguidoras
+		Golpes furtivos invoca uma gilhotina de lâminas ao acerta o inimigo
 		''' */
 }
 
