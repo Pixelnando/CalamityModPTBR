@@ -314,23 +314,23 @@ DuststormInABottle: {
 }
 
 DynamicPursuer: {
-	// DisplayName: Dynamic Pursuer
-	/* Tooltip:
+	DisplayName: Perseguidor Dinâmico
+	Tooltip:
 		'''
-		Throws a calculation-processing disk that fires electricity at enemies
-		Stealth strikes allows the disk to ricochet to other targets, fire lasers, and unleash an explosion
-		If the disk cannot find a new target to ricochet to, it will pursue the original target instead
-		''' */
+		Lança um disco processador de cálculos que atira eletricidade nos inimigos
+		Golpes furtivos permitem que o disco ricocheteie em outros alvos, atire lasers e solte uma explosão
+		Se o disco não encontrar um novo alvo ao ricochetear, ele continuará a perseguir o alvo original
+		''' 
 }
 
 EclipsesFall: {
-	// DisplayName: Eclipse's Fall
-	/* Tooltip:
+	DisplayName: Eclipse Caído
+	Tooltip:
 		'''
-		Summons spears from the sky on hit
-		Stealth strikes impale enemies and summon a constant barrage of spears over time
-		'When the sun goes dark, you will know judgment'
-		''' */
+		Invoca lanças do céu ao atingir o inimigo
+		Golpes furtivos empalam inimigos e invocam uma saraivada constante de lanças ao longo do tempo.
+		'Quando o sol escurecer, você conhecerá o jugalmento'
+		''' 
 }
 
 ElementalDisk: {
@@ -353,23 +353,23 @@ EnchantedAxe: {
 }
 
 EpidemicShredder: {
-	// DisplayName: Epidemic Shredder
-	/* Tooltip:
+	DisplayName: Destruidor de Epidemias
+	Tooltip:
 		'''
-		Throws a plagued boomerang that releases plague seekers when it hits tiles or enemies
-		Stealth strikes cause the boomerang to release plague seekers constantly as it travels
-		Contrary to its name, it will probably cause an epidemic if used incorrectly
-		''' */
+		Atira um bumerangue da praga que libera caçadores da praga ao atingir peças ou inimigos
+		Golpes furtivos fazem com que o bumerangue solte caçadores da praga constantemente enquanto viaja
+		Ao contrário do que o nome sugere, ele provalvemente causará uma epidemia se usado incorretamente
+		'''
 }
 
 Equanimity: {
-	// DisplayName: Equanimity
-	/* Tooltip:
+	DisplayName: Equanimidade
+	Tooltip:
 		'''
-		Throws a boomerang born of light and darkness that confuses enemies
-		The boomerang will create light shards upon hitting enemies when thrown out, and will fire homing dark shards when returning
-		Stealth strikes cause the boomerang to create both dark and light shards whenever one type would be created
-		''' */
+		Lança um bumerangue feito de luz e trevas que confunde os inimigos
+		O bumerangue criará estilhaços de luz ao atingir os inimigos ao ser lançado e atirará estilhaços das trevas teleguiados ao retornar
+		Golpes furtivos farão com que o bumerangue crie estilhaços de luz e trevas sempre que um tipo de estilhaço for criado
+		'''
 }
 
 Eradicator: {
