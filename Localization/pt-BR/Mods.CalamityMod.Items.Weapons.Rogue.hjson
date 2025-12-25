@@ -9,7 +9,7 @@ AcidicRainBarrel: {
 
 AdamantiteThrowingAxe: {
 	DisplayName: Machado de Arremesso de Adamantina
-	Tooltip: Golpes furtivos ignoram a gravidadee e causam uma chuva de relâmpagos localizada no inimigo
+	Tooltip: Golpes furtivos ignoram a gravidade e causam uma chuva de relâmpagos localizada no inimigo
 }
 
 AlphaVirus: {
@@ -338,7 +338,7 @@ ElementalDisk: {
 	Tooltip:
 		'''
 		Lança um disco que pode gerar discos extras perto de inimigos
-		Golpes furtivos voam mais devagar mas tem alcance maior, perfura inimigos, e gera discos extras mais frequentemente
+		Golpes furtivos voam mais lento, porém tem alcance maior, perfuram inimigos, e geram discos extras mais frequentemente
 		'''
 }
 
@@ -348,7 +348,7 @@ EnchantedAxe: {
 		'''
 		Lança um machado em alta velocidade que retorna para você depois de atingir uma pequena distância ou ao atingir uma parede
 		No ponto mais distante do jogador, um machado mágico que pode atravessar paredes será lançado em direção do inimigo mais próximo
-		Golpes furtivos faz o machado ir mais longe, e lança mais machados encantados em todas as direções
+		Golpes furtivos fazem o machado ir mais longe e lançam mais machados encantados em todas as direções
 		'''
 }
 
@@ -358,7 +358,7 @@ EpidemicShredder: {
 		'''
 		Atira um bumerangue da praga que libera caçadores da praga ao atingir peças ou inimigos
 		Golpes furtivos fazem com que o bumerangue solte caçadores da praga constantemente enquanto viaja
-		Ao contrário do que o nome sugere, ele provalvemente causará uma epidemia se usado incorretamente
+		Ao contrário do que o nome sugere, ele provavelmente causará uma epidemia se usado incorretamente
 		'''
 }
 
@@ -377,7 +377,7 @@ Eradicator: {
 	Tooltip:
 		'''
 		Lança um disco que atira lasers de nébula nos inimigos próximos
-		Golpes furtivos o faz grudar nos inimigos e disparar uma saraivada de lasers em todas as direções
+		Golpes furtivos fazem o disco grudar nos inimigos e disparar uma saraivada de lasers em todas as direções
 		'''
 }
 
@@ -394,8 +394,8 @@ Exorcism: {
 	DisplayName: Exorcismo
 	Tooltip:
 		'''
-		Lança uma cruz consagrada que explode em um flash de luz, causando dano aos inimigos próximos
-		Golpes furtivos criam flashs maiores e uma chuva de estrelas infundidas com luz sagrada
+		Lança uma cruz consagrada que explode em um clarão de luz, causando dano aos inimigos próximos
+		Golpes furtivos criam clarões maiores e uma chuva de estrelas infundidas com luz sagrada
 		'''
 }
 
@@ -414,7 +414,7 @@ FeatherKnife: {
 	Tooltip:
 		'''
 		Lança uma faca que invoca penas teleguiadas
-		Golpe furtivo dispara uma saraivada de facas
+		Golpes furtivos disparam uma saraivada de facas
 		'''
 }
 
@@ -423,7 +423,7 @@ FishboneBoomerang: {
 	Tooltip:
 		'''
 		Golpes furtivos fazem o bumerangue ricochetear entre os inimigos
-		[c/5C95A1:Embora o Reino do Mar em evaporação, tenha lutado uma batalha perdida, seus orgulhosos habitantes não se renderam facilmente.]
+		[c/5C95A1:Embora o Reino do Mar em evaporação tenha lutado uma batalha perdida, seus orgulhosos habitantes não se renderam facilmente.]
 		[c/5C95A1:Como último recurso, eles tiveram que forjar armas a partir de esqueletos de animais mortos.]
 		'''
 }
@@ -438,13 +438,13 @@ FrostcrushValari: {
 }
 
 FrostyFlare: {
-	// DisplayName: Sinalizador Congelante
-	/* Tooltip:
+	DisplayName: Sinalizador Congelante
+	Tooltip:
 		'''
 		Lança um sinalizador que gruda nos inimigos e chove granizo sobre eles
 		Golpes furtivos deixam rastros de flocos de neve e invocam cópias fantasmas em vez de estilhaços de gelo
-		'Do not insert in flare gun'
-		''' */
+		'Não insira na arma sinalizadora'
+		'''
 }
 
 GacruxianMollusk: {
