@@ -448,7 +448,7 @@ FrostyFlare: {
 }
 
 GacruxianMollusk: {
-	// DisplayName: Gacruxian Mollusk
+	DisplayName: Molusco Gacruxiano
 	/* Tooltip:
 		'''
 		Releases homing sparks while traveling
@@ -457,7 +457,7 @@ GacruxianMollusk: {
 }
 
 GelDart: {
-	// DisplayName: Gel Dart
+	DisplayName: Dardo de Gel
 	/* Tooltip:
 		'''
 		Throws bouncing gel darts
@@ -476,7 +476,7 @@ GhoulishGouger: {
 }
 
 GildedDagger: {
-	// DisplayName: Gilded Dagger
+	DisplayName: Adaga Dourada
 	/* Tooltip:
 		'''
 		Throws a shiny blade that ricochets towards another enemy on hit
@@ -486,7 +486,7 @@ GildedDagger: {
 }
 
 Glaive: {
-	// DisplayName: Glaive
+	DisplayName: Gládio
 	/* Tooltip:
 		'''
 		Tosses up to 3 sharp returning glaives
@@ -495,7 +495,7 @@ Glaive: {
 }
 
 GleamingDagger: {
-	// DisplayName: Gleaming Dagger
+	DisplayName: Adaga Brilhante
 	/* Tooltip:
 		'''
 		Throws a shiny blade that ricochets towards another enemy on hit
@@ -505,7 +505,7 @@ GleamingDagger: {
 }
 
 GodsParanoia: {
-	// DisplayName: Gods' Paranoia
+	DisplayName: Paranoia dos Deuses
 	/* Tooltip:
 		'''
 		Hurls up to 10 speedy homing spiky balls
@@ -528,7 +528,7 @@ GraveGrimreaver: {
 }
 
 HardenedHoneycomb: {
-	// DisplayName: Hardened Honeycomb
+	DisplayName: Favo de Mel Endurecido
 	/* Tooltip:
 		'''
 		Fires a honeycomb that shatters into fragments
@@ -547,7 +547,7 @@ HeavenfallenStardisk: {
 }
 
 HellsSun: {
-	// DisplayName: Hell's Sun
+	DisplayName: Sol infernal
 	/* Tooltip:
 		'''
 		Hurls up to 10 gravity-defying spiky balls
@@ -559,7 +559,7 @@ HellsSun: {
 }
 
 Hypothermia: {
-	// DisplayName: Hypothermia
+	DisplayName: Hipotermia
 	/* Tooltip:
 		'''
 		Throws a constant barrage of black ice shards
@@ -568,12 +568,12 @@ Hypothermia: {
 }
 
 Icebreaker: {
-	// DisplayName: Icebreaker
+	DisplayName: Quebra-Gelo
 	// Tooltip: Stealth strikes spawn a cosmic explosion and freeze nearby enemies on enemy hits
 }
 
 IceStar: {
-	// DisplayName: Ice Star
+	DisplayName: Estrela de Gelo
 	/* Tooltip:
 		'''
 		Throws fast but brittle homing ice stars
@@ -582,7 +582,7 @@ IceStar: {
 }
 
 IchorSpear: {
-	// DisplayName: Ichor Spear
+	DisplayName: Lança de Ichor
 	/* Tooltip:
 		'''
 		Throws a high-velocity ichor tipped javelin that pierces through enemies
@@ -629,7 +629,7 @@ JawsOfOblivion: {
 }
 
 KelvinCatalyst: {
-	// DisplayName: Kelvin Catalyst
+	DisplayName: Catalista de Kelvin
 	/* Tooltip:
 		'''
 		Throws an icy blade that splits into multiple ice stars on enemy hits
@@ -666,7 +666,7 @@ LeonidProgenitor: {
 }
 
 LeviathanTeeth: {
-	// DisplayName: Leviathan Teeth
+	DisplayName: Dente de Leviathan
 	/* Tooltip:
 		'''
 		Rapidly throws a spread of venomous teeth that stick to enemies
@@ -686,7 +686,7 @@ Lionfish: {
 }
 
 RealityRupture: {
-	// DisplayName: Reality Rupture
+	DisplayName: Ruptura da Realidade
 	/* Tooltip:
 		'''
 		Cycles between throwing 3 small homing spears and throwing a single piercing lance
@@ -730,7 +730,7 @@ MetalMonstrosity: {
 }
 
 MeteorFist: {
-	// DisplayName: Meteor Fist
+	DisplayName: Soco de Meteoro
 	/* Tooltip:
 		'''
 		Fires a rocket fist that explodes forcefully
@@ -739,7 +739,7 @@ MeteorFist: {
 }
 
 MoltenAmputator: {
-	// DisplayName: Molten Amputator
+	DisplayName: Amputator Derretido
 	/* Tooltip:
 		'''
 		Throws a scythe that emits molten globs on enemy hits
@@ -748,7 +748,7 @@ MoltenAmputator: {
 }
 
 MonkeyDarts: {
-	// DisplayName: Monkey Darts
+	DisplayName: Dardos do Macaco
 	/* Tooltip:
 		'''
 		Stealth strikes throw 3 bouncing darts at high speed
@@ -767,7 +767,7 @@ Mycoroot: {
 }
 
 MythrilKnife: {
-	// DisplayName: Mythril Knife
+	DisplayName: Faca de Mithril
 	// Tooltip: Stealth strikes are coated in deadly toxins, inflicting irradiated, poison, and acid venom
 }
 
@@ -909,12 +909,12 @@ RegulusRiot: {
 }
 
 RotBall: {
-	// DisplayName: Rot Ball
+	DisplayName: Bola Podre
 	// Tooltip: Stealth strikes spawn rain clouds on enemy hits
 }
 
 Sacrifice: {
-	// DisplayName: Sacrifice
+	DisplayName: Sacrifício
 	/* Tooltip:
 		'''
 		Throws sacrificial daggers that lodge themselves in enemies
@@ -934,7 +934,7 @@ SamsaraSlicer: {
 }
 
 SandDollar: {
-	// DisplayName: Sand Dollar
+	DisplayName: Dólar de Areia
 	/* Tooltip:
 		'''
 		Throws up to 2 returning sand dollars
@@ -964,7 +964,7 @@ ScarletDevil: {
 }
 
 ScourgeoftheDesert: {
-	// DisplayName: Scourge of the Desert
+	DisplayName: Flagelo do Deserto
 	/* Tooltip:
 		'''
 		A javelin that will burrow through the ground and launch itself at enemies
@@ -973,7 +973,7 @@ ScourgeoftheDesert: {
 }
 
 ScourgeoftheSeas: {
-	// DisplayName: Scourge of the Seas
+	DisplayName: Flagelo dos Oceanos
 	/* Tooltip:
 		'''
 		Snaps apart into irradiated clouds upon striking an enemy
@@ -1022,7 +1022,7 @@ ShardofAntumbra: {
 }
 
 ShatteredSun: {
-	// DisplayName: Shattered Sun
+	DisplayName: Sol Fraturado
 	/* Tooltip:
 		'''
 		Throws daggers that split into scorching homing daggers
@@ -1031,7 +1031,7 @@ ShatteredSun: {
 }
 
 ShinobiBlade: {
-	// DisplayName: Shinobi Blade
+	DisplayName: Lâmina de Shinobi
 	/* Tooltip:
 		'''
 		Throws a fast blade that spawns healing orbs when it kills an enemy
@@ -1040,7 +1040,7 @@ ShinobiBlade: {
 }
 
 ShockGrenade: {
-	// DisplayName: Shock Grenade
+	DisplayName: Granada de Choque
 	/* Tooltip:
 		'''
 		Throws a grenade that explodes into a burst of lightning
@@ -1094,7 +1094,7 @@ SnapClam: {
 }
 
 SpearofDestiny: {
-	// DisplayName: Spear of Destiny
+	DisplayName: Lança do Destino
 	/* Tooltip:
 		'''
 		Cycles between throwing 3 small homing spears and throwing a single piercing lance
@@ -1124,7 +1124,7 @@ SpentFuelContainer: {
 }
 
 StarofDestruction: {
-	// DisplayName: Star of Destruction
+	DisplayName: Estrela da Destruição
 	/* Tooltip:
 		'''
 		Fires a huge destructive mine that explodes into destruction bolts
@@ -1172,7 +1172,7 @@ SubductionSlicer: {
 }
 
 Supernova: {
-	// DisplayName: Supernova
+	DisplayName: Supernova
 	/* Tooltip:
 		'''
 		Tosses a smart bomb that locks onto and tracks targets
@@ -1201,7 +1201,7 @@ TerrorTalons: {
 }
 
 TheAtomSplitter: {
-	// DisplayName: The Atom Splitter
+  DisplayName: O Separador de Átomos
 	/* Tooltip:
 		'''
 		Throws a quantum-superimposed javelin that strikes from numerous timelines at once
@@ -1210,7 +1210,7 @@ TheAtomSplitter: {
 }
 
 TheFinalDawn: {
-	// DisplayName: The Final Dawn
+	DisplayName: A Última Manhã
 	/* Tooltip:
 		'''
 		Attack enemies with a giant scythe swing to replenish stealth
