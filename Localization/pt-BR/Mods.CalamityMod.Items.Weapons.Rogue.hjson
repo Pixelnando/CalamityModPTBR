@@ -373,76 +373,76 @@ Equanimity: {
 }
 
 Eradicator: {
-	// DisplayName: Eradicator
-	/* Tooltip:
+	DisplayName: Erradicador
+	Tooltip:
 		'''
-		Throws a disk that fires nebula lasers at nearby enemies
-		Stealth strikes stick to enemies and unleash a barrage of lasers in all directions
-		''' */
+		Lança um disco que atira lasers de nébula nos inimigos próximos
+		Golpes furtivos o faz grudar nos inimigos e disparar uma saraivada de lasers em todas as direções
+		'''
 }
 
 ExecutionersBlade: {
 	DisplayName: Lâmina do Executor
-	/* Tooltip:
+	Tooltip:
 		'''
 		Lança um fluxo de lâminas perseguidoras
 		Golpes furtivos invoca uma gilhotina de lâminas ao acerta o inimigo
-		''' */
+		'''
 }
 
 Exorcism: {
-	// DisplayName: Exorcism
-	/* Tooltip:
+	DisplayName: Exorcismo
+	Tooltip:
 		'''
-		Throws a hallowed cross which explodes into a flash of light that damages nearby enemies
-		Stealth strikes create larger flashes and rain stars infused with holy light
-		''' */
+		Lança uma cruz consagrada que explode em um flash de luz, causando dano aos inimigos próximos
+		Golpes furtivos criam flashs maiores e uma chuva de estrelas infundidas com luz sagrada
+		'''
 }
 
 FantasyTalisman: {
-	// DisplayName: Fantasy Talisman
-	/* Tooltip:
+	DisplayName: Talismã da Fantasia
+	Tooltip:
 		'''
-		Fires high velocity talismans that ignore gravity
-		Talismans attach to enemies, causing them to release lost souls
-		Stealth strikes release more souls and leave behind souls as they travel
-		''' */
+		Atira talismãs de alta velocidade que ignoram a gravidade
+		Os talismãs prendem-se aos inimigos, fazendo com que libertem almas perdidas
+		Golpes furtivos libertam mais almas e deixam almas para trás enquanto viajam
+		'''
 }
 
 FeatherKnife: {
-	// DisplayName: Feather Knife
-	/* Tooltip:
+	DisplayName: Faca de Penas
+	Tooltip:
 		'''
-		Throws a knife which summons homing feathers
-		Stealth strike throws a volley of knives
-		''' */
+		Lança uma faca que invoca penas teleguiadas
+		Golpe furtivo dispara uma saraivada de facas
+		'''
 }
 
 FishboneBoomerang: {
-	// DisplayName: Fishbone Boomerang
-	/* Tooltip:
+	DisplayName: Bumerangue de Espinha de Peixe
+	Tooltip:
 		'''
-		Stealth strikes make the boomerang ricochet between enemies
-		[c/5C95A1:Though the evaporating Sea Kingdom fought a losing battle, its proud inhabitants did not go down easily.]
-		[c/5C95A1:As a last resort, they had to fashion weapons from the skeletons of dead animals.]
-		''' */
+		Golpes furtivos fazem o bumerangue ricochetear entre os inimigos
+		[c/5C95A1:Embora o Reino do Mar em evaporação, tenha lutado uma batalha perdida, seus orgulhosos habitantes não se renderam facilmente.]
+		[c/5C95A1:Como último recurso, eles tiveram que forjar armas a partir de esqueletos de animais mortos.]
+		'''
 }
 
 FrostcrushValari: {
-	// DisplayName: Frostcrush Valari
-	/* Tooltip:
+	DisplayName: Valari Esmagador Congelado
+	Tooltip:
 		'''
-		Fires a long ranged boomerang that explodes into icicles on hit
-		Stealth strikes throw three shorter ranged boomerangs that freeze along with a spread of icicles
-		''' */
+		Atira um bumerangue de longo alcance que explode em estalactites de gelo ao atingir o alvo
+		Golpes furtivos lançam três bumerangues de curto alcance que congelam o alvo, além de espalhar estalactites de gelo
+		'''
 }
 
 FrostyFlare: {
-	// DisplayName: Frosty Flare
+	// DisplayName: Sinalizador Congelante
 	/* Tooltip:
 		'''
-		Throw a flare that sticks to enemies and rains a hailstorm on them
-		Stealth strikes trail snowflakes and summon phantom copies instead of ice shards
+		Lança um sinalizador que gruda nos inimigos e chove granizo sobre eles
+		Golpes furtivos deixam rastros de flocos de neve e invocam cópias fantasmas em vez de estilhaços de gelo
 		'Do not insert in flare gun'
 		''' */
 }
