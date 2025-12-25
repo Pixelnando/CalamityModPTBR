@@ -338,7 +338,7 @@ ElementalDisk: {
 	Tooltip:
 		'''
 		Lança um disco que pode gerar discos extras perto de inimigos
-		Golpes furtivos voam mais lento, porém tem alcance maior, perfuram inimigos, e geram discos extras mais frequentemente
+		Golpes furtivos voam mais lentamente, porém tem alcance maior, perfuram inimigos, e geram discos extras mais frequentemente
 		'''
 }
 
