@@ -449,154 +449,154 @@ FrostyFlare: {
 
 GacruxianMollusk: {
 	DisplayName: Molusco Gacruxiano
-	/* Tooltip:
+	Tooltip:
 		'''
-		Releases homing sparks while traveling
-		Stealth strikes release homing snails that create even more sparks
-		''' */
+		Libera faíscas teleguiadas enquanto viaja
+		Golpes furtivos liberam caracóis teleguiados que criam ainda mais faíscas
+		'''
 }
 
 GelDart: {
 	DisplayName: Dardo de Gel
-	/* Tooltip:
+	Tooltip:
 		'''
-		Throws bouncing gel darts
-		Stealth strikes ignore gravity and bounce more vigorously
-		They additionally leak slime and cover enemies in dark sludge
-		''' */
+		Lança dardos de gel saltitantes
+		Golpes furtivos fazem os dardos ignorarem a gravidade e saltarem com mais força
+		Eles também vazam geleia e cobrem os inimigos em uma lama escura
+		'''
 }
 
 GhoulishGouger: {
-	// DisplayName: Ghoulish Gouger
-	/* Tooltip:
+	DisplayName: Goivador Macabro
+	Tooltip:
 		'''
-		Throws sets of four ghoulish scythes at ultra high velocity
-		Stealth strikes summon a flurry of tormented souls on hit
-		''' */
+		Lança conjuntos de quatro foices macabras em altíssima velocidade
+		Golpes furtivos invocam uma horda de almas atormentadas ao antigir o alvo
+		'''
 }
 
 GildedDagger: {
 	DisplayName: Adaga Dourada
-	/* Tooltip:
+	Tooltip:
 		'''
-		Throws a shiny blade that ricochets towards another enemy on hit
-		Stealth strikes cause the blade to home in after ricocheting, with each ricochet dealing 5% more damage
-		Stealth strikes also have increased piercing
-		''' */
+		Lança uma lâmina reluzente que ao atingir um inimigo ricocheteia em direção a outro inimigo
+		Golpes furtivos fazem a lâmina perseguir o alvo após ricochetear, causando 5% a mais de dano a cada ricochete
+		Golpes furtivos também aumentam a perfuração de inimigos
+		'''
 }
 
 Glaive: {
-	DisplayName: Gládio
-	/* Tooltip:
+	DisplayName: Glave
+	Tooltip:
 		'''
-		Tosses up to 3 sharp returning glaives
-		Stealth strikes are super fast and pierce infinitely
-		''' */
+		Lança até 3 glaves afiadas que retornam ao portador
+		Golpes furtivos tornam-as super rápidas e perfuram inimigos infinitamente
+		'''
 }
 
 GleamingDagger: {
-	DisplayName: Adaga Brilhante
-	/* Tooltip:
+	DisplayName: Adaga Platinada
+	Tooltip:
 		'''
-		Throws a shiny blade that ricochets towards another enemy on hit
-		Stealth strikes cause the blade to home in after ricocheting, with each ricochet dealing 5% more damage
-		Stealth strikes also have increased piercing
-		''' */
+		Lança uma lâmina reluzente que ao atingir um inimigo ricocheteia em direção a outro inimigo
+		Golpes furtivos fazem a lâmina perseguir o alvo após ricochetear, causando 5% a mais de dano a cada ricochete
+		Golpes furtivos também aumentam a perfuração de inimigos
+		'''
 }
 
 GodsParanoia: {
 	DisplayName: Paranoia dos Deuses
-	/* Tooltip:
+	Tooltip:
 		'''
-		Hurls up to 10 speedy homing spiky balls
-		Attaches to enemies and summons a localized storm of god slayer kunai
-		Stealth strikes home in faster and summon kunai at a faster rate
-		Press <right> to delete all existing spiky balls
-		''' */
+		Arremessa até 10 bolas com espinhos velozes e teleguiadas
+		Predem nos inimigos e invoca uma tempastade de kunais caçadoras de deuses no local
+		Golpes furtivos deixam-as mais rápidas e as fazem invocar kunais com maior frequência
+		Pressione <right> para eliminar todas as bolas com espinhos existentes
+		'''
 }
 
 GraveGrimreaver: {
-	// DisplayName: Grave Grimreaver
-	/* Tooltip:
+	DisplayName: Ceifador de Túmulos
+	Tooltip:
 		'''
-		Hurls a cursed scythe which homes in
-		The scythe summons skulls as it flies and explodes into bats on hit
-		Stealth strikes spawn a flood of bats and falling skulls when destroyed
-		Inflicts cursed flames and confusion
-		'A dapper skeleton's weapon of choice'
-		''' */
+		Arremessa uma foice amaldiçoada que persegue o alvo
+		A foice invoca caveiras enquanto voa e ao antigir o alvo explode gerando morcegos
+		Golpes furtivos geram uma enxurrada de morcegos e uma chuva de caveiras quando a foice é destruída 
+		Inflige chamas amaldiçoadas e confusão
+		'A arma de escolha de um esqueleto elegante'
+		'''
 }
 
 HardenedHoneycomb: {
 	DisplayName: Favo de Mel Endurecido
-	/* Tooltip:
+	Tooltip:
 		'''
-		Fires a honeycomb that shatters into fragments
-		Stealth strikes grant the honey buff on hit and spawn bees
-		''' */
+		Atira um favo de mel que se estilhaça em fragmentos
+		Golpes furtivos concedem o efeito de mel ao atingir o alvo e invocam abelhas
+		'''
 }
 
 HeavenfallenStardisk: {
-	// DisplayName: Heavenfallen Stardisk
-	/* Tooltip:
+	DisplayName: Disco Estelar Caído do Céu
+	Tooltip:
 		'''
-		Throws a stardisk upwards which then launches itself towards your mouse cursor
-		Explodes into a star of astral bolts on hit
-		Stealth strikes throw three disks that rain astral energy bolts from the sky
-		''' */
+		Arremessa um disco estelar pra cima que depois lança-se em direção ao cursor do mouse
+		Explode em uma estrela de raios astrais ao atingir o alvo.
+		Golpes furtivos arremessam três discos que disparam raios de energia astral do céu
+		'''
 }
 
 HellsSun: {
-	DisplayName: Sol infernal
-	/* Tooltip:
+	DisplayName: Sol do Inferno
+	Tooltip:
 		'''
-		Hurls up to 10 gravity-defying spiky balls
-		Once stationary, periodically emit small suns that explode on hit
-		Stealth strikes emit suns at a faster rate and last for a longer amount of time
-		Press <right> to delete all existing spiky balls
-		'The Subterranean Sun in the palm of your hand'
-		''' */
+		Arremesa até 10 bolas com espinhos que desafiam a gravidade
+		Quando estão parados, emitem pequenos sóis periodicamente que explodem ao atingir o alvo
+		Golpes furtivos emitem sóis a uma taxa mais rápida e duram mais tempo
+		Pressione <right> para eliminar todas as bolas com espinhos
+		'O Sol Subterrâneo na palma da sua mão'
+		'''
 }
 
 Hypothermia: {
 	DisplayName: Hipotermia
-	/* Tooltip:
+	Tooltip:
 		'''
-		Throws a constant barrage of black ice shards
-		Stealth strikes hurl a set of razor sharp ice chunks that shatter on impact
-		''' */
+		Lança uma rajada constante de fragmentos de gelo negro
+		Golpes furtivos lançam uma série de fragmentos de gelo afiadíssimos que se estilhaçam no impacto
+		'''
 }
 
 Icebreaker: {
-	DisplayName: Quebra-Gelo
-	// Tooltip: Stealth strikes spawn a cosmic explosion and freeze nearby enemies on enemy hits
+	DisplayName: Quebra-gelo
+	Tooltip: Golpes furtivos geram uma explosão cósmica e congelam inimigos próximos ao atingí-los
 }
 
 IceStar: {
 	DisplayName: Estrela de Gelo
-	/* Tooltip:
+	Tooltip:
 		'''
-		Throws fast but brittle homing ice stars
-		Stealth strikes last longer and spawn smaller homing stars on first hits
-		''' */
+		Lança estrelas de gelo teleguiadas rápidas, mas frágeis
+		Golpes furtivos as fazem durar mais e geram estrelas teleguiadas menores nos primeiros acertos
+		'''
 }
 
 IchorSpear: {
 	DisplayName: Lança de Ichor
-	/* Tooltip:
+	Tooltip:
 		'''
-		Throws a high-velocity ichor tipped javelin that pierces through enemies
-		Stealth strikes impale enemies and deal repeated damage
-		''' */
+		Arremessa uma lança de alta velocidade com ichor na ponta que atravessa os inimigos
+		Golpes furtivos empalam os inimigos e causam dano constante
+		'''
 }
 
 InfernalKris: {
-	// DisplayName: Infernal Kris
-	/* Tooltip:
+	DisplayName: Kris Infernal
+	Tooltip:
 		'''
-		Throws a burning dagger that starts spinning after travelling a short distance, inflicting additional damage while spinning
-		Stealth strikes cause the dagger to be engulfed in flames, exploding on contact with walls and enemies
-		''' */
+		Lança uma adaga flamejante que começa a girar após percorrer uma curta distância, causando dano adicional enquanto gira 
+		Golpes furtivos fazem a adaga ser consumida pelas chamas, explode ao entrar em contato com paredes e inimigos
+		'''
 }
 
 InfestedClawmerang: {
