@@ -629,50 +629,50 @@ JawsOfOblivion: {
 }
 
 KelvinCatalyst: {
-	DisplayName: Catalista de Kelvin
-	/* Tooltip:
+	DisplayName: Catalisador Kelvin
+	Tooltip:
 		'''
-		Throws an icy blade that splits into multiple ice stars on enemy hits
-		Stealth strikes will briefly gain sentience and ram nearby enemies before returning to the player
-		''' */
+		Lança uma lâmina gélida que se divide em múltipas estrelas de gelo ao atingir inimigos
+		Golpes furtivos a farão ganhar consciência e avançar contra inimigos próximos antes de retornar ao jogador
+		'''
 }
 
 Kylie: {
-	// DisplayName: Kylie
-	/* Tooltip:
+	DisplayName: Kylie
+	Tooltip:
 		'''
-		Stealth strikes throws three shorter ranged kylies instead of a single long range one
-		'Also known as Dowak'
-		''' */
+		Golpes furtivos lançam três kylies de curto alcance em vez de um único de longo alcance
+		'Também conhecido como Dowak'
+		'''
 }
 
 LeadTomahawk: {
-	// DisplayName: Lead Tomahawk
-	/* Tooltip:
+	DisplayName: Machadinha de Chumbo
+	Tooltip:
 		'''
-		The tomahawks have more damage for a short time when initially thrown
-		Stealth strikes pierce up to 6 times
-		''' */
+		As macadinhas causam mais dano quando são lançadas inicialmente por um curto período de tempo
+		Golpes furtivos perfuram alvos até 6 vezes
+		'''
 }
 
 LeonidProgenitor: {
-	// DisplayName: Leonid Progenitor
-	/* Tooltip:
+	DisplayName: Progenitor de Lêonidas
+	Tooltip:
 		'''
-		Throws a bombshell that explodes, summoning a meteor to impact the site
-		Press <right> to throw a spread of gravity affected comets that explode, leaving behind a star
-		Stealth strikes lob a bombshell that additionally splits into comets on hit
-		''' */
+		Lança um casco-bomba que explode, invocando um meteoro que impacta o local
+		Pressione <right> para lançar uma série de cometas afetados pela gravidade que explodem, deixando para trás uma estrela
+		Golpes furtivos lançam um casco-bomba que também se divide em cometas ao atingir o alvo
+		'''
 }
 
 LeviathanTeeth: {
 	DisplayName: Dente de Leviathan
-	/* Tooltip:
+	Tooltip:
 		'''
-		Rapidly throws a spread of venomous teeth that stick to enemies
-		This venom can stack when more teeth are stuck in an enemy
-		Stealth strikes cause 6 very fast teeth to be thrown, ignoring gravity and spawning water blasts on hit
-		''' */
+		Lança rapidamente uma rajada de dentes peçonhentos que cravam-se nos inimigos
+		Essa peçonha pode se acumular à medida que mais dentes ficam cravados nos inimigos
+		Golpes furtivos fazem lançar 6 dentes muito rápidos, ignorando a gravidade e gerando jatos de água ao atingir o alvo
+		'''
 }
 
 Lionfish: {
