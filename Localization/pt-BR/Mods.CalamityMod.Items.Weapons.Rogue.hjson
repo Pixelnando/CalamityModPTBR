@@ -562,7 +562,7 @@ Hypothermia: {
 	DisplayName: Hipotermia
 	Tooltip:
 		'''
-		Lança uma rajada constante de fragmentos de gelo negro
+		Lança uma saraivada constante de fragmentos de gelo negro
 		Golpes furtivos lançam uma série de fragmentos de gelo afiadíssimos que se estilhaçam no impacto
 		'''
 }
@@ -600,32 +600,32 @@ InfernalKris: {
 }
 
 InfestedClawmerang: {
-	// DisplayName: Infested Clawmerang
-	/* Tooltip:
+	DisplayName: Garrangue Infestada
+	Tooltip:
 		'''
-		Fires a slow, long-ranged boomerang
-		Stealth strikes grant the Mushy buff to the user on enemy hits and summon homing spores
-		''' */
+		Atira um bumerangue lento de longo alcance
+		Golpes furtivos concedem o efeito Molenga ao usuário ao atingir inimigos e invocam esporos teleguiados
+		'''
 }
 
 IronFrancisca: {
-	// DisplayName: Iron Francisca
-	/* Tooltip:
+	DisplayName: Franquisque de Ferro
+	Tooltip:
 		'''
-		The franciscas do more damage for a short time when initially thrown
-		Stealth strikes pierce up to 6 times
-		''' */
+		Os franquisques causam mais dano quando são lançados inicialmente por um curto período de tempo 
+		Golpes furtivos perfuram alvos até 6 vezes
+		'''
 }
 
 JawsOfOblivion: {
-	// DisplayName: Jaws of Oblivion
-	/* Tooltip:
+	DisplayName: Maxilares do Oblívio
+	Tooltip:
 		'''
-		Throws a tight spread of six venomous reaper teeth that stick in enemies
-		This venom can stack when more teeth are stuck in an enemy
-		Stealth strikes cause the teeth to emit a crushing shockwave on impact
-		'You're gonna need a bigger boat'
-		''' */
+		Lança uma rajada compacta de seis dentes ceifeiros peçonhentos que se cravam nos inimigos 
+		Essa peçonha pode se acumular quando mais dentes ficarem cravados em um inimigos
+		Golpes furtivos fazem os dentes emitirem uma onda de choque esmagadora ao impacto
+		'Você vai precisar de um barco maior'
+		'''
 }
 
 KelvinCatalyst: {
