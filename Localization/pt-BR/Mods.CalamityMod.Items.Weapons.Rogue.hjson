@@ -328,7 +328,7 @@ EclipsesFall: {
 	Tooltip:
 		'''
 		Invoca lanças do céu ao atingir o inimigo
-		Golpes furtivos empalam inimigos e invocam uma saraivada constante de lanças ao longo do tempo.
+		Golpes furtivos empalam inimigos e invocam uma saraivada constante de lanças ao longo do tempo
 		'Quando o sol escurecer, você conhecerá o jugalmento'
 		''' 
 }
@@ -479,7 +479,7 @@ GildedDagger: {
 	DisplayName: Adaga Dourada
 	Tooltip:
 		'''
-		Lança uma lâmina reluzente que ao atingir um inimigo ricocheteia em direção a outro inimigo
+		Lança uma lâmina reluzente que, ao atingir um inimigo, ricocheteia em direção a outro inimigo
 		Golpes furtivos fazem a lâmina perseguir o alvo após ricochetear, causando 5% a mais de dano a cada ricochete
 		Golpes furtivos também aumentam a perfuração de inimigos
 		'''
@@ -490,7 +490,7 @@ Glaive: {
 	Tooltip:
 		'''
 		Lança até 3 glaves afiadas que retornam ao portador
-		Golpes furtivos tornam-as super rápidas e perfuram inimigos infinitamente
+		Golpes furtivos tornam as glaves super rápidas e as fazem perfurar inimigos infinitamente
 		'''
 }
 
@@ -498,7 +498,7 @@ GleamingDagger: {
 	DisplayName: Adaga Platinada
 	Tooltip:
 		'''
-		Lança uma lâmina reluzente que ao atingir um inimigo ricocheteia em direção a outro inimigo
+		Lança uma lâmina reluzente que, ao atingir um inimigo, ricocheteia em direção a outro inimigo
 		Golpes furtivos fazem a lâmina perseguir o alvo após ricochetear, causando 5% a mais de dano a cada ricochete
 		Golpes furtivos também aumentam a perfuração de inimigos
 		'''
@@ -509,8 +509,8 @@ GodsParanoia: {
 	Tooltip:
 		'''
 		Arremessa até 10 bolas com espinhos velozes e teleguiadas
-		Predem nos inimigos e invoca uma tempastade de kunais caçadoras de deuses no local
-		Golpes furtivos deixam-as mais rápidas e as fazem invocar kunais com maior frequência
+		As bolas grudam nos inimigos e invocam uma tempestade de kunais caça-deuses no local
+		Golpes furtivos deixam as bolas mais rápidas e as fazem invocar kunais com maior frequência
 		Pressione <right> para eliminar todas as bolas com espinhos existentes
 		'''
 }
@@ -520,7 +520,7 @@ GraveGrimreaver: {
 	Tooltip:
 		'''
 		Arremessa uma foice amaldiçoada que persegue o alvo
-		A foice invoca caveiras enquanto voa e ao antigir o alvo explode gerando morcegos
+		A foice invoca caveiras enquanto voa e, ao antigir o alvo, explode gerando morcegos
 		Golpes furtivos geram uma enxurrada de morcegos e uma chuva de caveiras quando a foice é destruída 
 		Inflige chamas amaldiçoadas e confusão
 		'A arma de escolha de um esqueleto elegante'
@@ -541,7 +541,7 @@ HeavenfallenStardisk: {
 	Tooltip:
 		'''
 		Arremessa um disco estelar pra cima que depois lança-se em direção ao cursor do mouse
-		Explode em uma estrela de raios astrais ao atingir o alvo.
+		Explode em uma estrela de raios astrais ao atingir o alvo
 		Golpes furtivos arremessam três discos que disparam raios de energia astral do céu
 		'''
 }
@@ -568,7 +568,7 @@ Hypothermia: {
 }
 
 Icebreaker: {
-	DisplayName: Quebra-gelo
+	DisplayName: Quebra-Gelo
 	Tooltip: Golpes furtivos geram uma explosão cósmica e congelam inimigos próximos ao atingí-los
 }
 
@@ -576,8 +576,8 @@ IceStar: {
 	DisplayName: Estrela de Gelo
 	Tooltip:
 		'''
-		Lança estrelas de gelo teleguiadas rápidas, mas frágeis
-		Golpes furtivos as fazem durar mais e geram estrelas teleguiadas menores nos primeiros acertos
+		Lança estrelas de gelo teleguiadas rápidas, porém frágeis
+		Golpes furtivos tornam as estrelas mais duradouras e as fazem gerar cópias menores nos primeiros acertos
 		'''
 }
 
@@ -594,17 +594,17 @@ InfernalKris: {
 	DisplayName: Kris Infernal
 	Tooltip:
 		'''
-		Lança uma adaga flamejante que começa a girar após percorrer uma curta distância, causando dano adicional enquanto gira 
-		Golpes furtivos fazem a adaga ser consumida pelas chamas, explode ao entrar em contato com paredes e inimigos
+		Lança uma adaga flamejante que começa a girar após percorrer uma curta distância, causando dano adicional enquanto gira
+		Golpes furtivos consomem a adaga em chamas, fazendo com que ela exploda ao entrar em contato com paredes e inimigos
 		'''
 }
 
 InfestedClawmerang: {
-	DisplayName: Garrangue Infestada
+	DisplayName: Garrangue Infestado
 	Tooltip:
 		'''
 		Atira um bumerangue lento de longo alcance
-		Golpes furtivos concedem o efeito Molenga ao usuário ao atingir inimigos e invocam esporos teleguiados
+		Golpes furtivos concedem o efeito Molenga ao usuário ao atingir o inimigo e invocam esporos teleguiados
 		'''
 }
 
@@ -621,10 +621,10 @@ JawsOfOblivion: {
 	DisplayName: Maxilares do Oblívio
 	Tooltip:
 		'''
-		Lança uma rajada compacta de seis dentes ceifeiros peçonhentos que se cravam nos inimigos 
-		Essa peçonha pode se acumular quando mais dentes ficarem cravados em um inimigos
-		Golpes furtivos fazem os dentes emitirem uma onda de choque esmagadora ao impacto
-		'Você vai precisar de um barco maior'
+		Lança uma rajada compacta de seis dentes ceifeiros peçonhentos que se cravam nos inimigos
+		Essa peçonha se acumula à medida que mais dentes ficam cravados no inimigo
+		Golpes furtivos fazem os dentes emitirem uma onda de choque esmagadora no impacto
+		'Vamos precisar de um barco maior'
 		'''
 }
 
@@ -632,8 +632,8 @@ KelvinCatalyst: {
 	DisplayName: Catalisador Kelvin
 	Tooltip:
 		'''
-		Lança uma lâmina gélida que se divide em múltipas estrelas de gelo ao atingir inimigos
-		Golpes furtivos a farão ganhar consciência e avançar contra inimigos próximos antes de retornar ao jogador
+		Lança uma lâmina gélida que se divide em múltiplas estrelas de gelo ao atingir o inimigo
+		Golpes furtivos despertam brevemente o catalisador para atacar inimigos próximos antes de retornar ao jogador
 		'''
 }
 
@@ -650,13 +650,13 @@ LeadTomahawk: {
 	DisplayName: Machadinha de Chumbo
 	Tooltip:
 		'''
-		As macadinhas causam mais dano quando são lançadas inicialmente por um curto período de tempo
+		As machadinhas causam mais dano quando são lançadas inicialmente por um curto período de tempo
 		Golpes furtivos perfuram alvos até 6 vezes
 		'''
 }
 
 LeonidProgenitor: {
-	DisplayName: Progenitor de Lêonidas
+	DisplayName: Progenitor de Leônidas
 	Tooltip:
 		'''
 		Lança um casco-bomba que explode, invocando um meteoro que impacta o local
@@ -666,12 +666,12 @@ LeonidProgenitor: {
 }
 
 LeviathanTeeth: {
-	DisplayName: Dente de Leviathan
+	DisplayName: Dente da Leviatã
 	Tooltip:
 		'''
-		Lança rapidamente uma rajada de dentes peçonhentos que cravam-se nos inimigos
-		Essa peçonha pode se acumular à medida que mais dentes ficam cravados nos inimigos
-		Golpes furtivos fazem lançar 6 dentes muito rápidos, ignorando a gravidade e gerando jatos de água ao atingir o alvo
+		Lança rapidamente uma rajada de dentes peçonhentos que se cravam nos inimigos
+		Essa peçonha se acumula à medida que mais dentes ficam cravados no inimigo
+		Golpes furtivos lançam 6 dentes extremamente rápidos que ignoram a gravidade e geram jatos de água ao atingir o inimigo
 		'''
 }
 
