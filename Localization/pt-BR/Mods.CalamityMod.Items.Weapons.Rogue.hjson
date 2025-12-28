@@ -676,57 +676,57 @@ LeviathanTeeth: {
 }
 
 Lionfish: {
-	// DisplayName: Lionfish
-	/* Tooltip:
+	DisplayName: Peixe-leão
+	Tooltip:
 		'''
-		Sticks to enemies and injects a potent venom
-		This venom can stack when more lionfish are stuck in an enemy
-		Stealth strikes spawn homing urchin spikes as they travel
-		''' */
+		Gruda em inimigos e injeta um veneno poderoso
+		Este veneno pode se acumula quanto mais Peixes-leões estão presos em um inimigo
+		Golpes furtivos geram espinhos perseguidores enquanto voa
+		'''
 }
 
 RealityRupture: {
 	DisplayName: Ruptura da Realidade
-	/* Tooltip:
+	Tooltip:
 		'''
-		Cycles between throwing 3 small homing spears and throwing a single piercing lance
-		Stealth Strikes throw a high-velocity reality shattering lance that explodes on hit
-		''' */
+		Circula entre 3 lanças pequenas perseguidoras e uma perfuradora
+		Golpes furtivos lança uma lança de quebra de realidade em alta velocidade que explode ao atingir um inimigo
+		'''
 }
 
 LunarKunai: {
-	// DisplayName: Lunar Kunai
-	/* Tooltip:
+	DisplayName: Kunai Lunar
+	Tooltip:
 		'''
-		Throws out a set of three kunai that ignore gravity and slightly home in on enemies
+		Lança um conjunto de 3 kunais, ignorando a gravidade e lentamente voam em direção do inimigo
 		After traveling enough distance, the kunai supercharge with lunar energy, homing in far more aggressively and exploding on impact
 		Stealth strikes instantly throw nine supercharged Kunai
-		''' */
+		'''
 }
 
 Malachite: {
-	// DisplayName: Malachite
-	/* Tooltip:
+	DisplayName: Malaquite
+	Tooltip:
 		'''
-		Throws a stream of kunai that stick to enemies and explode
-		Press <right> to throw a single kunai that pierces, after piercing an enemy it emits a massive explosion on the next enemy hit
-		Stealth strikes fire three kunai that home in, stick to enemies, and explode
-		''' */
+		Lança um fluxo de kunais que grudam em inimigos e explodem
+		Pressione <right> para lançar uma kunai que perfura inimigos e após perfurar um inimigo causa uma explosão massiva no próximo inimigo atingido
+		Golpes furtivos lança 3 kunais perseguidoras, grudam em inimigos e explodem
+		'''
 }
 
 MangroveChakram: {
-	// DisplayName: Mangrove Chakram
-	// Tooltip: Stealth strikes leave a trail of lingering flowers
+	DisplayName: Chakram de Mangue
+	Tooltip: Golpes furtivos deixam um rastro de flores persistentes
 }
 
 MetalMonstrosity: {
-	// DisplayName: Metal Monstrosity
-	/* Tooltip:
+	DisplayName: Monstrosidade de Metal
+	Tooltip:
 		'''
-		Hurls a heavy metal ball that shatters on impact
-		Stealth strikes cause the ball to release spikes as it travels
-		'This has to hurt'
-		''' */
+		Arremessa uma bola de metal pesada que despedaça no impacto
+		Golpes furtivos causam a bola soltae espinhos enquanto voa
+		'Isso tem que doer'
+		'''
 }
 
 MeteorFist: {
