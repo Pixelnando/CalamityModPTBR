@@ -347,7 +347,7 @@ EnchantedAxe: {
 	Tooltip:
 		'''
 		Lança um machado em alta velocidade que retorna para você depois de atingir uma pequena distância ou ao atingir uma parede
-		No ponto mais distante do jogador, um machado mágico que pode atravessar paredes será lançado em direção do inimigo mais próximo
+		No ponto mais distante do jogador, um machado mágico que pode atravessar paredes será lançado em direção ao inimigo mais próximo
 		Golpes furtivos fazem o machado ir mais longe e lançam mais machados encantados em todas as direções
 		'''
 }
@@ -676,12 +676,12 @@ LeviathanTeeth: {
 }
 
 Lionfish: {
-	DisplayName: Peixe-leão
+	DisplayName: Peixe-Leão
 	Tooltip:
 		'''
-		Gruda em inimigos e injeta um veneno poderoso
-		Este veneno pode se acumula quanto mais Peixes-leões estão presos em um inimigo
-		Golpes furtivos geram espinhos perseguidores enquanto voa
+		Gruda nos inimigos e injeta um veneno poderoso
+		Esse veneno se acumula à medida que mais Peixes-Leões ficam presos no inimigo
+		Golpes furtivos fazem o peixe gerar espinhos perseguidores enquanto voa
 		'''
 }
 
@@ -689,8 +689,8 @@ RealityRupture: {
 	DisplayName: Ruptura da Realidade
 	Tooltip:
 		'''
-		Circula entre 3 lanças pequenas perseguidoras e uma perfuradora
-		Golpes furtivos lança uma lança de quebra de realidade em alta velocidade que explode ao atingir um inimigo
+		Alterna entre lançar 3 pequenas lanças teleguiadas e lançar uma única lança perfurante
+		Golpes furtivos lançam uma lança de alta velocidade que rompe a realidade e explode ao atingir um inimigo
 		'''
 }
 
@@ -698,9 +698,9 @@ LunarKunai: {
 	DisplayName: Kunai Lunar
 	Tooltip:
 		'''
-		Lança um conjunto de 3 kunais, ignorando a gravidade e lentamente voam em direção do inimigo
-		After traveling enough distance, the kunai supercharge with lunar energy, homing in far more aggressively and exploding on impact
-		Stealth strikes instantly throw nine supercharged Kunai
+		Lança um conjunto de 3 kunais que ignoram a gravidade e lentamente voam em direção ao inimigo
+		Após certa distância, a kunai é sobrecarregada com energia lunar, perseguindo o alvo agressivamente e explode ao atingir o inimigo
+		Golpes furtivos lançam nove kunais sobrecarregadas instantaneamente
 		'''
 }
 
@@ -709,23 +709,24 @@ Malachite: {
 	Tooltip:
 		'''
 		Lança um fluxo de kunais que grudam em inimigos e explodem
-		Pressione <right> para lançar uma kunai que perfura inimigos e após perfurar um inimigo causa uma explosão massiva no próximo inimigo atingido
-		Golpes furtivos lança 3 kunais perseguidoras, grudam em inimigos e explodem
+		Pressione <right> para lançar uma kunai que perfura inimigos
+		Após perfurar um inimigo, a kunai causa uma explosão enorme no próximo inimigo atingido
+		Golpes furtivos lançam 3 kunais perseguidoras que grudam nos inimigos e explodem
 		'''
 }
 
 MangroveChakram: {
-	DisplayName: Chakram de Mangue
+	DisplayName: Chakram do Mangue
 	Tooltip: Golpes furtivos deixam um rastro de flores persistentes
 }
 
 MetalMonstrosity: {
-	DisplayName: Monstrosidade de Metal
+	DisplayName: Monstruosidade Metálica
 	Tooltip:
 		'''
 		Arremessa uma bola de metal pesada que despedaça no impacto
-		Golpes furtivos causam a bola soltae espinhos enquanto voa
-		'Isso tem que doer'
+		Golpes furtivos fazem a bola soltar espinhos enquanto voa
+		'Isso deve doer'
 		'''
 }
 
@@ -739,7 +740,7 @@ MeteorFist: {
 }
 
 MoltenAmputator: {
-	DisplayName: Amputator Derretido
+	DisplayName: Amputador Derretido
 	/* Tooltip:
 		'''
 		Throws a scythe that emits molten globs on enemy hits
@@ -748,12 +749,12 @@ MoltenAmputator: {
 }
 
 MonkeyDarts: {
-	DisplayName: Dardos do Macaco
-	/* Tooltip:
+	DisplayName: Dardos de Macaco
+	Tooltip:
 		'''
-		Stealth strikes throw 3 bouncing darts at high speed
-		'Perfect for popping'
-		''' */
+		Golpes furtivos lançam 3 dardos saltitantes em alta velocidade
+		'Perfeitos para estouros'
+		'''
 }
 
 Mycoroot: {
@@ -844,12 +845,12 @@ PhantasmalRuin: {
 }
 
 Plaguenade: {
-	// DisplayName: Plaguenade
-	/* Tooltip:
+	DisplayName: Granada da Praga
+	Tooltip:
 		'''
-		Releases a swarm of angry plague bees
-		Stealth strikes spawn more bees and generate a larger explosion
-		''' */
+		Libera um enxame de abelhas da praga furiosas
+		Golpes furtivos invocam mais abelhas e geram uma explosão maior
+		'''
 }
 
 PoisonPack: {
@@ -863,12 +864,12 @@ PoisonPack: {
 }
 
 Prismalline: {
-	// DisplayName: Prismalline
-	/* Tooltip:
+	DisplayName: Prismalina
+	Tooltip:
 		'''
-		Throws daggers that split after a while
-		Stealth strikes additionally explode into prism shards and briefly stun enemies
-		''' */
+		Lança adagas que se divide depois de um tempo
+		Golpes furtivos explodem em fragmentos de prisma e brevemente atordoam os inimigos
+		'''
 }
 
 ProfanedPartisan: {
@@ -910,7 +911,7 @@ RegulusRiot: {
 
 RotBall: {
 	DisplayName: Bola Podre
-	// Tooltip: Stealth strikes spawn rain clouds on enemy hits
+	Tooltip: Golpes furtivos invocam nuvens chuvosas ao atingir o inimigo
 }
 
 Sacrifice: {
@@ -934,22 +935,22 @@ SamsaraSlicer: {
 }
 
 SandDollar: {
-	DisplayName: Dólar de Areia
-	/* Tooltip:
+	DisplayName: Bolacha-da-Praia
+	Tooltip:
 		'''
-		Throws up to 2 returning sand dollars
-		Stealth strikes throw 2 long ranged sand dollars that explode into coral shards on enemy hits
-		''' */
+		Lança até 2 bolachas-da-praia que retornam ao usuário
+		Golpes furtivos lançam 2 bolachas-da-praia de longo alcance que explodem em fragmentos de coral ao atingir o inimigo
+		'''
 }
 
 Sandslasher: {
-	// DisplayName: Sandslasher
-	/* Tooltip:
+	DisplayName: Rasga-Dunas
+	Tooltip:
 		'''
-		Throws a huge shuriken made out of fused sand unaffected by gravity which slowly accelerates horizontally
-		It does more damage depending on how fast it goes horizontally and how long it has been flying for
-		Stealth strikes periodically release sand clouds
-		''' */
+		Lança uma shuriken enorme feita de areia fundida que não é afetada pela gravidade e acelera lentamente
+		Causa mais dano conforme a velocidade horizontal e a duração do voo da arma
+		Golpes furtivos liberam nuvens de areia periodicamente
+		'''
 }
 
 ScarletDevil: {
@@ -964,7 +965,7 @@ ScarletDevil: {
 }
 
 ScourgeoftheDesert: {
-	DisplayName: Flagelo do Deserto
+	DisplayName: Flagelo Desértico
 	/* Tooltip:
 		'''
 		A javelin that will burrow through the ground and launch itself at enemies
