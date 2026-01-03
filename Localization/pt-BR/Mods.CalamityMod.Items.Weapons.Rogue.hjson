@@ -699,7 +699,7 @@ LunarKunai: {
 	Tooltip:
 		'''
 		Lança um conjunto de 3 kunais que ignoram a gravidade e lentamente voam em direção ao inimigo
-		Após certa distância, a kunai é sobrecarregada com energia lunar, perseguindo o alvo agressivamente e explode ao atingir o inimigo
+		Após certa distância, a kunai é sobrecarregada com energia lunar, perseguindo o alvo agressivamente e explodindo ao atingir o inimigo
 		Golpes furtivos lançam nove kunais sobrecarregadas instantaneamente
 		'''
 }
