@@ -867,7 +867,7 @@ Prismalline: {
 	DisplayName: Prismalina
 	Tooltip:
 		'''
-		Lança adagas que se divide depois de um tempo
+		Lança adagas que se dividem depois de um tempo
 		Golpes furtivos explodem em fragmentos de prisma e brevemente atordoam os inimigos
 		'''
 }
