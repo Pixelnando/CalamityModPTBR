@@ -732,20 +732,20 @@ MetalMonstrosity: {
 
 MeteorFist: {
 	DisplayName: Soco de Meteoro
-	/* Tooltip:
+	Tooltip:
 		'''
-		Fires a rocket fist that explodes forcefully
-		Stealth strikes make the fist ricochet between enemies up to 4 times
-		''' */
+		Atira um punho-foguete que explode com força
+		Golpes furtivos fazem o punho ricochetear entre os inimigos até 4 vezes
+		'''
 }
 
 MoltenAmputator: {
 	DisplayName: Amputador Derretido
-	/* Tooltip:
+	Tooltip:
 		'''
-		Throws a scythe that emits molten globs on enemy hits
-		Stealth strikes spawn molten globs periodically in flight and more on-hit
-		''' */
+		Lança uma foice que emite gotas de metal derretido ao atingir os inimigos
+		Golpes furtivos geram metal derretido periodicamente durante o voo e mais ainda ao acertar o alvo
+		'''
 }
 
 MonkeyDarts: {
@@ -758,29 +758,29 @@ MonkeyDarts: {
 }
 
 Mycoroot: {
-	// DisplayName: Mycoroot
-	/* Tooltip:
+	DisplayName: Micorreia
+	Tooltip:
 		'''
-		Fires a stream of short-range fungal roots
-		Stealth strikes spawn an explosion of fungi spores
-		and grant you and all other players the Mushy buff for 15 seconds
-		''' */
+		Atira uma fluxo de raízes fúngicas de curto alcance
+		Golpes furtivos geram uma explosão de esporos de fungos
+		e concedem a você e a todos os outros jogadores o efeito Molenga por 15 segundos
+		'''
 }
 
 MythrilKnife: {
 	DisplayName: Faca de Mithril
-	// Tooltip: Stealth strikes are coated in deadly toxins, inflicting irradiated, poison, and acid venom
+	Tooltip: Golpes furtivos revestem as facas em toxinas mortais, infligindo o efeito Irradiado, Envenenado e Peçonha Ácida  
 }
 
 NanoblackReaper: {
-	// DisplayName: Nanoblack Reaper
-	/* Tooltip:
+	DisplayName: Ceifador Nano-Negro
+	Tooltip:
 		'''
-		Unleashes a storm of nanoblack energy blades
-		Blades target bosses whenever possible
-		Stealth strikes cause the scythe to create a large amount of homing afterimages instead of energy blades
-		'She smothered them in Her hatred'
-		''' */
+		Libera uma tempestade de lâminas de energia nano-negras
+		As lâminas focam em chefes sempre que possível
+		Golpes furtivos fazem a foice criar uma grande quantidade de imagens residuais teleguiadas em vez de lâminas de energia
+		'Ela os sufocou em seu ódio'
+		'''
 }
 
 NastyCholla: {
