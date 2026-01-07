@@ -471,7 +471,7 @@ GhoulishGouger: {
 	Tooltip:
 		'''
 		Lança conjuntos de quatro foices macabras em altíssima velocidade
-		Golpes furtivos invocam uma horda de almas atormentadas ao antigir o alvo
+		Golpes furtivos invocam uma horda de almas atormentadas ao atingir o alvo
 		'''
 }
 
@@ -520,7 +520,7 @@ GraveGrimreaver: {
 	Tooltip:
 		'''
 		Arremessa uma foice amaldiçoada que persegue o alvo
-		A foice invoca caveiras enquanto voa e, ao antigir o alvo, explode gerando morcegos
+		A foice invoca caveiras enquanto voa e, ao atingir o alvo, explode gerando morcegos
 		Golpes furtivos geram uma enxurrada de morcegos e uma chuva de caveiras quando a foice é destruída 
 		Inflige chamas amaldiçoadas e confusão
 		'A arma de escolha de um esqueleto elegante'
@@ -769,7 +769,7 @@ Mycoroot: {
 
 MythrilKnife: {
 	DisplayName: Faca de Mithril
-	Tooltip: Golpes furtivos revestem as facas em toxinas mortais, infligindo o efeito Irradiado, Envenenado e Peçonha Ácida  
+	Tooltip: Golpes furtivos revestem as facas em toxinas mortais, infligindo o efeito Irradiado, Envenenado e Peçonha Ácida
 }
 
 NanoblackReaper: {
@@ -779,12 +779,12 @@ NanoblackReaper: {
 		Libera uma tempestade de lâminas de energia nano-negras
 		As lâminas focam em chefes sempre que possível
 		Golpes furtivos fazem a foice criar uma grande quantidade de imagens residuais teleguiadas em vez de lâminas de energia
-		'Ela os sufocou em seu ódio'
+		'Ela os sufocou em Seu ódio'
 		'''
 }
 
 NastyCholla: {
-	DisplayName: Bola de Cacto Desagradável
+	DisplayName: Bola de Cacto Traiçoeira
 	Tooltip:
 		'''
 		Lança uma bola com espinhos que gruda em qualquer coisa
@@ -808,22 +808,22 @@ Nychthemeron: {
 	DisplayName: Nictêmero
 	Tooltip:
 		'''
-		Lança uma bola com espinhos que ignora a gravidade e invoca um par de esferas de luz e trevas que orbitam o jogador.
-		Assim que a bola com espinhos desaparecer, as esferas irão perseguir o alvo mais
+		Lança uma bola com espinhos que ignora a gravidade e invoca um par de esferas de luz e trevas que orbitam o jogador
+		Assim que a bola com espinhos desaparecer, as esferas irão perseguir o alvo mais próximo
 		Até 10 bolas com espinhos podem existir ao mesmo tempo
-		Golpes furtivos fazem todas as bolas com espinhos e esferas serem lançadas de uma vez 
+		Golpes furtivos fazem todas as bolas com espinhos e esferas serem lançadas de uma só vez
 		Pressione <right> para eliminar todas as bolas com espinhos existentes
 		'''
 }
 
 OrichalcumSpikedGemstone: {
 	DisplayName: Joia de Oricalco Espinhosa
-	Tooltip: Golpes furtivos aumentam o tempo de duração e invocam pétalas ao antigir os inimigos
+	Tooltip: Golpes furtivos aumentam o tempo de duração e invocam pétalas ao atingir o inimigo
 }
 
 PalladiumJavelin: {
 	DisplayName: Lança de Paládio
-	Tooltip: Golpes furtivos a divide em mais lanças e aumentam a regeneração de vida ao antigir o alvo
+	Tooltip: Golpes furtivos dividem a lança em várias e aumentam a regeneração de vida ao atingir o alvo
 }
 
 Penumbra: {
@@ -839,7 +839,7 @@ PhantasmalRuin: {
 	DisplayName: Ruína Fantasmagórica
 	Tooltip:
 		'''
-		Atira uma grande lança fantasma que explode em espíritos ao atingir os inimigos
+		Atira uma grande lança fantasma que explode em espíritos ao atingir o inimigo
 		Golpes furtivos permitem perfurar os inimigos duas vezes e invocam muitos espíritos das profundezas no primeiro acerto
 		'''
 }
@@ -1202,7 +1202,7 @@ TerrorTalons: {
 }
 
 TheAtomSplitter: {
-  DisplayName: O Separador de Átomos
+	DisplayName: O Separador de Átomos
 	/* Tooltip:
 		'''
 		Throws a quantum-superimposed javelin that strikes from numerous timelines at once
