@@ -260,7 +260,7 @@ DeepSeaDumbbell: {
 	Tooltip:
 		'''
 		Lança um halter que ricocheteia e arremessa pesos com cada ricochete
-		Pressione <right> para fazer flexões, aumentando o dano do seu próximo ataque em até 5 vezes
+		Pressione o <right> para fazer flexões, aumentando o dano do seu próximo ataque em até 5 vezes
 		Flexões podem atingir diretamente os inimigos
 		'''
 }
@@ -511,7 +511,7 @@ GodsParanoia: {
 		Arremessa até 10 bolas com espinhos velozes e teleguiadas
 		As bolas grudam nos inimigos e invocam uma tempestade de kunais caça-deuses no local
 		Golpes furtivos deixam as bolas mais rápidas e as fazem invocar kunais com maior frequência
-		Pressione <right> para eliminar todas as bolas com espinhos existentes
+		Pressione o <right> para eliminar todas as bolas com espinhos existentes
 		'''
 }
 
@@ -553,7 +553,7 @@ HellsSun: {
 		Arremesa até 10 bolas com espinhos que desafiam a gravidade
 		Quando estão parados, emitem pequenos sóis periodicamente que explodem ao atingir o alvo
 		Golpes furtivos emitem sóis a uma taxa mais rápida e duram mais tempo
-		Pressione <right> para eliminar todas as bolas com espinhos
+		Pressione o <right> para eliminar todas as bolas com espinhos
 		'O Sol Subterrâneo na palma da sua mão'
 		'''
 }
@@ -660,7 +660,7 @@ LeonidProgenitor: {
 	Tooltip:
 		'''
 		Lança um casco-bomba que explode, invocando um meteoro que impacta o local
-		Pressione <right> para lançar uma série de cometas afetados pela gravidade que explodem, deixando para trás uma estrela
+		Pressione o <right> para lançar uma série de cometas afetados pela gravidade que explodem, deixando para trás uma estrela
 		Golpes furtivos lançam um casco-bomba que também se divide em cometas ao atingir o alvo
 		'''
 }
@@ -709,7 +709,7 @@ Malachite: {
 	Tooltip:
 		'''
 		Lança um fluxo de kunais que grudam em inimigos e explodem
-		Pressione <right> para lançar uma kunai que perfura inimigos
+		Pressione o <right> para lançar uma kunai que perfura inimigos
 		Após perfurar um inimigo, a kunai causa uma explosão enorme no próximo inimigo atingido
 		Golpes furtivos lançam 3 kunais perseguidoras que grudam nos inimigos e explodem
 		'''
@@ -812,7 +812,7 @@ Nychthemeron: {
 		Assim que a bola com espinhos desaparecer, as esferas irão perseguir o alvo mais próximo
 		Até 10 bolas com espinhos podem existir ao mesmo tempo
 		Golpes furtivos fazem todas as bolas com espinhos e esferas serem lançadas de uma só vez
-		Pressione <right> para eliminar todas as bolas com espinhos existentes
+		Pressione o <right> para eliminar todas as bolas com espinhos existentes
 		'''
 }
 
@@ -859,7 +859,7 @@ PoisonPack: {
 		'''
 		Lança até 3 bolas com espinhos venenosas
 		Golpes furtivos fazem as bolas liberarem nuvens de esporos
-		Pressione <right> para eliminar todas as bolas com espinhos existentes
+		Pressione o <right> para eliminar todas as bolas com espinhos existentes
 		'''
 }
 
@@ -919,7 +919,7 @@ Sacrifice: {
 	Tooltip:
 		'''
 		Lança adagas sacrificiais que se cravam nos inimigos
-		Pressione <right> para fazer com que todas as adagas cravadas voem de volta para você e lhe deem vida
+		Pressione o <right> para fazer com que todas as adagas cravadas voem de volta para você e lhe deem vida
 		Adagas cravadas em inimigos liberam explosões de sangue ao longo do tempo
 		Golpes furtivos mantêm as adagas cravadas por mais tempo e potencializam o roubo de vida no retorno
 		'''
@@ -999,378 +999,378 @@ SeafoamBomb: {
 }
 
 SealedSingularity: {
-	// DisplayName: Sealed Singularity
-	/* Tooltip:
+	DisplayName: Singularidade Selada
+	Tooltip:
 		'''
-		Shatters on impact, summoning a black hole that sucks in nearby enemies
-		Stealth strikes summon a black hole that lasts longer and sucks enemies with stronger force
-		''' */
+		Ao impacto, se estilhaça, invocando um buraco negro que suga os inimigos próximos
+		Golpes furtivos criam um buraco negro mais duradouro e que suga os inimigos com muito mais força
+		'''
 }
 
 Seraphim: {
-	// DisplayName: Seraphim
-	/* Tooltip:
+	DisplayName: Serafim
+	Tooltip:
 		'''
-		Throws an extraordinarily fast dagger which slows down exponentially and dissipates into light
-		Once dissipation has ended, 6 splitting blades that slice nearby targets are released, along with a large laserbeam
-		Stealth strikes release a volley of 7 lights which explode into smaller laser beams along with the dagger
-		''' */
+		Atira uma adaga extraordinariamente rápida que desacelera exponencialmente e se dissipa em luz
+		Assim que a dissipação terminar, 6 lâminas cortantes que fatiam alvos próximos são liberadas, juntamente com um grande feixe de laser
+		Golpes furtivos liberam uma saraivada de 7 luzes que explodem em feixes de laser menores, juntamente com a adaga
+		'''
 }
 
 ShardofAntumbra: {
-	// DisplayName: Shard of Antumbra
-	// Tooltip: Stealth strikes leave homing stars in their wake
+	DisplayName: Fragmento de Antumbra
+	Tooltip: Golpes furtivos deixam um rastro de estrelas teleguiadas
 }
 
 ShatteredSun: {
 	DisplayName: Sol Fraturado
-	/* Tooltip:
+	Tooltip:
 		'''
-		Throws daggers that split into scorching homing daggers
-		Stealth strikes fire volleys of homing daggers from the player on dagger hits that suck enemies in
-		''' */
+		Lança adagas que se dividem em adagas teleguiadas escaldantes
+		Golpes furtivos disparam rajadas de adagas teleguiadas do jogador ao acertar os inimigos com as adagas e sugam os inimigos para dentro delas
+		'''
 }
 
 ShinobiBlade: {
 	DisplayName: Lâmina de Shinobi
-	/* Tooltip:
+	Tooltip:
 		'''
-		Throws a fast blade that spawns healing orbs when it kills an enemy
-		Stealth strikes repeatedly stab the struck enemy from random directions
-		''' */
+		Lança uma lâmina rápida que invoca orbes de cura ao matar um inimigo
+		Golpes furtivos golpeiam repetidamente o inimigo atingido a partir de direções aleatórias
+		'''
 }
 
 ShockGrenade: {
 	DisplayName: Granada de Choque
-	/* Tooltip:
+	Tooltip:
 		'''
-		Throws a grenade that explodes into a burst of lightning
-		Stealth strikes cause the grenade to leave an electrifying aura when it explodes
-		''' */
+		Atira uma granada que explode em uma rajada de raios
+		Golpes furtivos fazem com que a granada deixa uma aura eletrizante ao explodir
+		'''
 }
 
 SkyfinBombers: {
-	// DisplayName: Skyfin Bombers
-	/* Tooltip:
+	DisplayName: Barbatana-do-Céu Bombardeira
+	Tooltip:
 		'''
-		Launches a skyfin nuke that homes in on enemies below it
-		Stealth strikes rapidly home in regardless of enemy position
-		'Fishy bombers inbound!'
-		''' */
+		Lança uma bomba nuclear de barbatana-do-céu que persegue inimigos abaixo dela
+		Golpes furtivos atingem o alvo rapidamente, independentemente da posição do inimigo
+		'Bombardeiros peixudos a caminho!'
+		'''
 }
 
 SkyStabber: {
-	// DisplayName: Sky Stabber
-	/* Tooltip:
+	DisplayName: Esfaqueador do Céu
+	Tooltip:
 		'''
-		Throws up to 4 gravity-defying spiky balls
-		Stealth strikes make the balls rain feathers onto enemies when they hit
-		Press <right> to delete all existing spiky balls
-		''' */
+		Lança até 4 bolas com espinhos que desafiam a gravidade
+		Golpes furtivos fazem as bolas lançarem uma chuva de penas sobre os inimigos ao atingi-los
+		Pressione o <right> para eliminar todas as bolas com espinhos existentes
+		'''
 }
 
 SlickCane: {
-	// DisplayName: Slick Cane
-	/* Tooltip:
+	DisplayName: Bengala Lisa
+	Tooltip:
 		'''
-		Swipes a cane that steals money from enemies
-		Stealth strikes gives a 1 in 20 chance for enemies to drop 1-3 gold coins when hit
-		Stealth strikes' damage increases in proportion to money in the inventory (up to 2 platinum)
-		'Economy at its finest'
-		''' */
+		Empunha uma bengala que rouba dinheiro dos inimigos
+		Golpes furtivos têm 1 em 20 de chance de fazer os inimigos deixarem cair entre 1 a 3 moedas de ouro ao serem atingidos
+		O dano do golpes furtivos aumenta proporcionalmente em relação ao número de dinheiro que jogador tem no inventário (com o máximo de até 2 platinas)
+		'Economia em sua melhor forma'
+		'''
 }
 
 SludgeSplotch: {
-	// DisplayName: Sludge Splotch
-	// Tooltip: Stealth strikes cause the main ball of sludge to split on hit, inflicting more damage
+	DisplayName: Lama Manchada
+	Tooltip: Golpes furtivos fazem a bola de lama principal se dividir ao atingir o inimigo, infligindo mais dano
 }
 
 SnapClam: {
-	// DisplayName: Snap Clam
-	/* Tooltip:
+	DisplayName: Amêijoa Preciosa
+	Tooltip:
 		'''
-		Can latch on enemies and deal damage over time
-		Stealth strikes throw five clams at once that cause increased damage over time
-		''' */
+		Pode agarrar-se aos inimigos e causar dano ao longo do tempo
+		Golpes furtivos lançam cinco amêijoas de uma vez só, causando dano cresente ao longo do tempo
+		'''
 }
 
 SpearofDestiny: {
 	DisplayName: Lança do Destino
-	/* Tooltip:
+	Tooltip:
 		'''
-		Cycles between throwing 3 small homing spears and throwing a single piercing lance
-		Stealth Strikes throw a high-velocity holy lance that explodes on hit
-		''' */
+		Alterna entre arremessar 3 pequenas lanças teleguiadas ou uma única lança perfurante
+		Golpes furtivos arremessam uma lança sagrada de alta velocidade que explode ao atingir o inimigo
+		'''
 }
 
 SpearofPaleolith: {
-	// DisplayName: Spear of Paleolith
-	/* Tooltip:
+	DisplayName: Lança do Paleolítico
+	Tooltip:
 		'''
-		Throws an ancient spear that shatters enemy armor
-		Spears rain fossil shards as they travel
-		Stealth strikes travel slower but further, raining more fossil shards
-		''' */
+		Arremessa uma lança antiga que estilhaça a armadura do inimigo
+		As lanças chovem fragmentos de fóssil enquanto viajam
+		Golpes furtivos viajam mais lentamente, porém mais longe, chovendo mais fragmentos de fóssil
+		'''
 }
 
 SpentFuelContainer: {
-	// DisplayName: Spent Fuel Container
-	/* Tooltip:
+	DisplayName: Contêniner de Combustível Radioativo
+	Tooltip:
 		'''
-		Throws a fuel container with trace amounts of plutonium that causes a nuclear explosion
-		The explosion does not occur if there are no tiles below it
-		Stealth strikes leave a lingering irradiated zone after the explosion dissipates
-		'War Never Changes'
-		''' */
+		Lança um contêiner de combustível com vestígios de plutônio que provoca uma explosão nuclear 
+		A explosão não ocorre se não houver peças abaixo dela
+		Golpes furtivos deixam uma resíduos de radiação em uma zona após a dissipação da explosão
+		'A Guerra Nunca Muda'
+		'''
 }
 
 StarofDestruction: {
 	DisplayName: Estrela da Destruição
-	/* Tooltip:
+	Tooltip:
 		'''
-		Fires a huge destructive mine that explodes into destruction bolts
-		Amount of bolts scales with enemies hit, up to 16
-		Stealth strikes always explode into the max amount of bolts
-		''' */
+		Atira uma grande mina destrutiva que explode em raios de destruição
+		A quantidade de raios aumenta em relação ao número de inimigos, podendo chegar até 16
+		Golpes furtivos sempre fazem a mina explodir com a quantidade de máxima de raios
+		'''
 }
 
 StellarKnife: {
-	// DisplayName: Stellar Knife
-	/* Tooltip:
+	DisplayName: Faca Estelar
+	Tooltip:
 		'''
-		Throws knives that stop middair and then home into enemies
-		Stealth strikes throw a volley of 10 knives in a spread
-		'ZA WARUDO'
-		''' */
+		Lança facas que param no ar e em seguida perseguem os inimigos
+		Golpes furtivos lançam uma rajada de 10 facas em uma formação circular
+		'O MUNDO!'
+		'''
 }
 
 StickySpikyBall: {
-	// DisplayName: Sticky Spiky Ball
-	/* Tooltip:
+	DisplayName: Bola com Espinhos Pegajosa
+	Tooltip:
 		'''
-		Throws a spiky ball that sticks to everything
-		Stealth strikes throw four at once and last a lot longer
-		''' */
+		Lança uma bola com espinhos que gruda em qualquer coisa
+		Golpes furtivos lançam quatro bolas de uma vez só e elas duram muito mais tempo
+		'''
 }
 
 StormfrontRazor: {
-	// DisplayName: Stormfront Razor
-	/* Tooltip:
+	DisplayName: Navalha Frente de Tempestade
+	Tooltip:
 		'''
-		Throws a knife that summons lightning on hit
-		Stealth strikes cause the knife to be faster and summon multiple lightning bolts on hit
-		[c/24C7F0:'Strike and stem the flow']
-		''' */
+		Lança uma faca que invoca raios ao atingir o inimigo
+		Golpes furtivos fazem a faca se tornar mais rápida e invocar múltiplos raios ao atingir o inimigo
+		[c/24C7F0:'Ataque e estanque o fluxo']
+		'''
 }
 
 SubductionSlicer: {
-	// DisplayName: Subduction Slicer
-	/* Tooltip:
+	DisplayName: Fatiador de Subducção
+	Tooltip:
 		'''
-		Throws a scythe that explodes on enemy hits
-		Stealth strikes also summon a pillar of fire on enemy hits
-		''' */
+		Lança uma foice que explode 
+		Golpes furtivos invocam uma coluna de fogo ao atingir os inimigos
+		'''
 }
 
 Supernova: {
 	DisplayName: Supernova
-	/* Tooltip:
+	Tooltip:
 		'''
-		Tosses a smart bomb that locks onto and tracks targets
-		If no target is found it will return to you
-		Each bomb creates a miniature supernova that drags in weak enemies and chases strong enemies
-		Stealth strikes create a blast that shakes the foundations of reality itself
-		''' */
+		Atira uma bomba que rastreia e trava nos alvos
+		Se nenhum alvo for encontrado ela retornará para você
+		Cada bomba cria uma supernova em miniatura que atrai inimigos fracos e persegue inimigos fortes 
+		Golpes furtivos criam uma explosão que abala os fundamentos da própria realidade
+		'''
 }
 
 TarragonThrowingDart: {
-	// DisplayName: Tarragon Throwing Dart
-	/* Tooltip:
+	DisplayName: Dardo Arremessável de Estragão
+	Tooltip:
 		'''
-		Fires a piercing dart with reduced immunity frames
-		Stealth strikes erupt into thorns on enemy hits
-		''' */
+		Atira um dardo perfurante que reduz os frames de invencibildade do inimigo
+		Golpes furtivos irrompem em espinhos ao atingir os inimigos
+		'''
 }
 
 TerrorTalons: {
-	// DisplayName: Terror Talons
-	/* Tooltip:
+	DisplayName: Garras do Terror
+	Tooltip:
 		'''
-		Fires small wavering claws
-		Stealth strikes launch a large, high speed claw which pierces
-		''' */
+		Atira pequenas garras trêmulas
+		Golpes furtivos lançam uma garra grande e de alta velocidade que perfura os inimigos
+		'''
 }
 
 TheAtomSplitter: {
 	DisplayName: O Separador de Átomos
-	/* Tooltip:
+	Tooltip:
 		'''
-		Throws a quantum-superimposed javelin that strikes from numerous timelines at once
-		Stealth strikes perform far more simultaneous strikes
-		''' */
+		Arremessa uma lança com superposição quântica que atinge o inimigo de múltiplas linhas temporais simultaneamente
+		Golpes furtivos performam ataques quase simulânteos
+		'''
 }
 
 TheFinalDawn: {
 	DisplayName: A Última Manhã
-	/* Tooltip:
+	Tooltip:
 		'''
-		Attack enemies with a giant scythe swing to replenish stealth
-		Press up and attack to throw the scythe 
-		Stealth strikes perform a horizontal swing that leaves a lingering fire aura
-		Stealth strikes performed while pressing up fling yourself at the enemy and slice through them, causing homing fireballs to emerge
-		'We shall ride into the sunrise once more'
-		''' */
+		Ataque inimigos com uma foice gigante para recuperar o modo furtivo
+		Pressione para cima e ataque para arremessar uma foice 
+		Golpes furtivos performam um golpe horizontal que deixa uma aura de fogo resiliente
+		Golpes furtivos peformados ao pressionar para cima lançam você contra o inimigo e o faz atravessar eles, fazendo surgir bolas de fogo teleguiadas
+		'Cavalgaremos rumo ao nascer do sol mais uma vez'
+		'''
 }
 
 TheOldReaper: {
-	// DisplayName: The Old Reaper
-	/* Tooltip:
+	DisplayName: O Velho Ceifador
+	Tooltip:
 		'''
-		Throws a homing reaper scythe that shreds enemies
-		Stealth strikes throw three at once
-		'Slice 'n dice'
-		''' */
+		Lança uma foice ceifeira teleguiada que dilacera os inimigos 
+		Golpes furtivos lançam três de uma vez só
+		'Corte rápido, é tramontina'
+		'''
 }
 
 TheSyringe: {
-	// DisplayName: The Syringe
-	/* Tooltip:
+	DisplayName: A Seringa
+	Tooltip:
 		'''
-		Throws a high velocity syringe that increases damage as it travels
-		Shatters into glass and plague cinders on impact
-		Stealth strikes also shatter into plague bees
-		'I'm pretty sure this isn't healthy'
-		''' */
+		Lança uma seringa de alta velocidade que aumenta o dano conforme viaja
+		Ao impacto, se estilhaça em vidro e cinzas da praga
+		Golpes furtivos também se fragmentam em abelhas da praga
+		'Tenho quase certeza de que isso não é saudável'
+		'''
 }
 
 ThrowingBrick: {
-	// DisplayName: Throwing Brick
-	/* Tooltip:
+	DisplayName: Tijolo Arremessável
+	Tooltip:
 		'''
-		Prove its resistance by throwing it upwards and catching it with your face
-		Throws a brick that shatters if stealth is full
-		''' */
+		Prove sua resistência jogando-o para cima e pegando-o com o seu rosto
+		Arremessa um tijolo que se estilhaça se a barra de furtividade estiver cheia
+		'''
 }
 
 TimeBolt: {
-	// DisplayName: Time Bolt
-	/* Tooltip:
+	DisplayName: Raio do Tempo
+	Tooltip:
 		'''
-		Throws a temporal knife that distorts time around enemies
-		Stealth strikes can hit more enemies and create a larger time field
-		'There should be no boundary to human endeavor'
-		''' */
+		Lança uma faca temporal que distorce o tempo ao redor dos inimigos
+		Golpes furtivos podem atingir mais inimigos e criar um campo temporal maior
+		'Não deve haver limites para o esforço humano'
+		'''
 }
 
 TitaniumShuriken: {
-	// DisplayName: Titanium Shuriken
-	// Tooltip: Stealth strikes act like a boomerang that spawns clones on enemy hits
+	DisplayName: Shuriken de Titânio
+	Tooltip: Golpes furtivos funcionam como um bumerangue que invoca clones ao atingir os inimigos
 }
 
 ToothBall: {
-	// DisplayName: Tooth Ball
-	// Tooltip: Stealth strikes spawn rain clouds on enemy hits
+	DisplayName: Bola de Dente
+	Tooltip: Golpes furtivos invocam nuvens de chuva ao atingir os inimigos
 }
 
 TotalityBreakers: {
-	// DisplayName: Totality Breakers
-	/* Tooltip:
+	DisplayName: Quebrador de Totalidade
+	Tooltip:
 		'''
-		Explodes into highly flammable black tar
-		Black tar oils enemies and sets them alight
-		Stealth strikes leak black tar as they fly
-		'I need a bigger breaker'
-		''' */
+		Explode em um alcatrão preto altamente inflamável
+		O alcatrão preto cobre os inimigos de óleo e os incendeia
+		Golpes furtivos liberam o alcatrão preto durante o voo
+		'Preciso de um disjuntor maior'
+		'''
 }
 
 ToxicantTwister: {
-	// DisplayName: Toxicant Twister
-	/* Tooltip:
+	DisplayName: Tornado Tóxico
+	Tooltip:
 		'''
-		Throws a slow moving boomerang
-		After a few moments, the boomerang chooses a target and rapidly homes in
-		Stealth strikes home in faster and rapidly release sand
-		''' */
+		Lança um bumerangue que se movimenta lentamente 
+		Após alguns instantes, o bumerangue escolhe um alvo e o persegue rapidamente
+		Golpes furtivos o fazem perseguir mais rápido e liberar uma areia veloz
+		'''
 }
 
 Turbulance: {
-	// DisplayName: Turbulance
-	/* Tooltip:
+	DisplayName: Turbulência
+	Tooltip:
 		'''
-		Fires a cloudy javelin that bursts into wind slashes on hit
-		Wind slashes home if the javelin crits
-		Stealth strikes are trailed by homing wind slashes
-		''' */
+		Atira uma lança nebulosa que explode em cortes de vento ao atingir o inimigo
+		Os cortes de vento perseguem o inimigo se a lança causar um acerto crítico 
+		Golpes furtivos são seguidos por rajadas de cortes de vento teleguiados
+		'''
 }
 
 TwistingThunder: {
-	// DisplayName: Twisting Thunder
-	/* Tooltip:
+	DisplayName: Trovão Retorcido
+	Tooltip:
 		'''
-		Fires a lightning bolt to electrocute enemies
-		The lightning bolt travels faster while it is raining
-		Summons lightning from the sky on impact
-		Stealth strikes summon more lightning and travel faster
-		''' */
+		Atira um raio que eletrocuta os inimigos
+		O raio viaja mais rápido quando está chovendo
+		Invoca raios do céu ao impacto
+		Golpes furtivos invocam mais raios e eles viajam mais rápido
+		'''
 }
 
 UrchinStinger: {
-	// DisplayName: Urchin Stinger
-	// Tooltip: Stealth strikes stick to enemies while releasing sulphuric bubbles
+	DisplayName: Ferrão de Ouriço
+	Tooltip: Golpes furtivos grudam nos inimigos e enquanto estão grudados liberam bolhas sulfúricas
 }
 
 UtensilPoker: {
-	// DisplayName: Utensil Poker
-	/* Tooltip:
+	DisplayName: Utensílios de Pôquer
+	Tooltip:
 		'''
-		Fires utensils in bursts of three
-		Stealth strikes replace any utensil with a powerful butcher knife
-		'Space chickens, that is all'
-		''' */
+		Atira uma rajada de três utensílios
+		Golpes furtivos substituem quaisquer utensílios por uma faca de açougueiro poderosa
+		'Galinhas espaciais, isso é tudo'
+		'''
 }
 
 Valediction: {
-	// DisplayName: Valediction
-	/* Tooltip:
+	DisplayName: Despedida
+	Tooltip:
 		'''
-		Throws a homing reaper scythe
-		Stealth strikes spawn razorblade typhoons on enemy hits
-		''' */
+		Lança uma foice ceifeira teleguiada
+		Golpes furtivos invocam tufões-navalha ao atingirem os inimigos
+		'''
 }
 
 WaveSkipper: {
-	// DisplayName: Wave Skipper
-	/* Tooltip:
+	DisplayName: Onda Saltitante
+	Tooltip:
 		'''
-		Throws a spear that bounces a lot
-		Stealth strikes throw three high speed spears
-		''' */
+		Arremessa uma lança que pula muito
+		Golpes furtivos arremessam três lanças em alta velocidade
+		'''
 }
 
 WebBall: {
-	// DisplayName: Web Ball
-	/* Tooltip:
+	DisplayName: Bola de Teia
+	Tooltip:
 		'''
-		Throws a web-covered ball that covers enemies in cobwebs to slow them down
-		Stealth strikes slow enemies down longer
-		''' */
+		Lança uma bola coberta de teia que envolve os inimigos em teia de aranha para deixá-los mais lentos
+		Golpes furtivos retardam os inimigos por mais tempo
+		'''
 }
 
 Wrathwing: {
-	// DisplayName: Wrathwing
-	/* Tooltip:
+	DisplayName: Asa-Ira
+	Tooltip:
 		'''
-		Throws an agile, homing winged spear that constantly spits fire
-		Stealth strikes create an eruption of cinders on hit
-		''' */
+		Arremessa uma lança alada ágil e teleguiada que cospe fogo constantemente
+		Golpes furtivos criam uma erupção de brasas atingir o inimigo
+		'''
 }
 
 WulfrumKnife: {
-	// DisplayName: Wulfrum Knife
-	/* Tooltip:
+	DisplayName: Faca de Vulfrúmio
+	Tooltip:
 		'''
-		Fires wulfrum knives in bursts of 3
-		Stealth strikes make the knife fly further and hit several times at once
-		Hold <right> to magnetize all nearby fallen knives back to you
-		''' */
+		Atira uma rajada de 3 facas de vulfrúmio
+		Golpes furtivos fazem a faca voar mais longe e atingir o inimigo várias vezes ao mesmo tempo
+		Segure o <right> para magnetizar e trazer todas as facas caídas próximas para você
+		'''
 }
