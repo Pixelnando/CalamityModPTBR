@@ -877,7 +877,7 @@ ProfanedPartisan: {
 	Tooltip:
 		'''
 		Atira uma lança profana que explode ao atingir o inimigo
-		Golpes furtivos invocam pequenas lanças que voam junto dela
+		Golpes furtivos invocam pequenas lanças que seguem a original
 		'''
 }
 
@@ -886,7 +886,7 @@ RadiantStar: {
 	Tooltip:
 		'''
 		Lança agadas que explodem e se dividem depois de um tempo
-		O golpe furtivo as divide mais ainda e causa uma explosão devastadora que suga os inimigos
+		Golpes furtivos amplificam a divisão e provocam uma explosão devastadora que suga os inimigos
 		'''
 }
 
@@ -895,8 +895,8 @@ RefractionRotor: {
 	Tooltip:
 		'''
 		Atira um grande disco-shuriken prismático
-		A shuriken se estilhaça momentos após o impacto, tornando-se foguetes teleguiados
-		Golpes furtivos a estilhaçam em muitos outros mísseis
+		A shuriken se estilhaça após o impacto em foguetes teleguiados
+		Golpes furtivos geram um número muito maior de foguetes
 		'''
 }
 
@@ -905,7 +905,7 @@ RegulusRiot: {
 	Tooltip:
 		'''
 		Atira um disco teleguiado veloz
-		Golpes furtivos o fazem explodir em estrelas de energia
+		Golpes furtivos fazem o disco explodir em estrelas de energia
 		'''
 }
 
@@ -921,7 +921,7 @@ Sacrifice: {
 		Lança adagas sacrificiais que se cravam nos inimigos
 		Pressione <right> para fazer com que todas as adagas cravadas voem de volta para você e lhe deem vida
 		Adagas cravadas em inimigos liberam explosões de sangue ao longo do tempo
-		Golpes furtivos as deixam cravadas por mais tempo e concedem muito mais vida ao retornarem para você
+		Golpes furtivos mantêm as adagas cravadas por mais tempo e potencializam o roubo de vida no retorno
 		'''
 }
 
@@ -930,7 +930,7 @@ SamsaraSlicer: {
 	Tooltip:
 		'''
 		Lança um disco que tem uma chance de gerar vários outros discos se houver inimigos por perto
-		Golpes furtivos o fazem viajar mais lentamente e é orbitado pelos discos menores bem rápido
+		Golpes furtivos fazem o disco viajar mais lentamente e ser rapidamente orbitado pelos discos menores
 		'''
 }
 
@@ -960,7 +960,7 @@ ScarletDevil: {
 		Arremessa uma lança ultra veloz, que cria mais projéteis teleguiados
 		A lança cria uma Explosão Escarlate ao atingir um inimigo
 		Golpes furtivos concedem a você roubo de vida e invocam uma estrela de projéteis ao atingir um inimigo 
-		'Lança Divina "Gungnir a Lança"'
+		'Lança Divina "Perfuração de Gungnir"'
 		'''
 }
 
@@ -968,7 +968,7 @@ ScourgeoftheDesert: {
 	DisplayName: Flagelo Desértico
 	Tooltip:
 		'''
-		Arremessa uma lança que irá perfurar o solo e lançar-se contra os inimigos
+		Arremessa uma lança que irá perfurar o solo e se lançar contra os inimigos
 		Golpes furtivos arremessam três lanças que perfurarão múltiplas vezes
 		'''
 }
