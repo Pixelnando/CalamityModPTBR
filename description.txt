@@ -1,11 +1,14 @@
 ﻿"Calamity Mod [c/00923f:P][c/f8c301:T][c/2a1770:-][c/f8c301:B][c/00923f:R] Translation"
 é um mod que fornece uma tradução não-oficial do Calamity Mod para o Português brasileiro.
 
-[i:75] Tradução feita por [c/8df0f3:Pixelnando].
+[i:75] Tradução feita por [c/8df0f3:Pixelnando], com a ajuda de [c/b81b0a:PedroX] e [c/4a486f:esdraslov].
 [i:149] Lore e entradas no bestiário traduzidas por [c/6f3fea:StipulateVenus].
 
 [g:5] Nota: Não sou afiliado com os desenvolvedores do Calamity Mod.
 __________________________
+
+v2026.01.10
+- Armas ladinas traduzidas
 
 v2025.08.31
 - Nova configuração para exibir o nome interno do item em parênteses junto do nome original. Por exemplo: Punho da Lua de Warlok (WarloksMoonFist). Isso ajudará aqueles que desejam buscar itens no wiki do Calamity.

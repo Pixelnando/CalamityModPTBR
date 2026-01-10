@@ -158,7 +158,7 @@ Celestus: {
 
 Cinquedea: {
 	DisplayName: Cinquedea
-	Tooltip: Golpes furtivos tornam-se teleguiados após atingir um inimigo
+	Tooltip: Golpes furtivos se tornam teleguiados após atingir um inimigo
 }
 
 CobaltKunai: {
@@ -232,7 +232,7 @@ Crystalline: {
 	DisplayName: Cristalina
 	Tooltip:
 		'''
-		Divide-se em vários projéteis conforme viaja
+		Se divide em vários projéteis conforme viaja
 		Golpes furtivos fazem a lâmina se dividir mais e criar cristais ao ser destruída
 		'''
 }
@@ -320,7 +320,7 @@ DynamicPursuer: {
 		Lança um disco processador de cálculos que atira eletricidade nos inimigos
 		Golpes furtivos permitem que o disco ricocheteie em outros alvos, atire lasers e solte uma explosão
 		Se o disco não encontrar um novo alvo ao ricochetear, ele continuará a perseguir o alvo original
-		''' 
+		'''
 }
 
 EclipsesFall: {
@@ -330,7 +330,7 @@ EclipsesFall: {
 		Invoca lanças do céu ao atingir o inimigo
 		Golpes furtivos empalam inimigos e invocam uma saraivada constante de lanças ao longo do tempo
 		'Quando o sol escurecer, você conhecerá o jugalmento'
-		''' 
+		'''
 }
 
 ElementalDisk: {
@@ -404,7 +404,7 @@ FantasyTalisman: {
 	Tooltip:
 		'''
 		Atira talismãs de alta velocidade que ignoram a gravidade
-		Os talismãs prendem-se aos inimigos, fazendo com que libertem almas perdidas
+		Os talismãs se prendem nos inimigos, fazendo com que libertem almas perdidas
 		Golpes furtivos libertam mais almas e deixam almas para trás enquanto viajam
 		'''
 }
@@ -540,7 +540,7 @@ HeavenfallenStardisk: {
 	DisplayName: Disco Estelar Caído do Céu
 	Tooltip:
 		'''
-		Arremessa um disco estelar pra cima que depois lança-se em direção ao cursor do mouse
+		Arremessa um disco estelar pra cima que depois se lança em direção ao cursor do mouse
 		Explode em uma estrela de raios astrais ao atingir o alvo
 		Golpes furtivos arremessam três discos que disparam raios de energia astral do céu
 		'''
@@ -1257,7 +1257,7 @@ TimeBolt: {
 	Tooltip:
 		'''
 		Lança uma faca temporal que distorce o tempo ao redor dos inimigos
-		Golpes furtivos podem atingir mais inimigos e criar um campo temporal maior
+		Golpes furtivos podem atingir mais inimigos e criam um campo temporal maior
 		'Não deve haver limites para o esforço humano'
 		'''
 }
