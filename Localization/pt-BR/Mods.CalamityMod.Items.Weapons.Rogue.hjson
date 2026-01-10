@@ -260,7 +260,7 @@ DeepSeaDumbbell: {
 	Tooltip:
 		'''
 		Lança um halter que ricocheteia e arremessa pesos com cada ricochete
-		Pressione o <right> para fazer flexões, aumentando o dano do seu próximo ataque em até 5 vezes
+		Pressione <right> para fazer flexões, aumentando o dano do seu próximo ataque em até 5 vezes
 		Flexões podem atingir diretamente os inimigos
 		'''
 }
@@ -511,7 +511,7 @@ GodsParanoia: {
 		Arremessa até 10 bolas com espinhos velozes e teleguiadas
 		As bolas grudam nos inimigos e invocam uma tempestade de kunais caça-deuses no local
 		Golpes furtivos deixam as bolas mais rápidas e as fazem invocar kunais com maior frequência
-		Pressione o <right> para eliminar todas as bolas com espinhos existentes
+		Pressione <right> para eliminar todas as bolas com espinhos existentes
 		'''
 }
 
@@ -553,7 +553,7 @@ HellsSun: {
 		Arremesa até 10 bolas com espinhos que desafiam a gravidade
 		Quando estão parados, emitem pequenos sóis periodicamente que explodem ao atingir o alvo
 		Golpes furtivos emitem sóis a uma taxa mais rápida e duram mais tempo
-		Pressione o <right> para eliminar todas as bolas com espinhos
+		Pressione <right> para eliminar todas as bolas com espinhos
 		'O Sol Subterrâneo na palma da sua mão'
 		'''
 }
@@ -660,7 +660,7 @@ LeonidProgenitor: {
 	Tooltip:
 		'''
 		Lança um casco-bomba que explode, invocando um meteoro que impacta o local
-		Pressione o <right> para lançar uma série de cometas afetados pela gravidade que explodem, deixando para trás uma estrela
+		Pressione <right> para lançar uma série de cometas afetados pela gravidade que explodem, deixando para trás uma estrela
 		Golpes furtivos lançam um casco-bomba que também se divide em cometas ao atingir o alvo
 		'''
 }
@@ -709,7 +709,7 @@ Malachite: {
 	Tooltip:
 		'''
 		Lança um fluxo de kunais que grudam em inimigos e explodem
-		Pressione o <right> para lançar uma kunai que perfura inimigos
+		Pressione <right> para lançar uma kunai que perfura inimigos
 		Após perfurar um inimigo, a kunai causa uma explosão enorme no próximo inimigo atingido
 		Golpes furtivos lançam 3 kunais perseguidoras que grudam nos inimigos e explodem
 		'''
@@ -812,7 +812,7 @@ Nychthemeron: {
 		Assim que a bola com espinhos desaparecer, as esferas irão perseguir o alvo mais próximo
 		Até 10 bolas com espinhos podem existir ao mesmo tempo
 		Golpes furtivos fazem todas as bolas com espinhos e esferas serem lançadas de uma só vez
-		Pressione o <right> para eliminar todas as bolas com espinhos existentes
+		Pressione <right> para eliminar todas as bolas com espinhos existentes
 		'''
 }
 
@@ -859,7 +859,7 @@ PoisonPack: {
 		'''
 		Lança até 3 bolas com espinhos venenosas
 		Golpes furtivos fazem as bolas liberarem nuvens de esporos
-		Pressione o <right> para eliminar todas as bolas com espinhos existentes
+		Pressione <right> para eliminar todas as bolas com espinhos existentes
 		'''
 }
 
@@ -919,7 +919,7 @@ Sacrifice: {
 	Tooltip:
 		'''
 		Lança adagas sacrificiais que se cravam nos inimigos
-		Pressione o <right> para fazer com que todas as adagas cravadas voem de volta para você e lhe deem vida
+		Pressione <right> para fazer com que todas as adagas cravadas voem de volta para você e lhe deem vida
 		Adagas cravadas em inimigos liberam explosões de sangue ao longo do tempo
 		Golpes furtivos mantêm as adagas cravadas por mais tempo e potencializam o roubo de vida no retorno
 		'''
@@ -1002,7 +1002,7 @@ SealedSingularity: {
 	DisplayName: Singularidade Selada
 	Tooltip:
 		'''
-		Ao impacto, se estilhaça, invocando um buraco negro que suga os inimigos próximos
+		No impacto, se estilhaça, invocando um buraco negro que suga os inimigos próximos
 		Golpes furtivos criam um buraco negro mais duradouro e que suga os inimigos com muito mais força
 		'''
 }
@@ -1045,7 +1045,7 @@ ShockGrenade: {
 	Tooltip:
 		'''
 		Atira uma granada que explode em uma rajada de raios
-		Golpes furtivos fazem com que a granada deixa uma aura eletrizante ao explodir
+		Golpes furtivos fazem com que a granada deixe uma aura eletrizante ao explodir
 		'''
 }
 
@@ -1060,12 +1060,12 @@ SkyfinBombers: {
 }
 
 SkyStabber: {
-	DisplayName: Esfaqueador do Céu
+	DisplayName: Esfaqueador dos Céus
 	Tooltip:
 		'''
 		Lança até 4 bolas com espinhos que desafiam a gravidade
-		Golpes furtivos fazem as bolas lançarem uma chuva de penas sobre os inimigos ao atingi-los
-		Pressione o <right> para eliminar todas as bolas com espinhos existentes
+		Golpes furtivos fazem as bolas lançarem uma chuva de penas sobre os inimigos ao atingí-los
+		Pressione <right> para eliminar todas as bolas com espinhos existentes
 		'''
 }
 
@@ -1074,8 +1074,8 @@ SlickCane: {
 	Tooltip:
 		'''
 		Empunha uma bengala que rouba dinheiro dos inimigos
-		Golpes furtivos têm 1 em 20 de chance de fazer os inimigos deixarem cair entre 1 a 3 moedas de ouro ao serem atingidos
-		O dano do golpes furtivos aumenta proporcionalmente em relação ao número de dinheiro que jogador tem no inventário (com o máximo de até 2 platinas)
+		Golpes furtivos têm 5% de chance de fazer inimigos deixarem cair de 1 a 3 moedas de ouro ao serem atingidos
+		O dano dos golpes furtivos escala com a quantidade de dinheiro no inventário (até 2 platinas)
 		'Economia em sua melhor forma'
 		'''
 }
@@ -1086,11 +1086,11 @@ SludgeSplotch: {
 }
 
 SnapClam: {
-	DisplayName: Amêijoa Preciosa
+	DisplayName: Amêijoa-Mordedora
 	Tooltip:
 		'''
-		Pode agarrar-se aos inimigos e causar dano ao longo do tempo
-		Golpes furtivos lançam cinco amêijoas de uma vez só, causando dano cresente ao longo do tempo
+		Pode se agarrar aos inimigos e causar dano ao longo do tempo
+		Golpes furtivos lançam cinco amêijoas de uma só vez, causando dano cresente ao longo do tempo
 		'''
 }
 
@@ -1108,18 +1108,18 @@ SpearofPaleolith: {
 	Tooltip:
 		'''
 		Arremessa uma lança antiga que estilhaça a armadura do inimigo
-		As lanças chovem fragmentos de fóssil enquanto viajam
-		Golpes furtivos viajam mais lentamente, porém mais longe, chovendo mais fragmentos de fóssil
+		As lanças fazem chover fragmentos de fóssil enquanto viajam
+		Golpes furtivos viajam mais lentamente, porém mais longe, criando mais fragmentos de fóssil
 		'''
 }
 
 SpentFuelContainer: {
-	DisplayName: Contêniner de Combustível Radioativo
+	DisplayName: Recipiente de Combustível Radioativo
 	Tooltip:
 		'''
-		Lança um contêiner de combustível com vestígios de plutônio que provoca uma explosão nuclear 
+		Lança um recipiente de combustível com vestígios de plutônio que provoca uma explosão nuclear 
 		A explosão não ocorre se não houver peças abaixo dela
-		Golpes furtivos deixam uma resíduos de radiação em uma zona após a dissipação da explosão
+		Golpes furtivos deixam resíduos de radiação em uma zona após a dissipação da explosão
 		'A Guerra Nunca Muda'
 		'''
 }
@@ -1130,7 +1130,7 @@ StarofDestruction: {
 		'''
 		Atira uma grande mina destrutiva que explode em raios de destruição
 		A quantidade de raios aumenta em relação ao número de inimigos, podendo chegar até 16
-		Golpes furtivos sempre fazem a mina explodir com a quantidade de máxima de raios
+		Golpes furtivos fazem a mina sempre explodir com a quantidade de máxima de raios
 		'''
 }
 
@@ -1149,7 +1149,7 @@ StickySpikyBall: {
 	Tooltip:
 		'''
 		Lança uma bola com espinhos que gruda em qualquer coisa
-		Golpes furtivos lançam quatro bolas de uma vez só e elas duram muito mais tempo
+		Golpes furtivos lançam quatro bolas de uma só vez e elas duram muito mais tempo
 		'''
 }
 
@@ -1158,7 +1158,7 @@ StormfrontRazor: {
 	Tooltip:
 		'''
 		Lança uma faca que invoca raios ao atingir o inimigo
-		Golpes furtivos fazem a faca se tornar mais rápida e invocar múltiplos raios ao atingir o inimigo
+		Golpes furtivos tornam a faca mais rápida e a fazem invocar múltiplos raios ao atingir o inimigo
 		[c/24C7F0:'Ataque e estanque o fluxo']
 		'''
 }
@@ -1177,7 +1177,7 @@ Supernova: {
 	Tooltip:
 		'''
 		Atira uma bomba que rastreia e trava nos alvos
-		Se nenhum alvo for encontrado ela retornará para você
+		Se nenhum alvo for encontrado, ela retornará para você
 		Cada bomba cria uma supernova em miniatura que atrai inimigos fracos e persegue inimigos fortes 
 		Golpes furtivos criam uma explosão que abala os fundamentos da própria realidade
 		'''
@@ -1187,7 +1187,7 @@ TarragonThrowingDart: {
 	DisplayName: Dardo Arremessável de Estragão
 	Tooltip:
 		'''
-		Atira um dardo perfurante que reduz os frames de invencibildade do inimigo
+		Atira um dardo perfurante que reduz os quadros de invencibilidade do inimigo
 		Golpes furtivos irrompem em espinhos ao atingir os inimigos
 		'''
 }
@@ -1205,8 +1205,8 @@ TheAtomSplitter: {
 	DisplayName: O Separador de Átomos
 	Tooltip:
 		'''
-		Arremessa uma lança com superposição quântica que atinge o inimigo de múltiplas linhas temporais simultaneamente
-		Golpes furtivos performam ataques quase simulânteos
+		Arremessa uma lança com superposição quântica que atinge o inimigo de múltiplas linhas temporais ao mesmo tempo
+		Golpes furtivos executam ataques quase simultâneos
 		'''
 }
 
@@ -1216,8 +1216,8 @@ TheFinalDawn: {
 		'''
 		Ataque inimigos com uma foice gigante para recuperar o modo furtivo
 		Pressione para cima e ataque para arremessar uma foice 
-		Golpes furtivos performam um golpe horizontal que deixa uma aura de fogo resiliente
-		Golpes furtivos peformados ao pressionar para cima lançam você contra o inimigo e o faz atravessar eles, fazendo surgir bolas de fogo teleguiadas
+		Golpes furtivos executam um golpe horizontal que deixa uma aura de fogo resiliente
+		Golpes furtivos executados ao pressionar para cima lançam você contra o inimigo e o atravessam, fazendo surgir bolas de fogo teleguiadas
 		'Cavalgaremos rumo ao nascer do sol mais uma vez'
 		'''
 }
@@ -1227,7 +1227,7 @@ TheOldReaper: {
 	Tooltip:
 		'''
 		Lança uma foice ceifeira teleguiada que dilacera os inimigos 
-		Golpes furtivos lançam três de uma vez só
+		Golpes furtivos lançam três de uma só vez
 		'Corte rápido, é tramontina'
 		'''
 }
@@ -1237,7 +1237,7 @@ TheSyringe: {
 	Tooltip:
 		'''
 		Lança uma seringa de alta velocidade que aumenta o dano conforme viaja
-		Ao impacto, se estilhaça em vidro e cinzas da praga
+		No impacto, se estilhaça em vidro e cinzas da praga
 		Golpes furtivos também se fragmentam em abelhas da praga
 		'Tenho quase certeza de que isso não é saudável'
 		'''
@@ -1247,8 +1247,8 @@ ThrowingBrick: {
 	DisplayName: Tijolo Arremessável
 	Tooltip:
 		'''
-		Prove sua resistência jogando-o para cima e pegando-o com o seu rosto
 		Arremessa um tijolo que se estilhaça se a barra de furtividade estiver cheia
+		'Prove sua resistência jogando-o para cima e pegando-o com a sua cara'
 		'''
 }
 
@@ -1273,13 +1273,13 @@ ToothBall: {
 }
 
 TotalityBreakers: {
-	DisplayName: Quebrador de Totalidade
+	DisplayName: Destruidores de Totalidade
 	Tooltip:
 		'''
 		Explode em um alcatrão preto altamente inflamável
 		O alcatrão preto cobre os inimigos de óleo e os incendeia
 		Golpes furtivos liberam o alcatrão preto durante o voo
-		'Preciso de um disjuntor maior'
+		'Totalmente destrutivos'
 		'''
 }
 
@@ -1294,7 +1294,7 @@ ToxicantTwister: {
 }
 
 Turbulance: {
-	DisplayName: Turbulência
+	DisplayName: Turbulança
 	Tooltip:
 		'''
 		Atira uma lança nebulosa que explode em cortes de vento ao atingir o inimigo
@@ -1309,18 +1309,18 @@ TwistingThunder: {
 		'''
 		Atira um raio que eletrocuta os inimigos
 		O raio viaja mais rápido quando está chovendo
-		Invoca raios do céu ao impacto
-		Golpes furtivos invocam mais raios e eles viajam mais rápido
+		Invoca raios do céu no impacto
+		Golpes furtivos invocam mais raios e viajam mais rápido
 		'''
 }
 
 UrchinStinger: {
-	DisplayName: Ferrão de Ouriço
-	Tooltip: Golpes furtivos grudam nos inimigos e enquanto estão grudados liberam bolhas sulfúricas
+	DisplayName: Ferrão de Ouriço-do-Mar
+	Tooltip: Golpes furtivos grudam nos inimigos e liberam bolhas sulfúricas enquanto estão grudados
 }
 
 UtensilPoker: {
-	DisplayName: Utensílios de Pôquer
+	DisplayName: Cutucador de Utensílios
 	Tooltip:
 		'''
 		Atira uma rajada de três utensílios
@@ -1330,7 +1330,7 @@ UtensilPoker: {
 }
 
 Valediction: {
-	DisplayName: Despedida
+	DisplayName: A Despedida
 	Tooltip:
 		'''
 		Lança uma foice ceifeira teleguiada
@@ -1339,10 +1339,10 @@ Valediction: {
 }
 
 WaveSkipper: {
-	DisplayName: Onda Saltitante
+	DisplayName: Saltador de Ondas
 	Tooltip:
 		'''
-		Arremessa uma lança que pula muito
+		Arremessa uma lança muito saltitante
 		Golpes furtivos arremessam três lanças em alta velocidade
 		'''
 }
@@ -1361,7 +1361,7 @@ Wrathwing: {
 	Tooltip:
 		'''
 		Arremessa uma lança alada ágil e teleguiada que cospe fogo constantemente
-		Golpes furtivos criam uma erupção de brasas atingir o inimigo
+		Golpes furtivos criam uma erupção de brasas ao atingir o inimigo
 		'''
 }
 
@@ -1371,6 +1371,6 @@ WulfrumKnife: {
 		'''
 		Atira uma rajada de 3 facas de vulfrúmio
 		Golpes furtivos fazem a faca voar mais longe e atingir o inimigo várias vezes ao mesmo tempo
-		Segure o <right> para magnetizar e trazer todas as facas caídas próximas para você
+		Segure <right> para magnetizar e trazer todas as facas caídas próximas para você
 		'''
 }
