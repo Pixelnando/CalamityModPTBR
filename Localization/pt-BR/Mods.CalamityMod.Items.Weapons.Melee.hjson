@@ -1182,7 +1182,7 @@ Terratomere: {
 	DisplayName: Terratomere
 	Tooltip:
 		'''
-		Cura o jogador em ataques físicos verdadeiros
+		Cura o jogador ao causar dano com ataques físicos verdadeiros
 		Dispara um raio de energia perfurante que faz com que inimigos atingidos explodam e sejam cortados
 		'Ligado à essência do Terraria'
 		'''
