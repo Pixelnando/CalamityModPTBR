@@ -206,7 +206,7 @@ AntiCystOintment: {
 
 AntiTumorOintment: {
 	DisplayName: Pomada Anti-Tumores
-	Tooltip: Marque este item como favorito para evitar que cistos de colmeia surjam perto de você
+	Tooltip: Marque este item como favorito para evitar que tumores da colmeia surjam perto de você
 }
 
 BleachBall: {
