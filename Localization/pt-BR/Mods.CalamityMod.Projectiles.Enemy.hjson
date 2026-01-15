@@ -1,38 +1,38 @@
-// AstralMeteorProj.DisplayName: Astral Meteor
-// BelchingCoralSpike.DisplayName: Spike
-// CrabBoulder.DisplayName: Boulder
-// CragmawAcidDrop.DisplayName: Acid
-// CragmawBeam.DisplayName: Gamma Ray
-// CragmawExplosion.DisplayName: Nuclear Explosion
-// CragmawSpike.DisplayName: Spike
-// CragmawVibeCheckChain.DisplayName: You Think You're Safe
-// CrimsonSpike.DisplayName: Spike
-// DraedonLaser.DisplayName: Lab Turret Laser
-// EarthRockBig.DisplayName: Rock
-// EarthRockSmall.DisplayName: Rock
-// FlakAcid.DisplayName: Acid
-// FlameBurstHostile.DisplayName: Burst
-// GammaAcid.DisplayName: Acid
-// GammaBeam.DisplayName: Gamma Ray
-// GammaRayBurst.DisplayName: G-FUEL BEAM
-// HorsWaterBlast.DisplayName: Water
-// InkBombHostile.DisplayName: Ink Bomb
-// InkPoisonCloud.DisplayName: Ink Cloud
-// LightningCloud.DisplayName: Cloud
-// MantisRing.DisplayName: Mantis Ring
-// MaulerAcidBubble.DisplayName: Acid Bubble
-// MaulerAcidDrop.DisplayName: Acid
-// NuclearBulletLarge.DisplayName: Nuclear Bullet
-// NuclearBulletMedium.DisplayName: Nuclear Bullet
-// NuclearToadGoo.DisplayName: Goop
-// OrthoceraStream.DisplayName: Acid Stream
-// PearlBurst.DisplayName: Pearl Burst
-// PearlRain.DisplayName: Pearl Rain
-// PufferExplosion.DisplayName: Explosion
-// StormMarkHostile.DisplayName: Mark
-// SulphuricAcidBubble.DisplayName: Acid Bubble
-// SulphuricAcidMist.DisplayName: Acid Mist
-// TornadoHostile.DisplayName: Tornado
-// ToxicMinnowCloud.DisplayName: Toxic Cloud
-// TrilobiteSpike.DisplayName: Spike
-// IceClasperEnemyProjectile.DisplayName: Ice Shard
+AstralMeteorProj.DisplayName: Meteoro Astral
+BelchingCoralSpike.DisplayName: Espinho
+CrabBoulder.DisplayName: Rochedo
+CragmawAcidDrop.DisplayName: Ácido
+CragmawBeam.DisplayName: Raio Gamma
+CragmawExplosion.DisplayName: Explosão Nuclear
+CragmawSpike.DisplayName: Espinho
+CragmawVibeCheckChain.DisplayName: Você Achou Que Estava Seguro
+CrimsonSpike.DisplayName: Espinho
+DraedonLaser.DisplayName: Laser do Torreão de Laboratório
+EarthRockBig.DisplayName: Rocha
+EarthRockSmall.DisplayName: Rocha
+FlakAcid.DisplayName: Ácido
+FlameBurstHostile.DisplayName: Explosão
+GammaAcid.DisplayName: Ácido
+GammaBeam.DisplayName: Raio Gamma
+GammaRayBurst.DisplayName: FEIXE DE COMBUSTÍVEL G.
+HorsWaterBlast.DisplayName: Água
+InkBombHostile.DisplayName: Bomba de Tinta
+InkPoisonCloud.DisplayName: Nuvem de Tinta
+LightningCloud.DisplayName: Nuvem
+MantisRing.DisplayName: Anel Tamarutaca
+MaulerAcidBubble.DisplayName: Bolha Ácida
+MaulerAcidDrop.DisplayName: Ácido
+NuclearBulletLarge.DisplayName: Projétil Nuclear
+NuclearBulletMedium.DisplayName: Projétil Nuclear
+NuclearToadGoo.DisplayName: Goop
+OrthoceraStream.DisplayName: Corrente Ácida
+PearlBurst.DisplayName: Explosão de Pérola
+PearlRain.DisplayName: Chuva de Pérola
+PufferExplosion.DisplayName: Explosão
+StormMarkHostile.DisplayName: Marca
+SulphuricAcidBubble.DisplayName: Bolha Ácida
+SulphuricAcidMist.DisplayName: Névoa Ácida
+TornadoHostile.DisplayName: Tornado
+ToxicMinnowCloud.DisplayName: Nuvem Tóxica
+TrilobiteSpike.DisplayName: Espinho
+IceClasperEnemyProjectile.DisplayName: Fragmento de Gelo
