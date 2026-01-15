@@ -213,7 +213,7 @@ LoreCrabulon: {
 }
 
 LoreCrimson: {
-	DisplayName: The Crimson
+	DisplayName: O Carmim
 	Lore:
 		'''
 		O ar imundo, a fauna mórbida, o terreno repugnante… Aqui está o primeiro erro da minha cruzada.
@@ -292,7 +292,7 @@ LoreDragonfolly: {
 }
 
 LoreDukeFishron: {
-	DisplayName: Duke Fishron
+	DisplayName: Duque Peixe-Dragão
 	Lore:
 		'''
 		Por mais viajado que seja, esta espécie é sozinha a mais poderosa dos mares.
@@ -304,7 +304,7 @@ LoreDukeFishron: {
 }
 
 LoreEaterofWorlds: {
-	DisplayName: The Eater of Worlds
+	DisplayName: O Devorador de Mundos
 	Lore:
 		'''
 		Qualquer ser poderoso vai originar contos e lendas, da sua grandeza e do seu terror. Aquele verme monstruoso não era exceção.
