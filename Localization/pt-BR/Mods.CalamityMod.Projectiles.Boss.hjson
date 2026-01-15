@@ -1,165 +1,165 @@
-// ApolloChargeTelegraph.DisplayName: Apollo Charge Telegraph
-// ApolloFireball.DisplayName: Volatile Plasma Blast
-// ApolloRocket.DisplayName: High Explosive Plasma Rocket
-// AresDeathBeamStart.DisplayName: Blenderbeam
-// AresDeathBeamTelegraph.DisplayName: Exo Overload Telegraph
-// AresGaussNukeProjectile.DisplayName: Gauss Nuke
-// AresGaussNukeProjectileBoom.DisplayName: Gauss Explosion
-// AresGaussNukeProjectileSpark.DisplayName: Gauss Spark
-// AresLaserBeamStart.DisplayName: Exothermal Laser
-// AresPlasmaBolt.DisplayName: Exoplasma Bolt
-// AresPlasmaFireball.DisplayName: Volatile Plasma Blast
-// AresTeslaOrb.DisplayName: Tesla Sphere
-// ArtemisChargeTelegraph.DisplayName: Artemis Charge Telegraph
-// ArtemisDeathrayTelegraph.DisplayName: Exothermal Artemis Beam Telegraph
-// ArtemisLaser.DisplayName: Exo Pulse Laser
-// ArtemisSpinLaserbeam.DisplayName: Ohio Beam
-// AstralFlame.DisplayName: Astral Homing Flame
-// AstralGodRay.DisplayName: Astral God Ray
-// AstralLaser.DisplayName: Astral Laser Volley
-// AstralShot2.DisplayName: Astral Laser
-// BigFlare.DisplayName: Big Flare
-// BigFlare2.DisplayName: Big Flare
-// BirbAura.DisplayName: Draconic Aura
-// BirbAuraFlare.DisplayName: Draconic Aura Flare
-// BloodGeyser.DisplayName: Blood Geyser
-// BrimstoneBall.DisplayName: Brimstone Fireball
-// BrimstoneBarrage.DisplayName: Brimstone Dart
-// BrimstoneFire.DisplayName: Brimstone Fire
-// BrimstoneHellblast.DisplayName: Brimstone Hellblast
-// BrimstoneHellblast2.DisplayName: Brimstone Hellblast
-// BrimstoneHellfireball.DisplayName: Brimstone Hellfireball
-// BrimstoneMonster.DisplayName: Whispering Maelstrom
-// BrimstoneRay.DisplayName: Brimstone Ray
-// BrimstoneTargetRay.DisplayName: Brimstone Target Ray
-// BrimstoneWave.DisplayName: Brimstone Flame Skull
-// BrokenApolloLens.DisplayName: Lens
-// BrokenArtemisLens.DisplayName: Lens
-// CirrusBlast.DisplayName: Cirrus Mushroom Blast
-// CirrusBlaster.DisplayName: Cirrus Mushroom
-// CirrusPhotonRipperPrismTooth.DisplayName: Cirrus Photon Ripper Tooth
-// CirrusPhotonRipperProjectile.DisplayName: Cirrus Photon Ripper
-// CirrusVolatileVodkaBottle.DisplayName: Volatile Vodka Bottle
-// DarkEnergyBall.DisplayName: Dark Energy
-// DarkEnergyBall2.DisplayName: Dark Energy
-// DarkOrb.DisplayName: Dark Orb
-// DesertScourgeDiveSplash.DisplayName: Desert Scourge Dive Splash
-// DesertScourgeSpit.DisplayName: Scourge Spit
-// DestroyerCursedLaser.DisplayName: Cursed Laser
-// DestroyerElectricLaser.DisplayName: Electric Laser
-// DeusMine.DisplayName: Astral Mine
-// DeusRitualDrama.DisplayName: Deus Ritual Drama
-// DoGBeam.DisplayName: Portal Laser
-// DoGBeamPortal.DisplayName: Beam Portal
-// DoGDeath.DisplayName: Death Beam
-// DoGDeathBoom.DisplayName: Cosmic Explosion
-// DoGFire.DisplayName: Death Fire
-// DoGP1EndPortal.DisplayName: Portal
-// DoGTeleportRift.DisplayName: Rift
-// DraedonSummonLaser.DisplayName: Giant Fuck-off Deathray of Doom
-// DyingSun.DisplayName: Dying Sun
-// EssenceDust.DisplayName: Cosmic Dust
-// Flare.DisplayName: Flare
-// FlareBomb.DisplayName: Flare Bomb
-// FlareDust.DisplayName: Flare Dust
-// FlareDust2.DisplayName: Flare Bomb
-// Flarenado.DisplayName: Flarenado
-// FrostMist.DisplayName: Frost Mist
-// GooglyEye.DisplayName: Googly Eye
-// GreatSandBlast.DisplayName: Great Sand Blast
-// HealOrbProv.DisplayName: Heal
-// HellfireExplosion.DisplayName: Brimstone Hellfire Explosion
-// HiveBombGoliath.DisplayName: Hive Bomb
-// HolyAura.DisplayName: Holy Aura
-// HolyBlast.DisplayName: Holy Blast
-// HolyBomb.DisplayName: Holy Bomb
-// HolyBurnOrb.DisplayName: Holy Orb
-// HolyExplosionBoom.DisplayName: Holy Explosion
-// HolyFire.DisplayName: Holy Fire
-// HolyFire2.DisplayName: Holy Fire
-// HolyFlare.DisplayName: Holy Flare
-// HolyLight.DisplayName: Holy Light
-// HolySpear.DisplayName: Holy Spear
-// HomingGasBulb.DisplayName: Homing Gas Bulb
-// HomingGasBulbSporeGas.DisplayName: Homing Gas Bulb Spore Gas
-// IceBlast.DisplayName: Ice Blast
-// IceBomb.DisplayName: Ice Bomb
-// IceRain.DisplayName: Ice Rain
-// IchorBlob.DisplayName: Ichor Blob
-// IchorShot.DisplayName: Ichor Shot
-// Infernado.DisplayName: Infernado
-// Infernado2.DisplayName: Infernado
-// InfernadoRevenge.DisplayName: Infernado
-// JewelProjectile.DisplayName: Ruby Bolt
-// LeviathanBomb.DisplayName: Meteor Vomit
-// LeviathanSpawner.DisplayName: Spawner
-// MajesticSparkle.DisplayName: Majestic Sparkle
-// MoltenBlast.DisplayName: Molten Blast
-// MoltenBlob.DisplayName: Molten Blob
-// MushBomb.DisplayName: Mushroom Shot
-// MushBombFall.DisplayName: Falling Mushroom
-// OldDukeGore.DisplayName: Sulphurous Gore
-// OldDukeSummonDrop.DisplayName: Acid
-// OldDukeToothBallSpike.DisplayName: Spike
-// OldDukeVortex.DisplayName: Sulphurous Vortex
-// OverlyDramaticDukeSummoner.DisplayName: Old Duke Summoner
-// PeanutRocket.DisplayName: High Explosive Peanut Shell
-// PhantomBlast.DisplayName: Phantom Blast
-// PhantomBlast2.DisplayName: Potent Phantom Blast
-// PhantomGhostShot.DisplayName: Potent Phantom Spirit Shot
-// PhantomHookShot.DisplayName: Phantom Hook Shot
-// PhantomMine.DisplayName: Phantom Orb
-// PhantomShot.DisplayName: Phantom Shot
-// PhantomShot2.DisplayName: Potent Phantom Shot
-// PlagueExplosion.DisplayName: Plague Stinger Explosion
-// PlagueStingerGoliath.DisplayName: Plague Homing Stinger
-// PlagueStingerGoliathV2.DisplayName: Exploding Plague Stinger
-// ProfanedSpear.DisplayName: Profaned Spear
-// ProvidenceCrystal.DisplayName: Holy Crystal
-// ProvidenceCrystalShard.DisplayName: Holy Crystal Shard
-// ProvidenceHolyRay.DisplayName: Holy Ray
-// RavagerBlast.DisplayName: Ravaging Laser
-// RavagerBlaster.DisplayName: Ravager Blaster
-// RavagerFlame.DisplayName: Blue Flame
-// RedLightning.DisplayName: Red Lightning
-// RedLightningFeather.DisplayName: Lightning Feather
-// SandBlast.DisplayName: Sand Blast
-// SandPoisonCloud.DisplayName: Toxic Cloud
-// SandPoisonCloudOldDuke.DisplayName: Toxic Cloud
-// SandTooth.DisplayName: Sand Tooth
-// SCalBrimstoneFireblast.DisplayName: Brimstone Fireblast
-// SCalBrimstoneGigablast.DisplayName: Brimstone Gigablast
-// SCalRitualDrama.DisplayName: Calamitous Ritual Drama
-// ScavengerLaser.DisplayName: Homing Dart
-// ScavengerNuke.DisplayName: Homing Nuke
-// ShadeNimbusHostile.DisplayName: Shade Nimbus
-// ShaderainHostile.DisplayName: Shade Rain
-// ShadowflameFireball.DisplayName: Shadowflame Fireball
-// Shadowflamethrower.DisplayName: Shadowflame Breath
-// SignusScythe.DisplayName: Scythe
-// SirenSong.DisplayName: Musical Note
-// SkyFlare.DisplayName: Sky Flare
-// SkyFlareRevenge.DisplayName: Sky Flare
-// SporeGasPlantera.DisplayName: Spore Gas
-// StormWeaverFrostWaveTelegraph.DisplayName: Frost Wave Telegraph
-// SupremeCataclysmFist.DisplayName: Fist of Fury
-// SupremeCatastropheSlash.DisplayName: Resonance Slash
-// SwirlingFire.DisplayName: Fire
-// ThanatosBeamStart.DisplayName: T Hanos Beam
-// ThanatosBeamTelegraph.DisplayName: Gamma Disintegration Beam Telegraph
-// ThanatosLaser.DisplayName: Exo Pulse Laser
-// ThornBallSpike.DisplayName: Thorn Ball Spike
-// ToxicCloud.DisplayName: Toxic Cloud
-// UnstableCrimulanGlob.DisplayName: Unstable Crimulan Glob
-// UnstableEbonianGlob.DisplayName: Unstable Ebonian Glob
-// VileClot.DisplayName: Vile Clot
-// WaterSpear.DisplayName: Water Spear
-// YharonBulletHellVortex.DisplayName: Bullet Hell Vortex
-// YharonFireball.DisplayName: Dragon Fireball
-// YharonFireball2.DisplayName: Dragon Fireball
-// THanosSideLaser.DisplayName: T Hanos Side Laser
-// PermafrostAbsoluteZeroProjectile.DisplayName: Absolute Ultra Zero
-// PermafrostBlast.DisplayName: Permafrost's Gigablast
-// PermafrostBlaster.DisplayName: Blaster of Unlimited Air Conditioning
-// PermafrostColdheartIcicle.DisplayName: Coldheart Icicle
-// PermafrostMeat.DisplayName: Cool Meat
+ApolloChargeTelegraph.DisplayName: Carga Telegráfa de Apolo
+ApolloFireball.DisplayName: Rajada de Plasma Volátil
+ApolloRocket.DisplayName: Foguete de Plasma Altamente Explosivo
+AresDeathBeamStart.DisplayName: Feixe Liquidficador
+AresDeathBeamTelegraph.DisplayName: Exo-Sobrecarga Telegráfa
+AresGaussNukeProjectile.DisplayName: Bomba Nuclear de Gauss
+AresGaussNukeProjectileBoom.DisplayName: Explosão de Gauss
+AresGaussNukeProjectileSpark.DisplayName: Faísca de Gauss
+AresLaserBeamStart.DisplayName: Laser Exotérmico
+AresPlasmaBolt.DisplayName: Raio de Exo-Plasma
+AresPlasmaFireball.DisplayName: Rajada de Plasma Volátil
+AresTeslaOrb.DisplayName: Esfera de Tesla
+ArtemisChargeTelegraph.DisplayName: Carga Telegráfa de Ártemis
+ArtemisDeathrayTelegraph.DisplayName: Feixe Telegráfo Exotérmico de Ártemis
+ArtemisLaser.DisplayName: Exo-Pulso Laser
+ArtemisSpinLaserbeam.DisplayName: Feixe Ohio
+AstralFlame.DisplayName: Chama Astral Teleguiada
+AstralGodRay.DisplayName: Raio do Deus Astral
+AstralLaser.DisplayName: Laser Astral Volátil
+AstralShot2.DisplayName: Laser Astral
+BigFlare.DisplayName: Grande Chama
+BigFlare2.DisplayName: Grande Chama
+BirbAura.DisplayName: Aura Dracônica
+BirbAuraFlare.DisplayName: Aura Dracônica de Chamas
+BloodGeyser.DisplayName: Gêiser de Sangue
+BrimstoneBall.DisplayName: Bola de Fogo de Enxofre
+BrimstoneBarrage.DisplayName: Dardo de Enxofre
+BrimstoneFire.DisplayName: Fogo de Enxofre
+BrimstoneHellblast.DisplayName: Explosão Infernal de Enxofre
+BrimstoneHellblast2.DisplayName: Explosão Infernal de Enxofre
+BrimstoneHellfireball.DisplayName: Bola de Fogo do Inferno de Enxofre
+BrimstoneMonster.DisplayName: Redemoinho Sussurrante
+BrimstoneRay.DisplayName: Raio de Enxofre
+BrimstoneTargetRay.DisplayName: Raio-Mira de Enxofre
+BrimstoneWave.DisplayName: Caveira Flamejante de Enxofre
+BrokenApolloLens.DisplayName: Lente
+BrokenArtemisLens.DisplayName: Lente
+CirrusBlast.DisplayName: Rajada de Cogumelos de Cirrus
+CirrusBlaster.DisplayName: Cogumelo de Cirrus
+CirrusPhotonRipperPrismTooth.DisplayName: Dente do Estripador de Fótons de Cirrus
+CirrusPhotonRipperProjectile.DisplayName: Estripador de Fótons de Cirrus
+CirrusVolatileVodkaBottle.DisplayName: Garrfa de Vodka Volátil
+DarkEnergyBall.DisplayName: Energia Sombria
+DarkEnergyBall2.DisplayName: Energia Sombria
+DarkOrb.DisplayName: Orbe Sombrio
+DesertScourgeDiveSplash.DisplayName: Splash do Mergulho do Flagelo do Deserto
+DesertScourgeSpit.DisplayName: Cuspe do Flagelo
+DestroyerCursedLaser.DisplayName: Laser Amaldiçoado
+DestroyerElectricLaser.DisplayName: Laser Elétrico
+DeusMine.DisplayName: Mina Astral
+DeusRitualDrama.DisplayName: Ritual Dramático do Deus
+DoGBeam.DisplayName: Laser de Portal
+DoGBeamPortal.DisplayName: Feixe de Portal
+DoGDeath.DisplayName: Feixe da Morte
+DoGDeathBoom.DisplayName: Explosão Cósmica
+DoGFire.DisplayName: Fogo da Morte
+DoGP1EndPortal.DisplayName: Portal
+DoGTeleportRift.DisplayName: Fenda
+DraedonSummonLaser.DisplayName: Raio da Morte da Desgraça Gigantesco
+DyingSun.DisplayName: Sol Moribundo
+EssenceDust.DisplayName: Poeira Cósmica
+Flare.DisplayName: Sinalizador
+FlareBomb.DisplayName: Bomba Sinalizadora
+FlareDust.DisplayName: Pó Sinalizador
+FlareDust2.DisplayName: Bomba Sinalizadora
+Flarenado.DisplayName: Sinalizanado
+FrostMist.DisplayName: Névoa Gélida
+GooglyEye.DisplayName: Olho Esbugalhado
+GreatSandBlast.DisplayName: Grande Explosão de Areia
+HealOrbProv.DisplayName: Cura
+HellfireExplosion.DisplayName: Explosão de Enxofre do Fogo do Inferno
+HiveBombGoliath.DisplayName: Bomba de Colmeia
+HolyAura.DisplayName: Aura Sagrada
+HolyBlast.DisplayName: Rajada Sagrada
+HolyBomb.DisplayName: Bomba Sagrada
+HolyBurnOrb.DisplayName: Orbe Sagrado
+HolyExplosionBoom.DisplayName: Explosão Sagrada
+HolyFire.DisplayName: Fogo Sagrado
+HolyFire2.DisplayName: Fogo Sagrado
+HolyFlare.DisplayName: Chama Sagrada
+HolyLight.DisplayName: Luz Sagrada
+HolySpear.DisplayName: Lança Sagrada
+HomingGasBulb.DisplayName: Gás de Bulbo Teleguiado
+HomingGasBulbSporeGas.DisplayName: Gás de Bulbo com Gás de Esporos Teleguiado
+IceBlast.DisplayName: Explosão de Gelo
+IceBomb.DisplayName: Bomba de Gelo
+IceRain.DisplayName: Chuva de Gelo
+IchorBlob.DisplayName: Bolha de Ichor
+IchorShot.DisplayName: Tiro de Ichor
+Infernado.DisplayName: Infernado
+Infernado2.DisplayName: Infernado
+InfernadoRevenge.DisplayName: Infernado
+JewelProjectile.DisplayName: Raio Rubi
+LeviathanBomb.DisplayName: Vômito de Meteoro
+LeviathanSpawner.DisplayName: Gerador
+MajesticSparkle.DisplayName: Brilho Majestoso
+MoltenBlast.DisplayName: Explosão Derretida
+MoltenBlob.DisplayName: Bolha Derretida
+MushBomb.DisplayName: Tiro de Cogumelo
+MushBombFall.DisplayName: Cogumelo Caidor
+OldDukeGore.DisplayName: Sanguinolência Sulfurosa
+OldDukeSummonDrop.DisplayName: Ácido
+OldDukeToothBallSpike.DisplayName: Espinho
+OldDukeVortex.DisplayName: Vórtice Sulfuroso
+OverlyDramaticDukeSummoner.DisplayName: Invocador do Velho Duque
+PeanutRocket.DisplayName: Casca de Amendoim Altamente Explosiva
+PhantomBlast.DisplayName: Explosão Fantasma
+PhantomBlast2.DisplayName: Explosão Fantasma Potente
+PhantomGhostShot.DisplayName: Tiro de Espíritos Fantasmas Potente
+PhantomHookShot.DisplayName: Tiro do Gancho Fantasma
+PhantomMine.DisplayName: Orbe Fantasma
+PhantomShot.DisplayName: Tiro Fantasma
+PhantomShot2.DisplayName: Tiro Fantasma Potente
+PlagueExplosion.DisplayName: Explosão do Ferrão da Praga
+PlagueStingerGoliath.DisplayName: Ferrão da Praga Teleguiado
+PlagueStingerGoliathV2.DisplayName: Ferrão Explosivo da Praga
+ProfanedSpear.DisplayName: Lança Profana
+ProvidenceCrystal.DisplayName: Cristal Sagrado
+ProvidenceCrystalShard.DisplayName: Fragmento de Cristal Sagrado
+ProvidenceHolyRay.DisplayName: Raio Sagrado
+RavagerBlast.DisplayName: Laser Devastador
+RavagerBlaster.DisplayName: Estrondo do Devastador
+RavagerFlame.DisplayName: Chama Azul
+RedLightning.DisplayName: Relâmpago Vermelho
+RedLightningFeather.DisplayName: Pena Relâmpago
+SandBlast.DisplayName: Explosão de Areia
+SandPoisonCloud.DisplayName: Nuvem Tóxica
+SandPoisonCloudOldDuke.DisplayName: Nuvem Tóxica
+SandTooth.DisplayName: Dente de Areia
+SCalBrimstoneFireblast.DisplayName: Rajada de Fogo de Enxofre
+SCalBrimstoneGigablast.DisplayName: Giga-Explosão de Enxofre
+SCalRitualDrama.DisplayName: Ritual Dramático Calamitoso
+ScavengerLaser.DisplayName: Dardo Teleguiado
+ScavengerNuke.DisplayName: Bomba Nuclear Teleguiada
+ShadeNimbusHostile.DisplayName: Nuvem de Sombra
+ShaderainHostile.DisplayName: Chuva de Sombra
+ShadowflameFireball.DisplayName: Bola de Fogo das Chamas das Sombras
+Shadowflamethrower.DisplayName: Sobro das Chamas das Sombras
+SignusScythe.DisplayName: Foice
+SirenSong.DisplayName: Nota Musical
+SkyFlare.DisplayName: Chama do Céu
+SkyFlareRevenge.DisplayName: Chama do Céu
+SporeGasPlantera.DisplayName: Gás de Esporos
+StormWeaverFrostWaveTelegraph.DisplayName: Onda Telégrafa Congelante
+SupremeCataclysmFist.DisplayName: Punho da Fúria
+SupremeCatastropheSlash.DisplayName: Corte de Ressonânica
+SwirlingFire.DisplayName: Fogo
+ThanatosBeamStart.DisplayName: Feixe T Nato
+ThanatosBeamTelegraph.DisplayName: Feixe Telégrafo de Desinteração Gama
+ThanatosLaser.DisplayName: Exo-Pulso Laser
+ThornBallSpike.DisplayName: Bola de Espinhos Espinhosa
+ToxicCloud.DisplayName: Nuvem Tóxica
+UnstableCrimulanGlob.DisplayName: Bolha Carmesim Instável
+UnstableEbonianGlob.DisplayName: Bolha Ebaniana Instável
+VileClot.DisplayName: Coágulo Infame
+WaterSpear.DisplayName: Lança de Água
+YharonBulletHellVortex.DisplayName: Vórtice Inferanal de Tiros
+YharonFireball.DisplayName: Bola de Fogo de Dragão
+YharonFireball2.DisplayName: Bola de Fogo de Dragão
+THanosSideLaser.DisplayName: Laser Lateral T Nato
+PermafrostAbsoluteZeroProjectile.DisplayName: Zero Ultra Absoluto
+PermafrostBlast.DisplayName: Giga Explosão do Pergelissolo
+PermafrostBlaster.DisplayName: Rajada do Ar Condicionado Ilimitado
+PermafrostColdheartIcicle.DisplayName: Gelo do Coração Gelado
+PermafrostMeat.DisplayName: Carne Fria
