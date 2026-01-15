@@ -1,8 +1,8 @@
-ApolloChargeTelegraph.DisplayName: Carga Telegráfa de Apolo
+ApolloChargeTelegraph.DisplayName: Sinalização da Investida de Apolo
 ApolloFireball.DisplayName: Rajada de Plasma Volátil
 ApolloRocket.DisplayName: Foguete de Plasma Altamente Explosivo
 AresDeathBeamStart.DisplayName: Feixe Liquidficador
-AresDeathBeamTelegraph.DisplayName: Exo-Sobrecarga Telegráfa
+AresDeathBeamTelegraph.DisplayName: Sinalização da Exo-Sobrecarga
 AresGaussNukeProjectile.DisplayName: Bomba Nuclear de Gauss
 AresGaussNukeProjectileBoom.DisplayName: Explosão de Gauss
 AresGaussNukeProjectileSpark.DisplayName: Faísca de Gauss
@@ -10,8 +10,8 @@ AresLaserBeamStart.DisplayName: Laser Exotérmico
 AresPlasmaBolt.DisplayName: Raio de Exo-Plasma
 AresPlasmaFireball.DisplayName: Rajada de Plasma Volátil
 AresTeslaOrb.DisplayName: Esfera de Tesla
-ArtemisChargeTelegraph.DisplayName: Carga Telegráfa de Ártemis
-ArtemisDeathrayTelegraph.DisplayName: Feixe Telegráfo Exotérmico de Ártemis
+ArtemisChargeTelegraph.DisplayName: Sinalização da Investida de Ártemis
+ArtemisDeathrayTelegraph.DisplayName: Sinalização do Feixe Exotérmico de Ártemis
 ArtemisLaser.DisplayName: Exo-Pulso Laser
 ArtemisSpinLaserbeam.DisplayName: Feixe Ohio
 AstralFlame.DisplayName: Chama Astral Teleguiada
@@ -39,12 +39,12 @@ CirrusBlast.DisplayName: Rajada de Cogumelos de Cirrus
 CirrusBlaster.DisplayName: Cogumelo de Cirrus
 CirrusPhotonRipperPrismTooth.DisplayName: Dente do Estripador de Fótons de Cirrus
 CirrusPhotonRipperProjectile.DisplayName: Estripador de Fótons de Cirrus
-CirrusVolatileVodkaBottle.DisplayName: Garrfa de Vodka Volátil
+CirrusVolatileVodkaBottle.DisplayName: Garrafa de Vodka Volátil
 DarkEnergyBall.DisplayName: Energia Sombria
 DarkEnergyBall2.DisplayName: Energia Sombria
 DarkOrb.DisplayName: Orbe Sombrio
-DesertScourgeDiveSplash.DisplayName: Splash do Mergulho do Flagelo do Deserto
-DesertScourgeSpit.DisplayName: Cuspe do Flagelo
+DesertScourgeDiveSplash.DisplayName: Respingo de Mergulho do Flagelo do Deserto
+DesertScourgeSpit.DisplayName: Cusparada do Flagelo
 DestroyerCursedLaser.DisplayName: Laser Amaldiçoado
 DestroyerElectricLaser.DisplayName: Laser Elétrico
 DeusMine.DisplayName: Mina Astral
@@ -97,7 +97,7 @@ MajesticSparkle.DisplayName: Brilho Majestoso
 MoltenBlast.DisplayName: Explosão Derretida
 MoltenBlob.DisplayName: Bolha Derretida
 MushBomb.DisplayName: Tiro de Cogumelo
-MushBombFall.DisplayName: Cogumelo Caidor
+MushBombFall.DisplayName: Cogumelo Descendente
 OldDukeGore.DisplayName: Sanguinolência Sulfurosa
 OldDukeSummonDrop.DisplayName: Ácido
 OldDukeToothBallSpike.DisplayName: Espinho
@@ -141,20 +141,20 @@ SirenSong.DisplayName: Nota Musical
 SkyFlare.DisplayName: Chama do Céu
 SkyFlareRevenge.DisplayName: Chama do Céu
 SporeGasPlantera.DisplayName: Gás de Esporos
-StormWeaverFrostWaveTelegraph.DisplayName: Onda Telégrafa Congelante
+StormWeaverFrostWaveTelegraph.DisplayName: Sinalização da Onda Congelante
 SupremeCataclysmFist.DisplayName: Punho da Fúria
 SupremeCatastropheSlash.DisplayName: Corte de Ressonânica
 SwirlingFire.DisplayName: Fogo
 ThanatosBeamStart.DisplayName: Feixe T Nato
-ThanatosBeamTelegraph.DisplayName: Feixe Telégrafo de Desinteração Gama
+ThanatosBeamTelegraph.DisplayName: Sinalização do Feixe de Desinteração Gama
 ThanatosLaser.DisplayName: Exo-Pulso Laser
 ThornBallSpike.DisplayName: Bola de Espinhos Espinhosa
 ToxicCloud.DisplayName: Nuvem Tóxica
-UnstableCrimulanGlob.DisplayName: Bolha Carmesim Instável
-UnstableEbonianGlob.DisplayName: Bolha Ebaniana Instável
+UnstableCrimulanGlob.DisplayName: Bolha do Carmim Instável
+UnstableEbonianGlob.DisplayName: Bolha do Ébano Instável
 VileClot.DisplayName: Coágulo Infame
 WaterSpear.DisplayName: Lança de Água
-YharonBulletHellVortex.DisplayName: Vórtice Inferanal de Tiros
+YharonBulletHellVortex.DisplayName: Vórtice Infernal de Tiros
 YharonFireball.DisplayName: Bola de Fogo de Dragão
 YharonFireball2.DisplayName: Bola de Fogo de Dragão
 THanosSideLaser.DisplayName: Laser Lateral T Nato
