@@ -1,25 +1,25 @@
-// BurntSiennaProj.DisplayName: Sienna
-// CactusHealOrb.DisplayName: Heal
-// DemonHeal.DisplayName: Heal
-// EarthHealOrb.DisplayName: Heal
-// EmpyreanHealOrb.DisplayName: Empyrean Heal Orb
-// EssenceFlame.DisplayName: Flame
-// Exoheal.DisplayName: Heal
-// FungalHeal.DisplayName: Heal
-// GladiatorHealOrb.DisplayName: Heal
-// GodSlayerHealOrb.DisplayName: God Slayer Heal Orb
-// HydrothermicHealOrb.DisplayName: Hydrothermic Rejuvenation
-// IridescentExcaliburHeal.DisplayName: Iridescent Excalibur Heal
-// ManaPolarizerHealOrb.DisplayName: Mana Polarizer Heal Orb
-// PhantomicHeart.DisplayName: Phantomic Heart
-// RainHeal.DisplayName: Heal
-// ReaverHealOrb.DisplayName: Reaver Heal Orb
-// RoyalHeal.DisplayName: Heal
-// ShinobiHealOrb.DisplayName: Blue Healing Orb
-// SilvaOrb.DisplayName: Silva Orb
-// TransfusionTrail.DisplayName: Heal
-// AbsorberAura.DisplayName: Absorber Aura
-// BlueJellyAura.DisplayName: Blue Jelly Aura
-// GreenJellyAura.DisplayName: Green Jelly Aura
-// PinkJellyAura.DisplayName: Pink Jelly Aura
-// AltTransfusionTrail.DisplayName: Alt Transfusion Trail
+BurntSiennaProj.DisplayName: Siena
+CactusHealOrb.DisplayName: Cura
+DemonHeal.DisplayName: Cura
+EarthHealOrb.DisplayName: Cura
+EmpyreanHealOrb.DisplayName: Orbe de Cura Empírico
+EssenceFlame.DisplayName: Chama
+Exoheal.DisplayName: Cura
+FungalHeal.DisplayName: Cura
+GladiatorHealOrb.DisplayName: Cura
+GodSlayerHealOrb.DisplayName: Orbe de Cura do Caça-Deuses
+HydrothermicHealOrb.DisplayName: Rejuvenescimento Hidrotérmico
+IridescentExcaliburHeal.DisplayName: Cura da Excaliur Iridescente
+ManaPolarizerHealOrb.DisplayName: Orbe de Cura do Polarizador de Mana
+PhantomicHeart.DisplayName: Coração Fanstamagórico
+RainHeal.DisplayName: Curo
+ReaverHealOrb.DisplayName: Orbe de Cura do Ceifador
+RoyalHeal.DisplayName: Cura
+ShinobiHealOrb.DisplayName: Orbe de Cura Azul
+SilvaOrb.DisplayName: Orbe de Silva
+TransfusionTrail.DisplayName: Cura
+AbsorberAura.DisplayName: Aura Absorvedora
+BlueJellyAura.DisplayName: Aura de Geleia Azul
+GreenJellyAura.DisplayName: Aura de Geleia Verde
+PinkJellyAura.DisplayName: Aura de Geleia Rosa
+AltTransfusionTrail.DisplayName: Trilha da Transfusão Alternativa
