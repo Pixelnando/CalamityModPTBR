@@ -30,7 +30,7 @@ AtaraxiaSide.DisplayName: Também não é a Exo-Lâmina
 AtaraxiaSplit.DisplayName: Ainda não é a Exo-Lâmina
 BalefulHarvesterProjectile.DisplayName: Caveira de Abóbora
 BallOFuguProj.DisplayName: Pelota de Baiacu
-BansheeHookBoom.DisplayName: Boom de Banshee
+BansheeHookBoom.DisplayName: Bum de Banshee
 BansheeHookScythe.DisplayName: Foice de Banshee
 BiomeBladeHoldout.DisplayName: Lâmina do Bioma Reparada
 BitingEmbrace.DisplayName: Abraço Mortal
@@ -107,7 +107,7 @@ EarthProj.DisplayName: Terra
 ElementalGlassStar.DisplayName: Estrela de Vidro
 ElementBall.DisplayName: Bola Elemental
 ElementBallShiv.DisplayName: Faca
-EmpyreanKnife.DisplayName: Faca Empírea
+EmpyreanKnife.DisplayName: Faca Empírica
 EntropicFlechette.DisplayName: Flechette Entrópica
 EntropicFlechetteLarge.DisplayName: Flechette Entrópica
 EntropicFlechetteSmall.DisplayName: Flechette Entrópica
@@ -131,20 +131,20 @@ FallenPaladinsHammerEcho.DisplayName: Eco do Martelo do Paladino Caído
 FallenPaladinsHammerProj.DisplayName: Martelo do Paladino Caído
 Feather.DisplayName: Pena
 Flarefrost.DisplayName: Sinalizador Congelante
-FloodtideShark.DisplayName: SHORK
+FloodtideShark.DisplayName: TUBARAUM
 ForbiddenOathbladeProjectile.DisplayName: Lâmina do Orgulho
 GaelExplosion.DisplayName: Explosão de Gael
 GaelSkull.DisplayName: Não é Mais o Primo Superior da Arca do Cosmos
 GaelSkull2.DisplayName: Não é Mais o Primo Superior da Arca do Cosmos
 GalacticaComet.DisplayName: Cometa Galactus
-GalaxiaBolt.DisplayName: Raio Galático
+GalaxiaBolt.DisplayName: Raio Galáctico
 GalaxiaHoldout.DisplayName: Formação Galáctica
 GalaxiaTropicRing.DisplayName: Anel de Estrela
-GalaxyBlast.DisplayName: Explosão Galática
-GalaxyBlastType2.DisplayName: Explosão Galática
-GalaxyBlastType3.DisplayName: Explosão Galática
-GalaxySmasherBlast.DisplayName: Explosão Galática
-GalaxySmasherEcho.DisplayName: Eco Galático Esmagador
+GalaxyBlast.DisplayName: Explosão Galáctica
+GalaxyBlastType2.DisplayName: Explosão Galáctica
+GalaxyBlastType3.DisplayName: Explosão Galáctica
+GalaxySmasherBlast.DisplayName: Explosão Galáctica
+GalaxySmasherEcho.DisplayName: Eco Galáctico Esmagador
 GalaxySmasherHammer.DisplayName: Esmagador de Galáxias
 GalaxySmasherMini.DisplayName: Esmagador de Galáxias
 GalaxyStar.DisplayName: Estrela Galáctica
@@ -196,9 +196,9 @@ Oathblade.DisplayName: Lâmina do Juramento
 OathswordFlame.DisplayName: Chama da Espada do Juramento
 Orbacle.DisplayName: Orbe Áurico
 OrderbringerAura.DisplayName: Aura
-OrderbringerBeam.DisplayName: Feixe de O Ordeiro
+OrderbringerBeam.DisplayName: Feixe do Ordeiro
 OrderbringerRain.DisplayName: Chuva
-OrderbringerWhiteOrb.DisplayName: Orbe de O Ordeiro
+OrderbringerWhiteOrb.DisplayName: Orbe do Ordeiro
 PhoenixsPride.DisplayName: Orgulho da Fênix
 PhosphorescentGauntletPunches.DisplayName: Soco de Manopla
 PhotonRipperProjectile.DisplayName: Motossera Extraordinariamente Econômica
@@ -218,7 +218,7 @@ PwnagehammerExplosionBig.DisplayName: Explosão Pwnage
 PwnagehammerProj.DisplayName: Pwnagemartelo
 PwnagehammerSmallExplosion.DisplayName: Explosão Pwnage
 RainBolt.DisplayName: Raio
-RainbowBoom.DisplayName: Boom
+RainbowBoom.DisplayName: Bum
 Razorwind.DisplayName: Vento Cortante
 RedtideWhirlpool.DisplayName: Redemoinho
 RemsRevengeProj.DisplayName: Vingança de Rem
@@ -245,7 +245,7 @@ SpatialSpear.DisplayName: Lança Elemental
 SpatialSpear2.DisplayName: Lança Elemental
 SpatialSpear3.DisplayName: Lança Elemental
 SpatialSpear4.DisplayName: Lança Elemental
-SpineOfThanatosProjectile.DisplayName: Coluna de Tânatos
+SpineOfThanatosProjectile.DisplayName: Coluna de Thanatos
 StarnightBeam.DisplayName: Feixe Estrela da Noite
 StellarContemptBlast.DisplayName: Explosão de Desprezo
 StellarContemptEcho.DisplayName: Ecos do Desprezo
@@ -259,7 +259,7 @@ StygianShieldThrown.DisplayName: Escudo do Caos
 SulphurousGrabberBubble.DisplayName: Bolha Grudenta
 SulphurousGrabberBubble2.DisplayName: Bolha Grudenta
 SwordsmithsPride.DisplayName: Orgulho do Espadachim
-SwordsmithsPrideBeam.DisplayName: Projeção do Esapachim
+SwordsmithsPrideBeam.DisplayName: Projeção do Espadachim
 SwordsplosionBlue.DisplayName: Espada Azul
 SwordsplosionGreen.DisplayName: Espada Verde
 SwordsplosionPurple.DisplayName: Espada Roxa
@@ -276,12 +276,12 @@ TerratomereSlash.DisplayName: Corte da Terratomere
 TerratomereSlashCreator.DisplayName: Efeito de Espada de Anime
 TerrorBeam.DisplayName: Feixe do Terror
 TerrorBlast.DisplayName: Explosão do Terror
-ThanatosBoom.DisplayName: Boom de Thanos
+ThanatosBoom.DisplayName: Bum de Thanos
 ThornBase.DisplayName: Espinho
 TinyCrystal.DisplayName: Cristal
 TinyFlare.DisplayName: Sinalizador
 Tornado.DisplayName: Tornado
-TriactisHammerProj.DisplayName: Verdadeira Força Martelo do Paladino-Mago de Triactis 
+TriactisHammerProj.DisplayName: Verdadeiro Martelo Mágico Paladino do Poder de Triactis
 TrueAncientBeam.DisplayName: Verdadeiro Feixe Antigo
 TrueAncientBlast.DisplayName: Rajada de Energia Antiga
 TrueAridGrandeur.DisplayName: Grandeza Árida
@@ -307,7 +307,7 @@ VoidEssence.DisplayName: Essência do Vazio
 VoidTentacle.DisplayName: Tentáculo do Vazio
 VolcanicFireball.DisplayName: Bola de Fogo Vulcânica
 VolcanicFireballLarge.DisplayName: Bola de Fogo Vulcânica
-Waterfall.DisplayName: Feixe de Calhoeira
+Waterfall.DisplayName: Feixe de Cachoeira
 WhiteBoltAura.DisplayName: Aura Branca
 WhiteOrb.DisplayName: Orbe Branco
 Whiterain.DisplayName: Chuva Branca
