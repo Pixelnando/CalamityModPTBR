@@ -36,11 +36,11 @@ BrimstoneBolt.DisplayName: Raio de Enxofre
 BrimstoneFireFriendly.DisplayName: Fogo de Enxofre
 BubonicRoundProj.DisplayName: Tiro Bubônico
 BuzzkillSaw.DisplayName: Serra Circular
-CardClub.DisplayName: Clube
-CardClubSplit.DisplayName: Clube
-CardDiamond.DisplayName: Diamante
-CardHeart.DisplayName: Coração
-CardSpade.DisplayName: Pá
+CardClub.DisplayName: Paus
+CardClubSplit.DisplayName: Paus
+CardDiamond.DisplayName: Ouros
+CardHeart.DisplayName: Copas
+CardSpade.DisplayName: Espadas
 ChargedBlast.DisplayName: Rajada
 ChargedBlast2.DisplayName: Rajada
 ChickenExplosion.DisplayName: Explosão Frita de Kentucky
@@ -90,7 +90,7 @@ FlakKrakenProj.DisplayName: Kraken Retículo
 FlakKrakenProjectile.DisplayName: Kraken Tóxico
 FlakToxicannonProjectile.DisplayName: Canhão Tóxico
 FlareBat.DisplayName: Morcego Sinalizador
-Flash.DisplayName: Flash
+Flash.DisplayName: Clarão
 FlashRoundProj.DisplayName: Tiro Brilhante
 FlurrystormIceChunk.DisplayName: Pedaço de Gelo
 FlurrystormIceShard.DisplayName: Fragmento de Gelo
@@ -129,9 +129,9 @@ MagnomalyRocket.DisplayName: Nuclear
 MarksmanShot.DisplayName: Disparo do Atirador
 MechanicalBarracuda.DisplayName: Barracuda
 MeowCreature.DisplayName: a criatura :3
-MeowFire.DisplayName: Purr Fogo
+MeowFire.DisplayName: Ronron-Fogo
 MineralMortarProjectile.DisplayName: Bomba de Ônix
-MiniatureFolly.DisplayName: Folião Miniatura
+MiniatureFolly.DisplayName: Folião em Miniatura
 MiniSharkron.DisplayName: Mini-Tubarão-Dragão
 MistArrow.DisplayName: Flecha de Névoa
 MistArrowFrostMist.DisplayName: Névoa Congelante
@@ -240,7 +240,7 @@ UltimaBolt.DisplayName: Feixe Ultima
 UltimaRay.DisplayName: Raio Ultima
 UltimaSpark.DisplayName: Faísca Ultima
 UniversalGenesisStar.DisplayName: Estrela Gênese
-UniversalGenesisStarcaller.DisplayName: Tiro Chamador de estrelas
+UniversalGenesisStarcaller.DisplayName: Tiro Chamador de Estrelas
 VanquisherArrowMain.DisplayName: Flecha do Vencedor
 VanquisherArrowProj.DisplayName: Projétil da Flecha do Vencedor
 VeriumBoltProj.DisplayName: Feixe de Vério
