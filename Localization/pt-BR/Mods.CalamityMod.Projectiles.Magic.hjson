@@ -1,266 +1,266 @@
-// AbyssBall.DisplayName: Abyss Ball
-// AcidGunStream.DisplayName: Acid Stream
-// AcidicReed.DisplayName: Acidic Reed
-// AcidicSaxBubble.DisplayName: Acid Bubble
-// AcidicSaxMist.DisplayName: Acid Mist
-// AetherBeam.DisplayName: Aether Beam
-// AnahitasArpeggioNote.DisplayName: Anahita's Song
-// Ancient.DisplayName: Ancient Dust
-// Ancient2.DisplayName: Ancient Dust
-// ApotheosisEnergy.DisplayName: Apotheosis Energy
-// ApotheosisWorm.DisplayName: The Devourer of Gods
-// AquamarineBolt.DisplayName: Aqua Bolt
-// ArcticBearPawProj.DisplayName: Arctic Bear Paw
-// ArtAttackStar.DisplayName: Artsy Star
-// ArtAttackStrike.DisplayName: Art Attack
-// Asteroid.DisplayName: Asteroid
-// AsteroidMolten.DisplayName: Molten Asteroid
-// AstralachneaFang.DisplayName: Astral Fang
-// AstralCrystal.DisplayName: Astral Crystal
-// AstralCrystalInvisibleExplosion.DisplayName: Astral Crystal Invisible Explosion
-// AstralStarMagic.DisplayName: Astral Star
-// AtlantisSpear.DisplayName: Atlantis Spear
-// AuraRain.DisplayName: Aura Rain
-// AuroraAustralis.DisplayName: Aurora Australis
-// BeamingBolt.DisplayName: Beaming Bolt
-// BeamingBolt2.DisplayName: Beaming Bolt
-// BeamStar.DisplayName: Stardust Star
-// BeastScythe.DisplayName: Beast Scythe
-// BigBeamofDeath.DisplayName: Big Beam of Death
-// BigBeamofDeath2.DisplayName: Big Beam of Death
-// BlackAnurianBubble.DisplayName: Anurian Bubble
-// BlackAnurianPlankton.DisplayName: Anurian Plankton
-// BlindingLight.DisplayName: Blinding Light
-// BloodBeam.DisplayName: Blood Beam
-// BloodBlast.DisplayName: Blood Blast
-// BloodRay.DisplayName: Blood Ray
-// BlueBubble.DisplayName: Bubble
-// BlushieStaffProj.DisplayName: Staff of Blushie
-// BrimroseBeam.DisplayName: Brimrose Beam
-// BrimstoneFireball.DisplayName: Brimstone Fireball
-// BrimstoneHellfireballFriendly.DisplayName: Hellfireball
-// BrimstoneHomer.DisplayName: Brimstone Homer
-// BrimstoneTentacle.DisplayName: Brimstone Tentacle
-// CauldronProj.DisplayName: Smauldron
-// CauldronProjSmall.DisplayName: Smaullerdron
-// ChronoIcicleLarge.DisplayName: Chrono Icicle
-// ChronoIcicleSmall.DisplayName: Chrono Icicle
-// ChronomancersScytheHoldout.DisplayName: Chronomancer's Scythe
-// ClamorNoctusStar.DisplayName: Clamor Star
-// ClamorNoctusWyvern.DisplayName: Clamor Wyvern
-// ClimaxBeam.DisplayName: Voltaic Bolt
-// ClimaxProj.DisplayName: Voltaic Orb
-// CoralSpike.DisplayName: Coral Spike
-// CosmicTentacle.DisplayName: Dark Tentacle
-// CryoBlast.DisplayName: Cryo Blast
-// DarkSparkBeam.DisplayName: Dark Spark Beam
-// DarkSparkPrism.DisplayName: Dark Crystal
-// DeathhailBeam.DisplayName: Deathhail
-// DustProjectile.DisplayName: Death Valley Dust
-// EelDrop.DisplayName: Acid Eel Drop
-// EidolicWailSoundwave.DisplayName: Eidolic Wail
-// EldritchTentacle.DisplayName: Eldritch Tentacle
-// ElementTentacle.DisplayName: Elemental Tentacle
-// EnormousConsumingVortex.DisplayName: Subsuming Vortex
-// EternityCircle.DisplayName: Eternity
-// EternityCrystal.DisplayName: Crystal
-// EternityHex.DisplayName: Eternity
-// EternityHoming.DisplayName: Eternity
-// EventHorizonBlackhole.DisplayName: Blackhole
-// EventHorizonStar.DisplayName: Event Horizon Star
-// EvergladeSprayProjectile.DisplayName: Everglade Spray
-// ExoVortex.DisplayName: Subsuming Vortex
-// ExoVortex2.DisplayName: Subsuming Vortex
-// FatesRevealFlame.DisplayName: Fate's Reveal
-// FlamingPumpkin.DisplayName: Pumpkin
-// FlareBoltProjectile.DisplayName: Flare Bolt
-// ForbiddenAxeBlade.DisplayName: Ruin Blade
-// ForbiddenSunburst.DisplayName: Sunburst
-// ForbiddenSunProjectile.DisplayName: Forbidden Sun
-// FrigidflashBoltProjectile.DisplayName: Frigidflash Bolt
-// FrostBoltProjectile.DisplayName: Frost Ball
-// GammaLaser.DisplayName: Gamma Laser
-// GenesisBeam.DisplayName: Genesis Beam
-// GhastlyBlast.DisplayName: Ghast Blast
-// GhastlyExplosion.DisplayName: Ghastly Explosion
-// GhastlyExplosionShard.DisplayName: Ghastly Fragment
-// GhastlySubBlast.DisplayName: Ghast Blast
-// GleamingBolt.DisplayName: Gleaming Bolt
-// GleamingBolt2.DisplayName: Gleaming Bolt
-// GraniteEnergy.DisplayName: Granite Energy
-// GranitePulse.DisplayName: Granite Pulse
-// HadalUrnIsopod.DisplayName: Abyssal Isopod
-// HadalUrnJellyfish.DisplayName: Mirage Jelly
-// HadalUrnLamprey.DisplayName: Sea Lamprey
-// HadalUrnStarfish.DisplayName: Marianan Starfish
-// HadalUrnStarfishShard.DisplayName: Starfish Shard
-// HeliumFlashBlast.DisplayName: Helium Flash
-// HellfireExplosionFriendly.DisplayName: Explosion
-// HellwingBat.DisplayName: Ashen Hellwing
-// HolyFlame.DisplayName: Holy Flame
-// HolyLaser.DisplayName: Holy Laser
-// IceBarrageMain.DisplayName: Ice Barrage
-// IceBlock.DisplayName: Ice Barrage
-// IceBlockIcicle.DisplayName: Ice Barrage
-// IceCluster.DisplayName: Ice Cluster
-// Icicle.DisplayName: Icicle
-// IcicleStaffProj.DisplayName: Furious Icicle
-// InfernadoFriendly.DisplayName: Infernado
-// InfernadoMarkFriendly.DisplayName: Infernado Mark
-// InfernalBlade.DisplayName: Infernal Blade
-// InfernalBlade2.DisplayName: Infernal Blade
-// IonBlast.DisplayName: Ion Blast
-// KeelhaulBubble.DisplayName: Keelhaul Bubble
-// KeelhaulGeyserBottom.DisplayName: Keelhaul Geyser
-// KeelhaulGeyserTop.DisplayName: Keelhaul Geyser
-// LazharSolarBeam.DisplayName: Concentrated Solar Beam
-// LightBall.DisplayName: Light Ball
-// LightBallExplosion.DisplayName: Light Explosion
-// LightBead.DisplayName: Light Bead
-// LightBeadSplit.DisplayName: Light Bead
-// LightBlade.DisplayName: Light Blade
-// LightningArc.DisplayName: Lightning Arc
-// LiquidBlade.DisplayName: Liquidating Blade
-// LiquidBlade2.DisplayName: Liquidating Blade
-// LuxorsGiftMagic.DisplayName: Luxor's Magic
-// MadAlchemistsCocktailAlt.DisplayName: Mad Alchemist's Prismatic Cocktail
-// MadAlchemistsCocktailBlue.DisplayName: Mad Alchemist's Blue Cocktail
-// MadAlchemistsCocktailGasCloud.DisplayName: Mad Alchemist's Gas
-// MadAlchemistsCocktailGreen.DisplayName: Mad Alchemist's Green Cocktail
-// MadAlchemistsCocktailPurple.DisplayName: Mad Alchemist's Purple Cocktail
-// MadAlchemistsCocktailRed.DisplayName: Mad Alchemist's Red Cocktail
-// MadAlchemistsCocktailShrapnel.DisplayName: Mad Alchemist's Shrapnel
-// MagneticBeam.DisplayName: Magnetic Beam
-// MagneticOrb.DisplayName: Magnetic Orb
-// ManaBolt.DisplayName: Mana Bolt
-// ManaBoltSmall.DisplayName: Mana Bolt
-// ManaBoltSmall2.DisplayName: Mana Bolt
-// ManaChargedCoral.DisplayName: Mana-charged Coral
-// ManaMonster.DisplayName: Mana Monster
-// MelterAmp.DisplayName: Melter Amp
-// MelterNote1.DisplayName: Melter Song
-// MelterNote2.DisplayName: Melter Song
-// MeteorStar.DisplayName: Meteor Star
-// MeteorStarExplosion.DisplayName: Explosion
-// MiasmaGas.DisplayName: Miasma Gas
-// NanoPurgeLaser.DisplayName: Nano Beam
-// NebulaCloud.DisplayName: Nebula Cloud
-// NebulaCloudCore.DisplayName: Nebula Cloud Core
-// NebulaElementalBeam.DisplayName: Nebula Beam
-// NebulaNova.DisplayName: Nebula Nova
-// NettleRight.DisplayName: Nettle Thorn
-// NightBolt.DisplayName: Night's Bolt
-// NightOrb.DisplayName: Night's Orb
-// NightsRayBeam.DisplayName: Night's Ray
-// NuclearFuryProjectile.DisplayName: Nuclear Fury
-// OmicronBeam.DisplayName: Omicron Beam
-// PartySparkle.DisplayName: Pretty Sparkle
-// PhantasmalFuryProj.DisplayName: Phantasmal Fury
-// Phantom.DisplayName: Phantom
-// PhasedGodRay.DisplayName: Phased God Ray
-// PhotosyntheticShard.DisplayName: Photosynthetic Shard
-// PhotosyntheticSolarBeam.DisplayName: Solar Beam
-// PlagueFang.DisplayName: Plague Fang
-// PlasmaBolt.DisplayName: Plasma Bolt
-// PlasmaRay.DisplayName: Plasma Ray
-// PlasmaRay2.DisplayName: Plasma Ray
-// PlasmaShot.DisplayName: Plasma Shot
-// PoseidonTyphoon.DisplayName: Poseidon Typhoon
-// PrinceFlameLarge.DisplayName: Holy Fireball
-// PrinceFlameSmall.DisplayName: Holy Fire
-// RainbowComet.DisplayName: Comet
-// RainbowRocket.DisplayName: Rainbow Rocket
-// RancorArm.DisplayName: Vengeful Arm
-// RancorFog.DisplayName: The Fog Is Coming
-// RancorLargeCinder.DisplayName: Lava Cinder
-// RancorLaserbeam.DisplayName: The Angy Beam
-// RancorMagicCircle.DisplayName: Magic Circle
-// RancorSmallCinder.DisplayName: Rancor Cinder
-// RedirectingFire.DisplayName: Fire
-// RedirectingGildedSoul.DisplayName: Gilded Soul
-// RedirectingLostSoul.DisplayName: Soul
-// RedirectingVengefulSoul.DisplayName: Soul
-// RougeSlashLarge.DisplayName: Rouge Slash
-// RougeSlashMedium.DisplayName: Rouge Slash
-// RougeSlashSmall.DisplayName: Rouge Slash
-// Sandstream.DisplayName: Sandstream
-// SandstreamScepterExplosion.DisplayName: Sandstream Blast
-// SanguineFlareProj.DisplayName: Sanguine Flare
-// SeethingDischargeBrimstoneBarrage.DisplayName: Seething Brimstone
-// SeethingDischargeBrimstoneHellblast.DisplayName: Seething Hellblast
-// SerpentineBody.DisplayName: Serpentine
-// SerpentineHead.DisplayName: Serpentine
-// SerpentineTail.DisplayName: Serpentine
-// ShadecrystalProjectile.DisplayName: Shadecrystal
-// ShadeNimbus.DisplayName: Shade Nimbus
-// ShadeNimbusCloud.DisplayName: Shade Nimbus
-// Shaderain.DisplayName: Shaderain
-// Shadowbolt.DisplayName: Shadowbolt
-// ShiftingSandsProj.DisplayName: Shifting Sands
-// SHPB.DisplayName: SHPB
-// SHPExplosion.DisplayName: SHPB Explosion
-// SHPL.DisplayName: SHPL
-// SilvaBurst.DisplayName: Silva Burst
-// SlitheringEelProjectile.DisplayName: Slithering Eel
-// SmallSpirit.DisplayName: Small Angry Spirit
-// Snowball.DisplayName: Snowball
-// Snowflake.DisplayName: Snowflake
-// SnowflakeIceStar.DisplayName: Ice Star
-// SolarElementalBeam.DisplayName: Solar Beam
-// SoulPiercerBeam.DisplayName: Soul Piercer
-// SoulPiercerBolt.DisplayName: Soul Piercer
-// SparkInfernal.DisplayName: Spark
-// SparklingLaser.DisplayName: Sparkling Laser
-// SpiritCongregation.DisplayName: Spirit Monster
-// SpiritDust.DisplayName: Spirit Dust
-// Starblast.DisplayName: Star
-// StardustElementalBeam.DisplayName: Stardust Beam
-// StickyFeather.DisplayName: Feather
-// SupremeDustFlakProjectile.DisplayName: Earthy Dust
-// SupremeDustProjectile.DisplayName: Earthy Dust
-// SylvBolt.DisplayName: Sylv Bolt
-// SylvRay.DisplayName: Sylv Ray
-// TacticiansElectricBoom.DisplayName: Electric Explosion
-// TacticiansTrumpCardProj.DisplayName: Trump Beam
-// TearsofHeavenProjectile.DisplayName: Tears of Heaven
-// Teslabeam.DisplayName: Teslabeam
-// ThunderstormShot.DisplayName: Thunderous Shot
-// ThunderstormShotSplit.DisplayName: Thunderous Shot
-// TradewindsProjectile.DisplayName: Tradewinds Feather
-// TridentIcicle.DisplayName: Trident Icicle
-// UberBubble.DisplayName: Bubble
-// UndinesRetributionSpear.DisplayName: Undine's Retribution
-// ValkyrieRayBeam.DisplayName: Valkyrie Ray
-// ValkyrieRayStaff.DisplayName: Valkyrie Ray
-// VeeringWindAirWave.DisplayName: Veering Wind Air Wave
-// VeeringWindFrostWave.DisplayName: Veering Wind Frost Wave
-// Vehemence.DisplayName: Blast of Vehemence
-// VehemenceSkull.DisplayName: Vehement Skull
-// VenusianBolt.DisplayName: Venusian Bolt
-// VenusianExplosion.DisplayName: Venusian Explosion
-// VenusianFlame.DisplayName: Venusian Cinder
-// VisceraBeam.DisplayName: Viscera
-// VisceraBoom.DisplayName: Viscera Boom
-// VitriolicViperFang.DisplayName: Vitriolic Fang
-// VitriolicViperSpit.DisplayName: Vitriolic Spit
-// VividBeam.DisplayName: Vivid Beam
-// VividBolt.DisplayName: Vivid Bolt
-// VividClarityBeam.DisplayName: Vivid Ray
-// VividExplosion.DisplayName: Vivid Explosion
-// VividLaser2.DisplayName: Vivid Laser
-// VividOrb.DisplayName: Vivid Orb
-// VoidVortexProj.DisplayName: Void Vortex
-// VolatileStarcore.DisplayName: Volatile Starcore
-// VortexElementalBeam.DisplayName: Vortex Lightning
-// WaterLeechProj.DisplayName: Water Leech
-// WaywasherProj.DisplayName: Waywasher Blast
-// WingmanShot.DisplayName: Mana Shot
-// WingmanGrenade.DisplayName: Mana Grenade
-// WulfrumBolt.DisplayName: Wulfrum Bolt
-// WulfrumManaDrain.DisplayName: Mana Drain
-// WyvernFeatherGreen.DisplayName: Feather
-// WyvernFeatherPink.DisplayName: Feather
-// WyvernFeatherPurple.DisplayName: Feather
-// WyvernProjectile.DisplayName: Wyvern
-// YharimsCrystalBeam.DisplayName: Yharim's Beam
-// YharimsCrystalPrism.DisplayName: Yermes Christal
+AbyssBall.DisplayName: Bola do Abismo
+AcidGunStream.DisplayName: Fluxo Ácido
+AcidicReed.DisplayName: Cana Ácida
+AcidicSaxBubble.DisplayName: Bolha Ácida
+AcidicSaxMist.DisplayName: Névoa Ácida
+AetherBeam.DisplayName: Feixe Etéreo
+AnahitasArpeggioNote.DisplayName: Canção de Anahita
+Ancient.DisplayName: Pó Antigo
+Ancient2.DisplayName: Pó Antigo
+ApotheosisEnergy.DisplayName: Energia da Apoteose
+ApotheosisWorm.DisplayName: O Devorador de Deuses
+AquamarineBolt.DisplayName: Raio Aquático
+ArcticBearPawProj.DisplayName: Pata de Urso Ártico
+ArtAttackStar.DisplayName: Estrela Artística
+ArtAttackStrike.DisplayName: Ataque Artístico
+Asteroid.DisplayName: Asteróide
+AsteroidMolten.DisplayName: Asteróide Derretido
+AstralachneaFang.DisplayName: Presa Astral
+AstralCrystal.DisplayName: Cristal Astral
+AstralCrystalInvisibleExplosion.DisplayName: Explosão Invisível do Cristal Astral
+AstralStarMagic.DisplayName: Estrela Astral
+AtlantisSpear.DisplayName: Lança de Atlântida
+AuraRain.DisplayName: Chuva de Aura
+AuroraAustralis.DisplayName: Aurora Australis
+BeamingBolt.DisplayName: Raio da Flor Radiante
+BeamingBolt2.DisplayName: Raio da Flor Radiante
+BeamStar.DisplayName: Estrela de Pó das Estrelas
+BeastScythe.DisplayName: Foice da Besta
+BigBeamofDeath.DisplayName:  Grande Feixe da Morte
+BigBeamofDeath2.DisplayName: Grande Feixe da Morte
+BlackAnurianBubble.DisplayName: Bolha Anuriana
+BlackAnurianPlankton.DisplayName: Plâncton Anuriano
+BlindingLight.DisplayName: Luz Ofuscante
+BloodBeam.DisplayName: Feixe de Sangue
+BloodBlast.DisplayName: Explosão de Sangue
+BloodRay.DisplayName: Raio de Sangue
+BlueBubble.DisplayName: Bolha
+BlushieStaffProj.DisplayName: Cajado de Blushie
+BrimroseBeam.DisplayName: Feixe da Rosa de Enxofre
+BrimstoneFireball.DisplayName: Bola de Fogo de Enxofre
+BrimstoneHellfireballFriendly.DisplayName: Bola de Fogo Infernal
+BrimstoneHomer.DisplayName: Homero de Enxofre
+BrimstoneTentacle.DisplayName: Tentáculo de Enxofre
+CauldronProj.DisplayName: Smauldron
+CauldronProjSmall.DisplayName: Smaullerdron
+ChronoIcicleLarge.DisplayName: Gelo-Crono
+ChronoIcicleSmall.DisplayName: Gelo-Crono
+ChronomancersScytheHoldout.DisplayName: Foice do Cronomante
+ClamorNoctusStar.DisplayName: Estrela do Clamor
+ClamorNoctusWyvern.DisplayName: Serpe do Clamor
+ClimaxBeam.DisplayName: Raio Voltaico
+ClimaxProj.DisplayName: Orbe Voltaico
+CoralSpike.DisplayName: Espinho de Coral
+CosmicTentacle.DisplayName: Tentáculo Sombrio
+CryoBlast.DisplayName: Rajada Criogênica
+DarkSparkBeam.DisplayName: Feixe de Faísca Sombria
+DarkSparkPrism.DisplayName: Cristal Sombrio
+DeathhailBeam.DisplayName: Granizo da Morte
+DustProjectile.DisplayName: Poeira do Vale da Morte
+EelDrop.DisplayName: Gota Ácida de Enguia
+EidolicWailSoundwave.DisplayName: Uivo Eidólico
+EldritchTentacle.DisplayName: Tentáculo Sobrenatural
+ElementTentacle.DisplayName: Tentáculo Elemental
+EnormousConsumingVortex.DisplayName: Vórtice Subsumidor
+EternityCircle.DisplayName: Eternidade
+EternityCrystal.DisplayName: Cristal
+EternityHex.DisplayName: Eternidade
+EternityHoming.DisplayName: Eternidade
+EventHorizonBlackhole.DisplayName: Buraco Negro
+EventHorizonStar.DisplayName: Estrela do Horizonte de Eventos
+EvergladeSprayProjectile.DisplayName: Jato do Pântano
+ExoVortex.DisplayName: Vórtice Subsumidor
+ExoVortex2.DisplayName: Vórtice Subsumidor
+FatesRevealFlame.DisplayName: Revelação do Destino
+FlamingPumpkin.DisplayName: Abóbora
+FlareBoltProjectile.DisplayName: Raio de Fogo
+ForbiddenAxeBlade.DisplayName: Lâmina da Ruína
+ForbiddenSunburst.DisplayName: Explosão do Sol
+ForbiddenSunProjectile.DisplayName: Sol Proibido
+FrigidflashBoltProjectile.DisplayName: Raio do Clarão Gélido
+FrostBoltProjectile.DisplayName: Esfera de Gelo
+GammaLaser.DisplayName: Laser Gama
+GenesisBeam.DisplayName: Feixe Genese
+GhastlyBlast.DisplayName: Rajada Fantasma
+GhastlyExplosion.DisplayName: Explosão Fantasmagórica
+GhastlyExplosionShard.DisplayName: Fragmento Fantasmagórico
+GhastlySubBlast.DisplayName: Rajada Fantasma
+GleamingBolt.DisplayName: Raio Cintilante
+GleamingBolt2.DisplayName: Raio Cintilante
+GraniteEnergy.DisplayName: Energia de Granito
+GranitePulse.DisplayName: Pulso de Granito
+HadalUrnIsopod.DisplayName: Isópode Abissal
+HadalUrnJellyfish.DisplayName: Geleia da Miragem
+HadalUrnLamprey.DisplayName: Lampreia-mMrinha
+HadalUrnStarfish.DisplayName: Estrela-Do-Mar Mariana
+HadalUrnStarfishShard.DisplayName: Fragmento de Estrela-do-Mar
+HeliumFlashBlast.DisplayName: Flash de Hélio
+HellfireExplosionFriendly.DisplayName: Explosão
+HellwingBat.DisplayName: Asas-Morcego do Inferno Cinzentas
+HolyFlame.DisplayName: Chama Sagrada
+HolyLaser.DisplayName: Laser Sagrado
+IceBarrageMain.DisplayName: Barragem de Gelo
+IceBlock.DisplayName: Barragem de Gelo
+IceBlockIcicle.DisplayName: Barragem de Gelo
+IceCluster.DisplayName: Aglomerado de Gelo
+Icicle.DisplayName: Gelo Gelado
+IcicleStaffProj.DisplayName: Gelo Furioso
+InfernadoFriendly.DisplayName: Infernado
+InfernadoMarkFriendly.DisplayName: Marca do Infernado 
+InfernalBlade.DisplayName: Lâmina Infernal
+InfernalBlade2.DisplayName: Lâmina Infernal
+IonBlast.DisplayName: Explosão de Íons
+KeelhaulBubble.DisplayName: Bolha de Quilha
+KeelhaulGeyserBottom.DisplayName: Gêiser de Quilha
+KeelhaulGeyserTop.DisplayName: Gêiser de Quilha
+LazharSolarBeam.DisplayName: Feixe Solar Concentrado
+LightBall.DisplayName: Bola de Luz
+LightBallExplosion.DisplayName: Explosão de Luz
+LightBead.DisplayName: Conta de Luz
+LightBeadSplit.DisplayName: Conta de Luz
+LightBlade.DisplayName: Lãmina de Luz
+LightningArc.DisplayName: Arco Relâmpago
+LiquidBlade.DisplayName: Lâmina Liquidante
+LiquidBlade2.DisplayName: Lâmina Liquidante
+LuxorsGiftMagic.DisplayName: Luxor da Magia
+MadAlchemistsCocktailAlt.DisplayName: Coquetel Prismático do Alquimista Maluco
+MadAlchemistsCocktailBlue.DisplayName: Coquetel Azul do Alquimista Maluco
+MadAlchemistsCocktailGasCloud.DisplayName: Gás do Alquimista Maluco
+MadAlchemistsCocktailGreen.DisplayName: Coquetel Verde do Alquimista Maluco
+MadAlchemistsCocktailPurple.DisplayName: Coquetel Roxo do Alquimista Maluco
+MadAlchemistsCocktailRed.DisplayName: Coquetel Vermelho do Alquimista Maluco
+MadAlchemistsCocktailShrapnel.DisplayName: Estilhaços do Alquimista Maluco
+MagneticBeam.DisplayName: Feixe Magnético
+MagneticOrb.DisplayName: Orbe Magnético
+ManaBolt.DisplayName: Raio de Mana
+ManaBoltSmall.DisplayName: Raio de Mana
+ManaBoltSmall2.DisplayName: Raio de Mana
+ManaChargedCoral.DisplayName: Coral Carregado de Mana
+ManaMonster.DisplayName: Mostro de Mana
+MelterAmp.DisplayName: Amplicador do Derretimento
+MelterNote1.DisplayName: Som Derretedor
+MelterNote2.DisplayName: Som Derretedor
+MeteorStar.DisplayName: Estrela Meteoro
+MeteorStarExplosion.DisplayName: Explosão
+MiasmaGas.DisplayName: Gás Miasma
+NanoPurgeLaser.DisplayName: Nano-Feixe
+NebulaCloud.DisplayName: Nuvem Nébula
+NebulaCloudCore.DisplayName: Núcleo da Nuvem Nébula
+NebulaElementalBeam.DisplayName: Feixe Nébula
+NebulaNova.DisplayName: Nova Nébula
+NettleRight.DisplayName: Espinho Urtiga
+NightBolt.DisplayName: Feixe da Noite
+NightOrb.DisplayName: Orbe da Noite
+NightsRayBeam.DisplayName: Raio da Noite
+NuclearFuryProjectile.DisplayName: Fúria Nuclear
+OmicronBeam.DisplayName: Feixe Ômicron
+PartySparkle.DisplayName: Brilho Lindo
+PhantasmalFuryProj.DisplayName: Fúria Fantasmagórica
+Phantom.DisplayName: Fanstama
+PhasedGodRay.DisplayName: Raio de Deus Faseado
+PhotosyntheticShard.DisplayName: Fragmento Fotossintético
+PhotosyntheticSolarBeam.DisplayName: Feixe Solar
+PlagueFang.DisplayName: Presa da Praga
+PlasmaBolt.DisplayName: Raio Elétrico de Plasma
+PlasmaRay.DisplayName: Raio de Plasma
+PlasmaRay2.DisplayName: Raio de Plasma
+PlasmaShot.DisplayName: Tiro de Plasma
+PoseidonTyphoon.DisplayName: Tufão Posídon
+PrinceFlameLarge.DisplayName: Bola de Fogo Sagrada
+PrinceFlameSmall.DisplayName: Fogo Sagrado
+RainbowComet.DisplayName: Cometa
+RainbowRocket.DisplayName: Foguete Arco-Íris
+RancorArm.DisplayName: Braço Vingativo
+RancorFog.DisplayName: A Névoa está Vindo
+RancorLargeCinder.DisplayName: Cinza de Lava
+RancorLaserbeam.DisplayName: O Feixe Angy
+RancorMagicCircle.DisplayName: Círculo Mágico
+RancorSmallCinder.DisplayName: Cinza de Rancor
+RedirectingFire.DisplayName: Fogo
+RedirectingGildedSoul.DisplayName: Alma Dourada
+RedirectingLostSoul.DisplayName: Alma
+RedirectingVengefulSoul.DisplayName: Alma
+RougeSlashLarge.DisplayName: Corte Furtivo
+RougeSlashMedium.DisplayName: Corte Furtivo
+RougeSlashSmall.DisplayName: Corte Furtivo
+Sandstream.DisplayName: Fluxo de Areia
+SandstreamScepterExplosion.DisplayName: Explosão do Fluxo de Areia
+SanguineFlareProj.DisplayName: Chama Sanguinária
+SeethingDischargeBrimstoneBarrage.DisplayName: Explosão Fervente
+SeethingDischargeBrimstoneHellblast.DisplayName: Explosão Infernal Fervente
+SerpentineBody.DisplayName: Serpentina
+SerpentineHead.DisplayName: Serpentina
+SerpentineTail.DisplayName: Serpentina
+ShadecrystalProjectile.DisplayName: Cristal Sombrio
+ShadeNimbus.DisplayName: Nuvem Sombria
+ShadeNimbusCloud.DisplayName: Nuvem Sombria
+Shaderain.DisplayName: Chuva Sombria
+Shadowbolt.DisplayName: Raio das Sombras
+ShiftingSandsProj.DisplayName: Areia Movediça
+SHPB.DisplayName: SHPB
+SHPExplosion.DisplayName: Explosão SHPB
+SHPL.DisplayName: SHPL
+SilvaBurst.DisplayName: Explosão Silva
+SlitheringEelProjectile.DisplayName: Enguia Rastejante
+SmallSpirit.DisplayName: Pequeno Espírito Zangado
+Snowball.DisplayName: Bola de Neve
+Snowflake.DisplayName: Floco de NEve
+SnowflakeIceStar.DisplayName: Estrela de Gelo
+SolarElementalBeam.DisplayName: Feixe Solar
+SoulPiercerBeam.DisplayName: Perfurador de Almas
+SoulPiercerBolt.DisplayName: Perfurador de Almas
+SparkInfernal.DisplayName: Faísca
+SparklingLaser.DisplayName: Laser Faiscante
+SpiritCongregation.DisplayName: Monstro Espírito
+SpiritDust.DisplayName: Pó Espírito
+Starblast.DisplayName: Estrela
+StardustElementalBeam.DisplayName: Feixe de Pó das Estrelas
+StickyFeather.DisplayName: Pena
+SupremeDustFlakProjectile.DisplayName: Pó Terroso
+SupremeDustProjectile.DisplayName: Pó Terroso
+SylvBolt.DisplayName: Raio Elétrico Silvestre
+SylvRay.DisplayName: Raio Silvestre
+TacticiansElectricBoom.DisplayName: Explosão Elétrica
+TacticiansTrumpCardProj.DisplayName: Feixe Trunfo
+TearsofHeavenProjectile.DisplayName: Lágrimas do Céu
+Teslabeam.DisplayName: Feixe-Tesla
+ThunderstormShot.DisplayName: Tiro Trovuoso
+ThunderstormShotSplit.DisplayName: Tiro Trovuoso
+TradewindsProjectile.DisplayName: Pena Alísio
+TridentIcicle.DisplayName: Tridente Gélido
+UberBubble.DisplayName: Bolha
+UndinesRetributionSpear.DisplayName: Retribuição de Undine
+ValkyrieRayBeam.DisplayName: Raio Valquíria
+ValkyrieRayStaff.DisplayName: Raio Valquíria
+VeeringWindAirWave.DisplayName: Onda de Ar de Ventomoinho
+VeeringWindFrostWave.DisplayName: Onda de Frio de Ventomoinho
+Vehemence.DisplayName: Rajada da Veemência
+VehemenceSkull.DisplayName: Caveira Veemente
+VenusianBolt.DisplayName: Raio Venusiano
+VenusianExplosion.DisplayName: Explosão Venusiana
+VenusianFlame.DisplayName: Cinza Venusiana
+VisceraBeam.DisplayName: Víscera
+VisceraBoom.DisplayName: Bum Víscero
+VitriolicViperFang.DisplayName: Presa Vitriólica
+VitriolicViperSpit.DisplayName: Cuspe Vitriólico
+VividBeam.DisplayName: Feixe Vívido
+VividBolt.DisplayName: Raio Elétrico Vívido
+VividClarityBeam.DisplayName: Raio Vívido
+VividExplosion.DisplayName: Explosão Vívida
+VividLaser2.DisplayName: Laser Vívido
+VividOrb.DisplayName: Orbe Vívido
+VoidVortexProj.DisplayName: Vórtice do Vazio
+VolatileStarcore.DisplayName: Núcleo Estelar Volátil
+VortexElementalBeam.DisplayName: Vórtice Relâmpago
+WaterLeechProj.DisplayName: Água Sanguessuga
+WaywasherProj.DisplayName: Rajada de Lava-Caminhos
+WingmanShot.DisplayName: Tiro de Mana
+WingmanGrenade.DisplayName: Granada de Mana
+WulfrumBolt.DisplayName: Raio Vulfrúmio
+WulfrumManaDrain.DisplayName: Dreno de Mana
+WyvernFeatherGreen.DisplayName: Pena
+WyvernFeatherPink.DisplayName: Pena
+WyvernFeatherPurple.DisplayName: Pena
+WyvernProjectile.DisplayName: Serpe
+YharimsCrystalBeam.DisplayName: Feixe de Yharim
+YharimsCrystalPrism.DisplayName: Christal Yermes 
