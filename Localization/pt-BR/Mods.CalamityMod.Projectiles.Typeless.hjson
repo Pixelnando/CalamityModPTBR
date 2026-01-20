@@ -1,7 +1,7 @@
 AbaddonCrit.DisplayName: Explosão de Enxofre
 AeroExplosive.DisplayName: Aerobum
 AllianceTriangle.DisplayName: Triângulo da Aliança
-// ArcZap.DisplayName: Arc Zap
+ArcZap.DisplayName: Arco Zap
 ArtifactOfResilienceShard1.DisplayName: Fragmento de Artefato
 ArtifactOfResilienceShard2.DisplayName: Fragmento de Artefato
 ArtifactOfResilienceShard3.DisplayName: Fragmento de Artefato
@@ -13,123 +13,123 @@ AstralFallingSand.DisplayName: Cascata de Areia Astral
 AstralSandBallFalling.DisplayName: Areia Astral
 AstralSandBallGun.DisplayName: Areia Astral
 AstralSpray.DisplayName: Borrifada Astral
-// AstralStar.DisplayName: Star
-// BallisticPoisonCloud.DisplayName: Ballistic Cloud
-// BasicPlagueBee.DisplayName: Basic Plague Bee
-// BlazingStarHeal.DisplayName: Blazing Star Heal
-// BlazingStarThatDoesNotHeal.DisplayName: Blazing Star That Does Not Heal
-// BlazingSun.DisplayName: Blazing Sun
-// BlazingSun2.DisplayName: Blazing Sun
-// BlissfulBombardierDustProjectile.DisplayName: Dust
-// BloodBomb.DisplayName: Bomb
-// BloodBombExplosion.DisplayName: Explosion
-// BlunderBoosterAura.DisplayName: Red Lightning Aura
-// BobbitHead.DisplayName: Bobbit Head
-// BossRushEffectThing.DisplayName: Boss Rush Effect Thing
-// BossRushEndEffectThing.DisplayName: Boss Rush End Effect Thing
-// BossRushFailureEffectThing.DisplayName: Boss Rush Failure Effect Thing
-// BossRushTierAnimation.DisplayName: Boss Rush Tier Animation
-// BrimstoneHellfireballFriendly2.DisplayName: Hellfire
-// ChaoticGeyser.DisplayName: Chaotic Geyser
-// ChlorophyteLifePulse.DisplayName: Life Pulse
-// ChronoClock.DisplayName: Chrono Clock
-// CoralBubble.DisplayName: Bubble
-// CoralBubbleSmall.DisplayName: Bubble
-// CosmicDashExplosion.DisplayName: Cosmic Dash Explosion
-// CryonicShield.DisplayName: Cryonic Shield
-// CursorProj.DisplayName: Aestheticus Crystal
-// CursorProjSplit.DisplayName: Aestheticus Crystal
-// CyanLabSeeker.DisplayName: Seeking Mechanism
-// DarkIce.DisplayName: Dark Ice
-// DeepseaBlaze.DisplayName: Deepsea Blaze
-// DemonshadeRedDevil.DisplayName: Red Devil
-// DevourerofCodsBobber.DisplayName: Devourer of Cods Bobber
-// DirectStrike.DisplayName: Nondescript Damaging Entity
-// DragonDust.DisplayName: Dust
-// EarlyBloomBobber.DisplayName: Early Bloom Bobber
-// EmpyreanBlast.DisplayName: Empyrean Blast
-// EmpyreanEmber.DisplayName: Empyrean Ember
-// EmpyreanGlob.DisplayName: Empyeran Glob
-// EmpyreanMarble.DisplayName: Empyrean Marble
-// EmpyreanStellarDetritus.DisplayName: Empyrean Stellar Detritus
-// EnergyShell.DisplayName: Energy Shell
-// EutrophicSandBallGun.DisplayName: Eutrophic Sand
-// FeralDoubleBobber.DisplayName: Feral Bobber
-// FlameLickedBarrage.DisplayName: Flame Licked Barrage
-// FlameLickedHellblast.DisplayName: Flame Licked Hellblast
-// FuckYou.DisplayName: Explosion
-// FungalClumpMinion.DisplayName: Fungal Clump
-// GemTechArmorGem.DisplayName: Trireme's Gem
-// GhostlyBolt.DisplayName: Bolt
-// GodKiller.DisplayName: God Killer
-// GodSlayerShrapnel.DisplayName: Flame
-// GodSlayerShrapnelRound.DisplayName: Round
-// GreenLabSeeker.DisplayName: Seeking Mechanism
-// HellfireExplosionFriendly2.DisplayName: Explosion
-// HeronBobber.DisplayName: Heron Bobber
-// HideOfAstrumDeusExplosion.DisplayName: Explosion
-// HolyExplosion.DisplayName: Explosion
-// HolyExplosionSupreme.DisplayName: Explosion
-// HydrothermalSmoke.DisplayName: Smoke
-// HydrothermicFlare.DisplayName: Hydrothermic Flare
-// HydrothermicFlareRogue.DisplayName: Hydrothermic Flare
-// HydrothermicSphere.DisplayName: Hydrothermic Sphere
-// JewelSpike.DisplayName: Spike
-// KelvinCatalystStar.DisplayName: Kelvin Catalyst Star
-// LeviAmberDash.DisplayName: Riptide Slam
-// LunicBeam.DisplayName: Beam
-// MageHammerBoom.DisplayName: Explosion
-// MagnusBeam.DisplayName: Beam
-// MythrilFlare.DisplayName: Mythril Flare
-// NanoFlare.DisplayName: Nano Flare
-// Nanotech.DisplayName: Nanoblade
-// NavyBobber.DisplayName: Navy Bobber
-// NebulaDust.DisplayName: Dust
-// NebulaStar.DisplayName: Star
-// NobodyKnows.DisplayName: Nope
-// OmegaBlueTentacle.DisplayName: Omega Blue Tentacle
-// OnyxLabSeeker.DisplayName: Seeking Mechanism
-// PauldronDash.DisplayName: Pauldron Dash
-// PauldronExplosion.DisplayName: Pauldron Explosion
-// PendantProjectile1.DisplayName: Prism Shard
-// PendantProjectile2.DisplayName: Prism Shard
-// PendantProjectile3.DisplayName: Prism Shard
-// PlaguePulse.DisplayName: Plague Pulse
-// PoisonousSeawater.DisplayName: Seawater
-// PscTransformAnimation.DisplayName: Psc Transform Animation
-// PscTransformRocks.DisplayName: Psc Transform Rocks
-// ReaverOrb.DisplayName: Reaver Orb
-// ReaverThornBase.DisplayName: Thorn
-// RedLabSeeker.DisplayName: Seeking Mechanism
-// RiftReelerBobber.DisplayName: Chaotic Bobber
-// SabatonBoom.DisplayName: Sabaton Boom
-// SabatonSlam.DisplayName: Sabaton Slam
-// SandCloakVeil.DisplayName: Dust Veil
-// SandExplosion.DisplayName: Sand
-// Seashell.DisplayName: Seashell
-// SepulcherSoul.DisplayName: Tormented Soul
-// SerpentsBiteHook.DisplayName: Serpent's Bite
-// ShadowflameExplosion.DisplayName: Shadowflame Explosion
-// ShadowflameExplosionBig.DisplayName: Shadowflame Explosion
-// SkyFlareFriendly.DisplayName: Flare
-// SlimeStream.DisplayName: Slime Stream
-// SlurperBobber.DisplayName: Slurper Bobber
-// SpiritOriginBullseye.DisplayName: Spirit Origin Bullseye
-// StandingFire.DisplayName: Flame
-// StarStruckWaterBottle.DisplayName: Bottle
-// StickyFeatherAero.DisplayName: Feather
-// SuicideBomberDemon.DisplayName: Demon
-// SulphuricAcidBubbleFriendly.DisplayName: Acid Bubble
-// SulphurousSandBallGun.DisplayName: Sulphurous Sand
-// TarraEnergy.DisplayName: Tarra Energy
-// TarragonAura.DisplayName: Tarragon Aura
-// TeslaAura.DisplayName: Tesla's Electricity
-// VerstaltiteBobber.DisplayName: Verstaltite Bobber
-// VoidFieldGenerator.DisplayName: Void Field Generator
-// WaterConvertor.DisplayName: Water Convertor
-// WhiteLabSeeker.DisplayName: Seeking Mechanism
-// WulfrumBobber.DisplayName: Wulfrum Bobber
-// WulfrumDiggingTurtleProjectile.DisplayName: Digging Turtle
-// WulfrumHook.DisplayName: Wulfrum Slingshot
-// WulfrumLureSignal.DisplayName: Signal
-// YellowLabSeeker.DisplayName: Seeking Mechanism
+AstralStar.DisplayName: Estrela
+BallisticPoisonCloud.DisplayName: Nuvem Balística
+BasicPlagueBee.DisplayName: Abelha da Praga Básica
+BlazingStarHeal.DisplayName: Estrela Ardente de Cura
+BlazingStarThatDoesNotHeal.DisplayName: Estrela Ardente Que Não Pode Curar
+BlazingSun.DisplayName: Sol Ardente
+BlazingSun2.DisplayName: Sol Ardente
+BlissfulBombardierDustProjectile.DisplayName: Poeira
+BloodBomb.DisplayName: Bomba
+BloodBombExplosion.DisplayName: Explosão
+BlunderBoosterAura.DisplayName: Aura Relâmpago Vermelha
+BobbitHead.DisplayName: Cabeça de Bobbit
+BossRushEffectThing.DisplayName: Efeito da Coisa da Corrida de Chefes
+BossRushEndEffectThing.DisplayName: Fim do Efeito da Coisa da Corrida de Chefes
+BossRushFailureEffectThing.DisplayName: Falha do Efeito da Coisa da Corrida de Chefes
+BossRushTierAnimation.DisplayName: Animação do Nível da Corrida de Chefes
+BrimstoneHellfireballFriendly2.DisplayName: Fogo do Inferno
+ChaoticGeyser.DisplayName: Gêiser Caótico
+ChlorophyteLifePulse.DisplayName: Pulso de Vida
+ChronoClock.DisplayName: Crono-Relógio
+CoralBubble.DisplayName: Bolha
+CoralBubbleSmall.DisplayName: Bolha
+CosmicDashExplosion.DisplayName: Explosão do Impulso Cósmico
+CryonicShield.DisplayName: Escudo Criônico
+CursorProj.DisplayName: Cristal Estético
+CursorProjSplit.DisplayName: Cristal Estético
+CyanLabSeeker.DisplayName: Mecanismo de Busca
+DarkIce.DisplayName: Gelo Sombrio
+DeepseaBlaze.DisplayName: Chama do Oceano Profundo
+DemonshadeRedDevil.DisplayName: Diabo Vermelho
+DevourerofCodsBobber.DisplayName: Bobber Devorador de Bacalhaus
+DirectStrike.DisplayName: Entidade Danosa Indefinida
+DragonDust.DisplayName: Pó
+EarlyBloomBobber.DisplayName: Flor Bobber Inicial
+EmpyreanBlast.DisplayName: Explosão Empírica
+EmpyreanEmber.DisplayName: Braza Empírica
+EmpyreanGlob.DisplayName: Bolha Empírica
+EmpyreanMarble.DisplayName: Mármore Empírico
+EmpyreanStellarDetritus.DisplayName: Detritos Estelares Empíricos
+EnergyShell.DisplayName: Concha Energética
+EutrophicSandBallGun.DisplayName: Areia Eutrófica
+FeralDoubleBobber.DisplayName: Bobber Feroz
+FlameLickedBarrage.DisplayName: Barragem de Chamas Lambidas
+FlameLickedHellblast.DisplayName: Explosão Infernal das Chamas Lambidas
+FuckYou.DisplayName: Explosão
+FungalClumpMinion.DisplayName: Aglomerado Fúngico
+GemTechArmorGem.DisplayName: Gema da Trirreme
+GhostlyBolt.DisplayName: Raio
+GodKiller.DisplayName: Matador de Deus
+GodSlayerShrapnel.DisplayName: Chama
+GodSlayerShrapnelRound.DisplayName: Trio
+GreenLabSeeker.DisplayName: Mecanismo de Busca
+HellfireExplosionFriendly2.DisplayName: Explosão
+HeronBobber.DisplayName: Garça Bobber
+HideOfAstrumDeusExplosion.DisplayName: Explosão
+HolyExplosion.DisplayName: Explosão
+HolyExplosionSupreme.DisplayName: Explosão
+HydrothermalSmoke.DisplayName: Fumaça
+HydrothermicFlare.DisplayName: Sinalizador Hidrotérmico
+HydrothermicFlareRogue.DisplayName: Sinalizador Hidrotérmico
+HydrothermicSphere.DisplayName: Esfera Hidrotérmica
+JewelSpike.DisplayName: Espinho
+KelvinCatalystStar.DisplayName: Estrela do Catalisador Kelvin
+LeviAmberDash.DisplayName: Golpe de Correnteza
+LunicBeam.DisplayName: Feixe
+MageHammerBoom.DisplayName: Explosão
+MagnusBeam.DisplayName: Feixe
+MythrilFlare.DisplayName: Sinalizador de Mithril
+NanoFlare.DisplayName: Nano-Sinalizador
+Nanotech.DisplayName: Nano-Lâmina
+NavyBobber.DisplayName: Bobber Marinho
+NebulaDust.DisplayName: Pó
+NebulaStar.DisplayName: Estrela
+NobodyKnows.DisplayName: Não
+OmegaBlueTentacle.DisplayName: Tentáculo Azul Omega
+OnyxLabSeeker.DisplayName: Mecanismo de Busca
+PauldronDash.DisplayName: Impulso da Ombreira
+PauldronExplosion.DisplayName: Explosão da Ombreira
+PendantProjectile1.DisplayName: Fragmento de Prisma
+PendantProjectile2.DisplayName: Fragmento de Prisma
+PendantProjectile3.DisplayName: Fragmento de Prisma
+PlaguePulse.DisplayName: Pulso da Praga
+PoisonousSeawater.DisplayName: Água do Mar
+PscTransformAnimation.DisplayName: Animação de Transformação de Psc
+PscTransformRocks.DisplayName: Pedras Transformadoras de Psc
+ReaverOrb.DisplayName: Orbe do Saqueador
+ReaverThornBase.DisplayName: Espinho
+RedLabSeeker.DisplayName: Mecanismo de Busca
+RiftReelerBobber.DisplayName: Bobber Caótico
+SabatonBoom.DisplayName: Bum do Sapato
+SabatonSlam.DisplayName: Golpe do Sapato
+SandCloakVeil.DisplayName: Véu de Poeira
+SandExplosion.DisplayName: Areia
+Seashell.DisplayName: Concha do Mar
+SepulcherSoul.DisplayName: Alma Atormentada
+SerpentsBiteHook.DisplayName: Mordida de Serpente
+ShadowflameExplosion.DisplayName: Explosão das Chamas das Sombras
+ShadowflameExplosionBig.DisplayName: Explosão das Chamas das Sombras
+SkyFlareFriendly.DisplayName: Sinalizador
+SlimeStream.DisplayName: Fluxo de Geleia
+SlurperBobber.DisplayName: Sorvete Bobber
+SpiritOriginBullseye.DisplayName: Alvo de Origem Espiritual
+StandingFire.DisplayName: Chama
+StarStruckWaterBottle.DisplayName: Garrafa
+StickyFeatherAero.DisplayName: Pena
+SuicideBomberDemon.DisplayName: Demônio
+SulphuricAcidBubbleFriendly.DisplayName: Bolha Ácida
+SulphurousSandBallGun.DisplayName: Areia Sulfurosa
+TarraEnergy.DisplayName: Estraga-Energia
+TarragonAura.DisplayName: Aura de Estragão
+TeslaAura.DisplayName: Eletricidade de Tesla
+VerstaltiteBobber.DisplayName: Bobber Verstaltite
+VoidFieldGenerator.DisplayName: Gerador do Campo do Vazio
+WaterConvertor.DisplayName:Conversor de Água
+WhiteLabSeeker.DisplayName: Mecanismo de Busca
+WulfrumBobber.DisplayName: Bobber de Vulfrúmio
+WulfrumDiggingTurtleProjectile.DisplayName: Tartaruga Escavadora
+WulfrumHook.DisplayName: Estilingue de Vulfrúmio
+WulfrumLureSignal.DisplayName: Sinal
+YellowLabSeeker.DisplayName: Mecanismo de Busca
