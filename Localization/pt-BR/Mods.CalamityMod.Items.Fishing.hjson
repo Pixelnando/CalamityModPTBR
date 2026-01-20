@@ -164,10 +164,10 @@ SerpentsBite: {
 	DisplayName: Mordida da Serpente
 	Tooltip:
 		'''
-		Alcance: 28.125
-		Velocidade de Lançamento: 18
-		Velocidade de Retorno: 14
-		Velocidade de Tração: 12
+		Alcance: 28,125 peças
+		Velocidade de lançamento: 18,00
+		Velocidade de retorno: 14,00
+		Velocidade de tração: 12,00
 		'''
 }
 
