@@ -1,332 +1,332 @@
-// AndromedaDeathRay.DisplayName: Beam
-// AndromedaRegislash.DisplayName: Regislash
-// AndromedaUI_Background.DisplayName: UI
-// AngelBolt.DisplayName: Angelic Bolt
-// AngelicAllianceArchangel.DisplayName: Archangel
-// AngelOrb.DisplayName: Angelic Orb
-// AngelRay.DisplayName: Angelic Ray
-// ApexShark.DisplayName: Ancient Mineral Shark
-// ApparatusExplosion.DisplayName: Explosion
-// AquasScepterCloud.DisplayName: Storm Cloud
-// AquasScepterRaindrop.DisplayName: Rain Droplet
-// AquasScepterTeslaAura.DisplayName: Tesla Aura
-// AquaticStarMinion.DisplayName: Aquatic Star
-// AstrageldonLaser.DisplayName: Astral Laser
-// AstrageldonSummon.DisplayName: Astrageldon
-// AstralProbeRound.DisplayName: Astral Probe Laser
-// AstralProbeSummon.DisplayName: Astral Probe
-// AtlasMunitionsAutocannon.DisplayName: Atlas Munitions Autocannon
-// AtlasMunitionsAutocannonHeld.DisplayName: Atlas Munitions Autocannon
-// AtlasMunitionsDropPod.DisplayName: Drop Pod
-// AtlasMunitionsDropPodUpper.DisplayName: Drop Pod Cover
-// AtlasMunitionsLaser.DisplayName: Exo Pulse Laser
-// AtlasMunitionsLaserOverdrive.DisplayName: Exo Pulse Laser
-// AtzirisDisfavor.DisplayName: Atziri's Disfavor
-// AureusBomber.DisplayName: Aureus Bomber
-// BabyBloodCrawler.DisplayName: Baby Blood Crawler
-// BabyPlaguebringer.DisplayName: Baby Plaguebringer
-// BetterHornetStinger.DisplayName: Stinger
-// BelladonnaPetal.DisplayName: Belladonna Petal
-// BelladonnaSpirit.DisplayName: Belladonna Spirit
-// BlackDragonBody.DisplayName: Black Celestial Dragon
-// BlackDragonHead.DisplayName: Black Celestial Dragon
-// BlackDragonTail.DisplayName: Black Celestial Dragon
-// BlackHawkBullet.DisplayName: Black Hawk Bullet
-// BlackHawkSummon.DisplayName: Black Hawk
-// BloodBreath.DisplayName: Blood Dragon Fire
-// BloodRain.DisplayName: Blood Rain
-// BloodSpit.DisplayName: Blood Spit
-// BoneMatter.DisplayName: Bone Matter
-// BoneMatter2.DisplayName: Bone Matter
-// BrimseekerAuraBall.DisplayName: Seeker
-// BrimstoneDartMinion.DisplayName: Brimfire
-// BrimstoneDartSummon.DisplayName: Brimstone Dart
-// BrimstoneElementalMinion.DisplayName: Brimstone Elemental
-// BrimstoneExplosionMinion.DisplayName: Explosion
-// BrimstoneFireballMinion.DisplayName: Brimstone Fireball
-// BrimstoneFireSummon.DisplayName: Brimstone Fire
-// BrimstoneLaserSummon.DisplayName: Brimstone Laser
-// BrittleStarMinion.DisplayName: Brittle Star
-// CalamarisLamentProjectile.DisplayName: Calamari Ink
-// CalamarisLamentMinion.DisplayName: Calamari
-// Calamitamini.DisplayName: Calamitamini
-// Cataclymini.DisplayName: Cataclymini
-// CataclysmSummon.DisplayName: Cataclysm
-// Catastromini.DisplayName: Catastromini
-// CatastropheSummon.DisplayName: Catastrophe
-// CausticStaffProjectile.DisplayName: Thorn
-// CausticStaffSummon.DisplayName: Caustic Dragon
-// Cinder.DisplayName: Cinder
-// CinderBlossom.DisplayName: Cinder Blossom
-// CloudElementalMinion.DisplayName: Cloudy Waifu
-// CnidarianJellyfishOnTheString.DisplayName: Cnidarian
-// CnidarianSpark.DisplayName: Cnidarian Spark
-// CorroslimeMinion.DisplayName: Corroslime
-// CorruptionSlimeGodMinion.DisplayName: Slime God
-// CosmicBlast.DisplayName: Cosmic Blast
-// CosmicBlastBig.DisplayName: Cosmic Blast
-// CosmicEnergySpiral.DisplayName: Cosmic Energy
-// CosmicViperConcussionMissile.DisplayName: Concussion Missile
-// CosmicViperHomingRocket.DisplayName: Homing Rocket
-// CosmicViperSplitRocket1.DisplayName: Rocket Shard
-// CosmicViperSplittingRocket.DisplayName: Splitting Rocket
-// CosmicViperSummon.DisplayName: Cosmic Viper
-// CosmilampBeam.DisplayName: Cosmic Beam
-// CosmilampMinion.DisplayName: Cosmilamp
-// CrimslimeMinion.DisplayName: Crimslime
-// CrimsonSlimeGodMinion.DisplayName: Slime God
-// DaedalusCrystal.DisplayName: Daedalus Crystal
-// DaedalusCrystalShot.DisplayName: Crystal Shot
-// DaedalusGolem.DisplayName: Daedalus Golem
-// DaedalusLightning.DisplayName: Daedalus Lightning
-// DaedalusPellet.DisplayName: Daedalus Pellet
-// DankCreeperMinion.DisplayName: Dank Creeper
-// DazzlingStabber.DisplayName: Dazzling Stabber
-// DeathstareBeam.DisplayName: Deathstare Beam
-// DeathstareEyeball.DisplayName: Deathstare
-// DormantBrimseekerAura.DisplayName: Dormant Brimseeker Aura Projecter
-// DormantBrimseekerBab.DisplayName: Dormant Brimseeker
-// DormantBrimseekerSummoner.DisplayName: Dormant Brimseeker
-// Dreadmine.DisplayName: Dreadmine
-// DreadmineTurret.DisplayName: Dreadmine Turret
-// ElementalAxeMinion.DisplayName: Elemental Axe
-// EndoBeam.DisplayName: Endo Beam
-// EndoCooperBody.DisplayName: Ascened Cooper
-// EndoCooperLimbs.DisplayName: Ascened Cooper
-// EndoFire.DisplayName: Endo Fire
-// EndoHydraBody.DisplayName: Hydra Body
-// EndoHydraHead.DisplayName: Hydra Head
-// EndoIceShard.DisplayName: Endo Ice Shard
-// EndoRay.DisplayName: Endo Ray
-// EnergyOrb.DisplayName: Energy Orb
-// EXPLODINGFROG.DisplayName: A not frog of the explosive variety
-// EyeOfNightCell.DisplayName: Night Cell
-// EyeOfNightSummon.DisplayName: Eye of Night
-// FieryDraconid.DisplayName: Fiery Draconid
-// FlameBlast.DisplayName: Flame Blast
-// FlameBurst.DisplayName: Flame Burst
-// FleshBallMinion.DisplayName: Flesh Ball
-// FleshBlood.DisplayName: Flesh Blood
-// FlowersOfMortalityPetal.DisplayName: Elemental Petal
-// FlyingOrthocera.DisplayName: Flying Orthocera
-// FlyingOrthoceraStream.DisplayName: Acid Stream
-// ForbiddenCircletEater.DisplayName: Circlet Eater
-// FrogGore1.DisplayName: Gore from a not frog of the explosive variety
-// FrogGore2.DisplayName: Gore from a not frog of the explosive variety
-// FrogGore3.DisplayName: Gore from a not frog of the explosive variety
-// FrogGore4.DisplayName: Gore from a not frog of the explosive variety
-// FrogGore5.DisplayName: Gore from a not frog of the explosive variety
-// FrostBeam.DisplayName: Frost Beam
-// FrostBlossom.DisplayName: Frost Blossom
-// FrostMistFriendly.DisplayName: Frost Mist
-// GammaCanister.DisplayName: Gamma Canister
-// GammaHead.DisplayName: Gamma Head
-// GastricBelcher.DisplayName: Gastric Belcher
-// GastricBelcherBubble.DisplayName: Gastric Bubble
-// GastricBelcherVomit.DisplayName: Gastric Vomit
-// GhostFire.DisplayName: Ghastly Particle
-// GhostlyMine.DisplayName: Mine
-// GiantIbanRobotOfDoom.DisplayName: Andromeda
-// GlacialEmbracePointyThing.DisplayName: Ice Castle Shard
-// HallowedStarSummon.DisplayName: Hallowed Star
-// HarvestStaffMinion.DisplayName: Pumpoem
-// HarvestStaffSentry.DisplayName: Pumpoem Nest
-// HauntedDishes.DisplayName: Haunted Dishes
-// HermitCrabMinion.DisplayName: Hermit Crab
-// HerringAI.DisplayName: Herring School
-// HerringMinion.DisplayName: Herring
-// Hive.DisplayName: Hive
-// Hiveling.DisplayName: Hiveling
-// HomingGammaBullet.DisplayName: Gamma Bullet
-// HopeShredder.DisplayName: Hope Shredder
-// HopeShredderArrow.DisplayName: Hope Shredder Arrow
-// HopeShredderArrowSplit.DisplayName: Hope Shredder Split Arrow
-// HowlsHeartCalcifer.DisplayName: Calcifer
-// HowlsHeartFireball.DisplayName: Fireball
-// HowlsHeartHowl.DisplayName: Howl
-// HowlsHeartTurnipHead.DisplayName: Turnip-Head
-// HydrothermicVent.DisplayName: Hydrothermic Vent
-// IceClasperMinion.DisplayName: Ice Clasper
-// IceClasperSummonProjectile.DisplayName: Ice Shard
-// IceSentry.DisplayName: Ice Sentry
-// IceSentryFrostBolt.DisplayName: Ball
-// IceSentryShard.DisplayName: Frost Shard
-// IgneousBlade.DisplayName: Igneous Blade
-// IgneousBladeStrike.DisplayName: Igneous Blade
-// IrradiatedAura.DisplayName: Irradiated Aura
-// LanternFlame.DisplayName: Lantern Flame
-// LanternSoul.DisplayName: Lantern
-// LiliesOfFinalityAoE.DisplayName: Bioresonance Aura
-// LiliesOfFinalityAriane.DisplayName: Ariane
-// LiliesOfFinalityBullet.DisplayName: Einhorn Bullet
-// LiliesOfFinalityBolt.DisplayName: Bioresonance Bolt
-// LiliesOfFinalityElster.DisplayName: Elster
-// LiliesOfEternityBullet.DisplayName: Lilies Of Eternity Bullet
-// LostSoulGiant.DisplayName: Soul
-// LostSoulGold.DisplayName: Gold Soul
-// LostSoulLarge.DisplayName: Soul
-// LostSoulSmall.DisplayName: Soul
-// LuxorsGiftSummon.DisplayName: Luxor's Summon
-// MechwormBody.DisplayName: Mechworm
-// MechwormHead.DisplayName: Mechworm
-// MechwormLaser.DisplayName: Mechworm Laser
-// MechwormTail.DisplayName: Mechworm
-// MechwormTeleportRift.DisplayName: Rift
-// MidnightSunBeaconProj.DisplayName: Midnight Sun Beacon
-// MidnightSunBeam.DisplayName: Midnight Beam
-// MidnightSunShot.DisplayName: Midnight Shot
-// MidnightSunUFO.DisplayName: Midnight Sun UFO
-// MiniGuardianAttack.DisplayName: Offensive Guardian
-// MiniGuardianDefense.DisplayName: Defensive Guardian
-// MiniGuardianFireball.DisplayName: Mini Guardian Fireball
-// MiniGuardianFireballSplit.DisplayName: Mini Guardian Fireball Split
-// MiniGuardianHealer.DisplayName: Healer Guardian
-// MiniGuardianHolyRay.DisplayName: Bab Holy Ray
-// MiniGuardianRock.DisplayName: Rocky Road
-// MiniGuardianSpear.DisplayName: Bab Spear
-// MiniGuardianStars.DisplayName: Bab Star
-// MiniSandShark.DisplayName: Mini Sand Shark
-// MK2FlaskSummon.DisplayName: Fuel Cell Flask
-// MK2RocketHoming.DisplayName: Plague Rocket
-// MK2RocketNormal.DisplayName: Plague Rocket
-// MoonFist.DisplayName: Cosmic Fist
-// MoonFistTeleportVisual.DisplayName: Light
-// MortalityBeam.DisplayName: Beam
-// MortalityBolt.DisplayName: Bolt
-// MutatedTruffleMinion.DisplayName: Baby Boomer
-// MutatedTruffleToothball.DisplayName: Baby Boomer's Toothball
-// MutatedTruffleToothballSpike.DisplayName: Baby Boomer's Toothball Spike
-// MutatedTruffleVortex.DisplayName: Baby Boomer's Vortex
-// OldDukeHeadCorpse.DisplayName: Absolutely Disgusting Shark Puker
-// OldDukeSharkVomit.DisplayName: Puke
-// Paradoxica.DisplayName: Paradoxica
-// PerditionBeacon.DisplayName: Perdition Beacon
-// PhantomGuy.DisplayName: Phantom
-// PhantomicDagger.DisplayName: Phantom Dagger
-// PhantomicShield.DisplayName: Phantomic Bulwark
-// PinkButterfly.DisplayName: Pink Butterfly
-// PlagueBeeSmall.DisplayName: Plague Bee
-// PlaguebringerMK2.DisplayName: Plaguebringer MK2
-// PlaguebringerSummon.DisplayName: Lil' Plaguebringer
-// PlaguePrincess.DisplayName: Virili
-// PlantationStaffSeed.DisplayName: Mini Plantera's Seed
-// PlantationStaffSporeCloud.DisplayName: Mini Plantera's Spores
-// PlantationStaffSummon.DisplayName: Mini Plantera
-// PlantationStaffTentacle.DisplayName: Mini Plantera's Tentacle
-// PlantationStaffThornball.DisplayName: Mini Plantera's Thornball
-// PlateProjectile.DisplayName: Plate
-// PolypLauncherProjectile.DisplayName: Polyp Chunk
-// PolypLauncherSentry.DisplayName: Polyp Launcher
-// PolypLauncherShrapnel.DisplayName: Polyp Shrapnel
-// PowerfulRaven.DisplayName: Super Raven
-// ProfanedCrystalMageFireball.DisplayName: Holy Bab Fireball
-// ProfanedCrystalMageFireballSplit.DisplayName: Holy Bab Fire
-// ProfanedCrystalMeleeSpear.DisplayName: Holy Friendly Spear
-// ProfanedCrystalRangedHuges.DisplayName: Holy Bab Boomer
-// ProfanedCrystalRangedSmalls.DisplayName: Holy Bab Boomer Orb
-// ProfanedCrystalRogueShard.DisplayName: Holy Bab Crystal Shard
-// ProfanedCrystalWhip.DisplayName: Profaned Crystal Whip
-// ProfanedEnergy.DisplayName: Profaned Energy
-// PuffCloud.DisplayName: Puff Cloud
-// PuffWarrior.DisplayName: Puff Warrior
-// PurpleButterfly.DisplayName: Purple Butterfly
-// RustyBeaconPulse.DisplayName: Irradiated Pulse
-// RustyDrone.DisplayName: Rusty Drone
-// SageNeedle.DisplayName: Sage Needle
-// SageSpirit.DisplayName: Sage Spirit
-// SakuraBullet.DisplayName: Sakura Bullet
-// SandBolt.DisplayName: Bolt
-// SandElementalHealer.DisplayName: Sand Healer
-// SandElementalMinion.DisplayName: Sand Elemental
-// SandMark.DisplayName: Mark
-// SandnadoMinion.DisplayName: Sandnado
-// SandTornado.DisplayName: Tornado
-// SarosAura.DisplayName: Saros Aura
-// SarosMicrosun.DisplayName: Saros Microsun
-// SarosSunfire.DisplayName: Saros Sunfire
-// SeekerSummonProj.DisplayName: Soul Seeker
-// SepulcherMinion.DisplayName: Sepulcher
-// Shellfish.DisplayName: Shellfish
-// SilvaCrystal.DisplayName: Silva Crystal
-// SilvaCrystalExplosion.DisplayName: Silva Explosion
-// SiriusBeam.DisplayName: Sirius Beam
-// SiriusExplosion.DisplayName: Sirius Explosion
-// SiriusMinion.DisplayName: Sirius
-// SkeletalDragonChild.DisplayName: Skeletal Child
-// SkeletalDragonMother.DisplayName: Skeletal Mother
-// SlimePuppet.DisplayName: Slime Puppet
-// StormjawSpark.DisplayName: Spark
-// CannonLaserbeam.DisplayName: Exothermal Deathray
-// ExoskeletonGaussNukeCannon.DisplayName: Gauss Nuke
-// ExoskeletonLaserCannon.DisplayName: Laser Cannon
+AndromedaDeathRay.DisplayName: Feixe
+AndromedaRegislash.DisplayName: Regislash
+AndromedaUI_Background.DisplayName: Interface
+AngelBolt.DisplayName: Raio Elétrico Angélico
+AngelicAllianceArchangel.DisplayName: Arcanjo
+AngelOrb.DisplayName: Orbe Angélico
+AngelRay.DisplayName: Raio Angélico
+ApexShark.DisplayName: Tubarão Mineral Antigo
+ApparatusExplosion.DisplayName: Explosão
+AquasScepterCloud.DisplayName: Nuvem de Tempestade
+AquasScepterRaindrop.DisplayName: Gotícula de Chuva
+AquasScepterTeslaAura.DisplayName: Aura Tesla
+AquaticStarMinion.DisplayName: Estrela Aquática
+AstrageldonLaser.DisplayName: Laser Astral
+AstrageldonSummon.DisplayName: Astrageldon
+AstralProbeRound.DisplayName: Laser da Sonda Astral
+AstralProbeSummon.DisplayName: Sonda Astral
+AtlasMunitionsAutocannon.DisplayName: Munições do Canhão Automático de Atlas
+AtlasMunitionsAutocannonHeld.DisplayName: Munições do Canhão Automático de Atlas
+AtlasMunitionsDropPod.DisplayName: Cápsula Desembarcadora
+AtlasMunitionsDropPodUpper.DisplayName: Cobertura da Cápsula Desembarcadora
+AtlasMunitionsLaser.DisplayName: Exo-Pulso Laser
+AtlasMunitionsLaserOverdrive.DisplayName: Exo-Pulso Laser
+AtzirisDisfavor.DisplayName: Desfavor de Atziri
+AureusBomber.DisplayName: Bombardeiro de Aureus 
+BabyBloodCrawler.DisplayName: Rastejador de Sangue Bebê
+BabyPlaguebringer.DisplayName: Pestífera Bebê
+BetterHornetStinger.DisplayName: Ferrão
+BelladonnaPetal.DisplayName: Pétala Beladona
+BelladonnaSpirit.DisplayName: Espírito Beladona
+BlackDragonBody.DisplayName: Dragão Celestial Negro
+BlackDragonHead.DisplayName: Dragão Celestial Negro
+BlackDragonTail.DisplayName: Dragão Celestial Negro
+BlackHawkBullet.DisplayName: Bala do Falcão Negro
+BlackHawkSummon.DisplayName: Falcão Negro
+BloodBreath.DisplayName: Fogo do Dragão de Sangue
+BloodRain.DisplayName: Chuva de Sangue
+BloodSpit.DisplayName: Cuspe de Sangue
+BoneMatter.DisplayName: Matéria Óssea
+BoneMatter2.DisplayName: Matéria Óssea
+BrimseekerAuraBall.DisplayName: Caçador
+BrimstoneDartMinion.DisplayName: Enxofogo
+BrimstoneDartSummon.DisplayName: Dardo de Enxofre
+BrimstoneElementalMinion.DisplayName: Elemental de Enxofre
+BrimstoneExplosionMinion.DisplayName: Explosão
+BrimstoneFireballMinion.DisplayName: Bola de Fogo de Enxofre
+BrimstoneFireSummon.DisplayName: Fogo de Enxofre
+BrimstoneLaserSummon.DisplayName: Laser de Enxofre
+BrittleStarMinion.DisplayName: Estrelinha Frágil
+CalamarisLamentProjectile.DisplayName: Tinta de Lula
+CalamarisLamentMinion.DisplayName: Lula
+Calamitamini.DisplayName: Calamitamini
+Cataclymini.DisplayName: Cataclismini
+CataclysmSummon.DisplayName: Cataclismo
+Catastromini.DisplayName: Catástromini
+CatastropheSummon.DisplayName: Catástrofe
+CausticStaffProjectile.DisplayName: Espinho
+CausticStaffSummon.DisplayName: Dragão Cáustico
+Cinder.DisplayName: Cinzas
+CinderBlossom.DisplayName: Flor-de-Cinzas
+CloudElementalMinion.DisplayName: Waifu Nebulosa
+CnidarianJellyfishOnTheString.DisplayName: Cnidariano
+CnidarianSpark.DisplayName: Faísca de Cnidariano
+CorroslimeMinion.DisplayName: Geleia Corrosiva
+CorruptionSlimeGodMinion.DisplayName: Deus Geleia
+CosmicBlast.DisplayName: Rajada Cósmica
+CosmicBlastBig.DisplayName: Rajada Cósmica
+CosmicEnergySpiral.DisplayName: Energia Cósmica
+CosmicViperConcussionMissile.DisplayName: Míssil de Concussão
+CosmicViperHomingRocket.DisplayName: Foguete Teleguiado
+CosmicViperSplitRocket1.DisplayName: Fragmento de Foguete
+CosmicViperSplittingRocket.DisplayName: Foguete Divisor
+CosmicViperSummon.DisplayName: Víbora Cósmica
+CosmilampBeam.DisplayName: Feixe Cósmico
+CosmilampMinion.DisplayName: Lâmpada Cósmica
+CrimslimeMinion.DisplayName: Geleia do Carmim
+CrimsonSlimeGodMinion.DisplayName: Deus Geleia
+DaedalusCrystal.DisplayName: Cristal de Dédalo
+DaedalusCrystalShot.DisplayName: Tiro de Cristal
+DaedalusGolem.DisplayName: Golem de Dédalo
+DaedalusLightning.DisplayName: Relâmpago de Dédalo
+DaedalusPellet.DisplayName: Pelota de Dédalo
+DankCreeperMinion.DisplayName: Rastejante Nojento
+DazzlingStabber.DisplayName: Esfaqueador Deslumbrante
+DeathstareBeam.DisplayName: Feixe do Olhar da Morte
+DeathstareEyeball.DisplayName: Olhar da Morte
+DormantBrimseekerAura.DisplayName: Projetor de Aura do Caçador de Enxofre Dormente
+DormantBrimseekerBab.DisplayName: Caçador de Enxofre Dormente
+DormantBrimseekerSummoner.DisplayName: Caçador de Enxofre Dormente
+Dreadmine.DisplayName: Mina Medonha
+DreadmineTurret.DisplayName: Torreta da Mina Medonha
+ElementalAxeMinion.DisplayName: Machado Elemental
+EndoBeam.DisplayName: Feixe Endo
+EndoCooperBody.DisplayName: Torneira Ascendida
+EndoCooperLimbs.DisplayName: Torneira Ascendida
+EndoFire.DisplayName: Fogo Endo
+EndoHydraBody.DisplayName: Corpo de Hidra
+EndoHydraHead.DisplayName: Cabeça de Hidra
+EndoIceShard.DisplayName: Fragmento de Gelo Endo
+EndoRay.DisplayName: Raio Endo
+EnergyOrb.DisplayName: Orbe de Energia
+EXPLODINGFROG.DisplayName: Não é um sapo da varidade explosiva
+EyeOfNightCell.DisplayName: Célula da Noite
+EyeOfNightSummon.DisplayName: Olho da Noite
+FieryDraconid.DisplayName: Draconídeo Flamejante
+FlameBlast.DisplayName: Rajada Flamejante
+FlameBurst.DisplayName: Explosão Flamejante
+FleshBallMinion.DisplayName: Bola de Carne
+FleshBlood.DisplayName: Sangue de Carne
+FlowersOfMortalityPetal.DisplayName: Pétala Elemental
+FlyingOrthocera.DisplayName: Ortocera Voadora
+FlyingOrthoceraStream.DisplayName: Fluxo Ácido
+ForbiddenCircletEater.DisplayName: Devorador de Argola
+FrogGore1.DisplayName: Sangue proveniente de um sapo não explosivo
+FrogGore2.DisplayName: Sangue proveniente de um sapo não explosivo
+FrogGore3.DisplayName: Sangue proveniente de um sapo não explosivo
+FrogGore4.DisplayName: Sangue proveniente de um sapo não explosivo
+FrogGore5.DisplayName: Sangue proveniente de um sapo não explosivo
+FrostBeam.DisplayName: Feixe Congelante
+FrostBlossom.DisplayName: Flor Congelante
+FrostMistFriendly.DisplayName: Névoa Congelante
+GammaCanister.DisplayName: Recipiente Gama
+GammaHead.DisplayName: Cabeça Gama
+GastricBelcher.DisplayName: Arroto Gástrico
+GastricBelcherBubble.DisplayName: Bolha Gástrica
+GastricBelcherVomit.DisplayName: Vômito Gástrico
+GhostFire.DisplayName: Partícula Fantasmagórica
+GhostlyMine.DisplayName: Mina
+GiantIbanRobotOfDoom.DisplayName: Andrômeda
+GlacialEmbracePointyThing.DisplayName: Fragmento do Castelo de Gelo
+HallowedStarSummon.DisplayName: Estrela Consagrada
+HarvestStaffMinion.DisplayName: Boborinha
+HarvestStaffSentry.DisplayName: Ninho de Boborinhas
+HauntedDishes.DisplayName: Pratos Amaldiçoados
+HermitCrabMinion.DisplayName: Caraguejo Eremita
+HerringAI.DisplayName: Cardume de Arenques
+HerringMinion.DisplayName: Arenque
+Hive.DisplayName: Astromeia
+Hiveling.DisplayName: Astromeícula
+HomingGammaBullet.DisplayName: Projétil Gama
+HopeShredder.DisplayName: Destruidor da Esperança
+HopeShredderArrow.DisplayName: Flecha Destruidora da Esperança
+HopeShredderArrowSplit.DisplayName: Flecha Destruidora da Esperança Dividida 
+HowlsHeartCalcifer.DisplayName: Calcifer
+HowlsHeartFireball.DisplayName: Bola de Fogo
+HowlsHeartHowl.DisplayName: Howl
+HowlsHeartTurnipHead.DisplayName: Cabeça de Nabo
+HydrothermicVent.DisplayName: Ventoinha Hidrotérmica
+IceClasperMinion.DisplayName: Agarrador de Gelo
+IceClasperSummonProjectile.DisplayName: Fragmento de Gelo
+IceSentry.DisplayName: Sentinela de Gelo
+IceSentryFrostBolt.DisplayName: Bola
+IceSentryShard.DisplayName: Fragmento Congelado
+IgneousBlade.DisplayName: Lâmina Ígnea
+IgneousBladeStrike.DisplayName: Lâmina Ígnea
+IrradiatedAura.DisplayName: Aura Irradiada
+LanternFlame.DisplayName: Chama de Lanterna
+LanternSoul.DisplayName: Lanterna
+LiliesOfFinalityAoE.DisplayName: Aura Bio-Ressonante
+LiliesOfFinalityAriane.DisplayName: Ariane
+LiliesOfFinalityBullet.DisplayName: Bala Einhorn
+LiliesOfFinalityBolt.DisplayName: Raio Bio-Ressonante
+LiliesOfFinalityElster.DisplayName: Elster
+LiliesOfEternityBullet.DisplayName: Bala dos Lírios da Eternidade
+LostSoulGiant.DisplayName: Alma
+LostSoulGold.DisplayName: Alma de Ouro
+LostSoulLarge.DisplayName: Alma
+LostSoulSmall.DisplayName: Alma
+LuxorsGiftSummon.DisplayName: Luxor da Invocação
+MechwormBody.DisplayName: Meca-Verme
+MechwormHead.DisplayName: Meca-Verme
+MechwormLaser.DisplayName: Laser de Meca-Verme
+MechwormTail.DisplayName: Meca-Verme
+MechwormTeleportRift.DisplayName: Fenda
+MidnightSunBeaconProj.DisplayName: Sinalizador do Sol da Meia-Noite
+MidnightSunBeam.DisplayName: Feixe da Meia-Noite
+MidnightSunShot.DisplayName: Tiro da Meia-Noite
+MidnightSunUFO.DisplayName: OVNI do Sol da Meia-Noite
+MiniGuardianAttack.DisplayName: Guardião Ofensivo
+MiniGuardianDefense.DisplayName: Guardião Defensivo
+MiniGuardianFireball.DisplayName: Bola de Fogo do do Mini-Guardião
+MiniGuardianFireballSplit.DisplayName: Bola de Fogo Dividida do Mini-Guardião
+MiniGuardianHealer.DisplayName: Guardião Curandeiro
+MiniGuardianHolyRay.DisplayName: Raio Sagrado Bebê
+MiniGuardianRock.DisplayName: Estrada Rochosa
+MiniGuardianSpear.DisplayName: Lança Bebê
+MiniGuardianStars.DisplayName: Estrela Bebê
+MiniSandShark.DisplayName: Mini-Tubarão de Areia
+MK2FlaskSummon.DisplayName: Combustível do Frasco de Células
+MK2RocketHoming.DisplayName: Foguete da Praga
+MK2RocketNormal.DisplayName: Foguete da Praga
+MoonFist.DisplayName: Punho Cósmico
+MoonFistTeleportVisual.DisplayName: Luz
+MortalityBeam.DisplayName: Feixe
+MortalityBolt.DisplayName: Raio
+MutatedTruffleMinion.DisplayName: Boomer Bebê
+MutatedTruffleToothball.DisplayName: Bola de Dentes do Boomer Bebê
+MutatedTruffleToothballSpike.DisplayName: Espinho da Bola de Dentes do Boomer Bebê
+MutatedTruffleVortex.DisplayName: Vórtice do Boomer Bebê
+OldDukeHeadCorpse.DisplayName: Tubarão Vomitador Totalmente Repugnante
+OldDukeSharkVomit.DisplayName: Vomi
+Paradoxica.DisplayName: Paradoxica
+PerditionBeacon.DisplayName: Sinalizador da Perdição
+PhantomGuy.DisplayName: Fantasma
+PhantomicDagger.DisplayName: Adaga Fantasma
+PhantomicShield.DisplayName: Baluarte Fantasmagórico
+PinkButterfly.DisplayName: Borboleta Rosa
+PlagueBeeSmall.DisplayName: Abelha da Praga
+PlaguebringerMK2.DisplayName: Pestífera MK2
+PlaguebringerSummon.DisplayName: Pestiferinha
+PlaguePrincess.DisplayName: Virili
+PlantationStaffSeed.DisplayName: Semente da Mini-Plantera
+PlantationStaffSporeCloud.DisplayName: Esporos da Mini-Plantera
+PlantationStaffSummon.DisplayName: Mini-Plantera
+PlantationStaffTentacle.DisplayName: Tentáculo da Mini-Plantera
+PlantationStaffThornball.DisplayName: Bola de Espinhos da Mini-Plantera
+PlateProjectile.DisplayName: Placa
+PolypLauncherProjectile.DisplayName: Pedaço de Pólipo
+PolypLauncherSentry.DisplayName: Lançador de Pólipos
+PolypLauncherShrapnel.DisplayName: Estilhaços de Pólipo
+PowerfulRaven.DisplayName: Super Corvo
+ProfanedCrystalMageFireball.DisplayName: Bola de Fogo Bebê Sagrada
+ProfanedCrystalMageFireballSplit.DisplayName: Fogo Bebê Sagrado
+ProfanedCrystalMeleeSpear.DisplayName: Lança Sagrada Amigável
+ProfanedCrystalRangedHuges.DisplayName: Boomer Bebê Sagrado
+ProfanedCrystalRangedSmalls.DisplayName: Orbe do Boomer Bebê Sagrado
+ProfanedCrystalRogueShard.DisplayName: Fragmento de Cristal Sagrado Bebê
+ProfanedCrystalWhip.DisplayName: Chicote de Cristal Profanado
+ProfanedEnergy.DisplayName: Energia Profanada
+PuffCloud.DisplayName: Nuvem Estufada
+PuffWarrior.DisplayName: Guerreiro Estufado
+PurpleButterfly.DisplayName: Borboleta Roxa
+RustyBeaconPulse.DisplayName: Pulso Irradiado
+RustyDrone.DisplayName: Drone Enferrujado
+SageNeedle.DisplayName: Agulha do Sábio
+SageSpirit.DisplayName: Espírito do Sábio
+SakuraBullet.DisplayName: Bala de Sakura
+SandBolt.DisplayName: Raio
+SandElementalHealer.DisplayName: Curandeira de Areia
+SandElementalMinion.DisplayName: Elemental de Areia
+SandMark.DisplayName: Marca
+SandnadoMinion.DisplayName: Tornado de Areia
+SandTornado.DisplayName: Tornado
+SarosAura.DisplayName: Aura de Saros
+SarosMicrosun.DisplayName: Micro-Sol de Saros
+SarosSunfire.DisplayName: Fogo Solar de Saros
+SeekerSummonProj.DisplayName: Caça-Almas
+SepulcherMinion.DisplayName: Sepulcro
+Shellfish.DisplayName: Marisco
+SilvaCrystal.DisplayName: Cristal de Silva
+SilvaCrystalExplosion.DisplayName: Explosão de Silva
+SiriusBeam.DisplayName: Feixe de Sirius
+SiriusExplosion.DisplayName: Explosão de Sirius
+SiriusMinion.DisplayName: Sirius
+SkeletalDragonChild.DisplayName: Criança Esquelética
+SkeletalDragonMother.DisplayName: Mãe Esquelética
+SlimePuppet.DisplayName: Fantoche de Geleia
+StormjawSpark.DisplayName: Faísca
+CannonLaserbeam.DisplayName: Raio da Morte Exotérmico
+ExoskeletonGaussNukeCannon.DisplayName: Gauss Nuclear
+ExoskeletonLaserCannon.DisplayName: Canhão Laser
 
 ExoskeletonPanel: {
-	// DisplayName: UI
-	// NoSlots: Insufficient minion slots!
+	DisplayName: Interface
+	NoSlots: Espaços de lacaio insuficientes!
 }
 
-// ExoskeletonPlasmaCannon.DisplayName: Plasma Cannon
-// ExoskeletonTeslaCannon.DisplayName: Tesla Cannon
-// MinionGaussBoom.DisplayName: Gauss Hyperexplosion
-// MinionGaussNuke.DisplayName: Gauss Nuke
-// MinionLaserBurst.DisplayName: Exothermal Laser
-// MinionPlasmaBlast.DisplayName: Volatile Plasma Blast
-// MinionPlasmaGas.DisplayName: Superheated Plasma Cloud
-// MinionTeslaOrb.DisplayName: Tesla Sphere
-// SmallSkeletonMinion.DisplayName: Small Skeleton
-// SolarBeam.DisplayName: Solar Beam
-// SolarGod.DisplayName: Vengeful Solar Spirit
-// SolarPixie.DisplayName: Solar Pixie
-// Spikecrag.DisplayName: Spikecrag
-// SpikecragSpike.DisplayName: Spikecrag Spike
-// SquirrelSquireAcorn.DisplayName: Squirrel Acorn
-// SquirrelSquireMinion.DisplayName: Squirrel Squire
-// Starforge.DisplayName: Starforge
-// StarforgeBlast.DisplayName: Starforge Blast
-// StellarTorusBeam.DisplayName: Stellar Torus Beam
-// StellarTorusSummon.DisplayName: Stellar Torus Summon
-// StormjawBaby.DisplayName: Stormjaw Baby
-// SummonAstralExplosion.DisplayName: Explosion
-// SummonBrimstoneExplosion.DisplayName: Explosion
-// SummonBrimstoneExplosionSmall.DisplayName: Explosion
-// TacticalPlagueJet.DisplayName: Tactical Plague Jet
-// TundraFlameBlossom.DisplayName: Tundra Flame Blossoms
-// TundraFlameBlossomsOrb.DisplayName: Tundra Flame Blossoms Orb
-// MagicArrow.DisplayName: Vermillion Arrow
-// MagicAxe.DisplayName: Jade Axe
-// MagicBird.DisplayName: Magic Bird
-// MagicBullet.DisplayName: Magic Bullet
-// MagicBulletBig.DisplayName: Magic Bullet
-// MagicBunny.DisplayName: Magic Bunny
-// MagicHammer.DisplayName: Marmalade Hammer
-// MagicHat.DisplayName: Magic Hat
-// MagicRifle.DisplayName: Lavender Rifle
-// MagicTree.DisplayName: Magic Tree
-// MagicUmbrella.DisplayName: Cyan Umbrella
-// UniverseSplitterField.DisplayName: Field
-// UniverseSplitterHugeBeam.DisplayName: Universe Splitter Ray
-// UniverseSplitterSmallBeam.DisplayName: Universe Splitter Ray
-// UrchinSpike.DisplayName: Urchin Spike
-// Valkyrie.DisplayName: Valkyrie
-// VictideSeaSnail.DisplayName: Sea Snail
-// VileFeederProjectile.DisplayName: Eater of Souls Mini
-// VileFeederSummon.DisplayName: Baby Eater
-// ViridVanguardBlade.DisplayName: Vanguard Blade
-// VoidConcentrationAura.DisplayName: Concentrated Void Aura
-// VoidConcentrationBlackhole.DisplayName: Black Hole
-// VoidConcentrationOrb.DisplayName: Void Orb
-// VolcanicFireballSummon.DisplayName: Volcanic Fireball
-// WaterElementalMinion.DisplayName: Anahita
-// WaterElementalSong.DisplayName: Siren Song
-// WaterSpearFriendly.DisplayName: Water Spear
-// WhiteDragonBody.DisplayName: White Celestial Dragon
-// WhiteDragonHead.DisplayName: White Celestial Dragon
-// WhiteDragonTail.DisplayName: White Celestial Dragon
-// WindRipper.DisplayName: Wind Ripper
-// WindRipperArrow.DisplayName: Wind Ripper Arrow
-// WitherBlossom.DisplayName: Wither Blossom
-// WitherBolt.DisplayName: Wither Bolt
-// WulfrumDroid.DisplayName: Wulfrum Droid
-// WulfrumEnergyBurst.DisplayName: Wulfrum Bolt
-// WulfrumFusionBolt.DisplayName: Fusion Bolt
-// YharonMinionFireball.DisplayName: Dragon Fireball
+ExoskeletonPlasmaCannon.DisplayName: Canhão de Plasma
+ExoskeletonTeslaCannon.DisplayName: Canhão de Tesla
+MinionGaussBoom.DisplayName: Hiperexplosão de Gauss
+MinionGaussNuke.DisplayName: Gauss Nuclear
+MinionLaserBurst.DisplayName: Laser Exotérmico
+MinionPlasmaBlast.DisplayName: Explosão de Plasma Volátil
+MinionPlasmaGas.DisplayName: Nuvem de Plasma Superaquecido
+MinionTeslaOrb.DisplayName: Esfera Tesla
+SmallSkeletonMinion.DisplayName: Pequeno Esqueleto
+SolarBeam.DisplayName: Feixe Solar
+SolarGod.DisplayName: Espírito Solar Vingativo
+SolarPixie.DisplayName: Pixie Solar
+Spikecrag.DisplayName: Picos-de-Promontório
+SpikecragSpike.DisplayName: Pico de Picos-de-Promontório
+SquirrelSquireAcorn.DisplayName: Bolota de Esquilo
+SquirrelSquireMinion.DisplayName: Esquilo Escudeiro
+Starforge.DisplayName: Forja Estelar
+StarforgeBlast.DisplayName: Rajada da Forja Estelar
+StellarTorusBeam.DisplayName: Feixe do Toro Estelar
+StellarTorusSummon.DisplayName: Invocação Toro Estelar
+StormjawBaby.DisplayName: Mandíbula-Trovão Bebê
+SummonAstralExplosion.DisplayName: Explosão
+SummonBrimstoneExplosion.DisplayName: Explosão
+SummonBrimstoneExplosionSmall.DisplayName: Explosão
+TacticalPlagueJet.DisplayName: Jato Tático da Praga
+TundraFlameBlossom.DisplayName: Flor da Chama da Tundra
+TundraFlameBlossomsOrb.DisplayName: Orbe da Flor da Chama da Tundra
+MagicArrow.DisplayName: Flecha Vermelha
+MagicAxe.DisplayName: Machado de Jade
+MagicBird.DisplayName: Pássaro Mágico
+MagicBullet.DisplayName: Bala Mágica
+MagicBulletBig.DisplayName: Bala Mágica
+MagicBunny.DisplayName: Coelho Mágico
+MagicHammer.DisplayName: Martelo Marmelada
+MagicHat.DisplayName: Chapéu Mágico
+MagicRifle.DisplayName: Fuzil Lavanda
+MagicTree.DisplayName: Árvore Mágica
+MagicUmbrella.DisplayName: Guarda-Chuva Ciano
+UniverseSplitterField.DisplayName: Campo
+UniverseSplitterHugeBeam.DisplayName: Raio Divisor de Universo
+UniverseSplitterSmallBeam.DisplayName: Raio Divisor de Universo
+UrchinSpike.DisplayName: Espinho de Ouriço-Do-Mar
+Valkyrie.DisplayName: Valquíria
+VictideSeaSnail.DisplayName: Caracol Marinho
+VileFeederProjectile.DisplayName: Mini-Devorador de Almas
+VileFeederSummon.DisplayName: Devorador Bebê
+ViridVanguardBlade.DisplayName: Lãmina da Vanguarda
+VoidConcentrationAura.DisplayName: Aura do Vazio Concentrada
+VoidConcentrationBlackhole.DisplayName: Buraco Negro
+VoidConcentrationOrb.DisplayName: Orbe do Vazio
+VolcanicFireballSummon.DisplayName: Bola de Fogo Vulcânica
+WaterElementalMinion.DisplayName: Anahita
+WaterElementalSong.DisplayName: Canção da Sereia
+WaterSpearFriendly.DisplayName: Lança d'Água
+WhiteDragonBody.DisplayName: Dragão Celestial Branco
+WhiteDragonHead.DisplayName: Dragão Celestial Branco
+WhiteDragonTail.DisplayName: Dragão Celestial Branco
+WindRipper.DisplayName: Rasga-Vento
+WindRipperArrow.DisplayName: Flecha Rasga-Vento
+WitherBlossom.DisplayName: Flor Murcha
+WitherBolt.DisplayName: Raio Murcho
+WulfrumDroid.DisplayName: Droide Vulfrúmio
+WulfrumEnergyBurst.DisplayName: Raio Vulfrúmio
+WulfrumFusionBolt.DisplayName: Raio Fusão
+YharonMinionFireball.DisplayName: Bola de Fogo de Dragão
