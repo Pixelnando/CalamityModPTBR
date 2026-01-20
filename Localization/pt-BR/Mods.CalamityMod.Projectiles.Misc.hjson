@@ -1,70 +1,70 @@
-// Damageable
-// MarniteRepulsionHitbox.DisplayName: Repulsion Matrix
-// ArtifactOfResilienceBulwark.DisplayName: Artifact of Resilience
-// Draedon's Arsenal
-// AnomalysNanogunHoldout.DisplayName: The Anomaly's Nanogun
-// AnomalysNanogunMPFBBoom.DisplayName: MPFB Explosion
-// AnomalysNanogunMPFBDevastator.DisplayName: MPFB Devastator
-// AnomalysNanogunPlasmaBeam.DisplayName: Plasma Beam
-// FrequencyManipulatorEnergy.DisplayName: Pulse Energy
-// FrequencyManipulatorProjectile.DisplayName: Frequency Manipulator
-// GatlingLaserShot.DisplayName: Gatling Laser
-// GaussEnergy.DisplayName: Gauss Energy
-// GaussFlux.DisplayName: Gauss Flux
-// GaussPistolShot.DisplayName: Gauss Shot
-// GaussRifleBlast.DisplayName: Gauss Blast
-// GaussRifleExplosion.DisplayName: Gauss Explosion
-// LaserRifleShot.DisplayName: Laser Rifle
-// MassivePlasmaExplosion.DisplayName: Plasma Explosion
-// MountedScannerLaser.DisplayName: Deathray
-// MountedScannerSummon.DisplayName: Mounted Scanner
-// PhaseslayerBeam.DisplayName: Light Blade
-// PlasmaCasterShot.DisplayName: Plasma Bolt
-// PlasmaGrenadeProjectile.DisplayName: Plasma Grenade
-// PlasmaGrenadeSmallExplosion.DisplayName: Plasma Explosion
-// PoleWarperSummon.DisplayName: Pole Warper
-// PulseDragonProjectile.DisplayName: Pulse Dragon
-// PulsePistolShot.DisplayName: Pulse Bolt
-// PulseRifleShot.DisplayName: Pulse Bolt
-// PulseTurret.DisplayName: Pulse Turret
-// PulseTurretShot.DisplayName: Pulse Bolt
-// SnakeEyesSummon.DisplayName: Snake Eyes
-// SnakeEyesProjectile.DisplayName: Inescapable Bolt
-// StarSwallowerAcid.DisplayName: Acid
-// StarSwallowerSummon.DisplayName: Pet Froge
-// SystemBaneLightning.DisplayName: Lightning
-// SystemBaneProjectile.DisplayName: System Bane
-// TaserHook.DisplayName: Taser
-// TeslaCannonShot.DisplayName: Tesla Beam
-// TrackingDiskLaser.DisplayName: Laser
-// TrackingDiskProjectile.DisplayName: Tracking Disk
-// UnstableMatter.DisplayName: Unstable Matter
-// VoltageStream.DisplayName: Voltage Stream
-// WavePounderBoom.DisplayName: Explosion
-// WavePounderProjectile.DisplayName: Wave Pounder
-// Environmental
-// AcidDrop.DisplayName: Acid
-// BrimstoneGeyser.DisplayName: Smoke
-// GeyserTelegraph.DisplayName: Geyser
-// HotSteam.DisplayName: Steam
-// LavaChunk.DisplayName: Lava Chunk
-// MurkySteam.DisplayName: Steam
-// SmokeTelegraph.DisplayName: Smoke
-// ThermalSteam.DisplayName: Steam
-// Turrets
-// DraedonLaser.DisplayName: Draedon Laser
-// DraedonLaserBuffer.DisplayName: Draedon Laser
-// FireShot.DisplayName: Fire Shot
-// FireShotBuffer.DisplayName: Fire Shot
-// IceExplosion.DisplayName: Ice Gas
-// IceShot.DisplayName: Ice Shot
-// IceShotBuffer.DisplayName: Ice Shot
-// LaserShot.DisplayName: Laser Shot
-// LaserShotBuffer.DisplayName: Laser Shot
-// OnyxShot.DisplayName: Onyx Shot
-// OnyxShotBuffer.DisplayName: Onyx Shot
-// PlagueExplosionGas.DisplayName: Plague Gas
-// PlagueShot.DisplayName: Plague Shot
-// PlagueShotBuffer.DisplayName: Plague Shot
-// WaterShot.DisplayName: Water Shot
-// WaterShotBuffer.DisplayName: Water Shot
+// Danificável
+MarniteRepulsionHitbox.DisplayName: Matriz de Repulsão
+ArtifactOfResilienceBulwark.DisplayName: Artefato de Resiliência
+// Arsenal do Draedon
+AnomalysNanogunHoldout.DisplayName: A Anomalia da Nano-Arma
+AnomalysNanogunMPFBBoom.DisplayName: Explosão MPFB
+AnomalysNanogunMPFBDevastator.DisplayName: MPFB Devastador
+AnomalysNanogunPlasmaBeam.DisplayName: Feixe de Plasma
+FrequencyManipulatorEnergy.DisplayName: Energia de Pulso
+FrequencyManipulatorProjectile.DisplayName: Manipulador de Frequência
+GatlingLaserShot.DisplayName: Laser Gatling 
+GaussEnergy.DisplayName: Energia Gauss
+GaussFlux.DisplayName: Fluxo Gauss
+GaussPistolShot.DisplayName: Tiro de Gauss
+GaussRifleBlast.DisplayName: Rajada de Gauss
+GaussRifleExplosion.DisplayName: Explosão de Gauss
+LaserRifleShot.DisplayName: Fuzil Laser
+MassivePlasmaExplosion.DisplayName: Explosão de Plasma
+MountedScannerLaser.DisplayName: Raio da Morte
+MountedScannerSummon.DisplayName: Scanner Montado
+PhaseslayerBeam.DisplayName: Lâmina de Luz
+PlasmaCasterShot.DisplayName: Raio de Plasma
+PlasmaGrenadeProjectile.DisplayName: Granada de Plasma
+PlasmaGrenadeSmallExplosion.DisplayName: Explosão de Plasma
+PoleWarperSummon.DisplayName: Enrolador de Postes
+PulseDragonProjectile.DisplayName: Dragão de Pulso
+PulsePistolShot.DisplayName: Raio de Pulso
+PulseRifleShot.DisplayName: Raio de Pulso
+PulseTurret.DisplayName: Torreta de Pulso
+PulseTurretShot.DisplayName: Raio de Pulso
+SnakeEyesSummon.DisplayName: Olhos de Cobra
+SnakeEyesProjectile.DisplayName: Raio Inescapável
+StarSwallowerAcid.DisplayName: Ácido
+StarSwallowerSummon.DisplayName: Sapo de Estimação
+SystemBaneLightning.DisplayName: Relâmpago
+SystemBaneProjectile.DisplayName: Bane Sistema
+TaserHook.DisplayName: Taser
+TeslaCannonShot.DisplayName: Feixe de Tesla
+TrackingDiskLaser.DisplayName: Laser
+TrackingDiskProjectile.DisplayName: Disco de Rastreamento
+UnstableMatter.DisplayName: Matéria Instável
+VoltageStream.DisplayName: Fluxo de Voltagem
+WavePounderBoom.DisplayName: Explosão
+WavePounderProjectile.DisplayName: Onda Pounder
+// Ambiente
+AcidDrop.DisplayName: Ácido
+BrimstoneGeyser.DisplayName: Fumaça
+GeyserTelegraph.DisplayName: Gêiser
+HotSteam.DisplayName: Vapor
+LavaChunk.DisplayName: Pedaço de Lava
+MurkySteam.DisplayName: Vapor
+SmokeTelegraph.DisplayName: Fumaça
+ThermalSteam.DisplayName: Vapor
+// Torretas
+DraedonLaser.DisplayName: Laser do Draedon
+DraedonLaserBuffer.DisplayName: Laser do Draedon
+FireShot.DisplayName: Tiro de Fogo
+FireShotBuffer.DisplayName: Tiro de Fogo
+IceExplosion.DisplayName: Gás de Gelo
+IceShot.DisplayName: Tiro de Gelo
+IceShotBuffer.DisplayName: Tiro de Gelo
+LaserShot.DisplayName: Tiro Laser
+LaserShotBuffer.DisplayName: Tiro Laser
+OnyxShot.DisplayName: Tiro de Ônix
+OnyxShotBuffer.DisplayName: Tiro de Ônix
+PlagueExplosionGas.DisplayName: Gás da Praga
+PlagueShot.DisplayName: Tiro da Praga
+PlagueShotBuffer.DisplayName: Tiro da Praga
+WaterShot.DisplayName: Tiro d'Água
+WaterShotBuffer.DisplayName: Tiro d'Água
