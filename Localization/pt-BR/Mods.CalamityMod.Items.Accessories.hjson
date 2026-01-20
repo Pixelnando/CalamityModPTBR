@@ -388,7 +388,7 @@ CoinofDeceit: {
 	DisplayName: Moeda do Engano
 	Tooltip:
 		'''
-		Ataques furtivos gastam apenas 85% de sua furtividade máxima
+		Ataques furtivos gastam apenas 90% de sua furtividade máxima
 		6% de aumento na chance de ataque ladino crítico
 		'''
 }

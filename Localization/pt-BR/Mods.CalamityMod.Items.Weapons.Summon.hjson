@@ -24,6 +24,7 @@ AquasScepter: {
 	DisplayName: Cetro de Aqua
 	Tooltip:
 		'''
+		{$CommonItemTooltip.Sentry}
 		Invoca uma sentinela de tempestade enorme para fazer chover nos inimigos e golpeá-los com energia tesla sobrecarregada
 		'Capitão! Eu acho- que temos risco de chuva!'
 		'''
@@ -44,6 +45,7 @@ AtlasMunitionsBeacon: {
 	DisplayName: Sinalizador de Munições Atlas
 	Tooltip:
 		'''
+		{$CommonItemTooltip.Sentry}
 		[c/F2B629:Traz um canhão estacionário com exo-energia
 		[c/F2B629:O canhão atirará em inimigos dentro de seu alcance]
 		[c/F27049:Se um inimigo estiver próximo, ele entrará no modo de Sobrecarga]
@@ -96,7 +98,11 @@ BrittleStarStaff: {
 
 CadaverousCarrion: {
 	DisplayName: Carniça Cadavérica
-	Tooltip: Invoca uma cabeça nojenta do Velho Duque no chão que vomita tubarões
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		Invoca uma cabeça nojenta do Velho Duque no chão que vomita tubarões
+		'''
 }
 
 CalamarisLament: {
@@ -115,7 +121,11 @@ CalamarisLament: {
 
 CausticCroakerStaff: {
 	DisplayName: Cajado do Coaxador Cáustico
-	Tooltip: Invoca um sapo que explode caso inimigos se aproximem
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		Invoca um sapo que explode caso inimigos se aproximem
+		'''
 }
 
 CausticStaff: {
@@ -214,7 +224,8 @@ CryogenicStaff: {
 	DisplayName: Cajado Criogênico
 	Tooltip:
 		'''
-		Invoca uma construção de gelo animada para protegê-lo
+		{$CommonItemTooltip.Sentry}
+		Invoca uma construção de gelo para libertar o frio sobre seus inimigos
 		A taxa de disparo e o alcance aumentam à medida que o inimigo é focado por mais tempo
 		'''
 }
@@ -277,7 +288,11 @@ DragonbloodDisgorger: {
 
 DreadmineStaff: {
 	DisplayName: Cajado da Mina Medonha
-	Tooltip: Invoca uma torreta de minas medonhas para lutar por você
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		Invoca uma torreta que enxameia os inimigos com minas navais
+		'''
 }
 
 ElementalAxe: {
@@ -420,7 +435,8 @@ GuidelightofOblivion: {
 	DisplayName: Luz-Guia do Oblívio
 	Tooltip:
 		'''
-		Invoca uma torreta lanterna para lutar por você
+		{$CommonItemTooltip.Sentry}
+		Invoca uma torreta lanterna que incendeia os inimigos com chamas
 		'As sombras sonham com fogo sem fim, chamas devoram e brasas mergulham'
 		'''
 }
@@ -437,7 +453,11 @@ HerringStaff: {
 
 HivePod: {
 	DisplayName: Casulo-Colmeia
-	Tooltip: Invoca uma colmeia astral para protegê-lo
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		Invoca uma astromeia para invocar astromeículas que caçam os inimigos
+		'''
 }
 
 IgneousExaltation: {
@@ -508,7 +528,11 @@ MirrorofKalandra: {
 
 OrthoceraShell: {
 	DisplayName: Concha de Ortocera
-	Tooltip: Invoca uma ortocera sentinela na posição do mouse
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		Invoca uma ortocera sentinela voadora que cospe fluxos de ácido nos inimigos
+		'''
 }
 
 Perdition: {
@@ -554,14 +578,18 @@ RustyBeaconPrototype: {
 	DisplayName: Protótipo de Sinalizador Enferrujado
 	Tooltip:
 		'''
-		Invoca um drone há muito abandonado para apoiá-lo
-		O drone flutua parado The drone hovers in place and releases toxic waves that irradiate hit enemies
+		{$CommonItemTooltip.Sentry}
+		Invoca um drone há muito abandonado que passivamente emite ondas irradiadas
 		'''
 }
 
 SanctifiedSpark: {
 	DisplayName: Faísca Santificada
-	Tooltip: Invoca uma torreta de energia para lutar por você
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		Invoca um imolador amigável que dispara faíscas sagradas nos inimigos
+		'''
 }
 
 SandSharknadoStaff: {
@@ -615,19 +643,23 @@ SlimePuppetStaff: {
 }
 
 SpikecragStaff: {
-	DisplayName: Cajado de Picos-De-Promontório
+	DisplayName: Cajado de Picos-de-Promontório
 	Tooltip: "[GFB]"
-	TooltipNormal: Invoca um picos-de-promontório para protegê-lo
+	TooltipNormal: Invoca um picos-de-promontório que espirra picos nos inimigos
 	TooltipGFB:
 		'''
-		Invoca um picos-de-promontório para protegê-lo"
+		Invoca um picos-de-promontório que espirra picos nos inimigos
 		Derrotar a Deusa Profana libera seu verdadeiro poder
 		'''
 }
 
 SquirrelSquireStaff: {
 	DisplayName: Cajado do Esquilo Escudeiro
-	Tooltip: Invoca um esquilo escudeiro para lutar por você
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Sentry}
+		Invoca um esquilo que dispara bolotas nos inimigos
+		'''
 }
 
 StaffOfNecrosteocytes: {
@@ -822,6 +854,7 @@ HarvestStaff: {
 	DisplayName: Cajado da Colheita
 	Tooltip:
 		'''
+		{$CommonItemTooltip.Sentry}
 		Cultiva um canteiro de abóboras que brota abóboras por perto
 		As abóboras saltarão quando criaturas ou jogadores próximos se aproximarem
 		Uma vez fora, elas atacarão agressivamente os inimigos, explodindo ao serem atingidas

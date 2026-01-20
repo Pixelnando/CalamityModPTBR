@@ -196,8 +196,8 @@ StarlightFuelCell: {
 }
 
 // Spawn Blockers
-SpawnBlockersOn: Ativado no momento
-SpawnBlockersOff: Desativado no momento
+SpawnBlockersOn: O surgimento está desativado no momento
+SpawnBlockersOff: O surgimento está ativado no momento
 
 AntiCystOintment: {
 	DisplayName: Pomada Anti-Cistos

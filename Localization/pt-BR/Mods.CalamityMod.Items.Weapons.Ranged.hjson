@@ -638,6 +638,7 @@ Infinity: {
 		'''
 		Dispara uma barragem de raios de energia que se dividem e saltiteam
 		Pressione <right> para disparar uma barragem de projéteis normais
+		80% de chance de economizar munição
 		'Eles dizem que o infinito não tem fim, mas você o segura em suas mãos'
 		'''
 }
@@ -1089,7 +1090,8 @@ Shredder: {
 		'''
 		Dispara uma barragem de raios de energia que se dividem e rebatem
 		Pressione <right> para disparar uma barragem de projéteis normais
-		'O mito, a lenda, a arma que faz os frames cair mais que qualquer outra'
+		60% de chance de economizar munição
+		'O mito, a lenda, a arma que faz o FPS cair mais que qualquer outra'
 		'''
 }
 
@@ -1245,8 +1247,10 @@ Svantechnical: {
 	DisplayName: Svantécnico
 	Tooltip:
 		'''
-		Dispara várias barragens de projéteis
-		Pressione <right> para afastar
+		Dispara uma trindade de raios de energia que se dividem em feixes que perseguem seu cursor
+		Pressione <right> para disparar uma barragem de projéteis normais
+		90% de chance de economizar munição
+		'Aquela escolha clássica entre mais dano ou FPS'
 		'''
 }
 
