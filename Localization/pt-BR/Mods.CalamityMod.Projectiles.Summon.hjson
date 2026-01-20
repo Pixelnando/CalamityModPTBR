@@ -1,8 +1,8 @@
 AndromedaDeathRay.DisplayName: Feixe
 AndromedaRegislash.DisplayName: Regislash
-AndromedaUI_Background.DisplayName: UI
+AndromedaUI_Background.DisplayName: Interface
 AngelBolt.DisplayName: Raio Elétrico Angélico
-AngelicAllianceArchangel.DisplayName: Archangel
+AngelicAllianceArchangel.DisplayName: Arcanjo
 AngelOrb.DisplayName: Orbe Angélico
 AngelRay.DisplayName: Raio Angélico
 ApexShark.DisplayName: Tubarão Mineral Antigo
@@ -22,8 +22,8 @@ AtlasMunitionsDropPodUpper.DisplayName: Cobertura da Cápsula Desembarcadora
 AtlasMunitionsLaser.DisplayName: Exo-Pulso Laser
 AtlasMunitionsLaserOverdrive.DisplayName: Exo-Pulso Laser
 AtzirisDisfavor.DisplayName: Desfavor de Atziri
-AureusBomber.DisplayName: Bomber Aureus 
-BabyBloodCrawler.DisplayName: Rastejador de Sangue BebÊ
+AureusBomber.DisplayName: Bombardeiro de Aureus 
+BabyBloodCrawler.DisplayName: Rastejador de Sangue Bebê
 BabyPlaguebringer.DisplayName: Pestífera Bebê
 BetterHornetStinger.DisplayName: Ferrão
 BelladonnaPetal.DisplayName: Pétala Beladona
@@ -129,21 +129,21 @@ GhostlyMine.DisplayName: Mina
 GiantIbanRobotOfDoom.DisplayName: Andrômeda
 GlacialEmbracePointyThing.DisplayName: Fragmento do Castelo de Gelo
 HallowedStarSummon.DisplayName: Estrela Consagrada
-HarvestStaffMinion.DisplayName: Pumpoem
-HarvestStaffSentry.DisplayName: Ninho Pumpoem
+HarvestStaffMinion.DisplayName: Boborinha
+HarvestStaffSentry.DisplayName: Ninho de Boborinhas
 HauntedDishes.DisplayName: Pratos Amaldiçoados
 HermitCrabMinion.DisplayName: Caraguejo Eremita
-HerringAI.DisplayName: Escola de Arenque
+HerringAI.DisplayName: Cardume de Arenques
 HerringMinion.DisplayName: Arenque
-Hive.DisplayName: Colmeia
-Hiveling.DisplayName: Colmeiada
-HomingGammaBullet.DisplayName: Bala Gama
+Hive.DisplayName: Astromeia
+Hiveling.DisplayName: Astromeícula
+HomingGammaBullet.DisplayName: Projétil Gama
 HopeShredder.DisplayName: Destruidor da Esperança
 HopeShredderArrow.DisplayName: Flecha Destruidora da Esperança
 HopeShredderArrowSplit.DisplayName: Flecha Destruidora da Esperança Dividida 
 HowlsHeartCalcifer.DisplayName: Calcifer
 HowlsHeartFireball.DisplayName: Bola de Fogo
-HowlsHeartHowl.DisplayName: Uivo
+HowlsHeartHowl.DisplayName: Howl
 HowlsHeartTurnipHead.DisplayName: Cabeça de Nabo
 HydrothermicVent.DisplayName: Ventoinha Hidrotérmica
 IceClasperMinion.DisplayName: Agarrador de Gelo
@@ -172,7 +172,7 @@ MechwormHead.DisplayName: Meca-Verme
 MechwormLaser.DisplayName: Laser de Meca-Verme
 MechwormTail.DisplayName: Meca-Verme
 MechwormTeleportRift.DisplayName: Fenda
-MidnightSunBeaconProj.DisplayName: Beacon do Sol da Meia-Noite
+MidnightSunBeaconProj.DisplayName: Sinalizador do Sol da Meia-Noite
 MidnightSunBeam.DisplayName: Feixe da Meia-Noite
 MidnightSunShot.DisplayName: Tiro da Meia-Noite
 MidnightSunUFO.DisplayName: OVNI do Sol da Meia-Noite
@@ -200,7 +200,7 @@ MutatedTruffleVortex.DisplayName: Vórtice do Boomer Bebê
 OldDukeHeadCorpse.DisplayName: Tubarão Vomitador Totalmente Repugnante
 OldDukeSharkVomit.DisplayName: Vomi
 Paradoxica.DisplayName: Paradoxica
-PerditionBeacon.DisplayName: Beacon da Perdição
+PerditionBeacon.DisplayName: Sinalizador da Perdição
 PhantomGuy.DisplayName: Fantasma
 PhantomicDagger.DisplayName: Adaga Fantasma
 PhantomicShield.DisplayName: Baluarte Fantasmagórico
@@ -239,7 +239,7 @@ SandBolt.DisplayName: Raio
 SandElementalHealer.DisplayName: Curandeira de Areia
 SandElementalMinion.DisplayName: Elemental de Areia
 SandMark.DisplayName: Marca
-SandnadoMinion.DisplayName: Areinado
+SandnadoMinion.DisplayName: Tornado de Areia
 SandTornado.DisplayName: Tornado
 SarosAura.DisplayName: Aura de Saros
 SarosMicrosun.DisplayName: Micro-Sol de Saros
@@ -261,13 +261,13 @@ ExoskeletonGaussNukeCannon.DisplayName: Gauss Nuclear
 ExoskeletonLaserCannon.DisplayName: Canhão Laser
 
 ExoskeletonPanel: {
-	// DisplayName: UI
-	// NoSlots: Insufficient minion slots!
+	DisplayName: Interface
+	NoSlots: Espaços de lacaio insuficientes!
 }
 
 ExoskeletonPlasmaCannon.DisplayName: Canhão de Plasma
 ExoskeletonTeslaCannon.DisplayName: Canhão de Tesla
-MinionGaussBoom.DisplayName: Híper-Exlplosão de Gauss
+MinionGaussBoom.DisplayName: Hiperexplosão de Gauss
 MinionGaussNuke.DisplayName: Gauss Nuclear
 MinionLaserBurst.DisplayName: Laser Exotérmico
 MinionPlasmaBlast.DisplayName: Explosão de Plasma Volátil
@@ -277,8 +277,8 @@ SmallSkeletonMinion.DisplayName: Pequeno Esqueleto
 SolarBeam.DisplayName: Feixe Solar
 SolarGod.DisplayName: Espírito Solar Vingativo
 SolarPixie.DisplayName: Pixie Solar
-Spikecrag.DisplayName: Spikecrag
-SpikecragSpike.DisplayName: Espinho Spikecrag
+Spikecrag.DisplayName: Picos-de-Promontório
+SpikecragSpike.DisplayName: Pico de Picos-de-Promontório
 SquirrelSquireAcorn.DisplayName: Bolota de Esquilo
 SquirrelSquireMinion.DisplayName: Esquilo Escudeiro
 Starforge.DisplayName: Forja Estelar
@@ -292,7 +292,7 @@ SummonBrimstoneExplosionSmall.DisplayName: Explosão
 TacticalPlagueJet.DisplayName: Jato Tático da Praga
 TundraFlameBlossom.DisplayName: Flor da Chama da Tundra
 TundraFlameBlossomsOrb.DisplayName: Orbe da Flor da Chama da Tundra
-MagicArrow.DisplayName: Flecha Vermilion
+MagicArrow.DisplayName: Flecha Vermelha
 MagicAxe.DisplayName: Machado de Jade
 MagicBird.DisplayName: Pássaro Mágico
 MagicBullet.DisplayName: Bala Mágica
