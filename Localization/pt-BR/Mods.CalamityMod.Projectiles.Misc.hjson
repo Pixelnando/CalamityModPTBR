@@ -3,8 +3,8 @@ MarniteRepulsionHitbox.DisplayName: Matriz de Repulsão
 ArtifactOfResilienceBulwark.DisplayName: Artefato de Resiliência
 // Arsenal do Draedon
 AnomalysNanogunHoldout.DisplayName: A Nanoarma da Anomalia
-AnomalysNanogunMPFBBoom.DisplayName: Explosão MPFB
-AnomalysNanogunMPFBDevastator.DisplayName: MPFB Devastador
+AnomalysNanogunMPFBBoom.DisplayName: Explosão de BFPM
+AnomalysNanogunMPFBDevastator.DisplayName: Devastador de BFPM
 AnomalysNanogunPlasmaBeam.DisplayName: Feixe de Plasma
 FrequencyManipulatorEnergy.DisplayName: Energia de Pulso
 FrequencyManipulatorProjectile.DisplayName: Manipulador de Frequências
