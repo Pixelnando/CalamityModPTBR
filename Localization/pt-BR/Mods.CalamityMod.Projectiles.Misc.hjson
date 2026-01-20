@@ -2,28 +2,28 @@
 MarniteRepulsionHitbox.DisplayName: Matriz de Repulsão
 ArtifactOfResilienceBulwark.DisplayName: Artefato de Resiliência
 // Arsenal do Draedon
-AnomalysNanogunHoldout.DisplayName: A Anomalia da Nano-Arma
+AnomalysNanogunHoldout.DisplayName: A Nanoarma da Anomalia
 AnomalysNanogunMPFBBoom.DisplayName: Explosão MPFB
 AnomalysNanogunMPFBDevastator.DisplayName: MPFB Devastador
 AnomalysNanogunPlasmaBeam.DisplayName: Feixe de Plasma
 FrequencyManipulatorEnergy.DisplayName: Energia de Pulso
-FrequencyManipulatorProjectile.DisplayName: Manipulador de Frequência
-GatlingLaserShot.DisplayName: Laser Gatling 
+FrequencyManipulatorProjectile.DisplayName: Manipulador de Frequências
+GatlingLaserShot.DisplayName: Metralhadora de Plasma 
 GaussEnergy.DisplayName: Energia Gauss
 GaussFlux.DisplayName: Fluxo Gauss
 GaussPistolShot.DisplayName: Tiro de Gauss
 GaussRifleBlast.DisplayName: Rajada de Gauss
 GaussRifleExplosion.DisplayName: Explosão de Gauss
-LaserRifleShot.DisplayName: Fuzil Laser
+LaserRifleShot.DisplayName: Rifle à Laser
 MassivePlasmaExplosion.DisplayName: Explosão de Plasma
 MountedScannerLaser.DisplayName: Raio da Morte
-MountedScannerSummon.DisplayName: Scanner Montado
+MountedScannerSummon.DisplayName: Escaneador Montado
 PhaseslayerBeam.DisplayName: Lâmina de Luz
 PlasmaCasterShot.DisplayName: Raio de Plasma
 PlasmaGrenadeProjectile.DisplayName: Granada de Plasma
 PlasmaGrenadeSmallExplosion.DisplayName: Explosão de Plasma
-PoleWarperSummon.DisplayName: Enrolador de Postes
-PulseDragonProjectile.DisplayName: Dragão de Pulso
+PoleWarperSummon.DisplayName: Torcedor de Polos
+PulseDragonProjectile.DisplayName: Dragão Pulsante
 PulsePistolShot.DisplayName: Raio de Pulso
 PulseRifleShot.DisplayName: Raio de Pulso
 PulseTurret.DisplayName: Torreta de Pulso
@@ -33,15 +33,15 @@ SnakeEyesProjectile.DisplayName: Raio Inescapável
 StarSwallowerAcid.DisplayName: Ácido
 StarSwallowerSummon.DisplayName: Sapo de Estimação
 SystemBaneLightning.DisplayName: Relâmpago
-SystemBaneProjectile.DisplayName: Bane Sistema
+SystemBaneProjectile.DisplayName: Praga do Sistema
 TaserHook.DisplayName: Taser
 TeslaCannonShot.DisplayName: Feixe de Tesla
 TrackingDiskLaser.DisplayName: Laser
-TrackingDiskProjectile.DisplayName: Disco de Rastreamento
+TrackingDiskProjectile.DisplayName: Disco Perseguidor
 UnstableMatter.DisplayName: Matéria Instável
 VoltageStream.DisplayName: Fluxo de Voltagem
 WavePounderBoom.DisplayName: Explosão
-WavePounderProjectile.DisplayName: Onda Pounder
+WavePounderProjectile.DisplayName: Batedor de Ondas
 // Ambiente
 AcidDrop.DisplayName: Ácido
 BrimstoneGeyser.DisplayName: Fumaça
