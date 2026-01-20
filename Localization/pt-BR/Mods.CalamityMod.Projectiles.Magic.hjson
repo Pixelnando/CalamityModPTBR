@@ -91,8 +91,8 @@ GraniteEnergy.DisplayName: Energia de Granito
 GranitePulse.DisplayName: Pulso de Granito
 HadalUrnIsopod.DisplayName: Isópode Abissal
 HadalUrnJellyfish.DisplayName: Geleia da Miragem
-HadalUrnLamprey.DisplayName: Lampreia-mMrinha
-HadalUrnStarfish.DisplayName: Estrela-Do-Mar Mariana
+HadalUrnLamprey.DisplayName: Lampreia-Marinha
+HadalUrnStarfish.DisplayName: Estrela-do-Mar Mariana
 HadalUrnStarfishShard.DisplayName: Fragmento de Estrela-do-Mar
 HeliumFlashBlast.DisplayName: Flash de Hélio
 HellfireExplosionFriendly.DisplayName: Explosão
@@ -136,7 +136,7 @@ ManaBolt.DisplayName: Raio de Mana
 ManaBoltSmall.DisplayName: Raio de Mana
 ManaBoltSmall2.DisplayName: Raio de Mana
 ManaChargedCoral.DisplayName: Coral Carregado de Mana
-ManaMonster.DisplayName: Mostro de Mana
+ManaMonster.DisplayName: Monstro de Mana
 MelterAmp.DisplayName: Amplicador do Derretimento
 MelterNote1.DisplayName: Som Derretedor
 MelterNote2.DisplayName: Som Derretedor
@@ -171,9 +171,9 @@ PrinceFlameSmall.DisplayName: Fogo Sagrado
 RainbowComet.DisplayName: Cometa
 RainbowRocket.DisplayName: Foguete Arco-Íris
 RancorArm.DisplayName: Braço Vingativo
-RancorFog.DisplayName: A Névoa está Vindo
+RancorFog.DisplayName: A Névoa Está Vindo
 RancorLargeCinder.DisplayName: Cinza de Lava
-RancorLaserbeam.DisplayName: O Feixe Angy
+RancorLaserbeam.DisplayName: O Feixe Brabo
 RancorMagicCircle.DisplayName: Círculo Mágico
 RancorSmallCinder.DisplayName: Cinza de Rancor
 RedirectingFire.DisplayName: Fogo
@@ -197,22 +197,22 @@ ShadeNimbusCloud.DisplayName: Nuvem Sombria
 Shaderain.DisplayName: Chuva Sombria
 Shadowbolt.DisplayName: Raio das Sombras
 ShiftingSandsProj.DisplayName: Areia Movediça
-SHPB.DisplayName: SHPB
+SHPB.DisplayName: BPSA
 SHPExplosion.DisplayName: Explosão SHPB
-SHPL.DisplayName: SHPL
+SHPL.DisplayName: LPSA
 SilvaBurst.DisplayName: Explosão Silva
 SlitheringEelProjectile.DisplayName: Enguia Rastejante
 SmallSpirit.DisplayName: Pequeno Espírito Zangado
 Snowball.DisplayName: Bola de Neve
-Snowflake.DisplayName: Floco de NEve
+Snowflake.DisplayName: Floco de Neve
 SnowflakeIceStar.DisplayName: Estrela de Gelo
 SolarElementalBeam.DisplayName: Feixe Solar
 SoulPiercerBeam.DisplayName: Perfurador de Almas
 SoulPiercerBolt.DisplayName: Perfurador de Almas
 SparkInfernal.DisplayName: Faísca
-SparklingLaser.DisplayName: Laser Faiscante
+SparklingLaser.DisplayName: Laser Brilhante
 SpiritCongregation.DisplayName: Monstro Espírito
-SpiritDust.DisplayName: Pó Espírito
+SpiritDust.DisplayName: Pó de Espírito
 Starblast.DisplayName: Estrela
 StardustElementalBeam.DisplayName: Feixe de Pó das Estrelas
 StickyFeather.DisplayName: Pena
