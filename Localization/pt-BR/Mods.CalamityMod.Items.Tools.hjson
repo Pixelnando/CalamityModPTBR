@@ -47,10 +47,10 @@ BobbitHook: {
 	Tooltip:
 		'''
 		Retrai ao atingir uma peça com velocidades extremas
-		Alcance: 40
-		Velocidade de Lançamento: 25
-		Velocidade de Retorno: 28
-		Velocidade de Tração: 24
+		Alcance: 40,000 peças 
+		Velocidade de lançamento: 25,00
+		Velocidade de retorno: 28,00
+		Velocidade de tração: 24,00
 		'''
 }
 
