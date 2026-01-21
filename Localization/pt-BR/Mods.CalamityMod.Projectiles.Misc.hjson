@@ -1,14 +1,14 @@
-// Danificável
+// Damageable
 MarniteRepulsionHitbox.DisplayName: Matriz de Repulsão
 ArtifactOfResilienceBulwark.DisplayName: Artefato de Resiliência
-// Arsenal do Draedon
+// Draedon's Arsenal
 AnomalysNanogunHoldout.DisplayName: A Nanoarma da Anomalia
 AnomalysNanogunMPFBBoom.DisplayName: Explosão de BFPM
 AnomalysNanogunMPFBDevastator.DisplayName: Devastador de BFPM
 AnomalysNanogunPlasmaBeam.DisplayName: Feixe de Plasma
 FrequencyManipulatorEnergy.DisplayName: Energia de Pulso
 FrequencyManipulatorProjectile.DisplayName: Manipulador de Frequências
-GatlingLaserShot.DisplayName: Metralhadora de Plasma 
+GatlingLaserShot.DisplayName: Metralhadora de Plasma
 GaussEnergy.DisplayName: Energia Gauss
 GaussFlux.DisplayName: Fluxo Gauss
 GaussPistolShot.DisplayName: Tiro de Gauss
@@ -42,7 +42,7 @@ UnstableMatter.DisplayName: Matéria Instável
 VoltageStream.DisplayName: Fluxo de Voltagem
 WavePounderBoom.DisplayName: Explosão
 WavePounderProjectile.DisplayName: Batedor de Ondas
-// Ambiente
+// Environmental
 AcidDrop.DisplayName: Ácido
 BrimstoneGeyser.DisplayName: Fumaça
 GeyserTelegraph.DisplayName: Gêiser
@@ -51,7 +51,7 @@ LavaChunk.DisplayName: Pedaço de Lava
 MurkySteam.DisplayName: Vapor
 SmokeTelegraph.DisplayName: Fumaça
 ThermalSteam.DisplayName: Vapor
-// Torretas
+// Turrets
 DraedonLaser.DisplayName: Laser do Draedon
 DraedonLaserBuffer.DisplayName: Laser do Draedon
 FireShot.DisplayName: Tiro de Fogo

@@ -6,6 +6,9 @@
 
 [g:5] Nota: Não sou afiliado com os desenvolvedores do Calamity Mod.
 __________________________
+v2026.01.21
+- Projéteis traduzidos
+- Mudanças no vanilla traduzidas
 
 v2026.01.10
 - Armas ladinas traduzidas

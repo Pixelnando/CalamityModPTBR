@@ -1,6 +1,6 @@
 displayName = Calamity Mod PT-BR Translation
 author = Pixelnando
-version = 2026.01.10
+version = 2026.01.21
 homepage = https://steamcommunity.com/sharedfiles/filedetails/?id=2828097300
 modReferences = CalamityMod
 includeSource = true
