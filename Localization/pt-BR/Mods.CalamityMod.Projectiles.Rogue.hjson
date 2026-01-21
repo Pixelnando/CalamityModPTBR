@@ -1,10 +1,10 @@
-AbyssalMirrorProjectile.DisplayName: Fluido Lumenyl
+AbyssalMirrorProjectile.DisplayName: Fluido Lumenil
 AcidBarrelDrop.DisplayName: Gota do Barril Acídico
 AcidShrapnel.DisplayName: Estilhaço Acídico
 AdamantiteThrowingAxeProjectile.DisplayName: Machado de Arremesso de Adamantina
 AlphaSeeker.DisplayName: Caçador Vírus Alfa
 AlphaVirusProjectile.DisplayName: Vírus Alfa
-AntumbraShardProjectile.DisplayName: Fragmento Antumbra
+AntumbraShardProjectile.DisplayName: Fragmento de Antumbra
 ApoctolithProj.DisplayName: Apoctólito
 ApoctolithShard.DisplayName: Fragmento de Apoctólito
 AshenStalactiteDebris.DisplayName: Detritos Cinzentos
@@ -21,7 +21,7 @@ BlastBarrelProjectile.DisplayName: Barril da Rajada
 BlazingStarProj.DisplayName: Estela Ardente
 BloodsoakedCrashax.DisplayName: Esmagador Ensanguentado
 BlueFlamePillar.DisplayName: Coluna de Chama
-BlunderBoosterLightning.DisplayName: Raio Enganador
+BlunderBoosterLightning.DisplayName: Raio da Enganação
 BouncingEyeballProjectile.DisplayName: Globo Ocular Saltitante
 BouncingEyeballProjectileStealthStrike.DisplayName: Globo Ocular Saltitante
 BouncyBol.DisplayName: Bola Saltitante
@@ -59,7 +59,7 @@ CraniumSMASH.DisplayName: Crânio ESMAGA
 CraniumSmasherExplosive.DisplayName: Esmaga-Crânios Explosivo
 CraniumSmasherProj.DisplayName: Esmaga-Crânios
 CraniumSmasherStealth.DisplayName: Esmaga-Crânios Furtivo
-Crushax.DisplayName: Crushax
+Crushax.DisplayName: Esmagachado
 Crystalline2.DisplayName: Cristalina
 CrystallineProj.DisplayName: Cristalina
 CrystalPiercerProjectile.DisplayName: Perfurador Cristalino
@@ -81,12 +81,12 @@ DukesDecapitatorBubble.DisplayName: Bolha de Duque
 DukesDecapitatorProj.DisplayName: Decapitador do Duque
 DuststormCloud.DisplayName: Nuvem de Poeira
 DuststormCloudHitbox.DisplayName: Nuvem de Tempestade de Poeira
-DuststormInABottleProj.DisplayName: Garrfa de Tempestade de Poeira
+DuststormInABottleProj.DisplayName: Garrafa de Tempestade de Poeira
 DragonScalesInfernado.DisplayName: Infernado
 DynamicPursuerElectricity.DisplayName: Eletricidade Dinâmica
 DynamicPursuerLaser.DisplayName: Laser Dinâmico
 DynamicPursuerProjectile.DisplayName: Perseguidor Dinâmico
-EclipseMirrorBurst.DisplayName: Flash Espelho de Eclipse
+EclipseMirrorBurst.DisplayName: Clarão do Espelho de Eclipse
 EclipsesFallMain.DisplayName: Eclipse Caído
 EclipsesSmol.DisplayName: Pequeno Eclipse
 EclipsesStealth.DisplayName: Eclipse Caído
@@ -108,7 +108,7 @@ ExorcismShockwave.DisplayName: Onda de Choque de Exorcismo
 ExorcismStar.DisplayName: Estrela do Exorcismo
 ExplosiveSun.DisplayName: Sol Explosivo
 FantasyTalismanProj.DisplayName: Talismã
-FantasyTalismanStealth.DisplayName: TTalismã
+FantasyTalismanStealth.DisplayName: Talismã
 FeatherKnifeProjectile.DisplayName: Faca de Penas
 FinalDawnFireball.DisplayName: A Última Manhã
 FinalDawnFireSlash.DisplayName: A Última Manhã
@@ -137,7 +137,7 @@ GraveGrimreaverProjectile.DisplayName: Ceifador de Túmulos
 GreenDonkeyKongReference.DisplayName: Barril de Chuva Acídica
 GrimreaverBat.DisplayName: Morcego Sinistro
 GrimreaverSkull.DisplayName: Caveira Sinistra
-HeavenfallenEnergy.DisplayName: Energia Descendente do Céu
+HeavenfallenEnergy.DisplayName: Energia Caída do Céu
 HeavenfallenStardiskBoomerang.DisplayName: Disco Estelar Caído do Céu
 HellsSunProj.DisplayName: Sol do Inferno
 Honeycomb.DisplayName: Favo de Mel
@@ -190,7 +190,7 @@ MycorootProj.DisplayName: Micorreia
 MythrilKnifeProjectile.DisplayName: Faca de Mithrill
 NanoblackMain.DisplayName: Ceifador Nano-Negro
 NanoblackSplit.DisplayName: Lâmina Nano-Negra
-NanoblackStealthSplit.DisplayName: Pós-imagem Nano-Negra
+NanoblackStealthSplit.DisplayName: Pós-Imagem Nano-Negra
 NastyChollaBol.DisplayName: Bola de Cacto Traiçoeira
 NastyChollaNeedle.DisplayName: Agulha de Cacto
 NightsGazeProjectile.DisplayName: Olhar da Noite
@@ -279,17 +279,17 @@ StealthNimbus.DisplayName: Nuvem
 StealthNimbusCloud.DisplayName: Nuvem
 StealthRain.DisplayName: Chuva
 StellarKnifeProj.DisplayName: Faca Estelar
-StickyBol.DisplayName: Bol Pegajosa
-StormfrontLightning.DisplayName: Relâmpago de Frente de Tempestade
-StormfrontRazorProjectile.DisplayName: Navalha Frente de Tempestade
-Stormfrontspark.DisplayName: Faísca de Frente de Tempestade
-SubductionFlameburst.DisplayName: Coluna de Chama
+StickyBol.DisplayName: Bolinha Pegajosa
+StormfrontLightning.DisplayName: Relâmpago Corta-Raios
+StormfrontRazorProjectile.DisplayName: Navalha Corta-Raios
+Stormfrontspark.DisplayName: Faísca Corta-Raios
+SubductionFlameburst.DisplayName: Coluna de Chamas
 SubductionSlicerProj.DisplayName: Fatiador de Subducção
 SulphuricNukesplosion.DisplayName: Nuclear
-SupernovaBomb.DisplayName: Bomba-Supernova
-SupernovaBoom.DisplayName: Micro-Supernova
+SupernovaBomb.DisplayName: Bomba Supernova
+SupernovaBoom.DisplayName: Microsupernova
 SupernovaStealthBoom.DisplayName: Exo-Supernova
-TalonLargeProj.DisplayName: Enorme Garra do Terror
+TalonLargeProj.DisplayName: Garra do Terror Enorme
 TalonSmallProj.DisplayName: Garra do Terror
 TarragonThrowingDartProjectile.DisplayName: Dardo Arremessável de Estragão
 TarraThornRight.DisplayName: Espinho de Estragão
