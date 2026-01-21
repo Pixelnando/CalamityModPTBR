@@ -1154,7 +1154,7 @@ StickySpikyBall: {
 }
 
 StormfrontRazor: {
-	DisplayName: Navalha Frente de Tempestade
+	DisplayName: Navalha Corta-Raios
 	Tooltip:
 		'''
 		Lança uma faca que invoca raios ao atingir o inimigo
