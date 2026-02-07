@@ -52,3 +52,12 @@ TundraLeash: {
 	DisplayName: Coleira da Tundra
 	Tooltip: Invoca um Cão-da-Geada que pode ser montado
 }
+
+ExoArmamentsKit: {
+	// DisplayName: Exo Armaments Kit
+	/* Tooltip:
+		'''
+		Summons a rideable war machine
+		'A superweapon just right for your stature'
+		''' */
+}

@@ -68,3 +68,28 @@ PlagueShot.DisplayName: Plague Shot
 PlagueShotBuffer.DisplayName: Plague Shot
 WaterShot.DisplayName: Water Shot
 WaterShotBuffer.DisplayName: Water Shot
+// Draedon's Arsenal
+AerialTrackerLaser.DisplayName: Laser
+AerialTrackerProjectile.DisplayName: Aerial Tracker
+AqueousHunterDroneSummon.DisplayName: Plasma Shrimp
+AugerHoldout.DisplayName: P-GSS Auger
+AugerSlash.DisplayName: Auger Slash
+AugerPull.DisplayName: Auger Pull
+CountermeasurePalmBlast.DisplayName: Palm Blast
+ImmolationArrow.DisplayName: Immolation Arrow
+ImmolationBurst.DisplayName: Immolation Burst
+ImmolationSpray.DisplayName: Immolation Spray
+NidhoggRailgunBigShot.DisplayName: Nidhogg Railgun
+NidhoggRailgunBlast.DisplayName: Nidhogg Beam
+NidhoggExplosion.DisplayName: Magnetic Implosion
+PhalanxSurgeLance.DisplayName: Laser Lance
+PhalanxSurgeLaser.DisplayName: Phalanx Laser
+PulseGrenadeProjectile.DisplayName: Pulse Grenade
+PulseGrenadeOrb.DisplayName: Pulse Orb
+ShortCircuitHook.DisplayName: Short Circuit Hook
+ShrimpPlasmaMissile.DisplayName: Plasma Shrimp Missile
+VulcanProjectile.DisplayName: Vulcan Shot
+VulcanSpear.DisplayName: Vulcan Harpoon
+BarrelCactusProjectile.DisplayName: Barrel Cactus
+Lilyglow.DisplayName: Lilyglow
+WaterAlgae.DisplayName: Water Algae

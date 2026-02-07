@@ -361,3 +361,13 @@ YharonSoulFragment: {
 	DisplayName: Fragmento da Alma de Yharon
 	Tooltip: Um fragmento de uma alma áurica
 }
+
+AnodizedWulfrumMetal: {
+	// DisplayName: Anodized Wulfrum Metal
+	// Tooltip: ""
+}
+
+WillOWisp: {
+	// DisplayName: Will O Wisp
+	// Tooltip: ""
+}

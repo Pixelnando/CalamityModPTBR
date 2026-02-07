@@ -56,6 +56,9 @@ Drops: {
 		{$Bestiary_ItemDropConditions.IsExpert}
 		'''
 	TrasherKill: Surge se alimentado a um Lixocodilo
+	// CataclysmKilledLast: Drops if defeated after {$NPCs.Catastrophe.DisplayName}
+	// CatastropheKilledLast: Drops if defeated after {$NPCs.Cataclysm.DisplayName}
+	// ProvidenceEnraged: Drops if Providence has been enraged
 }
 
 // Other conditions
@@ -76,3 +79,4 @@ PostPolter: Após derrotar Polterghast
 PostOD: Após derrotar o Velho Duque
 PostDoG: Após derrotar o Devorador de Deuses
 PostYharon: Após derrotar Yharon
+// LacewingBestiary: When at least 40% of the Bestiary has been completed

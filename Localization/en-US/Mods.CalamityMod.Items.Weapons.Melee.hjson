@@ -165,6 +165,11 @@ Basher: {
 BladecrestOathsword: {
 	DisplayName: Bladecrest Oathsword
 	Tooltip: Fires bursts of demonic blades that exponentially decelerate and explode
+	HoldShiftTooltip:
+		'''
+		[c/df0049:A ritual blade used by Demons for sacrifices.]
+		[c/df0049:The more blood taints the edge, the sharper it becomes.]
+		'''
 }
 
 BlightedCleaver: {
@@ -346,6 +351,12 @@ DevilsDevastation: {
 		Pitchforks rise from the underworld to skewer your foes
 		Critical hits cause shadowflame explosions
 		'''
+	HoldShiftTooltip:
+		'''
+		[c/d13ca2:The perfect blade of the Underworld, wielding the power of Brimstone directly.]
+		[c/d13ca2:Humans understand this force as Havoc, the inevitable sundering of all order in fire.]
+		[c/d13ca2:Perhaps this is why the Brimstone Elemental had strength unrivaled by her sisters.]
+		'''
 }
 
 DevilsSunrise: {
@@ -456,6 +467,13 @@ EvilSmasher: {
 ExaltedOathblade: {
 	DisplayName: Exalted Oathblade
 	Tooltip: Fires a spread of demonic scythes and critical hits cause shadowflame explosions
+	HoldShiftTooltip:
+		'''
+		[c/b63cd1:A sword fashioned from the legend of the Last Demon Lord.]
+		[c/b63cd1:Crowned through his overwhelming might, his sword bathed in the blood of Demons and the fires of hell.]
+		[c/b63cd1:Even long after his passing, none have dared to take the seat.]
+		[c/b63cd1:Demonkind has not known unity since.]
+		'''
 }
 
 Excelsus: {
@@ -515,6 +533,12 @@ Floodtide: {
 ForbiddenOathblade: {
 	DisplayName: Forbidden Oathblade
 	Tooltip: Fires a demonic scythe and critical hits cause shadowflame explosions
+	HoldShiftTooltip:
+		'''
+		[c/b63cd1:A blade forged in the likeness of that granted to the Demon Lord.]
+		[c/b63cd1:The title was coveted by all demonkind. Only one may exist at a time.]
+		[c/b63cd1:Any claimant who seeks the throne has a simple goal: the head of the former Lord.]
+		'''
 }
 
 ForsakenSaber: {
@@ -754,6 +778,13 @@ MirrorBlade: {
 		The amount of contact damage an enemy does is added to this weapons' damage
 		You must hit an enemy with the blade to trigger this effect
 		'''
+	HoldShiftTooltip:
+		'''
+		[c/aab7f1:Each shard reduces the damage of a projectile that hit the shield by 10%]
+		[c/aab7f1:The shield shatters after one projectile, launching the shards at enemies with increased damage]
+		[c/aab7f1:With all 10 shards, you gain a brief period of invulnerability when shattering the shield]
+		'''
+	FlavorTooltip: "[c/7b6d8d:'A blade taken from your own reflection within the Ceaseless Void']"
 }
 
 MonstrousKnives: {
@@ -822,6 +853,11 @@ OldLordClaymore: {
 		Holding <right> rapidly absorbs energy into the blade until it is charged
 		Press <left> while charged to fly in the direction of the cursor
 		Using the lunge resets the blade's charge to zero
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/df4420:A gift to outstanding Demons, a replica of the sword used by the greatest of all Demon Lords.]
+		[c/df4420:The prosperity he brought to their kind is unmatched even now that they alone rule the Underworld.]
 		'''
 }
 
@@ -1433,5 +1469,100 @@ YinYo: {
 		Fires light or dark shards when enemies are near
 		Shards fly back and forth
 		A very agile yoyo
+		'''
+}
+
+AcidwoodSword: {
+	DisplayName: Acidwood Sword
+	Tooltip: ""
+}
+
+DriftwoodSword: {
+	DisplayName: Driftwood Sword
+	Tooltip: This sword is stronger while you are wet
+}
+
+GrandDad: {
+	DisplayName: Grand Dad
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		An unfathomably heavy blade that rips through enemies using its sheer mass
+		Heals you on hit
+		Striking weaker enemies will launch them with incredible force
+		Launched enemies take immense damage when colliding with walls and floors
+		Holding <right> while swinging will heavily reduce the damage of the blade and increase its launch damage and velocity
+		[c/00B8DF:'How are you swinging something that has half the mass of a star?']
+		'''
+	TooltipGFB:
+		'''
+		A high quality blade that rips through enemies
+		Striking weaker enemies will yeet them with incredible force, often leaving them Stuck Inside tiles
+		Yeeted enemies will turn to JAM when SLAMMED into walls and floors
+		Holding <right> while swinging will heavily reduce the damage of the blade and increase its yeet damage and velocity, nice >:]
+		[c/00B8DF:'Please read the weapon description.']
+		'''
+}
+
+Lightspeed: {
+	DisplayName: Lightspeed
+	Tooltip:
+		'''
+		[c/c7f5ff:Unleash a flurry of stabs which build Elemental Mastery on hit]
+		[c/c2fff2:Elemental Mastery is lost over time but briefly stops depleting after reaching its maximum]
+		[c/ffdfba:Press <right> with maximum Elemental Mastery to dash toward your cursor]
+		[c/ffc7c7:Hitting an enemy during the dash refunds some Elemental Mastery]
+		'''
+}
+
+MawOfInfinity: {
+	DisplayName: Maw of Infinity
+	Tooltip:
+		'''
+		Swings a blade forged from the Devourer's maw in a 3-swing combo
+		The first swing only hits close range
+		The second swing additionally launches [c/ff00ff:Faith Incinerator]
+		The third swing unleashes [c/ff00ff:Divinity Devourer] at your cursor, exploding for massive damage
+		'''
+}
+
+MonolithSword: {
+	DisplayName: Monolith Sword
+	Tooltip: ""
+}
+
+SkytideDragoon: {
+	DisplayName: Skytide Dragoon
+	Tooltip:
+		'''
+		Calls down a thunderbolt to strike and charge the tip of the spear
+		Press <left> to discharge the electricity as a spread of bolts that narrows as you spend the energy
+		Hold <right> when the spear catches the thunderbolt to redirect it to the cursor
+		'''
+}
+
+TriactisTruePaladinianMageHammerofMight: {
+	DisplayName: Triactis' True Paladinian Mage-Hammer of Might
+	Tooltip:
+		'''
+		Throws a heavy, gravity-affected hammer that will return to you after striking an enemy
+		Enemy hits release prismatic light flares which orbit around the struck foe
+		Instead of returning, the fourth hit transforms flares into hardlight hammers
+		These hammers converge and form a universe-collapsing explosion
+		'''
+}
+
+VanishingPoint: {
+	DisplayName: Vanishing Point
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		Fires a lance beam that splits multiple times as it travels
+		'Rend the cosmos asunder!'
+		'''
+	TooltipGFB:
+		'''
+		Fires a lance beam that splits, like, a LOT. Way more than it ever should.
+		'Rend the projectile limit asunder!'
 		'''
 }

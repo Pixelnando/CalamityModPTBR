@@ -157,6 +157,13 @@ CindersOfLament: {
 		[c/C61B40:'The Witch, a sinner of her own making,]
 		[c/C61B40:Within her mind her demon lies, ever patient, until the end of time.']
 		'''
+	Calamitas:
+		'''
+		'My brothers perished in Azafure. I found their bodies near the center of the city, after they left for an expedition.
+		Before my power was what it is now, they were always alongside me and didn't allow anyone to harm me.
+		It may have been a problem sometimes, but they were surprisingly obedient.
+		And even after all that's happened, and even in death, they still look out for me. Isn't that sweet of them?'
+		'''
 }
 
 Cnidarian: {
@@ -503,6 +510,12 @@ Metastasis: {
 		[c/C61B40:A contemplated possible future of the cosmic serpent,]
 		[c/C61B40:A gruesome warning for those blinded by the hunger for power.]
 
+		'''
+	Calamitas:
+		'''
+		'When I joined Yharim's ranks, the Devourer was one of the first to greet me. He seemed kind at first, but that mask did not last long.
+		He was arrogant, disrespectful and shady. If you hadn't killed him, I would've.
+		I made my Sepulcher as a mockery of his arrogance, but it seems the insult fell flat. You can add "slime-brained" to his list of fabricated titles.'
 		'''
 }
 
@@ -874,5 +887,37 @@ LiliesOfFinality: {
 		Requires 2 minion slots to use
 		Can only be summoned once
 		'Wake up'
+		'''
+}
+
+AmphibiansGuitar: {
+	DisplayName: Amphibian's Guitar
+	Tooltip:
+		'''
+		Summons up to 8 guitars that spin around you and shoot notes at the target, occasionally firing spread shots
+		If all 8 guitars are present, some notes become empowered, dealing extra damage
+		'I'll show you suffering!'
+		'''
+}
+
+EnchantedKnifeStaff: {
+	DisplayName: Enchanted Knife Staff
+	Tooltip: Summons an Enchanted Knife to fight for you
+}
+
+LegionofCelestia: {
+	DisplayName: Legion of Celestia
+	Tooltip: Summons a possessed, celestial axe to fight for you
+}
+
+VoidEaterMarionette: {
+	DisplayName: Void Eater Marionette
+	Tooltip:
+		'''
+		Contains the power to control a miniature Devourer
+		Repeated summons increase the length and power of the Devourer
+		The Devourer attacks with [c/ff00ff:Divinity Devourer], [c/ff00ff:Faith Incinerator] and [c/ff00ff:Ultracosmic Maelstrom]
+		Can play fetch with dropped items 
+		Shift-<right> this item in your inventory when the Devourer has been spawned to prioritize fetching
 		'''
 }

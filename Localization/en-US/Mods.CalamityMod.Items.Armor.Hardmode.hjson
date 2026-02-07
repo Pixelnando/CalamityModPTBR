@@ -557,3 +557,20 @@ UmbraphileRegalia: {
 	DisplayName: Umbraphile Regalia
 	Tooltip: 10% increased rogue damage and 10% increased rogue crit
 }
+
+BrimflameCowl: {
+	DisplayName: Brimflame Cowl
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance@2}
+		Immunity to [cbuff:OnFire], [cbuff:CalamityMod/BrimstoneFlames] and [cbuff:Frostburn]
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance}
+		[c/{1}:Brimflame Frenzy - {2} for {3} {^3:second;seconds} of {$CommonItemTooltip.PercentIncreasedMagicDamage@4}]
+		[c/FF9173:However, this inflicts rapid life loss and disables mana regeneration and mana potions]
+		[c/FF9173:This effect can be toggled off and has a cooldown of {5} {^5:second;seconds}]
+		'''
+}

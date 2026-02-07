@@ -121,61 +121,73 @@ Withered: {
 AstralInfectionDebuff: {
 	DisplayName: Astral Infection
 	Description: Your flesh is melting off
+	ItemTooltip: Sickness - 37.5 DPS
 }
 
 BanishingFire: {
 	DisplayName: Banishing Fire
 	Description: You shall not be forgiven for your sins
+	ItemTooltip: Heat - Deals DPS equal to 0.1% of max HP or 2000, whichever is greater
 }
 
 BrimstoneFlames: {
 	DisplayName: Brimstone Flames
 	Description: Incinerating both body and mind
+	ItemTooltip: Heat - 30 DPS
 }
 
 BurningBlood: {
 	DisplayName: Burning Blood
 	Description: Your blood is on fire
+	ItemTooltip: Sickness - 20 DPS
 }
 
 BrainRot: {
 	DisplayName: Brain Rot
 	Description: Your neurons are popping like corn kernels
+	ItemTooltip: Sickness - 20 DPS
 }
 
 ElementalMix: {
 	DisplayName: Elemental Mix
 	Description: A beautiful elemental symphony is flaying you alive
+	ItemTooltip: Typeless - 200 DPS
 }
 
 CrushDepth: {
 	DisplayName: Crush Depth
 	Description: Crushed by aquatic pressure
+	ItemTooltip: Water - 50 DPS
 }
 
 RiptideDebuff: {
 	DisplayName: Riptide
 	Description: Lashed at by powerful waters
+	ItemTooltip: Water - 15 DPS
 }
 
 Dragonfire: {
 	DisplayName: Dragonfire
 	Description: Engulfed by roaring flames
+	ItemTooltip: Heat - 480 DPS
 }
 
 GodSlayerInferno: {
 	DisplayName: God Slayer Inferno
 	Description: Your flesh is burning off
+	ItemTooltip: Heat - 250 DPS
 }
 
 HeavyBleeding: {
 	DisplayName: Heavy Bleeding
 	Description: That's gonna need stitches
+	ItemTooltip: Typeless - 40 DPS
 }
 
 HolyFlames: {
 	DisplayName: Holy Flames
 	Description: Dissolving from holy light
+	ItemTooltip: Heat - 150 DPS
 }
 
 HolyInferno: {
@@ -186,31 +198,41 @@ HolyInferno: {
 Laceration: {
 	DisplayName: Laceration
 	Description: You're a bloody mess
+	ItemTooltip: Typeless - 200 DPS
 }
 
 ManaBurn: {
 	DisplayName: Mana Burn
 	Description: The excess of mana sears your body and mind
+	ItemTooltip:
+		'''
+		Typeless
+		Every 100 negative mana reduces your life regen by 4 HP/s, but burns enemies for 3% of dealt damage
+		'''
 }
 
 MiracleBlight: {
 	DisplayName: Miracle Blight
 	Description: Exotic resonance shreds your corporeal form
+	ItemTooltip: Typeless - 1500 DPS
 }
 
 Nightwither: {
 	DisplayName: Nightwither
 	Description: Incinerated by lunar rays
+	ItemTooltip: Cold - 100 DPS
 }
 
 Plague: {
 	DisplayName: Plague
 	Description: Rotting from the inside
+	ItemTooltip: Sickness - 50 DPS
 }
 
 SagePoison: {
 	DisplayName: Sage Poison
 	Description: Poisoned
+	ItemTooltip: Sickness - DPS scales with summoned Viral Sprout amount
 }
 
 SearingLava: {
@@ -226,6 +248,7 @@ ShellfishClaps: {
 Shred: {
 	DisplayName: Shred
 	Description: Someone built ten Tri-Tip Daggers...
+	ItemTooltip: ""
 }
 
 SnapClamDebuff: {
@@ -236,16 +259,27 @@ SnapClamDebuff: {
 SulphuricPoisoning: {
 	DisplayName: Sulphuric Poisoning
 	Description: The acidic water burns away your flesh
+	ItemTooltip: Sickness - 120 DPS
 }
 
 Vaporfied: {
 	DisplayName: Vaporfied
 	Description: Vape
+	ItemTooltip:
+		'''
+		Typeless - 15 DPS
+		Slows enemies
+		'''
 }
 
 VulnerabilityHex: {
 	DisplayName: Vulnerability Hex
 	Description: Your mental fortitude is fading
+	ItemTooltip:
+		'''
+		Heat - 1332 DPS
+		Slows enemies
+		'''
 }
 
 WeakBrimstoneFlames: {
@@ -716,6 +750,7 @@ CoralSymbiosis: {
 CosmicFreeze: {
 	DisplayName: Cosmic Freeze
 	Description: You feel as cold as the empty expanse of outer space
+	ItemTooltip: Increases regeneration, especially when standing still, and freezes nearby enemies
 }
 
 DivineBless: {
@@ -771,6 +806,7 @@ IceShieldBuff: {
 Mushy: {
 	DisplayName: Mushy
 	Description: Increased defense by 6 and life regen by 1HP/s
+	ItemTooltip: Increases defense and life regeneration
 }
 
 PhantomicEmpowerment: {
@@ -832,6 +868,7 @@ RageMode: {
 ReaverRage: {
 	DisplayName: Reaver Rage
 	Description: You are angry
+	ItemTooltip: Increased defense and damage
 }
 
 SilvaRevival: {
@@ -867,6 +904,7 @@ TarragonImmunity: {
 TarraLifeRegen: {
 	DisplayName: Tarra Life
 	Description: Rapid healing
+	ItemTooltip: ""
 }
 
 AndromedaCripple: {
@@ -877,11 +915,13 @@ AndromedaCripple: {
 ArmorCrunch: {
 	DisplayName: Armor Crunch
 	Description: Your armor is shredded
+	ItemTooltip: Damage Reduction is 15% less effective
 }
 
 Crumbling: {
 	DisplayName: Crumbling
 	Description: Your armor is damaged
+	ItemTooltip: Damage Reduction is 8% less effective
 }
 
 Clamity: {
@@ -906,6 +946,7 @@ Enraged: {
 Eutrophication: {
 	DisplayName: Eutrophication
 	Description: Excessive nutrients restrict your movement
+	ItemTooltip: Slows enemies
 }
 
 ExoFreeze: {
@@ -926,11 +967,13 @@ FrozenLungs: {
 GalvanicCorrosion: {
 	DisplayName: Galvanic Corrosion
 	Description: Your limbs have begun to corrode
+	ItemTooltip: Slows enemies
 }
 
 GlacialState: {
 	DisplayName: Glacial State
 	Description: Cannot move
+	ItemTooltip: Freezes enemies
 }
 
 IcarusFolly: {
@@ -945,11 +988,17 @@ IcarusFolly: {
 Irradiated: {
 	DisplayName: Irradiated
 	Description: Your skin is burning off
+	ItemTooltip:
+		'''
+		Typeless - 10 DPS
+		Increases damage taken from Sickness debuffs
+		'''
 }
 
 MarkedforDeath: {
 	DisplayName: Marked for Death
 	Description: Damage reduction reduced
+	ItemTooltip: Damage reduction is 50% less effective
 }
 
 PearlAura: {
@@ -965,11 +1014,13 @@ ProfanedWeakness: {
 TemporalSadness: {
 	DisplayName: Temporal Sadness
 	Description: You are crying
+	ItemTooltip: Freezes enemies
 }
 
 TimeDistortion: {
 	DisplayName: Time Distortion
 	Description: Time is slowed
+	ItemTooltip: Slows enemies
 }
 
 Warped: {
@@ -985,6 +1036,7 @@ WeakPetrification: {
 WhisperingDeath: {
 	DisplayName: Whispering Death
 	Description: Death approaches; attack power and life regen reduced
+	ItemTooltip: Reduced contact damage
 }
 
 WitherDebuff: {
@@ -1499,11 +1551,13 @@ AbsorberRegen: {
 		You are blessed by the culmimation of nature's powers
 		Life regen increased by 3HP/s, damage increased by 8%, damage reduction increased by 5%
 		'''
+	ItemTooltip: Increases life regeneration, damage, and damage reduction
 }
 
 AbsorberAffliction: {
 	DisplayName: Absorber Affliction
 	Description: Damn nature, you scary!
+	ItemTooltip: Sickness - 200 DPS
 }
 
 YoungDukeBuff: {
@@ -1514,4 +1568,176 @@ YoungDukeBuff: {
 LiliesOfFinalityBuff: {
 	DisplayName: Finality
 	Description: Remember our promise
+}
+
+ManhattanBuff: {
+	DisplayName: Manhattan
+	Description: Cold debuff damage increased, water debuff damage reduced
+}
+
+AuricRebuke: {
+	DisplayName: Auric Rebuke
+	Description: Your cells are violently bouncing off each other
+	ItemTooltip: Electric - 100 DPS. Deals 4x damage against moving targets
+}
+
+DemonicFlames: {
+	DisplayName: Demonic Flames
+	Description: Immolating flames sear your soul
+	ItemTooltip: Heat - DPS depends on inflicting item
+}
+
+StaticDischarge: {
+	DisplayName: Static Discharge
+	Description: Shocked by static electricity
+	ItemTooltip: Electric - 2.5 DPS. 4x damage to moving targets
+}
+
+TrueVulnerabilityHex: {
+	DisplayName: True Vulnerability Hex
+	Description: The end has come
+	ItemTooltip:
+		'''
+		Heat - 1998 DPS
+		Increases damage taken from all sources
+		Slows enemies
+		'''
+}
+
+VermillionFlux: {
+	DisplayName: Vermillion Flux
+	Description: Sharp arcs of scarlet course through you
+	ItemTooltip: Electric - 50 DPS. Deals 4x damage against moving targets
+}
+
+Voidfrost: {
+	DisplayName: Voidfrost
+	Description: The emptiness of space devours all warmth and life
+	ItemTooltip: Cold - 200 DPS
+}
+
+ExoTankBuff: {
+	DisplayName: Rainbow Road Roller
+	Description: Your foes shall fall within your calculations
+}
+
+FrostyBatBuff: {
+	DisplayName: Frosty Bat Friend
+	Description: A frosty bat flits about
+}
+
+ToastyBatBuff: {
+	DisplayName: Toasty Bat Friend
+	Description: A fiery bat flutters at your shoulder
+}
+
+AeolianEarthBuff: {
+	DisplayName: Aeolian Earth
+	Description:
+		'''
+		You are strengthened by primordial powers
+		Damage reduction increased by {0}%, damage increased by {1}%, and massively buffed mana regen
+		'''
+}
+
+SandsWindBuff: {
+	DisplayName: Sand's Wind
+	Description:
+		'''
+		You are strengthened by the powers of sand
+		Defense increased by {0}, damage increased by {1}%, and greatly buffed mana regen 
+		'''
+}
+
+HadopelagicPressure: {
+	DisplayName: Hadopelagic Pressure
+	Description: Rapidly sinking to a watery grave
+	ItemTooltip: Water - 200 DPS
+}
+
+AmphibiansGuitarBuff: {
+	DisplayName: Amphibian's Guitars
+	Description: Worthless human...
+}
+
+AqueousHunterDroneBuff: {
+	DisplayName: Aqueous Hunter Drone Buff
+	Description: Unfortunately incapable of producing fried rice
+}
+
+BrimstoneElemental: {
+	DisplayName: Brimstone Elemental
+	Description: The Brimstone Elemental will protect you
+}
+
+BurrowerBuff: {
+	DisplayName: Burrower
+	Description: A friendly burrower answered your call
+}
+
+CloudElemental: {
+	DisplayName: Cloud Elemental
+	Description: The Cloud Elemental will protect you
+}
+
+EnchantedKnifeStaffBuff: {
+	DisplayName: Enchanted Knife
+	Description: Junk knives not included
+}
+
+LegionofCelestiaBuff: {
+	DisplayName: Celestial Axe
+	Description: If only it was this good at chopping trees...
+}
+
+VoidEaterMarionetteBuff: {
+	DisplayName: Void Eater Marionette
+	Description: The power to control the Devourer is yours
+}
+
+RareSandElemental: {
+	DisplayName: Rare Sand Elemental
+	Description: The Sand Elemental will heal you
+}
+
+SandElemental: {
+	DisplayName: Sand Elemental
+	Description: The Sand Elemental will protect you
+}
+
+WaterElemental: {
+	DisplayName: Anahita
+	Description: Anahita will protect you
+}
+
+// Misc
+
+HyperiusCollapse: {
+	DisplayName: Hyperius Collapse
+	Description: You should never see this...
+}
+
+Daybroken: {
+	DisplayName: Daybroken
+	ItemTooltip: Heat - 100 DPS
+}
+
+Shadowflame: {
+	DisplayName: Shadowflame
+	ItemTooltip: Heat - 30 DPS
+}
+
+ForbiddenStealthSummonTagBuff: {
+	DisplayName: Forbidden Stealth Summon Tag Buff
+	Description: If you're seeing this, something went horribly wrong
+}
+
+SeaKingsAssurance: {
+	DisplayName: Sea King's Assurance
+	Description: If you're seeing this, something assuredly went horribly wrong
+}
+
+CnidarianSummonTagBuff: {
+	DisplayName: Cnidarian Summon Tag Buff
+	Description: you are not seeing this
 }

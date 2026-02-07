@@ -108,6 +108,7 @@ DragoonDrizzlefish: {
 Havocfish: {
 	DisplayName: Peixe-da-Devastação
 	Tooltip: Pressione <right> para extrair essências
+	// QuestDescription: When you killed that gross flesh wall, so much chaos and havoc was infused into those ruinous crags that even the lava sprouted fish made of the pure essence! Go fetch it for me, pure havoc sounds like exactly what my next scheme needs!
 }
 
 Shadowfish: {
@@ -208,6 +209,7 @@ EnchantedStarfish: {
 FishofEleum: {
 	DisplayName: Peixe-de-Eleum
 	Tooltip: Pressione <right> para extrair essências
+	// QuestDescription: It's so unfair that all the cool fish only come out when you slay big demon guys! I mean that "cool" in two ways by the way. I've seen fish in the tundra materialized out of the essence of pure coldness! It's about time I get an ice pack for my fish, so fetch me that fish, or you're cold!
 }
 
 FishofFlight: {
@@ -262,6 +264,7 @@ SulphurousCrate: {
 SunbeamFish: {
 	DisplayName: Peixe-do-Raio-Solar
 	Tooltip: Pressione <right> para extrair essências
+	// QuestDescription: Have you ever seen those sunskaters that float way above the clouds? Well, I'll let you in on my little secret: They began their lives as little fish! So what are you waiting for, go reach for the stars and pluck one down for me!
 }
 
 // Fishing Rods
@@ -353,4 +356,103 @@ WulfrumRod: {
 GrandMarquisBait: {
 	DisplayName: Isca do Grande Marquês
 	Tooltip: ""
+}
+
+// CaughtInSnow: Caught in Tundra
+// CaughtInSpace: Caught in Sky Lakes
+// LocationTooltip: "'{0}'"
+
+// Sunken Sea Catches
+CoralskinFoolfish: {
+	// DisplayName: Coralskin Foolfish
+	// Tooltip: Camouflage is one of nature's best defenses
+}
+
+GleamingCucumber: {
+	// DisplayName: Gleaming Cucumber
+	// Tooltip: A slippery, slimy creature found on the Polyp Forest's floor
+}
+
+MoltenFishron: {
+	// DisplayName: Molten Fishron
+	/* Tooltip:
+		'''
+		Instead of honking it makes crisp wheezing noises 
+		Or maybe it actually is wheezing due to being taken out of lava
+		''' */
+}
+
+SpecularSturgeon: {
+	// DisplayName: Specular Sturgeon
+	/* Tooltip:
+		'''
+		A deep-dwelling fish that can live for many generations
+		Needless to say, it's old!
+		''' */
+}
+
+Squidoom: {
+	// DisplayName: Squidoom
+	// Tooltip: Those who gaze at it for too long are said to enter a hypnotic state
+}
+
+// Bobbers
+ScrapBobber: {
+	// DisplayName: Wulfrum Bobber
+	/* Tooltip:
+		'''
+		Provides a fishing minigame
+		Move in the indicated direction while fishing to catch items
+		The rod empowers the longer you go without a mistake, speeding it up
+		'There's supposed to be a fish finder installed, but it only beeps when you point it at yourself...'
+		''' */
+}
+
+NavystoneBobber: {
+	// DisplayName: Sunken Sinker
+	/* Tooltip:
+		'''
+		{$ItemTooltip.FishingBobber}
+		Provides a fishing minigame
+		The bobber will float at your height underwater, allowing underwater fishing
+		Move in the indicated direction while fishing to catch items
+		''' */
+}
+
+SkylineBobber: {
+	// DisplayName: Acrobatic Bobber
+	/* Tooltip:
+		'''
+		{$ItemTooltip.FishingBobber}
+		Provides a fishing minigame
+		Moving while fishing instead moves your bobbers
+		Rings appear over time above the water's surface
+		Touching a ring hooks an item onto the bobber
+		Bobbers will automatically reel in hooked items upon landing back in the water
+		''' */
+}
+
+PerennialBobber: {
+	// DisplayName: Feral Bobber
+	/* Tooltip:
+		'''
+		{$ItemTooltip.FishingBobber}
+		Gains fishing power the more life you have lost
+		Provides a fishing minigame
+		Hold <right> while catching fish to drain life and speed up catches
+		Bobbers can hook onto enemies, dealing damage when life is drained
+		''' */
+}
+
+ScoriaBobber: {
+	// DisplayName: Volcanic Sinker
+	/* Tooltip:
+		'''
+		{$ItemTooltip.FishingBobber}
+		Allows fishing in lava
+		Provides a fishing minigame
+		Moving while fishing instead moves your bobbers
+		Rifts appear over time in liquids, containing an item
+		When bobbers touch a rift, they automatically reel in the item within
+		''' */
 }

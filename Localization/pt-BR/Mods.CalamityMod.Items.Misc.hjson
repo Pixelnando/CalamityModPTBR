@@ -317,3 +317,210 @@ SuperDummy: {
 		Pressione <right> para matar todos os super bonecos
 		'''
 }
+
+// Critters
+AlphaSeaMinnowItem: {
+	// DisplayName: "{$NPCs.AlphaSeaMinnow.DisplayName}"
+	// Tooltip: ""
+}
+
+AlphaSeaMinnowGoldItem: {
+	// DisplayName: "{$NPCs.AlphaSeaMinnowGold.DisplayName}"
+	// Tooltip: ""
+}
+
+BabyGhostBellGoldItem: {
+	// DisplayName: "{$NPCs.GoldBabyGhostBell}"
+	// Tooltip: ""
+}
+
+BabyGhostBellGreenItem: {
+	// DisplayName: Green Baby Ghost Bell
+	// Tooltip: ""
+}
+
+BabyGhostBellRadiantItem: {
+	// DisplayName: "{$NPCs.RadiantBabyGhostBell}"
+	// Tooltip: ""
+}
+
+BabyGhostBellPinkItem: {
+	// DisplayName: Pink Baby Ghost Bell
+	// Tooltip: ""
+}
+
+GildedAxolotlItem: {
+	// DisplayName: Gilded Axolotl
+	// Tooltip: ""
+}
+
+PearlpodBlackItem: {
+	// DisplayName: Black Pearlpod
+	// Tooltip: ""
+}
+
+PearlpodItem: {
+	// DisplayName: White Pearlpod
+	// Tooltip: ""
+}
+
+PearlpodPinkItem: {
+	// DisplayName: Pink Pearlpod
+	// Tooltip: ""
+}
+
+PolypPanaseaGoldItem: {
+	// DisplayName: "{$NPCs.GoldPolypPanasea}"
+	// Tooltip: ""
+}
+
+PolypPanaseaGreenItem: {
+	// DisplayName: Green Polyp Panasea
+	// Tooltip: ""
+}
+
+PolypPanaseaItem: {
+	// DisplayName: Red Polyp Panasea
+	// Tooltip: ""
+}
+
+PolypPanaseaPurpleItem: {
+	// DisplayName: Purple Polyp Panasea
+	// Tooltip: ""
+}
+
+PolypPanaseaRadiantItem: {
+	// DisplayName: "{$NPCs.RadiantPolypPanasea}"
+	// Tooltip: ""
+}
+
+PolypPanaseaTurquoiseItem: {
+	// DisplayName: Turquoise Polyp Panasea
+	// Tooltip: ""
+}
+
+PrismaticGuppyBlueItem: {
+	// DisplayName: Blue Prismatic Guppy
+	// Tooltip: ""
+}
+
+PrismaticGuppyGoldItem: {
+	// DisplayName: "{$NPCs.GoldPrismaticGuppy}"
+	// Tooltip: ""
+}
+
+PrismaticGuppyGreenItem: {
+	// DisplayName: Green Prismatic Guppy
+	// Tooltip: ""
+}
+
+PrismaticGuppyPinkItem: {
+	// DisplayName: Pink Prismatic Guppy
+	// Tooltip: ""
+}
+
+PrismaticGuppyRadiantItem: {
+	// DisplayName: "{$NPCs.RadiantPrismaticGuppy}"
+	// Tooltip: ""
+}
+
+ProbesnoutGoldItem: {
+	// DisplayName: "{$NPCs.ProbesnoutGold.DisplayName}"
+	// Tooltip: ""
+}
+
+ProbesnoutItem: {
+	// DisplayName: "{$NPCs.Probesnout.DisplayName}"
+	// Tooltip: ""
+}
+
+SeaFloatyItem: {
+	// DisplayName: "{$NPCs.SeaFloaty.DisplayName}"
+	// Tooltip: ""
+}
+
+SeaMinnowGoldItem: {
+	// DisplayName: "{$NPCs.SeaMinnowGold.DisplayName}"
+	// Tooltip: ""
+}
+
+SearslugItem: {
+	// DisplayName: "{$NPCs.Searslug.DisplayName}"
+	// Tooltip: ""
+}
+
+ShoreskipperItem: {
+	// DisplayName: "{$NPCs.Shoreskipper.DisplayName}"
+	// Tooltip: ""
+}
+
+ShroombleItem: {
+	// DisplayName: "{$NPCs.Shroomble.DisplayName}"
+	// Tooltip: ""
+}
+
+SlugbunBurrowsItem: {
+	// DisplayName: Burrows Slugbun
+	// Tooltip: ""
+}
+
+SlugbunItem: {
+	// DisplayName: Reef Slugbun
+	// Tooltip: ""
+}
+
+SlugbunPolypItem: {
+	// DisplayName: Polyp Slugbun
+	// Tooltip: ""
+}
+
+SlugbunRadiantItem: {
+	// DisplayName: "{$NPCs.RadiantSlugbun}"
+	// Tooltip: ""
+}
+
+// Permanent Boosters
+// AdrenalineBoosterTooltip: Permanently increases {$Buffs.AdrenalineMode.DisplayName} damage by {0}% and damage reduction by {1}%
+// RageBoosterTooltip: Permanently increases the duration of {$Buffs.RageMode.DisplayName} by {0} second
+
+SacredStrawberry: {
+	// DisplayName: Sacred Strawberry
+	/* Tooltip:
+		'''
+		Permanently increases maximum life by {0}
+		Can only be used once and requires the max amount of Life Fruits consumed
+		Though somewhat bland, what taste can be described is unlike any other experienced
+		''' */
+}
+
+SanguineTangerine: {
+	// DisplayName: Sanguine Tangerine
+	/* Tooltip:
+		'''
+		Permanently increases maximum life by {0}
+		Can only be used once and requires the max amount of Life Fruits consumed
+		It has a distinctly sweet flavor and a strong aroma
+		''' */
+}
+
+TaintedCloudberry: {
+	// DisplayName: Tainted Cloudberry
+	/* Tooltip:
+		'''
+		Permanently increases maximum life by {0}
+		Can only be used once and requires the max amount of Life Fruits consumed
+		A tangy, tart flavor with a somewhat earthen touch
+		''' */
+}
+
+// Uncategorized
+/* ExhumeShortTooltip:
+	'''
+	[c/C61B40:'Ah, are you curious what I saw within this item?']
+	[c/BABABA:Hold Shift to listen]
+	''' */
+/* LegendaryShortTooltip:
+	'''
+	[c/FF6F00:Tales of legends past radiate around you...]
+	[c/BABABA:Hold Shift to listen closer]
+	''' */

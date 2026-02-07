@@ -18,16 +18,6 @@ ColdAttunement: {
 	Function: Execute um combo de 3 golpes com uma lâmina glacial. O golpe final congela os inimigos por uma fração de segundo
 }
 
-TropicalAttunement: {
-	Name: Toque do Guarda-Florestal
-	Function:
-		'''
-		Lance a espada usando um chicote de vinha
-		Atingir inimigos com a ponta do chicote enquanto ele estala garante um acerto crítico
-		O chicote também te impulsionará para peças atingidas
-		'''
-}
-
 EvilAttunement: {
 	Name: Retorta da Decadência
 	Function:
@@ -95,24 +85,6 @@ HolyAttunement: {
 		'''
 }
 
-AstralAttunement: {
-	Name: Aversão Subsistente
-	Function:
-		'''
-		Segure <left> para carregar uma investida que perfura as estrelas, solte para liberar o golpe devastador
-		Golpear a terra com a investida causará um impacto gigante que levanta monólitos sobrenaturais
-		'''
-}
-
-MarineAttunement: {
-	Name: Gesto para os Afogados
-	Function:
-		'''
-		Dispare duas bolas d'água aos seus lados. Ao entrar em contato com o solo, as bolas d'água se transformarão em pequenas ondas que caminham ao longo do chão
-		Ondas disparadas debaixo d'água ou que tocam a água se tornarão muito maiores e mais rápidas
-		'''
-}
-
 // True Biome Blade
 WhirlwindAttunement: {
 	Name: Orgulho do Espadachim
@@ -166,12 +138,6 @@ PhoenixAttunement: {
 		A nébula rodopiante constantemente emite raios cósmicos teleguiados
 		Solte para arremessar Galaxia na direção do cursor junto de uma rajada de 6 raios cósmicos gigantescos
 		'''
-	PassiveName: Bênção do Capricórnio
-	PassiveDesc:
-		'''
-		Periodicamente libera um anel de estrelas que roubam vida ao seu redor enquanto ataca
-		O anel é atraído para você no início, antes de desacelerar com o tempo
-		'''
 }
 
 AriesAttunement: {
@@ -181,12 +147,6 @@ AriesAttunement: {
 		Arremesse Galaxia para o seu cursor, segurando-a no lugar com constelações
 		Galaxia segue o seu cursor, rapidamente girando para destruir os inimigos
 		Golpear inimigos causa explosões nebulosas que invocam raios cósmicos teleguiados
-		'''
-	PassiveName: Bênção do Capricórnio
-	PassiveDesc:
-		'''
-		Periodicamente libera um anel de estrelas que roubam vida ao seu redor enquanto ataca
-		O anel é atraído para você no início, antes de desacelerar com o tempo
 		'''
 }
 
@@ -199,12 +159,6 @@ PolarisAttunement: {
 		Solte para disparar a estrela carregada em uma linha reta
 		Aperte <left> novamente imediatamente para investir-se à estrela e emitir raios cósmicos
 		'''
-	PassiveName: Bênção de Câncer
-	PassiveDesc:
-		'''
-		Periodicamente libera um anel de estrelas que roubam vida ao seu redor enquanto ataca
-		O anel é atraído para você no início, antes de desacelerar com o tempo
-		'''
 }
 
 AndromedaAttunement: {
@@ -214,11 +168,5 @@ AndromedaAttunement: {
 		Segure <left> para carregar uma investida destruidora de deuses, solte para liberar o golpe devastador
 		Galaxia emite raios cósmicos enquanto carrega
 		Atingir o chão causará uma onda de choque que invoca uma tempestade de energias cósmicas
-		'''
-	PassiveName: Bênção de Câncer
-	PassiveDesc:
-		'''
-		Periodicamente libera um anel de estrelas que roubam vida ao seu redor enquanto ataca
-		O anel é atraído para você no início, antes de desacelerar com o tempo
 		'''
 }

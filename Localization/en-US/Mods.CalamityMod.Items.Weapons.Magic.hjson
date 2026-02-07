@@ -35,6 +35,17 @@ AlulaAustralis: {
 AnahitasArpeggio: {
 	DisplayName: Anahita's Arpeggio
 	Tooltip: Casts slow-moving treble clefs that confuse enemies
+	TooltipNormal:
+		'''
+		Holding <left> casts up to 6 treble clefs that orbit the player
+		Releasing <left> causes the treble clefs to converge at the cursor
+		After converging, treble clefs seek your cursor
+		'''
+	TooltipGFB:
+		'''
+		"NOOOOOOOO! You're supposed to obey me!!!!"
+		The seven treble clef souls:
+		'''
 }
 
 ApoctosisArray: {
@@ -371,6 +382,12 @@ GruesomeEminence: {
 		[c/C61B40:'The spirits of the amalgam could never pass on to their desired afterlife,]
 		[c/C61B40:Tainted and melded by rage as they were.']
 		'''
+	Calamitas:
+		'''
+		'Many will tell you that Yharim fell from grace as his Crusade went on, but that's far from the truth.
+		Sure, he was a good man when he was killing assassins drunk on power, but even as he dethroned dictators, entire kingdoms were leveled alongside.
+		I wish more people could bear witness to this "Polterghast". Maybe then, they would understand the pain he caused for the world.'
+		'''
 }
 
 HadalUrn: {
@@ -630,6 +647,12 @@ Rancor: {
 		[c/C61B40:'Forgiveness can only heal so much,]
 		[c/C61B40:If the recipient has not yet forgiven themselves.']
 		'''
+	Calamitas:
+		'''
+		'Yharim told me it was Otonilou who unleashed the Brimstone Elemental unto Azafure.
+		I believed him at the time, being a child looking for someone to blame for all her woes.
+		So I unleashed upon them all the fury and scorn I thought they deserved, and only once it was too late did I see through his lies.'
+		'''
 }
 
 RecitationoftheBeast: {
@@ -708,6 +731,21 @@ SHPC: {
 		Press <right> to fire powerful energy beams
 		'''
 	TooltipGFB: It scales again :)
+	// These are the soul effect descriptions, the number is the item ID of the soul
+	NoSoul: "[c/808080:There is currently no soul type injected into the weapon]"
+	SoulDesc520: "[c/F01DC4:Light-infused orbs create larger explosions]"
+	SoulDesc521: "[c/7B1DDC:Night-infused orbs create longer lasting explosions]"
+	SoulDesc575: "[c/6AF0FA:Flight-infused orbs travel faster and restore flight time on direct hits]"
+	SoulDesc548: "[c/0433DE:Might-infused orbs apply mighty knockback to enemies]"
+	SoulDesc549: "[c/4FFF7C:Sight-infused orbs seek out nearby enemies]"
+	SoulDesc547: "[c/FF6014:Fright-infused orbs deal extra flat damage with their hatred]"
+	LegendaryText:
+		'''
+		'Though soul-powered machines were a near failure, potential remained in souls as a form of fuel.
+		To avoid my last experiments' main flaw, the Soul-Harnessing Plasma Cannon was designed to expel souls as projectiles before they exert control over the weapon.
+		Each soul type appears to react differently to the base plasma. Yet, lacking volunteers, obtaining potential ammunition is currently too difficult to undergo further testing.
+		A shame, for a weapon that could have practically unlimited ammunition in the battlefield. Perhaps some day, its potential can be truly tested.'
+		'''
 }
 
 SkyGlaze: {
@@ -997,4 +1035,80 @@ YharimsCrystal: {
 	Tooltip: "[GFB]"
 	TooltipNormal: Fires draconic beams of total annihilation
 	TooltipGFB: ...throughs a pice of dnimite
+}
+
+AlphaDraconis: {
+	DisplayName: Alpha Draconis
+	Tooltip:
+		'''
+		Calls down a meteor shower towards the cursor
+		Successful hits sometimes create Starbursts that can be picked up
+		<right> with enough Starbursts to summon Draco to protect you
+		Draco burns Starbursts over time, and can be disspelled with <right>
+		Draco inflicts [cbuff:CalamityMod/Voidfrost]
+		'An imitation of insanity'
+		'''
+}
+
+Apathanull: {
+	DisplayName: Apathanull
+	Tooltip:
+		'''
+		Casts a spread of dark cosmic tentacles to skewer your enemies
+		Tentacles will aim at your cursor and lash out three times before disappearing
+		'''
+}
+
+AuguroftheVoid: {
+	DisplayName: Augur of the Void
+	Tooltip: Casts a burst of elemental tentacles to spear your enemies
+}
+
+HyperdeathRiftScepter: {
+	DisplayName: Hyperdeath Rift Scepter
+	Tooltip: Tears space in two with [c/ff00ff:Hyperdeath Rift Ripper]
+}
+
+Nucleosynthesis: {
+	DisplayName: Nucleosynthesis
+	Tooltip:
+		'''
+		Casts four celestial beams near the player
+		Solar beams explode into fire on enemy hits
+		Nebula beams sweep a little bit over time
+		Vortex beams act like fast lightning and electrify enemies on hit
+		Stardust beams release small stars that home on enemy hits
+		'''
+}
+
+UnstableCastersGauntlet: {
+	DisplayName: Unstable Caster's Gauntlet
+	Tooltip:
+		'''
+		<left> to fire piercing needles
+		<right> to summon a ring of sigils, each representing a primordial element
+		Hold <left> with sigils available to consume random sigils, each unleashing an attack
+		<right> again while the elemental ring is out to replace all empty slots with [c/DD84E8:Warped] sigils
+		[c/DD84E8:Warped] sigils automatically fire barrages of inaccurate purple blasts
+		All actions require sufficient [c/EADAF5:Vis] to use
+		[c/EADAF5:Vis] is restored over time
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/DBD7CA:Ordo] sigils always land critical strikes and pierce infinitely
+		[c/ABB6D4:Perdito] sigils ignore 25 points of enemy defense
+		[c/E89B8E:Ignis] sigils inflict Daybroken
+		[c/8ECBE8:Aqua] sigils inflict Crush Depth
+		[c/E1E88E:Aer] sigils boast substantial knockback
+		[c/ACCF9F:Terra] sigils split into sharp rocks
+		'''
+}
+
+Volterion: {
+	DisplayName: Volterion
+	Tooltip:
+		'''
+		Discharges a high-voltage stream which bursts into 5 balls of lightning on hit
+		Each ball lightning emits two additional lightning bolts before exploding
+		'''
 }

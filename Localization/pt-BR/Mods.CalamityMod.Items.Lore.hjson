@@ -17,6 +17,7 @@ LoreAbyss: {
 		Suas grandes raízes continuam a assolar e retalhar a pedra incrivelmente densa, crescendo sem controle.
 		Ela logo vai refazê-lo à sua imagem. Não posso conceber um destino pior para este maldito domínio hadal.
 		'''
+	// Tooltip: ""
 }
 
 LoreAquaticScourge: {
@@ -29,6 +30,7 @@ LoreAquaticScourge: {
 		Que contraste nítido ao resto do ecossistema. Quase toda outra criatura no Mar Sulfúrico é hostil.
 		É uma pena que sua última guarda de tranquilidade tenha caído. 
 		'''
+	// Tooltip: ""
 }
 
 LoreArchmage: {
@@ -42,6 +44,7 @@ LoreArchmage: {
 		À medida que minha cruzada evoluiu e minhas ambições cresceram, ele expressou intensa revolta.
 		Onde a justiça era antes vista, tirania a havia cegado. Ele partiu assim como a Bruxa não muito depois.
 		'''
+	// Tooltip: ""
 }
 
 LoreAstralInfection: {
@@ -57,6 +60,7 @@ LoreAstralInfection: {
 		Aqueles cuja mente consegue compreender a verdadeira forma do universo são, em grande parte, imunes.
 		Eles não podem ser encantados por uma suposta verdade maior, muito menos uma pregada por uma pústula.
 		'''
+	// Tooltip: ""
 }
 
 LoreAstrumAureus: {
@@ -70,6 +74,7 @@ LoreAstrumAureus: {
 		No entanto, até o melhor silício não está além de seu alcance. Draedon prefere que suas criações sirvam, afinal.
 		Com este experimento concluído, ele certamente examinará você em seguida. Cuide-se.
 		'''
+	// Tooltip: ""
 }
 
 LoreAstrumDeus: {
@@ -83,6 +88,7 @@ LoreAstrumDeus: {
 		Felizmente, um ser tão grandioso que anda em meio às estrelas provavelmente não está morto de fato.
 		Enquanto a terra pagou um preço terrível, o preço de uma sentença equivocada é ainda pior.
 		'''
+	// Tooltip: ""
 }
 
 LoreAwakening: {
@@ -95,6 +101,7 @@ LoreAwakening: {
 		Observe os meus labores, como estão… Arruinados. Nenhum ousaria me buscar; seguir o meu caminho.
 		Nada os aguarda neste mundo cruel.
 		'''
+	// Tooltip: ""
 }
 
 LoreAzafure: {
@@ -107,6 +114,7 @@ LoreAzafure: {
 		Dói-me dizer mesmo em retrospecto, mas sua própria arte abriu caminho para a queda da cidade inteira.
 		Para a Bruxa e eu... o ar aqui sempre estará cheio de arrependimento. Não há nada a ser feito.
 		'''
+	// Tooltip: ""
 }
 
 LoreBloodMoon: {
@@ -119,6 +127,7 @@ LoreBloodMoon: {
 		Aqueles com fogo nas veias podem se aventurar sozinhos, para deleitar-se no massacre.
 		É assim que me lembro das noites sem descanso da minha juventude... até o joelho em corpos.
 		'''
+	// Tooltip: ""
 }
 
 LoreBrainofCthulhu: {
@@ -130,6 +139,7 @@ LoreBrainofCthulhu: {
 		Minha chacina dos falsamente divinos deixou muitos velhos horrores livres, com novos surgindo a cada ano.
 		Agora, eles são os seus degraus.
 		'''
+	// Tooltip: ""
 }
 
 LoreBrimstoneElemental: {
@@ -145,6 +155,7 @@ LoreBrimstoneElemental: {
 		Elas lutaram de igual para igual, fogo contra fogo.
 		Nenhuma foi vitoriosa, com a cidade sendo devorada pelas chamas apesar das intenções dela.
 		'''
+	// Tooltip: ""
 }
 
 LoreCalamitas: {
@@ -163,6 +174,7 @@ LoreCalamitas: {
 		O peso de seus feitos a assombra até hoje. Ela me detesta, e eu não posso culpá-la.
 		Por favor, se puder... mostre-a respeito onde eu não o fiz.
 		'''
+	// Tooltip: ""
 }
 
 LoreCalamitasClone: {
@@ -175,6 +187,7 @@ LoreCalamitasClone: {
 		Certamente Calamitas não iria querer se envolver com tal projeto.
 		Eu não sei porque isto carrega a magia de enxofre dela. Talvez no futuro um de nós encontre respostas.
 		'''
+	// Tooltip: ""
 }
 
 LoreCeaselessVoid: {
@@ -190,6 +203,7 @@ LoreCeaselessVoid: {
 		Sua persistência desconcertante consumia minha mente. Não ameaçava somente a mim. Ameaçava todos. Tudo.
 		Mesmo enfrentando mentiras descaradas e perigo cruciante, eu simplesmente saí andando e não retornei...
 		'''
+	// Tooltip: ""
 }
 
 LoreCorruption: {
@@ -200,6 +214,7 @@ LoreCorruption: {
 		Tendo assassinado meus primeiros Deuses, eu fiz vista grossa enquanto essência corrupta jorrava de suas formas fendidas e alastrava-se pelas entranhas da Terraria.
 		A mera existência deste lugar pútrido prova que os Deuses de outrora estavam além da redenção.
 		'''
+	// Tooltip: ""
 }
 
 LoreCrabulon: {
@@ -210,6 +225,7 @@ LoreCrabulon: {
 		Estes cogumelos possuem uma tenacidade perturbadora. Nada que procure o descanso eterno em seu domínio o consegue.
 		É este tipo de controle medonho e forçado sobre aqueles relutantes que me levou ao meu caminho.
 		'''
+	// Tooltip: ""
 }
 
 LoreCrimson: {
@@ -220,6 +236,7 @@ LoreCrimson: {
 		A essência de um Deus não simplesmente desaparece quando o corpo morre. Ela deve ser descartada adequadamente ou destruída por completo.
 		Essência de um Deus piedoso nunca poderia apodrecer tornando-se um brejo tão terrível como este.
 		'''
+	// Tooltip: ""
 }
 
 LoreCynosure: {
@@ -236,6 +253,7 @@ LoreCynosure: {
 		Quando estiver preparado: procure o túmulo da Luz, no cume do Ninho dos Dragões.
 		Eu aguardo seu desafio.
 		'''
+	// Tooltip: ""
 }
 
 LoreDesertScourge: {
@@ -246,6 +264,7 @@ LoreDesertScourge: {
 		Depois que Ilmeris foi incinerada, ela se acostumou à caça. Para sobreviver, ela logo aprendeu a buscar presas maiores.
 		Infelizmente para o Flagelo, parece que também terminou como presa. Afinal, sempre há um peixe maior no mar.
 		'''
+	// Tooltip: ""
 }
 
 LoreDestroyer: {
@@ -259,6 +278,7 @@ LoreDestroyer: {
 		Draedon entendia bem e os deu estas formas gigantes. Lotados de armamentos e armadura interligada forjada de metal abençoado.
 		Enquanto na verdade eram equipamento de mineração reutilizado, sua pura presença na batalha era enorme.
 		'''
+	// Tooltip: ""
 }
 
 LoreDevourerofGods: {
@@ -275,6 +295,7 @@ LoreDevourerofGods: {
 		As habilidades estranhas e táticas dominadoras do Devorador sugerem que sua fidelidade repousa em algum outro lugar.
 		Será ele apenas um soldado, um mero peão de uma malevolência bem além...?
 		'''
+	// Tooltip: ""
 }
 
 LoreDragonfolly: {
@@ -289,6 +310,7 @@ LoreDragonfolly: {
 		Sabe-se que os Peixes-Dragão, os Dragões-Foliões e as Serpentes Abissais sobreviveram aos expurgos da Era Deífica.
 		Notavelmente, todos agora são reclusos ou excessivamente violentos. É trágico como evoluíram para ser desse jeito.
 		'''
+	// Tooltip: ""
 }
 
 LoreDukeFishron: {
@@ -301,6 +323,7 @@ LoreDukeFishron: {
 		Enquanto há muitas histórias assim de criaturas vindas de ancestrais dracônicos, este caso é factual.
 		Herança genética ou não; os Peixes-dragão não têm Sangue de Dragão ou almas Áureas. Eu saberia bem.
 		'''
+	// Tooltip: ""
 }
 
 LoreEaterofWorlds: {
@@ -312,6 +335,7 @@ LoreEaterofWorlds: {
 		Não se precisa procurar muito para achar exemplos. Estamos todos cercados de desenfreada superstição e suposição.
 		Eu mesmo já fui submetido a uma ladainha de ostentações e acusações infundadas em meu tempo.
 		'''
+	// Tooltip: ""
 }
 
 LoreEmpressofLight: {
@@ -325,6 +349,7 @@ LoreEmpressofLight: {
 		Isso a deu uma obediência doentia. Dependente, mas de bom grado, já que a permite saciar sua sede primal.
 		Eu havia decidido matá-la pessoalmente, mas ela foi um alvo notoriamente evasivo.
 		'''
+	// Tooltip: ""
 }
 
 LoreExoMechs: {
@@ -341,6 +366,7 @@ LoreExoMechs: {
 		Caso perdesse o temperamento: se ele sequer tem um, todas as esperanças da vida seriam sufocadas em um instante, silenciadas por uma torrente de silício.
 		No entanto, talvez você possa aproveitar-se do ofício inimaginável dele para sua vantagem, e buscar seu conhecimento.
 		'''
+	// Tooltip: ""
 }
 
 LoreEyeofCthulhu: {
@@ -351,6 +377,7 @@ LoreEyeofCthulhu: {
 		Agora eles vagam desenfreados, surgindo de influências vis deixadas incontidas. Eles se misturam bem com a injustiça horrível de seus progenitores.
 		Matar um simplesmente abre o caminho para mais uma dúzia. Certamente isso não o preocupa, também.
 		'''
+	// Tooltip: ""
 }
 
 LoreGolem: {
@@ -364,6 +391,7 @@ LoreGolem: {
 		Enquanto acredito que esta criação insignificante não mereça menção, os Laghartos o louvam sem hesitar.
 		Não vejo razão para interferir em questões abaixo de mim e meu povo.
 		'''
+	// Tooltip: ""
 }
 
 LoreHiveMind: {
@@ -375,6 +403,7 @@ LoreHiveMind: {
 		Felizmente para nós, a futilidade deste esforço é inigualada. A biomassa obedece; embora nada seja realizado.
 		Sabe-se que o poder divino está enraizado na fé. Deuses são forjados de sua própria força, e a difusão sem mente da corrupção é sua própria reverência nojenta.
 		'''
+	// Tooltip: ""
 }
 
 LoreKingSlime: {
@@ -385,6 +414,7 @@ LoreKingSlime: {
 		Há pouca necessidade de se preocupar com isso. Naturalmente, geleias são quase irracionais e juntam-se ao acaso.
 		Entretanto, parece que elas conseguem absorver conhecimento, mesmo em forma rudimentar.
 		'''
+	// Tooltip: ""
 }
 
 LoreLeviathanAnahita: {
@@ -398,6 +428,7 @@ LoreLeviathanAnahita: {
 		Acredite no que quiser, mas certamente são inseparáveis mesmo na morte.
 		Que lealdade valorosa! Ela me lembra de Yharon.
 		'''
+	// Tooltip: ""
 }
 
 LoreMechs: {
@@ -411,6 +442,7 @@ LoreMechs: {
 		Eu os dispensei do serviço, mas eles permanecem aqui. Varrendo a terra em busca de vestígios do divino.
 		Infelizmente para você, isso o coloca na mira deles. Dê-lhes uma luta na qual valha a pena morrer..
 		'''
+	// Tooltip: ""
 }
 
 LoreOldDuke: {
@@ -424,6 +456,7 @@ LoreOldDuke: {
 		A astúcia deste Duque em particular é evidente: ele evadiu séculos de caça, e até agora tinha sobrevivido a um envenenamento mui intenso.
 		Acima de quase todos, esta criatura era uma lenda viva. Deve-se perguntar o que passa pela mente de uma fábula que se apaga...
 		'''
+	// Tooltip: ""
 }
 
 LorePerforators: {
@@ -435,6 +468,7 @@ LorePerforators: {
 		O brejo fede a séculos de manipulação vil e insensível dominação dos desafortunados.
 		Julgamento já se passou há muito e apenas a extinção aguarda.
 		'''
+	// Tooltip: ""
 }
 
 LorePlaguebringerGoliath: {
@@ -449,6 +483,7 @@ LorePlaguebringerGoliath: {
 		Nos meus dias posteriores eu não fui o mais virtuoso. Mas eu nunca acorrentaria uma criatura para lutar em meu nome.
 		Isso me faria nada melhor que os canalhas divinos que eu caçava. 
 		'''
+	// Tooltip: ""
 }
 
 LorePlantera: {
@@ -463,6 +498,7 @@ LorePlantera: {
 		Agora que você a matou, energias espirituais ainda mais caóticas inundam essas terras.
 		A ignorância do vilarejo era vergonhosa de seu próprio jeito, mas isto é ainda pior.
 		'''
+	// Tooltip: ""
 }
 
 LorePolterghast: {
@@ -478,6 +514,7 @@ LorePolterghast: {
 		O culto aos dragões estava furioso, seu líder exigindo que eu derrotasse a assombração pessoalmente.
 		Eu não o respondi. Eu tinha muito antes me tornado surdo ao mundo fora da minha cruzada. Não caia como caí.
 		'''
+	// Tooltip: ""
 }
 
 LorePrelude: {
@@ -493,6 +530,7 @@ LorePrelude: {
 		O próprio Zeratros estava gravemente ferido. Parecia que seu poder, assim como sua vida, seriam perdidos para sempre.
 		Um mortal, jurado ao serviço dos Dragões, ergueu-se em determinação para salvar o virtuoso Rei deles.
 		'''
+	// Tooltip: ""
 }
 
 LoreProfanedGuardians: {
@@ -505,6 +543,7 @@ LoreProfanedGuardians: {
 		Afinal, foi você quem deu um fim ao terror sideral que catalisou a queda dos Dragões.
 		Atraia ela de seu esconderijo. Abandone a piedade, pois a Deusa Profana nenhuma tem.
 		'''
+	// Tooltip: ""
 }
 
 LoreProvidence: {
@@ -519,6 +558,7 @@ LoreProvidence: {
 		Aqueles devotos a ela eram fracos em vontade, mas ela reinava como uma das Deusas mais poderosas.
 		Talvez o que a deixou extrair tanta força foram suas naturezas abaláveis.
 		'''
+	// Tooltip: ""
 }
 
 LoreQueenBee: {
@@ -530,6 +570,7 @@ LoreQueenBee: {
 		Embora sua morte seja compreensível dadas as circunstâncias, eu sinto pena desses seres majestosos.
 		O destino foi cruel a muitas de sua espécie.
 		'''
+	// Tooltip: ""
 }
 
 LoreQueenSlime: {
@@ -541,6 +582,7 @@ LoreQueenSlime: {
 		Ou talvez foi tomado por seu desespero em sobreviver.
 		Uma caçada gloriosa, um belo inimigo. Agora você sabe que deve perseguí-los até os fins do mundo.
 		'''
+	// Tooltip: ""
 }
 
 LoreRavager: {
@@ -555,6 +597,7 @@ LoreRavager: {
 		Agora banhada em sangue fresco, ela desejava mais, partindo em uma devastação sem rumo.
 		Eu suponho que sua brutalidade sirva como um lembrete para ter cuidado com o que se acredita.
 		'''
+	// Tooltip: ""
 }
 
 LoreRequiem: {
@@ -571,6 +614,7 @@ LoreRequiem: {
 		Onde quer que sua jornada o leve, esteja você com ou contra minha pessoa.... Que a sorte o favoreça.
 		Pois ninguém mais o fará.
 		'''
+	// Tooltip: ""
 }
 
 LoreSignus: {
@@ -585,6 +629,7 @@ LoreSignus: {
 		A serpente apanhou meus dois agressores em um vórtice dimensional. Garantindo-me que estavam bem quanto mortos.
 		No entanto, Statis, deve ter fechado um acordo com Signus. Ele escapou de seu banimento incólume.
 		'''
+	// Tooltip: ""
 }
 
 LoreSkeletron: {
@@ -596,6 +641,7 @@ LoreSkeletron: {
 		As próprias paredes daquele lugar continuam malditas. A magia há muito minguou enquanto os soldados apodreciam lá dentro.
 		Não espere aprender muito daqueles tomos manchados. Eles foram escritos com um ardor equivocado.
 		'''
+	// Tooltip: ""
 }
 
 LoreSkeletronPrime: {
@@ -608,6 +654,7 @@ LoreSkeletronPrime: {
 		Destruindo locais de louvor e torrando os falsamente devotos, sua especialidade era desfazer fé com chama.
 		Draedon entendia bem isso. Para eles criou um feitio tão sinistro que evocava a própria perdição.
 		'''
+	// Tooltip: ""
 }
 
 LoreSlimeGod: {
@@ -620,6 +667,7 @@ LoreSlimeGod: {
 		Infelizmente, o Deus das Geleias é sábio o suficiente para ser covarde. Fugindo de batalhas que não pode vencer quando seus servos são derrotados.
 		Talvez a sorte o favoreça se pegá-lo desprevenido.
 		'''
+	// Tooltip: ""
 }
 
 LoreStormWeaver: {
@@ -634,6 +682,7 @@ LoreStormWeaver: {
 		Em sua mente, os poderes da serpente menor poderiam levá-lo a ser ameaçador demais para continuar vivendo.
 		Pouco ele sabe que sempre esteve em uma posição parecida. Ele se acha invencível afinal.
 		'''
+	// Tooltip: ""
 }
 
 LoreSulphurSea: {
@@ -646,6 +695,7 @@ LoreSulphurSea: {
 		Há muito considerada inabitável, sua seguinte deterioração levou Draedon a designá-la como um lixão.
 		Anos de despejo irresponsável de lixo agora deixaram a transformação da costa irreversível.
 		'''
+	// Tooltip: ""
 }
 
 LoreTwins: {
@@ -659,6 +709,7 @@ LoreTwins: {
 		Sua assistência era infalível, seus cálculos frios e cruéis.
 		Nem mesmo o alvo mais evasivo tinha uma chance.
 		'''
+	// Tooltip: ""
 }
 
 LoreUnderworld: {
@@ -671,6 +722,7 @@ LoreUnderworld: {
 		Mas mesmo cercada pelo magma, Azafure simplesmente queimou quando seus desejos não foram atendidos.
 		Tal é o infeliz preço da guerra, embora eu não me arrependa de lutar por meu povo.
 		'''
+	// Tooltip: ""
 }
 
 LoreWallofFlesh: {
@@ -684,6 +736,7 @@ LoreWallofFlesh: {
 		Meus métodos evoluíram desde então. Não preciso conter as essências, quando elas podem ser devoradas.
 		Que você invoque o meu valor ao combater o derramamento resultante das energias.
 		'''
+	// Tooltip: ""
 }
 
 LoreYharon: {
@@ -705,4 +758,5 @@ LoreYharon: {
 		Agora, essa esperança está há muito murcha. Eu sou apenas uma sombra do herói que já fui, e isto é a prova absoluta.
 		Yharon deve retornar, como ele o faz, mas ele... ele se despediu de mim.
 		'''
+	// Tooltip: ""
 }

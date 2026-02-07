@@ -167,3 +167,8 @@ SulphuricTreasure: {
 	DisplayName: Tesouro Sulfúrico
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
+
+BrimstoneElementalBag: {
+	// DisplayName: Treasure Bag (Brimstone Elemental)
+	// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}

@@ -264,3 +264,50 @@ WyvernFeatherPurple.DisplayName: Pena
 WyvernProjectile.DisplayName: Serpe
 YharimsCrystalBeam.DisplayName: Feixe de Yharim
 YharimsCrystalPrism.DisplayName: Christal Yermes
+// AerSigil.DisplayName: Aer Sigil
+// AerSigilBlast.DisplayName: Aer Blast
+// AerSigilFeather.DisplayName: Aer Feather
+// AerSigilMissile.DisplayName: Aer Missile
+// AlphaDraconisStar.DisplayName: Shooting Star
+// ApoctosisBlast.DisplayName: Apoctosis Blast
+// AquaSigil.DisplayName: Aqua Sigil
+// AquaSigilWaterball.DisplayName: Aqua Waterball
+// AquaSigilWaterballExplosion.DisplayName: Aqua Waterball Explosion
+// AquaSigilWaterdroplet.DisplayName: Aqua Waterdroplet
+// AugurTentacle.DisplayName: Elemental Tentacle
+// CosmicRainbowFront.DisplayName: Rainbow
+// CosmicRainbowTrail.DisplayName: Rainbow
+// DeathValleyDusterProjectile.DisplayName: Death Valley Duster
+// DracoConstellation.DisplayName: Draco
+// FireImplosion.DisplayName: Swirling Backdraft
+// HyperdeathRiftScepterBeam.DisplayName: Hyperdeath Rift Ripper
+// IgnisSigil.DisplayName: Ignis Sigil
+// IgnisSigilFireballExplosion.DisplayName: Ignis Fireball Explosion
+// IgnisSigilFireball.DisplayName: Ignis Fireball
+// IgnisSigilEmbers.DisplayName: Ignis Ember
+// IncineratingFireball.DisplayName: Incinerating Fireball
+// OrdoSigil.DisplayName: Ordo Sigil
+// OrdoSigilBeam.DisplayName: Ordo Beam
+// PerditoSigil.DisplayName: Perdito Sigil
+// PerditoSigilShot.DisplayName: Perdito Shot
+// PerditoSigilShotCreator.DisplayName: Perdito Shot Creator
+// PlasmaRifleExplosion.DisplayName: Ionizing Particle Cloud
+// PlasmaRifleShot.DisplayName: Concentrated Plasma Blast
+// PrimordialAncientExplosion.DisplayName: Primordial Ancient
+// PrimordialAncientProjectile.DisplayName: Primordial Ancient
+// PrimordialEarthExplosion.DisplayName: Primordial Earth
+// PrimordialEarthProjectile.DisplayName: Primordial Earth
+// SHPS.DisplayName: SHPS
+// SHPV.DisplayName: SHPV
+// SigilSet.DisplayName: Sigil Set
+// TerraSigil.DisplayName: Terra Sigil
+// TerraSigilLargeRock.DisplayName: Terra Large Rock
+// TerraSigilMediumRock.DisplayName: Terra Medium Rock
+// TerraSigilSmallRock.DisplayName: Terra Small Rock
+// VehemenceBolt.DisplayName: Vehemence Bolt
+// VisNeedle.DisplayName: Vis Needle
+// VolterionOrb.DisplayName: Unstable Ball Lightning
+// VolterionShot.DisplayName: Ultracharged Filament
+// WarpSigil.DisplayName: Warp Sigil
+// WarpSigilShot.DisplayName: Warped Shot
+// WarpSigilShotCreator.DisplayName: Warped Shot Creator

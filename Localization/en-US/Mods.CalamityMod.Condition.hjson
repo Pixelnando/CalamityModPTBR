@@ -56,6 +56,9 @@ Drops: {
 		{$Bestiary_ItemDropConditions.IsExpert}
 		'''
 	TrasherKill: Drops if fed to a Trasher
+	CataclysmKilledLast: Drops if defeated after {$NPCs.Catastrophe.DisplayName}
+	CatastropheKilledLast: Drops if defeated after {$NPCs.Cataclysm.DisplayName}
+	ProvidenceEnraged: Drops if Providence has been enraged
 }
 
 // Other conditions
@@ -76,3 +79,4 @@ PostPolter: After defeating Polterghast
 PostOD: After defeating the Old Duke
 PostDoG: After defeating the Devourer of Gods
 PostYharon: After defeating Yharon
+LacewingBestiary: When at least 40% of the Bestiary has been completed

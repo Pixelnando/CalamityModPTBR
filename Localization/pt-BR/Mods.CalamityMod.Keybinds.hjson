@@ -12,3 +12,7 @@ NormalityRelocator.DisplayName: Realocador de Normalidade
 RageMode.DisplayName: Modo Fúria
 SandCloakEffect.DisplayName: Efeito da Capa de Areia
 SpectralVeilTeleport.DisplayName: Teleporte do Véu Espectral
+// AmmoCycle.DisplayName: Ammo Cycle Hotkey
+// TransformerHotKey.DisplayName: Transformer Hot Key
+// GravitySwapOverride.DisplayName: Gravity Swap Override
+// ExpandDebuffInfo.DisplayName: See Debuff Information

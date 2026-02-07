@@ -63,6 +63,12 @@ AbyssalMirror: {
 		Este tempo de recarga é compartilhado com todos os outros desvios e reflexos
 		'A luz não atinge as profundezas do oceano'
 		'''
+	/* HoldShiftTooltip:
+		'''
+		{$Common.DodgeInformation}
+		Dodging an attack gives stealth
+		''' */
+	// FlavorTooltip: "'Light does not reach the depths of the ocean'"
 }
 
 AscendantInsignia: {
@@ -125,6 +131,7 @@ AmalgamatedBrain: {
 		Aumenta temporariamente a chance de acerto crítico e o dano por invocação depois de esquivar
 		Você confundirá os inimigos próximos após ser atingido
 		'''
+	// HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 AmbrosialAmpoule: {
@@ -220,6 +227,16 @@ AquaticHeart: {
 		Você tem uma camada de gelo ao seu redor que absorve 20% dos danos, mas se quebra após um acerto
 		Após 30 segundos, o escudo de gelo irá se regenerar
 		'''
+	// LockedTooltip: "[c/F05A5A:The pearl's magic is suppressed by an ancient curse]"
+	/* FullTooltip:
+		'''
+		Wow, you can swim now!
+		Being underwater increases max speed and acceleration by {0}%
+		Greatly reduces breath loss and reduces the darkness intensity in the abyss
+		Attackers are inflicted with [cbuff:CalamityMod/GlacialState]
+		Gain a fragile ice barrier that grants {1}% damage reduction for one hit
+		The ice shield regenerates after {2} seconds
+		''' */
 }
 
 ArchaicPowder: {
@@ -484,6 +501,18 @@ DaawnlightSpiritOrigin: {
 		O espírito heróico também é invocado quando esse acessório é colocado em espaços decorativos
 		'Uma vertente de um cosmos perdido permanece, esperando por seu mestre'
 		'''
+	/* HoldShiftTooltip:
+		'''
+		All ranged weapons can supercrit when critical strike chance is over 100%
+		Marks nearby enemies and bosses with bullseyes which disappear shortly after being hit
+		Ranged attacks which strike bullseyes boost critical strike chance
+		Large projectiles and explosions cannot strike bullseyes
+		Slower weapons give a larger critical strike chance boost on hit
+		Extra critical strike chance quickly fades over time
+		The higher the boost, the more quickly it fades away
+		Summons a heroic spirit from another world if visibility is on or in vanity slots
+		''' */
+	// FlavorTooltip: "'A strand of a lost cosmos remains, waiting for its master'"
 }
 
 DarkMatterSheath: {
@@ -509,6 +538,13 @@ DarkSunRing: {
 		Durante um eclipse, concede regeneração de +1 de vida por segundo e +10 defesa
 		'Contém o poder do sol escuro'
 		'''
+	/* HoldShiftTooltip:
+		'''
+		  During the day, grants +2 HP/s life regen
+		  During the night, grants +16 defense
+		  During an eclipse, grants +1 HP/s life regen and +8 defense
+		''' */
+	// FlavorTooltip: "'Contains the power of the dark sun'"
 }
 
 DeadshotBrooch: {
@@ -537,6 +573,7 @@ DeificAmulet: {
 		Regeneração de +0.5 de vida por segundo
 		Reduz o tempo de recarga das poções de cura
 		'''
+	// ToggleEffect: ", increases movement speed,"
 }
 
 DepthCharm: {
@@ -617,6 +654,12 @@ EclipseMirror: {
 		Este tempo de recarga é compartilhado com todos os outros desvios e reflexos
 		'Seu reflexo não mostra nada além de escuridão'
 		'''
+	/* HoldShiftTooltip:
+		'''
+		{$Common.DodgeInformation}
+		Dodging an attack grants a lot of stealth
+		''' */
+	// FlavorTooltip: "'Its reflection shows naught but darkness'"
 }
 
 EldritchSoulArtifact: {
@@ -882,6 +925,12 @@ HallowedRune: {
 		Estes bônus irão aumentar sua defesa, seu dano por invocação ou regeneração de vida por um tempo
 		Se você tiver o reforço ofensivo, os inimigos atingidos por lacaios às vezes serão atingidos por estrelas
 		'''
+	/* HoldShiftTooltip:
+		'''
+		[c/8ce0ff:  Hallowed Power] [c/ccf1ff: grants 10% increased summon damage and rains stars on enemies]
+		[c/d08aff:  Hallowed Defense] [c/eed4ff: grants 5 defense]
+		[c/ff8cb5:  Hallowed Regen] [c/ffccde: grants +1.5 HP/s life regen]
+		''' */
 }
 
 HarpyRing: {
@@ -991,6 +1040,11 @@ Laudanum: {
 		Armadura quebrada, Trituração de armadura, Resfriado, Ichor e Obstruído
 		Espólio do modo Vingança
 		'''
+	/* HoldShiftTooltip:
+		'''
+		  Debuffs affected: Armor Crunch, Blackout, Bleeding, Broken Armor, Chilled, Confused,
+		  Cursed, Darkness, Distorted, Ichor, Silenced, Slow, Weak, and Whispering Death
+		''' */
 }
 
 LeviathanAmbergris: {
@@ -1163,6 +1217,12 @@ OccultSkullCrown: {
 		'Apenas um tolo vestiria isso...'
 		Item do modo Vingança
 		'''
+	/* HoldShiftTooltip:
+		'''
+		  Debuffs affected: Armor Crunch, Blackout, Bleeding, Broken Armor, Chilled, Confused,
+		  Cursed, Darkness, Distorted, Ichor, Silenced, Slow, Weak, and Whispering Death
+		''' */
+	// FlavorTooltip: "'Only a fool would ever wear this...'"
 }
 
 OceanCrest: {
@@ -1195,6 +1255,16 @@ OldDukeScales: {
 		[c/CE0E18:Estar exausto reduz a velocidade dos movimentos em 30% e a velocidade da corrida em 50%]
 		Este efeito negativo dura até sua energia atingir 100% novamente
 		'''
+	/* HoldShiftTooltip:
+		'''
+		[c/c3dfff:  Using any dash will consume 20% of your stamina]
+		[c/c3dfff:  Stamina will gradually restore after not dashing for 1.5 seconds]
+		[c/c3dfff:  Stamina recovers faster when you are stationary]
+		[c/c3dfff:  If your stamina reaches 0%, you become exhausted]
+		[c/e3545c:  While exhausted, this item's damage reduction and movement bonuses are negated]
+		[c/e3545c:  Being exhausted reduces movement speed by 30% and dash velocity by 50%]
+		[c/c3dfff:  This debuff lasts until your stamina reaches 100% again]
+		''' */
 }
 
 OrnateShield: {
@@ -1239,6 +1309,12 @@ PhantomicArtifact: {
 		Se você tiver o efeito regenerativo, um coração fantasma ocasionalmente se materializará, concedendo regeneração massiva de vida
 		Se você tiver o efeito defensivo, um baluarte fantasma absorverá 20% do dano do próximo projétil que atingir o baluarte, quebrando-o
 		'''
+	/* HoldShiftTooltip:
+		'''
+		[c/8ce0ff:  Phantomic Empowerment] [c/ccf1ff: grants 10% increased summon damage and throws knives at enemies]
+		[c/d08aff:  Phantomic Shield] [c/eed4ff: grants 10 defense and a 20% damage reduction bulwark]
+		[c/ff8cb5:  Phantomic Regen] [c/ffccde: grants 1 HP/s life regen and occasionally drops phantom hearts which grant an additional 1 HP/s life regen]
+		''' */
 }
 
 PlaguedFuelPack: {
@@ -1294,6 +1370,8 @@ ProfanedSoulCrystal: {
 		Pensando bem, foi uma vida bem chata
 		[c/FFBF49:Portanto, devemos queimar tudo no nome da puridade]
 		'''
+	// Locked: "[c/F05A5A:The soul within this crystal has been defiled by {0}.]"
+	// LockedBoth: "[c/F05A5A:The soul within this crystal has been defiled by {0} and {1}.]"
 }
 
 QuiverofNihility: {
@@ -1324,6 +1402,16 @@ Radiance: {
 		Você emite uma luz azul brilhante se a visiblidade estiver ativada
 		'Um cristal outrora putrificado, agora brilhando com pureza imaculada.'
 		'''
+	/* HoldShiftTooltip:
+		'''
+		[c/CDF69C:Grants +2 to +5 HP/s life regen based on missing health]
+		[c/CDF69C:Recover an additional 6 HP/s while inflicted with a debuff]
+		[c/CDF69C:This eventually slows to 1.33 HP/s when debuffed for an extended time period]
+		[c/CDF69C:Grants the Honey buff]
+		[c/CDF69C:Grants 15 defense while afflicted with any debuff]
+		[c/CDF69C:Each additional debuff grants 5 defense, which slowly decays while not debuffed]
+		[c/CDF69C:Weak damaging debuffs are harmless and halves the duration of most other debuffs]
+		''' */
 }
 
 RadiantOoze: {
@@ -1355,6 +1443,7 @@ RampartofDeities: {
 		Concede imunidade aos recuos
 		Coloca um escudo em volta do usuário quando estiver abaixo de 50% de vida que reduz os danos sofridos
 		'''
+	// ToggleEffect: ", increases movement speed,"
 }
 
 ReaperToothNecklace: {
@@ -1503,6 +1592,13 @@ ShieldoftheHighRuler: {
 		Se você estiver de frente à um projétil quando ele atingir você, ele causará 15% a menos de dano
 		'Para o destino do reino'
 		'''
+	/* HoldShiftTooltip:
+		'''
+		  On Fire!, Chilled, Frostburn, Weak, Broken Armor, Bleeding
+		  Poisoned, Slow, Confused, Silenced, Cursed, Darkness,
+		  Mighty Wind, Stoned, Burning
+		''' */
+	// FlavorTooltip: "'For the fate of the kingdom'"
 }
 
 ShieldoftheOcean: {
@@ -1566,6 +1662,12 @@ SpiritGlyph: {
 		Sempre que seus lacaios atingirem um inimigo, você ganhará um bônus aleatório
 		Estes bônus irão aumentar sua defesa, seu dano por invocação ou regeneração de vida por um tempo
 		'''
+	/* HoldShiftTooltip:
+		'''
+		[c/8ce0ff:  Spirit Power] [c/ccf1ff:grants 10% increased summon damage]
+		[c/d08aff:  Spirit Defense] [c/eed4ff:grants 3 defense]
+		[c/ff8cb5:  Spirit Regen] [c/ffccde:grants +1 HP/s life regeneration]
+		''' */
 }
 
 StarbusterCore: {
@@ -1621,6 +1723,8 @@ StatisNinjaBelt: {
 		O desvio tem um tempo de recarga de 90 segundos
 		Este tempo de recarga é compartilhado com todos os outros desvios e reflexos
 		'''
+	// ToggleEffect: ", climb walls,"
+	// HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 StatisVoidSash: {
@@ -1634,6 +1738,8 @@ StatisVoidSash: {
 		Este tempo de recarga é compartilhado com todos os outros desvios e reflexos
 		Um rastro de foices teleguiadas é deixado ao fazer uma corrida
 		'''
+	// ToggleEffect: ", climb walls,"
+	// HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 // Be warned translators, this thing fucking sucks
@@ -1708,6 +1814,9 @@ StatMeter: {
 		Defesa perdida pela pressão: {4}
 		'''
 	AbyssStatsHidden: Estatísticas do abismo são exibidas apenas enquanto você estiver no abismo
+	// Class stats
+	// AmmoStats: Ammo Consumption Chance: {0}%
+	// ManaStats: Mana Usage: {0}% | Mana Regen: {1}
 }
 
 StressPills: {
@@ -1758,6 +1867,7 @@ TheAmalgam: {
 		Aumenta temporariamente a chance de acerto crítico e o dano por invocação depois de se esquivar
 		Inimigos próximos receberão uma variedade de efeitos negativos relacionados a doenças quando você for atingido
 		'''
+	// HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 TheBee: {
@@ -1846,6 +1956,22 @@ TheTransformer: {
 		Imune a Eletrizado e você resiste a todos os danos de projéteis e inimigos elétricos
 		Projéteis inimigos causam metade do dano a você e são refletidas de volta para o inimigo em 800% do dano original
 		'''
+	/* TooltipNormal:
+		'''
+		Generates an aura around you that creates morphing globs when projectiles pass through it or when enemies are killed
+		The globs encircle you and deal low damage and knockback to enemies they collide with
+		The circle can contain up to 30 globs at once
+		Press [KEY] to transform all globs into needles and launch them at your cursor
+		'How did this come out of the junk you cobbled together? You're lucky it doesn't transform you'
+		''' */
+	/* TooltipGFB:
+		'''
+		Generates an aura around you that creates morphing globs when projectiles pass through it or when enemies are killed
+		The globs encircle you and deal low damage and knockback to enemies they collide with
+		The circle has no limit to the number of globs it can hold, but your PC might
+		Press [KEY] to transform all globs into needles and launch them at your cursor
+		'It's no Beeftank Doctrine, but it sure feels breakthrough!'
+		''' */
 }
 
 ToxicHeart: {
@@ -1883,6 +2009,7 @@ VampiricTalisman: {
 		Projéteis ladinos roubam vida dos inimigos em acertos críticos
 		12% de aumento nos danos por ataques ladinos
 		'''
+	// YearningForBlood: THIS ENDLESS HUNGER WON'T END
 }
 
 VeneratedLocket: {
@@ -2021,4 +2148,252 @@ Popo: {
 RedBow: {
 	DisplayName: Laço Vermelho
 	Tooltip: "'O laço favorito de Pelusa'"
+}
+
+AlchemicalDecanter: {
+	// DisplayName: Alchemical Decanter
+	/* Tooltip:
+		'''
+		All attacks inflict the [cbuff:CalamityMod/Plague] and reduces damage taken from the [cbuff:CalamityMod/Plague] by {0}%
+		Projectiles spawn plague seekers on enemy hits
+		Releases plague bees and douses you in [cbuff:Honey] when damaged
+		''' */
+}
+
+ArcFlashRing: {
+	// DisplayName: Arc Flash Ring
+	/* Tooltip:
+		'''
+		Attacks have a {0}% chance to call down a lightning bolt for {1}x damage
+		The chance is reduced for each enemy an attack hits
+		The bolt's damage is based on non-crit damage, but can itself crit 
+		Bolts are transparent and silent if visibility is disabled
+		''' */
+}
+
+BatholithBangle: {
+	// DisplayName: Batholith Bangle
+	/* Tooltip:
+		'''
+		Magic enemy hits create a powerful granite flash that always critically strikes
+		This effect has a 10 second cooldown
+		Visual and audio effects are reduced if visibility is disabled
+		[c/0189D7:'The solid granite radiates energy throughout your body']
+		''' */
+}
+
+BlackGlassBand: {
+	// DisplayName: Black Glass Band
+	/* Tooltip:
+		'''
+		Enemy hits create an obsidian flash that always critically strikes
+		This effect has a 5 second cooldown, but is halved if the flash kills an enemy
+		Visual and audio effects are reduced if visibility is disabled
+		[c/655DC5:'A shining band with boundless potential']
+		''' */
+}
+
+UnholyTonic: {
+	// DisplayName: Unholy Tonic
+	/* Tooltip:
+		'''
+		Increases damage reduction by 4% and defense by 6 while in the corruption
+		Grants immunity to Brain Rot
+		''' */
+}
+
+ViciousTonic: {
+	// DisplayName: Vicious Tonic
+	/* Tooltip:
+		'''
+		Increases damage reduction by 4% and defense by 6 while in the crimson
+		Grants immunity to Burning Blood
+		''' */
+}
+
+DiamondOfTheDeep: {
+	// DisplayName: Diamond of the Deep
+	/* Tooltip:
+		'''
+		60% increased Water debuff damage
+		Slowly accrue up to three different abyssal spirits
+		Dash to disperse the spirits and have them attack enemies
+		When dispersed [c/CB7AD7:below 50% life], the spirits support you instead
+		The spirits appear in order and have different effects based on color:
+		[c/3CB371: Explodes on impact and inflicts Crush Depth] / [c/CB7AD7:Heals for 8 HP]
+		[c/FF4500: Pierces enemies and inflicts Hellfire] / [c/CB7AD7:Increases defense by 10 temporarily]
+		[c/1E90FF: Hits multiple times and inflicts Hadopelagic Pressure] / [c/CB7AD7:Heals 5% of max HP]
+		Spirits are transparent and silent when visibility is toggled off
+		''' */
+}
+
+ElementalinaBottle: {
+	// DisplayName: Elemental in a Bottle
+	// Tooltip: Summons a sand elemental to fight for you
+}
+
+IlmerisSpark: {
+	// DisplayName: Ilmeris' Spark
+	// Tooltip: Taking damage releases a blast of sparks
+}
+
+InterstellarStompers: {
+	// DisplayName: Interstellar Stompers
+	/* Tooltip:
+		'''
+		6% increased movement speed, 20% increased jump speed, and negates fall damage
+		Hold {$Key.DOWN} to increase your maximum fall speed
+		Pressing [KEY] while midair charges up a superspeed slam over 0.33 seconds
+		While falling, you ram through enemies and don't take contact damage
+		Once you hit the ground, you create an explosion at your feet 
+		The explosion scales in both damage and size the longer you slam for
+		Temporary 40% increased jump speed after slamming into the ground
+		''' */
+}
+
+IVDripOnTheRocks: {
+	// DisplayName: IV Drip on the Rocks
+	/* Tooltip:
+		'''
+		Multiplies most non-weapon, non-debuff damage by {0}x
+		Multiplies all weapon damage by {1}x
+		Counts as an alcohol stack toward Alcohol Poisoning
+		{$Common.AlcoholWarning}
+		'(drunken mumbling)'
+		''' */
+}
+
+PlanebreakersPouch: {
+	// DisplayName: Planebreaker's Pouch
+	/* Tooltip:
+		'''
+		15% increased ranged damage, 5% increased ranged critical strike chance and 20% reduced ammo usage
+		Grants a 20% chance to not consume arrows
+		Pressing [KEY] will automatically swap the ammos in your ammo slots
+		The ammo type swapped depends on the ammo of the weapon you are holding
+		''' */
+}
+
+ProtolithBangle: {
+	// DisplayName: Protolith Bangle
+	/* Tooltip:
+		'''
+		Ranged enemy hits create a marble flash that always critically strikes and can hit multiple enemies
+		This effect has a 7 second cooldown
+		Visual and audio effects are reduced if visibility is disabled
+		[c/C5B965:'The cold marble against your wrist puts your mind at ease']
+		''' */
+}
+
+RareElementalinaBottle: {
+	// DisplayName: Rare Elemental in a Bottle
+	/* Tooltip:
+		'''
+		Summons a sand elemental to heal you
+		;D
+		''' */
+}
+
+Regenerator: {
+	// DisplayName: Regenerator
+	/* Tooltip:
+		'''
+		Your health cannot exceed {0}% of its maximum
+		Increases length of invincibility after taking damage
+		Provides powerful special life regen to heal you for {1} HP/s
+		All normal life regen is negated and converted into damage 
+		Current damage boost: [DAMAGE]%
+		''' */
+}
+
+ScionsCurio: {
+	// DisplayName: Scions Curio
+	/* Tooltip:
+		'''
+		Ranged hits increase the effectiveness of the Irradiated debuff
+		Irradiated damage over time scales off of your ranged damage and crit chance
+		On kill, enemies burst, spreading Irradiated
+		Taking damage causes the curio to explode in retaliation
+		''' */
+}
+
+SeaSpiritAmulet: {
+	// DisplayName: Sea Spirit Amulet
+	/* Tooltip:
+		'''
+		Slowly accumulate up to eight spirit orbs that follow you
+		Spirits disperse when dashing
+		If below 50% life, they will heal you, otherwise they will attack nearby enemies
+		35% increased Water debuff damage
+		Spirit orbs are transparent and silent if visibility is disabled
+		''' */
+}
+
+TeslasAmulet: {
+	// DisplayName: Tesla's Amulet
+	/* Tooltip:
+		'''
+		Generates an electrifying field that slows enemies
+		The field has reduced opacity if visibility is disabled
+		Reduces the duration of the Static Discharge debuff
+		''' */
+}
+
+WarbanneroftheRighteous: {
+	// DisplayName: Warbanner of the Righteous
+	/* Tooltip:
+		'''
+		Multiplies all damage based on how close you are to enemies
+		Maximum damage boost is 15%, minimum damage boost is -15%
+		Emit a blazing aura that burns and repels nearby enemies
+		Enemies take increasing damage the closer they are to you and the longer they are near you
+		Effects are transparent and silent if visibility is disabled
+		''' */
+}
+
+GhostBracelet: {
+	// DisplayName: Ghost Bracelet
+	// Tooltip: Wow.... It looks at me with its hollow eyes full of curiosity
+}
+
+LucisSight: {
+	// DisplayName: Luci's Sight
+	// Tooltip: "'Fashionable glasses? In Earthia's current economy?!'"
+}
+
+SharkyPlush: {
+	// DisplayName: Sharky Plush
+	// Tooltip: "[c/696969:'Look out, for the force without form...']"
+}
+
+TheComb: {
+	// DisplayName: The Comb
+	/* Tooltip:
+		'''
+		Gives the wearer's hair a lustrous finish
+		Sparkles are attracted to nearby chests
+		'We ain't found shit!'
+		''' */
+}
+
+XyksBlessingBlue: {
+	// DisplayName: Xyk's Blessing (Blue)
+	/* Tooltip:
+		'''
+		Applies visual effects to your dashes, wings, and deaths
+		<right> to transform
+		'It's simply too much to turn back now; passion and time have long since stained it.
+		[c/5f8ae1:Have I always been so selfish?']
+		''' */
+}
+
+XyksBlessingOrange: {
+	// DisplayName: Xyk's Blessing (Orange)
+	/* Tooltip:
+		'''
+		Applies visual effects to your dashes, wings, and deaths
+		<right> to transform
+		'Even so, the march of time waits for none. Recall that feeling of fulfillment, and show it to the world.
+		[c/E1B65F:Prove that it was never a waste.']
+		''' */
 }

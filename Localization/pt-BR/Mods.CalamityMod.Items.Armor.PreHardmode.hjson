@@ -88,6 +88,12 @@ MarniteArchitectHeadgear: {
 		O elevador é invocado quando a hotkey de montaria é apertada [c/D4C870:sem nenhuma montaria equipada]
 		Usar as teclas PARA CIMA e PARA BAIXO pode alterar a altura do elevador
 		'''
+	/* SetBonus:
+		'''
+		[c/{0}:Marnite Lift - You can summon a lift under your feet to reach higher up]
+		[c/91C5EF:The lift gets summoned when the mount hotkey gets pressed] [c/D4C870:without any mounts equipped]
+		[c/91C5EF:Press {$Key.UP} and {$Key.DOWN} to change the lift's height, reaching up to {1} tiles above ground]
+		''' */
 }
 
 MarniteArchitectToga: {
@@ -313,4 +319,63 @@ WulfrumJacket: {
 WulfrumOveralls: {
 	DisplayName: Macacão de Vulfrúmio
 	Tooltip: 5% de aumento na velocidade dos movimentos
+}
+
+AerospecHeadMagic: {
+	// DisplayName: Aerospec Hat
+	/* Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@1}
+		''' */
+	/* SetBonus:
+		'''
+		{$CommonItemTooltip.PercentReducedManaCost}
+		{1}% increased movement speed and magic critical strike chance
+		{$AerospecBreastplate.CommonSetBonus@2}
+		''' */
+}
+
+AerospecHeadRogue: {
+	// DisplayName: Aerospec Headgear
+	// Tooltip: "{$Common.RogueDamage} and {$CommonItemTooltip.PercentIncreasedMovementSpeed@1}"
+	/* SetBonus:
+		'''
+		{$Common.RogueStealth}
+		{1}% increased movement speed and rogue critical strike chance
+		{$AerospecBreastplate.CommonSetBonus@2}
+		''' */
+}
+
+AerospecHeadMelee: {
+	// DisplayName: Aerospec Helm
+	// Tooltip: "{$CommonItemTooltip.PercentIncreasedMeleeDamage}"
+	/* SetBonus:
+		'''
+		{0}% increased movement speed and melee critical strike chance
+		{$Common.AggroBoost}
+		{$AerospecBreastplate.CommonSetBonus@1}
+		''' */
+}
+
+AerospecHeadSummon: {
+	// DisplayName: Aerospec Helmet
+	// Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage} and {$CommonItemTooltip.PercentIncreasedMovementSpeed@1}"
+	/* SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		Summons a valkyrie to protect you
+		{$AerospecBreastplate.CommonSetBonus@2}
+		''' */
+}
+
+AerospecHeadRanged: {
+	// DisplayName: Aerospec Hood
+	// Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
+	/* SetBonus:
+		'''
+		{0}% increased movement speed and ranged critical strike chance
+		{$AerospecBreastplate.CommonSetBonus@1}
+		''' */
 }

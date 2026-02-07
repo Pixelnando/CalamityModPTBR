@@ -167,3 +167,73 @@ SwirlingCosmicFlameDye: {
 	DisplayName: Swirling Cosmic Flame Dye
 	Tooltip: ""
 }
+
+AcidRainDye: {
+	DisplayName: Acid Rain Dye
+	Tooltip: ""
+}
+
+DaedalusDye: {
+	DisplayName: Daedalus Dye
+	Tooltip: ""
+}
+
+InvisibleDye: {
+	DisplayName: Invisible Dye
+	Tooltip: ""
+}
+
+LivingShardDye: {
+	DisplayName: Living Shard Dye
+	Tooltip: ""
+}
+
+MeldDye: {
+	DisplayName: Meld Dye
+	Tooltip: ""
+}
+
+NecromanticDye: {
+	DisplayName: Necromantic Dye
+	Tooltip: ""
+}
+
+PlagueGooDye: {
+	DisplayName: Plague Goo Dye
+	Tooltip: ""
+}
+
+PlaguePlateDye: {
+	DisplayName: Plague Plate Dye
+	Tooltip: ""
+}
+
+ProfanedCrystalDye: {
+	DisplayName: Profaned Crystal Dye
+	Tooltip: ""
+}
+
+ProfanedRockDye: {
+	DisplayName: Profaned Rock Dye
+	Tooltip: ""
+}
+
+ScoriaDye: {
+	DisplayName: Scoria Dye
+	Tooltip: ""
+}
+
+SilvaDye: {
+	DisplayName: Silva Dye
+	Tooltip: ""
+}
+
+TarragonDye: {
+	DisplayName: Tarragon Dye
+	Tooltip: ""
+}
+
+WulfrumDye: {
+	DisplayName: Wulfrum Dye
+	Tooltip: ""
+}

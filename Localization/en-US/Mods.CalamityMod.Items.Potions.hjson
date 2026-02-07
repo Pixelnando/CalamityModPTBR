@@ -397,3 +397,70 @@ WhiteWine: {
 		Drinking more than 3 different alcohols might not end well with your liver
 		'''
 }
+
+BottledPanacea: {
+	DisplayName: Bottled Panacea
+	Tooltip:
+		'''
+		Cures you of all sickness and electricity debuffs when consumed
+		This has a 30 second cooldown
+		'''
+}
+
+Manhattan: {
+	DisplayName: Manhattan
+	Tooltip:
+		'''
+		{0}% increased Cold debuff damage
+		{1}% decreased Water debuff damage
+		{$Common.AlcoholWarning}
+		'''
+}
+
+// Food
+Barberry: {
+	DisplayName: Barberry
+	Tooltip: "{$CommonItemTooltip.MediumStats}"
+}
+
+Cometfruit: {
+	DisplayName: Cometfruit
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MediumStats}
+		'Tastes stellar!'
+		'''
+}
+
+Jackfruit: {
+	DisplayName: Jackfruit
+	Tooltip: "{$CommonItemTooltip.MinorStats}"
+}
+
+Lotus: {
+	DisplayName: Lotus
+	Tooltip: "{$CommonItemTooltip.MediumStats}"
+}
+
+Mangosteen: {
+	DisplayName: Mangosteen
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MediumStats}
+		'Queen of fruits'
+		'''
+}
+
+Salak: {
+	DisplayName: Salak
+	Tooltip: "{$CommonItemTooltip.MinorStats}"
+}
+
+ShroomBowl: {
+	DisplayName: Shroom Bowl
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MediumStats}
+		'He has been grounded'
+		'''
+}

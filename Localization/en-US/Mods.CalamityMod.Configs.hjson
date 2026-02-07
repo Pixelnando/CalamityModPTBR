@@ -7,6 +7,7 @@ CalamityClientConfig: {
 		MeterPositions: Meter Positions
 		UI: UI Changes
 		MusicEvents: Music Events
+		MusicToggles: Music Toggles
 	}
 
 	AdrenalineMeterPosX: {
@@ -321,6 +322,98 @@ CalamityClientConfig: {
 		Label: "[i:Book] Wiki Status Message"
 		Tooltip: Enable or disable the status message promoting the Official Calamity Wiki that plays on world entry.
 	}
+
+	AbyssLayer3Alt: {
+		Label: "[i:CalamityModMusic/AbyssLayer3AltMusicBox] Abyss Layer 3 Alt"
+		Tooltip: Plays Calamity Mod OST - "R'lyehian Depths", while in the Thermal Vents layer of the Abyss.
+	}
+
+	DisableGravityScreenSwap: {
+		Label: Disable Gravity Screen Flip
+		Tooltip:
+			'''
+			Disables vanilla's screen-flipping from changing gravity, flipping the player instead.
+			Enable this if the screen-flipping is distracting or induces motion sickness.
+			'''
+	}
+
+	EnableVanillaTextureEdits: {
+		Label: "[i:Paintbrush] Enable Vanilla Texture Edits"
+		Tooltip:
+			'''
+			Enables slight edits to vanilla boss textures to improve attack telegraphs.
+			Disable this for compatibility with texture packs.
+			'''
+	}
+
+	EnergyShieldOpacity: {
+		Label: "[i:CalamityMod/TheSponge] Energy Shield Opacity"
+		Tooltip:
+			'''
+			Set the opacity of energy shields rendered over the player.
+			Setting this to 0 disables energy shield visuals entirely.
+			'''
+	}
+
+	FancyBackgroundVisuals: {
+		Label: "[i:CalamityMod/BlueDistortedMonolith] Toggle Fancy Background Visuals"
+		Tooltip:
+			'''
+			Controls whether or not fancy background visuals will be displayed during certain parts of the game, such as boss fights.
+			When disabled, a simplified version of the main visual will be displayed in certain cases.
+			Recommended to have disabled if you struggle with visibility issues or low performance.
+			'''
+	}
+
+	Photosensitivity: {
+		Label: "[i:DiscoBall] Photosensitivity Mode"
+		Tooltip:
+			'''
+			Reduces or disables the brightness and/or flashiness of certain visual effects.
+			Also disables all screenshake effects.
+			Highly recommended if you are photosensitive.
+			'''
+	}
+
+	SetBonusDoubleTap: {
+		Label: "[i:VortexHelmet] Allow Double Tap for Armor Set Bonuses"
+		Tooltip: Allows all armor set bonuses to be triggered by the vanilla double-tap {$Key.DOWN} hotkey (or {$Key.UP} depending on your settings).
+	}
+
+	StutterFix: {
+		Label: "[i:TrifoldMap] Enable Stutter Fix"
+		Tooltip:
+			'''
+			When enabled, upon entering a world, the entire world will be loaded at once.
+			This config causes Terraria to stop responding while the world is being loaded, do NOT close the game while this is occurring.
+			Once the game starts responding again, you will enter the world and be able to play without random stutters.
+			This config option is only recommended for players who can't stand random stutters while playing.
+			'''
+	}
+
+	SunkenSeaBackgroundDistortion: {
+		Label: "[i:CalamityMod/SeaRemains] Sunken Sea Background Distortion"
+		Tooltip:
+			'''
+			Whether or not the Sunken Sea's custom backgrounds should have an additional distortion shader applied to them.
+			This will give the illusion of underwater distortion.
+			[c/FF232C:Note that this will ONLY work if your "Wave Quality" setting is turned off.]
+			'''
+	}
+
+	TextEffects: {
+		Label: "[i:LeinforsAccessory] Extra Text Effects"
+		Tooltip:
+			'''
+			When enabled, certain Calamity rarities will display extra visual effects within item names.
+			Disable if reduced visual clutter is desired.
+			'''
+	}
+
+	TileTextureBlendingQuality: {
+		Label: "[i:GlowPaint] Tile Merge Soft Blending"
+		Tooltip: Changes the quality of the soft-blending renderer used when different types of tiles merge together.
+	}
 }
 
 CalamityServerConfig: {
@@ -490,6 +583,85 @@ CalamityServerConfig: {
 			'''
 			When enabled, town NPCs can spawn and respawn at night.
 			This includes the Old Man.
+			'''
+	}
+
+	FasterRopeClimbSpeed: {
+		Label: "[i:Rope] Increase Rope Climb Speed"
+		Tooltip:
+			'''
+			Increases the player's rope climb speed substantially by increasing acceleration and deceleration while on a rope.
+			Calamity is balanced around this setting being enabled.
+			'''
+	}
+
+	SimplifyAccessoryReforge: {
+		Label: "[i:Autohammer] Simplify Accessory Reforging"
+		Tooltip:
+			'''
+			Makes accessory reforging simpler by restricting options to the following prefixes:
+			          - Warding, Menacing, Lucky, Quick, Violent, Arcane, Silent, Invigorating, Dauntless
+			'''
+	}
+}
+
+CooldownDisplayOptions: {
+	Tooltip: ""
+
+	Full: {
+		Label: Full
+		Tooltip: Displays a circular bar around an icon which indicates cooldown duration
+	}
+
+	Compact: {
+		Label: Compact
+		Tooltip: Displays a gradient over an icon which indicates cooldown duration
+	}
+
+	Hidden: {
+		Label: Hidden
+		Tooltip: ""
+	}
+}
+
+SetBonusDoubleTapOptions: {
+	Tooltip: ""
+
+	On: {
+		Label: Always On
+		Tooltip: Always enables double-tap. Can be used in conjunction with Calamity's {$Keybinds.ArmorSetBonus.DisplayName} hotkey.
+	}
+
+	Auto: {
+		Label: Auto
+		Tooltip: Automatically turns off double-tap as long as Calamity's {$Keybinds.ArmorSetBonus.DisplayName} hotkey is bound.
+	}
+
+	Off: {
+		Label: Always Off
+		Tooltip: Always disables double-tap. Can be used to completely disable set bonus activation.
+	}
+}
+
+TileBlendingQuality: {
+	Tooltip: ""
+
+	Disable: {
+		Label: Disabled
+		Tooltip: Tile texture soft blending is disabled.
+	}
+
+	Normal: {
+		Label: Enabled
+		Tooltip: Tile texture soft blending is enabled.
+	}
+
+	High: {
+		Label: Enabled + Slices
+		Tooltip:
+			'''
+			Tile texture soft blending is enabled and uses sliced rendering.
+			[c/F05A5A:Not recommended for low-end devices.]
 			'''
 	}
 }

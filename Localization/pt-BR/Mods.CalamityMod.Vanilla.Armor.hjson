@@ -161,4 +161,20 @@ SetBonus: {
 		Reduz o dano por Magia em 20% e converte-o em força de cura
 		O dano por magia causado a inimigos cura o jogador com menos vida restante
 		'''
+	/* Rain:
+		'''
+		24% increased jump speed and allows auto-jump
+		Jumping creates a puddle splash that damages and knocks back enemies
+		This splash is stronger if it is raining
+		''' */
+	/* Forbidden:
+		'''
+		{$LegacyTooltip.48} {0} to call an ancient storm to the cursor location
+		Minions no longer deal less damage while wielding magic weapons
+		''' */
+	/* Vortex:
+		'''
+		{$LegacyTooltip.48} {0} to toggle stealth,
+		increasing ranged ability and reducing chance for enemies to target you but slowing movement speed
+		''' */
 }

@@ -101,6 +101,12 @@ BloodflareHeadMagic: {
 		Armas de magia disparam raios fantasmagóricos a cada 1,67 segundos
 		Acertos críticos mágicos causam explosões de chamas a cada 2 segundos
 		'''
+	/* SetBonusEffect:
+		'''
+		Magic weapons fire ghostly bolts every {0} seconds
+		Magic critical strikes cause blood explosions every {1} seconds
+		{$BloodflareBodyArmor.CommonSetBonus}
+		''' */
 }
 
 BloodflareHeadMelee: {
@@ -115,6 +121,13 @@ BloodflareHeadMelee: {
 		Durante a frenesi, você receberá 25% de aumento nos danos por ataque físico, chance de acerto crítico físico e o dano de contato será cortado pela metade
 		Este efeito tem um tempo de recarga de 30 segundos
 		'''
+	/* SetBonusEffect:
+		'''
+		After striking an enemy {0} times with true melee you will enter a blood frenzy for {1} seconds
+		During this you will gain {2}% increased melee damage, critical strike chance, and {3}% reduced contact damage
+		This effect has a {4} second cooldown
+		{$BloodflareBodyArmor.CommonSetBonus}
+		''' */
 }
 
 BloodflareHeadRanged: {
@@ -126,6 +139,13 @@ BloodflareHeadRanged: {
 		Este efeito tem um tempo de recarga de 30 segundos
 		Armas de ataque à distância disparam orbes de explosão de sangue a cada 2,5 segundos
 		'''
+	/* SetBonusEffect:
+		'''
+		{0} to unleash the lost souls of polterghast to destroy your enemies
+		This effect has a {1} second cooldown
+		Ranged weapons fire bloodsplosion orbs every {2} seconds
+		{$BloodflareBodyArmor.CommonSetBonus}
+		''' */
 }
 
 BloodflareHeadRogue: {
@@ -142,6 +162,12 @@ BloodflareHeadRogue: {
 		Estar com menos de 80% de vida aumenta os danos por ataque ladino em 10%
 		Acertos críticos ladinos têm 50% de na chance de curar você
 		'''
+	/* SetBonusEffect:
+		'''
+		Grants {0} defense when above {1}% life
+		Rogue critical strikes have lifesteal
+		{$BloodflareBodyArmor.CommonSetBonus}
+		''' */
 }
 
 BloodflareHeadSummon: {
@@ -154,6 +180,12 @@ BloodflareHeadSummon: {
 		Com 90% de vida ou mais, você recebe 10% de aumento nos danos por invocação
 		Com 50% de vida ou mais, você recebe 20 de defesa e regeneração de +1 de vida por segundo
 		'''
+	/* SetBonusEffect:
+		'''
+		Summons polterghast mines to circle you
+		Grants {0} defense when below {1}% life
+		{$BloodflareBodyArmor.CommonSetBonus}
+		''' */
 }
 
 DemonshadeBreastplate: {
@@ -333,12 +365,22 @@ GodSlayerHeadMelee: {
 		Sofrer mais do que 80 de dano em um ataque fará com que você libere uma barragem de dados caça-deuses que causam muito dano
 		Inimigos sofrem muito dano quando te acertam
 		'''
+	/* SetBonusEffect:
+		'''
+		Releases a swarm of god killer darts when taking over {0} damage in one hit
+		{$GodSlayerChestplate.CommonSetBonus@1}
+		''' */
 }
 
 GodSlayerHeadRanged: {
 	DisplayName: Elmo do Caça-Deuses
 	Tooltip: 14% de aumento nos danos por ataque à distância e na chance de acerto crítico à distância
 	SetBonus: Você dispara uma bala de estilhaços mata-deuses enquanto dispara armas de ataque à distância a cada 2,5 segundos
+	/* SetBonusEffect:
+		'''
+		Ranged weapons fire a god killer shrapnel round every {0} seconds
+		{$GodSlayerChestplate.CommonSetBonus@1}
+		''' */
 }
 
 GodSlayerHeadRogue: {
@@ -354,6 +396,12 @@ GodSlayerHeadRogue: {
 		Quando você estiver com a vida máxima, todos as suas estatísticas ladinas são aumentadas em 10%
 		Se você sofrer mais do que 80 de dano em um ataque, você receberá mais quadros de imunidade
 		'''
+	/* SetBonusEffect:
+		'''
+		{0}% increased rogue damage, critical strike chance, and velocity when at full health
+		Increased length of invincibility when taking over {1} damage in one hit
+		{$GodSlayerChestplate.CommonSetBonus@2}
+		''' */
 }
 
 GodSlayerLeggings: {
@@ -466,6 +514,11 @@ SilvaHeadMagic: {
 		+100 de mana máxima e 19% de de redução no custo de mana
 		'''
 	SetBonus: Projéteis mágicos que não podem perfurar inimigos irão ocasionalmente disparar rajadas potentes de energia da natureza
+	/* SetBonusEffect:
+		'''
+		Magic projectiles which cannot pierce will occasionally set off potent blasts of nature energy
+		{$SilvaArmor.CommonSetBonus}
+		''' */
 }
 
 SilvaHeadSummon: {
@@ -476,6 +529,11 @@ SilvaHeadSummon: {
 		65% de aumento nos danos por invocação e +5 lacaios máximos
 		Invoca um prisma de folha antigo para explodir seus inimigos com energia vital
 		'''
+	/* SetBonusEffect:
+		'''
+		Summons an ancient leaf prism to blast your enemies with life energy
+		{$SilvaArmor.CommonSetBonus}
+		''' */
 }
 
 SilvaLeggings: {
@@ -515,6 +573,11 @@ TarragonHeadMagic: {
 		Projéteis mágicos curam você ao atingir o inimigo
 		A quantidade curada é baseada no dano do projétil
 		'''
+	/* SetBonusEffect:
+		'''
+		On every 5th critical strike you will fire a leaf storm
+		{$TarragonBreastplate.CommonSetBonus}
+		''' */
 }
 
 TarragonHeadMelee: {
@@ -533,6 +596,13 @@ TarragonHeadMelee: {
 		Press {0} to cloak yourself in life energy that heavily reduces enemy contact damage for 10 seconds
 		This has a 30 second cooldown
 		''' */
+	/* SetBonusEffect:
+		'''
+		Taking damage gives [cbuff:CalamityMod/TarraLifeRegen], which grants +{0} HP/s life regen
+		{1} to cloak yourself in life energy that heavily reduces enemy contact damage for {2} seconds
+		This has a {3} second cooldown
+		{$TarragonBreastplate.CommonSetBonus}
+		''' */
 }
 
 TarragonHeadRanged: {
@@ -543,6 +613,11 @@ TarragonHeadRanged: {
 		5% de aumento na redução dos danos
 		'''
 	SetBonus: Projéteis de ataque à distância se dividem em energia vital teleguiada e folhas ao morrerem
+	/* SetBonusEffect:
+		'''
+		Ranged projectiles spawn homing life energy and leaves on enemy hits
+		{$TarragonBreastplate.CommonSetBonus}
+		''' */
 }
 
 TarragonHeadRogue: {
@@ -559,6 +634,13 @@ TarragonHeadRogue: {
 		Este efeito tem um tempo de recarga de 25 segundos
 		Enquanto estiver sob um efeito negativo, você ganha 10% de aumento nos danos por ataque ladino
 		'''
+	/* SetBonusEffect:
+		'''
+		After every {0} rogue critical hits you will gain {1} seconds of damage immunity
+		This effect has a cooldown of {2} seconds
+		While under the effects of a debuff you gain {3}% increased rogue damage
+		{$TarragonBreastplate.CommonSetBonus}
+		''' */
 }
 
 TarragonHeadSummon: {
@@ -569,6 +651,11 @@ TarragonHeadSummon: {
 		50% de aumento nos danos por invocação e +3 lacaios máximos
 		Invoca uma aura vital ao seu redor que causa danos aos inimigos próximos
 		'''
+	/* SetBonusEffect:
+		'''
+		Summons a life aura around you that damages nearby enemies
+		{$TarragonBreastplate.CommonSetBonus}
+		''' */
 }
 
 TarragonLeggings: {
@@ -578,4 +665,153 @@ TarragonLeggings: {
 		10% de aumento na velocidade dos movimentos
 		8% de aumento nos danos e na chance de acerto crítico
 		'''
+}
+
+AuricTeslaHeadRanged: {
+	// DisplayName: Auric Tesla Hooded Facemask
+	/* Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamage} and {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		''' */
+	/* SetBonus:
+		'''
+		Ranged Tarragon, Bloodflare and God Slayer armor effects
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
+		''' */
+	/* SetBonus1:
+		'''
+		Inherited Tarragon Set Bonus:
+		{$TarragonHeadRanged.SetBonusEffect}
+		''' */
+	/* SetBonus2:
+		'''
+		Inherited Bloodflare Set Bonus:
+		{$BloodflareHeadRanged.SetBonusEffect}
+		''' */
+	/* SetBonus3:
+		'''
+		Inherited God Slayer Set Bonus:
+		{$GodSlayerHeadRanged.SetBonusEffect}
+		''' */
+}
+
+AuricTeslaHeadRogue: {
+	// DisplayName: Auric Tesla Plumed Helm
+	/* Tooltip:
+		'''
+		{$Common.RogueDamage} and {$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		''' */
+	/* SetBonus:
+		'''
+		{$Common.RogueStealth}
+		Rogue Tarragon, Bloodflare and God Slayer armor effects
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
+		''' */
+	/* SetBonus1:
+		'''
+		Inherited Tarragon Set Bonus:
+		{$TarragonHeadRogue.SetBonusEffect}
+		''' */
+	/* SetBonus2:
+		'''
+		Inherited Bloodflare Set Bonus:
+		{$BloodflareHeadRogue.SetBonusEffect}
+		''' */
+	/* SetBonus3:
+		'''
+		Inherited God Slayer Set Bonus:
+		{$GodSlayerHeadRogue.SetBonusEffect}
+		''' */
+}
+
+AuricTeslaHeadMelee: {
+	// DisplayName: Auric Tesla Royal Helm
+	/* Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@1}
+		''' */
+	/* SetBonus:
+		'''
+		{$Common.AggroBoost}
+		Melee Tarragon, Bloodflare and God Slayer effects
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
+		''' */
+	/* SetBonus1:
+		'''
+		Inherited Tarragon Set Bonus:
+		{$TarragonHeadMelee.SetBonusEffect}
+		''' */
+	/* SetBonus2:
+		'''
+		Inherited Bloodflare Set Bonus:
+		{$BloodflareHeadMelee.SetBonusEffect}
+		''' */
+	/* SetBonus3:
+		'''
+		Inherited God Slayer Set Bonus:
+		{$GodSlayerHeadMelee.SetBonusEffect}
+		''' */
+}
+
+AuricTeslaHeadSummon: {
+	// DisplayName: Auric Tesla Space Helmet
+	/* Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		''' */
+	/* SetBonus:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		Summoner Tarragon, Bloodflare and Silva armor effects
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
+		''' */
+	/* SetBonus1:
+		'''
+		Inherited Tarragon Set Bonus:
+		{$TarragonHeadSummon.SetBonusEffect}
+		''' */
+	/* SetBonus2:
+		'''
+		Inherited Bloodflare Set Bonus:
+		{$BloodflareHeadSummon.SetBonusEffect}
+		''' */
+	/* SetBonus3:
+		'''
+		Inherited Silva Set Bonus:
+		{$SilvaHeadSummon.SetBonusEffect}
+		''' */
+}
+
+AuricTeslaHeadMagic: {
+	// DisplayName: Auric Tesla Wire-Hemmed Visage
+	/* Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} and {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		''' */
+	/* SetBonus:
+		'''
+		Magic Tarragon, Bloodflare and Silva armor effects
+		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
+		''' */
+	/* SetBonus1:
+		'''
+		Inherited Tarragon Set Bonus:
+		{$TarragonHeadMagic.SetBonusEffect}
+		''' */
+	/* SetBonus2:
+		'''
+		Inherited Bloodflare Set Bonus:
+		{$BloodflareHeadMagic.SetBonusEffect}
+		''' */
+	/* SetBonus3:
+		'''
+		Inherited Silva Set Bonus:
+		{$SilvaHeadMagic.SetBonusEffect}
+		''' */
 }

@@ -3,6 +3,10 @@ Accessory: {
 	Silent.DisplayName: Silent
 	// New modifier effects (this is only positive)
 	StealthGenTooltip: +{0}% stealth generation
+	Invigorating.DisplayName: Invigorating
+	Dauntless.DisplayName: Dauntless
+	LifeRegenTooltip: +{0} HP/s life regen
+	MaxLifeBoostTooltip: +{0} max life
 }
 
 Weapon: {

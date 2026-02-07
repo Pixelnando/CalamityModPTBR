@@ -193,3 +193,30 @@ TrashmanTrashcan: {
 	DisplayName: Trash Can
 	Tooltip: Summons the trash man
 }
+
+BurrowerController: {
+	DisplayName: Burrower Beacon
+	Tooltip:
+		'''
+		Requests a friendly burrower to follow you around and illuminate ores
+		Counts as a light pet
+		'''
+}
+
+FrostyBatBottle: {
+	DisplayName: Frosty Bat Bottle
+	Tooltip:
+		'''
+		Summons an icy bat to light your way that flies towards your cursor when you dash
+		[c/6ECAC3:'All the world's bats are prime to squeak!']
+		'''
+}
+
+ToastyBatBottle: {
+	DisplayName: Toasty Bat Bottle
+	Tooltip:
+		'''
+		Summons a fiery bat to light your way that leaves a trail of glowing embers
+		[c/CF6454:'Guaranteed to NOT knock you off your hellbridge']
+		'''
+}

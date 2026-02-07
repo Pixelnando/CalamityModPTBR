@@ -69,6 +69,16 @@ GodSlayerSlug: {
 		'''
 }
 
+HailstormBullet: {
+	DisplayName: Projétil de Granizo
+	Tooltip:
+		'''
+		Projéteis imbuídos com uma magia de gelo potente
+		Esses projéteis desaceleram rapidamente após serem disparados
+		Acertos críticos causam um congelamento instantâneo, causando mais dano e congelando inimigos normais
+		'''
+}
+
 HallowPointRound: {
 	DisplayName: Bala de Ponta Sagrada
 	Tooltip:
@@ -81,16 +91,6 @@ HallowPointRound: {
 HolyFireBullet: {
 	DisplayName: Projétil de Fogo Sagrado
 	Tooltip: Balas sagradas explosivas
-}
-
-HailstormBullet: {
-	DisplayName: Projétil de Granizo
-	Tooltip:
-		'''
-		Projéteis imbuídos com uma magia de gelo potente
-		Esses projéteis desaceleram rapidamente após serem disparados
-		Acertos críticos causam um congelamento instantâneo, causando mais dano e congelando inimigos normais
-		'''
 }
 
 HyperiusBullet: {

@@ -224,6 +224,42 @@ CrushsawCrasher: {
 		Throws bouncing axes
 		Stealth strikes throw five at once
 		'''
+	GFBFirstWords:
+		'''
+		Crushsaw
+		Crashsaw
+		Crushclaw
+		Crashclaw
+		Crushcaw
+		Crushaw
+		Crushmaw
+		Crashmaw
+		Crawshaw
+		Coleslaw
+		Cashew
+		Cawcaw
+		Crabshaw
+		Castle
+		Catshaw
+		Catspaw
+		'''
+	GFBLastWords:
+		'''
+		Crasher
+		Crusher
+		Clasher
+		Casher
+		Clacker
+		Catcher
+		Trasher
+		Rasher
+		Cracker
+		Cackler
+		Checker
+		Clicker
+		Catsher
+		'''
+	GFBWordSeparator: " "
 }
 
 Crystalline: {
@@ -709,6 +745,23 @@ Malachite: {
 		Press <right> to throw a single kunai that pierces, after piercing an enemy it emits a massive explosion on the next enemy hit
 		Stealth strikes fire three kunai that home in, stick to enemies, and explode
 		'''
+	LegendaryText:
+		'''
+		> STATUS_
+		Extensive hull damage. Repairs initiated.
+		Sensor arrays offline. Repairs scheduled T+2200.
+
+		> UPDATE_DIRECTIVE_
+		Error 0x00017F80. Device sector unreadable.
+		Initializing search for external directive.
+		Searching... (383526 more)
+		Directive found.
+		New directive compiled. Rebooting...
+
+		> PLAGUE UNIT 194-QB-03d ONLINE.
+		Directive summary:
+		Continue propagation of unified frequency band and lead satellite units.
+		'''
 }
 
 MangroveChakram: {
@@ -777,6 +830,14 @@ NanoblackReaper: {
 		Stealth strikes cause the scythe to create a large amount of homing afterimages instead of energy blades
 		'She smothered them in Her hatred'
 		'''
+	HoldShiftTooltip:
+		'''
+		'He who picks up the pen writes the script.
+		She has no intention of ever putting it down.
+		Her design eclipses your countable stars.
+		The gleam She exudes will put them all to shame.'
+		'''
+	FlavorTooltip: "'She smothered them in Her hatred.'"
 }
 
 NastyCholla: {
@@ -1368,5 +1429,98 @@ WulfrumKnife: {
 		Fires wulfrum knives in bursts of 3
 		Stealth strikes make the knife fly further and hit several times at once
 		Hold <right> to magnetize all nearby fallen knives back to you
+		'''
+}
+
+AntlionSkewer: {
+	DisplayName: Antlion Skewer
+	Tooltip:
+		'''
+		Throws living, skewered Antlions that fire sand blasts
+		Stealth strikes spew a mess of sand balls and gust
+		Sand clouds temporarily lower enemy contact damage
+		'''
+}
+
+DimensionTearingDisk: {
+	DisplayName: Dimension-Tearing Disk
+	Tooltip:
+		'''
+		Throws a disk that tears space in the direction of the nearest enemy
+		Stealth strikes stick to enemies and unleash [c/ff00ff:God's Bane Doombeam Array]
+		'''
+}
+
+DoomsdayDevice: {
+	DisplayName: Doomsday Device
+	Tooltip:
+		'''
+		Direct hits from the weapon grant stealth
+		Non-stealth strikes do not consume stealth when fully charged
+		Holding a stealth strike charge beyond its limit rapidly drains stealth
+		Stealth strikes ricochet between multiple enemies, ending in a strong impact
+		'A high-tech explosive with devastating power... If only you could figure out how to arm it'
+		'At least you can throw it really hard!'
+		'''
+}
+
+ReboundingRainbow: {
+	DisplayName: Rebounding Rainbow
+	Tooltip:
+		'''
+		Throws a disk that has a chance to generate several disks if enemies are near it
+		Stealth strikes fly slower but travel farther, pierce through enemies, and spawn extra disks more frequently
+		'''
+}
+
+ShatteredDawn: {
+	DisplayName: Shattered Dawn
+	Tooltip:
+		'''
+		Throws daggers that split into scorching homing daggers
+		Stealth strikes fire volleys of homing daggers from the player on dagger hits that suck enemies in
+		'''
+}
+
+SporeKnife: {
+	DisplayName: Spore Knife
+	Tooltip:
+		'''
+		Throws an overgrown dagger that bursts into a cloud of poisonous spores
+		Stealth strikes erupt into hungry homing buds that stick to enemies and gnaw them
+		'''
+}
+
+Vega: {
+	DisplayName: Vega
+	Tooltip:
+		'''
+		Throws a spear that shatters into star fragments on impact and generates Starbursts
+		Stealth strikes conjure an image of Lyra to deal immense damage in an area
+		<right> to consume 20 Starbursts and immediately perform a stealth strike, regardless of your current Stealth
+		This strike calls all star fragments to attack the damaged foe and inflicts [cbuff:CalamityMod/Voidfrost]
+		Consuming Starbursts with Vega allows using stealth for 10 seconds, even without rogue armor
+		'The final song of a misunderstood genius... or just a madman'
+		'''
+}
+
+Whitewater: {
+	DisplayName: Whitewater
+	Tooltip:
+		'''
+		Throws a flask of magic white water at the cursor that glows after a short while
+		Flasks that hit enemies while glowing release four water spears that converge back on the flask's position
+		If the flask hits an enemy or gets too far, it will return to the owner
+		Stealth strikes create six water spears and summon a swirling whitewater vortex that heals players and knocks back enemies
+		Allies that enter the vortex will heal for twice as long
+		'''
+}
+
+Pumpkaboom: {
+	DisplayName: Pumpkaboom
+	Tooltip:
+		'''
+		Throws a pumpkin which sticks to enemies and explodes after a delay
+		Stealth strikes throw larger pumpkins which pull enemies in before releasing a larger explosion
 		'''
 }
