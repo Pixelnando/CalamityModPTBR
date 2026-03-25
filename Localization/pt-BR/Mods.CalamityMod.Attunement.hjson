@@ -1,29 +1,28 @@
 // Broken Biome Blade
 DefaultAttunement: {
 	Name: Claridade Pura
-	Function: Dispara um projétil fraco que esmaga as defesas inimigas
+	Function: Dispara um feixe de espada fraco que esmaga as defesas inimigas
 }
 
 HotAttunement: {
 	Name: Grandeza Árida
 	Function:
 		'''
-		Segure <left> para conjurar lâminas abrasadoras à sua frente que ficam maiores e mais fortes conforme você atinge os inimigos
-		As lâminas também podem ser usadas para rebater de peças quando no ar
+		Conjure lâminas abrasadoras à sua frente que ficam maiores conforme você atinge o inimigo
+		As lâminas também rebatem em peças quando você estiver no ar
 		'''
 }
 
 ColdAttunement: {
 	Name: Abraço Mordaz
-	Function: Execute um combo de 3 golpes com uma lâmina glacial. O golpe final congela os inimigos por uma fração de segundo
+	Function: Execute um combo de 3 golpes com uma lâmina glacial, com um golpe final que congela os inimigos por uma fração de segundo
 }
 
 EvilAttunement: {
 	Name: Retorta da Decadência
 	Function:
 		'''
-		Invista para frente usando uma projeção fantasmagórica de um florete que suga a vida de qualquer inimigo atingido
-		Você será empurrado para longe de alvos atingidos
+		Invista para frente com um florete fantasma, saltando para longe dos inimigos atingidos e roubando a vida deles
 		'''
 }
 
@@ -32,8 +31,9 @@ TrueDefaultAttunement: {
 	Name: Claridade Pura
 	Function:
 		'''
-		Dispara um projétil fraco que esmaga as defesas inimigas
-		Acertar golpes físicos verdadeiros coloca um sigilo de pureza sobre o inimigo. Seus projéteis seguem os inimigos marcados
+		Dispara um feixe de espada fraco que esmaga a defesa do inimigo
+		Acertar três golpes físicos verdadeiros carrega uma investida poderosa que é liberada quando você parar de balançar a espada
+		Inimigos atingidos pela investida são marcadas com um sigilo que atrairá os feixes de espada
 		'''
 }
 
@@ -41,8 +41,8 @@ TrueHotAttunement: {
 	Name: Grandeza Árida
 	Function:
 		'''
-		Segure <left> para conjurar lâminas abrasadoras à sua frente que ficam maiores e mais fortes conforme você atinge os inimigos
-		As lâminas também podem ser usadas para rebater de peças quando no ar
+		Conjure lâminas abrasadoras à sua frente que ficam maiores conforme você atinge o inimigo
+		As lâminas também rebatem em peças quando você estiver no ar
 		Solte depois que as lâminas estiverem totalmente carregadas para as lançar para frente para destruir seus inimigos
 		'''
 }
@@ -51,19 +51,18 @@ TrueColdAttunement: {
 	Name: Abraço Mordaz
 	Function:
 		'''
-		Execute um combo de 3 golpes com uma lâmina glacial. O golpe final congela os inimigos por uma fração de segundo
-		Névoa glacial persistente é liberada em cada balanço, causando dano aos inimigos que vagam por ela
+		Execute um combo de 3 golpes com uma lâmina glacial, com um golpe final que congela os inimigos por uma fração de segundo
+		Uma névoa glacial danosa e persistente é liberada em cada balanço
 		'''
 }
 
 TrueTropicalAttunement: {
-	Name: Toque do Guarda-Florestal
+	Name: Toque do Guarda-florestal
 	Function:
 		'''
 		Lance a espada usando um chicote de vinha
 		Atingir inimigos com a ponta do chicote enquanto ele estala garante um acerto crítico
-		O chicote também te impulsionará para peças atingidas
-		Videiras que se espalham brotam de acertos críticos. Estas vinhas podem atingir até três alvos
+		Videiras que se espalham brotam de acertos críticos, estas videiras podem atingir até três alvos
 		'''
 }
 
@@ -71,8 +70,8 @@ TrueEvilAttunement: {
 	Name: Retorta da Decadência
 	Function:
 		'''
-		Invista para frente usando uma projeção fantasmagórica de um florete que suga a vida de qualquer inimigo atingido. Você também será empurrado para longe de alvos atingidos
-		Acertar três golpes sem tocar no chão muda seu próximo ataque para um impulso fortalecido
+		Invista para frente com um florete fantasma, saltando para longe dos inimigos atingidos e roubando a vida deles
+		Acertar três golpes sem tocar no chão transforma seu próximo ataque em um impulso fortalecido
 		'''
 }
 
@@ -80,8 +79,9 @@ HolyAttunement: {
 	Name: Poder Celestial
 	Function:
 		'''
-		Segure <left> para balançar a espada ao seu redor, acelerando com o tempo
-		Solte para arremessar a espada na direção do seu cursor. A espada então rapidamente retorna à sua mão
+		Balance a espada ao seu redor, acelerando e causando mais dano com o tempo
+		Quando for balançada o suficiente, soltar o ataque a arremessará na direção do cursor por um curto período de tempo
+		Atingir um inimigo com a espada arremessada com seu poder máximo faz com que um monólito astral irrompa na posição dele
 		'''
 }
 
@@ -90,36 +90,39 @@ WhirlwindAttunement: {
 	Name: Orgulho do Espadachim
 	Function:
 		'''
-		Segure <left> para balançar a espada ao seu redor, acelerando com o tempo. Feixes de espada são disparados descontroladamente enquanto você gira
-		Solte para arremessar a espada na direção do cursor. Os feixes de espadas seguem os inimigos atingidos pela espada arremessada
+		Segure <left> para balançar a espada ao seu redor, acelerando e causando mais dano com o tempo
+		Energias astrais são liberadas descontroladamente ao seu redor enquanto balança a espada
+		Quando for balançada o suficiente, soltar o ataque a arremessará na direção do cursor
+		A espada arremessada irrompe em monólitos astrais ao atingir o inimigo
 		'''
-	PassiveDesc: Todos os ataques têm uma chance de disparar um feixe de espada
+	PassiveDesc: Atingir inimigos pode invocar bombardeiros astrais que espalham a Infecção Astral
 }
 
 FlailBladeAttunement: {
 	Name: Lamentações dos Acorrentados
 	Function:
 		'''
-		Ataque com uma enxurrada de lâminas acorrentadas. Atingir os inimigos com a ponta de lâminas garante um acerto crítico
+		Ataque com uma enxurrada de lâminas acorrentadas
+		Atingir os inimigos com a ponta de lâminas garante um acerto crítico
 		Acertos críticos enviam correntes extras que se prendem a vários alvos
 		'''
-	PassiveDesc: Um gancho de corrente encantado flutua perto de você. Atingir os inimigos faz o gancho girar em torno de você, congelando os inimigos
+	PassiveDesc: Um gancho de corrente encantado flutua perto de você e gira e congela inimigos conforme você causa danos
 }
 
 SuperPogoAttunement: {
 	Name: Fúria Sanguínea
 	Function:
 		'''
-		Segure <left> para conjurar lâminas derretidas à sua frente que ficam maiores e mais fortes quanto mais você atinge os inimigos
-		As lâminas também podem ser usadas para rebater de peças quando no ar
+		Conjure lâminas derretidas à sua frente que ficam maiores conforme você atinge o inimigo
+		AAs lâminas também rebatem em peças quando você estiver no ar
 		Solte para lançar as lâminas carregadas para frente como uma roda
-		Atacar novamente imediatamente depois te investe para a roda, destruíndo tudo no caminho
+		Atacar imediatamente após arremessar a lâmina te lança na direção dela, rasgando os inimigos e curando você
 		'''
-	PassiveDesc: Golpear inimigos raramente roubará uma pequena quantidade de vida
+	PassiveDesc: Golpear inimigos pode raramente te curar
 }
 
 ShockwaveAttunement: {
-	Name: Marés Mercuriais
+	Name: Marés Terrestres
 	Function:
 		'''
 		Segure <left> para carregar uma investida que perfura os céus, solte para liberar o golpe devastador
