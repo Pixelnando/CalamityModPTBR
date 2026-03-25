@@ -238,6 +238,12 @@ SagePoison: {
 SearingLava: {
 	DisplayName: Searing Lava
 	Description: The brimstone lava sears your flesh
+	ItemTooltip:
+		'''
+		Heat - 20 DPS
+		Ignores enemy heat weaknesses and resistances
+		Gains double effect from Heat debuff amplifiers
+		'''
 }
 
 ShellfishClaps: {

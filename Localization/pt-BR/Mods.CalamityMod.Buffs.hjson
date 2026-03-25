@@ -238,6 +238,12 @@ SagePoison: {
 SearingLava: {
 	DisplayName: Lava Abrasadora
 	Description: A lava de enxofre abrasa sua carne
+	/* ItemTooltip:
+		'''
+		Heat - 20 DPS
+		Ignores enemy heat weaknesses and resistances
+		Gains double effect from Heat debuff amplifiers
+		''' */
 }
 
 ShellfishClaps: {

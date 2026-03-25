@@ -4754,3 +4754,13 @@ MossyStone: {
 	// DisplayName: Mossy Stone
 	// Tooltip: ""
 }
+
+EldenDiorama: {
+	// DisplayName: Elden Diorama
+	// Tooltip: "'Enshroud the sky with toxic torrents'"
+}
+
+OtonilouStatue: {
+	// DisplayName: Otonilou Memorial
+	// Tooltip: ""
+}

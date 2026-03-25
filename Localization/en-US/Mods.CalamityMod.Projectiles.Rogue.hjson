@@ -365,3 +365,13 @@ VegaStar.DisplayName: Vega Star
 WhitewaterAura.DisplayName: Whitewater Aura
 WhitewaterProj.DisplayName: Whitewater Flask
 WhitewaterSpear.DisplayName: Whitewater Spear
+
+NanoblackLightspeedCarve: {
+	Perfect: Wrath of the Superluminae
+	Standard: Light-speed Carve
+}
+
+NanoblackPiercingStrike.DisplayName: Zero-Point Energy Strike
+NanoblackStrike.DisplayName: Zero-Point Energy Strike
+NanoblackTesselation.DisplayName: Nanoblack Tesselation
+NanoblackLightspeedCarveSlashVisual.DisplayName: Nanoblack Light-speed Carve Visuals

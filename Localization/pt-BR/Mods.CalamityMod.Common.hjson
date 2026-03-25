@@ -76,3 +76,5 @@
 	Speed: {1}
 	Infinite throw duration
 	''' */
+// CritDamageTootip: "{0}% critical strike damage"
+// DodgeProvided: Grants or improves the ability to dodge attacks
