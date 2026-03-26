@@ -1,80 +1,80 @@
 // Plain stat boosts
-// RogueDamage: "{0}% increased rogue damage"
-// RogueCrit: "{0}% increased rogue critical strike chance"
-// RogueDamageCrit: "{0}% increased rogue damage and critical strike chance"
-// RogueVelocity: "{0}% increased rogue velocity"
-// RogueStealth: +{0} maximum stealth
+RogueDamage: "{0}% de aumento nos danos por ataque ladino"
+RogueCrit: "{0}% de aumento na chance de acerto crítico ladino"
+RogueDamageCrit: "{0}% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino"
+RogueVelocity: "{0}% de aumento na velocidade de projéteis ladinos"
+RogueStealth: +{0} de furtividade máxima
 // Armor Set Bonus key states
-// BothArmorSetBonusKeys: Press {0} or Double tap {1}
-// NoArmorSetBonusKey: Press the Armor Set Bonus key
-// ArmorSetBonusKey: Press {0}
-// DoubleTapDown: Double tap {0}
+BothArmorSetBonusKeys: Aperte {0} ou dê um toque duplo em {1}
+NoArmorSetBonusKey: Aperte a tecla de Efeito de Armadura
+ArmorSetBonusKey: Aperte {0}
+DoubleTapDown: Toque duplo em {0}
 // Miscellaneous stats/info
-// AggroBoost: Enemies are more likely to target you
-// AggroReduction: Enemies are less likely to target you
-// KnockbackImmunity: Grants immunity to knockback
-// AbyssLightLevel: Reduces the darkness intensity of the abyss
-// AbyssFlashlight: Increases flashlight width in the abyss
-// AbyssGlow: Increases visibily range in the abyss
-// AbyssBreathLevel1: Slightly reduces breath loss in the abyss
-// AbyssBreathLevel2: Moderately reduces breath loss in the abyss
-// AbyssBreathLevel3: Greatly reduces breath loss in the abyss
-// AlcoholWarning: Drinking more than 3 different alcohols might not end well with your liver
-// ArmorPenetration: Ignores {0} points of enemy Defense
-// CanMineUelibloom: Can mine Uelibloom Ore
-// NotConsumable: Not consumable
-// SummonTagDamageFlat: "{0} summon tag damage"
-// SummonTagDamageMult: "{0}x summon tag damage"
-// SummonTagCrit: "{0}% summon tag critical strike chance"
-/* DodgeInformation:
+AggroBoost: A chance dos inimigos mirarem em você é maior
+AggroReduction: A chance dos inimigos mirarem em você é menor
+KnockbackImmunity: Oferece imunidade a recuos
+AbyssLightLevel: Reduz a intensidade da escuridão no abismo
+AbyssFlashlight: Aumenta o tamanho da lanterna no abismo
+AbyssGlow: Aumenta o alcance da visibilidade no abismo
+AbyssBreathLevel1: Reduz levemente a perda de fôlego no abismo
+AbyssBreathLevel2: Reduz moderadamente a perda de fôlego no abismo
+AbyssBreathLevel3: Reduz bastante a perda de fôlego no abismo
+AlcoholWarning: Beber mais que 3 bebidas alcoólicas não fará bem para seu fígado
+ArmorPenetration: Ignora {0} pontos de Defesa do inimigo
+CanMineUelibloom: Pode minerar Minério de Ueliflor
+NotConsumable: Não consumível
+SummonTagDamageFlat: "Adiciona {0} marcas de dano para invocações"
+SummonTagDamageMult: "Aumenta as marcas de dano para invocações em {0}x"
+SummonTagCrit: "Concede {0}% de chance de acerto crítico em marcas de dano para invocações"
+DodgeInformation:
 	'''
-	Attacks that deal less than 5% of your max life in damage will not be dodged
-	The dodge has a cooldown that ranges between 20 and 90 seconds depending on the dodged attack's damage
-	This cooldown is shared with all other dodges and reflects
-	''' */
-/* ReflectInformation:
+	Você não se esquivará de ataques que causarem menos de 5% da sua vida máxima
+	A esquiva tem um tempo de recarga que varia entre 20 e 90 segundos com base no dano do ataque esquivado
+	Este tempo de recarga é compartilhado entre todas as outras esquivas e reflexões
 	'''
-	Projectiles that deal less than 5% of your max life in damage will not be reflected
-	The reflect has a cooldown that ranges between 20 and 90 seconds depending on the reflected projectile's damage
-	This cooldown is shared with all other dodges and reflects
-	''' */
-/* GrappleStats:
+ReflectInformation:
 	'''
-	Reach: {0} tiles
-	Launch Velocity: {1}
-	Reelback Velocity: {2}
-	Pull Velocity: {3}
-	''' */
-/* WingStats:
+	Você não se refletirá ataques que causarem menos de 5% da sua vida máxima
+	A reflexão tem um tempo de recarga que varia entre 20 e 90 segundos com base no dano do ataque refletido
+	Este tempo de recarga é compartilhado entre todas as outras esquivas e reflexões
 	'''
-	Flight time: {0} seconds
-	Max horizontal speed: {1} mph
-	Max vertical speed: {2} mph
-	''' */
-/* WingStatsAcceleration:
+GrappleStats:
 	'''
-	Horizontal acceleration: {0} mph/s
-	Vertical acceleration:
+	Alcance: {0} peças
+	Velocidade de disparo: {1}
+	Velocidade de retorno: {2}
+	Velocidade de tração: {3}
+	'''
+WingStats:
+	'''
+	Flight time: {0} segundos
+	Velocidade horizontal máxima: {1} mph
+	Velocidade vertical máxima: {2} mph
+	'''
+WingStatsAcceleration:
+	'''
+	Aceleração horizontal: {0} mph/s
+	Aceleração vertical:
 	{1} mph/s
-	{2} mph/s if ascending slower than {3} mph
-	{4} mph/s if ascending while falling
-	''' */
-/* WingStatsHover:
+	{2} mph/s se estiver ascendendo a menos que {3} mph
+	{4} mph/s se estiver ascendendo enquanto cai
 	'''
-	Max hover speed: {0} mph
-	Hover acceleration: {1} mph/s
-	''' */
-/* YoyoStats:
+WingStatsHover:
 	'''
-	Reach: {0} tiles
-	Speed: {1}
-	Duration: {2} seconds
-	''' */
-/* YoyoStatsInfinite:
+	Velocidade máxima da flutuação: {0} mph
+	Aceleração da flutuação: {1} mph/s
 	'''
-	Reach: {0} tiles
-	Speed: {1}
-	Infinite throw duration
-	''' */
-// CritDamageTootip: "{0}% critical strike damage"
-// DodgeProvided: Grants or improves the ability to dodge attacks
+YoyoStats:
+	'''
+	Alcance: {0} peças
+	Velocidade: {1}
+	Duração: {2} segundos
+	'''
+YoyoStatsInfinite:
+	'''
+	Reach: {0} peças
+	Velocidade: {1}
+	Duração de arremesso infinita
+	'''
+CritDamageTootip: "{0}% de dano em acertos críticos"
+DodgeProvided: Oferece ou melhora a habilidade de se esquivar de ataques

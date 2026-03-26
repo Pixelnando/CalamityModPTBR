@@ -7,7 +7,7 @@ CalamityClientConfig: {
 		MeterPositions: Posições dos Medidores
 		UI: Mudanças na IU
 		MusicEvents: Eventos de Música
-		// MusicToggles: Music Toggles
+		MusicToggles: Alternadores de Música
 	}
 
 	AdrenalineMeterPosX: {
@@ -319,95 +319,95 @@ CalamityClientConfig: {
 	}
 
 	AbyssLayer3Alt: {
-		// Label: "[i:CalamityModMusic/AbyssLayer3AltMusicBox] Abyss Layer 3 Alt"
-		// Tooltip: Plays Calamity Mod OST - "R'lyehian Depths", while in the Thermal Vents layer of the Abyss.
+		Label: "[i:CalamityModMusic/AbyssLayer3AltMusicBox] Terceira camada do abismo (Alternativa)"
+		Tooltip: Toca "Calamity Mod OST - "R'lyehian Depths" na camada das Ventoinhas Termais do abismo.
 	}
 
 	DisableGravityScreenSwap: {
-		// Label: Disable Gravity Screen Flip
-		/* Tooltip:
+		Label: Desativar a rotação da tela no efeito de gravidade
+		Tooltip:
 			'''
-			Disables vanilla's screen-flipping from changing gravity, flipping the player instead.
-			Enable this if the screen-flipping is distracting or induces motion sickness.
-			''' */
+			Desativa a rotação da tela causada pela mudança na gravidade do vanilla, rotacionando o jogador no lugar.
+			Ative isto se a rotação de tela o distrai ou induz cinetose.
+			'''
 	}
 
 	EnableVanillaTextureEdits: {
-		// Label: "[i:Paintbrush] Enable Vanilla Texture Edits"
-		/* Tooltip:
+		Label: "[i:Paintbrush] Ativar edições nas texturas do vanilla"
+		Tooltip:
 			'''
-			Enables slight edits to vanilla boss textures to improve attack telegraphs.
-			Disable this for compatibility with texture packs.
-			''' */
+			Ativa pequenas mudanças nas texturas dos chefes do vanilla para melhorar os telégrafos de ataque.
+			Desative isso para garantir a compatibilidade com pacotes de textura.
+			'''
 	}
 
 	EnergyShieldOpacity: {
-		// Label: "[i:CalamityMod/TheSponge] Energy Shield Opacity"
-		/* Tooltip:
+		Label: "[i:CalamityMod/TheSponge] Opacidade do Escudo de Energia"
+		Tooltip:
 			'''
-			Set the opacity of energy shields rendered over the player.
-			Setting this to 0 disables energy shield visuals entirely.
-			''' */
+			Define a opacidade dos escudos de energia que são renderizados por cima do jogador.
+			Definir isso como 0 desativa os visuais dos escudos de energia.
+			'''
 	}
 
 	FancyBackgroundVisuals: {
-		// Label: "[i:CalamityMod/BlueDistortedMonolith] Toggle Fancy Background Visuals"
-		/* Tooltip:
+		Label: "[i:CalamityMod/BlueDistortedMonolith] Alternar visuais bonitos nos cenários"
+		Tooltip:
 			'''
-			Controls whether or not fancy background visuals will be displayed during certain parts of the game, such as boss fights.
-			When disabled, a simplified version of the main visual will be displayed in certain cases.
-			Recommended to have disabled if you struggle with visibility issues or low performance.
-			''' */
+			Controla a presença de visuais bonitos nos cenários durante certas partes do jogo, como durante batalhas contra chefes.
+			Caso desativado, uma versão simplificada do visual original será exibido em alguns casos.
+			Desative caso haja problemas relacionados a visibilidade ou performance baixa.
+			'''
 	}
 
 	Photosensitivity: {
-		// Label: "[i:DiscoBall] Photosensitivity Mode"
-		/* Tooltip:
+		Label: "[i:DiscoBall] Modo de fotossensibilidade"
+		Tooltip:
 			'''
-			Reduces or disables the brightness and/or flashiness of certain visual effects.
-			Also disables all screenshake effects.
-			Highly recommended if you are photosensitive.
-			''' */
+			Reduz ou desativa o brilho e efeitos piscantes de alguns efeitos visuais.
+			Também desativa efeitos de tremor de tela.
+			Ative caso você seja fotossensível.
+			'''
 	}
 
 	SetBonusDoubleTap: {
-		// Label: "[i:VortexHelmet] Allow Double Tap for Armor Set Bonuses"
-		// Tooltip: Allows all armor set bonuses to be triggered by the vanilla double-tap {$Key.DOWN} hotkey (or {$Key.UP} depending on your settings).
+		Label: "[i:VortexHelmet] Permitir toque duplo para bônus de armadura"
+		Tooltip: Permite que todos os bônus de armadura sejam ativados pelo atalho de toque duplo em {$Key.DOWN} (ou {$Key.UP}, dependendo da configuração) do vanilla.
 	}
 
 	StutterFix: {
-		// Label: "[i:TrifoldMap] Enable Stutter Fix"
-		/* Tooltip:
+		Label: "[i:TrifoldMap] Ativar a correção de engasgos"
+		Tooltip:
 			'''
-			When enabled, upon entering a world, the entire world will be loaded at once.
-			This config causes Terraria to stop responding while the world is being loaded, do NOT close the game while this is occurring.
-			Once the game starts responding again, you will enter the world and be able to play without random stutters.
-			This config option is only recommended for players who can't stand random stutters while playing.
-			''' */
+			Quando ativado, ao entrar em um mundo, ele será carregado completamente de uma só vez.
+			Essa configuração faz com que o Terraria pare de responder enquanto o mundo está sendo carregado. NÃO feche o jogo durante esse processo.
+			Quando o jogo voltar a responder, você entrará no mundo e poderá jogar sem engasgos aleatórios.
+			Essa opção é recomendada apenas para jogadores que não suportam engasgos durante a jogatina.
+			'''
 	}
 
 	SunkenSeaBackgroundDistortion: {
-		// Label: "[i:CalamityMod/SeaRemains] Sunken Sea Background Distortion"
-		/* Tooltip:
+		Label: "[i:CalamityMod/SeaRemains] Distorção no cenário no Mar Profundo"
+		Tooltip:
 			'''
-			Whether or not the Sunken Sea's custom backgrounds should have an additional distortion shader applied to them.
-			This will give the illusion of underwater distortion.
-			[c/FF232C:Note that this will ONLY work if your "Wave Quality" setting is turned off.]
-			''' */
+			Define se os cenários personalizados do Mar Profundo devem ter um sombreador de distorção adicional aplicado.
+			Isso dará a ilusão de uma distorção embaixo d'água.
+			[c/FF232C:Observe que isso SÓ funcionará se a sua configuração de "Qualidade das Ondas" estiver desativada.]
+			'''
 	}
 
 	TextEffects: {
-		// Label: "[i:LeinforsAccessory] Extra Text Effects"
-		/* Tooltip:
+		Label: "[i:LeinforsAccessory] Efeitos adicionais no texto"
+		Tooltip:
 			'''
-			When enabled, certain Calamity rarities will display extra visual effects within item names.
-			Disable if reduced visual clutter is desired.
-			''' */
+			Quando desativado, algumas raridadas do Calamity exibirão efeitos adicionais dentro dos nomes dos itens.
+			Desative se desejar reduzir a sobrecarga visual.
+			'''
 	}
 
 	TileTextureBlendingQuality: {
-		// Label: "[i:GlowPaint] Tile Merge Soft Blending"
-		// Tooltip: Changes the quality of the soft-blending renderer used when different types of tiles merge together.
+		Label: "[i:GlowPaint] Mesclagem suave de peças"
+		Tooltip: Altera a qualidade do renderizador de mistura suave usado na mesclagem de dois tipos diferentes de peça.
 	}
 }
 
@@ -582,81 +582,81 @@ CalamityServerConfig: {
 	}
 
 	FasterRopeClimbSpeed: {
-		// Label: "[i:Rope] Increase Rope Climb Speed"
-		/* Tooltip:
+		Label: "[i:Rope] Aumentar a velocidade de escalada em cordas"
+		Tooltip:
 			'''
-			Increases the player's rope climb speed substantially by increasing acceleration and deceleration while on a rope.
-			Calamity is balanced around this setting being enabled.
-			''' */
+			Aumenta a velocidade de escalada em cordas do jogador, aumentando a aceleração e desaceleração enquanto escala uma corda.
+			O Calamity é balanceado em torno da ativação desta configuração.
+			'''
 	}
 
 	SimplifyAccessoryReforge: {
-		// Label: "[i:Autohammer] Simplify Accessory Reforging"
-		/* Tooltip:
+		Label: "[i:Autohammer] Simplificar a reforja de acessórios"
+		Tooltip:
 			'''
-			Makes accessory reforging simpler by restricting options to the following prefixes:
-			          - Warding, Menacing, Lucky, Quick, Violent, Arcane, Silent, Invigorating, Dauntless
-			''' */
+			Torna a reforja de acessórios mais simples, restringindo as opções aos seguintes modificadores:
+			          - Guardião, Ameaçador, Sortudo, Rápido, Violento, Arcano, Silencioso, Revigorante e Destemido
+			'''
 	}
 }
 
 CooldownDisplayOptions: {
-	// Tooltip: ""
+	Tooltip: ""
 
 	Full: {
-		// Label: Full
-		// Tooltip: Displays a circular bar around an icon which indicates cooldown duration
+		Label: Cheia
+		Tooltip: Exibe uma barra circular em volta de um ícone que indica a duração do tempo de recarga
 	}
 
 	Compact: {
-		// Label: Compact
-		// Tooltip: Displays a gradient over an icon which indicates cooldown duration
+		Label: Compacta
+		Tooltip: Exibe um gradiente sobre um ícone que indica a duração do tempo de recarga
 	}
 
 	Hidden: {
-		// Label: Hidden
-		// Tooltip: ""
+		Label: Escondida
+		Tooltip: ""
 	}
 }
 
 SetBonusDoubleTapOptions: {
-	// Tooltip: ""
+	Tooltip: ""
 
 	On: {
-		// Label: Always On
-		// Tooltip: Always enables double-tap. Can be used in conjunction with Calamity's {$Keybinds.ArmorSetBonus.DisplayName} hotkey.
+		Label: Sempre ativado
+		Tooltip: Sempre ative o toque duplo. Pode ser usado em conjunto com a tecla de atalho "{$Keybinds.ArmorSetBonus.DisplayName}" do Calamity.
 	}
 
 	Auto: {
-		// Label: Auto
-		// Tooltip: Automatically turns off double-tap as long as Calamity's {$Keybinds.ArmorSetBonus.DisplayName} hotkey is bound.
+		Label: Automático
+		Tooltip: Desativa automaticamente o toque duplo caso a tecla de atalho "{$Keybinds.ArmorSetBonus.DisplayName}" do Calamity estiver definida.
 	}
 
 	Off: {
-		// Label: Always Off
-		// Tooltip: Always disables double-tap. Can be used to completely disable set bonus activation.
+		Label: Sempre desativado
+		Tooltip: Sempre desativa o toque duplo. Pode ser usado para desativar completamente a ativação do bônus de armadura.
 	}
 }
 
 TileBlendingQuality: {
-	// Tooltip: ""
+	Tooltip: ""
 
 	Disable: {
-		// Label: Disabled
-		// Tooltip: Tile texture soft blending is disabled.
+		Label: Desativada
+		Tooltip: A mistura leve entre as texturas de peças é desativada.
 	}
 
 	Normal: {
-		// Label: Enabled
-		// Tooltip: Tile texture soft blending is enabled.
+		Label: Ativada
+		Tooltip: A mistura leve entre as texturas de peças é ativada.
 	}
 
 	High: {
-		// Label: Enabled + Slices
-		/* Tooltip:
+		Label: Ativada + Fatias
+		Tooltip:
 			'''
-			Tile texture soft blending is enabled and uses sliced rendering.
-			[c/F05A5A:Not recommended for low-end devices.]
-			''' */
+			A mistura leve entre as texturas de peças é ativada e usa uma renderização em fatias.
+			[c/F05A5A:Não recomendado para dispositivos de baixo desempenho.]
+			'''
 	}
 }

@@ -121,73 +121,73 @@ Withered: {
 AstralInfectionDebuff: {
 	DisplayName: Infecção Astral
 	Description: Sua carne está derretendo
-	// ItemTooltip: Sickness - 37.5 DPS
+	ItemTooltip: Doença - 37,5 DPS
 }
 
 BanishingFire: {
 	DisplayName: Fogo Banidor
 	Description: Não serás perdoado por teus pecados
-	// ItemTooltip: Heat - Deals DPS equal to 0.1% of max HP or 2000, whichever is greater
+	ItemTooltip: Calor - Causa DPS igual ao maior entre 0.1% da sua vida máxima ou 2000
 }
 
 BrimstoneFlames: {
 	DisplayName: Chamas de Enxofre
 	Description: Incinerando tanto o corpo quanto a mente
-	// ItemTooltip: Heat - 30 DPS
+	ItemTooltip: Calor- 30 DPS
 }
 
 BurningBlood: {
 	DisplayName: Sangue Ardente
 	Description: Seu sangue está em chamas
-	// ItemTooltip: Sickness - 20 DPS
+	ItemTooltip: Doença - 20 DPS
 }
 
 BrainRot: {
 	DisplayName: Apodrecimento Cerebral
 	Description: Seus neurônios estão estourando como grãos de milho
-	// ItemTooltip: Sickness - 20 DPS
+	ItemTooltip: Doença - 20 DPS
 }
 
 ElementalMix: {
 	DisplayName: Mistura Elemental
 	Description: Uma bela sinfonia elemental está te esfolando vivo
-	// ItemTooltip: Typeless - 200 DPS
+	ItemTooltip: Sem tipo - 200 DPS
 }
 
 CrushDepth: {
 	DisplayName: Pressão das Profundezas
 	Description: Esmagado pela pressão aquática
-	// ItemTooltip: Water - 50 DPS
+	ItemTooltip: Água - 50 DPS
 }
 
 RiptideDebuff: {
 	DisplayName: Correnteza
 	Description: Atacado pelas águas poderosas
-	// ItemTooltip: Water - 15 DPS
+	ItemTooltip: Água - 15 DPS
 }
 
 Dragonfire: {
 	DisplayName: Fogo do Dragão
 	Description: Envolvido por chamas rugidoras
-	// ItemTooltip: Heat - 480 DPS
+	ItemTooltip: Calor - 480 DPS
 }
 
 GodSlayerInferno: {
 	DisplayName: Inferno Caça-Deuses
 	Description: Sua carne está queimando
-	// ItemTooltip: Heat - 250 DPS
+	ItemTooltip: Calor - 250 DPS
 }
 
 HeavyBleeding: {
 	DisplayName: Sangramento Pesado
 	Description: Vai precisar de pontos
-	// ItemTooltip: Typeless - 40 DPS
+	ItemTooltip: Sem tipo - 40 DPS
 }
 
 HolyFlames: {
 	DisplayName: Chamas Sagradas
 	Description: Dissolvendo-se na luz divina
-	// ItemTooltip: Heat - 150 DPS
+	ItemTooltip: Calor - 150 DPS
 }
 
 HolyInferno: {
@@ -198,52 +198,52 @@ HolyInferno: {
 Laceration: {
 	DisplayName: Dilaceração
 	Description: Você está todo ensanguentado
-	// ItemTooltip: Typeless - 200 DPS
+	ItemTooltip: Sem tipo - 200 DPS
 }
 
 ManaBurn: {
 	DisplayName: Queimadura por Mana
 	Description: O excesso de mana abrasa seu corpo e mente
-	/* ItemTooltip:
+	ItemTooltip:
 		'''
-		Typeless
-		Every 100 negative mana reduces your life regen by 4 HP/s, but burns enemies for 3% of dealt damage
-		''' */
+		Sem tipo
+		Cada 100 de mana negativa reduz sua regeneração de vida em 4 de vida/s, mas queima os inimigos por 3% do dano causado
+		'''
 }
 
 MiracleBlight: {
 	DisplayName: Praga Milagrosa
 	Description: Ressonâncias exóticas rasgam sua forma corpórea
-	// ItemTooltip: Typeless - 1500 DPS
+	ItemTooltip: Sem tipo - 1500 DPS
 }
 
 Nightwither: {
 	DisplayName: Definhação Noctívora
 	Description: Incinerado por raios lunares
-	// ItemTooltip: Cold - 100 DPS
+	ItemTooltip: Frio - 100 DPS
 }
 
 Plague: {
 	DisplayName: Praga
 	Description: Apodrecendo por dentro
-	// ItemTooltip: Sickness - 50 DPS
+	ItemTooltip: Doença - 50 DPS
 }
 
 SagePoison: {
 	DisplayName: Veneno do Sábio
 	Description: Envenenado
-	// ItemTooltip: Sickness - DPS scales with summoned Viral Sprout amount
+	ItemTooltip: Doença - DPS escala com a quantidade de Brotos Virais invocados
 }
 
 SearingLava: {
 	DisplayName: Lava Abrasadora
 	Description: A lava de enxofre abrasa sua carne
-	/* ItemTooltip:
+	ItemTooltip:
 		'''
-		Heat - 20 DPS
-		Ignores enemy heat weaknesses and resistances
-		Gains double effect from Heat debuff amplifiers
-		''' */
+		Calor - 20 DPS
+		Ignora as fraquezas e resistências do inimigo ao calor
+		Recebe o dobro do efeito de amplificadores de efeitos negativos de calor
+		'''
 }
 
 ShellfishClaps: {
@@ -254,7 +254,7 @@ ShellfishClaps: {
 Shred: {
 	DisplayName: Rasgar
 	Description: Alguém construiu dez adagas Tri-Tip...
-	// ItemTooltip: ""
+	ItemTooltip: ""
 }
 
 SnapClamDebuff: {
@@ -265,27 +265,27 @@ SnapClamDebuff: {
 SulphuricPoisoning: {
 	DisplayName: Envenenamento Sulfúrico
 	Description: A água acídica queima sua pele
-	// ItemTooltip: Sickness - 120 DPS
+	ItemTooltip: Doença - 120 DPS
 }
 
 Vaporfied: {
 	DisplayName: Vaporificado
 	Description: Vape
-	/* ItemTooltip:
+	ItemTooltip:
 		'''
-		Typeless - 15 DPS
-		Slows enemies
-		''' */
+		Sem tipo- 15 DPS
+		Desacelera os inimigos
+		'''
 }
 
 VulnerabilityHex: {
 	DisplayName: Feitiço de Vulnerabilidade
 	Description: Sua força mental está sumindo
-	/* ItemTooltip:
+	ItemTooltip:
 		'''
-		Heat - 1332 DPS
-		Slows enemies
-		''' */
+		Calor - 1332 DPS
+		Desacelera os inimigos
+		'''
 }
 
 WeakBrimstoneFlames: {
@@ -756,7 +756,7 @@ CoralSymbiosis: {
 CosmicFreeze: {
 	DisplayName: Congelamento Cósmico
 	Description: Você se sente tão frio quanto a extensão vazia do espaço sideral
-	// ItemTooltip: Increases regeneration, especially when standing still, and freezes nearby enemies
+	ItemTooltip: Aumenta a regeneração, especialmente enquanto parado, e congela inimigos próximos
 }
 
 DivineBless: {
@@ -812,7 +812,7 @@ IceShieldBuff: {
 Mushy: {
 	DisplayName: Molenga
 	Description: Defesa aumentada em 6 e regeneração de vida em 1 de vida por segundo
-	// ItemTooltip: Increases defense and life regeneration
+	ItemTooltip: Aumenta a defesa e a regeneração de vida
 }
 
 PhantomicEmpowerment: {
@@ -874,7 +874,7 @@ RageMode: {
 ReaverRage: {
 	DisplayName: Furia do Ladrão
 	Description: Você está furioso
-	// ItemTooltip: Increased defense and damage
+	ItemTooltip: Aumenta a defesa e o dan
 }
 
 SilvaRevival: {
@@ -910,7 +910,7 @@ TarragonImmunity: {
 TarraLifeRegen: {
 	DisplayName: Estra-Vida
 	Description: Cura rápida
-	// ItemTooltip: ""
+	ItemTooltip: ""
 }
 
 AndromedaCripple: {
@@ -921,13 +921,13 @@ AndromedaCripple: {
 ArmorCrunch: {
 	DisplayName: Trituração de Armadura
 	Description: Sua armadura foi despedaçada
-	// ItemTooltip: Damage Reduction is 15% less effective
+	ItemTooltip: A redução dos danos é 15% menos efetiva
 }
 
 Crumbling: {
 	DisplayName: Desmoronando
 	Description: Sua armadura foi danificada
-	// ItemTooltip: Damage Reduction is 8% less effective
+	ItemTooltip: A redução dos danos é 8% menos efetiva
 }
 
 Clamity: {
@@ -952,7 +952,7 @@ Enraged: {
 Eutrophication: {
 	DisplayName: Eutrofização
 	Description: Nutrientes excessivos restringem seu movimento
-	// ItemTooltip: Slows enemies
+	ItemTooltip: Desacelera os inimigos
 }
 
 ExoFreeze: {
@@ -973,13 +973,13 @@ FrozenLungs: {
 GalvanicCorrosion: {
 	DisplayName: Corrosão Galvânica
 	Description: Seus membros começaram a corroer
-	// ItemTooltip: Slows enemies
+	ItemTooltip: Desacelera os inimigos
 }
 
 GlacialState: {
 	DisplayName: Estado Glacial
 	Description: Não é possível se mexer
-	// ItemTooltip: Freezes enemies
+	ItemTooltip: Congela os inimigos
 }
 
 IcarusFolly: {
@@ -994,17 +994,17 @@ IcarusFolly: {
 Irradiated: {
 	DisplayName: Irradiado
 	Description: Sua pele está queimando
-	/* ItemTooltip:
+	ItemTooltip:
 		'''
-		Typeless - 10 DPS
-		Increases damage taken from Sickness debuffs
-		''' */
+		Sem tipo - 10 DPS
+		Aumenta o dano sofrido por efeitos negativos de tipo Doença
+		'''
 }
 
 MarkedforDeath: {
 	DisplayName: Marcado para a Morte
 	Description: Redução dos danos reduzida
-	// ItemTooltip: Damage reduction is 50% less effective
+	ItemTooltip: Redução dos danos é 50% menos efetiva
 }
 
 PearlAura: {
@@ -1020,13 +1020,13 @@ ProfanedWeakness: {
 TemporalSadness: {
 	DisplayName: Tristeza Temporal
 	Description: Você está chorando
-	// ItemTooltip: Freezes enemies
+	ItemTooltip: Congela os inimigos
 }
 
 TimeDistortion: {
 	DisplayName: Distorção do Tempo
 	Description: O tempo foi desacelerado
-	// ItemTooltip: Slows enemies
+	ItemTooltip: Desacelera os inimigos
 }
 
 Warped: {
@@ -1042,7 +1042,7 @@ WeakPetrification: {
 WhisperingDeath: {
 	DisplayName: Morte Sussurante
 	Description: A morte se aproxima; poder de ataque e regeneração de vida reduzidos
-	// ItemTooltip: Reduced contact damage
+	ItemTooltip: Dano de contato reduzido
 }
 
 WitherDebuff: {
@@ -1557,13 +1557,13 @@ AbsorberRegen: {
 		Você é abençoado pela culminação dos poderes da natureza
 		Regeneração de vida aumentada em 3 de vida por segundo, dano aumentado em 8%, redução dos danos aumentada em 5%
 		'''
-	// ItemTooltip: Increases life regeneration, damage, and damage reduction
+	ItemTooltip: Aumenta a regeneração de vida, dano e redução dos danos
 }
 
 AbsorberAffliction: {
 	DisplayName: Aflição do Absorvedor
 	Description: O poder da mãe natureza é assustador
-	// ItemTooltip: Sickness - 200 DPS
+	ItemTooltip: Doença - 200 DPS
 }
 
 YoungDukeBuff: {
@@ -1577,173 +1577,173 @@ LiliesOfFinalityBuff: {
 }
 
 ManhattanBuff: {
-	// DisplayName: Manhattan
-	// Description: Cold debuff damage increased, water debuff damage reduced
+	DisplayName: Manhattan
+	Description: Dano de efeitos negativos de tipo frio aumentado, dano de efeitos negativos de tipo água reduzido
 }
 
 AuricRebuke: {
-	// DisplayName: Auric Rebuke
-	// Description: Your cells are violently bouncing off each other
-	// ItemTooltip: Electric - 100 DPS. Deals 4x damage against moving targets
+	DisplayName: Repreensão Áurica
+	Description: Suas células estão violentamente esbarrando-se uma na outra
+	ItemTooltip: Elétrico - 100 DPS. Causa 4x mais dano em alvos em movimento
 }
 
 DemonicFlames: {
-	// DisplayName: Demonic Flames
-	// Description: Immolating flames sear your soul
-	// ItemTooltip: Heat - DPS depends on inflicting item
+	DisplayName: Chamas Demoníacas
+	Description: Chamas imolantes abrasam sua alma
+	ItemTooltip: Calor - DPS depende no item que as infligem
 }
 
 StaticDischarge: {
-	// DisplayName: Static Discharge
-	// Description: Shocked by static electricity
-	// ItemTooltip: Electric - 2.5 DPS. 4x damage to moving targets
+	DisplayName: Descarga Estática
+	Description: Eletrificado com energia estática
+	ItemTooltip: Elétrico - 2,5 DPS. Causa 4x mais dano em alvos em movimento
 }
 
 TrueVulnerabilityHex: {
-	// DisplayName: True Vulnerability Hex
-	// Description: The end has come
-	/* ItemTooltip:
+	DisplayName: Verdadeiro Feitiço de Vulnerabilidade
+	Description: O fim chegou
+	ItemTooltip:
 		'''
-		Heat - 1998 DPS
-		Increases damage taken from all sources
-		Slows enemies
-		''' */
+		Calor - 1998 DPS
+		Aumenta o dano sofrido de todas as fontes
+		Desacelera os inimigos
+		'''
 }
 
 VermillionFlux: {
-	// DisplayName: Vermillion Flux
-	// Description: Sharp arcs of scarlet course through you
-	// ItemTooltip: Electric - 50 DPS. Deals 4x damage against moving targets
+	DisplayName: Fluxo Vermelho
+	Description: Arcos afiados escarlates percorrem o seu corpo
+	ItemTooltip: Elétrico - 50 DPS. Deals 4x damage against moving targets
 }
 
 Voidfrost: {
-	// DisplayName: Voidfrost
-	// Description: The emptiness of space devours all warmth and life
-	// ItemTooltip: Cold - 200 DPS
+	DisplayName: Gelo do Vazio
+	Description: O vazio do espaço devora todo o calor e vida
+	ItemTooltip: Frio - 200 DPS
 }
 
 ExoTankBuff: {
-	// DisplayName: Rainbow Road Roller
-	// Description: Your foes shall fall within your calculations
+	DisplayName: Rolo Compressor Arco-Íris
+	Description: Seus oponentes cairão conforme suas previsões
 }
 
 FrostyBatBuff: {
-	// DisplayName: Frosty Bat Friend
-	// Description: A frosty bat flits about
+	DisplayName: Morcego Gelado Companheiro
+	Description: Um morceguinho gelado voa por aí
 }
 
 ToastyBatBuff: {
-	// DisplayName: Toasty Bat Friend
-	// Description: A fiery bat flutters at your shoulder
+	DisplayName: Morcego Tostadinho Companheiro
+	Description: Um morcego flamejante esvoaça ao lado do seu ombro
 }
 
 AeolianEarthBuff: {
-	// DisplayName: Aeolian Earth
-	/* Description:
+	DisplayName: Terra Eólica
+	Description:
 		'''
-		You are strengthened by primordial powers
-		Damage reduction increased by {0}%, damage increased by {1}%, and massively buffed mana regen
-		''' */
+		Você está fortalecido por poderes primordiais
+		Redução dos danos aumentada em {0}%, dano aumentado em {1}% e regeneração de mana aumentada bastante
+		'''
 }
 
 SandsWindBuff: {
-	// DisplayName: Sand's Wind
-	/* Description:
+	DisplayName: Vento de Areia
+	Description:
 		'''
-		You are strengthened by the powers of sand
-		Defense increased by {0}, damage increased by {1}%, and greatly buffed mana regen 
-		''' */
+		Você está fortalecido pelos poderes da areia
+		Defesa aumentada em {0}, dano aumentado em {1}% e regeneração de mana aumentada bastante
+		'''
 }
 
 HadopelagicPressure: {
-	// DisplayName: Hadopelagic Pressure
-	// Description: Rapidly sinking to a watery grave
-	// ItemTooltip: Water - 200 DPS
+	DisplayName: Pressão Hadopelágica
+	Description: Rapidamente afundando à uma cova submersa
+	ItemTooltip: Água - 200 DPS
 }
 
 AmphibiansGuitarBuff: {
-	// DisplayName: Amphibian's Guitars
-	// Description: Worthless human...
+	DisplayName: Violão do Anfíbio
+	Description: Humano inútil...
 }
 
 AqueousHunterDroneBuff: {
-	// DisplayName: Aqueous Hunter Drone Buff
-	// Description: Unfortunately incapable of producing fried rice
+	DisplayName: Efeito do Drone de Caça Aquoso
+	Description: Infelizmente, não consegue produzir arroz frito
 }
 
 BrimstoneElemental: {
-	// DisplayName: Brimstone Elemental
-	// Description: The Brimstone Elemental will protect you
+	DisplayName: Elemental de Enxofre
+	Description: A Elemental de Enxofre protegerá você
 }
 
 BurrowerBuff: {
-	// DisplayName: Burrower
-	// Description: A friendly burrower answered your call
+	DisplayName: Escavadorzinho
+	Description: Um escavadorzinho amigável respondeu ao seu chamado
 }
 
 CloudElemental: {
-	// DisplayName: Cloud Elemental
-	// Description: The Cloud Elemental will protect you
+	DisplayName: Elemental da Nuvem
+	Description: O Elemental da Nuvem protegerá você
 }
 
 EnchantedKnifeStaffBuff: {
-	// DisplayName: Enchanted Knife
-	// Description: Junk knives not included
+	DisplayName: Faca Encantada
+	Description: Apenas facas de boa qualidade
 }
 
 LegionofCelestiaBuff: {
-	// DisplayName: Celestial Axe
-	// Description: If only it was this good at chopping trees...
+	DisplayName: Machado Celestial
+	Description: Do que serve este machado se não corta bem as árvores?
 }
 
 VoidEaterMarionetteBuff: {
-	// DisplayName: Void Eater Marionette
-	// Description: The power to control the Devourer is yours
+	DisplayName: Marionete do Devorador do Vazio
+	Description: O poder de controlar o Devorador é seu
 }
 
 RareSandElemental: {
-	// DisplayName: Rare Sand Elemental
-	// Description: The Sand Elemental will heal you
+	DisplayName: Elemental de Areia Rara
+	Description: A Elemental de Areia protegerá você
 }
 
 SandElemental: {
-	// DisplayName: Sand Elemental
-	// Description: The Sand Elemental will protect you
+	DisplayName: Elemental de Areia
+	Description: O Elemental de Areia protegerá você
 }
 
 WaterElemental: {
-	// DisplayName: Anahita
-	// Description: Anahita will protect you
+	DisplayName: Anahita
+	Description: Anahita protegerá você
 }
 
 // Misc
 
 HyperiusCollapse: {
-	// DisplayName: Hyperius Collapse
-	// Description: You should never see this...
+	DisplayName: Colapso Hipério
+	Description: Você não deveria ser capaz de ver isso...
 }
 
 Daybroken: {
-	// DisplayName: Daybroken
-	// ItemTooltip: Heat - 100 DPS
+	DisplayName: Queimado pelo Sol
+	ItemTooltip: Calor - 100 DPS
 }
 
 Shadowflame: {
-	// DisplayName: Shadowflame
-	// ItemTooltip: Heat - 30 DPS
+	DisplayName: Shadowflame
+	ItemTooltip: Calor - 30 DPS
 }
 
 ForbiddenStealthSummonTagBuff: {
-	// DisplayName: Forbidden Stealth Summon Tag Buff
-	// Description: If you're seeing this, something went horribly wrong
+	DisplayName: Efeito de Marcação da Invocação da Furtividade Proibida
+	Description: Se você está lendo isso, algo deu muito errado
 }
 
 SeaKingsAssurance: {
-	// DisplayName: Sea King's Assurance
-	// Description: If you're seeing this, something assuredly went horribly wrong
+	DisplayName: Garantia do Rei dos Mares
+	Description: Se você está lendo isso, algo deu muito errado
 }
 
 CnidarianSummonTagBuff: {
-	// DisplayName: Cnidarian Summon Tag Buff
-	// Description: you are not seeing this
+	DisplayName: Cnidarian Summon Tag Buff
+	Description: você não tá lendo isso
 }

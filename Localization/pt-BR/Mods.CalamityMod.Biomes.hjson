@@ -82,36 +82,36 @@ AstralCaveDesert: {
 }
 
 FloralParadiseBiome: {
-	// DisplayName: Floral Paradise
-	// TownNPCDialogueName: the Floral Paradise
+	DisplayName: Paraíso Floral
+	TownNPCDialogueName: o Paraíso Floral
 }
 
 BasaltGullyBiome: {
-	// DisplayName: Basalt Gully
-	// TownNPCDialogueName: the Basalt Gully
+	DisplayName: Barranco de Basalto
+	TownNPCDialogueName: o Barranco de Basalto
 }
 
 GleamingBurrowsBiome: {
-	// DisplayName: Gleaming Burrows
-	// TownNPCDialogueName: the Gleaming Burrows
+	DisplayName: Tocas Cintilantes
+	TownNPCDialogueName: as Tocas Cintilantes
 }
 
 PolypForestBiome: {
-	// DisplayName: Polyp Forest
-	// TownNPCDialogueName: the Polyp Forest
+	DisplayName: Floresta dos Pólipos
+	TownNPCDialogueName: a Floresta dos Pólipos
 }
 
 RadiantReefsBiome: {
-	// DisplayName: Radiant Reefs
-	// TownNPCDialogueName: the Radiant Reefs
+	DisplayName: Recifes Radiantes
+	TownNPCDialogueName: os Recifes Radiantes
 }
 
 TimelessShoresBiome: {
-	// DisplayName: Timeless Shores
-	// TownNPCDialogueName: the Timeless Shores
+	DisplayName: Costas Atemporais
+	TownNPCDialogueName: as Costas Atemporais
 }
 
 ClamDenBiome: {
-	// DisplayName: Clam Den
-	// TownNPCDialogueName: the Clam Den
+	DisplayName: Covil das Amêijoas
+	TownNPCDialogueName: o Covil das Amêijoas
 }

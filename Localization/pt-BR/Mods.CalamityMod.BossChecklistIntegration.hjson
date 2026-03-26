@@ -20,7 +20,7 @@ AquaticScourge: {
 }
 
 AstrumAureus: {
-	SpawnInfo: Use um [i:CalamityMod/AstralChunk] de noite na Infecção Astral.
+	SpawnInfo: Use um [i:CalamityMod/AstralChunk] na Infecção Astral.
 	DespawnMessage: "[c/FFD700:Aureus neutralizou todas as ameaças. Retomar o reconhecimento prévio.]"
 }
 
@@ -47,7 +47,7 @@ Calamitas: {
 }
 
 CalamitasClone: {
-	SpawnInfo: Use um [i:CalamityMod/EyeofDesolation] de noite.
+	SpawnInfo: Use um [i:CalamityMod/EyeofDesolation].
 	DespawnMessage: "[c/FFA500:O clone cospe um pouco de sangue de desgosto e desaparece.]"
 }
 
@@ -58,7 +58,7 @@ CeaselessVoid: {
 }
 
 Crabulon: {
-	SpawnInfo: Use um [i:CalamityMod/DecapoditaSprout] em um bioma de Cogumelos Brilhantes.
+	SpawnInfo: Use um [i:CalamityMod/DecapoditaSprout] em um bioma de Cogumelos Brilhantes subterrâneo.
 	DespawnMessage: "[c/6495ED:O monstruoso caranguejo micelial se afasta...]"
 }
 
@@ -116,7 +116,7 @@ HiveMind: {
 
 Leviathan: {
 	EntryName: Anahita e a Leviatã
-	SpawnInfo: Derrote uma cantora elusiva no oceano...
+	SpawnInfo: Derrote uma cantora elusiva no oceano ou use uma [i:CalamityMod/NaiadsWarhorn] no oceano.
 	DespawnMessage: "[c/7FFFD4:Os párias aquáticos retornam à sua companhia solitária.]"
 }
 

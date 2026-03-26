@@ -118,18 +118,19 @@ SuperPogoAttunement: {
 		Solte para lançar as lâminas carregadas para frente como uma roda
 		Atacar imediatamente após arremessar a lâmina te lança na direção dela, rasgando os inimigos e curando você
 		'''
-	PassiveDesc: Golpear inimigos pode raramente te curar
+	PassiveDesc: Energia vital pode raramente surgir de golpes infligidos
 }
 
 ShockwaveAttunement: {
 	Name: Marés Terrestres
 	Function:
 		'''
-		Segure <left> para carregar uma investida que perfura os céus, solte para liberar o golpe devastador
-		Ondas de choque são emitidas enquanto a espada está sendo carregada
-		Golpear a terra com a investida causará uma onda de choque gigante no impacto que levanta uma enchente de monólitos
+		Carregue uma investida avassaladora, solte para liberar um golpe devastador
+		Feixes de espada teleguiados são emitidos conforme o golpe é carregado
+		Golpear um inimigo com a investida cria uma onda de choque e marca-o com um sigilo de esmagamento de armadura que atrai teleguiadamente os feixes de espada
+		Golpear a terra com a investida fará com que diversas explosões de poeira irrompam em sua volta
 		'''
-	PassiveDesc: Periodicamente emite ondas de choque enquanto ataca
+	PassiveDesc: Emite ondas de choque enormes periodicamente enquanto ataca
 }
 
 // Galaxia
@@ -137,9 +138,15 @@ PhoenixAttunement: {
 	Name: Orgulho da Fênix
 	Function:
 		'''
-		<left> para balançar Galaxia ao seu redor, acelerando com o tempo
+		Balance a espada ao seu redor, acelerando com o tempo
 		A nébula rodopiante constantemente emite raios cósmicos teleguiados
 		Solte para arremessar Galaxia na direção do cursor junto de uma rajada de 6 raios cósmicos gigantescos
+		'''
+	PassiveName: Bênção do Capricórnio
+	PassiveDesc:
+		'''
+		Periodicamente libera um anel de estrelas enfraquecedoras ao redor do seu cursor conforme você ataca
+		O anel começa distanciando-se de você, e então desacelera com o tempo
 		'''
 }
 
@@ -147,20 +154,25 @@ AriesAttunement: {
 	Name: Ira de Áries
 	Function:
 		'''
-		Arremesse Galaxia para o seu cursor, segurando-a no lugar com constelações
-		Galaxia segue o seu cursor, rapidamente girando para destruir os inimigos
+		Vincula a espada ao seu cursor por meio de uma corrente de constelações
 		Golpear inimigos causa explosões nebulosas que invocam raios cósmicos teleguiados
 		'''
+	PassiveName: Bênção do Capricórnio
+	PassiveDesc:
+		'''
+		Periodicamente libera um anel de estrelas enfraquecedoras ao redor do seu cursor conforme você ataca
+		O anel começa distanciando-se de você, e então desacelera com o tempo
+		'''	
 }
 
 PolarisAttunement: {
 	Name: Olhar Polar
 	Function:
 		'''
-		Segure <left> para canalizar o poder da Galáxia em um vórtice apertado de energias galácticas
+		Canalize o poder da Galáxia em um vórtice de energias celestiais
 		O vórtice aumenta ao longo do tempo e ao atingir os inimigos
-		Solte para disparar a estrela carregada em uma linha reta
-		Aperte <left> novamente imediatamente para investir-se à estrela e emitir raios cósmicos
+		Solte para disparar uma estrela poderosa diretamente ao cursor que bombardeia inimigos próximos com raios
+		Atacar logo após lançar a estrela lança-o na direção dela, causando dano nos inimigos
 		'''
 }
 
@@ -168,8 +180,8 @@ AndromedaAttunement: {
 	Name: Passo de Andrômeda
 	Function:
 		'''
-		Segure <left> para carregar uma investida destruidora de deuses, solte para liberar o golpe devastador
-		Galaxia emite raios cósmicos enquanto carrega
-		Atingir o chão causará uma onda de choque que invoca uma tempestade de energias cósmicas
+		Carregue uma investida espacial, solte para liberar um ataque galáctico
+		A espada libera raios teleguiados periodicamente enquanto o ataque é carregado
+		Investir nos inimigos faz chover estrelas teleguiadas enormes dos céus
 		'''
 }
