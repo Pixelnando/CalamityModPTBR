@@ -1,11 +1,49 @@
-FrequencyManipulator: {
-	DisplayName: Manipulador de Frequências
+AerialTracker: {
+	DisplayName: P-LSR: Rastreador Aéreo
 	Tooltip:
 		'''
-		Balança uma lança e a arremessa
-		Na colisão, a lança libera uma rajada de energia teleguiada
-		Ataques furtivos liberam mais energia e explodem na colisão
-		[c/1FFBFF:'Um longo dispositivo originalmente usado para afinação mecânica.']
+		Lança um disco voador que dispara lasers contra inimigos próximos
+		Os lasers não causam dano direto aos inimigos, mas aplicam um efeito cumulativo de queimadura a laser
+		Após ser atingido por lasers suficientes ou após um tempo suficiente, a queimadura a laser causará dano direto
+		O disco ganha aceleração conforme retorna ao jogador
+		Golpes furtivos lançam dois discos que podem disparar contra vários alvos diferentes a uma distância maior
+		'''
+}
+
+AqueousHunterDrone: {
+	DisplayName: P-PMA: Drone de Caça Aquoso
+	Tooltip:
+		'''
+		Invoca um drone em formato de camarão que dispara rajadas de mísseis de plasma teleguiados
+		<right> enquanto segura uma arma de invocação para comandar o camarão a lançar uma barragem vertical de mísseis 
+		Mísseis verticais são lançados em direção ao cursor e deixam uma explosão prolongada se atingirem o solo 
+		Cada camarão usa 4 espaços de lacaio
+		{$Common.ArmorPenetration}
+		[c/1FFBFF:'Ao caçar os seguidores dos deuses, Yharim acreditava que não se devia deixar nada por investigar.]
+		[c/1FFBFF:Armamentos para emergências subaquáticas receberam atenção excepcional, mas nunca foram utilizados em operações.']
+		'''
+}
+
+Auger: {
+	DisplayName: P-GSS: Auger
+	Tooltip:
+		'''
+		Um dispositivo de pulso que emite uma lâmina de energia magnética
+		<right> para criar uma breve atração magnética no cursor e amplificar o próximo golpe
+		[c/1FFBFF:'Inicialmente fabricada para serrar e separar pedaços de matéria-prima para transporte.]
+		[c/1FFBFF:Poder manter ambas as mãos livres sem comprometer a potência tornou-a excepcionalmente ergonômica.']
+		'''
+}
+
+CountermeasureMitt: {
+	DisplayName: B-LSR: Luva de Contramedidas
+	Tooltip:
+		'''
+		Uma luva de soldagem de precisão com emissores de laser em cada ponta dos dedos
+		<right> para concentrar todos os emissores em um disparo de palma de curto alcance que sempre causa um acerto crítico
+		Os disparos de palma têm um tempo de recarga que é significativamente menor se errarem o alvo
+		[c/1FFBFF:'A maioria dos batalhões prefere ou dispersar os ataques por uma área ampla ou concentrá-los em um único alvo.]
+		[c/1FFBFF:Essa luva atende às necessidades de ambos, embora nunca consiga eliminar completamente a diferença entre as suas estratégias.']
 		'''
 }
 
@@ -20,46 +58,16 @@ GalvanizingGlaive: {
 		'''
 }
 
-GatlingLaser: {
-	DisplayName: Metralhadora de Plasma
+HolofibreImmolator: {
+	DisplayName: R-PMA: Imolador de Holofibras
 	Tooltip:
 		'''
-		Dispara uma barragem rápida de lasers acelerados para aniquilar os inimigos
-		[c/1FFBFF:'Desenvolvida para ser usada principalmente pela frota e força de defesa da base de Yharim.']
-		'''
-}
-
-GaussDagger: {
-	DisplayName: Adaga de Gauss
-	Tooltip:
-		'''
-		Corta os inimigos com força magnética turbulenta
-		Ataques repetidos envolvem os inimigos em um fluxo magnético que causam danos
-		'''
-}
-
-GaussPistol: {
-	DisplayName: Pistola de Gauss
-	Tooltip:
-		'''
-		Dispara um raio devastador de alta velocidade com recuo extremamente forte
-		[c/1FFBFF:'Embora esta pistola arcana possa parecer mundana, ela é enganosamente poderosa.]
-		[c/1FFBFF:Uma das várias vantagens das armas de fogo mágicas é que tamanho não é documento.']
-		'''
-}
-
-GaussRifle: {
-	DisplayName: Rifle de Gauss
-	Tooltip: Dispara uma raio devastador de alta velocidade com recuo absurdo
-}
-
-HeavyLaserRifle: {
-	DisplayName: Rifle à Laser Pesado
-	Tooltip:
-		'''
-		Dispara um par incrivelmente preciso de feixes laser destrutivos
-		[c/1FFBFF:'Embora a maioria dos Cavaleiros Caça-Deuses sejam brutais, nem todos preferem o combate físico.]
-		[c/1FFBFF:Como tal, Yharim solicitou pessoalmente que eu criasse armamento pesado para eles, apesar de serem poucos.']
+		Dispara três gotas de plasma afetadas pela gravidade que se dissolvem os inimigos
+		Segurar <left> carrega rapidamente o arco, disparando uma flecha de plasma em alta velocidade
+		As flechas de plasma detonarão no impacto, criando explosões mais fortes se forem fincadas em peças
+		Segurar <right> disparará repetidamente flechas sem carga
+		[c/1FFBFF:'Nada se compara à elegância da holofibra.]
+		[c/1FFBFF:No entanto, a tensão mecânica poderia ter produzido resultados mais consistentes. ']
 		'''
 }
 
@@ -68,17 +76,9 @@ HydraulicVoltCrasher: {
 	Tooltip:
 		'''
 		Uma britadeira eletricamente carregada que choca todos os inimigos próximos ao atingí-los
+		<right> para usar sem martelar as paredes
 		[c/1FFBFF:'Um dispositivo feito para estampar eletricamente placas de metal, fundindo-as instantaneamente.]
 		[c/1FFBFF:Naturalmente, também pode funcionar como uma arma devastadora.']
-		'''
-}
-
-MatterModulator: {
-	DisplayName: Modulador de Matéria
-	Tooltip:
-		'''
-		Dispara um raio de matéria instável que perfura infinitamente mas causa pouco dano
-		Depois de atingir uma peça, a matéria terá seu dano aumentado e não perfurará mais
 		'''
 }
 
@@ -87,14 +87,39 @@ MountedScanner: {
 	Tooltip: Invoca um módulo escaneador poderoso sobre sua cabeça que dispara lasers nos inimigos próximos
 }
 
+Nidhogg: {
+	DisplayName: B-GSS: Nidhogg
+	Tooltip:
+		'''
+		Um canhão eletromagnético de energia que dispara rapidamente, criando implosões magnéticas persistentes que atraem inimigos mais fracos no acerto
+		Só pode haver uma implosão por vez
+		<right> para carregar um feixe de energia devastador que sempre causa um acerto crítico
+		Esta carga não pode ser interrompida depois de ser iniciada e possui um tempo de recarga alto
+		[c/1FFBFF:'Muitos soldados subestimam a capacidade destrutiva do magnetismo.]
+		[c/1FFBFF:Os céticos quanto à sua eficácia foram atraídos pela sua força devastadora.']
+		'''
+}
+
+PhalanxSurge: {
+	DisplayName: W-LSR: Surto da Falange
+	Tooltip:
+		'''
+		Dispara lasers em várias direções
+		Segure <right> para carregar a arma, permitindo que ela se impulsione para a frente e impale inimigos com uma lança de energia
+		Segure <left> enquanto dispara o ataque carregado para se lançar para a frente em alta velocidade, causando dano adicional
+		O ataque carregado tem um tempo de recarga curto
+		[c/1FFBFF:'Havia uma grande demanda por armamento de curto alcance por parte das forças de Yharim.]
+		[c/1FFBFF:Uma lança a laser com a qual eles poderiam perfurar seus inimigos foi recebida com aplausos eletrizantes.']
+		'''
+}
+
 Phaseslayer: {
 	DisplayName: Exterminador Fásico
 	Tooltip:
 		'''
 		Projeta uma lâmina laser colossal que é controlada pelo cursor
 		Movimente o cursor para balançar a lâmina e rasgar completamente os inimigos
-		Balanços mais rápidos causam mais danos e liberam raios de espada
-		Quando estiver com carga baixa, a lâmina é menor e mais fraca
+		Balanços mais rápidos causam mais danos e liberam feixes de espada
 		'''
 }
 
@@ -102,8 +127,8 @@ PlasmaCaster: {
 	DisplayName: Lançador Plasmático
 	Tooltip:
 		'''
-		Pressione <left> para disparar um raio de plasma explosivo enorme
-		Pressione <right> para disparar no modo turbo, aumentando a taxa de disparo em troca de precisão
+		<left> para disparar um raio de plasma explosivo enorme
+		<right> para disparar no modo turbo, aumentando a taxa de disparo em troca de precisão
 		'''
 }
 
@@ -136,9 +161,24 @@ PulseDragon: {
 		'''
 }
 
+PulseGrenade: {
+	DisplayName: R-PLS: Granada de Pulso
+	Tooltip:
+		'''
+		Uma granada regenerativa que persegue inimigos e explode em oito orbes de pulso
+		Os orbes de pulso retornam para você e reformam a granada, atingindo tudo em seu caminho
+		Golpes furtivos lançam a granada em alta velocidade e explodem em duas vezes mais orbes
+		'''
+}
+
 PulsePistol: {
-	DisplayName: Pistola de Pulso
-	Tooltip: Dispara um pulso que arqueia em direção a um novo alvo ao atingir o inimigo
+	DisplayName: P-PLS: Pistola de Pulso
+	Tooltip:
+		'''
+		Dispara um orbe de pulso que persegue alvos próximos
+		Depois de atingir um inimigo, o orbe se dividirá em dois
+		A perfuração do orbe aumentará ao matar inimigos
+		'''
 }
 
 PulseRifle: {
@@ -163,6 +203,18 @@ PulseTurretRemote: {
 		'''
 }
 
+ShortCircuit: {
+	DisplayName: P-TSL: Curto-circuito
+	Tooltip:
+		'''
+		<left> para disparar rapidamente raios atordoantes com alto poder de recuo
+		<right> para disparar um gancho que se prende aos inimigos e os eletrocuta rapidamente 
+		Depois de eletrocutar um inimigo o suficiente, o gancho criará uma explosão de choque antes de retornar ao jogador
+		Ataques de gancho bem-sucedidos têm um tempo de recarga curto que só é aplicado se o gancho não matar um inimigo
+		{$Common.ArmorPenetration}
+		'''
+}
+
 SnakeEyes: {
 	DisplayName: Olhos de Cobra
 	Tooltip:
@@ -175,31 +227,12 @@ SnakeEyes: {
 		'''
 }
 
-StarSwallowerContainmentUnit: {
-	DisplayName: Unidade de Contenção do Engolidor de Estrelas
-	Tooltip:
-		'''
-		Invoca um sapo biomecânico que vomita plasma nos inimigos
-		[c/1FFBFF:'Estas criaturas simplistas foram mecanizadas para transportar plasma de forma autônoma.]
-		[c/1FFBFF:Eles são muito mais úteis do que suas contrapartes orgânicas comuns.']
-		'''
-}
-
 SystemBane: {
 	DisplayName: Praga do Sistema
 	Tooltip:
 		'''
 		Arremessa um dispositivo instável que gruda no chão e eletrocuta inimigos próximos com raios
 		Golpes furtivos fazem o dispositivo emitir um campo eletromagnético danoso enorme
-		'''
-}
-
-Taser: {
-	DisplayName: Taser
-	Tooltip:
-		'''
-		Dispara um gancho que se prende nos inimigos e os eletrocuta antes de retornar
-		Uma arma elétrica simples e lenta, destinada apenas a guardas de baixo escalão
 		'''
 }
 
@@ -216,19 +249,22 @@ TheAnomalysNanogun: {
 	DisplayName: A Nanoarma da Anomalia
 	Tooltip:
 		'''
-		Pressione <left> para carregar 5 feixes de plasma de disparo rápido
-		Pressione <right> para lançar 3 bombas de fissão
+		<left> para carregar 5 feixes de plasma de disparo rápido
+		<right> para lançar 3 bombas de fissão
 		'Bem-vindo à festa, amigo'
 		'''
 }
 
-TrackingDisk: {
-	DisplayName: Disco Perseguidor
+Vulcan: {
+	DisplayName: R-GSS: Vulcão
 	Tooltip:
 		'''
-		Libera um disco voador que dispara lasers em inimigos próximos
-		Este disco ganha aceleração conforme retorna ao jogador
-		Golpes furtivos disparam lasers com uma taxa e distância maiores, e podem disparar em vários alvos diferentes
+		Uma metralhadora-canhão movida a mana que dispara em rajadas
+		<right> para lançar um arpão magnético que atrai seus tiros
+		Lançar um arpão prolonga a duração do modo de disparo em rajadas
+		Quando um arpão expira, todos os disparos magnetizados são lançados contra os inimigos próximos, causando mais dano
+		[c/1FFBFF:'Originalmente uma lâmpada de mineração fixada no teto. A remoção da bateria reduziu seu peso apenas ligeiramente.]
+		[c/1FFBFF:O equipamento foi pouco utilizado e gerou muitas reclamações por parte do corpo de magos de batalha.']
 		'''
 }
 
@@ -239,127 +275,4 @@ WavePounder: {
 		Arremessa uma bomba que explode numa onda de choque agonizantemente forte
 		Golpes furtivos emitem ondas de choque absurdamente poderosas
 		'''
-}
-
-AerialTracker: {
-	// DisplayName: P-LSR: Aerial Tracker
-	/* Tooltip:
-		'''
-		Releases a flying disk that fires lasers at nearby enemies
-		Lasers do not directly damage enemies, but instead apply a stacking laser burn effect
-		Once hit by enough lasers or sufficient time has passed, laser burn will deal direct damage
-		The disk gains acceleration as it returns to the player
-		Stealth strikes toss two disks that can fire at multiple different targets from farther range
-		''' */
-}
-
-AqueousHunterDrone: {
-	// DisplayName: P-PMA: Aqueous Hunter Drone
-	/* Tooltip:
-		'''
-		Summons a shrimp drone that fires bursts of homing plasma missiles
-		<right> while holding any summon weapon to command the shrimp to launch a vertical missile barrage
-		Vertical missiles aim towards your cursor and leave a lingering blast if they hit solid ground
-		Each shrimp uses 4 minion slots
-		[c/1FFBFF:'When pursuing the adherents of gods, Yharim believed no stone should be left unturned.]
-		[c/1FFBFF:Weaponry for underwater contingencies was an unusually heavy focus, but no models ever saw deployment.']
-		''' */
-}
-
-Auger: {
-	// DisplayName: P-GSS: Auger
-	/* Tooltip:
-		'''
-		A wrist-mounted device which emits a magnetic energy blade
-		<right> to create a brief magnetic pull at your cursor and amplify your next slash
-		[c/1FFBFF:'Initially manufactured to serrate and separate chunks of raw material for transport.]
-		[c/1FFBFF:Keeping both hands free without compromising on power made it exceptionally ergonomic.']
-		''' */
-}
-
-CountermeasureMitt: {
-	// DisplayName: B-LSR: Countermeasure Mitt
-	/* Tooltip:
-		'''
-		A precision welding glove with laser emitters in each fingertip
-		<right> to focus all emitters into a short range palm blast that always critically strikes
-		Palm blasts have a cooldown which is significantly shorter if they miss
-		[c/1FFBFF:'Most battalions prefer to either spread attacks widely, or focus on a singular target.]
-		[c/1FFBFF:This glove caters to both, though it will never bridge the gap between their strategies.']
-		''' */
-}
-
-HolofibreImmolator: {
-	// DisplayName: R-PMA: Holofibre Immolator
-	/* Tooltip:
-		'''
-		Fires three gravity-affected plasma drops which dissolve through foes
-		Holding <left> quickly charges the bow, firing a high-speed plasma arrow
-		Plasma arrows will detonate after impact, creating stronger explosions if stuck into tiles
-		Holding <right> will repeatedly fire uncharged shots
-		Holding <right> and <left> will automatically fire charged arrows at a slightly slower rate
-		[c/1FFBFF:'The elegance of holofibre is unmatched.]
-		[c/1FFBFF:However, mechanical tension may have produced more consistent results.']
-		''' */
-}
-
-Nidhogg: {
-	// DisplayName: B-GSS: Nidhogg
-	/* Tooltip:
-		'''
-		A magnet powered energy railgun that fires rapidly, creating lingering magnetic implosions that pull in weak enemies on hit
-		Only one implosion can exist at a time
-		Press <right> to begin charging a devastating energy beam that always crits and will fire once ready
-		This charge attack can not be interrupted once started and has a long cooldown
-		[c/1FFBFF:'Many soldiers underestimate the destructive capabilities of magnetism.]
-		[c/1FFBFF:This railgun has reliably pulled in skeptics of its crushing efficiency.']
-		''' */
-}
-
-PhalanxSurge: {
-	// DisplayName: W-LSR: Phalanx Surge
-	/* Tooltip:
-		'''
-		Fires a spread of lasers
-		Holding <right> charges the weapon, allowing it to thrust forward and impale enemies with an energy spear
-		Holding <left> when firing the charge attack will launch you forward at high speeds and deal extra damage
-		Using the charged attack has a short cooldown
-		[c/1FFBFF:'There was much call from Yharim's forces for close range armaments.]
-		[c/1FFBFF:A laser lance with which to gore their foes was met with thunderous applause.']
-		''' */
-}
-
-PulseGrenade: {
-	// DisplayName: R-PLS: Pulse Grenade
-	/* Tooltip:
-		'''
-		A regenerating grenade that will track enemies and burst into 8 pulse orbs
-		Pulse orbs will return to you and reform the grenade, hitting anything in their path
-		Stealth strikes throw the grenade at high speeds and burst into twice as many orbs
-		''' */
-}
-
-ShortCircuit: {
-	// DisplayName: P-TSL: Short Circuit
-	/* Tooltip:
-		'''
-		Press <left> to rapidly fire stunning bolts with high knockback
-		Press <right> to shoot a hook that attaches to enemies and rapidly electrocutes them
-		After electrocuting an enemy enough, the hook will create a shock explosion before returning to you
-		Successful hook attacks have a short cooldown that is applied unless the hook kills an enemy
-		{$Common.ArmorPenetration}
-		''' */
-}
-
-Vulcan: {
-	// DisplayName: R-GSS: Vulcan
-	/* Tooltip:
-		'''
-		A mana-fueled Gatling cannon that fires in bursts
-		Press <right> to launch a magnetic harpoon which attracts your shots
-		Launching a harpoon makes burst fire mode last longer
-		When a harpoon expires, all magnetized shots launch at nearby enemies with increased damage
-		[c/1FFBFF:'Originally a ceiling mounted mining beam, the removal of its battery reduced its heft only marginally.]
-		[c/1FFBFF:It saw little use and many complaints from the battlemage corps.']
-		''' */
 }

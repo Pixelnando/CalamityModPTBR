@@ -58,7 +58,7 @@ CeaselessVoid: {
 }
 
 Crabulon: {
-	SpawnInfo: Use um [i:CalamityMod/DecapoditaSprout] em um bioma de Cogumelos Brilhantes subterrâneo.
+	SpawnInfo: Use um [i:CalamityMod/DecapoditaSprout] em um bioma de Cogumelos Brilhantes.
 	DespawnMessage: "[c/6495ED:O monstruoso caranguejo micelial se afasta...]"
 }
 

@@ -3,227 +3,31 @@ AbyssalWarhammer: {
 	Tooltip: ""
 }
 
-AerialHamaxe: {
-	DisplayName: Aerial Hamaxe
-	Tooltip: ""
-}
-
-AstralHamaxe: {
-	DisplayName: Astral Hamaxe
-	Tooltip: ""
-}
-
-AstralPickaxe: {
-	DisplayName: Astral Pickaxe
-	Tooltip: ""
-}
-
-AxeofPurity: {
-	DisplayName: Axe of Purity
-	Tooltip:
-		'''
-		Left click to use as a tool
-		Right click to cleanse evil
-		'''
-}
-
-BeastialPickaxe: {
-	DisplayName: Beastial Pickaxe
-	Tooltip: ""
-}
-
-BerserkerWaraxe: {
-	DisplayName: Berserker Waraxe
-	Tooltip: ""
-}
-
-BlossomPickaxe: {
-	DisplayName: Blossom Pickaxe
-	Tooltip: Can mine Auric Ore
-}
-
-BobbitHook: {
-	DisplayName: Bobbit Hook
-	Tooltip:
-		'''
-		Retracts upon attaching to a tile with extreme speeds
-		Reach: 40
-		Launch Velocity: 25
-		Reelback Velocity: 28
-		Pull Velocity: 24
-		'''
-}
-
-AridArtifact: {
-	DisplayName: Arid Artifact
-	Tooltip:
-		'''
-		Summons a sandstorm
-		The sandstorm will happen shortly after the item is used
-		If used during a sandstorm, the sandstorm will stop some time afterward.
-		'''
-}
-
-Cosmolight: {
-	DisplayName: Cosmolight
-	Tooltip:
-		'''
-		Advances time immediately to the next dawn, noon, dusk or midnight
-		Does not work while a boss is alive
-		'''
-}
-
-TorrentialTear: {
-	DisplayName: Torrential Tear
-	Tooltip:
-		'''
-		Summons the rain
-		Rain will start some time after this item is used
-		If used while it's raining, the rain will stop some time afterward
-		'''
-}
-
-CrystylCrusher: {
-	DisplayName: Crystyl Crusher
-	Tooltip:
-		'''
-		Hold <right> to channel a beam that destroys just about anything
-		'Gotta dig faster, gotta go deeper'
-		'''
-}
-
-FellerofEvergreens: {
-	DisplayName: Feller of Evergreens
-	Tooltip: ""
-}
-
-Gelpick: {
-	DisplayName: Gelpick
-	Tooltip: ""
-}
-
-GenesisPickaxe: {
-	DisplayName: Genesis Pickaxe
-	Tooltip: Can mine Uelibloom Ore
-}
-
-Grax: {
-	DisplayName: Grax
-	Tooltip:
-		'''
-		Hitting an enemy will greatly boost your melee damage, defense, and damage reduction for a short time
-		Press <right> to use without hammering down walls or chopping down trees
-		'''
-}
-
-GreatbayPickaxe: {
-	DisplayName: Greatbay Pickaxe
-	Tooltip: Can mine Demonite, Crimtane, Meteorite, Sea Prisms and Sea Prism Crystals
-}
-
-InfernaCutter: {
-	DisplayName: Inferna Cutter
-	Tooltip:
-		'''
-		Critical hits with the blade cause small explosions
-		Generates a number of small sparks when swung
-		'''
-}
-
-MarniteDeconstructor: {
-	DisplayName: Marnite Deconstructor
-	Tooltip:
-		'''
-		Its engine generates hardlight rays capable of excavating walls from a long distance
-		Ignores 10 points of enemy Defense
-		'''
-}
-
-MarniteObliterator: {
-	DisplayName: Marnite Obliterator
-	Tooltip:
-		'''
-		Uses a diamond focus to project a long-range digging beam of light
-		Ignores 5 points of enemy Defense
-		'''
-}
-
-ReefclawHamaxe: {
-	DisplayName: Reefclaw Hamaxe
-	Tooltip: ""
-}
-
-SeismicHampick: {
-	DisplayName: Seismic Hampick
-	Tooltip:
-		'''
-		Capable of mining Lihzahrd Bricks
-		Press <left> to use as a pickaxe
-		Press <right> to use as a hammer
-		'''
-}
-
-ShardlightPickaxe: {
-	DisplayName: Shardlight Pickaxe
-	Tooltip: ""
-}
-
-SkyfringePickaxe: {
-	DisplayName: Skyfringe Pickaxe
-	Tooltip: Able to mine Hellstone
-}
-
-TectonicTruncator: {
-	DisplayName: Tectonic Truncator
-	Tooltip: ""
-}
-
-WulfrumDiggingTurtle: {
-	DisplayName: Wulfrum Digging Turtle
-	Tooltip:
-		'''
-		Throws a rickety mining contraption to dig out a small tunnel
-		In case of an emergency, press <right> to instantly detonate all your digging turtles
-		'''
-}
-
-WulfrumDrill: {
-	DisplayName: Wulfrum Drill
-	Tooltip: ""
-}
-
-WulfrumScaffoldKit: {
-	DisplayName: Wulfrum Scaffold Kit
-	Tooltip:
-		'''
-		Places down temporary metal scaffolding. Uses up one wulfrum metal scrap for 40 tiles built
-		Scaffold needs to be adjacent to a solid tile to be placed down
-		'For when you need something built fast and don't need it to last.'
-		'''
-}
-
-WulfrumTreasurePinger: {
-	DisplayName: Wulfrum Treasure Pinger
-	Tooltip:
-		'''
-		Locates nearby metal that's hopefully more valuable than wulfrum
-		This contraption seems incredibly shoddy. [c/FC4903:It'll break sooner than later for sure]
-		'''
-}
-
-AcidwoodAxe: {
-	DisplayName: Acidwood Axe
-	Tooltip: ""
-}
-
 AcidwoodHammer: {
 	DisplayName: Acidwood Hammer
 	Tooltip: ""
 }
 
-AcidwoodPickaxe: {
-	DisplayName: Acidwood Pickaxe
+AerialHamaxe: {
+	DisplayName: Aerial Hamaxe
 	Tooltip: ""
+}
+
+AggressiveVoucher: {
+	DisplayName: Aggressive Voucher
+	Tooltip:
+		'''
+		Favorite this item in your inventory to increase the likelihood of obtaining a desirable reforge
+		This effect only applies when reforging accessories
+		Targeted Reforge: {0}
+		Selectable Reforges: {1}
+		[c/aaaaaa:Shift-<right> in your inventory to cycle between targeted reforges]
+		'''
+	SalesPitch:
+		'''
+		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
+		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		'''
 }
 
 AntiCystOintment: {
@@ -243,6 +47,35 @@ AntiTumorOintment: {
 		Toggle this item to prevent hive tumors from spawning near you
 		Press <right> to toggle
 		[STATE]
+		'''
+}
+
+AridArtifact: {
+	DisplayName: Arid Artifact
+	Tooltip:
+		'''
+		Summons a sandstorm
+		The sandstorm will happen shortly after the item is used
+		If used during a sandstorm, the sandstorm will stop some time afterward
+		'''
+}
+
+AstralHamaxe: {
+	DisplayName: Astral Hamaxe
+	Tooltip: ""
+}
+
+AstralPickaxe: {
+	DisplayName: Astral Pickaxe
+	Tooltip: ""
+}
+
+AxeofPurity: {
+	DisplayName: Axe of Purity
+	Tooltip:
+		'''
+		<left> to use as a tool
+		<right> to cleanse evil
 		'''
 }
 
@@ -271,6 +104,16 @@ BallAndChain: {
 	TooltipDisabled: Dashes are currently enabled
 }
 
+BeastialPickaxe: {
+	DisplayName: Beastial Pickaxe
+	Tooltip: ""
+}
+
+BerserkerWaraxe: {
+	DisplayName: Berserker Waraxe
+	Tooltip: ""
+}
+
 BleachBall: {
 	DisplayName: Bleach Ball
 	Tooltip:
@@ -278,6 +121,20 @@ BleachBall: {
 		Toggle this item to prevent Aquatic Scourge from spawning
 		Press <right> to toggle
 		[STATE]
+		'''
+}
+
+BlossomPickaxe: {
+	DisplayName: Blossom Pickaxe
+	Tooltip: Can mine Auric Ore
+}
+
+BobbitHook: {
+	DisplayName: Bobbit Hook
+	Tooltip:
+		'''
+		Retracts upon attaching to a tile with extreme speeds
+		{$Common.GrappleStats}
 		'''
 }
 
@@ -301,19 +158,48 @@ BrokenWaterFilter: {
 		'''
 }
 
+CombatVoucher: {
+	DisplayName: Combat Voucher
+	Tooltip:
+		'''
+		Favorite this item in your inventory to increase the likelihood of obtaining a desirable reforge
+		This effect only applies when reforging weapons
+		'''
+	SalesPitch:
+		'''
+		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
+		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		'''
+}
+
+Cosmolight: {
+	DisplayName: Cosmolight
+	Tooltip:
+		'''
+		A lost artifact freshly rekindled by exposure to raw cosmic energies
+		Hold <left> to drastically accelerate the passage of day and night
+		<right> to freeze the passage of day and night indefinitely
+		The time freeze lasts forever and works during celestial anomalies
+		'''
+}
+
+CrystylCrusher: {
+	DisplayName: Crystyl Crusher
+	Tooltip:
+		'''
+		Hold <right> to channel a beam that destroys just about anything
+		'A primitive weapon from a bygone era...'
+		'''
+}
+
 DisgustingMeat: {
 	DisplayName: Disgusting Meat
 	Tooltip:
 		'''
 		<left> will remove health and mana upgrades, use with no Calamity upgrades to remove vanilla upgrades
-		<right> will remove rage and adrenaline upgrades, plus other miscellaneous boosters
+		<right> will remove Rage and Adrenaline upgrades, plus other miscellaneous boosters such as Demon Heart
 		Removed boosters will be vomited out of you as items
 		'''
-}
-
-DriftwoodAxe: {
-	DisplayName: Driftwood Axe
-	Tooltip: Improved efficiency while you are wet
 }
 
 DriftwoodHammer: {
@@ -321,9 +207,77 @@ DriftwoodHammer: {
 	Tooltip: Improved efficiency while you are wet
 }
 
-DriftwoodPickaxe: {
-	DisplayName: Driftwood Pickaxe
-	Tooltip: Improved efficiency while you are wet
+FellerofEvergreens: {
+	DisplayName: Feller of Evergreens
+	Tooltip: Occasionally drops extra fruits from shaking trees
+}
+
+Gelpick: {
+	DisplayName: Gelpick
+	Tooltip: ""
+}
+
+GenesisPickaxe: {
+	DisplayName: Genesis Pickaxe
+	Tooltip: "{$Common.CanMineUelibloom}"
+}
+
+Grax: {
+	DisplayName: Grax
+	Tooltip:
+		'''
+		Hitting an enemy increases your damage by {0}% and defense by {1} for {2} seconds
+		Press <right> to use without hammering down walls or chopping down trees
+		'''
+}
+
+GreatbayPickaxe: {
+	DisplayName: Greatbay Pickaxe
+	Tooltip: Can mine Demonite, Crimtane, Meteorite, Sea Prisms and Sea Prism Crystals
+}
+
+HurriedVoucher: {
+	DisplayName: Hurried Voucher
+	Tooltip:
+		'''
+		Favorite this item in your inventory to increase the likelihood of obtaining a desirable reforge
+		This effect only applies when reforging accessories
+		Targeted Reforge: {0}
+		Selectable Reforges: {1}
+		[c/aaaaaa:Shift-<right> in your inventory to cycle between targeted reforges]
+		'''
+	SalesPitch:
+		'''
+		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
+		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		'''
+}
+
+InfernaCutter: {
+	DisplayName: Inferna Cutter
+	Tooltip:
+		'''
+		Critical hits with the blade cause small explosions
+		Generates a number of small sparks when swung
+		'''
+}
+
+MarniteDeconstructor: {
+	DisplayName: Marnite Deconstructor
+	Tooltip:
+		'''
+		Its engine generates hardlight rays capable of excavating walls from a long distance
+		{$Common.ArmorPenetration}
+		'''
+}
+
+MarniteObliterator: {
+	DisplayName: Marnite Obliterator
+	Tooltip:
+		'''
+		Uses a diamond focus to project a long-range digging beam of light
+		{$Common.ArmorPenetration}
+		'''
 }
 
 MomentumCapacitor: {
@@ -345,18 +299,8 @@ MomentumCapacitor: {
 		'''
 }
 
-MonolithAxe: {
-	DisplayName: Monolith Axe
-	Tooltip: ""
-}
-
 MonolithHammer: {
 	DisplayName: Monolith Hammer
-	Tooltip: ""
-}
-
-MonolithPickaxe: {
-	DisplayName: Monolith Pickaxe
 	Tooltip: ""
 }
 
@@ -370,6 +314,28 @@ NormalityRelocator: {
 		Works while in the inventory
 		'I'll be there in the blink of an eye'
 		'''
+}
+
+OddVoucher: {
+	DisplayName: Odd Voucher
+	Tooltip:
+		'''
+		Favorite this item in your inventory to increase the likelihood of obtaining a desirable reforge
+		This effect only applies when reforging accessories
+		Targeted Reforge: {0}
+		Selectable Reforges: {1}
+		[c/aaaaaa:Shift-<right> in your inventory to cycle between targeted reforges]
+		'''
+	SalesPitch:
+		'''
+		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
+		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		'''
+}
+
+ReefclawHamaxe: {
+	DisplayName: Reefclaw Hamaxe
+	Tooltip: ""
 }
 
 RelicOfConvergence: {
@@ -391,14 +357,31 @@ RelicOfResilience: {
 	Tooltip:
 		'''
 		Holding this item creates orbiting rock shards around you and nearby allies
-		While they orbit you, your minimum defense is set to 150 and minimum damage reduction to 10%
-		Taking a hit or pressing <right> will pull in the shards, then blast them outward, crippling hit enemies
-		This effect has a 10 second cooldown after taking a hit
-		Holding out the shield heavily reduces the damage of all summons while rocks are active, only for you
+		After 5 seconds, the relic will retain orbiting rocks even when not holding the item
+		Continuing to hold the item will steadily increase the number of rocks and defenses until reaching max power
+		While they orbit you, your minimum defense is set to 200 and minimum damage reduction to 10%
+		Taking a hit or pressing <right> while holding this item will pull in the shards, then blast them outward, crippling hit enemies
+		This effect has a 10 second cooldown after taking a hit, but recharges faster if holding the item
+		Holding out the shield heavily reduces the damage of all summons
 		[c/FF8C00:I saw a massacre and did nothing to stop it. My vow broken, I was shunned.]
 		[c/FF8C00:My will to forge ahead vanished. My final wish was simply to not die alone.]
 		[c/FF8C00:But when She put faith in my shield, I would never again let it falter.]
 		'''
+}
+
+SeismicHampick: {
+	DisplayName: Seismic Hampick
+	Tooltip:
+		'''
+		Capable of mining Lihzahrd Bricks
+		Press <left> to use as a pickaxe
+		Press <right> to use as a hammer
+		'''
+}
+
+ShardlightPickaxe: {
+	DisplayName: Shardlight Pickaxe
+	Tooltip: ""
 }
 
 SirenproofEarMuffs: {
@@ -409,6 +392,11 @@ SirenproofEarMuffs: {
 		Press <right> to toggle
 		[STATE]
 		'''
+}
+
+SkyfringePickaxe: {
+	DisplayName: Skyfringe Pickaxe
+	Tooltip: Able to mine Hellstone
 }
 
 SulphurousSeaWorldSideChanger: {
@@ -432,6 +420,53 @@ SuperDummy: {
 		'''
 }
 
+TectonicTruncator: {
+	DisplayName: Tectonic Truncator
+	Tooltip: ""
+}
+
+TheGift: {
+	DisplayName: The Gift
+	Tooltip:
+		'''
+		Drop this gift on one of your Town NPCs as a token of appreciation
+		May make them either love you or hate you, you'll never know until they open it!
+		Effect will last for 24 hours
+		'''
+	SalesPitch:
+		'''
+		'Buying gifts for people is hard, and you gotta make sure your people are happy, so how about we kill two birds with one stone?'
+		'Hand this nifty box to someone and it'll suddenly contain the perfect gift for the person you handed it to!' 
+		'''
+}
+
+TorrentialTear: {
+	DisplayName: Torrential Tear
+	Tooltip:
+		'''
+		Summons the rain
+		Rain will start some time after this item is used
+		If used while it's raining, the rain will stop some time afterward
+		'''
+}
+
+UnbreakableVoucher: {
+	DisplayName: Unbreakable Voucher
+	Tooltip:
+		'''
+		Favorite this item in your inventory to increase the likelihood of obtaining a desirable reforge
+		This effect only applies when reforging accessories
+		Targeted Reforge: {0}
+		Selectable Reforges: {1}
+		[c/aaaaaa:Shift-<right> in your inventory to cycle between targeted reforges]
+		'''
+	SalesPitch:
+		'''
+		'That goblin over there, he's just scamming you for your money, you know? But don't worry, me and Hoggart have a solution for that!'
+		'Just give him this and watch as he hammers your gear like he was struck with divine inspiration! It'll be like a new item!”
+		'''
+}
+
 VoodooDemonVoodooDoll: {
 	DisplayName: Voodoo Demon Voodoo Doll
 	Tooltip:
@@ -439,5 +474,39 @@ VoodooDemonVoodooDoll: {
 		Toggle this item to prevent voodoo demons from spawning near you
 		Press <right> to toggle
 		[STATE]
+		'''
+}
+
+WulfrumDiggingTurtle: {
+	DisplayName: Wulfrum Digging Turtle
+	Tooltip:
+		'''
+		Throws a rickety mining contraption to dig out a small tunnel
+		In case of an emergency, press <right> to instantly detonate all your digging turtles
+		The turtle scales with your pickaxe power
+		'''
+}
+
+WulfrumDrill: {
+	DisplayName: Wulfrum Drill
+	Tooltip: "{$Common.ArmorPenetration}"
+}
+
+WulfrumScaffoldKit: {
+	DisplayName: Wulfrum Scaffold Kit
+	Tooltip:
+		'''
+		Places down temporary metal scaffolding. Uses up [i:CalamityMod/WulfrumMetalScrap] {$Items.Materials.WulfrumMetalScrap.DisplayName} for {0} tiles built
+		Scaffold needs to be adjacent to a solid tile to be placed down
+		'For when you need something built fast and don't need it to last.'
+		'''
+}
+
+WulfrumTreasurePinger: {
+	DisplayName: Wulfrum Treasure Pinger
+	Tooltip:
+		'''
+		Locates nearby metal that's hopefully more valuable than wulfrum
+		This contraption seems incredibly shoddy. [c/FC4903:It'll break sooner than later for sure]
 		'''
 }

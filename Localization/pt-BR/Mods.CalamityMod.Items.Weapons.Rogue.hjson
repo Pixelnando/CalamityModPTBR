@@ -1,24 +1,16 @@
-AcidicRainBarrel: {
-	DisplayName: Barril de Chuva Acídica
-	Tooltip:
-		'''
-		Arremessa um barril rolante que explode ao colidir com uma parede
-		Golpes furtivos causam uma chuva no local da colisão
-		'''
-}
-
 AdamantiteThrowingAxe: {
 	DisplayName: Machado de Arremesso de Adamantina
 	Tooltip: Golpes furtivos ignoram a gravidade e causam uma chuva de relâmpagos localizada no inimigo
 }
 
-AlphaVirus: {
-	DisplayName: Vírus Alfa
-	Tooltip:
+AntlionSkewer: {
+	// DisplayName: Antlion Skewer
+	/* Tooltip:
 		'''
-		Arremessa uma célula da praga enorme com uma aura letal que explode em 6 caçadores da praga teleguiados
-		Golpes furtivos fazem com que a célula da praga se mova mais lentamente, acumulando uma aura de caçadores da praga giratórios conforme voa
-		'''
+		Throws living, skewered Antlions that fire sand blasts
+		Stealth strikes spew a mess of sand balls and gust
+		Sand clouds temporarily lower enemy contact damage
+		''' */
 }
 
 Apoctolith: {
@@ -96,25 +88,6 @@ BouncingEyeball: {
 		Lança um globo ocular que ricocheteia em superfícies
 		Golpes furtivos tornam os globos oculares muito mais velozes e ainda mais saltitantes
 		O recuo é mais forte durante uma lua de sangue
-		'''
-}
-
-BouncySpikyBall: {
-	DisplayName: Bola com Espinhos Saltitante
-	Tooltip:
-		'''
-		Lança uma bola bem saltitante que ricocheteia de paredes e inimigos
-		Recebe um pequeno impulso no dano e na velocidade depois de ricochetear de um inimigo
-		Golpes furtivos lançam quatro de uma só vez
-		'''
-}
-
-BrackishFlask: {
-	DisplayName: Frasco Salobro
-	Tooltip:
-		'''
-		Lança um frasco que explode em rajadas de água marinha venenosa
-		Golpes furtivos invocam um enorme espinho salobro
 		'''
 }
 
@@ -296,7 +269,7 @@ DeepSeaDumbbell: {
 	Tooltip:
 		'''
 		Lança um halter que ricocheteia e arremessa pesos com cada ricochete
-		Pressione <right> para fazer flexões, aumentando o dano do seu próximo ataque em até 5 vezes
+		<right> para fazer flexões, aumentando o dano do seu próximo ataque em até 5 vezes
 		Flexões podem atingir diretamente os inimigos
 		'''
 }
@@ -328,6 +301,28 @@ DesecratedWater: {
 		Lança um frasco de água profana que explode em diversas bolhas malignas
 		Golpes furtivos invocam mais bolhas e as fazem infligir Ichor e Inferno Amaldiçoado
 		'''
+}
+
+DimensionTearingDisk: {
+	// DisplayName: Dimension-Tearing Disk
+	/* Tooltip:
+		'''
+		Throws a disk that tears space in the direction of the nearest enemy
+		Stealth strikes stick to enemies and unleash [ceffect/dog:God's Bane Doombeam Array]
+		''' */
+}
+
+DoomsdayDevice: {
+	// DisplayName: Doomsday Device
+	/* Tooltip:
+		'''
+		Direct hits from the weapon grant stealth
+		Non-stealth strikes do not consume stealth when fully charged
+		Holding a stealth strike charge beyond its limit rapidly drains stealth
+		Stealth strikes ricochet between multiple enemies, ending in a strong impact
+		'A high-tech explosive with devastating power... If only you could figure out how to arm it'
+		'At least you can throw it really hard!'
+		''' */
 }
 
 DukesDecapitator: {
@@ -369,13 +364,20 @@ EclipsesFall: {
 		'''
 }
 
-ElementalDisk: {
-	DisplayName: Disco Elemental
-	Tooltip:
+ElephantKiller: {
+	// DisplayName: Elephant Killer
+	/* Tooltip:
 		'''
-		Lança um disco que pode gerar discos extras perto de inimigos
-		Golpes furtivos voam mais lentamente, porém tem alcance maior, perfuram inimigos, e geram discos extras mais frequentemente
-		'''
+		Can be tossed to gain [STEALTHGAIN]% of max stealth on hit
+		<right> to spend [STEALTHCOST]% of max stealth and fire the gun with increased damage
+		All gun shots always critically strike, with critical strike chance increasing critical strike damage
+		Stealth strikes fire a [c/87CEFA:Spectral Elephant] from the gun
+		Any gun shots that pass through the [c/87CEFA:Spectral Elephant] are redirected and greatly empowered
+		[c/D4827A:Natural stealth generation and stealth damage is disabled when holding this weapon]
+		[c/D78DDD:'Why's my gun called the Elephant Killer?]
+		[c/D78DDD:...]
+		[c/D78DDD:Don't worry about it']
+		''' */
 }
 
 EnchantedAxe: {
@@ -405,15 +407,6 @@ Equanimity: {
 		Lança um bumerangue feito de luz e trevas que confunde os inimigos
 		O bumerangue criará estilhaços de luz ao atingir os inimigos ao ser lançado e atirará estilhaços das trevas teleguiados ao retornar
 		Golpes furtivos farão com que o bumerangue crie estilhaços de luz e trevas sempre que um tipo de estilhaço for criado
-		'''
-}
-
-Eradicator: {
-	DisplayName: Erradicador
-	Tooltip:
-		'''
-		Lança um disco que atira lasers de nébula nos inimigos próximos
-		Golpes furtivos fazem o disco grudar nos inimigos e disparar uma saraivada de lasers em todas as direções
 		'''
 }
 
@@ -547,7 +540,7 @@ GodsParanoia: {
 		Arremessa até 10 bolas com espinhos velozes e teleguiadas
 		As bolas grudam nos inimigos e invocam uma tempestade de kunais caça-deuses no local
 		Golpes furtivos deixam as bolas mais rápidas e as fazem invocar kunais com maior frequência
-		Pressione <right> para eliminar todas as bolas com espinhos existentes
+		<right> para eliminar todas as bolas com espinhos existentes
 		'''
 }
 
@@ -579,18 +572,6 @@ HeavenfallenStardisk: {
 		Arremessa um disco estelar pra cima que depois se lança em direção ao cursor do mouse
 		Explode em uma estrela de raios astrais ao atingir o alvo
 		Golpes furtivos arremessam três discos que disparam raios de energia astral do céu
-		'''
-}
-
-HellsSun: {
-	DisplayName: Sol do Inferno
-	Tooltip:
-		'''
-		Arremesa até 10 bolas com espinhos que desafiam a gravidade
-		Quando estão parados, emitem pequenos sóis periodicamente que explodem ao atingir o alvo
-		Golpes furtivos emitem sóis a uma taxa mais rápida e duram mais tempo
-		Pressione <right> para eliminar todas as bolas com espinhos
-		'O Sol Subterrâneo na palma da sua mão'
 		'''
 }
 
@@ -696,7 +677,7 @@ LeonidProgenitor: {
 	Tooltip:
 		'''
 		Lança um casco-bomba que explode, invocando um meteoro que impacta o local
-		Pressione <right> para lançar uma série de cometas afetados pela gravidade que explodem, deixando para trás uma estrela
+		<right> para lançar uma série de cometas afetados pela gravidade que explodem, deixando para trás uma estrela
 		Golpes furtivos lançam um casco-bomba que também se divide em cometas ao atingir o alvo
 		'''
 }
@@ -721,15 +702,6 @@ Lionfish: {
 		'''
 }
 
-RealityRupture: {
-	DisplayName: Ruptura da Realidade
-	Tooltip:
-		'''
-		Alterna entre lançar 3 pequenas lanças teleguiadas e lançar uma única lança perfurante
-		Golpes furtivos lançam uma lança de alta velocidade que rompe a realidade e explode ao atingir um inimigo
-		'''
-}
-
 LunarKunai: {
 	DisplayName: Kunai Lunar
 	Tooltip:
@@ -745,7 +717,7 @@ Malachite: {
 	Tooltip:
 		'''
 		Lança um fluxo de kunais que grudam em inimigos e explodem
-		Pressione <right> para lançar uma kunai que perfura inimigos
+		<right> para lançar uma kunai que perfura inimigos
 		Após perfurar um inimigo, a kunai causa uma explosão enorme no próximo inimigo atingido
 		Golpes furtivos lançam 3 kunais perseguidoras que grudam nos inimigos e explodem
 		'''
@@ -801,15 +773,6 @@ MoltenAmputator: {
 		'''
 }
 
-MonkeyDarts: {
-	DisplayName: Dardos de Macaco
-	Tooltip:
-		'''
-		Golpes furtivos lançam 3 dardos saltitantes em alta velocidade
-		'Perfeitos para estouros'
-		'''
-}
-
 Mycoroot: {
 	DisplayName: Micorreia
 	Tooltip:
@@ -855,28 +818,6 @@ NastyCholla: {
 		'''
 }
 
-NightsGaze: {
-	DisplayName: Olhar da Noite
-	Tooltip:
-		'''
-		Golpeie seus inimigos com esta lança da noite
-		Arremessa uma lança que se estilhaça ao atingir o inimigo
-		Golpes furtivos fazem com que a lança invoque estrelas teleguiadas durante o seu voo
-		'''
-}
-
-Nychthemeron: {
-	DisplayName: Nictêmero
-	Tooltip:
-		'''
-		Lança uma bola com espinhos que ignora a gravidade e invoca um par de esferas de luz e trevas que orbitam o jogador
-		Assim que a bola com espinhos desaparecer, as esferas irão perseguir o alvo mais próximo
-		Até 10 bolas com espinhos podem existir ao mesmo tempo
-		Golpes furtivos fazem todas as bolas com espinhos e esferas serem lançadas de uma só vez
-		Pressione <right> para eliminar todas as bolas com espinhos existentes
-		'''
-}
-
 OrichalcumSpikedGemstone: {
 	DisplayName: Joia de Oricalco Espinhosa
 	Tooltip: Golpes furtivos aumentam o tempo de duração e invocam pétalas ao atingir o inimigo
@@ -914,16 +855,6 @@ Plaguenade: {
 		'''
 }
 
-PoisonPack: {
-	DisplayName: Pacote de Veneno
-	Tooltip:
-		'''
-		Lança até 3 bolas com espinhos venenosas
-		Golpes furtivos fazem as bolas liberarem nuvens de esporos
-		Pressione <right> para eliminar todas as bolas com espinhos existentes
-		'''
-}
-
 Prismalline: {
 	DisplayName: Prismalina
 	Tooltip:
@@ -949,6 +880,24 @@ RadiantStar: {
 		Lança agadas que explodem e se dividem depois de um tempo
 		Golpes furtivos amplificam a divisão e provocam uma explosão devastadora que suga os inimigos
 		'''
+}
+
+RealityRupture: {
+	DisplayName: Ruptura da Realidade
+	Tooltip:
+		'''
+		Alterna entre lançar 3 pequenas lanças teleguiadas e lançar uma única lança perfurante
+		Golpes furtivos lançam uma lança de alta velocidade que rompe a realidade e explode ao atingir um inimigo
+		'''
+}
+
+ReboundingRainbow: {
+	// DisplayName: Rebounding Rainbow
+	/* Tooltip:
+		'''
+		Throws a disk that has a chance to generate several disks if enemies are near it
+		Stealth strikes fly slower but travel farther, pierce through enemies, and spawn extra disks more frequently
+		''' */
 }
 
 RefractionRotor: {
@@ -980,7 +929,7 @@ Sacrifice: {
 	Tooltip:
 		'''
 		Lança adagas sacrificiais que se cravam nos inimigos
-		Pressione <right> para fazer com que todas as adagas cravadas voem de volta para você e lhe deem vida
+		<right> para fazer com que todas as adagas cravadas voem de volta para você e lhe deem vida
 		Adagas cravadas em inimigos liberam explosões de sangue ao longo do tempo
 		Golpes furtivos mantêm as adagas cravadas por mais tempo e potencializam o roubo de vida no retorno
 		'''
@@ -1001,16 +950,6 @@ SandDollar: {
 		'''
 		Lança até 2 bolachas-da-praia que retornam ao usuário
 		Golpes furtivos lançam 2 bolachas-da-praia de longo alcance que explodem em fragmentos de coral ao atingir o inimigo
-		'''
-}
-
-Sandslasher: {
-	DisplayName: Rasga-Dunas
-	Tooltip:
-		'''
-		Lança uma shuriken enorme feita de areia fundida que não é afetada pela gravidade e acelera lentamente
-		Causa mais dano conforme a velocidade horizontal e a duração do voo da arma
-		Golpes furtivos liberam nuvens de areia periodicamente
 		'''
 }
 
@@ -1046,17 +985,6 @@ ScourgeoftheSeas: {
 SeafoamBomb: {
 	DisplayName: Bomba de Espuma do Mar
 	Tooltip: "[GFB]"
-	TooltipNormal:
-		'''
-		Lança uma bomba que explode em bolhas que causam dano extra aos inimigos
-		Golpes furtivos são mais rápidos e explodem em 5 bolhas
-		'''
-	TooltipGFB:
-		'''
-		Lança uma bomba que explode em bolhas que causam dano extra aos inimigos
-		Golpes furtivos são mais rápidos e explodem em 5 bolhas
-		[c/256b93:'De volta ao nível S!']
-		'''
 }
 
 SealedSingularity: {
@@ -1083,13 +1011,13 @@ ShardofAntumbra: {
 	Tooltip: Golpes furtivos deixam um rastro de estrelas teleguiadas
 }
 
-ShatteredSun: {
-	DisplayName: Sol Fraturado
-	Tooltip:
+ShatteredDawn: {
+	// DisplayName: Shattered Dawn
+	/* Tooltip:
 		'''
-		Lança adagas que se dividem em adagas teleguiadas escaldantes
-		Golpes furtivos disparam rajadas de adagas teleguiadas do jogador ao acertar os inimigos com as adagas e sugam os inimigos para dentro delas
-		'''
+		Throws daggers that split into scorching homing daggers
+		Stealth strikes fire volleys of homing daggers from the player on dagger hits that suck enemies in
+		''' */
 }
 
 ShinobiBlade: {
@@ -1101,15 +1029,6 @@ ShinobiBlade: {
 		'''
 }
 
-ShockGrenade: {
-	DisplayName: Granada de Choque
-	Tooltip:
-		'''
-		Atira uma granada que explode em uma rajada de raios
-		Golpes furtivos fazem com que a granada deixe uma aura eletrizante ao explodir
-		'''
-}
-
 SkyfinBombers: {
 	DisplayName: Barbatana-do-Céu Bombardeira
 	Tooltip:
@@ -1117,16 +1036,6 @@ SkyfinBombers: {
 		Lança uma bomba nuclear de barbatana-do-céu que persegue inimigos abaixo dela
 		Golpes furtivos atingem o alvo rapidamente, independentemente da posição do inimigo
 		'Bombardeiros peixudos a caminho!'
-		'''
-}
-
-SkyStabber: {
-	DisplayName: Esfaqueador dos Céus
-	Tooltip:
-		'''
-		Lança até 4 bolas com espinhos que desafiam a gravidade
-		Golpes furtivos fazem as bolas lançarem uma chuva de penas sobre os inimigos ao atingí-los
-		Pressione <right> para eliminar todas as bolas com espinhos existentes
 		'''
 }
 
@@ -1185,6 +1094,15 @@ SpentFuelContainer: {
 		'''
 }
 
+SporeKnife: {
+	// DisplayName: Spore Knife
+	/* Tooltip:
+		'''
+		Throws an overgrown dagger that bursts into a cloud of poisonous spores
+		Stealth strikes erupt into hungry homing buds that stick to enemies and gnaw them
+		''' */
+}
+
 StarofDestruction: {
 	DisplayName: Estrela da Destruição
 	Tooltip:
@@ -1202,15 +1120,6 @@ StellarKnife: {
 		Lança facas que param no ar e em seguida perseguem os inimigos
 		Golpes furtivos lançam uma rajada de 10 facas em uma formação circular
 		'O MUNDO!'
-		'''
-}
-
-StickySpikyBall: {
-	DisplayName: Bola com Espinhos Pegajosa
-	Tooltip:
-		'''
-		Lança uma bola com espinhos que gruda em qualquer coisa
-		Golpes furtivos lançam quatro bolas de uma só vez e elas duram muito mais tempo
 		'''
 }
 
@@ -1399,6 +1308,19 @@ Valediction: {
 		'''
 }
 
+Vega: {
+	// DisplayName: Vega
+	/* Tooltip:
+		'''
+		Throws a spear that shatters into star fragments on impact and generates Starbursts
+		Stealth strikes conjure an image of Lyra to deal immense damage in an area
+		<right> to consume 20 Starbursts and immediately perform a stealth strike, regardless of your current Stealth
+		This strike calls all star fragments to attack the damaged foe and inflicts [cbuff:CalamityMod/Voidfrost]
+		Consuming Starbursts with Vega allows using stealth for 10 seconds, even without rogue armor
+		'The final song of a misunderstood genius... or just a madman'
+		''' */
+}
+
 WaveSkipper: {
 	DisplayName: Saltador de Ondas
 	Tooltip:
@@ -1415,6 +1337,18 @@ WebBall: {
 		Lança uma bola coberta de teia que envolve os inimigos em teia de aranha para deixá-los mais lentos
 		Golpes furtivos retardam os inimigos por mais tempo
 		'''
+}
+
+Whitewater: {
+	// DisplayName: Whitewater
+	/* Tooltip:
+		'''
+		Throws a flask of magic white water at the cursor that glows after a short while
+		Flasks that hit enemies while glowing release four water spears that converge back on the flask's position
+		If the flask hits an enemy or gets too far, it will return to the owner
+		Stealth strikes create six water spears and summon a swirling whitewater vortex that heals players and knocks back enemies
+		Allies that enter the vortex will heal for twice as long
+		''' */
 }
 
 Wrathwing: {
@@ -1436,95 +1370,24 @@ WulfrumKnife: {
 		'''
 }
 
-AntlionSkewer: {
-	// DisplayName: Antlion Skewer
-	/* Tooltip:
-		'''
-		Throws living, skewered Antlions that fire sand blasts
-		Stealth strikes spew a mess of sand balls and gust
-		Sand clouds temporarily lower enemy contact damage
-		''' */
-}
-
-DimensionTearingDisk: {
-	// DisplayName: Dimension-Tearing Disk
-	/* Tooltip:
-		'''
-		Throws a disk that tears space in the direction of the nearest enemy
-		Stealth strikes stick to enemies and unleash [c/ff00ff:God's Bane Doombeam Array]
-		''' */
-}
-
-DoomsdayDevice: {
-	// DisplayName: Doomsday Device
-	/* Tooltip:
-		'''
-		Direct hits from the weapon grant stealth
-		Non-stealth strikes do not consume stealth when fully charged
-		Holding a stealth strike charge beyond its limit rapidly drains stealth
-		Stealth strikes ricochet between multiple enemies, ending in a strong impact
-		'A high-tech explosive with devastating power... If only you could figure out how to arm it'
-		'At least you can throw it really hard!'
-		''' */
-}
-
-ReboundingRainbow: {
-	// DisplayName: Rebounding Rainbow
-	/* Tooltip:
-		'''
-		Throws a disk that has a chance to generate several disks if enemies are near it
-		Stealth strikes fly slower but travel farther, pierce through enemies, and spawn extra disks more frequently
-		''' */
-}
-
-ShatteredDawn: {
-	// DisplayName: Shattered Dawn
-	/* Tooltip:
-		'''
-		Throws daggers that split into scorching homing daggers
-		Stealth strikes fire volleys of homing daggers from the player on dagger hits that suck enemies in
-		''' */
-}
-
-SporeKnife: {
-	// DisplayName: Spore Knife
-	/* Tooltip:
-		'''
-		Throws an overgrown dagger that bursts into a cloud of poisonous spores
-		Stealth strikes erupt into hungry homing buds that stick to enemies and gnaw them
-		''' */
-}
-
-Vega: {
-	// DisplayName: Vega
-	/* Tooltip:
-		'''
-		Throws a spear that shatters into star fragments on impact and generates Starbursts
-		Stealth strikes conjure an image of Lyra to deal immense damage in an area
-		<right> to consume 20 Starbursts and immediately perform a stealth strike, regardless of your current Stealth
-		This strike calls all star fragments to attack the damaged foe and inflicts [cbuff:CalamityMod/Voidfrost]
-		Consuming Starbursts with Vega allows using stealth for 10 seconds, even without rogue armor
-		'The final song of a misunderstood genius... or just a madman'
-		''' */
-}
-
-Whitewater: {
-	// DisplayName: Whitewater
-	/* Tooltip:
-		'''
-		Throws a flask of magic white water at the cursor that glows after a short while
-		Flasks that hit enemies while glowing release four water spears that converge back on the flask's position
-		If the flask hits an enemy or gets too far, it will return to the owner
-		Stealth strikes create six water spears and summon a swirling whitewater vortex that heals players and knocks back enemies
-		Allies that enter the vortex will heal for twice as long
-		''' */
-}
-
 Pumpkaboom: {
 	// DisplayName: Pumpkaboom
 	/* Tooltip:
 		'''
 		Throws a pumpkin which sticks to enemies and explodes after a delay
 		Stealth strikes throw larger pumpkins which pull enemies in before releasing a larger explosion
+		''' */
+}
+
+LemonNade: {
+	// DisplayName: Lemon 'nade
+	/* Tooltip:
+		'''
+		Disables normal stealth generation
+		Hold <left> to pull the pin and generate stealth, and release to throw
+		The longer it is held, the shorter the fuse once the 'nade is thrown
+		Will explode in your hand if the fuse is held too long
+		Stealth strikes explode into exploding lemon seeds
+		'Burn their house down!'
 		''' */
 }

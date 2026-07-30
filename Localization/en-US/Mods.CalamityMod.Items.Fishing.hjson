@@ -1,7 +1,10 @@
 // Quest fish tooltips
-CaughtInAstral: "'Caught in the Astral Infection'"
-CaughtInBrimstoneCrag: "'Caught in the Brimstone Crag'"
-CaughtInSunkenSea: "'Caught in the Sunken Sea'"
+CaughtInAstral: Caught in the Astral Infection
+CaughtInBrimstoneCrag: Caught in the Brimstone Crag
+CaughtInSnow: Caught in Tundra
+CaughtInSpace: Caught in Sky Lakes
+CaughtInSunkenSea: Caught in the Sunken Sea
+LocationTooltip: "'{0}'"
 
 // Astral Infection Catches
 AldebaranAlewife: {
@@ -11,7 +14,7 @@ AldebaranAlewife: {
 
 ArcturusAstroidean: {
 	DisplayName: Arcturus Astroidean
-	Tooltip: Increases fishing power if used in the Astral Infection or Sulphurous Sea
+	Tooltip: Increases fishing power by {0}x when in the Astral Infection or Sulphurous Sea
 }
 
 AstralCrate: {
@@ -43,9 +46,10 @@ UrsaSergeant: {
 	DisplayName: Ursa Sergeant
 	Tooltip:
 		'''
-		Decreased movement speed by 15%
-		Immune to Astral Infection and Feral Bite
-		Increased regeneration at lower health
+		Attacks maul enemies with astral claw swipes that inflict [cbuff:CalamityMod/AstralInfectionDebuff]
+		Taking damage reduces the cooldown, but inflicts you with [cbuffplr:CalamityMod/AstralInfectionDebuff]
+		Enemy kills also reduce the cooldown
+		Swipes will be translucent and silent if visibility is disabled
 		'''
 }
 
@@ -54,16 +58,15 @@ Bloodfin: {
 	DisplayName: Bloodfin
 	Tooltip:
 		'''
-		Grants a buff that grants +2.5 HP/s life regen
-		This buff directly restores HP if below 75% health
-		10 second duration
+		Grants a buff that restores 1 HP every {0} seconds
+		{$CommonItemTooltip.SecondDuration@1}
 		'The wonders of angiogenesis'
 		'''
 }
 
 Brimlish: {
 	DisplayName: Brimlish
-	QuestDescription: When you defeated the Brimstone Elemental, her children fell in the lava as a result of the aftermath. Rumors say they mutated a fish, and I'd love if you fetched one for my new lava-filled fish tank.
+	QuestDescription: Did you really defeat that big fire lady? Well, I heard that her children fled into the lava, and one of them mutated into a fish! I'm not burning my hands though, so you catch it and bring it to me for my lava-filled tank!
 }
 
 BrimstoneCrate: {
@@ -100,14 +103,13 @@ DragoonDrizzlefish: {
 		'''
 		Fires an assortment of hellfire and brimstone fireballs
 		Sometimes fires a larger splitting fireball
-		Right click to feed the little boy some tasty gel
+		<right> to feed the little boy some tasty gel
 		'He is a hungry boy'
 		'''
 }
 
 Havocfish: {
 	DisplayName: Havocfish
-	Tooltip: Press <right> to extract essence
 	QuestDescription: When you killed that gross flesh wall, so much chaos and havoc was infused into those ruinous crags that even the lava sprouted fish made of the pure essence! Go fetch it for me, pure havoc sounds like exactly what my next scheme needs!
 }
 
@@ -123,10 +125,15 @@ SlagCrate: {
 
 Slurpfish: {
 	DisplayName: Slurpfish
-	QuestDescription: Y'know, it'd be an absolute calamity if I sent you to the ancient ruins in the depths of hell to catch a fish. And I plan to do just that. Now scram! The fish isn't going to catch itself.
+	QuestDescription: Hey {0}, wouldn't it be absolutely calamitous if I sent you to those ruins in the depths of hell? Well, I heard of a scary fish that can slurp the souls out of people! I want to keep my soul, so scram! The fish isn't going to catch itself!
 }
 
 // Sunken Sea Catches
+CoralskinFoolfish: {
+	DisplayName: Coralskin Foolfish
+	Tooltip: Camouflage is one of nature's best defenses
+}
+
 EutrophicCrate: {
 	DisplayName: Eutrophic Crate
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
@@ -134,12 +141,26 @@ EutrophicCrate: {
 
 EutrophicSandfish: {
 	DisplayName: Eutrophic Sandfish
-	QuestDescription: You ever get to see what would happen if a lizard that lived in the desert scurried too deep underground? I did, and they sure are cool! But it's way too slippery for me to get my hands on it now. You go and get it so I can keep it as a pet!
+	QuestDescription: You ever wondered what would happen if a lizard that lived in the desert wandered too deep into those old Ilmeran areas? Well I know, and it looks super cool! But it's way too slippery for me to get my hands on, so you go and get it so I can keep it as a pet!
+}
+
+GleamingCucumber: {
+	DisplayName: Gleaming Cucumber
+	Tooltip: A slippery, slimy creature found on the Polyp Forest's floor
 }
 
 GreenwaveLoach: {
 	DisplayName: Greenwave Loach
 	Tooltip: An endangered fish that is highly prized in the market
+}
+
+MoltenFishron: {
+	DisplayName: Molten Fishron
+	Tooltip:
+		'''
+		Instead of honking it makes crisp wheezing noises 
+		Or maybe it actually is wheezing due to being taken out of lava
+		'''
 }
 
 PrismCrate: {
@@ -156,25 +177,20 @@ RustedJingleBell: {
 	DisplayName: Rusted Jingle Bell
 	Tooltip:
 		'''
-		Summons a baby ghost bell light pet
+		Summons a baby ghost bell to light the way for you
 		Provides a moderate amount of light while underwater
+		{$Common.AbyssLightLevel}
 		'''
 }
 
 SerpentsBite: {
 	DisplayName: Serpent's Bite
-	Tooltip:
-		'''
-		Reach: 28.125
-		Launch Velocity: 18
-		Reelback Velocity: 14
-		Pull Velocity: 12
-		'''
+	Tooltip: "{$Common.GrappleStats}"
 }
 
 Serpentuna: {
 	DisplayName: Serpentuna
-	QuestDescription: Sea serpents are pretty but not as pretty as the look on someone's face when they find one in their chair. I need you to fetch me the props for my next big scare, and the deadline is tomorrow.
+	QuestDescription: I'm tired of always losing my allowance to those serpents in the Ilmeran water! I wanna fish up all the baby serpents, and I need YOUR help to do it! ...What? No, I'm not trying to steal money from others...
 }
 
 SparklingEmpress: {
@@ -186,6 +202,20 @@ SparklingEmpress: {
 		'''
 }
 
+SpecularSturgeon: {
+	DisplayName: Specular Sturgeon
+	Tooltip:
+		'''
+		A deep-dwelling fish that can live for many generations
+		Needless to say, it's old!
+		'''
+}
+
+Squidoom: {
+	DisplayName: Squidoom
+	Tooltip: Those who gaze at it for too long are said to enter a hypnotic state
+}
+
 SunkenSailfish: {
 	DisplayName: Sunken Sailfish
 	Tooltip: Zooming at 60 miles per hour
@@ -193,7 +223,7 @@ SunkenSailfish: {
 
 SurfClam: {
 	DisplayName: Surf Clam
-	QuestDescription: Did you know that clams are a delicacy? Rumor has it that a big colony lives beneath the Desert. Just talking about them makes me hungry. I need you to fetch one for me, so I can practice my culinary skills and curb my hunger.
+	QuestDescription: Rumor has it that a massive swarm of clams has taken over that sea under the desert! Clams are a delicacy, so just hearing that makes me hungry! Will you help me curb my hunger? Of course you will! Just make sure my clam and you make it back in one piece!
 }
 
 // Other Catches
@@ -208,33 +238,22 @@ EnchantedStarfish: {
 
 FishofEleum: {
 	DisplayName: Fish of Eleum
-	Tooltip: Press <right> to extract essence
 	QuestDescription: It's so unfair that all the cool fish only come out when you slay big demon guys! I mean that "cool" in two ways by the way. I've seen fish in the tundra materialized out of the essence of pure coldness! It's about time I get an ice pack for my fish, so fetch me that fish, or you're cold!
 }
 
 FishofFlight: {
 	DisplayName: Fish of Flight
-	Tooltip: Press <right> to extract souls
-}
-
-FishofLight: {
-	DisplayName: Fish of Light
-	Tooltip: Press <right> to extract souls
-}
-
-FishofNight: {
-	DisplayName: Fish of Night
-	Tooltip: Press <right> to extract souls
+	Tooltip: Press <right> to extract [i:SoulofFlight] souls
 }
 
 GlimmeringGemfish: {
 	DisplayName: Glimmering Gemfish
-	Tooltip: Press <right> to extract gems
+	Tooltip: Press <right> to extract [ITEMS] gems
 }
 
 Gorecodile: {
 	DisplayName: Gorecodile
-	Tooltip: Press <right> to extract blood orbs
+	Tooltip: Press <right> to extract [i:CalamityMod/BloodOrb] blood orbs
 }
 
 HydrothermalCrate: {
@@ -246,14 +265,19 @@ Spadefish: {
 	DisplayName: Spadefish
 	Tooltip:
 		'''
+		Throws a spadefish at enemies
+		Stealth Strikes cause you to spin the spade before throwing, damaging nearby enemies
+		[c/aaaaaa:Shift-<right> this item in your inventory to [TOGGLE] breaking tiles]
 		'How can a fish be used to dig through the ground?
 		Some questions are best left unanswered...'
 		'''
+	TextWhileEnabled: disable
+	TextWhileDisabled: enable
 }
 
 StuffedFish: {
 	DisplayName: Stuffed Fish
-	Tooltip: Press <right> to extract herbs and seeds
+	Tooltip: Press <right> to extract [HERBS] herbs and [SEEDS] seeds
 }
 
 SulphurousCrate: {
@@ -263,7 +287,6 @@ SulphurousCrate: {
 
 SunbeamFish: {
 	DisplayName: Sunbeam Fish
-	Tooltip: Press <right> to extract essence
 	QuestDescription: Have you ever seen those sunskaters that float way above the clouds? Well, I'll let you in on my little secret: They began their lives as little fish! So what are you waiting for, go reach for the stars and pluck one down for me!
 }
 
@@ -290,7 +313,7 @@ HeronRod: {
 	DisplayName: Heron Rod
 	Tooltip:
 		'''
-		Increased fishing power in space
+		Increases fishing power by {0}x when in space
 		'A silent head and beak lanced down and plucked it out by the head,
 		and the beak swallowed the little fish while its tail waved frantically.'
 		'''
@@ -300,9 +323,9 @@ NavyFishingRod: {
 	DisplayName: Navy Fishing Rod
 	Tooltip:
 		'''
-		While held, slowly electrifies nearby enemies
-		'The sea is a city.
-		Just below are highways, boulevards, streets and roundabouts bustling with submarine traffic.'
+		Fires bobbers that inflict [cbuff:CalamityMod/StaticDischarge] on nearby enemies
+		'The sea is a city. Just below are highways, boulevards,
+		streets, and roundabouts bustling with submarine traffic.'
 		'''
 }
 
@@ -310,8 +333,8 @@ RiftReeler: {
 	DisplayName: Rift Reeler
 	Tooltip:
 		'''
-		Fires three to five lines at once
-		Can fish in lava
+		Fires four lines at once. Bobbers deal damage upon contact with enemies
+		Allows fishing in lava
 		'The battlefield is a scene of constant chaos.
 		The winner will be the one who controls that chaos, both the pole and the fish.'
 		'''
@@ -321,7 +344,7 @@ SlurperPole: {
 	DisplayName: Slurper Pole
 	Tooltip:
 		'''
-		Can fish in lava
+		Allows fishing in lava
 		'It is the burning lava of the soul that has a furnace within--a very volcano of grief and sorrow.'
 		'''
 }
@@ -330,8 +353,21 @@ TheDevourerofCods: {
 	DisplayName: The Devourer of Cods
 	Tooltip:
 		'''
-		Fires ten lines at once. Line never snaps and can fish from lava
+		Fires ten lines at once. Line never breaks and allows fishing in lava
+		Hooked items stay hooked forever
+		Common fish are automatically consumed while fishing
+		Consuming fish allows a bobber to hook a new item and feeds the user
 		'The devourer was once just an Eater of Shoals'
+		'''
+}
+
+TrustyOldRod: {
+	DisplayName: Trusty Old Rod
+	Tooltip: Allows for especially..."exotic" hauls
+	SalesPitch:
+		'''
+		'Me and Hoggart have worked together with the best fishermen in the world to bring you the most effective rod on the market!'
+		'With state-of-the-art technology, you can fish anything! Don't let a single creature elude your hook anymore!'
 		'''
 }
 
@@ -339,84 +375,42 @@ VerstaltiteFishingRod: {
 	DisplayName: Verstaltite Fishing Rod
 	Tooltip:
 		'''
-		Increased fishing power when in the tundra
+		Increases fishing power by {0}x when in the tundra
 		The ancient alloy's prismatic qualities are perfect for attracting fish
 		'''
 }
 
 WulfrumRod: {
 	DisplayName: Wulfrum Fishing Pole
-	Tooltip: "'This barely works, but it's better than nothing...'"
+	Tooltip:
+		'''
+		Can fish up Wulfrum Metal Scrap and Wulfrum Energy Cores
+		'This barely works, but it's better than nothing...'
+		'''
 }
 
 // Bait
+RageBait: {
+	DisplayName: Rage Bait
+	Tooltip:
+		'''
+		Detects hooked fish
+		Profoundly unreliable
+		'''
+	SalesPitch:
+		'''
+		'Do you want to know a secret? Fishing takes so long because the fish are dumb! They'll always swim right by your hook!'
+		'But with this bait right here? No longer! It'll make your hook the only thing they can think of. You'll be swimming in fishes in the blink of an eye!' 
+		'''
+}
+
 GrandMarquisBait: {
 	DisplayName: Grand Marquis Bait
 	Tooltip: ""
 }
 
-CaughtInSnow: Caught in Tundra
-CaughtInSpace: Caught in Sky Lakes
-LocationTooltip: "'{0}'"
-
-// Sunken Sea Catches
-CoralskinFoolfish: {
-	DisplayName: Coralskin Foolfish
-	Tooltip: Camouflage is one of nature's best defenses
-}
-
-GleamingCucumber: {
-	DisplayName: Gleaming Cucumber
-	Tooltip: A slippery, slimy creature found on the Polyp Forest's floor
-}
-
-MoltenFishron: {
-	DisplayName: Molten Fishron
-	Tooltip:
-		'''
-		Instead of honking it makes crisp wheezing noises 
-		Or maybe it actually is wheezing due to being taken out of lava
-		'''
-}
-
-SpecularSturgeon: {
-	DisplayName: Specular Sturgeon
-	Tooltip:
-		'''
-		A deep-dwelling fish that can live for many generations
-		Needless to say, it's old!
-		'''
-}
-
-Squidoom: {
-	DisplayName: Squidoom
-	Tooltip: Those who gaze at it for too long are said to enter a hypnotic state
-}
-
 // Bobbers
-ScrapBobber: {
-	DisplayName: Wulfrum Bobber
-	Tooltip:
-		'''
-		Provides a fishing minigame
-		Move in the indicated direction while fishing to catch items
-		The rod empowers the longer you go without a mistake, speeding it up
-		'There's supposed to be a fish finder installed, but it only beeps when you point it at yourself...'
-		'''
-}
-
-NavystoneBobber: {
-	DisplayName: Sunken Sinker
-	Tooltip:
-		'''
-		{$ItemTooltip.FishingBobber}
-		Provides a fishing minigame
-		The bobber will float at your height underwater, allowing underwater fishing
-		Move in the indicated direction while fishing to catch items
-		'''
-}
-
-SkylineBobber: {
+AcrobaticBobber: {
 	DisplayName: Acrobatic Bobber
 	Tooltip:
 		'''
@@ -429,7 +423,7 @@ SkylineBobber: {
 		'''
 }
 
-PerennialBobber: {
+FeralBobber: {
 	DisplayName: Feral Bobber
 	Tooltip:
 		'''
@@ -441,7 +435,18 @@ PerennialBobber: {
 		'''
 }
 
-ScoriaBobber: {
+SunkenSinker: {
+	DisplayName: Sunken Sinker
+	Tooltip:
+		'''
+		{$ItemTooltip.FishingBobber}
+		Provides a fishing minigame
+		The bobber will float at your height underwater, allowing underwater fishing
+		Move in the indicated direction while fishing to catch items
+		'''
+}
+
+VolcanicSinker: {
 	DisplayName: Volcanic Sinker
 	Tooltip:
 		'''
@@ -451,5 +456,16 @@ ScoriaBobber: {
 		Moving while fishing instead moves your bobbers
 		Rifts appear over time in liquids, containing an item
 		When bobbers touch a rift, they automatically reel in the item within
+		'''
+}
+
+WulfrumBobber: {
+	DisplayName: Wulfrum Bobber
+	Tooltip:
+		'''
+		Provides a fishing minigame
+		Hold movement inputs in the indicated directions while fishing to catch items
+		The rod empowers the longer you go without a mistake, speeding it up
+		'There's supposed to be a fish finder installed, but it only beeps when you point it at yourself...'
 		'''
 }

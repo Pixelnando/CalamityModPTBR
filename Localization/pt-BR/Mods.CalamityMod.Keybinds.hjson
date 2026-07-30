@@ -1,19 +1,19 @@
 ActivateAccessoryParry.DisplayName: Ativar Aparada do Acessório
 AdrenalineMode.DisplayName: Modo Adrenalina
+AmmoCycle.DisplayName: Tecla de Alternar a Munição
 AngelicAllianceBlessing.DisplayName: Bênção da Aliança Angelical
 ArmorSetBonus.DisplayName: Bônus de Conjunto da Armadura
 AscendantInsigniaHotKey.DisplayName: Voo da Insígnia Ascendente
 BoosterDash.DisplayName: Investida do Dínamo
 DashDoubleTapOverride.DisplayName: Sobrescrição do Toque Duplo para Investida
-ExoChairSlowDown.DisplayName: Desaceleração da Exo-cadeira
-GodSlayerDash.DisplayName: Investida do Caça-Deuses
+ExoChairSlowDown.DisplayName: Desaceleração da Cadeira Exo
+GodSlayerDash.DisplayName: Investida do Caça-deuses
 GravistarSabatonHotkey.DisplayName: Tecla do Sapato da Gravidade Estelar
 NormalityRelocator.DisplayName: Realocador de Normalidade
 RageMode.DisplayName: Modo Fúria
-SandCloakEffect.DisplayName: Efeito da Capa de Areia
 SpectralVeilTeleport.DisplayName: Teleporte do Véu Espectral
-// AmmoCycle.DisplayName: Ammo Cycle Hotkey
-// TransformerHotKey.DisplayName: Transformer Hot Key
+TransformerHotKey.DisplayName: Tecla do Transformador
 // GravitySwapOverride.DisplayName: Gravity Swap Override
-// ExpandDebuffInfo.DisplayName: See Debuff Information
-// ThePointerLock.DisplayName: The Pointer Lock On
+ExpandDebuffInfo.DisplayName: Ver Informações do Efeito Negativo
+ThePointerLock.DisplayName: Foco do Ponteiro
+// SpringStoolJumpHotKey.DisplayName: Spring Stool Jump Hotkey

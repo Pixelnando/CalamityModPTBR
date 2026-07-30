@@ -2,23 +2,9 @@ AureateBooster: {
 	DisplayName: Impulsionador Aurífero
 	Tooltip:
 		'''
-		Velocidade horizontal: 8.00
-		Multiplicador de aceleração: 1.5
-		Velocidade vertical boa
-		Tempo de voo: 120
+		{$CommonItemTooltip.FlightAndSlowfall}
+		{$CommonItemTooltip.PressUpToBooster}
 		'Velocidade máxima com estilo!'
-		'''
-}
-
-WingsofRebirth: {
-	DisplayName: Asas do Renascimento
-	Tooltip:
-		'''
-		Velocidade horizontal: 11.50
-		Multiplicador de aceleração: 2.9
-		Velocidade vertical excelente
-		Tempo de voo: 360
-		'Resplandecentes até o fim'
 		'''
 }
 
@@ -26,11 +12,7 @@ ElysianWings: {
 	DisplayName: Asas do Elisio
 	Tooltip:
 		'''
-		Velocidade horizontal: 9.50
-		Multiplicador de aceleração: 2.7
-		Velocidade vertical ótima
-		Tempo de voo: 240
-		Imunidade temporária à lava e 10% de aumento na velocidade dos movimentos
+		{$CommonItemTooltip.FlightAndSlowfall}
 		Abençoadas pela Chama Profana
 		'''
 }
@@ -39,11 +21,8 @@ ExodusWings: {
 	DisplayName: Asas do Êxodo
 	Tooltip:
 		'''
-		Velocidade horizontal: 9.00
-		Multiplicador de aceleração: 2.5
-		Velocidade vertical ótima
-		Tempo de voo: 180
-		5% de aumento nos danos por ataques ladinos e na chance de ataque crítico ladino ao vestir a armadura empírica
+		{$CommonItemTooltip.FlightAndSlowfall}
+		Oferece [cbuffplr:CalamityMod/EmpyreanWrath] permamentemente enquanto veste a armadura Empírica
 		Pulsando com um batimento cardíaco alienígena
 		'''
 }
@@ -52,11 +31,7 @@ HadalMantle: {
 	DisplayName: Manto Hadal
 	Tooltip:
 		'''
-		Velocidade horizontal: 7.75
-		Multiplicador de aceleração: 1.5
-		Velocidade vertical mediana
-		Tempo de voo: 180
-		5% de aumento nos danos ao vestir a armadura hidrotérmica
+		{$CommonItemTooltip.FlightAndSlowfall}
 		Alimentado pela fúria das profundezas
 		'''
 }
@@ -65,10 +40,7 @@ HadarianWings: {
 	DisplayName: Asas Hadarianas
 	Tooltip:
 		'''
-		Velocidade horizontal: 9.00
-		Multiplicador de aceleração: 1.75
-		Velocidade vertical boa
-		Tempo de voo: 90
+		{$CommonItemTooltip.FlightAndSlowfall}
 		{$CommonItemTooltip.PressDownToHover}
 		Alimentado pela Infecção Astral
 		'''
@@ -78,14 +50,40 @@ MOAB: {
 	DisplayName: MOAB
 	Tooltip:
 		'''
-		Conta como asas
-		Velocidade horizontal: 6.50
-		Multiplicador de aceleração: 1.0
-		Velocidade vertical boa
-		Tempo de voo: 75
-		10% de aumento na velocidade dos pulos e permite o pulo automático
+		{$CommonItemTooltip.FlightAndSlowfall}
+		{$CommonItemTooltip.PressUpToBooster}
+		32% de aumento na velocidade dos pulos e permite o pulo automático
 		Concede ao jogador saltos no ar de nuvem, nevasca e tempestade de areia
+		[c/aaaaaa:Segure Shift e <right> neste item para alternar o efeito do] [i:Jetpack] [c/aaaaaa:jetpack]
 		'A mãe de todos os balões'
+		'''
+}
+
+MoonWalkers: {
+	DisplayName: Andadores Lunares
+	TreadsName: Botas Lunares
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		24% de aumento na aceleração de corrida
+		Fornece os efeitos das [i:CalamityMod/AngelTreads] Rastreadoras Serafim
+		Oferece imunidade à lava
+		[c/aaaaaa:Segure Shift e <right> neste item para alternar as] [i:AngelWings] [c/aaaaaa:asas]
+		'Hee hee!'
+		'''
+}
+
+SeraphTracers: {
+	DisplayName: Rastreadoras Serafim
+	TreadsName: Pisantes Serafim
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		50% de aumento na aceleração da corrida
+		Fornece os efeitos das [i:CalamityMod/AngelTreads] Pisantes Angelicais
+		Oferece imunidade à lava e peças danosas, incluindo o [i:CalamityMod/AuricOre] Minério Áurico
+		[c/aaaaaa:Segure Shift e <right> neste item para alternar as] [i:AngelWings] [c/aaaaaa:asas]
+		'Levando a velocidade AO ALÉM!'
 		'''
 }
 
@@ -93,37 +91,21 @@ SilvaWings: {
 	DisplayName: Asas de Silva
 	Tooltip:
 		'''
-		Velocidade horizontal: 10.50
-		Multiplicador de aceleração: 2.8
-		Velocidade vertical excelente
-		Tempo de voo: 270
-		O reviver Silva cura você até a metade da vida ao vestir a armadura de Silva
+		{$CommonItemTooltip.FlightAndSlowfall}
 		'As mais puras da natureza'
 		'''
 }
 
 SkylineWings: {
 	DisplayName: Asas do Horizonte
-	Tooltip:
-		'''
-		Velocidade horizontal: 6.25
-		Multiplicador de aceleração: 1.0
-		Velocidade vertical mediana
-		Tempo de voo: 80
-		'''
+	Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 }
 
 SoulofCryogen: {
 	DisplayName: Alma do Criogênio
 	Tooltip:
 		'''
-		Conta como asas
-		Velocidade horizontal: 6.25
-		Multiplicador de aceleração: 1.0
-		Velocidade vertical mediana
-		Tempo de voo: 120
-		7% de aumento em todos os danos
-		Todos os ataques físicos e projéteis causam queimadura de gelo
+		{$CommonItemTooltip.FlightAndSlowfall}
 		Gelo chove enquanto você voa
 		'''
 }
@@ -132,11 +114,7 @@ StarlightWings: {
 	DisplayName: Asas da Luz Estelar
 	Tooltip:
 		'''
-		Velocidade horizontal: 7.50
-		Multiplicador de aceleração: 1.0
-		Velocidade vertical mediana
-		Tempo de voo: 150
-		5% de aumento nos danos e na chance de ataque crítico ao vestir a armadura de Dédalo
+		{$CommonItemTooltip.FlightAndSlowfall}
 		Asas do Rouxinol
 		'''
 }
@@ -145,102 +123,30 @@ TarragonWings: {
 	DisplayName: Asas de Estragão
 	Tooltip:
 		'''
-		Velocidade horizontal: 9.50
-		Multiplicador de aceleração: 2.5
-		Velocidade vertical ótima
-		Tempo de voo: 250
-		15 de aumento na defesa e regeneração de +1 de vida por segundo ao vestir a armadura de estragão
+		{$CommonItemTooltip.FlightAndSlowfall}
 		'Nascido da selva'
 		'''
 }
 
-TracersCelestial: {
-	DisplayName: Rastreadores Celestiais
-	Tooltip:
-		'''
-		Conta como asas
-		Velocidade horizontal: 9.00
-		Multiplicador de aceleração: 2.6
-		Velocidade vertical boa
-		Tempo de voo: 140
-		24% de aumento na aceleração de corrida e melhor mobilidade no gelo
-		Permite andar sobre a água, mel e lava
-		Concede imunidade temporária à lava
-		'Velocidade ridícula!'
-		'''
-}
-
-TracersElysian: {
-	DisplayName: Rastreadores do Elísio
-	Tooltip:
-		'''
-		Conta como asas
-		Velocidade horizontal: 10.00
-		Multiplicador de aceleração: 2.7
-		Velocidade vertical ótima
-		Tempo de voo: 180
-		36% de aumento na aceleração de corrida e melhor mobilidade no gelo
-		Permite andar sobre a água, mel e lava
-		Concede imunidade temporária ao fogo e à lava
-		'Velocidade ridícula!'
-		'''
-}
-
-TracersSeraph: {
-	DisplayName: Rastreadores Serafim
-	Tooltip:
-		'''
-		Conta como asas
-		Velocidade horizontal: 11.00
-		Multiplicador de aceleração: 2.8
-		Velocidade vertical excelente
-		Tempo de voo: 250
-		50% de aumento na aceleração de corrida e melhor mobilidade no gelo
-		Permite andar sobre a água, mel e lava
-		Concede imunidade temporária ao fogo, lava, e blocos com efeitos daníficos
-		Ser atingido por mais de 200 de dano o deixará imune por um longo período de tempo
-		'Levando a velocidade AO ALÉM!'
-		'''
-}
-
-MoonWalkers: {
-	// DisplayName: Moon Walkers
-	// TreadsName: Moon Boots
-	/* Tooltip:
-		'''
-		{$CommonItemTooltip.FlightAndSlowfall}
-		24% increased running acceleration
-		Provides the effects of [i:CalamityMod/AngelTreads] Angel Treads
-		Provides immunity to lava
-		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:AngelWings] [c/aaaaaa:wings]
-		'Hee hee!'
-		''' */
-}
-
-SeraphTracers: {
-	// DisplayName: Seraph Tracers
-	// TreadsName: Seraph Treads
-	/* Tooltip:
-		'''
-		{$CommonItemTooltip.FlightAndSlowfall}
-		50% increased running acceleration
-		Provides the effects of [i:CalamityMod/AngelTreads] Angel Treads
-		Provides immunity to lava and damaging tiles, including [i:CalamityMod/AuricOre] Auric Ore
-		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:AngelWings] [c/aaaaaa:wings]
-		'Taking speed EVEN FURTHER BEYOND!'
-		''' */
-}
-
 VoidStriders: {
-	// DisplayName: Void Striders
-	// TreadsName: Void Kicks
-	/* Tooltip:
+	DisplayName: Andarilhos do Vazio
+	TreadsName: Chuteiras do Vazio
+	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
-		36% increased running acceleration
-		Provides the effects of [i:CalamityMod/AngelTreads] Angel Treads
-		Provides immunity to lava
-		[c/aaaaaa:Shift-<right> this item in your inventory to toggle the] [i:AngelWings] [c/aaaaaa:wings]
-		'Ludicrous speed!'
-		''' */
+		36% de aumento na aceleração da corrida
+		Fornece os efeitos das [i:CalamityMod/AngelTreads] Pisantes Angelicais
+		Oferece imunidade à lava
+		[c/aaaaaa:Segure Shift e <right> neste item para alternar as] [i:AngelWings] [c/aaaaaa:asas]
+		'Velocidade ridícula!'
+		'''
+}
+
+WingsofRebirth: {
+	DisplayName: Asas do Renascimento
+	Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		'Resplandecentes até o fim'
+		'''
 }

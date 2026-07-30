@@ -1,88 +1,173 @@
 AuricTeslaBodyArmor: {
 	DisplayName: Armadura Corporal de Tesla Áurica
-	Tooltip:
-		'''
-		+100 de vida máxima
-		8% de aumento nos danos e 5% de aumento na chance de acerto crítico
-		'''
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage} e {$CommonItemTooltip.PercentIncreasedCritChance@1}"
 }
 
 AuricTeslaCuisses: {
 	DisplayName: Grevas de Tesla Áurica
 	Tooltip:
 		'''
-		10% de aumento na velocidade dos movimentos
-		12% de aumento nos danos e 5% de aumento na chance de acerto crítico
-		Efeito do Tapete Mágico
+		{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		Fornece um tapete voador mágico
+		[c/aaaaaa:Segure Shift e <right> no seu inventário para alternar o efeito do] [i:FlyingCarpet] [c/aaaaaa:Tapete Voador]
 		'''
 }
 
-AuricTeslaHoodedFacemask: {
-	DisplayName: Máscara Facial Encapuzada de Tesla Áurica
-	Tooltip: 30% de aumento nos danos por ataque à distância e na chance de acerto crítico à distância
-	SetBonus: Efeitos dos conjuntos de ataque à distância de Estragão, Chamas Sangrentas e Caça-Deuses
-}
-
-AuricTeslaPlumedHelm: {
-	DisplayName: Elmo Emplumado de Tesla Áurica
+AuricTeslaHeadRanged: {
+	DisplayName: Máscara com Capuz de Tesla Áurica
 	Tooltip:
 		'''
-		20% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
-		5% de aumento na velocidade dos movimentos
+		{$CommonItemTooltip.PercentIncreasedRangedDamage} e {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
 	SetBonus:
 		'''
-		Efeitos dos conjuntos de ataque ladino de Estragão, Chamas Sangrentas e Caça-Deuses
-		+130 de furtividade máxima
+		Efeitos das armaduras de Estragão, Chamas Sangrentas e Caça-deuses de ataque à distância
+		Segure Shift para ver os detalhes destes bônus de conjuntos e aperte Shift repetidamente para alternar entre eles
+		'''
+	SetBonus1:
+		'''
+		Bônus de Armadura herdado (Estragão):
+		{$TarragonHeadRanged.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		Bônus de Armadura herdado (Chamas Sangrentas):
+		{$BloodflareHeadRanged.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		Bônus de Armadura herdado (Caça-deuses):
+		{$GodSlayerHeadRanged.SetBonusEffect}
 		'''
 }
 
-AuricTeslaRoyalHelm: {
+AuricTeslaHeadRogue: {
+	DisplayName: Elmo Plumado de Tesla Áurica
+	Tooltip:
+		'''
+		{$Common.RogueDamage} e {$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		Efeitos das armaduras de Estragão, Chamas Sangrentas e Caça-deuses ladinas
+		Segure Shift para ver os detalhes destes bônus de conjuntos e aperte Shift repetidamente para alternar entre eles
+		'''
+	SetBonus1:
+		'''
+		Bônus de Armadura herdado (Estragão):
+		{$TarragonHeadRogue.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		Bônus de Armadura herdado (Chamas Sangrentas):
+		{$BloodflareHeadRogue.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		Bônus de Armadura herdado (Caça-deuses):
+		{$GodSlayerHeadRogue.SetBonusEffect}
+		'''
+}
+
+AuricTeslaHeadMelee: {
 	DisplayName: Elmo Real de Tesla Áurica
 	Tooltip:
 		'''
-		20% de aumento nos danos por ataque físico
-		10% de aumento na chance de acerto crítico físico
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@1}
 		'''
 	SetBonus:
 		'''
-		Efeitos dos conjuntos de ataque físico de Estragão, Chamas Sangrentas e Caça-Deuses
-		A chance dos inimigos mirarem em você é maior
-		28% de aumento na velocidade do ataque físico
+		{$Common.AggroBoost}
+		Efeitos das armaduras de Estragão, Chamas Sangrentas e Caça-deuses de ataque físico
+		Segure Shift para ver os detalhes destes bônus de conjuntos e aperte Shift repetidamente para alternar entre eles
+		'''
+	SetBonus1:
+		'''
+		Bônus de Armadura herdado (Estragão):
+		{$TarragonHeadMelee.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		Bônus de Armadura herdado (Chamas Sangrentas):
+		{$BloodflareHeadMelee.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		Bônus de Armadura herdado (Caça-deuses):
+		{$GodSlayerHeadMelee.SetBonusEffect}
 		'''
 }
 
-AuricTeslaSpaceHelmet: {
-	DisplayName: Elmo Espacial de Tesla Áurica
-	Tooltip: 15% de aumento nos danos por invocação
+AuricTeslaHeadSummon: {
+	DisplayName: Capacete Espacial de Tesla Áurica
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
 	SetBonus:
 		'''
-		Efeitos dos conjuntos de invocação de Estragão, Chamas Sangrentas e Silva
-		5% de aumento na velocidade de corrida e aceleração máxima
-		+6 lacaios máximos e 75% de aumento nos danos por invocação
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		Efeitos das armaduras de Estragão, Chamas Sangrentas e Silva de ataque físico de invocação
+		Segure Shift para ver os detalhes destes bônus de conjuntos e aperte Shift repetidamente para alternar entre eles
+		'''
+	SetBonus1:
+		'''
+		Bônus de Armadura herdado (Estragão):
+		{$TarragonHeadSummon.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		Bônus de Armadura herdado (Chamas Sangrentas):
+		{$BloodflareHeadSummon.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		Bônus de Armadura herdado (Silva):
+		{$SilvaHeadSummon.SetBonusEffect}
 		'''
 }
 
-AuricTeslaWireHemmedVisage: {
-	DisplayName: Protetor Facial Aramado de Tesla Áurica
-	Tooltip: 30% de aumento nos danos por magia, 20% de aumento na chance de acerto crítico mágico, +100 de mana máxima e 20% de de redução no custo de mana
+AuricTeslaHeadMagic: {
+	DisplayName: Visor Aramado de Tesla Áurica
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy} e {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} e {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		'''
 	SetBonus:
 		'''
-		Efeitos dos conjuntos de magia de Estragão, Chamas Sangrentas e Silva
-		5% de aumento na velocidade de corrida e aceleração máxima
+		Efeitos das armaduras de Estragão, Chamas Sangrentas e Silva de magia
+		Segure Shift para ver os detalhes destes bônus de conjuntos e aperte Shift repetidamente para alternar entre eles
+		'''
+	SetBonus1:
+		'''
+		Bônus de Armadura herdado (Estragão):
+		{$TarragonHeadMagic.SetBonusEffect}
+		'''
+	SetBonus2:
+		'''
+		Bônus de Armadura herdado (Chamas Sangrentas):
+		{$BloodflareHeadMagic.SetBonusEffect}
+		'''
+	SetBonus3:
+		'''
+		Bônus de Armadura herdado (Silva):
+		{$SilvaHeadMagic.SetBonusEffect}
 		'''
 }
 
 BloodflareBodyArmor: {
 	DisplayName: Armadura Corporal de Chamas Sangrentas
-	Tooltip:
-		'''
-		12% de aumento nos danos e 8% de aumento na chance de acerto crítico
-		+40 de vida máxima
-		'''
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage} and {$CommonItemTooltip.PercentIncreasedCritChance@1}"
 	CommonSetBonus:
 		'''
-		Aumenta muito a regeneração de vida, equivalente à armadura do Carmim
 		Inimigos com menos de 50% de vida deixam cair corações quando atingidos
 		Este efeito tem um tempo de recarga de 5 segundos
 		'''
@@ -90,111 +175,116 @@ BloodflareBodyArmor: {
 
 BloodflareCuisses: {
 	DisplayName: Grevas de Chamas Sangrentas
-	Tooltip: 17% de aumento na velocidade dos movimentos, 10% de aumento nos danos e 7% de aumento na chance de acerto crítico
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedDamage} e {$CommonItemTooltip.PercentIncreasedCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+		'''
 }
 
 BloodflareHeadMagic: {
 	DisplayName: Capuz da Hidra de Chamas Sangrentas
-	Tooltip: 20% de aumento nos danos por magia, 10% de aumento na chance de acerto crítico mágico, +100 de mana máxima e 17% de de redução no custo de mana
-	SetBonus:
+	Tooltip:
 		'''
-		Armas de magia disparam raios fantasmagóricos a cada 1,67 segundos
-		Acertos críticos mágicos causam explosões de chamas a cada 2 segundos
+		{$CommonItemTooltip.IncreasesMaxManaBy} e {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} e {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
 		'''
-	/* SetBonusEffect:
+	SetBonus: "{$BloodflareHeadMagic.SetBonusEffect}"
+	SetBonusEffect:
 		'''
-		Magic weapons fire ghostly bolts every {0} seconds
-		Magic critical strikes cause blood explosions every {1} seconds
+		Armas mágicas disparam raios fantasmagóricos a cada {0} segundos
+		Golpes críticos mágicos criam explosões de sangue a cada {1} segundo
 		{$BloodflareBodyArmor.CommonSetBonus}
-		''' */
+		'''
 }
 
 BloodflareHeadMelee: {
 	DisplayName: Máscara do Carneiro de Chamas Sangrentas
-	Tooltip: 10% de aumento nos danos por ataque físico e 5% de aumento na chance de acerto crítico físico
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage} e {$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+		'''
 	SetBonus:
 		'''
-		18% de aumento na velocidade do ataque físico
-		A chance dos inimigos mirarem em você é maior
-		Ataques físicos verdadeiros irão curar você
-		Depois de atingir um inimigo 15 vezes com ataques físicos verdadeiros, você entrará em um frenesi de sangue por 5 segundos
-		Durante a frenesi, você receberá 25% de aumento nos danos por ataque físico, chance de acerto crítico físico e o dano de contato será cortado pela metade
-		Este efeito tem um tempo de recarga de 30 segundos
+		{$Common.AggroBoost}
+		{$BloodflareHeadMelee.SetBonusEffect}
 		'''
-	/* SetBonusEffect:
+	SetBonusEffect:
 		'''
-		After striking an enemy {0} times with true melee you will enter a blood frenzy for {1} seconds
-		During this you will gain {2}% increased melee damage, critical strike chance, and {3}% reduced contact damage
-		This effect has a {4} second cooldown
+		Depois de atingir um inimigo {0} vezes com ataques físicos verdadeiros, você entrará em um frenesi de sangue por {1} segundos
+		Durante a frenesi, você receberá {2}% de aumento nos danos por ataque físico, chance de acerto crítico físico e o dano de contato será reduzido em {3}%
+		Este efeito tem um tempo de recarga de {4} segundos
 		{$BloodflareBodyArmor.CommonSetBonus}
-		''' */
+		'''
 }
 
 BloodflareHeadRanged: {
 	DisplayName: Elmo com Chifres de Chamas Sangrentas
-	Tooltip: 10% de aumento nos danos por ataque à distância e na chance de acerto crítico à distância
-	SetBonus:
+	Tooltip:
+		'''
+		{$CommonItemTooltip.PercentIncreasedRangedDamageCritChance}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@1}
+		'''
+	SetBonus: "{$BloodflareHeadRanged.SetBonusEffect}"
+	SetBonusEffect:
 		'''
 		Pressione {0} para liberar as almas perdidas de polterghast para destruir seus inimigos
-		Este efeito tem um tempo de recarga de 30 segundos
-		Armas de ataque à distância disparam orbes de explosão de sangue a cada 2,5 segundos
-		'''
-	/* SetBonusEffect:
-		'''
-		{0} to unleash the lost souls of polterghast to destroy your enemies
-		This effect has a {1} second cooldown
-		Ranged weapons fire bloodsplosion orbs every {2} seconds
+		Este efeito tem um tempo de recarga de {1} segundos
+		Armas de ataque à distância disparam orbes de explosão de sangue a cada {2} segundos
 		{$BloodflareBodyArmor.CommonSetBonus}
-		''' */
+		'''
 }
 
 BloodflareHeadRogue: {
 	DisplayName: Máscara do Demônio de Chamas Sangrentas
 	Tooltip:
 		'''
-		10% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
-		5% de aumento na velocidade dos movimentos
+		{$Common.RogueDamage} e {$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 		'''
 	SetBonus:
 		'''
-		+120 de furtividade máxima
-		Estar com mais de 80% de vida aumenta a sua defesa em 30 e na chance de acerto crítico ladino em 5%
-		Estar com menos de 80% de vida aumenta os danos por ataque ladino em 10%
-		Acertos críticos ladinos têm 50% de na chance de curar você
+		{$Common.RogueStealth}
+		{$BloodflareHeadRogue.SetBonusEffect@1}
 		'''
-	/* SetBonusEffect:
+	SetBonusEffect:
 		'''
-		Grants {0} defense when above {1}% life
-		Rogue critical strikes have lifesteal
+		Fornece {0} de defesa quando com mais de {1}% de vida
+		Golpes críticos ladinos roubam vida
 		{$BloodflareBodyArmor.CommonSetBonus}
-		''' */
+		'''
 }
 
 BloodflareHeadSummon: {
 	DisplayName: Elmo da Serpe de Chamas Sangrentas
-	Tooltip: 5% de aumento nos danos por invocação
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
 	SetBonus:
 		'''
-		50% de aumento nos danos por invocação e +3 lacaios máximos
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		{$BloodflareHeadSummon.SetBonusEffect@2}
+		'''
+	SetBonusEffect:
+		'''
 		Invoca minas de Polterghast para circularem ao seu redor
-		Com 90% de vida ou mais, você recebe 10% de aumento nos danos por invocação
-		Com 50% de vida ou mais, você recebe 20 de defesa e regeneração de +1 de vida por segundo
-		'''
-	/* SetBonusEffect:
-		'''
-		Summons polterghast mines to circle you
-		Grants {0} defense when below {1}% life
+		Fornece {0} de defesa quando com mais de {1}% de vida
 		{$BloodflareBodyArmor.CommonSetBonus}
-		''' */
+		'''
 }
 
 DemonshadeBreastplate: {
 	DisplayName: Peitoral das Sombras Demoníacas
 	Tooltip:
 		'''
-		25% de aumento na velocidade do ataque físico, 15% de aumento nos danos e na chance de acerto crítico
-		Inimigos recebem danos ímpios quando tocam em você
-		Aumenta a vida e mana máxima em 200
+		{$CommonItemTooltip.IncreasesMaxManaBy}
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@3}
 		Ficar parado permite que você absorva as sombras e acelere sua regeneração de vida exponencialmente		
 		'''
 }
@@ -206,33 +296,32 @@ DemonshadeGreaves: {
 
 DemonshadeHelm: {
 	DisplayName: Elmo das Sombras Demoníacas
-	Tooltip: 30% de aumento nos danos e 15% de aumento na chance de acerto crítico
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedDamage@1} e {$CommonItemTooltip.PercentIncreasedCritChance@2}
+		'''
 	SetBonus:
 		'''
-		100% de aumento nos danos por invocação e +10 lacaios máximos
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		Feixes das sombras e foices demoníacas cairão dos céus quando você for atingido
-		Um diabo vermelho amigável segue você
-		Press {0} para enfurecer inimigos próximos com um feitiço de magia negra por 10 segundos
-		Isso faz com que eles sofram 2,25x o dano total, mas eles causarão 1,25x o dano em você
+		Aperte {2} para enfurecer inimigos próximos com um feitiço de magia negra por {3} segundos
+		Isso faz com que eles sofram {4}x o dano total, mas eles causarão {5}x o dano em você
 		'''
 }
 
 EmpyreanCloak: {
 	DisplayName: Manto Empírico
-	Tooltip:
-		'''
-		Armadura do cosmos
-		+20 de vida máxima
-		7% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
-		'''
+	Tooltip: "{$Common.RogueDamage} e {$Common.RogueCrit@1}"
 }
 
 EmpyreanCuisses: {
 	DisplayName: Grevas Empíricas
 	Tooltip:
 		'''
-		5% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
-		15% de aumento na velocidade dos movimentos
+		{$Common.RogueDamageCrit}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 		'''
 }
 
@@ -240,13 +329,12 @@ EmpyreanMask: {
 	DisplayName: Máscara Empírica
 	Tooltip:
 		'''
-		11% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
-		5% de aumento na velocidade dos movimentos
+		{$Common.RogueDamage} e {$Common.RogueCrit@1}
+		{$Common.RogueVelocity@2}
 		'''
 	SetBonus:
 		'''
-		9% de aumento nos danos por ataque ladino e na velocidade dos projéteis ladinos
-		+115 de furtividade máxima
+		{$Common.RogueStealth}
 		Projéteis ladinos têm um efeito especial ao atingir o inimigo
 		Você é imbuído de ira e fúria cósmica quando é atingido
 		'''
@@ -256,18 +344,16 @@ FearmongerGreathelm: {
 	DisplayName: Grande Elmo Amedrontador
 	Tooltip:
 		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy} e {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@2}
 		Puro terror irradia de seus olhos
-		+60 de mana máxima e 10% de de redução no custo de mana
-		10% de aumento nos danos por invocação
 		'''
 	SetBonus:
 		'''
-		20% de aumento nos danos por invocação e +2 lacaios máximos
-		Minions no longer deal less damage while wielding non-summoner weapons
-		Immunity to all forms of frost e flame
-		Minion attacks grant +3.5 HP/s life regen e massively accelerate life regen
-		15% de aumento na redução dos danos during the Pumpkin e Frost Moons
-		This extra damage reduction ignores the soft cap
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		Os lacaios não causam menos dano ao empunhar armas de outras classes
+		Imunidade a todas menos as mais fortes formas de gelo e chama
+		Ataques de lacaios fornecem regen. de +{1} de vida/s e aceleram muito a regeneração de vida
 		'''
 }
 
@@ -275,10 +361,8 @@ FearmongerGreaves: {
 	DisplayName: Grevas Amedrontadoras
 	Tooltip:
 		'''
-		6% de aumento nos danos
-		50% de aumento no recuo dos lacaios
-		10% de aumento na velocidade dos movimentos
-		Sofrer danos aumenta a velocidade dos movimentos em 40% por 4 segundos
+		{$CommonItemTooltip.PercentIncreasedDamage}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 		'''
 }
 
@@ -286,8 +370,8 @@ FearmongerPlateMail: {
 	DisplayName: Armadura de Placas Amedrontadora
 	Tooltip:
 		'''
-		+100 de vida máxima e 8% de aumento na redução dos danos
-		5% de aumento nos danos e na chance de acerto crítico
+		{$CommonItemTooltip.PercentIncreasedDamage} e {$CommonItemTooltip.PercentIncreasedCritChance@1}
+		+{2} de vida máxima e {3}% de aumento na redução dos danos
 		'''
 }
 
@@ -299,7 +383,7 @@ GemTechBodyArmor: {
 GemTechHeadgear: {
 	DisplayName: Capacete da Tecnologia Joalheira
 	Tooltip: "'O Diabo disse: Deleite-se com sua vitória; Você conquistou sua condenação. Arrume suas coisas e vá embora.'"
-	AbilityBrief: Joias do Poder - Seis fragmentos de joias orbitam você ociosamente; uma para cada classe e uma joia base
+	AbilityBrief: "[c/{0}:Joias do Poder - Seis fragmentos de joias orbitam você ociosamente; uma para cada classe e uma joia base]"
 	AbilityDescription:
 		'''
 		Cada joia ativa fornece um bônus para sua classe respectiva, enquanto a gema defensiva concede reforços defensivos
@@ -309,107 +393,102 @@ GemTechHeadgear: {
 		'''
 	GeneralGemInfo:
 		'''
-		Uma joia é perdida quando você sofre mais que {0} de dano em um único ataque.
-		O tipo de joia perdida é o mesmo que a classe anterior que você estava usando
+		Uma joia é perdida quando você sofre mais que {0} de dano em um único ataque
+		O tipo de joia perdida é o mesmo que a classe da arma usada mais recentemente
 		Se a mesma joia já foi perdida, você perderá a joia base
 		Quando uma joia é perdida, ela se desprende e segue o inimigo ou chefe mais próximo, se houver algum, causando {1} de dano básico
 		As joias têm um atraso de {2} segundos antes de aparecerem novamente"
 		'''
-	RedGemInfo: "[i:Ruby] A joia vermelha concede {0} de furtividade máxima, melhorias nas estatísticas ladinas, e torna a furtividade apenas consumível por armas ladinas"
-	YellowGemInfo: "[i:Topaz] A joia amarela fornece melhorias nas estatísticas físicas e faz com que ataques físicos liberem fragmentos ao atingir o inimigo com um tempo de recarga. Este tempo de recarga é mais curto para ataques físicos verdadeiros"
-	GreenGemInfo: "[i:Emerald] A joia verde fornece melhorias nas estatísticas de ataque à distância e faz com que dardos voem rapidamente em direção aos alvos quando são atingidos por um projétil de ataque à distância"
-	BlueGemInfo: "[i:Sapphire] A joia azul concede {0} lacaios máximos adicionais, aumenta o dano por lacaios e reduz a penalidade para itens de invocador enquanto estiver segurando uma arma não-invocadora"
-	PurpleGemInfo: "[i:Amethyst] A joia violeta concede {0} de mana máxima adicional, melhorias nas estatísticas mágicas, e faz com que a mana regenere rapidamente ao segurar uma arma não-mágica"
-	PinkGemInfo: "[i:Diamond] A joia base rosa fornece {0} de defesa adicional, redução dos danos adicional, melhor velocidade dos movimentos e dos pulos e regeneração de +{1} de vida por segundo"
+	RedGemInfo: "[i:CalamityMod/GemTechRedGem] A vermelha concede {0} de furtividade máxima, melhorias nas estatísticas ladinas, e torna a furtividade apenas consumível por armas ladinas"
+	YellowGemInfo: "[i:CalamityMod/GemTechYellowGem] A amarela fornece maiores estatísticas físicas e faz com que ataques físicos liberem fragmentos ao atingir o inimigo com um tempo de recarga, sendo ele menor para ataques verdadeiros"
+	GreenGemInfo: "[i:CalamityMod/GemTechGreenGem] A verde fornece maiores estatísticas de ataque à distância e faz com que dardos voem rapidamente em direção aos alvos quando são atingidos por um projétil de ataque à distância"
+	BlueGemInfo: "[i:CalamityMod/GemTechBlueGem] A azul concede {0} lacaios máximos, maiores danos por lacaios e reduz a penalidade nos danos por invocação ao segurar uma arma de outra classe"
+	PurpleGemInfo: "[i:CalamityMod/GemTechPurpleGem] A violeta concede {0} de mana máxima, maiores estatísticas mágicas, e faz com que a mana regenere rapidamente ao segurar uma arma de outra classe"
+	PinkGemInfo: "[i:CalamityMod/GemTechPinkGem] A base rosa fornece {0} de defesa, maior redução dos danos, velocidade dos movimentos e dos pulos e regen. de +{1} de vida/s"
 	GemBonusInfo:
 		'''
-		Quando todas as gemas existirem simultaneamente, acertar um alvo com qualquer arma concede a você regeneração de +{0} de vida por segundo por {1} segundos
-		Isto é aumentado para +{2} de vida por segundo se uma arma de outra classe for usada durante esse período de {1} segundos por {3} segundos
+		Quando todas as gemas existirem simultaneamente, acertar um alvo com qualquer arma concede a você regen. de +{0} de vida/s por {1} segundos
+		Isto é aumentado para +{2} de vida/s se uma arma de outra classe for usada durante esse período de {1} segundos por {3} segundos
 		'''
 }
 
 GemTechSchynbaulds: {
-	DisplayName: Cobre-Canela da Tecnologia Joalheira
+	DisplayName: Cobre-canela da Tecnologia Joalheira
 	Tooltip: "'Se eles te machucarem, derrube-os.'"
 }
 
 GodSlayerChestplate: {
-	DisplayName: Peitoral do Caça-Deuses
-	Tooltip:
-		'''
-		+60 de vida máxima
-		Inimigos sofrem dano quando te acertam
-		11% de aumento nos danos e 6% de aumento na chance de acerto crítico
-		'''
+	DisplayName: Peitoral do Caça-deuses
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage} e {$CommonItemTooltip.PercentIncreasedCritChance@1}"
 	CommonSetBonus:
 		'''
-		Permite que você faça uma corrida de uma distância imensa em 8 direções
-		Pressione {0} enquanto segura as teclas de movimento na direção em que quer correr
-		Inimigos atingidos pela corrida sofrem muito dano
-		Durante a corrida, você se torna imune à maioria dos efeitos negativos
-		A corrida possui um tempo de recarga de {1}
+		Aperte {0} para realizar uma [c/ff00ff:Propulsão Dimensional] na direção do seu cursor por 2 segundos
+		Inimigos que você atravessar durante a investida sofrem muitos danos
+		Durante uma [c/ff00ff:Propulsão Dimensional], você é imune a danos e a maioria dos efeitos negativos
+		A [c/ff00ff:Propulsão Dimensional] tem um tempo de recarga de {1} segundos
 		'''
 }
 
 GodSlayerHeadMelee: {
-	DisplayName: Grande Elmo com Chifres do Caça-Deuses
+	DisplayName: Grande Elmo com Chifres do Caça-deuses
 	Tooltip:
 		'''
-		14% de aumento nos danos por ataque físico
-		7% de aumento na chance de acerto crítico físico
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage} e {$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
 		'''
 	SetBonus:
 		'''
-		20% de aumento na velocidade do ataque físico
-		A chance dos inimigos mirarem em você é maior
-		Sofrer mais do que 80 de dano em um ataque fará com que você libere uma barragem de dados caça-deuses que causam muito dano
-		Inimigos sofrem muito dano quando te acertam
+		{$Common.AggroBoost}
+		{$GodSlayerHeadMelee.SetBonusEffect}
 		'''
-	/* SetBonusEffect:
+	SetBonusEffect:
 		'''
-		Releases a swarm of god killer darts when taking over {0} damage in one hit
+		Libera uma barragem de dardos caça-deuses ao sofrer mais que {0} de dano em um acerto
 		{$GodSlayerChestplate.CommonSetBonus@1}
-		''' */
+		'''
 }
 
 GodSlayerHeadRanged: {
-	DisplayName: Elmo do Caça-Deuses
-	Tooltip: 14% de aumento nos danos por ataque à distância e na chance de acerto crítico à distância
-	SetBonus: Você dispara uma bala de estilhaços mata-deuses enquanto dispara armas de ataque à distância a cada 2,5 segundos
-	/* SetBonusEffect:
+	DisplayName: Elmo do Caça-deuses
+	Tooltip:
 		'''
-		Ranged weapons fire a god killer shrapnel round every {0} seconds
+		{$CommonItemTooltip.PercentIncreasedRangedDamage} e {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		'''
+	SetBonus: "{$GodSlayerHeadRanged.SetBonusEffect}"
+	SetBonusEffect:
+		'''
+		Armas de ataque à distância disparam uma bala de estilhaços mata-deuses a cada {0} segundos
 		{$GodSlayerChestplate.CommonSetBonus@1}
-		''' */
+		'''
 }
 
 GodSlayerHeadRogue: {
-	DisplayName: Máscara do Caça-Deuses
+	DisplayName: Máscara do Caça-deuses
 	Tooltip:
 		'''
-		14% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
-		5% de aumento na velocidade dos movimentos
+		{$Common.RogueDamage} e {$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 		'''
 	SetBonus:
 		'''
-		+120 de furtividade máxima
-		Quando você estiver com a vida máxima, todos as suas estatísticas ladinas são aumentadas em 10%
-		Se você sofrer mais do que 80 de dano em um ataque, você receberá mais quadros de imunidade
+		{$Common.RogueStealth}
+		{$GodSlayerHeadRogue.SetBonusEffect@1}
 		'''
-	/* SetBonusEffect:
+	SetBonusEffect:
 		'''
-		{0}% increased rogue damage, critical strike chance, and velocity when at full health
-		Increased length of invincibility when taking over {1} damage in one hit
+		{0}% de aumento nos danos por ataque ladino, na chance de acerto crítico ladino e na velocidade de projéteis ladinos quando com vida cheia
+		Maior duração de invencibilidade ao sofrer mais que {1} de dano em um acerto
 		{$GodSlayerChestplate.CommonSetBonus@2}
-		''' */
+		'''
 }
 
 GodSlayerLeggings: {
-	DisplayName: Calça do Caça-Deuses
+	DisplayName: Calça do Caça-deuses
 	Tooltip:
 		'''
-		5% de aumento na velocidade dos movimentos
-		10% de aumento nos danos e na chance de acerto crítico
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 		'''
 }
 
@@ -417,8 +496,9 @@ OmegaBlueChestplate: {
 	DisplayName: Peitoral Ômega Azul
 	Tooltip:
 		'''
-		12% de aumento nos danos e 8% de aumento na chance de acerto crítico
-		Seus ataques infligem Pressão das profundezas
+		{$CommonItemTooltip.PercentIncreasedDamage} e {$CommonItemTooltip.PercentIncreasedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
+		Seus ataques infligem Pressão Hadopelágica
 		Sem regeneração de vida positiva
 		'''
 }
@@ -427,17 +507,17 @@ OmegaBlueHelmet: {
 	DisplayName: Elmo Ômega Azul
 	Tooltip:
 		'''
+		{$CommonItemTooltip.PercentIncreasedDamage} e {$CommonItemTooltip.PercentIncreasedCritChance@1}
 		Você pode mover-se livremente por líquidos
-		12% de aumento nos danos e 8% de aumento na chance de acerto crítico
 		'''
 	SetBonus:
 		'''
-		Aumenta a perfuração de blindagem em 15
-		10% de aumento nos danos e na chance de acerto crítico e +2 lacaios máximos
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
 		Tentáculos de curto alcance curam você ao sugar a vida do inimigo
-		Pressione {0} para ativar a loucura abissal por 5 segundos
-		A loucura abissal aumenta o dano, chance de acerto crítico, e agressividade/alcance dos tentáculos
-		Este efeito tem um tempo de recarga de 25 segundos
+		[c/{1}:Loucura Abissal - {2} para enlouquecer-se por {3} segundos]
+		[c/99ABFF:Enquanto ativada, tentáculos atacam com maior alcance e agressão, e sempre causam acertos críticos]
+		[c/99ABFF:Isto também fornece {$CommonItemTooltip.PercentIncreasedDamageCritChance@4}]
+		[c/99ABFF:Este efeito tem um tempo de recarga de {5} segundos]
 		'''
 }
 
@@ -445,8 +525,8 @@ OmegaBlueTentacles: {
 	DisplayName: Tentáculos Ômega Azuis
 	Tooltip:
 		'''
-		12% de aumento na velocidade dos movimentos
-		12% de aumento nos danos e na chance de acerto crítico
+		{$CommonItemTooltip.PercentIncreasedDamage} e {$CommonItemTooltip.PercentIncreasedCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 		'''
 }
 
@@ -454,9 +534,9 @@ PrismaticGreaves: {
 	DisplayName: Grevas Prismáticas
 	Tooltip:
 		'''
-		10% de aumento nos danos por magia e 12% de aumento na chance de acerto crítico mágico
-		20% de redução nos danos não-mágicos
-		10% de aumento no tempo de voo e 2% de aumento na velocidade dos pulos
+		{$CommonItemTooltip.PercentIncreasedMagicDamage} e {$CommonItemTooltip.PercentIncreasedMagicCritChance@1}
+		{2}% de redução nos danos não-mágicos
+		{3}% de aumento no tempo de voo e {4}% de aumento na velocidade dos pulos
 		'''
 }
 
@@ -464,17 +544,17 @@ PrismaticHelmet: {
 	DisplayName: Elmo Prismático
 	Tooltip:
 		'''
-		18% de aumento nos danos por magia e 12% de aumento na chance de acerto crítico mágico
-		20% de redução nos danos não-mágicos
+		{$CommonItemTooltip.IncreasesMaxManaBy} e {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} e {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
+		{4}% de redução nos danos não-mágicos
 		Inimigos com menos de 500 de vida máxima não causam danos de contato
-		Isso não ocorre enquanto um chefe está vivo
+		Isto não ocorre enquanto um chefe está vivo
 		'''
 	SetBonus:
 		'''
-		+40 de mana máxima e 15% de redução no custo de mana
 		Aumenta a taxa de regeneração de mana
-		Pressione {0} para liberar uma barragem de lasers da morte no cursor durante os próximos 5 segundos
-		Isso tem um tempo de recarga de 30 segundos
+		[c/{0}:Barragem Prismática - {0} para liberar uma barragem de laser no cursor por {2} segundos]
+		[c/67F4FB:Isto tem um tempo de recarga de {3} segundos]
 		'''
 }
 
@@ -482,27 +562,21 @@ PrismaticRegalia: {
 	DisplayName: Regalia Prismática
 	Tooltip:
 		'''
-		12% de aumento nos danos por magia e 15% de aumento na chance de acerto crítico mágico
-		20% de redução nos danos não-mágicos
-		+20 de vida máxima e +40 de mana máxima
-		Ataques mágicos ocasionalmente disparam um par de foguetes teleguiados
+		{$CommonItemTooltip.PercentIncreasedMagicDamageCritChance}
+		{1}% de redução nos danos de armas que não sejam mágicas
+		Ataques mágicos têm uma chance de {2}% de disparar um par de foguetes teleguiados
 		'''
 }
 
 SilvaArmor: {
 	DisplayName: Armadura de Silva
-	Tooltip:
-		'''
-		+80 de vida máxima
-		12% de aumento nos danos e 8% de aumento na chance de acerto crítico
-		'''
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamage} e {$CommonItemTooltip.PercentIncreasedCritChance@1}"
 	CommonSetBonus:
 		'''
-		Todos os projéteis invocam esferas de folha curadoras ao atingir o inimigo
-		5% de aumento na velocidade de corrida e aceleração máxima
-		Se você for reduzido a 1 de vida, você não morrerá de nenhum dano adicional pelos próximos 8 segundos
-		Este efeito tem um tempo de recarga de 5 minutos
-		O tempo de recarga não diminui se houver chefes ou eventos ativos
+		Regen. de +{0} de vida/s
+		{1}% de aumento na velocidade de corrida máxima e na aceleração
+		Sofrer danos fatais reviverá você e o tornará invulnerável a todos os danos por {2} segundos
+		Este efeito tem um tempo de recarga de {3} minutos que não diminui se houver chefes ou eventos ativos
 		'''
 }
 
@@ -510,38 +584,43 @@ SilvaHeadMagic: {
 	DisplayName: Boné Mascarado de Silva
 	Tooltip:
 		'''
-		23% de aumento nos danos por magia e 13% de aumento na chance de acerto crítico mágico
-		+100 de mana máxima e 19% de de redução no custo de mana
+		{$CommonItemTooltip.IncreasesMaxManaBy} e {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} e {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
 		'''
-	SetBonus: Projéteis mágicos que não podem perfurar inimigos irão ocasionalmente disparar rajadas potentes de energia da natureza
-	/* SetBonusEffect:
+	SetBonus: "{$SilvaHeadMagic.SetBonusEffect}"
+	SetBonusEffect:
 		'''
-		Magic projectiles which cannot pierce will occasionally set off potent blasts of nature energy
+		Projéteis mágicos que não podem perfurar inimigos irão ocasionalmente disparar rajadas potentes de energia da natureza
 		{$SilvaArmor.CommonSetBonus}
-		''' */
+		'''
 }
 
 SilvaHeadSummon: {
 	DisplayName: Capuz com Chifres de Silva
-	Tooltip: 10% de aumento nos danos por invocação
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
 	SetBonus:
 		'''
-		65% de aumento nos danos por invocação e +5 lacaios máximos
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		{$SilvaHeadSummon.SetBonusEffect@2}
+		'''
+	SetBonusEffect:
+		'''
 		Invoca um prisma de folha antigo para explodir seus inimigos com energia vital
-		'''
-	/* SetBonusEffect:
-		'''
-		Summons an ancient leaf prism to blast your enemies with life energy
 		{$SilvaArmor.CommonSetBonus}
-		''' */
+		'''
 }
 
 SilvaLeggings: {
 	DisplayName: Calça de Silva
 	Tooltip:
 		'''
-		10% de aumento na velocidade dos movimentos
-		12% de aumento nos danos e na chance de acerto crítico
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 		'''
 }
 
@@ -549,12 +628,11 @@ TarragonBreastplate: {
 	DisplayName: Peitoral de Estragão
 	Tooltip:
 		'''
-		10% de aumento nos danos e 5% de aumento na chance de acerto crítico
-		Regeneração de +1 de vida por segundo e +40 de vida máxima
+		{0}% de aumento nos danos e {1}% de aumento na chance de acerto crítico
+		Regen. de +{2} de vida/s e {3}% de aumento na redução dos danos
 		'''
 	CommonSetBonus:
 		'''
-		Reduz a taxa de surgimento de inimigos
 		Maior alcance de coleta de corações
 		Os inimigos têm uma chance de deixar cair mais corações ao morrer
 		'''
@@ -564,254 +642,99 @@ TarragonHeadMagic: {
 	DisplayName: Máscara de Estragão
 	Tooltip:
 		'''
-		20% de aumento nos danos por magia e 10% de aumento na chance de acerto crítico mágico
-		5% de aumento na redução dos danos, +100 de mana máxima e 15% de de redução no custo de mana
+		{$CommonItemTooltip.IncreasesMaxManaBy} e {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} e {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
 		'''
-	SetBonus:
+	SetBonus: "{$TarragonHeadMagic.SetBonusEffect}"
+	SetBonusEffect:
 		'''
 		A cada quinto acerto crítico, você disparará uma tempestade de folhas
-		Projéteis mágicos curam você ao atingir o inimigo
-		A quantidade curada é baseada no dano do projétil
-		'''
-	/* SetBonusEffect:
-		'''
-		On every 5th critical strike you will fire a leaf storm
 		{$TarragonBreastplate.CommonSetBonus}
-		''' */
+		'''
 }
 
 TarragonHeadMelee: {
 	DisplayName: Elmo de Estragão
 	Tooltip:
 		'''
-		10% de aumento nos danos por ataque físico
-		5% de aumento na chance de acerto crítico físico
-		5% de aumento na redução dos danos
+		{$CommonItemTooltip.PercentIncreasedMeleeDamage} e {$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
+		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@2}
 		'''
-	/* SetBonus:
+	SetBonus:
 		'''
-		15% increased melee speed
-		Enemies are more likely to target you
-		Taking damage gives the Tarra Life buff, which grants +1.5 HP/s life regen
-		Press {0} to cloak yourself in life energy that heavily reduces enemy contact damage for 10 seconds
-		This has a 30 second cooldown
-		''' */
-	/* SetBonusEffect:
+		{$Common.AggroBoost}
+		{$TarragonHeadMelee.SetBonusEffect}
 		'''
-		Taking damage gives [cbuff:CalamityMod/TarraLifeRegen], which grants +{0} HP/s life regen
-		{1} to cloak yourself in life energy that heavily reduces enemy contact damage for {2} seconds
-		This has a {3} second cooldown
+	SetBonusEffect:
+		'''
+		Sofrer danos fornece [cbuff:CalamityMod/TarraLifeRegen], que concede regen. de +{0} de vida/s
+		{1} para se cobrir de energia vital que reduz o dano por contato dos inimigos por {2} segundos
+		Isto tem um tempo de recarga de {3} segundos
 		{$TarragonBreastplate.CommonSetBonus}
-		''' */
+		'''
 }
 
 TarragonHeadRanged: {
 	DisplayName: Protetor Facial de Estragão
 	Tooltip:
 		'''
-		10% de aumento nos danos por ataque à distância e na chance de acerto crítico à distância
-		5% de aumento na redução dos danos
+		{$CommonItemTooltip.PercentIncreasedRangedDamage} e {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
+		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
 		'''
-	SetBonus: Projéteis de ataque à distância se dividem em energia vital teleguiada e folhas ao morrerem
-	/* SetBonusEffect:
+	SetBonus: "{$TarragonHeadRanged.SetBonusEffect}"
+	SetBonusEffect:
 		'''
-		Ranged projectiles spawn homing life energy and leaves on enemy hits
+		Projéteis de ataque à distância invocam energia vital e folhas ao atingir o inimigo
 		{$TarragonBreastplate.CommonSetBonus}
-		''' */
+		'''
 }
 
 TarragonHeadRogue: {
 	DisplayName: Casco de Estragão
 	Tooltip:
 		'''
-		10% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino
-		5% de aumento na redução dos danos e na velocidade dos movimentos
+		{$Common.RogueDamage} e {$Common.RogueCrit@1}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 		'''
 	SetBonus:
 		'''
-		+115 de furtividade máxima
-		A cada 50 acertos críticos ladinos, você ganhará 2,5 segundos de imunidade a danos
-		Este efeito tem um tempo de recarga de 25 segundos
-		Enquanto estiver sob um efeito negativo, você ganha 10% de aumento nos danos por ataque ladino
+		{$Common.RogueStealth}
+		{$TarragonHeadRogue.SetBonusEffect@1}
 		'''
-	/* SetBonusEffect:
+	SetBonusEffect:
 		'''
-		After every {0} rogue critical hits you will gain {1} seconds of damage immunity
-		This effect has a cooldown of {2} seconds
-		While under the effects of a debuff you gain {3}% increased rogue damage
+		A cada {0} acertos críticos ladinos, você ganhará {1} segundos de imunidade a danos
+		Este efeito tem um tempo de recarga de {2} segundos
+		Enquanto estiver sob um efeito negativo, você ganha {3}% de aumento nos danos por ataque ladino
 		{$TarragonBreastplate.CommonSetBonus}
-		''' */
+		'''
 }
 
 TarragonHeadSummon: {
 	DisplayName: Elmo com Chifres de Estragão
-	Tooltip: 5% de aumento na redução dos danos e nos danos por invocação
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
 	SetBonus:
 		'''
-		50% de aumento nos danos por invocação e +3 lacaios máximos
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		{$TarragonHeadSummon.SetBonusEffect}
+		'''
+	SetBonusEffect:
+		'''
 		Invoca uma aura vital ao seu redor que causa danos aos inimigos próximos
-		'''
-	/* SetBonusEffect:
-		'''
-		Summons a life aura around you that damages nearby enemies
 		{$TarragonBreastplate.CommonSetBonus}
-		''' */
+		'''
 }
 
 TarragonLeggings: {
 	DisplayName: Calça de Estragão
 	Tooltip:
 		'''
-		10% de aumento na velocidade dos movimentos
-		8% de aumento nos danos e na chance de acerto crítico
+		{$CommonItemTooltip.PercentIncreasedDamageCritChance}
+		{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
 		'''
-}
-
-AuricTeslaHeadRanged: {
-	// DisplayName: Auric Tesla Hooded Facemask
-	/* Tooltip:
-		'''
-		{$CommonItemTooltip.PercentIncreasedRangedDamage} and {$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
-		{$CommonItemTooltip.PercentChanceToSaveAmmo@2}
-		''' */
-	/* SetBonus:
-		'''
-		Ranged Tarragon, Bloodflare and God Slayer armor effects
-		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
-		''' */
-	/* SetBonus1:
-		'''
-		Inherited Tarragon Set Bonus:
-		{$TarragonHeadRanged.SetBonusEffect}
-		''' */
-	/* SetBonus2:
-		'''
-		Inherited Bloodflare Set Bonus:
-		{$BloodflareHeadRanged.SetBonusEffect}
-		''' */
-	/* SetBonus3:
-		'''
-		Inherited God Slayer Set Bonus:
-		{$GodSlayerHeadRanged.SetBonusEffect}
-		''' */
-}
-
-AuricTeslaHeadRogue: {
-	// DisplayName: Auric Tesla Plumed Helm
-	/* Tooltip:
-		'''
-		{$Common.RogueDamage} and {$Common.RogueCrit@1}
-		{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
-		''' */
-	/* SetBonus:
-		'''
-		{$Common.RogueStealth}
-		Rogue Tarragon, Bloodflare and God Slayer armor effects
-		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
-		''' */
-	/* SetBonus1:
-		'''
-		Inherited Tarragon Set Bonus:
-		{$TarragonHeadRogue.SetBonusEffect}
-		''' */
-	/* SetBonus2:
-		'''
-		Inherited Bloodflare Set Bonus:
-		{$BloodflareHeadRogue.SetBonusEffect}
-		''' */
-	/* SetBonus3:
-		'''
-		Inherited God Slayer Set Bonus:
-		{$GodSlayerHeadRogue.SetBonusEffect}
-		''' */
-}
-
-AuricTeslaHeadMelee: {
-	// DisplayName: Auric Tesla Royal Helm
-	/* Tooltip:
-		'''
-		{$CommonItemTooltip.PercentIncreasedMeleeDamage}
-		{$CommonItemTooltip.PercentIncreasedMeleeSpeed@1}
-		''' */
-	/* SetBonus:
-		'''
-		{$Common.AggroBoost}
-		Melee Tarragon, Bloodflare and God Slayer effects
-		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
-		''' */
-	/* SetBonus1:
-		'''
-		Inherited Tarragon Set Bonus:
-		{$TarragonHeadMelee.SetBonusEffect}
-		''' */
-	/* SetBonus2:
-		'''
-		Inherited Bloodflare Set Bonus:
-		{$BloodflareHeadMelee.SetBonusEffect}
-		''' */
-	/* SetBonus3:
-		'''
-		Inherited God Slayer Set Bonus:
-		{$GodSlayerHeadMelee.SetBonusEffect}
-		''' */
-}
-
-AuricTeslaHeadSummon: {
-	// DisplayName: Auric Tesla Space Helmet
-	/* Tooltip:
-		'''
-		{$CommonItemTooltip.IncreasesMaxMinionsBy}
-		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
-		''' */
-	/* SetBonus:
-		'''
-		{$CommonItemTooltip.IncreasesMaxMinionsBy}
-		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
-		Summoner Tarragon, Bloodflare and Silva armor effects
-		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
-		''' */
-	/* SetBonus1:
-		'''
-		Inherited Tarragon Set Bonus:
-		{$TarragonHeadSummon.SetBonusEffect}
-		''' */
-	/* SetBonus2:
-		'''
-		Inherited Bloodflare Set Bonus:
-		{$BloodflareHeadSummon.SetBonusEffect}
-		''' */
-	/* SetBonus3:
-		'''
-		Inherited Silva Set Bonus:
-		{$SilvaHeadSummon.SetBonusEffect}
-		''' */
-}
-
-AuricTeslaHeadMagic: {
-	// DisplayName: Auric Tesla Wire-Hemmed Visage
-	/* Tooltip:
-		'''
-		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
-		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} and {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
-		''' */
-	/* SetBonus:
-		'''
-		Magic Tarragon, Bloodflare and Silva armor effects
-		Hold Shift to view these set bonus details and press Shift repeatedly to cycle through them
-		''' */
-	/* SetBonus1:
-		'''
-		Inherited Tarragon Set Bonus:
-		{$TarragonHeadMagic.SetBonusEffect}
-		''' */
-	/* SetBonus2:
-		'''
-		Inherited Bloodflare Set Bonus:
-		{$BloodflareHeadMagic.SetBonusEffect}
-		''' */
-	/* SetBonus3:
-		'''
-		Inherited Silva Set Bonus:
-		{$SilvaHeadMagic.SetBonusEffect}
-		''' */
 }

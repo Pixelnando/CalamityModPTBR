@@ -51,6 +51,6 @@ BossRushEndText_6: Continue buscando uma força maior, e quando nos encontrarmos
 BossRushEndText_7: Enquanto isso, tenho meus próprios assuntos que devo resolver.
 BossRushEndText_8: Por ora, adeus.
 // Shortened victory text for repeat attempts
-BossRushEndText_Repeat: Você mostrou ser um guerreiro formidável, porém não é o bastante. Busque novos patamares de poder, para que um dia possa ser digno
+BossRushEndText_Repeat: Você mostrou ser um guerreiro formidável, porém não é o bastante. Busque novos patamares de poder, para que um dia possa ser digno.
 // Dying during Xeroc's victory monologue gives you this
 BossRushEndText_Death: ...Eu suponho que eu estava certo ao assumir que este mundo não pode ajudar a si mesmo, muito menos a mim.

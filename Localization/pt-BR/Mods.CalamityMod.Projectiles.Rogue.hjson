@@ -1,10 +1,10 @@
 AbyssalMirrorProjectile.DisplayName: Fluido Lumenil
-AcidBarrelDrop.DisplayName: Gota do Barril Acídico
-AcidShrapnel.DisplayName: Estilhaço Acídico
 AdamantiteThrowingAxeProjectile.DisplayName: Machado de Arremesso de Adamantina
-AlphaSeeker.DisplayName: Caçador Vírus Alfa
-AlphaVirusProjectile.DisplayName: Vírus Alfa
+// AntlionSkewerProj.DisplayName: Antlion on a Stick
+// AntlionSkewerSandBlast.DisplayName: Antlion Blast
+// AntlionSkewerSandCloud.DisplayName: Dense Sand Cloud
 AntumbraShardProjectile.DisplayName: Fragmento de Antumbra
+// ApoctolithExplosion.DisplayName: Apoctolith Boom
 ApoctolithProj.DisplayName: Apoctólito
 ApoctolithShard.DisplayName: Fragmento de Apoctólito
 AshenStalactiteDebris.DisplayName: Detritos Cinzentos
@@ -14,26 +14,24 @@ AuroradicalSplitter.DisplayName: Estrela Auroradical
 AuroradicalStar.DisplayName: Estrela Auroradical
 BallisticPoisonBombProj.DisplayName: Bomba de Veneno
 BallisticPoisonBombSpike.DisplayName: Espinho de Veneno
+// BallisticPoisonCloud.DisplayName: Ballistic Cloud
 BarrelShrapnel.DisplayName: Estilhaços de Barril
-BettyExplosion.DisplayName: Explosão Betty
 BileExplosion.DisplayName: Bile
 BlastBarrelProjectile.DisplayName: Barril da Rajada
+// BlazingStarOrbital.DisplayName: Orbital Blazing Star
 BlazingStarProj.DisplayName: Estela Ardente
 BloodsoakedCrashax.DisplayName: Esmagador Ensanguentado
 BlueFlamePillar.DisplayName: Coluna de Chama
 BlunderBoosterLightning.DisplayName: Raio da Enganação
 BouncingEyeballProjectile.DisplayName: Globo Ocular Saltitante
 BouncingEyeballProjectileStealthStrike.DisplayName: Globo Ocular Saltitante
-BouncyBol.DisplayName: Bola Saltitante
-BrackishFlaskProj.DisplayName: Frasco Salobro
-BrackishSpear.DisplayName: Não-Lança de Atlântida
-BrackishWater.DisplayName: Água Salobra
-BrackishWaterBlast.DisplayName: Água Salobra
 Brick.DisplayName: Tijolo
 BrickFragment.DisplayName: Fragmento de Tijolo
 Brimblade2.DisplayName: Serra de Enxofre
 BrimbladeProj.DisplayName: Serra de Enxofre
+// BurningStrifeExplosion.DisplayName: Shadow Flame Explosion
 BurningStrifeProj.DisplayName: Bola com Espinhos das Chamas das Sombras
+// BurningTentacle.DisplayName: Strife Tentacle
 ButcherKnife.DisplayName: Faca de Açougueiro
 CarvingFork.DisplayName: Garfo Trinchador
 CelestialReaperAfterimage.DisplayName: Ceifador Celestial
@@ -41,7 +39,6 @@ CelestialReaperProjectile.DisplayName: Ceifador Celestial
 CelestusMiniScythe.DisplayName: Celestus
 CelestusProj.DisplayName: Celestus
 CinquedeaProj.DisplayName: Cinquedea
-CircletMark.DisplayName: Marca Tornado
 CircletTornado.DisplayName: Tornado
 CobaltEnergy.DisplayName: Energia de Cobalto
 CobaltKunaiProjectile.DisplayName: Kunai de Cobalto
@@ -75,38 +72,40 @@ DeepWounderWater.DisplayName: Gotícula de Água
 DesecratedBubble.DisplayName: Bolha Vil
 DesecratedWaterProj.DisplayName: Água Vil
 DestructionBolt.DisplayName: Raio da Destruição
+// DestructionExplosion.DisplayName: Destruction Explosion
 DestructionStar.DisplayName: Estrela da Destruição
+DragonScalesInfernado.DisplayName: Infernado
 DragonShit.DisplayName: Fogo
 DukesDecapitatorBubble.DisplayName: Bolha de Duque
 DukesDecapitatorProj.DisplayName: Decapitador do Duque
 DuststormCloud.DisplayName: Nuvem de Poeira
-DuststormCloudHitbox.DisplayName: Nuvem de Tempestade de Poeira
 DuststormInABottleProj.DisplayName: Garrafa de Tempestade de Poeira
-DragonScalesInfernado.DisplayName: Infernado
+// DuststormCloudExplosion.DisplayName: Dust Explosion
+// DuststormInABottleHoldout.DisplayName: Duststorm Bottle
 DynamicPursuerElectricity.DisplayName: Eletricidade Dinâmica
 DynamicPursuerLaser.DisplayName: Laser Dinâmico
 DynamicPursuerProjectile.DisplayName: Perseguidor Dinâmico
 EclipseMirrorBurst.DisplayName: Clarão do Espelho de Eclipse
-EclipsesFallMain.DisplayName: Eclipse Caído
-EclipsesSmol.DisplayName: Pequeno Eclipse
-EclipsesStealth.DisplayName: Eclipse Caído
-EclipseStealthBoom.DisplayName: Explosão Eclipse
+// EclipsesFall_Javelin.DisplayName: Eclipse's Fall
+// EclipsesFall_LightFragment.DisplayName: Fragment of Primordial Light
+// EclipsesFall_LightExplosion.DisplayName: Baily's Beads
+// EclipsesFall_LightSpark.DisplayName: Spark of Primodial Light
+// EclipsesFall_StealthSpear.DisplayName: Spear of Obscuration
+// EclipsesFall_StealthSpearExplosion.DisplayName: Third Contact
 EGloveSpark.DisplayName: Faísca do Eletricista
-ElementalDiskProj.DisplayName: Disco Elemental
-ElementalDiskSplit.DisplayName: Disco Elemental
 EnchantedAxe2.DisplayName: Machado Encantado
+// ElephantKillerElephant.DisplayName: Spectral Elephant
+// ElephantKillerThrown.DisplayName: Elephant Killer
 EnchantedAxeProj.DisplayName: Machado Encantado
 EpidemicShredderProjectile.DisplayName: Destruidor de Epidemias
 EquanimityDarkShard.DisplayName: Estilhaço das Trevas
 EquanimityLightShard.DisplayName: Estilhaço de Luz
 EquanimityProj.DisplayName: Equanimidade
-EradicatorProjectile.DisplayName: Erradicador
+// DimensionTearingDiskProjectile.DisplayName: Dimension-Tearing Disk
 ExecutionersBladeProj.DisplayName: Lâmina do Executor
 ExecutionersBladeStealthProj.DisplayName: Lâmina do Executor
 ExorcismProj.DisplayName: Exorcismo
 ExorcismShockwave.DisplayName: Onda de Choque de Exorcismo
-ExorcismStar.DisplayName: Estrela do Exorcismo
-ExplosiveSun.DisplayName: Sol Explosivo
 FantasyTalismanProj.DisplayName: Talismã
 FantasyTalismanStealth.DisplayName: Talismã
 FeatherKnifeProjectile.DisplayName: Faca de Penas
@@ -129,17 +128,16 @@ GacruxianProj.DisplayName: Molusco Gacruxiano
 GelDartProjectile.DisplayName: Dardo de Gel
 GhoulishGougerBoomerang.DisplayName: Goivador Macabro
 GildedDaggerProj.DisplayName: Adaga Dourada
+// GlaiveOrbital.DisplayName: Orbital Glaive
 GlaiveProj.DisplayName: Glave
 GleamingDaggerProj.DisplayName: Adaga Platinada
 GodsParanoiaDart.DisplayName: Dardo de Paranoia dos Deuses
 GodsParanoiaProj.DisplayName: Paranoia dos Deuses
 GraveGrimreaverProjectile.DisplayName: Ceifador de Túmulos
-GreenDonkeyKongReference.DisplayName: Barril de Chuva Acídica
 GrimreaverBat.DisplayName: Morcego Sinistro
 GrimreaverSkull.DisplayName: Caveira Sinistra
 HeavenfallenEnergy.DisplayName: Energia Caída do Céu
 HeavenfallenStardiskBoomerang.DisplayName: Disco Estelar Caído do Céu
-HellsSunProj.DisplayName: Sol do Inferno
 Honeycomb.DisplayName: Favo de Mel
 HoneycombFragment.DisplayName: Fragmento de Favo de Mel
 HypothermiaChunk.DisplayName: Pedaço de Gelo
@@ -153,8 +151,6 @@ InfernalKrisProjectile.DisplayName: Kris Infernal
 InfestedClawmerangProj.DisplayName: Cogumelorangue
 InkBombProjectile.DisplayName: Bomba de Tinta
 InkCloud.DisplayName: Nuvem de Tinta
-InkCloud2.DisplayName: Nuvem de Tinta
-InkCloud3.DisplayName: Nuvem de Tinta
 IronFranciscaProj.DisplayName: Franquisque de Ferro
 JawsProjectile.DisplayName: Dente Ceifeiro
 JawsShockwave.DisplayName: Onda de Choque do Dente Ceifeiro
@@ -168,11 +164,13 @@ LeonidCometSmall.DisplayName: Cometa Leônido
 LeonidProgenitorBombshell.DisplayName: Leônida Casco-Bomba
 LeonidStar.DisplayName: Estrela Leônida
 LeviathanTooth.DisplayName: Dente de Leviatã
+// LeviathanToothStealth.DisplayName: Leviathan Jaw
 LionfishProj.DisplayName: Peixe-Leão
 LostSoulFriendly.DisplayName: Alma Perdida
 LuminousShard.DisplayName: Fragmento de Pó das Estrelas
 LunarKunaiProj.DisplayName: Kunai Lunar
 LuxorsGiftRogue.DisplayName: Luxor do Ladino
+// LyraConstellation.DisplayName: Lyra Constellation
 MalachiteBolt.DisplayName: Malaquite
 MalachiteProj.DisplayName: Malaquite
 MalachiteStealth.DisplayName: Malaquite
@@ -181,23 +179,22 @@ MangroveChakramProjectile.DisplayName: Chakram do Mangue
 MetalChunk.DisplayName: Pedaço de Metal
 MetalShard.DisplayName: Fragmento de Metal
 MeteorFistProj.DisplayName: Punho de Metoro Ótimo Para Muitas Coisas
-MeteorFistStealth.DisplayName: Punho de Metoro Ótimo Para Muitas Coisas
+// MeteorFistMeteorite.DisplayName: Meteorite REALLY Gud For A Lot Of Shtuff
 MoltenAmputatorProj.DisplayName: Amputador Derretido
-MoltenBlobThrown.DisplayName: Bolha Derretida
-MonkeyDart.DisplayName: Dardo de Macaco
-MoonSigil.DisplayName: Sigilo da Lua
 MycorootProj.DisplayName: Micorreia
 MythrilKnifeProjectile.DisplayName: Faca de Mithrill
+
+NanoblackLightspeedCarve: {
+	// Perfect: Wrath of the Superluminae
+	// Standard: Light-speed Carve
+}
+
 NanoblackMain.DisplayName: Ceifador Nano-Negro
-NanoblackSplit.DisplayName: Lâmina Nano-Negra
-NanoblackStealthSplit.DisplayName: Pós-Imagem Nano-Negra
+// NanoblackPiercingStrike.DisplayName: Zero-Point Energy Strike
+// NanoblackStrike.DisplayName: Zero-Point Energy Strike
+// NanoblackTesselation.DisplayName: Nanoblack Tesselation
 NastyChollaBol.DisplayName: Bola de Cacto Traiçoeira
 NastyChollaNeedle.DisplayName: Agulha de Cacto
-NightsGazeProjectile.DisplayName: Olhar da Noite
-NightsGazeSpark.DisplayName: Faísca de Olhar da Noite
-NightsGazeStar.DisplayName: Estrela de Olhar da Noite
-NychthemeronOrb.DisplayName: Orbe Nictêmero
-NychthemeronProjectile.DisplayName: Nictêmero
 OrichalcumSpikedGemstoneProjectile.DisplayName: Joia de Oricalco
 PalladiumJavelinProjectile.DisplayName: Lança de Paládio
 PartisanExplosion.DisplayName: Explosão Profanada
@@ -209,7 +206,6 @@ PhantasmalSoulBlue.DisplayName: Espírito Azul
 PlaguedFuelPackCloud.DisplayName: Nuvem Praga
 PlaguenadeBee.DisplayName: Abelha da Praga
 PlaguenadeProj.DisplayName: Praganada
-PoisonBol.DisplayName: Bola Venenosa
 Prismalline2.DisplayName: Prismalina
 Prismalline3.DisplayName: Prismalina
 PrismallineProj.DisplayName: Prismalina
@@ -217,23 +213,34 @@ PrismRocket.DisplayName: Foguete Prisma
 PrismShurikenBlade.DisplayName: Lâmina de Refração
 ProfanedPartisanProj.DisplayName: Partisan Profano
 ProfanedPartisanSpear.DisplayName: Lança Profana
+// ProfanedPartisanFlare.DisplayName: Holy Light
+// PumpkaboomSmall.DisplayName: Small Pumpkaboom
+// PumpkaboomBoomSmall.DisplayName: Pump-kaboom!
+// PumpkaboomBig.DisplayName: Big Pumpkaboom
+// PumpkaboomBoomBig.DisplayName: Pump-KABOOM!!
 RadiantExplosion.DisplayName: Explosão Radiante
 RadiantStar2.DisplayName: Estrela Radiante
 RadiantStarKnife.DisplayName: Estrela Radiante
+// RadiationBurst.DisplayName: Radiation Burst
+// RadiationRain.DisplayName: Radiation Rain
 RealityRuptureLance.DisplayName: Lança da Realidade
 RealityRuptureMini.DisplayName: Fragmento de Realidade
 RealityRuptureStealth.DisplayName: Realidade Rompida
 ReaperProjectile.DisplayName: O Velho Ceifador
+// ReboundingRainbowProj.DisplayName: Rebounding Rainbow
+// ReboundingRainbowSplit.DisplayName: Rebounding Rainbow
 RefractionRotorProjectile.DisplayName: Shuriken Prisma
+// RefractionRotorSlashCreator.DisplayName: Refraction Rotor Slash Creator
+// RefractionSlash.DisplayName: Refraction Slash
 RegulusEnergy.DisplayName: Energia Régulo
 RegulusRiotProj.DisplayName: Régulo Violento
 RotBallProjectile.DisplayName: Bola Podre
 SacrificeProjectile.DisplayName: Adaga Sacrificial
 SamsaraSlicerProjectile.DisplayName: Fatiador Sansara
 SamsaraSlicerSmallDisk.DisplayName: Fatiador Sansara
+// SandDollarFrag.DisplayName: Sand Dollar Frag
 SandDollarProj.DisplayName: Bolacha-da-Praia
 SandDollarStealth.DisplayName: Bolacha-da-Praia
-SandslasherProj.DisplayName: Rasga-Dunas
 ScarletBlast.DisplayName: Explosão Escarlate
 ScarletDevilBullet.DisplayName: Projétil Gungnir
 ScarletDevilProjectile.DisplayName: Lança, o Gungnir
@@ -242,50 +249,55 @@ ScourgeoftheSeasProjectile.DisplayName: Flagelo Úmido
 ScourgeVenomCloud.DisplayName: Nuvem de Peçonha
 SeafoamBombProj.DisplayName: Bomba de Espuma do Mar
 SeafoamBubble.DisplayName: Bolha de Espuma do Mar
-SealedSingularityBlackhole.DisplayName: Buraco Negro Selado
+// SealedSingularityRock.DisplayName: Sealed Singularity Rock
 SealedSingularityGore.DisplayName: Fragmento da Singularidade Selada
-SealedSingularityProj.DisplayName: Singularidade Selada
+// SealedSingularityHoldout.DisplayName: Sealed Singularity
+// SealedSingularityProjectile.DisplayName: Sealed Singularity
 SeraphimAngelicLight.DisplayName: Orbe de Luz
 SeraphimAngelicLight2.DisplayName: Orbe de Luz
 SeraphimBeamLarge.DisplayName: Feixe Sagrado
 SeraphimDagger.DisplayName: Serafim
 SeraphimProjectile.DisplayName: Serafim
+// ShadySalesmanGunshot.DisplayName: Elephant-Killing Round
 ShatteredExplosion.DisplayName: Explosão do Sol Fraturado
-ShatteredSunKnife.DisplayName: Sol Fraturado
-ShatteredSunScorchedBlade.DisplayName: Lâmina Chamuscada
+// ShatteredDawnKnife.DisplayName: Shattered Dawn
+// ShatteredDawnScorchedBlade.DisplayName: Scorched Blade
 ShinobiBladeProjectile.DisplayName: Lâmina de Shinobi
-ShockGrenadeBolt.DisplayName: Raio da Granada de Choque
-ShockGrenadeExplosion.DisplayName: Explosão da Granada de Choque
-ShockGrenadeProjectile.DisplayName: Granada de Choque
+// ShockBolt.DisplayName: Shock Bolt
+// ShockExplosion.DisplayName: Shock Explosion
+// DoomsdayDeviceProjectile.DisplayName: Doomsday Device
 ShockTeslaAura.DisplayName: Aura Eletrizante
 ShroomerangSpore.DisplayName: Esporo Infestado
 SkyBomberGas.DisplayName: Nuvem Irradiada
 SkyfinNuke.DisplayName: Barbatana-do-Céu Nuclear
-SkyStabberProj.DisplayName: Esfaqueador dos Céus
 SludgeSplotchProj1.DisplayName: Lama Manchada
 SludgeSplotchProj2.DisplayName: Lama Manchada
+// SmallCoral.DisplayName: Small Coral
 SnapClamProj.DisplayName: Amêijoa-Mordedora
 SnapClamStealth.DisplayName: Amêijoa-Mordedora
 SpearofDestinyProjectile.DisplayName: Lança Destino
 SpearofDestinyStealth.DisplayName: Lança Sagrada Empoderada
 SpearofDestinyStealthExplosion.DisplayName: Explosão Forte
 SpearofPaleolithProj.DisplayName: Lança Paleolítica
+// PaleoShatterExplosion.DisplayName: Paleo Shatter Explosion
 SpentFuelContainerProjectile.DisplayName: Recipiente de Combustível Radioativo
 SphereBladed.DisplayName: Esfera Laminada
 SphereBlue.DisplayName: Esfera Propulsora Azul
 SphereSpiked.DisplayName: Esfera Espinhosa
 SphereYellow.DisplayName: Esfera Propulsora Amarela
+// SporeKnifeBud.DisplayName: Spore Knife Bud
+// SporeKnifeProj.DisplayName: Spore Knife
 StealthNimbus.DisplayName: Nuvem
 StealthNimbusCloud.DisplayName: Nuvem
 StealthRain.DisplayName: Chuva
 StellarKnifeProj.DisplayName: Faca Estelar
-StickyBol.DisplayName: Bolinha Pegajosa
 StormfrontLightning.DisplayName: Relâmpago Corta-Raios
 StormfrontRazorProjectile.DisplayName: Navalha Corta-Raios
 Stormfrontspark.DisplayName: Faísca Corta-Raios
 SubductionFlameburst.DisplayName: Coluna de Chamas
 SubductionSlicerProj.DisplayName: Fatiador de Subducção
 SulphuricNukesplosion.DisplayName: Nuclear
+// SupernovaHoldout.DisplayName: Supernova
 SupernovaBomb.DisplayName: Bomba Supernova
 SupernovaBoom.DisplayName: Microsupernova
 SupernovaStealthBoom.DisplayName: Exo-Supernova
@@ -307,71 +319,32 @@ TotalityFlask.DisplayName: Frasco da Totalidade
 TotalityTar.DisplayName: Alcatrão da Totalidade
 TotalMeltdown.DisplayName: Explosão
 ToxicantTwisterDust.DisplayName: Poeira Tóxica
-ToxicantTwisterTwoPointZero.DisplayName: Tornado Tóxico
+// ToxicantTwisterProj.DisplayName: Toxicant Twister
 TurbulanceProjectile.DisplayName: Turbulança
 TurbulanceWindSlash.DisplayName: Corte de Vento
 TwistingThunderProj.DisplayName: Trovão Retorcido
 UmbraphileBoom.DisplayName: Explosão Umbra
+// UrchinIrradiation.DisplayName: Irradiation
 UrchinStingerProj.DisplayName: Ferrão de Ouriço-do-Mar
 ValariBoomerang.DisplayName: Valari Esmagador Congelado
 Valaricicle.DisplayName: Estalactite de Valari
 Valaricicle2.DisplayName: Estalactite de Valari
 ValedictionBoomerang.DisplayName: A Despedida
+// VegaProjectile.DisplayName: Vega
+// VegaSpark.DisplayName: Vega Spark
+// VegaStar.DisplayName: Vega Star
 VeneratedKnife.DisplayName: Faca Venerada
 WaveSkipperProjectile.DisplayName: Saltador de Ondas
 WebBallBol.DisplayName: Bola de Teia
+// WhitewaterAura.DisplayName: Whitewater Aura
+// WhitewaterProj.DisplayName: Whitewater Flask
+// WhitewaterSpear.DisplayName: Whitewater Spear
 WrathwingCinder.DisplayName: Erupção da Asa-Ira
 WrathwingFireball.DisplayName: Bola de Fogo da Asa-Ira
 WrathwingSpear.DisplayName: Asa-Ira
 WulfrumKnifeProj.DisplayName: Faca de Vulfrúmio
-// AntlionSkewerProj.DisplayName: Antlion on a Stick
-// AntlionSkewerSandBlast.DisplayName: Antlion Blast
-// AntlionSkewerSandCloud.DisplayName: Dense Sand Cloud
-// ApoctolithExplosion.DisplayName: Apoctolith Boom
-// BallisticPoisonCloud.DisplayName: Ballistic Cloud
-// BlazingStarOrbital.DisplayName: Orbital Blazing Star
-// BurningStrifeExplosion.DisplayName: Shadow Flame Explosion
-// BurningTentacle.DisplayName: Strife Tentacle
-// DestructionExplosion.DisplayName: Destruction Explosion
-// DimensionTearingDiskProjectile.DisplayName: Dimension-Tearing Disk
-// GlaiveOrbital.DisplayName: Orbital Glaive
-// LeviathanToothStealth.DisplayName: Leviathan Jaw
-// LyraConstellation.DisplayName: Lyra Constellation
-// MeteorFistMeteorite.DisplayName: Meteorite REALLY Gud For A Lot Of Shtuff
-// PumpkaboomSmall.DisplayName: Small Pumpkaboom
-// PumpkaboomBoomSmall.DisplayName: Pump-kaboom!
-// PumpkaboomBig.DisplayName: Big Pumpkaboom
-// PumpkaboomBoomBig.DisplayName: Pump-KABOOM!!
-// RadiationBurst.DisplayName: Radiation Burst
-// RadiationRain.DisplayName: Radiation Rain
-// ReboundingRainbowProj.DisplayName: Rebounding Rainbow
-// ReboundingRainbowSplit.DisplayName: Rebounding Rainbow
-// RefractionRotorSlashCreator.DisplayName: Refraction Rotor Slash Creator
-// RefractionSlash.DisplayName: Refraction Slash
-// SandDollarFrag.DisplayName: Sand Dollar Frag
-// ShatteredDawnKnife.DisplayName: Shattered Dawn
-// ShatteredDawnScorchedBlade.DisplayName: Scorched Blade
-// ShockBolt.DisplayName: Shock Bolt
-// ShockExplosion.DisplayName: Shock Explosion
-// DoomsdayDeviceProjectile.DisplayName: Doomsday Device
-// SmallCoral.DisplayName: Small Coral
-// SporeKnifeBud.DisplayName: Spore Knife Bud
-// SporeKnifeProj.DisplayName: Spore Knife
-// ToxicantTwisterProj.DisplayName: Toxicant Twister
-// UrchinIrradiation.DisplayName: Irradiation
-// VegaProjectile.DisplayName: Vega
-// VegaSpark.DisplayName: Vega Spark
-// VegaStar.DisplayName: Vega Star
-// WhitewaterAura.DisplayName: Whitewater Aura
-// WhitewaterProj.DisplayName: Whitewater Flask
-// WhitewaterSpear.DisplayName: Whitewater Spear
-
-NanoblackLightspeedCarve: {
-	// Perfect: Wrath of the Superluminae
-	// Standard: Light-speed Carve
-}
-
-// NanoblackPiercingStrike.DisplayName: Zero-Point Energy Strike
-// NanoblackStrike.DisplayName: Zero-Point Energy Strike
-// NanoblackTesselation.DisplayName: Nanoblack Tesselation
 // NanoblackLightspeedCarveSlashVisual.DisplayName: Nanoblack Light-speed Carve Visuals
+// LemonNadeHoldout.DisplayName: Lemon 'nade
+// LemonNadeProjectile.DisplayName: Lemon 'nade
+// SpadefishHoldout.DisplayName: Spinfish
+// SpadefishThrown.DisplayName: Spadefish

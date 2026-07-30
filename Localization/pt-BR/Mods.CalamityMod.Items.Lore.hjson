@@ -1,7 +1,7 @@
 ShortTooltip:
 	'''
 	[c/E3AF40:Sussurros do alto dançam em seus ouvidos...]
-	[c/BEBEBE:Pressione "Shift Esquerdo" para ouvir mais de perto]
+	[c/BEBEBE:Segure Shift para ouvir mais de perto]
 	'''
 
 LoreAbyss: {
@@ -299,7 +299,7 @@ LoreDevourerofGods: {
 }
 
 LoreDragonfolly: {
-	DisplayName: Dragão-Folião
+	DisplayName: Dragão-folião
 	Lore:
 		'''
 		Perto do fim da Era Dracônica, apareceram registros das espécies "impuras" de Dragão.
@@ -314,7 +314,7 @@ LoreDragonfolly: {
 }
 
 LoreDukeFishron: {
-	DisplayName: Duque Peixe-Dragão
+	DisplayName: Duque Peixe-dragão
 	Lore:
 		'''
 		Por mais viajado que seja, esta espécie é sozinha a mais poderosa dos mares.
@@ -675,12 +675,14 @@ LoreStormWeaver: {
 	Lore:
 		'''
 		Esta besta, mesmo de menor estatura que o Devorador, é propriamente uma grande ameaça.
-		Eles são claramente da mesma espécie. Até esta serpente é conhecida por devorar Serpes inteiras.
-		Muito pouco se sabe do plano ou espaço do qual o Grande Devorador vem.
-		Mesmo Draedon e sua obsessiva pesquisa têm sido incapazes de decifrar sua verdadeira natureza.
-		O Tecelão passou por uma fenda desse lugar aberta pelo Devorador, e este monitora o clandestino desde então.
-		Em sua mente, os poderes da serpente menor poderiam levá-lo a ser ameaçador demais para continuar vivendo.
-		Pouco ele sabe que sempre esteve em uma posição parecida. Ele se acha invencível afinal.
+		Chrysadia o considerava notoriamente infame; dizia-se que ele devorava serpes inteiras.
+		Ele chegou ao nosso reino por meio de uma fenda aberta pelo Devorador. Ele partiu imediatamente em busca dele, mas eu intervim.
+		Ele alegou que a serpente menor representava uma ameaça grande demais para ser poupada. Isso acabou se revelando nada mais do que mais uma mentira.
+		É estranho, no entanto. Até hoje, não sei por que ele fingiu estar tão preocupado.
+		Por outro lado, pouco se sabe sobre a Serpente ou seu lar. Mesmo a pesquisa obsessiva de Draedon rende poucos resultados.
+		De qualquer forma, não achei adequado que o Devorador tirasse a vida do Tecelão apenas com base em suspeitas.
+		Desde então, ele tem monitorado o Tecelão. Mal sabe ele que está na mesma posição há todo esse tempo.
+		Afinal, ele se considera intocável.
 		'''
 	// Tooltip: ""
 }

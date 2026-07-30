@@ -2,18 +2,37 @@ Aestheticus: {
 	DisplayName: Estéticus
 	Tooltip:
 		'''
-		Dispara cristais que explodem e deixam os inimigos lentos
-		O dano desta arma aumenta com base em todas as suas estatísticas de dano
+		Dispara cristais que explodem e infligem [cbuff:CalamityMod/Vaporfied]
+		{$Common.AverageDamageInfo}
 		'''
+}
+
+ClaretCannon: {
+	DisplayName: Canhão de Claretes
+	Tooltip:
+		'''
+		Dispara um tiro de clarete hipercondensado
+		O tiro explode ao atingir um inimigo e libera orbes de sangue
+		A explosão dilacera os inimigos, reduzindo muito a defesa deles
+		Coletar orbes de sangue reduzirá o [cbuffplr:PotionSickness] quando possível
+		Se não houver [cbuffplr:PotionSickness], sua regen. natural será melhorada
+		Só pode ser disparado a cada 10 segundos
+		{$Common.AverageDamageInfo}
+		'''
+}
+
+ColdheartIcicle: {
+	DisplayName: Pingente do Coração Gélido
+	Tooltip: "'Para aqueles que são pé frio'"
 }
 
 EyeofMagnus: {
 	DisplayName: Olho de Magnus
 	Tooltip:
 		'''
-		Dispara feixes teleguiados poderosos que reduzem a proteção do inimigo
-		Recupera mana e vida ao atingir o inimigo
-		O dano desta arma aumenta com base em todas as suas estatísticas de dano
+		Dispara massas cósmicas teleguiadas que recuperam vida e mana no acerto
+		Explode em uma nuvem de nébola que inflige os inimigos com [cbuff:CalamityMod/MarkedforDeath]
+		{$Common.AverageDamageInfo}
 		'''
 }
 
@@ -21,8 +40,8 @@ LunicEye: {
 	DisplayName: Olho Lúnico
 	Tooltip:
 		'''
-		Dispara feixes lúnicos teleguiados que reduzem a proteção do inimigo
-		O dano desta arma aumenta com base em todas as suas estatísticas de dano
+		Dispara feixes de energia teleguiados que inflige os inimigos com [cbuff:CalamityMod/MarkedforDeath]
+		{$Common.AverageDamageInfo}
 		'''
 }
 
@@ -30,26 +49,17 @@ RelicOfDeliverance: {
 	DisplayName: Relíquia da Libertação
 	Tooltip:
 		'''
-		Aperte <left> para começar a carregar um ataque de lança
-		Aperte <left> novamente para liberar a carga e avançar em direção ao cursor
-		Aperte <left> enquanto avança para redirecionar o avanço ao cursor
-		Segurar qualquer outro item cancelará a carga
-		'''
-}
-
-RelicOfResilience: {
-	DisplayName: Relíquia da Resiliência
-	Tooltip:
-		'''
-		Invoca um artefato na posição do mouse
-		O artefato pode ser atingido por inimigos e todos os projéteis
-		Ao ser destruído, o artefato explode em uma explosão de fragmentos giratórios
-		Se um inimigo estiver na área dos fragmentos, seu próximo ataque causará 45% menos dano
-		Este efeito tem um tempo de recarga
-		Depois de 5 segundos, os fragmentos se juntam para reformar o artefato original
-		Essa reforma só pode acontecer 3 vezes antes do artefato precisar ser invocado novamente
-		Você recebe um tempo de recarga de 5 segundos ao invocar um novo artefato
-		Se um artefato já existir, usar este item novamente irá realocá-lo ao cursor
+		Usar <left> faz você montar na lança; segurar <left> carrega a lança, desacelerando-o
+		Solte o botão para se lançar em alta velocidade, com uma velocidade menor quando um chefe estiver vivo
+		Perder muita velocidade enquanto carrega interromperá o carregamento, redefinindo sua velocidade
+		A investida permite que você atravesse inimigos e peças
+		Ficar dentro de peças por muito tempo fará com que você seja teletransportado ao lugar por onde entrou
+		<right> para desmontar
+		Segurar a lança reduz muito o dano de todas as invocações
+		{$Common.AverageDamageInfo}
+		[c/FF8C00:A vingança me impulsionava; eu não pensava em nada além de me vingar.]
+		[c/FF8C00:O dragão tirou tudo de mim, deixando meus pedaços quebrados espalhados pelo chão.]
+		[c/FF8C00:Mas quando dancei ao lado dEla, soube que ainda havia algo pelo qual valia a pena lutar.]
 		'''
 }
 
@@ -67,32 +77,15 @@ StarStruckWater: {
 	Tooltip: Espalha a Infecção Astral a alguns blocos
 }
 
-ClaretCannon: {
-	// DisplayName: Claret Cannon
-	/* Tooltip:
-		'''
-		Fires a hypercondensed claret round
-		The round explodes upon striking an enemy and releases blood orbs
-		The explosion shreds enemies, inflicting [cbuff:CalamityMod/Laceration] and dramatically reducing their defense
-		Picking up the blood orbs will reduce [cbuff:PotionSickness] when possible
-		If you do not have [cbuff:PotionSickness], your natural regeneration will be enhanced
-		Can only fire once every 10 seconds
-		''' */
-}
-
-ColdheartIcicle: {
-	// DisplayName: Coldheart Icicle
-	// Tooltip: "'N(ice) work'"
-}
-
 StratusSphere: {
-	// DisplayName: Stratus Sphere
-	/* Tooltip:
+	DisplayName: Estratoesfera
+	Tooltip:
 		'''
-		Launches a singularity which exerts influence on all entities in a large area around it
-		Influenced players gain Starbursts over time, while enemies instead take damage
-		<right> to cause Starbursts to form a barrier, causing you to lose Starbursts instead of health
-		Launching the singularity deactivates the barrier, and creating a barrier deactivates the singularity
-		'Channeling souls into stars, an inane concept'
-		''' */
+		Lança uma singularidade que exerce influência sobre todas as entidades em uma área ao seu redor
+		Jogadores influenciados recebem Explosões Estelares com o tempo e as consumirão para voar quando esgotarem seu tempo de voo
+		<right> para criar uma barreira de Explosões Estelares, fazendo com que você os perca no lugar da vida
+		Lançar a singularidade desativa a barreira e criar uma barreira desativa a singularidade
+		{$Common.AverageDamageInfo}
+		'Canalizando almas em estrelas, um conceito absurdo'
+		'''
 }

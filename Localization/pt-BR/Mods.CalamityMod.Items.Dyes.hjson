@@ -1,3 +1,8 @@
+AcidRainDye: {
+	DisplayName: Tintura da Chuva Ácida
+	Tooltip: ""
+}
+
 AerialiteDye: {
 	DisplayName: Tintura de Aerólita
 	Tooltip: ""
@@ -68,6 +73,11 @@ CryonicDye: {
 	Tooltip: ""
 }
 
+DaedalusDye: {
+	DisplayName: Tintura de Dédalo
+	Tooltip: ""
+}
+
 DefiledFlameDye: {
 	DisplayName: Tintura de Chamas Profanas
 	Tooltip: ""
@@ -89,7 +99,7 @@ EndothermicDye: {
 }
 
 ExoDye: {
-	DisplayName: Exo-Tintura
+	DisplayName: Tintura Exo
 	Tooltip: ""
 }
 
@@ -113,6 +123,26 @@ WingTimeHairDye: {
 	Tooltip: ""
 }
 
+InvisibleDye: {
+	DisplayName: Tintura Invisível
+	Tooltip: ""
+}
+
+LivingShardDye: {
+	DisplayName: Tintura do Fragmento da Vida
+	Tooltip: ""
+}
+
+MeldDye: {
+	DisplayName: Tintura Fundida
+	Tooltip: ""
+}
+
+NecromanticDye: {
+	DisplayName: Tintura Necromântica
+	Tooltip: ""
+}
+
 NecroplasmicDye: {
 	DisplayName: Tintura de Necroplasma
 	Tooltip: ""
@@ -133,6 +163,21 @@ PinkStatigelDye: {
 	Tooltip: ""
 }
 
+PlagueGooDye: {
+	DisplayName: Tintura de Gosma da Praga
+	Tooltip: ""
+}
+
+PlaguePlateDye: {
+	DisplayName: Tintura de Placa da Praga
+	Tooltip: ""
+}
+
+ProfanedCrystalDye: {
+	DisplayName: Tintura do Cristal Profano
+	Tooltip: ""
+}
+
 ProfanedFlameDye: {
 	DisplayName: Tintura de Chamas Profanas
 	Tooltip: ""
@@ -143,13 +188,28 @@ ProfanedMoonlightDye: {
 	Tooltip: ""
 }
 
+ProfanedRockDye: {
+	DisplayName: Tintura da Rocha Profana
+	Tooltip: ""
+}
+
 ReaverDye: {
 	DisplayName: Tintura do Ladrão
 	Tooltip: ""
 }
 
+ScoriaDye: {
+	DisplayName: Tintura de Escória
+	Tooltip: ""
+}
+
 ShadowspecDye: {
 	DisplayName: Tintura Umbrífera
+	Tooltip: ""
+}
+
+SilvaDye: {
+	DisplayName: Tintura de Silva
 	Tooltip: ""
 }
 
@@ -168,72 +228,12 @@ SwirlingCosmicFlameDye: {
 	Tooltip: ""
 }
 
-AcidRainDye: {
-	// DisplayName: Acid Rain Dye
-	// Tooltip: ""
-}
-
-DaedalusDye: {
-	// DisplayName: Daedalus Dye
-	// Tooltip: ""
-}
-
-InvisibleDye: {
-	// DisplayName: Invisible Dye
-	// Tooltip: ""
-}
-
-LivingShardDye: {
-	// DisplayName: Living Shard Dye
-	// Tooltip: ""
-}
-
-MeldDye: {
-	// DisplayName: Meld Dye
-	// Tooltip: ""
-}
-
-NecromanticDye: {
-	// DisplayName: Necromantic Dye
-	// Tooltip: ""
-}
-
-PlagueGooDye: {
-	// DisplayName: Plague Goo Dye
-	// Tooltip: ""
-}
-
-PlaguePlateDye: {
-	// DisplayName: Plague Plate Dye
-	// Tooltip: ""
-}
-
-ProfanedCrystalDye: {
-	// DisplayName: Profaned Crystal Dye
-	// Tooltip: ""
-}
-
-ProfanedRockDye: {
-	// DisplayName: Profaned Rock Dye
-	// Tooltip: ""
-}
-
-ScoriaDye: {
-	// DisplayName: Scoria Dye
-	// Tooltip: ""
-}
-
-SilvaDye: {
-	// DisplayName: Silva Dye
-	// Tooltip: ""
-}
-
 TarragonDye: {
-	// DisplayName: Tarragon Dye
-	// Tooltip: ""
+	DisplayName: Tintura de Estragão
+	Tooltip: ""
 }
 
 WulfrumDye: {
-	// DisplayName: Wulfrum Dye
-	// Tooltip: ""
+	DisplayName: Tintura de Vulfrûmio
+	Tooltip: ""
 }

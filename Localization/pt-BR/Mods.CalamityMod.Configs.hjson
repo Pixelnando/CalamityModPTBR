@@ -4,10 +4,14 @@ CalamityClientConfig: {
 	Headers: {
 		Gameplay: Mudanças de Jogatina Gerais
 		Graphics: Mudanças de Gráfico
-		MeterPositions: Posições dos Medidores
 		UI: Mudanças na IU
-		MusicEvents: Eventos de Música
+		MeterPositions: Posições dos Medidores
 		MusicToggles: Alternadores de Música
+	}
+
+	AbyssLayer3Alt: {
+		Label: "[i:CalamityModMusic/AbyssLayer3AltMusicBox] Terceira camada do abismo (Alternativa)"
+		Tooltip: Toca "Calamity Mod OST - "R'lyehian Depths" na camada das Ventoinhas Termais do abismo.
 	}
 
 	AdrenalineMeterPosX: {
@@ -75,11 +79,7 @@ CalamityClientConfig: {
 
 	CooldownDisplay: {
 		Label: "[i:CalamityMod/NebulousCore] Modo de exibição do quadro de recargas"
-		Tooltip:
-			'''
-			Adiciona o quadro de recargas, que exibe todas as recargas importantes logo abaixo dos efeitos e efeitos negativos.
-			Defina isso como 1 para exibir o quadro de recargas no modo compacto, e 0 para escondê-lo completamente.
-			'''
+		Tooltip: Adiciona o quadro de recargas, que exibe todas as recargas importantes logo abaixo dos efeitos e efeitos negativos.
 	}
 
 	DebuffDisplay: {
@@ -90,6 +90,43 @@ CalamityClientConfig: {
 	DevourerofGodsEulogy: {
 		Label: "[i:CalamityModMusic/DevourerofGodsEulogyMusicBox] Eulogy for the Ego"
 		Tooltip: Toca "Scourge of The Universe (Eulogy for The Ego)" da Trilha Sonora do Calamity depois de derrotar o Devorador de Deuses.
+	}
+
+	DisableGravityScreenSwap: {
+		Label: Desativar a rotação da tela no efeito de gravidade
+		Tooltip:
+			'''
+			Desativa a rotação da tela causada pela mudança na gravidade do vanilla, rotacionando o jogador no lugar.
+			Ative isto se a rotação de tela o distrai ou induz cinetose.
+			'''
+	}
+
+	EnableVanillaTextureEdits: {
+		Label: "[i:Paintbrush] Ativar edições nas texturas do vanilla"
+		Tooltip:
+			'''
+			Ativa pequenas mudanças nas texturas dos chefes do vanilla para melhorar os telégrafos de ataque.
+			Desative isso para garantir a compatibilidade com pacotes de textura.
+			'''
+	}
+
+	EnergyShieldOpacity: {
+		Label: "[i:CalamityMod/TheSponge] Opacidade do Escudo de Energia"
+		Tooltip:
+			'''
+			Define a opacidade dos escudos de energia que são renderizados por cima do jogador.
+			Definir isso como 0 desativa os visuais dos escudos de energia.
+			'''
+	}
+
+	FancyBackgroundVisuals: {
+		Label: "[i:CalamityMod/BlueDistortedMonolith] Alternar visuais bonitos nos cenários"
+		Tooltip:
+			'''
+			Controla a presença de visuais bonitos nos cenários durante certas partes do jogo, como durante batalhas contra chefes.
+			Caso desativado, uma versão simplificada do visual original será exibido em alguns casos.
+			Desative caso haja problemas relacionados a visibilidade ou performance baixa.
+			'''
 	}
 
 	FasterFallHotkey: {
@@ -104,7 +141,12 @@ CalamityClientConfig: {
 
 	FlightBar: {
 		Label: "[i:AngelWings] Exibir barra de voo"
-		Tooltip: Ativa a interface da barra de voo, que exibe a capacidade de voo do jogador.
+		Tooltip:
+			'''
+			Ativa a interface da barra de voo, que exibe o tempo restante de voo da asa do jogador.
+			Esta barra também indica se o tempo de voo máximo foi reduzido por um efeito negativo.
+			Ela brilha com a cor azul clara caso o tempo de voo máximo do jogador esteja ilimitado.
+			'''
 	}
 
 	FlightBarPosX: {
@@ -145,24 +187,6 @@ CalamityClientConfig: {
 			'''
 	}
 
-	MusicModReminderMessage: {
-		Label: "[i:MusicBoxMartians] Lembrete do mod de música"
-		Tooltip:
-			'''
-			Ativa ou desativa a mensagem de status que lembra o usuário de instalar o Calamity Music Mod.
-			Essa mensagem é exibida ao entrar em um mundo.
-			'''
-	}
-
-	NewVanillaTextures: {
-		Label: "[i:Paintbrush] Novas texturas para o vanilla"
-		Tooltip:
-			'''
-			Ativa ou desativa as novas texturas para o vanilla.
-			Desative isso para garantir a compatibilidade com pacotes de textura.
-			'''
-	}
-
 	ParticleLimit: {
 		Label: "[i:FragmentStardust] Limite máximo de partículas"
 		Tooltip:
@@ -171,6 +195,25 @@ CalamityClientConfig: {
 			Partículas são separadas de poeira e gores.
 			Abaixe para melhorar o desempenho.
 			[c/F05A5A:Valores menores que 1000 podem fazer com que algumas coisas não sejam exibidas corretamente.]
+			'''
+	}
+
+	Photosensitivity: {
+		Label: "[i:DiscoBall] Modo de fotossensibilidade"
+		Tooltip:
+			'''
+			Reduz ou desativa o brilho e efeitos piscantes de alguns efeitos visuais.
+			Também desativa efeitos de tremor de tela.
+			Ative caso você seja fotossensível.
+			'''
+	}
+
+	BoCSpriteChange: {
+		Label: "[i:BrainOfConfusion] Remover imagens potencialmente perturbadoras"
+		Tooltip:
+			'''
+			Substitui alguns gráficos de chefes para remover imagens potencialmente perturbadoras que podem desencadear fobias.
+			Altamente recomendado se você se sinta desconfortável com cenas de terror corporal ou tenha tripofobia.
 			'''
 	}
 
@@ -210,6 +253,11 @@ CalamityClientConfig: {
 			[c/FF232C:Todos os visuais de tremor de tela são balanceados em torno de um valor de 1.]
 			[c/FF232C:Valores altos podem ser nauseantes ou causarem mal-estar para alguns.]
 			'''
+	}
+
+	SetBonusDoubleTap: {
+		Label: "[i:VortexHelmet] Permitir toque duplo para bônus de armadura"
+		Tooltip: Permite que todos os bônus de armadura sejam ativados pelo atalho de toque duplo em {$Key.DOWN} (ou {$Key.UP}, dependendo da configuração) do vanilla.
 	}
 
 	ShopNewAlert: {
@@ -281,6 +329,17 @@ CalamityClientConfig: {
 			'''
 	}
 
+	StutterFix: {
+		Label: "[i:TrifoldMap] Ativar a correção de engasgos"
+		Tooltip:
+			'''
+			Quando ativado, ao entrar em um mundo, ele será carregado completamente de uma só vez.
+			Essa configuração faz com que o Terraria pare de responder enquanto o mundo está sendo carregado. NÃO feche o jogo durante esse processo.
+			Quando o jogo voltar a responder, você entrará no mundo e poderá jogar sem engasgos aleatórios.
+			Essa opção é recomendada apenas para jogadores que não suportam engasgos durante a jogatina.
+			'''
+	}
+
 	SulphuricWaterMeterPosX: {
 		Label: "[i:LaserRuler] Posição X do medidor de envenenamento sulfúrico"
 		Tooltip:
@@ -296,93 +355,6 @@ CalamityClientConfig: {
 			'''
 			A posição Y do medidor de envenenamento por água sulfúrica, medido como uma porcentagem da altura da tela.
 			O medidor pode ser arrastado com o mouse se Travar a posição dos medidores estiver desativado.
-			'''
-	}
-
-	VanillaCooldownDisplay: {
-		Label: "[i:HealingPotion] Mostrar recargas do vanilla"
-		Tooltip:
-			'''
-			Adiciona os efeitos negativos do vanilla, Enjoo por poção e Estado de caos, ao quadro de recargas.
-			Isso não os remove da sua lista de efeitos, mas pode ajudar na visiblidade mesmo assim.
-			'''
-	}
-
-	VCMMStatusMessage: {
-		Label: "[i:MusicBoxMartians] Mensagem de status sobre o VCMM"
-		Tooltip: Ative ou desative a mensagem de status anunciando o Vanilla Calamity Music Mod que aparece ao entrar no mundo.
-	}
-
-	WikiStatusMessage: {
-		Label: "[i:Book] Mensagem de status sobre o wiki"
-		Tooltip: Ative ou desative a mensagem de status anunciando o Wiki Oficial do Calamity que aparece ao entrar no mundo.
-	}
-
-	AbyssLayer3Alt: {
-		Label: "[i:CalamityModMusic/AbyssLayer3AltMusicBox] Terceira camada do abismo (Alternativa)"
-		Tooltip: Toca "Calamity Mod OST - "R'lyehian Depths" na camada das Ventoinhas Termais do abismo.
-	}
-
-	DisableGravityScreenSwap: {
-		Label: Desativar a rotação da tela no efeito de gravidade
-		Tooltip:
-			'''
-			Desativa a rotação da tela causada pela mudança na gravidade do vanilla, rotacionando o jogador no lugar.
-			Ative isto se a rotação de tela o distrai ou induz cinetose.
-			'''
-	}
-
-	EnableVanillaTextureEdits: {
-		Label: "[i:Paintbrush] Ativar edições nas texturas do vanilla"
-		Tooltip:
-			'''
-			Ativa pequenas mudanças nas texturas dos chefes do vanilla para melhorar os telégrafos de ataque.
-			Desative isso para garantir a compatibilidade com pacotes de textura.
-			'''
-	}
-
-	EnergyShieldOpacity: {
-		Label: "[i:CalamityMod/TheSponge] Opacidade do Escudo de Energia"
-		Tooltip:
-			'''
-			Define a opacidade dos escudos de energia que são renderizados por cima do jogador.
-			Definir isso como 0 desativa os visuais dos escudos de energia.
-			'''
-	}
-
-	FancyBackgroundVisuals: {
-		Label: "[i:CalamityMod/BlueDistortedMonolith] Alternar visuais bonitos nos cenários"
-		Tooltip:
-			'''
-			Controla a presença de visuais bonitos nos cenários durante certas partes do jogo, como durante batalhas contra chefes.
-			Caso desativado, uma versão simplificada do visual original será exibido em alguns casos.
-			Desative caso haja problemas relacionados a visibilidade ou performance baixa.
-			'''
-	}
-
-	Photosensitivity: {
-		Label: "[i:DiscoBall] Modo de fotossensibilidade"
-		Tooltip:
-			'''
-			Reduz ou desativa o brilho e efeitos piscantes de alguns efeitos visuais.
-			Também desativa efeitos de tremor de tela.
-			Ative caso você seja fotossensível.
-			'''
-	}
-
-	SetBonusDoubleTap: {
-		Label: "[i:VortexHelmet] Permitir toque duplo para bônus de armadura"
-		Tooltip: Permite que todos os bônus de armadura sejam ativados pelo atalho de toque duplo em {$Key.DOWN} (ou {$Key.UP}, dependendo da configuração) do vanilla.
-	}
-
-	StutterFix: {
-		Label: "[i:TrifoldMap] Ativar a correção de engasgos"
-		Tooltip:
-			'''
-			Quando ativado, ao entrar em um mundo, ele será carregado completamente de uma só vez.
-			Essa configuração faz com que o Terraria pare de responder enquanto o mundo está sendo carregado. NÃO feche o jogo durante esse processo.
-			Quando o jogo voltar a responder, você entrará no mundo e poderá jogar sem engasgos aleatórios.
-			Essa opção é recomendada apenas para jogadores que não suportam engasgos durante a jogatina.
 			'''
 	}
 
@@ -408,6 +380,25 @@ CalamityClientConfig: {
 	TileTextureBlendingQuality: {
 		Label: "[i:GlowPaint] Mesclagem suave de peças"
 		Tooltip: Altera a qualidade do renderizador de mistura suave usado na mesclagem de dois tipos diferentes de peça.
+	}
+
+	VanillaCooldownDisplay: {
+		Label: "[i:HealingPotion] Mostrar recargas do vanilla"
+		Tooltip:
+			'''
+			Adiciona os efeitos negativos do vanilla, Enjoo por poção e Estado de caos, ao quadro de recargas.
+			Isso não os remove da sua lista de efeitos, mas pode ajudar na visiblidade mesmo assim.
+			'''
+	}
+
+	VCMMStatusMessage: {
+		Label: "[i:MusicBoxMartians] Mensagem de status sobre o VCMM"
+		Tooltip: Ative ou desative a mensagem de status anunciando o Vanilla Calamity Music Mod que aparece ao entrar no mundo.
+	}
+
+	WikiStatusMessage: {
+		Label: "[i:Book] Mensagem de status sobre o wiki"
+		Tooltip: Ative ou desative a mensagem de status anunciando o Wiki Oficial do Calamity que aparece ao entrar no mundo.
 	}
 }
 
@@ -440,6 +431,15 @@ CalamityServerConfig: {
 			'''
 	}
 
+	DefaultDashEnabled: {
+		Label: "[i:Tabi] Corrida padrão"
+		Tooltip:
+			'''
+			Concede ao jogador uma corrida fraca padrão que não requer equipamentos ou itens para ser realizada.
+			Essa corrida será substituída por qualquer outra corrida disponível, incluindo corridas de outros mods.
+			'''
+	}
+
 	BossZen: {
 		Label: "[i:CalamityMod/ZenPotion] Chefes reduzem drasticamente as taxas de surgimento"
 		Tooltip:
@@ -453,15 +453,6 @@ CalamityServerConfig: {
 	ChilledWaterRework: {
 		Label: "[i:ArcticDivingGear] Retrabalho da água congelada"
 		Tooltip: Quando ativado, a água nos biomas de neve e gelo drenará rapidamente a respiração do jogador em vez de infligir Resfriado.
-	}
-
-	DefaultDashEnabled: {
-		Label: "[i:Tabi] Corrida padrão"
-		Tooltip:
-			'''
-			Concede ao jogador uma corrida fraca padrão que não requer equipamentos ou itens para ser realizada.
-			Essa corrida será substituída por qualquer outra corrida disponível, incluindo corridas de outros mods.
-			'''
 	}
 
 	EarlyHardmodeProgressionRework: {
@@ -482,6 +473,15 @@ CalamityServerConfig: {
 			'''
 			Aumenta a velocidade básica do jogador substancialmente, sempre fornecendo um aumento de 50% na velocidade dos movimentos.
 			Esta ferramenta não faz nada se o mod Terraria Overhaul estiver carregado.
+			O Calamity é balanceado em torno da ativação desta configuração.
+			'''
+	}
+
+	FasterRopeClimbSpeed: {
+		Label: "[i:Rope] Aumentar a velocidade de escalada em cordas"
+		Tooltip:
+			'''
+			Aumenta a velocidade de escalada em cordas do jogador, aumentando a aceleração e desaceleração enquanto escala uma corda.
 			O Calamity é balanceado em torno da ativação desta configuração.
 			'''
 	}
@@ -513,39 +513,12 @@ CalamityServerConfig: {
 			'''
 	}
 
-	HigherJumpHeight: {
-		Label: "[i:ShinyRedBalloon] Aumentar a altura dos pulos básica"
-		Tooltip:
-			'''
-			Aumenta a altura dos pulos básica do jogador em 10% para que seja possível pular 7 peças.
-			O Calamity é balanceado em torno da ativação desta configuração.
-			'''
-	}
-
 	NerfExpertDebuffs: {
 		Label: "[i:AnkhCharm] Remover o aumento na duração dos efeitos negativos"
 		Tooltip:
 			'''
 			Desativa a duplicação (triplicação no modo Mestre) de efeitos negativos infligidos no jogador no modo Perito.
 			O Calamity é balanceado em torno da ativação desta configuração.
-			'''
-	}
-
-	PlayerRespawnTime_BossAlive: {
-		Label: "[i:Stopwatch] Tempo de renascimento durante lutas contra chefes"
-		Tooltip:
-			'''
-			Define, em segundos, o tempo de renascimento para os jogadores enquanto um chefe está vivo. Isso se aplica igualmente no modo de um jogador e multijogador.
-			Enquanto nenhum chefe está vivo, os jogadores renascerão em 3 segundos no modo de um jogador e multijogador.
-			'''
-	}
-
-	PotionSelling: {
-		Label: "[i:SpelunkerPotion] Venda de poções por NPCs de cidade"
-		Tooltip:
-			'''
-			Permite que os NPCs de cidade vendam várias poções.
-			Certas poções são vendidas depois que chefes específicos são derrotados.
 			'''
 	}
 
@@ -560,6 +533,15 @@ CalamityServerConfig: {
 			'''
 			Remove a aleatoriedade das reforjas do Inventor Goblin, tanto para armas quanto para acessórios.
 			Desative isso se estiver usando mods que alteram o reforjamento por conta própria para evitar conflitos.
+			'''
+	}
+
+	PlayerRespawnTime_BossAlive: {
+		Label: "[i:Stopwatch] Tempo de renascimento durante lutas contra chefes"
+		Tooltip:
+			'''
+			Define, em segundos, o tempo de renascimento para os jogadores enquanto um chefe está vivo. Isso se aplica igualmente no modo de um jogador e multijogador.
+			Enquanto nenhum chefe está vivo, os jogadores renascerão em 3 segundos no modo de um jogador e multijogador.
 			'''
 	}
 
@@ -578,24 +560,6 @@ CalamityServerConfig: {
 			'''
 			Quando ativado, NPCs de cidade podem surgir e renascer de noite.
 			Isso inclui o Velho na frente do calabouço.
-			'''
-	}
-
-	FasterRopeClimbSpeed: {
-		Label: "[i:Rope] Aumentar a velocidade de escalada em cordas"
-		Tooltip:
-			'''
-			Aumenta a velocidade de escalada em cordas do jogador, aumentando a aceleração e desaceleração enquanto escala uma corda.
-			O Calamity é balanceado em torno da ativação desta configuração.
-			'''
-	}
-
-	SimplifyAccessoryReforge: {
-		Label: "[i:Autohammer] Simplificar a reforja de acessórios"
-		Tooltip:
-			'''
-			Torna a reforja de acessórios mais simples, restringindo as opções aos seguintes modificadores:
-			          - Guardião, Ameaçador, Sortudo, Rápido, Violento, Arcano, Silencioso, Revigorante e Destemido
 			'''
 	}
 }

@@ -2,19 +2,12 @@ Abaddon: {
 	DisplayName: Abaddon
 	Tooltip:
 		'''
-		8% de aumento na chance de acerto crítico
-		Acertos críticos explodem, fazendo com que os inimigos próximos sejam incendiados com Chamas de enxofre
+		Golpes críticos amaldiçoam os inimigos com [cbuff:CalamityMod/Bane], que escala com sua chance de acerto crítico
+		Quando atingidos com um golpe crítico, os inimigos espalham todos os efeitos negativos mais fracos que sua [cbuff:CalamityMod/Bane] que possuem a inimigos próximos
+		Reduz os danos sofridos por [cbuff:CalamityMod/BrimstoneFlames] em {1}%
 		'''
-}
-
-AbyssalAmulet: {
-	DisplayName: Amuleto Abissal
-	Tooltip:
-		'''
-		Ataques causam o efeito negativo Correnteza
-		Oferece imunidade ao efeito negativo Correnteza
-		Enquanto estiver no abismo, você ganha 10% de aumento na vida máxima
-		'''
+	Equipped: Dano atual da [cbuff:CalamityMod/Bane]: {0} DPS
+	Unequipped: Equipe este acessório para ver o dano atual da [cbuff:CalamityMod/Bane]
 }
 
 AbyssalDivingGear: {
@@ -22,11 +15,9 @@ AbyssalDivingGear: {
 	Tooltip:
 		'''
 		Reduz o dano causado pela pressão do abismo enquanto estiver sem fôlego
-		Remove o efeito de sangramento causado pelo abismo
 		Oferece a capacidade de nadar e aumenta muito o tempo embaixo d'água
 		Fornece luz debaixo d'água e maior mobilidade no gelo
-		Fornece uma quantidade razoável de luz no abismo
-		Reduz bastante a perda de fôlego no abismo
+		Fornece uma quantidade razoável de luz e reduz a perda de fôlego no abismo
 		'''
 }
 
@@ -34,21 +25,13 @@ AbyssalDivingSuit: {
 	DisplayName: Traje de Mergulho Abissal
 	Tooltip:
 		'''
-		Transforma o jogador em um mergulhador com armadura
-		Aumenta a velocidade dos movimentos máxima e a aceleração enquanto debaixo d'água mas você se move lentamente fora d'água
-		As placas blindadas dos trajes reduzem o dano recebido em 15%
-		As placas só sofrerão danos se o dano recebido for maior que 50
-		Depois que o traje tiver sofrido muitos danos, suas placas blindadas levarão 3 minutos para se regenerar
-		Reduz o dano causado pela pressão do abismo enquanto estiver sem fôlego
-		Remove o efeito de sangramento causado pelo abismo em todas as camadas, exceto no Vazio
-		Oferece a capacidade de nadar e aumenta muito o tempo embaixo d'água
-		Fornece luz debaixo d'água e maior mobilidade no gelo
-		Fornece uma quantidade razoável de luz no abismo
-		Reduz bastante a perda de fôlego no abismo
-		Reduz a capacidade das criaturas de detectá-lo no abismo
-		Reduz a redução da defesa que o abismo causa
-		Concede imunidade às águas sulfurosas
-		Permite que você caia mais rápido em líquidos
+		Transforma o jogador em um mergulhador com armadura:
+		Aumenta a velocidade dos movimentos máxima e a aceleração enquanto debaixo d'água, mas as reduz fora d'água
+		Oferece a capacidade de nadar, estende o fôlego debaixo d'água, emite luz debaixo d'água e melhora a mobilidade no gelo
+		Fornece uma quantidade razoável de luz, reduz a perda de fôlego e reduz o dano causado pelo afogamento no abismo
+		Criaturas do abismo terão dificuldade em vê-lo, mitiga a redução de defesa causada pelo abismo, e permite que você afunde mais rápido em líquidos
+		Oferece imunidade às águas sulfurosas e o aumento de perda de fôlego da [cbuffplr:CalamityMod/CrushDepth]
+		Oferece resistência à perda de fôlego aumentada causada pela [cbuffplr:CalamityMod/HadopelagicPressure]
 		'''
 }
 
@@ -56,37 +39,20 @@ AbyssalMirror: {
 	DisplayName: Espelho Abissal
 	Tooltip:
 		'''
-		Reduz a agressão dos inimigos significantemente, até mesmo no abismo
-		A furtividade é gerada 25% mais rápido enquanto parado e 12% mais rápido enquanto se move
-		Concede a capacidade de se esquivar de ataques, liberando uma nuvem de fluido lumenil que danifica e atordoa os inimigos próximos
-		Esquivar-se de um ataque concece muita furtividade mas tem um tempo de recarga de 90 segundos
-		Este tempo de recarga é compartilhado com todos os outros desvios e reflexos
-		'A luz não atinge as profundezas do oceano'
+		A chance dos inimigos mirarem em você é menor, até mesmo no abismo
+		A furtividade é gerada 25% mais rapidamente enquanto parado e 12% mais rápido enquanto se move
+		{$Common.DodgeProvided}
+		Desviar de um ataque restaura a furtividade e libera uma nuvem danosa que atordoa inimigos próximos
 		'''
-	/* HoldShiftTooltip:
-		'''
-		{$Common.DodgeInformation}
-		Dodging an attack gives stealth
-		''' */
-	// FlavorTooltip: "'Light does not reach the depths of the ocean'"
-}
-
-AscendantInsignia: {
-	DisplayName: Insígnia Ascendente
-	Tooltip:
-		'''
-		Aumenta o tempo de voo da asa em 30%
-		Aumenta a velocidade dos movimentos e dos pulos em 10% e a aceleração em 1,1x
-		Pressionar [KEY] lhe dará o poder da ascensão, concedendo voo infinito por 4 segundos
-		A ascensão tem um tempo de recarga de 40 segundos
-		'''
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
+	FlavorTooltip: "'A luz não atinge as profundezas do oceano'"
 }
 
 AeroStone: {
 	DisplayName: Rocha Aérea
 	Tooltip:
 		'''
-		Fornece 25 de tempo de voo adicional
+		Fornece {0} segundos de tempo de voo adicional
 		Você recupera lentamente o tempo de voo enquanto está no ar se não estiver voando ou planando
 		'Uma das relíquias antigas'
 		'''
@@ -94,19 +60,16 @@ AeroStone: {
 
 Affliction: {
 	DisplayName: Aflição
-	Tooltip:
-		'''
-		Concede regeneração de +0.5 de vida por segundo a você e todos os outros jogadores no seu time
-		+10% vida máxima, 7% redução dos danos, 13 defesa e 10% de aumento nos danos
-		'''
+	Tooltip: Concede a todos os jogadores da equipe regen. de +{0} de vida/s, +{1}% de vida máxima, {3} de defesa e {4}% de aumento nos danos
 }
 
-AlchemicalFlask: {
-	DisplayName: Frasco Alquímico
+AlchemicalDecanter: {
+	DisplayName: Decantador Químico
 	Tooltip:
 		'''
-		Todos os ataques infligem a praga e oferece imunidade à praga
+		Todos os ataques infligem a [cbuff:CalamityMod/Plague] e reduz os danos sofridos pela [cbuffplr:CalamityMod/Plague] em {0}%
 		Projéteis invocam caçadores da praga ao atingir o inimigo
+		Libera abelhas da praga e ensopa o jogador com [cbuffplr:Honey] ao sofrer danos
 		'''
 }
 
@@ -114,9 +77,8 @@ AlluringBait: {
 	DisplayName: Isca Encantadora
 	Tooltip:
 		'''
-		30 de aumento no poder de pescaria
-		Aumenta bastante a chance de pescar peixes que são ingredientes de poção
-		A quantidade de peixes que são ingredientes de poção pescados é aumentada
+		{0} de aumento no poder de pescaria
+		Aumenta bastante o retorno de peixes que são ingredientes de poção
 		'''
 }
 
@@ -124,25 +86,20 @@ AmalgamatedBrain: {
 	DisplayName: Cérebro Amalgamado
 	Tooltip:
 		'''
-		10% de aumento nos danos
-		Sombra cai quando você é atingido
-		Concede a capacidade de se esquivar de ataques
-		O desvio tem um tempo de recarga de 90 segundos que é compartilhado com todos os outros desvios e reflexos
-		Aumenta temporariamente a chance de acerto crítico e o dano por invocação depois de esquivar
-		Você confundirá os inimigos próximos após ser atingido
+		Sofrer danos confunde os inimigos próximos e invoca um rastejante nojento
+		O rastejante nojento voa acima de você, explodindo em várias nuvens de chuva das sombras
+		{$Common.DodgeProvided}
+		Depois de desviar, os danos por invocações e chance de acerto crítico são aumentados em 10%
 		'''
-	// HoldShiftTooltip: "{$Common.DodgeInformation}"
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 AmbrosialAmpoule: {
 	DisplayName: Ampola Ambrosial
 	Tooltip:
 		'''
-		+70 vida máxima
-		Concede regeneração de +1 a +5 de vida por segundo com base na vida ausente
-		Concede regeneração de vida equivalente ao Mel
-		Ficar parado no Mel concede uma regeneração extremamente poderosa
-		Reduz na metade o tempo de duração de efeitos negativos de fogo e doenças
+		Concede regen. de +{0} a +{1} de vida/s com base na vida ausente [c/999999:(Atualmente: +[REGEN] de vida/s)]
+		A regen. de vida natural é {2}% mais potente e retorna {3}% mais rapidamente
 		Você emite luz amarela se a visibilidade estiver ligada
 		'''
 }
@@ -152,22 +109,21 @@ AmidiasPendant: {
 	Tooltip: Fragmentos que podem brevemente atordoar os inimigos choverão periodicamente
 }
 
-AmidiasSpark: {
-	DisplayName: Faíscas de Amidias
-	Tooltip: Você libera uma explosão de fáiscas ao sofrer danos
-}
-
 AncientFossil: {
 	DisplayName: Fóssil Antigo
-	Tooltip: Aumenta a velocidade de mineração em 10%
+	Tooltip:
+		'''
+		Aumenta a velocidade de mineração em {0}%
+		Oferece imunidade aos danos causados por blocos em queda
+		'''
 }
 
 AnechoicPlating: {
 	DisplayName: Revestimento Anecóico
 	Tooltip:
 		'''
-		Reduz a capacidade das criaturas de detectá-lo no abismo
-		Reduz a redução da defesa que o abismo causa
+		A chance das criaturas abissais verem você é menor
+		Mitiga a redução da defesa causada pela pressão do abismo
 		'''
 }
 
@@ -177,28 +133,40 @@ AngelicAlliance: {
 		'''
 		Invoque a força dos céus para fortalecer seus ataques e lacaios
 		Coragem, Iluminação, Felicidade. Unidos no Julgamento
-		+2 lacaios máximos, 15% de aumento nos danos por invocação e 8% de aumento no dano de todas as outras classes
-		Regeneração de +2 de vida por segundo enquanto estiver no ar usando asas
-		Pressione [KEY] para se abençoar com a divindade por 15 segundos
-		Enquanto estiver sob os efeitos da Bênção Divina, para cada lacaio que você tiver, um arcanjo será invocado para ajudá-lo no combate
-		Cada anjo invocado irá curar você instantaneamente por 2 de vida
-		Todos os ataques de lacaios infligem Fogo banidor e você recebe um aumento plano constante de vida de quatro de vida por segundo
-		Este efeito tem um tempo de recarga de 1 minuto
+		+{0} lacaios máximos, {1}% de aumento nos danos por invocação e {2}% de aumento no dano de todas as outras classes
+		Regen. de +{3} de vida/s enquanto o tempo de voo estiver esgotado parcialmente ou vazio
+		Pressione [KEY] para se abençoar com o efeito [cbuff:CalamityMod/DivineBless] por {4} segundos
+		Enquanto estiver ativado, um arcanjo é invocado para cada lacaio que você tiver
+		Arcanjos vaporizam os inimigos com luz divina e cada um restaura {5} de vida ao ser invocado
+		Ataques de lacaios infligem [cbuff:CalamityMod/BanishingFire] e você recebe uma regen. plana de +{6} de vida/s
+		Este efeito tem um tempo de recarga de {7} minuto
 		'''
 }
 
 AngelTreads: {
-	DisplayName: Passos Angelicais
+	DisplayName: Pisantes Angelicais
 	Tooltip:
 		'''
-		36% de aumento na aceleração de corrida
-		Maior tempo de voo
-		Maior mobilidade no gelo
-		Permite andar sobre a água e a lava
-		Imune ao efeito negativo Em chamas!
-		Imunidade temporária à lava
+		Permite o voo, a corrida super veloz e maior mobilidade no gelo
+		{0}% de aumento na velocidade dos movimentos e {1}% de aumento no tempo de voo
+		Permite andar sobre a água, o mel e a lava
+		Oferece imunidade a blocos de fogo e {2} segundos de imunidade a lava
+		Reduz dano sofrido ao entrar em contato com lava
 		'Velocidade extrema!'
 		'''
+}
+
+Apollyon: {
+	DisplayName: Apollyon
+	Tooltip:
+		'''
+		Golpes críticos amaldiçoam os inimigos com [cbuff:CalamityMod/Bane], que escala muito com sua chance de acerto crítico
+		Quando atingidos com um golpe crítico, os inimigos espalham todos os efeitos negativos mais fracos que sua [cbuff:CalamityMod/Bane] que possuem a inimigos próximos
+		Golpes críticos causam 3% a mais de dano por cada efeito negativo no inimigo
+		[DAMAGELINE]
+		'''
+	Equipped: Dano atual da [cbuff:CalamityMod/Bane]: {0} DPS
+	Unequipped: Equipe este acessório para ver o dano atual da [cbuff:CalamityMod/Bane]
 }
 
 AquaticEmblem: {
@@ -206,11 +174,10 @@ AquaticEmblem: {
 	Tooltip:
 		'''
 		A maioria dos inimigos do oceano tornam-se amigáveis e fornece respiração embaixo d'água
-		Estar debaixo d'água aumenta lentamente sua defesa ao longo do tempo, mas também diminui a sua velocidade de movimento
-		O impulso de defesa e a redução da velocidade de movimento desaparecem lentamente fora d'água
-		O impulso máximo de defesa é 50 e a redução máxima da velocidade de movimento é 10%
-		Fornece uma quantidade pequena de luz no abismo
-		Reduz razoavelmente a perda de fôlego no abismo
+		Estar debaixo d'água aumenta gradualmente sua defesa mas diminui a sua velocidade de movimento por um período de {0} segundos
+		Este efeito desaparece lentamente fora d'água
+		O impulso máximo de defesa é {1} e a redução máxima da velocidade de movimento é {2}%
+		Fornece uma quantidade pequena de luz no abismo e reduz razoavelmente a perda de fôlego no abismo
 		'''
 }
 
@@ -219,32 +186,49 @@ AquaticHeart: {
 	Tooltip:
 		'''
 		Transforma o jogador em um elemental de água que emite luz
-		Os efeitos a seguir só ficarão ativos depois que o Esqueletron for derrotado:
+		[STATUS]
+		'''
+	LockedTooltip: "[c/F05A5A:A magia da pérola está sendo suprimida por uma maldição antiga]"
+	FullTooltip:
+		'''
 		Uau, você pode nadar agora!
-		Ir para debaixo d'água te concede Bênção do oceano, que aumenta a sua velocidade máxima e aceleração em 15%
-		Reduz bastante a perda de fôlego e fornece uma quantidade pequena de luz no abismo
-		Os inimigos que te tocam são infligidos com Estado glacial
-		Você tem uma camada de gelo ao seu redor que absorve 20% dos danos, mas se quebra após um acerto
-		Após 30 segundos, o escudo de gelo irá se regenerar
+		Estar embaixo d'água aumenta a velocidade máxima e a aceleração em {0}%
+		Reduz bastante a perda de fôlego e reduz a intensidade da escuridão do abismo
+		Atacantes são infligidos com [cbuff:Frozen]
+		Receba uma barreira de gelo frágil que concede {1}% de redução nos danos para um ataque
+		O escudo de gelo regenera em {2} segundos
 		'''
-	// LockedTooltip: "[c/F05A5A:The pearl's magic is suppressed by an ancient curse]"
-	/* FullTooltip:
+}
+
+ArcFlashRing: {
+	DisplayName: Anel do Clarão em Arco
+	Tooltip:
 		'''
-		Wow, you can swim now!
-		Being underwater increases max speed and acceleration by {0}%
-		Greatly reduces breath loss and reduces the darkness intensity in the abyss
-		Attackers are inflicted with [cbuff:CalamityMod/GlacialState]
-		Gain a fragile ice barrier that grants {1}% damage reduction for one hit
-		The ice shield regenerates after {2} seconds
-		''' */
+		Ataques têm uma chance de {0}% de chamar um relâmpago que causa {1}x o dano
+		A chance é reduzida para cada inimigo que o ataque atingir
+		O dano do relâmpago é baseado no dano sem críticos, mas ele mesmo pode causar acertos críticos
+		Os relâmpagos são transparentes e silenciosos se a visibilidade estiver desativada
+		'''
 }
 
 ArchaicPowder: {
 	DisplayName: Pó Arcáico
 	Tooltip:
 		'''
-		15% de aumento na velocidade de mineração
-		5% de redução dos danos e +10 defesa enquanto estiver no subterrâneo ou no submundo
+		{0}% de aumento na velocidade de mineração
+		Oferece imunidade aos danos causados por blocos em queda e armadilhas de dardo
+		{1}% de resistência aos danos causados por armadilhas
+		Não acumula com versões anteriores
+		'''
+}
+
+AscendantInsignia: {
+	DisplayName: Insígnia Ascendente
+	Tooltip:
+		'''
+		Aumenta o tempo de voo da asa em {0}%, a velocidade dos movimentos em {1}, e a aceleração em {2}x
+		Pressionar [KEY] lhe dará o poder da ascensão, concedendo voo infinito por {3} segundos
+		A ascensão tem um tempo de recarga de {4} segundos
 		'''
 }
 
@@ -252,10 +236,9 @@ AsgardianAegis: {
 	DisplayName: Égide Asgardiana
 	Tooltip:
 		'''
-		Concede a capacidade de fazer uma investida de colisão, fortalecida pelo inferno cósmico
+		{$Common.KnockbackImmunity}
+		Concede a capacidade de fazer uma investida, fortalecida pelo inferno cósmico
 		Essa investida permite atravessar os inimigos sem sofrer danos
-		Concede imunidade a recuos e blocos de fogo
-		Concede imunidade a maioria dos efeitos negativos, incluindo Inferno do Aniquilador de Deuses
 		'''
 }
 
@@ -263,19 +246,18 @@ AsgardsValor: {
 	DisplayName: Valor de Asgard
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		Concede a capacidade de fazer uma investida de colisão
 		Essa investida permite atravessar os inimigos sem sofrer danos
-		Concede imunidade a recuos e blocos de fogo
-		Concede imunidade a maioria dos efeitos negativos, incluindo a maioria das formas de gelo e fogo
 		'''
 }
 
-AuricSoulArtifact: {
-	DisplayName: Artefato de Alma Áurica
+FadedIdolatry: {
+	DisplayName: Idolatria Desvanecida
 	Tooltip:
 		'''
-		Para cada Draconídeo Flamejante invocado, você recebe 1 espaço de lacaio
-		Lealdade
+		[i:CalamityMod/YharonsKindleStaff] Draconídeos Flamejantes invocados custam 1 espaço de lacaio a menos
+		[c/ffe100:'Quando tudo se desfizer em pó, o que restará do mundo que você criou?']
 		'''
 }
 
@@ -288,18 +270,48 @@ BadgeofBravery: {
 		'''
 }
 
+Baroclaw: {
+	DisplayName: Barogarra
+	Tooltip:
+		'''
+		10% de aumento nos danos e 5% de aumento na redução dos danos
+		Atacantes sofrem muito dano e são infligidos com [cbuff:CalamityMod/ArmorCrunch] e [cbuff:CalamityMod/CrushDepth]
+		'''
+}
+
+BatholithBangle: {
+	DisplayName: Bracelete de Batólito
+	Tooltip:
+		'''
+		Acertos mágicos fazem um clarão de granito poderoso que sempre causa um acerto crítico
+		Este efeito tem um tempo de recarga de 10 segundos
+		Efeitos visuais e sonoros são reduzidos se a visibilidade estiver desativada
+		[c/0189D7:'O granito sólido radia energia por todo o seu corpo']
+		'''
+}
+
+BlackGlassBand: {
+	DisplayName: Pulseira de Vidro Negro
+	Tooltip:
+		'''
+		Acertos no inimigo fazem um clarão de obsidiana que sempre causa um acerto crítico
+		Este efeito tem um tempo de recarga de 5 segundos, mas é reduzido na metade se o clarão matar um inimigo
+		Efeitos visuais e sonoros são reduzidos se a visibilidade estiver desativada
+		[c/655DC5:'Uma pulseira brilhante com potencial sem limites']
+		'''
+}
+
 BlazingCore: {
 	DisplayName: Núcleo Ardente
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		O núcleo abrasador da Deusa Profana
 		Pressionar [KEY] irá ativar uma aparada, encapsulando você com um cristal profano luminoso
 		Ser atingido logo após ser encapsulado quebrará o cristal
-		Na destruição, ondas de estrelas sagradas espiralam para fora e o dano que você teria recebido é reduzido para 1
+		Na destruição, estrelas sagradas espiralam para fora e o dano é anulado
 		Depois da destruição, este efeito de redução dos danos entra em recarga
-		Se outro encapsulamento for quebrado durante a recarga, estrelas curadoras serão intercaladas pelas ondas de estrelas
-		O dano de um acerto não é reduzido durante a recarga
-		Fornece uma quantidade razoável de luz no Abismo
+		Danos aparados durante o tempo de recarga invocam estrelas de cura adicionais, e não serão reduzidos
 		'''
 }
 
@@ -307,9 +319,9 @@ BloodflareCore: {
 	DisplayName: Núcleo das Chamas Sangrentas
 	Tooltip:
 		'''
-		Você perde até metade de sua defesa após sofrer danos
-		A defesa perdida se regenera com o tempo
-		Você ganha 1 de vida para cada 1 defesa ganha enquanto ela regenera
+		{$Common.KnockbackImmunity}
+		Recuperar dano na defesa cura você, cada ponto de defesa recuperado concede 1 de vida
+		Sofrer danos converte metade da sua defesa total em dano na defesa
 		'''
 }
 
@@ -318,22 +330,19 @@ BloodPact: {
 	Tooltip:
 		'''
 		Aumenta a vida máxima em 25%
-		Poções de cura são 25% mais efetivas
+		Poções de cura são 33% mais efetivas
+		Oferece imunidade a [cbuffplr:Bleeding], [cbuffplr:CalamityMod/BurningBlood] e [cbuffplr:CalamityMod/HeavyBleeding]
 		'''
 }
 
 BloodstainedGlove: {
 	DisplayName: Luva Manchada de Sangue
-	Tooltip: Ataques furtivos têm +8 perfuração de blindagem e curam 2 de vida
+	Tooltip: Ataques furtivos têm +8 perfuração de blindagem e curam 5 de vida
 }
 
 BloodyWormScarf: {
 	DisplayName: Cachecol de Verme Sangrento
-	Tooltip:
-		'''
-		7% de aumento na redução dos danos
-		10% de aumento nos danos por ataque físico
-		'''
+	Tooltip: 10% de aumento na redução dos danos e nos danos por ataque físico
 }
 
 BloodyWormTooth: {
@@ -345,11 +354,10 @@ BloomStone: {
 	DisplayName: Rocha do Desabrocho
 	Tooltip:
 		'''
-		Concede regeneração de entre +1 de vida e +3 de vida por segundo dependendo da hora do dia
-		Acelera a regeneração de vida com base na hora do dia
-		Ambos os efeitos atingem seu ápice durante o meio-dia ao pôr do sol
-		Flores crescem se você estiver pisando em grama
-		Plantas de tinturas aleatórias crescerão ao pisar em terra sem grama
+		Poções de cura são 50% mais efetivas, mas concedem sua cura ao longo do tempo
+		Ganchos retraem e puxam o jogador 30 mph mais rapidamente, além de crescerem uma flor nos pontos de contato
+		Tocar numa flor a faz explodir em pólem que concede um aumento temporário na velocidade de cura das poções
+		A velocidade de cura das poções reduz drasticamente com a vida cheia
 		'Uma das relíquias antigas'
 		'''
 }
@@ -359,9 +367,11 @@ BlunderBooster: {
 	Tooltip:
 		'''
 		12% de aumento nos danos por ataques ladinos e 15% de aumento na velocidade dos projéteis ladinos
-		A furtividade é gerada 10% mais rápido
+		A furtividade é gerada 10% mais rapidamente
 		Invoca uma aura de relâmpago vermelha para cercar o jogador e eletrificar os inimigos próximos
-		Pressione [KEY] para consumir 25% de sua furtividade máxima para executar uma corrida ascendente diagonal veloz que deixa um rastro de relâmpagos
+		A aura possui uma opacidade reduzida se a visibilidade estiver desativada
+		Pressione [KEY] para consumir 25% de sua furtividade máxima para executar uma corrida ascendente diagonal veloz
+		Esta investida deixa um rastro de relâmpagos vermelhos
 		Este efeito tem um tempo de recarga de 1 segundo antes que possa ser usado novamente
 		'''
 }
@@ -371,7 +381,10 @@ Calamity: {
 	Tooltip:
 		'''
 		Incendeia o seu cursor com as chamas da Bruxa, envolvendo-o em uma aura ardente
-		Inimigos que tocam nas chamas recebem danos imensos e são infligidos com o Feitiço de vulnerabilidade
+		Inimigos que tocam nas chamas recebem danos imensos e são infligidos com o [cbuff:CalamityMod/VulnerabilityHex]
+		Focar num inimigo por 2,5 segundos o amaldiçoa, ascendendo o Feitiço de Vulnerabilidade à sua forma Verdadeira
+		Inimigos infligidos com o [cbuff:CalamityMod/TrueVulnerabilityHex] sofrem 1,15x a mais de dano de todas as fontes
+		Este efeito é aumentado para 2,5x para o cursor ardente em si
 		Equipe em um espaço social para alterar o cursor sem causar danos
 		Essas mudanças funcionam em conjunto com o Cursor de Arco-íris
 		'''
@@ -382,11 +395,13 @@ ChaliceOfTheBloodGod: {
 	Tooltip:
 		'''
 		Aumenta a vida máxima em 25%
-		Sofrer mais de 5 de dano converte o golpe em um efeito negativo de dano por sangramento ao longo do tempo
+		Concede regen. de +2 de vida/s e reduz o tempo de recarga de poções de cura em 25%
+		Sofrer mais de 5 de dano converte o golpe em um efeito de dano por sangramento ao longo do tempo
 		Esse sangramento não interfere com a regeneração de vida
-		Beber uma Poção de Cura remove metade do dano por sangramento restante
+		Beber uma Poção de Cura remove um pouco do sangramento restante, até um máximo de 50% do seu valor de cura
 		Desequipar esse acessório enquanto estiver sangrando inflige o dano restante instantaneamente
-		'De vinho tinto de sangue...'
+		Oferece imunidade a [cbuffplr:Bleeding], [cbuffplr:CalamityMod/BurningBlood], [cbuffplr:CalamityMod/HeavyBleeding], e [cbuffplr:CalamityMod/Laceration]
+		'Pai, afasta de mim esse cálice...'
 		'''
 }
 
@@ -394,10 +409,21 @@ ChaosStone: {
 	DisplayName: Rocha do Caos
 	Tooltip:
 		'''
-		Enjoo por mana por beber poções de mana é substituído por Queimadura por mana
-		Queimadura por mana causa danos ao longo do tempo em relação à intensidade do efeito negativo
-		Este efeito negativo não reduz seu dano por magia
-		'Uma das relíquias antigas'
+		Desativa o consumo de poções automático
+		Itens que consomem mana podem ser usados mesmo sem o valor de mana necessário
+		O uso de mana pode transbordar em mana negativa, fazendo com que você receba e inflija [cbuff:CalamityMod/ManaBurn]
+		Quanto mais baixa estiver a sua mana, mais intenso será o fogo de mana
+		Mana negativa tem um limite correspondente à sua quantidade de mana máxima
+		Intensidade máxima atual de acordo com sua mana máxima: -[REGEN] de vida/s, e queima os inimigos por [DAMAGE]% do dano causado
+		'''
+}
+
+CleansingJelly: {
+	DisplayName: Geleia da Pureza
+	Tooltip:
+		'''
+		Usar uma poção de cura invocará uma aura azul que dura {0} segundos
+		Andar na aura removerá todos os efeitos negativos e dano da defesa uma vez
 		'''
 }
 
@@ -415,26 +441,17 @@ CorrosiveSpine: {
 	Tooltip:
 		'''
 		5% de aumento na velocidade dos movimentos
-		Todas as armas ladinas causam veneno e geram nuvens ao atingir o inimigo
-		Você libera várias nuvens para todos os lados ao sofrer danos
-		'''
-}
-
-CorruptFlask: {
-	DisplayName: Frasco Corrompido
-	Tooltip:
-		'''
-		4% de aumento na redução dos danos e +6 defesa enquanto estiver na corrupção
-		Oferece imunidade ao efeito negativo Apodrecimento cerebral
+		25% de aumento nos danos por efeitos negativos de Doença e Água
+		Todos os ataques infligem [cbuff:CalamityMod/Irradiated] nos inimigos e reduz a severidade das águas sulfuricas
+		Você explode em nuvens radioativas ao sofrer danos
 		'''
 }
 
 CounterScarf: {
-	DisplayName: Cachecol do Contra-Ataque
+	DisplayName: Cachecol do Contra-ataque
 	Tooltip:
 		'''
-		10% de aumento nos danos por ataque físico verdadeiro
-		Permite fazer uma corrida; fazer uma corrida em um ataque fará com que você se desvie dele
+		Permite fazer uma investida; fazer uma investida em um ataque fará com que você desvie dele
 		Depois de um desvio bem-sucedido, você deve esperar 30 segundos antes de poder desviar novamente
 		'''
 }
@@ -443,26 +460,8 @@ CrawCarapace: {
 	DisplayName: Carapaça de Caranguejo
 	Tooltip:
 		'''
-		5% de aumento nos danos
-		Inimigos que te atingem sofrem dano e são infligidos com Desmoronando
-		'''
-}
-
-Baroclaw: {
-	DisplayName: Barogarra
-	Tooltip:
-		'''
-		10% de aumento nos danos
-		Inimigos que te atingem sofrem muito dano e são infligidos com Trituração de armadura e Pressão das profundezas
-		'''
-}
-
-CrimsonFlask: {
-	DisplayName: Frasco de Carmim
-	Tooltip:
-		'''
-		4% de aumento na redução dos danos e +6 defesa enquanto estiver no carmim
-		Oferece imunidade ao efeito negativo Sangue ardente
+		7% de aumento nos danos
+		Atacantes sofrem dano e são infligidos com [cbuff:CalamityMod/Crumbling]
 		'''
 }
 
@@ -470,9 +469,8 @@ CrownJewel: {
 	DisplayName: Joia da Coroa
 	Tooltip:
 		'''
-		Regeneração de +1 de vida por segundo
-		Você ganha uma regeneração adicional de +1.5 de vida por segundo quando estiver afligido com qualquer efeito negativo
-		Aumenta muito a regeneração de vida natural quando estiver afligido com qualquer efeito negativo
+		Regen. de +{0} de vida/s
+		Reduz os danos sofridos com o tempo em {1} de vida/s
 		'''
 }
 
@@ -480,8 +478,8 @@ CryoStone: {
 	DisplayName: Rocha do Gelo
 	Tooltip:
 		'''
-		Multiplica todos os danos causados por efeitos negativos relacionados ao frio em 1,5
-		Cria um escudo de gelo giratório ao seu redor que causa danos e deixa os inimigos que o tocarem lentos
+		50% de aumento nos danos por efeitos negativos de Frio
+		Cria um escudo de gelo giratório ao seu redor que causa danos e desacelera os inimigos que o tocarem
 		'Uma das relíquias antigas'
 		'''
 }
@@ -490,29 +488,23 @@ DaawnlightSpiritOrigin: {
 	DisplayName: Origem do Espírito de Daawnlight
 	Tooltip:
 		'''
-		Todos os inimigos e chefes próximos são marcados com alvos
-		Ataques à distância que atingem um alvo sempre acertam criticamente e causam danos enormes
-		Quando um alvo é atingido, ele desaparece e um novo aparece em outro lugar
-		Explosões ou projéteis grandes não podem atingir os alvos
-		Tiros ricocheteados de moedas arremessadas buscarão os alvos, mas usarão um multiplicador de crítico mais baixo
-		Converte todos os aumentos de chance de acerto crítico à distância em dano de acerto crítico extra
-		Todas as armas de ataque à distância causarão ainda mais danos por ataque crítico quanto mais lentas elas são
-		Invoca um espírito heróico de outro mundo se a visibilidade do acessório estiver ativada
-		O espírito heróico também é invocado quando esse acessório é colocado em espaços decorativos
-		'Uma vertente de um cosmos perdido permanece, esperando por seu mestre'
+		Todas as armas de ataque à distância podem realizar um ataque supercrítico com uma chance de acerto crítico maior que 100%
+		Marca inimigos e chefes próximos com alvos que aumentam a chance de acerto crítico ao serem atingidos
+		A chance de acerto crítico extra some com o tempo
+		Invoca um espírito heróico de outro mundo se a visibilidade estiver ativada, ou se estiver em um espaço decorativo
 		'''
-	/* HoldShiftTooltip:
+	HoldShiftTooltip:
 		'''
-		All ranged weapons can supercrit when critical strike chance is over 100%
-		Marks nearby enemies and bosses with bullseyes which disappear shortly after being hit
-		Ranged attacks which strike bullseyes boost critical strike chance
-		Large projectiles and explosions cannot strike bullseyes
-		Slower weapons give a larger critical strike chance boost on hit
-		Extra critical strike chance quickly fades over time
-		The higher the boost, the more quickly it fades away
-		Summons a heroic spirit from another world if visibility is on or in vanity slots
-		''' */
-	// FlavorTooltip: "'A strand of a lost cosmos remains, waiting for its master'"
+		Todas as armas de ataque à distância podem realizar um ataque supercrítico com uma chance de acerto crítico maior que 100%
+		Marca inimigos e chefes próximos com alvos que desaparecem logo após serem atingidos
+		Ataques à distância que atingirem alvos recebem maior chance de acerto crítico
+		Projéteis grandes e explosões não atingem os alvos
+		Armas mais lentas recebem uma chance de acerto crítico maior no acerto
+		A chance de acerto crítico adicional some rapidamente com o tempo
+		Quanto maior o impulso, maior a velocidade que ele some
+		Invoca um espírito heróico de outro mundo se a visibilidade estiver ativada, ou se estiver em um espaço decorativo
+		'''
+	FlavorTooltip: "'Uma vertente de um cosmos perdido permanece, esperando por seu mestre'"
 }
 
 DarkMatterSheath: {
@@ -522,7 +514,7 @@ DarkMatterSheath: {
 		+10 furtividade máxima
 		A regeneração furtiva móvel acelera se você não estiver atacando
 		Ataques furtivos gastam apenas 50% de sua furtividade máxima
-		6% de aumento nos danos por ataques ladinos, e 6% de aumento na chance de ataque ladino crítico
+		6% de aumento nos danos por ataques ladinos e na chance de ataque ladino crítico
 		'''
 }
 
@@ -530,29 +522,28 @@ DarkSunRing: {
 	DisplayName: Anel do Sol Escuro
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		12% de aumento nos danos
-		Regeneração de +0.5 de vida por segundo e +2 lacaios máximos
+		Regen. de +0,5 de vida/s e +2 lacaios máximos
 		Aumenta o recuo dos lacaios
-		Durante o dia, concede regeneração de +2 de vida por segundo
-		Durante a noite, concede +20 defesa
-		Durante um eclipse, concede regeneração de +1 de vida por segundo e +10 defesa
-		'Contém o poder do sol escuro'
+		Fornece vários feitos conforme o dia passa
 		'''
-	/* HoldShiftTooltip:
+	HoldShiftTooltip:
 		'''
-		  During the day, grants +2 HP/s life regen
-		  During the night, grants +16 defense
-		  During an eclipse, grants +1 HP/s life regen and +8 defense
-		''' */
-	// FlavorTooltip: "'Contains the power of the dark sun'"
+		  Durante o dia, concede regen. de +2 de vida/s
+		  Durante a noite, concede +16 de defesa
+		  Durante um eclipse, condece regen. de +1 de vida/s e +8 de defesa
+		'''
+	FlavorTooltip: "'Contém o poder do sol escuro'"
 }
 
 DeadshotBrooch: {
 	DisplayName: Broche do Tiro Morto
 	Tooltip:
 		'''
-		10% de aumento nos danos por ataque à distância, 5% de aumento na chance de acerto crítico à distância e 20% de redução no consumo de munição
-		Aumenta consideravelmente a velocidade de todos os projéteis de ataque à distância
+		12% de aumento nos danos por ataque à distância, 7% de aumento na chance de acerto crítico à distância e 20% de redução no consumo de munição
+		Pressionar [KEY] trocará automaticamente a ordem das munições no seus espaços de munição 
+		O tipo de munição trocadaa depende da munição da arma empunhada
 		'''
 }
 
@@ -560,8 +551,9 @@ DeepDiver: {
 	DisplayName: Mergulhador das Profundezas
 	Tooltip:
 		'''
-		15% de aumento nos danos e na velocidade dos movimentos e +15 defesa quando debaixo d'água
-		Enquanto debaixo d'água, você ganha a capacidade de fazer uma corrida de longa distância
+		Permite que o jogador faça uma investida com um tempo de recarga menor
+		Essa investida permite atravessar os inimigos sem sofrer danos
+		Fornece mobilidade muito maior embaixo d'água
 		'''
 }
 
@@ -569,28 +561,44 @@ DeificAmulet: {
 	DisplayName: Amuleto Sagrado
 	Tooltip:
 		'''
-		Faz com que estrelas caiam e aumenta o tempo de imunidade quando sofrer dano
-		Regeneração de +0.5 de vida por segundo
-		Reduz o tempo de recarga das poções de cura
+		Libera uma explosão de abelhas-astrais teleguiadas[TOGGLE] e o encharca de [cbuffplr:Honey] ao sofrer danos
+		Aumenta a duração da invencibilidade, com uma duração ainda maior com vida baixa
+		[c/aaaaaa:Segure Shift e <right> neste item no seu inventário para alternar o efeito do] [i:PanicNecklace] [c/aaaaaa:Colar do Pânico]
 		'''
-	// ToggleEffect: ", increases movement speed,"
+	ToggleEffect: ", aumenta a velocidade dos movimentos"
 }
 
 DepthCharm: {
 	DisplayName: Amuleto das Profundezas
 	Tooltip:
 		'''
-		Reduz o dano causado pela pressão do abismo enquanto sem fôlego
-		Remove o efeito de sangramento causado pelas camadas superiores do abismo
+		Reduz o dano causado pelo afogamento no abismo
+		Reduz a perda de fôlego da Pressão das Profundezas
 		'''
 }
 
-DimensionalSoulArtifact: {
-	DisplayName: Artefato da Alma Dimensional
+DiamondOfTheDeep: {
+	DisplayName: Diamante das Profundezas
 	Tooltip:
 		'''
-		Poder
-		Aumenta todos os danos em 25%, mas ao custo de aumentar o dano recebido em 15%
+		60% de aumento nos danos causados por efeitos negativos de Água
+		Lentamente acumule três espíritos abissais
+		Faça uma investida para dispersar os espíritos e fazer eles atacarem os inimigos
+		Quando dispersados [c/CB7AD7:com menos de 50% de vida], os espíritos então o apoiarão
+		Os espíritos aparecem em ordem e têm efeitos diferentes com base na cor:
+		[c/3CB371: Explode no impacto e inflige] [cbuff:CalamityMod/CrushDepth] / [c/CB7AD7:Cura 8 de vida]
+		[c/FF4500: Atravessa inimigos e inflige] [cbuff:OnFire3] / [c/CB7AD7:Aumenta a defesa em 10 temporariamente]
+		[c/1E90FF: Atinge várias vezes e inflige] [cbuff:CalamityMod/HadopelagicPressure] / [c/CB7AD7:Cura 5% da vida máxima]
+		Os espíritos são transparentes e silenciosos quando a visibilidade estiver desativada
+		'''
+}
+
+CrushingEgo: {
+	DisplayName: Ego Esmagador
+	Tooltip:
+		'''
+		Multiplica todo o dano por 1,3x, mas ao custo de receber 20% a mais de dano
+		[c/ff00ff:'Coloque a máscara da arrogância e dance sozinho. Quando o baile acabar, você será o último a permanecer de pé.']
 		'''
 }
 
@@ -598,17 +606,17 @@ DraedonsHeart: {
 	DisplayName: Coração de Draedon
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		{0}% de redução do dano de contato dos inimigos
 		[NANODESC]
 		Com nanomáquinas completas, pressione [KEY] para recuperar {1} de vida em {2} {^2:segundo;segundos}
-		Enquanto estiver se recuperando, você recebe uma redução de [DR]% nos danos sofridos
+		Enquanto estiver se recuperando, você recebe [DR]% a menos de dano
 		'Nanomáquinas, filho.'
 		'''
 	NanomachinesAdd:
 		'''
 		Adiciona o medidor de Nanomáquinas
-		Nanomáquinas são acumuladas com o tempo enquanto você luta contra chefes
-		A acumulação é interrompida por {0} {^0:segundo;segundos} quando você sofre danos
+		Nanomáquinas são acumuladas com o tempo enquanto você luta contra chefes, mas a acumulação é interrompida por {0} {^0:segundo;segundos} quando você sofre danos
 		'''
 	NanomachinesReplace:
 		'''
@@ -621,10 +629,10 @@ DragonScales: {
 	DisplayName: Escamas de Dragão
 	Tooltip:
 		'''
-		Projéteis ladinos criam bolas de fogo lentas enquanto viajam
+		Projéteis ladinos criam bolas de fogo lentas conforme viajam
 		Ataques furtivos criam infernados na morte
 		10% de aumento na velocidade máxima e na aceleração
-		Oferece imunidade a Fogo do dragão
+		Oferece imunidade a [cbuffplr:CalamityMod/Dragonfire]
 		'Somente um dragão vivo guarda o verdadeiro tesouro'
 		'''
 }
@@ -633,9 +641,9 @@ DynamoStemCells: {
 	DisplayName: Dínamo de Células-tronco
 	Tooltip:
 		'''
-		10% de aumento na velocidade dos movimentos
-		Armas de ataque à distância têm a chance de atirar pequenos voadores
-		Oferece imunidade a Fogo do dragão e Eletrizado
+		10% de aumento nos danos por ataque à distância e na velocidade dos movimentos
+		Armas de ataque à distância disparam um pequeno voador poderoso a cada 3 segundos
+		Reduz o dano sofrido por [cbuffplr:CalamityMod/Dragonfire]
 		'''
 }
 
@@ -643,33 +651,29 @@ EclipseMirror: {
 	DisplayName: Espelho do Eclipse
 	Tooltip:
 		'''
-		+10 furtividade máxima
-		6% de aumento nos danos por ataques ladinos, e 6% de aumento na chance de ataque ladino crítico
-		Reduz vastamente a agressão dos inimigos, até mesmo no abismo
-		Furtividade gera 25% mais rápido enquanto parado
-		A generação furtiva móvel acelera exponencialmente se você não estiver atacando
+		+10 de furtividade máxima
+		6% de aumento nos danos por ataques ladinos e na chance de ataque ladino crítico
+		A chance dos inimigos mirarem em você é menor, até mesmo no abismo
+		A furtividade é gerada 25% mais rapidamente enquanto parado e é aumentada se estiver se movendo enquanto não ataca
 		Ataques furtivos gastam apenas 50% de sua furtividade máxima
-		Concede a capacidade de se esquivar de ataques em uma explosão de luz do sol escuro que inflige danos extremos em uma ampla área
-		Esquivar-se de um ataque concece furtividade cheia mas tem um tempo de recarga de 90 segundos
-		Este tempo de recarga é compartilhado com todos os outros desvios e reflexos
-		'Seu reflexo não mostra nada além de escuridão'
+		{$Common.DodgeProvided}
+		Desviar de um ataque restaura a furtividade e libera uma explosão de luzes do sol escuro altamente danosas
 		'''
-	/* HoldShiftTooltip:
-		'''
-		{$Common.DodgeInformation}
-		Dodging an attack grants a lot of stealth
-		''' */
-	// FlavorTooltip: "'Its reflection shows naught but darkness'"
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
+	FlavorTooltip: "'Seu reflexo não mostra nada além de escuridão'"
 }
 
-EldritchSoulArtifact: {
-	DisplayName: Artefato da Alma Sobrenatural
+FragmentsOfAnotherWorld: {
+	DisplayName: Fragmentos de Outro Mundo
 	Tooltip:
 		'''
-		Aumenta a velocidade do ataque físico em 10%, velocidade do ataque à distância em 25%, regeneração de furtividade em 10%,
-		lacaios máximos em 2, e reduz o custo de mana em 15%
-		Oferece imunidade a Morte sussurrante
-		Sabedoria
+		Oferece imunidade a [cbuffplr:CalamityMod/WhisperingDeath]
+		{0}% de aumento na velocidade do ataque físico
+		{1}x os danos por ataque à distância de especialista
+		{2}% de redução no custo de mana
+		+{3} de limite máximo de sentinelas
+		{4}% de aumento na velocidade de ataque ladino
+		[c/ff0000:'Não fale dos seus desejos para as sombras, pois elas escutam.']
 		'''
 }
 
@@ -677,8 +681,8 @@ ElectriciansGlove: {
 	DisplayName: Luva do Eletricista
 	Tooltip:
 		'''
-		Os ataques furtivos invocam faíscas ao atingir o inimigo
-		Ataques furtivos têm +8 perfuração da blindagem, causam 8% a mais de dano, e curam 2 de vida
+		Os ataques furtivos invocam faíscas ao atingir o inimigo e o curam em 10 de vida
+		Ataques furtivos têm +8 perfuração da blindagem e causam 8% a mais de dano
 		'''
 }
 
@@ -686,34 +690,28 @@ ElementalGauntlet: {
 	DisplayName: Manopla Elemental
 	Tooltip:
 		'''
-		Ataques e projéteis físicos infligem Fogo do inferno
-		15% de aumento na velocidade de ataque físico, no dano, e 5% de aumento na chance de acerto crítico em ataque físico
-		20% de aumento nos danos por ataques físicos verdadeiros
-		Maior recuo do ataque físico
-		Permite o ataque automático com armas de ataque físico
-		Aumenta o tamanho das armas de ataque físico
+		Ataques e projéteis físicos infligem [cbuff:CalamityMod/ElementalMix]
+		15% de aumento nos danos por ataque físico, na velocidade de ataque físico
+		5% de aumento na chance de acertos críticos físicos
+		20% de aumento nos danos por ataques físicos verdadeiros e no recuo do ataque físico
+		Permite o ataque automático com armas de ataque físico e aumenta seus tamanhos
+		Não acumula com versões anteriores
 		'''
 }
 
-ElementalQuiver: {
-	DisplayName: Aljava Elementar
-	Tooltip:
-		'''
-		15% de aumento nos danos por ataque à distância, 5% de aumento na chance de acerto crítico à distância, e 20% de redução no consumo de munição
-		Concede 20% de chance de não consumir flechas
-		Aumenta muito a velocidade de todos os projéteis de ataque à distância
-		'''
+ElementalinaBottle: {
+	DisplayName: Elemental na Garrafa
+	Tooltip: Invoca um elemental de areia para lutar por você
 }
 
 ElysianAegis: {
 	DisplayName: Égide do Elísio
 	Tooltip:
 		'''
-		Concede a capacidade de fazer uma investida de colisão, fortalecida pelo fogo sagrado
+		{$Common.KnockbackImmunity}
+		Concede a capacidade de fazer uma investida, fortalecida pelo fogo sagrado
 		Essa investida permite atravessar os inimigos sem sofrer danos
-		Concede imunidade a recuos e blocos de fogo
-		Concede imunidade a maioria dos efeitos negativos, incluindo Queimado pelo Sol e Chamas Sagradas
-		Abençoado pela Chama Profana
+		'Abençoado pela Chama Profana'
 		'''
 }
 
@@ -721,8 +719,9 @@ EnchantedPearl: {
 	DisplayName: Pérola Encantada
 	Tooltip:
 		'''
-		Aumenta a habilidade de pesca
-		Aumenta a chance de pescar caixotes
+		Aumenta o poder de pesca em 10
+		Aumenta a chance de pescar caixotes e peixes com espólios em 15%
+		Caixas pescadas têm uma chance de 25% de serem de uma qualidade melhor, acompanhadas de pérolas visuais
 		'''
 }
 
@@ -739,10 +738,11 @@ EtherealTalisman: {
 	DisplayName: Talismã Etéreo
 	Tooltip:
 		'''
-		15% de aumento nos danos por magia, 5% de aumento na chance de acerto crítico mágico, e 10% de redução no consumo de mana
-		+150 mana máxima
+		{$CommonItemTooltip.IncreasesMaxManaBy} and {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} and {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
 		Aumenta o alcance de coleta das estrelas de mana
-		Você utiliza poções de mana automaticamente quando necessário se a visibilidade estiver ligada
+		Você utiliza poções de mana automaticamente quando necessário
+		[c/aaaaaa:Segure Shift e <right> neste item no seu inventário para alternar o efeito da] [i:ManaFlower] [c/aaaaaa:Flor de Mana]
 		'''
 }
 
@@ -750,9 +750,9 @@ EvasionScarf: {
 	DisplayName: Cachecol da Evasão
 	Tooltip:
 		'''
-		15% de aumento nos danos por ataque físico verdadeiro
-		Permite correr; correr em um ataque fará com que você se desvie dele
+		Permite fazer uma investida; fazer uma investida em um ataque fará com que você desvie dele
 		Depois de um desvio bem-sucedido, você deve esperar 30 segundos antes de poder desviar novamente
+		Tem um tempo de recarga de investida menor que outras investidas
 		'''
 }
 
@@ -762,29 +762,67 @@ EyeoftheStorm: {
 }
 
 FeatherCrown: {
-	DisplayName: Coroa de Penas
+	DisplayName: Feather Crown
 	Tooltip:
 		'''
-		15% de aumento na velocidade dos projéteis ladinos
-		Ataques furtivos fazem com que penas caiam dos céus ao atingir um inimigo
+		Invoca uma [c/81B7F7:Pena do Horizonte] a cada 2 segundos, até um máximo de 5
+		Cada [c/81B7F7:Pena do Horizonte] aumenta o dano por magia em 2% e reduz o custo de mana em 1%
+		Com 5 penas, aumenta a chance de acerto crítico mágico em 5% e todos os ataques mágicos infligirão [cbuff:CalamityMod/StaticDischarge]
+		Esgotar a mana ou usar uma poção de mana faz com que você perca as penas
+		Ao perder uma pena, não é possível ganhar outras penas por 5 segundos
+		As penas são transparentes e silenciosas se a visibilidade estiver desativada
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/81B7F7:Os jovens magos vestiam-se com penas e contemplavam a noite estrelada, como se estivessem dando as boas-vindas ao sopro dos céus.]
+		[c/81B7F7:Entrar em comunhão com a mana era entrar em comunhão com o mundo e, além disso, com seus senhores draconianos.]
 		'''
 }
 
 FilthyGlove: {
 	DisplayName: Luva Suja
-	Tooltip: Ataques furtivos têm +8 perfuração da blindagem e causam 8% a mais de dano
+	Tooltip: Golpes furtivos têm +8 perfuração da blindagem e causam 8% a mais de dano
+}
+
+FishStocks: {
+	DisplayName: Terminal Ibopeixe
+	Tooltip:
+		'''
+		Exibe uma visão geral do Ibopeixe
+		Fornece estatísticas multiplicadas pelo desempenho do índice
+		Ao ser desequipado, os efeitos só serão removidos quando o índice estiver estável ou em alta
+		'''
+	HoldShiftTooltip:
+		'''
+		As estatísticas incluem:
+		+10 de defesa
+		+15% de dano
+		+10% de chance de acerto crítico
+		+15% de dano por acerto crítico
+		+10% de redução nos danos
+		Regen. de +3 de vida/s
+		+25% de velocidade de mineração
+		+50 de poder de pesca
+		+0,55 de sorte
+		1,5x mais moedas caídas
+		'''
+	SalesPitch:
+		'''
+		'Pescar é difícil, mas sabe o que é fácil? Economia! Com esse aparelhinho feito pelo meu colega Hoggart, a pescaria vai ser tão fácil quanto a economia!'
+		'Puxe a linha quando estiver em alta, e não puxe quando estiver em baixa! É mamão com peixe! ...Ou açúcar.'
+		'''
 }
 
 FlameLickedShell: {
 	DisplayName: Casco da Língua de Chamas
 	Tooltip:
 		'''
+		{$Common.KnockbackImmunity}
 		Pressionar [KEY] irá ativar uma aparada, encapsulando você com rochas
 		Ser atingido logo após ser encapsulado fará com que as rochas implodam
-		Na implosão, uma barragem de fogo de enxofre infernal é lançada para fora e você recebe 90% de redução dos danos do ataque
+		Na implosão, uma anel de fogo de enxofre infernal é lançado para fora e você recebe 90% de redução dos danos do ataque
 		Depois da implosão, este efeito de redução dos danos entra em recarga
-		Se outro encapsulamento for quebrado durante a recarga, uma barragem mais fraca de fogo de enxofre infernal é lançada
-		O dano de um acerto não é reduzido durante a recarga
+		Danos aparados durante o tempo de recarga invoca chamas de enxofre mais fracas, e não serão reduzidos
 		'''
 }
 
@@ -792,8 +830,13 @@ FleshTotem: {
 	DisplayName: Totem de Carne
 	Tooltip:
 		'''
-		Reduz os danos de contato dos inimigos pela metade
-		Quando você sofrer danos de contato, este efeito tem um tempo de recarga de 20 segundos
+		5% de aumento na chance de acerto crítico mágico
+		Aumenta a mana máxima em 20
+		Invoca uma efígie sobre sua cabeça que armazena mana conforme é usada, até um máximo de 600 de mana
+		A efígie ocasionalmente pulsa, restaurando 25 de mana
+		Os pulsos aparecem com mais frequência conforme mais mana é armazenada
+		Ao ser atingido, a efígie libera toda a mana armazenada como almas vingativas que perseguem seus inimigos
+		A efígie é transparente e silenciosa se a visibilidade estiver desativada
 		'''
 }
 
@@ -802,7 +845,7 @@ FrostBarrier: {
 	Tooltip:
 		'''
 		Você congelará os inimigos perto de você quando for atingido
-		Você é imune ao efeito negativo Resfriado
+		Oferece imunidade a [cbuffplr:Chilled] e [cbuffplr:Frostburn]
 		'''
 }
 
@@ -810,11 +853,10 @@ FrostFlare: {
 	DisplayName: Chama Congelada
 	Tooltip:
 		'''
-		Todos os ataques físicos e projéteis causam queimadura de gelo
-		Imunidade a queimadura de gelo, resfriado, e congelado
-		Estar acima de 75% de vida concede ao jogador 10% de aumento nos danos
-		Estar abaixo de 25% de vida concede ao jogador 20 de defesa e 15% de velocidade dos movimentos máxima e aceleração
-		Concede resistência contra ataques gelados
+		Todos os ataques e projéteis infligem [cbuff:Frostburn2]
+		Estar acima de {0}% de vida concede {1}% de aumento nos danos
+		Estar abaixo de {0}% de vida concede {2} de defesa e {3}% de velocidade dos movimentos e aceleração máxima
+		Oferece resistência a ataques gelados, [cbuffplr:Frostburn], [cbuffplr:Chilled] e [cbuffplr:Frozen]
 		'''
 }
 
@@ -832,9 +874,10 @@ FungalSymbiote: {
 	Tooltip:
 		'''
 		Você cresce cogumelos na grama em seus pés
-		Consumir cogumelos fornece o efeito Molenga, aumentando a defesa em 6 e concedendo regeneração de 1 de vida por segundo
-		Todas as armas baseadas em cogumelos causam 10% a mais de dano e liberam cogumelos inofensivos
+		Consumir cogumelos fornece o efeito [cbuffplr:CalamityMod/Mushy], concedendo 5 de defesa e regen. de +1 de vida/s
+		10% de aumento nos danos enquanto você tem o efeito [cbuffplr:CalamityMod/Mushy]
 		'''
+	SalesPitch: "{$Common.SalesmanShrinePitch}"
 }
 
 GiantPearl: {
@@ -843,8 +886,7 @@ GiantPearl: {
 		'''
 		Você tem uma aura de luz ao seu redor
 		Inimigos dentro da aura ficam mais lentos
-		Não funciona enquanto um chefe estiver vivo
-		Fornece uma quantidade pequena de luz no abismo
+		{$Common.AbyssGlow}
 		'''
 }
 
@@ -852,8 +894,8 @@ GiantShell: {
 	DisplayName: Casco Gigante
 	Tooltip:
 		'''
-		15% de redução na velocidade da corrida
-		Sofrer um golpe removerá a penalidade da corrida e reduzirá a defesa por 5 segundos
+		{0}% de redução na velocidade da investida
+		Sofrer um golpe restaura a velocidade da investida e reduz a defesa por {1} segundos
 		'''
 }
 
@@ -861,9 +903,9 @@ GiantTortoiseShell: {
 	DisplayName: Casco de Tartaruga Gigante
 	Tooltip:
 		'''
-		5% de aumento na redução dos danos
-		10% de redução na velocidade da corrida
-		Sofrer um golpe removerá a penalidade da corrida e reduzirá a defesa e a redução dos danos por 5 segundos
+		{$Common.KnockbackImmunity}
+		{0}% de aumento na redução dos danos e {1}% de redução na velocidade da investida
+		Sofrer um golpe restaura a velocidade da investida e reduz a defesa e redução dos danos por {2} segundos
 		'''
 }
 
@@ -871,23 +913,28 @@ GladiatorsLocket: {
 	DisplayName: Medalhão do Gladiador
 	Tooltip:
 		'''
-		Inimigos deixam cair um orbe de cura quando morrem
-		Ganhe um aumento em seu dano e na sua velocidade dos movimentos conforme estiver com menos vida restante, até 20%
+		Inimigos derrubam um orbe de cura quando morrem
+		Ganhe um aumento no dano e na velocidade dos movimentos conforme estiver com menos vida, até 20% com menos de 50% de vida
 		'''
+	SalesPitch: "{$Common.SalesmanShrinePitch}"
 }
 
 GloveOfPrecision: {
 	DisplayName: Luva da Precisão
-	Tooltip: Diminui a velocidade de ataques ladinos em 15%, mas aumenta o dano em 10%, chance de acerto crítico em 15% e velocidade do projétil em 15%
+	Tooltip:
+		'''
+		Diminui a velocidade de ataques ladinos em 15%
+		Aumenta os danos por ataque ladino e a chance de acerto crítico ladina em 10% e velocidade do projétil ladino em 15%
+		'''
 }
 
 GloveOfRecklessness: {
 	DisplayName: Luva da Imprudência
 	Tooltip:
 		'''
-		Aumenta a velocidade de ataques ladinos em 15% mas diminui o dano e chance de acerto crítico em 10%
+		Aumenta a velocidade de ataques ladinos em 15% mas diminui os danos por ataque ladino em 10% e chance de acerto crítico ladino em 5%
 		15% de aumento na regeneração da furtividade
-		Adiciona imprecisão às armas ladinas
+		Torna as armas ladinas levemente imprecisas
 		'''
 }
 
@@ -895,25 +942,9 @@ GrandGelatin: {
 	DisplayName: Grande Gelatina
 	Tooltip:
 		'''
-		12% de aumento na velocidade dos movimentos e na velocidade dos pulos
-		Usar uma poção de cura invocará uma aura purificadora
-		Andar na aura removerá todos os efeitos negativos e dano da defesa uma vez
-		A aura concede regeneração de +2.5 de vida por segundo a todos os jogadores dentro dela por 8 segundos
-		'''
-}
-
-GravistarSabaton: {
-	DisplayName: Sapato Graviestelar
-	Tooltip:
-		'''
-		20% de aumento na velocidade dos pulos
-		Concede imunidade aos danos por queda
-		Segure PARA BAIXO para aumentar a sua velocidade de queda máxima
-		Segure [KEY] por 1 segundo no ar para carregar uma esmagada super veloz
-		Durante a esmagada, você atravessa inimigos e não sofre danos por contato
-		Quando chegar no chão, você cria uma explosão em seus pés
-		A explosão aumenta em dano e tamanho com base na duração da sua esmagada
-		Você temporariamente recebe 40% de aumento na velocidade dos pulos após esmagar o chão
+		{0}% de aumento na velocidade dos movimentos e na velocidade dos pulos
+		Usar uma poção de cura invocará uma aura purificadora que dura {1} segundos
+		Andar na aura removerá todos os efeitos negativos e dano da defesa uma vez e concede regen. de +{2} de vida/s
 		'''
 }
 
@@ -921,34 +952,29 @@ HallowedRune: {
 	DisplayName: Runa Consagrada
 	Tooltip:
 		'''
-		Sempre que seus lacaios atingirem um inimigo, você ganhará um bônus aleatório, isto não acumula com as versões inferiores
-		Estes bônus irão aumentar sua defesa, seu dano por invocação ou regeneração de vida por um tempo
-		Se você tiver o reforço ofensivo, os inimigos atingidos por lacaios às vezes serão atingidos por estrelas
+		Ataques de lacaios fornecem diversos efeitos
+		Não acumula com versões anteriores
 		'''
-	/* HoldShiftTooltip:
+	HoldShiftTooltip:
 		'''
-		[c/8ce0ff:  Hallowed Power] [c/ccf1ff: grants 10% increased summon damage and rains stars on enemies]
-		[c/d08aff:  Hallowed Defense] [c/eed4ff: grants 5 defense]
-		[c/ff8cb5:  Hallowed Regen] [c/ffccde: grants +1.5 HP/s life regen]
-		''' */
+		[c/8ce0ff:  Poder Consagrado] [c/ccf1ff: oferece {0}% de aumento nos danos por invocação e faz chover estrelas nos inimigos]
+		[c/d08aff:  Defesa Consagrada] [c/eed4ff: oferece +{1} de defesa]
+		[c/ff8cb5:  Regeneração Consagrada] [c/ffccde: concede regen. de +{2} de vida/s]
+		'''
 }
 
 HarpyRing: {
 	DisplayName: Anel de Harpia
-	Tooltip:
-		'''
-		10% de aumento na velocidade dos movimentos
-		Aumenta o tempo máximo de voo em 25% 
-		'''
+	Tooltip: 10% de aumento na velocidade dos movimentos e 20% de aumento no tempo de voo
 }
 
 HeartofDarkness: {
 	DisplayName: Coração da Escuridão
-	Tooltip:
+	Tooltip: Você ganha fúria constantemente com o tempo e a fúria não desaparece quando está fora do combate
+	SalesPitch:
 		'''
-		Você ganha fúria constantemente com o tempo
-		A fúria não desaparece gradualmente quando fora do combate
-		Espólio do modo Vingança
+		'Algumas pessoas apreciam as verdades simples da vida: o bem e o mal, a saúde e a doença. '
+		'Não sei ao certo se são saudáveis, mas garanto que estes aparelhos trevosos farão seu sangue ferver! Me ajude a criar rótulos simples para eles e eu te darei um desconto de parar o coração!'
 		'''
 }
 
@@ -965,23 +991,16 @@ HideofAstrumDeus: {
 	DisplayName: Pele de Astrum Deus
 	Tooltip:
 		'''
-		Sofrer danos, ou infligir um ataque físico verdadeiro, derruba uma quantidade imensa de estrelas astrais do céu
-		Sofrer danos aumentará o dano por ataque físico verdadeiro em 50%
-		A duração do reforço é baseada na quantidade de dano que você sofreu, quanto maior o dano, mais longo será o reforço
-		Fornece imunidade aos efeitos negativos da infecção astral, inferno amaldiçoado, em chamas e queimadura de gelo
-		Inimigos sofrem danos quando te atacam e são infligidos com o efeito negativo da infecção astral
+		Golpes físicos verdadeiros derrubam estrelas astrais dos céus
+		Libera uma explosão e temporariamente aumenta os danos por ataque físico verdadeiro em 30% ao sofrer danos
+		A duração do aumento é baseada na quantidade de dano que você sofreu, até um máximo de 10 segundos
+		Anula o efeito negativo da [cbuffplr:CalamityMod/AstralInfectionDebuff]
 		'''
 }
 
 HoneyDew: {
 	DisplayName: Melada
-	Tooltip:
-		'''
-		+30 vida máxima
-		Concede regeneração de vida equivalente ao Mel
-		Ficar parado no Mel concede uma regeneração extremamente poderosa
-		Reduz na metade o tempo de duração de efeitos negativos de doenças
-		'''
+	Tooltip: A regeneração natural de vida é {0}% mais potente
 }
 
 HowlsHeart: {
@@ -993,16 +1012,18 @@ HowlsHeart: {
 		'''
 }
 
+IlmerisSpark: {
+	DisplayName: Faísca de Ilmeris
+	Tooltip: Sofrer danos libera uma explosão de faíscas
+}
+
 InfectedJewel: {
 	DisplayName: Joia Infectada
 	Tooltip:
 		'''
-		Regeneração de +1 de vida por segundo
-		Concede 16 de defesa e regeneração de +2 de vida por segundo quando afligido com qualquer efeito negativo
-		Aumenta bastante a regeneração de vida natural quando não afligido com qualquer efeito negativo
-		A defesa concedida rapidamente desaparece quando não afligido com qualquer efeito negativo
-		Qualquer efeito negativo além do primeiro concede 5 a mais de defesa
-		Torna o efeito negativo Infecção Astral inofensivo
+		Concede regen. de +{0} de vida/s
+		Reduz o dano sofrido de efeitos negativos em {1} de vida/s
+		Acelera a regeneração quando um efeito negativo danoso acaba
 		'Uma linda pedra preciosa manchada pela podridão astral'
 		'''
 }
@@ -1011,23 +1032,60 @@ InkBomb: {
 	DisplayName: Bomba de Tinta
 	Tooltip:
 		'''
-		Lança várias bombas de tinta quando acertado que explodem em uma nuvem de tinta que confunde
+		A furtividade é gerada 7% mais rapidamente
+		Lança várias bombas de tinta quando acertado que explodem em tinta e confundem inimigos
 		Ganhe bastante furtividade ao ser atingido
 		Este efeito tem um tempo de recarga de 20 segundos antes que possa ocorrer novamente
 		'''
 }
 
+InterstellarStompers: {
+	DisplayName: Pisantes Interestelares
+	Tooltip:
+		'''
+		6% de aumento na velocidade dos movimentos, 20% de aumento na velocidade dos pulos e nega o dano por queda
+		Segure {$Key.DOWN} para aumentar a sua velocidade de queda máxima
+		Apertar [KEY] enquanto estiver no ar carrega uma esmagada superrápida por 0,33 segundos
+		Enquanto cai, você atravessa inimigos e não sofre danos por contato
+		Quando você atinge o chão, você cria uma explosão nos seus pés
+		A explosão escala no dano e tamanho conforme o tempo passado caindo
+		40% de aumento temporário na velocidade dos pulos após esmagar o chão
+		'''
+}
+
 IronBoots: {
 	DisplayName: Botas de Ferro
-	Tooltip: Permite que você caia mais rápido em líquidos
+	Tooltip:
+		'''
+		Segure {$Key.DOWN} para aumentar sua velocidade de queda máxima, até mesmo na água
+		Ao atingir o chão, uma onda de choque é criada nos seus pés
+		A onda de choque escala no dano e tamanho conforme o tempo passado caindo
+		Nega o dano por queda
+		'''
+}
+
+IVDripOnTheRocks: {
+	DisplayName: Soro Intravenoso com Gelinho
+	Tooltip:
+		'''
+		[EFFECT]
+		[NAME]
+		As bebidas alcoólicas contribuem ao Envenenamento por Álcool
+		{$Common.AlcoholWarning}
+		[c/aaaaaa:Segure Shift e <right> neste item em seu inventário para esvaziar seu conteúdo]
+		[ceffect/drunk:'(murmúrios bêbados)']
+		'''
+	Empty: Coloque uma bebida alcoólica sobre este item em seu inventário para despejar seu conteúdo nele
+	CurrentAlcoholText: Cheio de
+	SakeAndAleText: Aumenta o tamanho de armas físicas em 25%, mas diminui a velocidade do ataque físico em 10%
 }
 
 JellyChargedBattery: {
 	DisplayName: Bateria Carregada de Geleia
 	Tooltip:
 		'''
-		+1 lacaio máximo e 7% nos danos por lacaios
-		Ataques de lacaios geram orbes de energia e infligem Eletrizado
+		Aumenta o número máximo de lacaios em 1 e os danos por invocação em 7%
+		Ataques de lacaios geram orbes de descarga estática
 		'''
 }
 
@@ -1036,24 +1094,22 @@ Laudanum: {
 	Tooltip:
 		'''
 		Converte certos efeitos negativos em positivos e estende suas durações
-		Efeitos negativos afetados: Trevas, Apagão, Confuso, Lento, Fraco,
-		Armadura quebrada, Trituração de armadura, Resfriado, Ichor e Obstruído
-		Espólio do modo Vingança
+		Isto também remove as imunidades a esses efeitos caso você as possua
 		'''
-	/* HoldShiftTooltip:
+	HoldShiftTooltip:
 		'''
-		  Debuffs affected: Armor Crunch, Blackout, Bleeding, Broken Armor, Chilled, Confused,
-		  Cursed, Darkness, Distorted, Ichor, Silenced, Slow, Weak, and Whispering Death
-		''' */
+		  Efeitos negativos afetados: Amaldiçoado, Apagão, Armadura Quebrada, Confuso, Distorcido, Escuridão,
+		  Fraqueza, Ichor, Lentidão, Morte Sussurante, Resfriado, Sangrando, Silenciado e Trituração de Armadura
+		'''
 }
 
 LeviathanAmbergris: {
 	DisplayName: Âmbar Cinzento do Leviathan
 	Tooltip:
 		'''
-		20% de aumento na velocidade da investida
-		O atraso após fazer uma investida é reduzido em 33%
-		Suas corridas são fortalecidas pela água, repelindo e causando dano aos inimigos próximos com correntes viscosas
+		100% de aumento na velocidade inicial da investida, 33% de redução no tempo de recarga da investida e maior desaceleração da investida
+		Suas investidas são fortalecidas pela água, repelindo e causando dano aos inimigos próximos com correntes viscosas
+		Efeitos visuais são reduzidos se a visibilidade estiver desativada
 		'''
 }
 
@@ -1061,60 +1117,38 @@ LifeJelly: {
 	DisplayName: Geleia da Vida
 	Tooltip:
 		'''
-		Usar uma poção de cura invocará uma aura persistente
-		A aura concede regeneração de +2 de vida por segundo a todos os jogadores dentro dela por 5 segundos
+		Usar uma poção de cura invoca uma aura rosa que dura {0} segundos
+		A aura concede regen. de +{1} de vida/s
 		'''
 }
 
 LivingDew: {
 	DisplayName: Orvalho Vivo
-	Tooltip:
-		'''
-		+50 vida máxima
-		Concede regeneração de vida equivalente ao Mel
-		Ficar parado no Mel concede uma regeneração extremamente poderosa
-		Reduz na metade o tempo de duração de efeitos negativos de fogo e doenças
-		'''
-}
-
-LumenousAmulet: {
-	DisplayName: Amuleto Lumíneo
-	Tooltip:
-		'''
-		Ataques causam o efeito negativo Pressão das profundezas
-		Fornece imunidade ao efeito negativo Pressão das profundezas
-		Enquanto estiver no abismo, você ganha 25% de aumento na vida máxima
-		Fornece uma quantidade razoável de luz no Abismo
-		'''
+	Tooltip: A regeneração natural de vida é {0}% mais potente e retorna {1}% mais rapidamente
 }
 
 LuxorsGift: {
 	DisplayName: Presente de Luxor
 	Tooltip:
 		'''
-		Armas disparam projéteis únicos com base no tipo de dano que elas têm
-		Algumas armas não podem receber este bônus
+		Invoca um escaravelho lançador que segue você
+		O escaravelho lança diversos projéteis nos inimigos dependendo da classe que a arma empunhada pertence
+		A classe do item empunhado não muda caso segure uma ferramenta
+		Quando não estiver sendo usado, o escaravelho se condensará num pequeno orbe de luz
 		'''
-}
-
-CleansingJelly: {
-	DisplayName: Geleia da Pureza
-	Tooltip:
-		'''
-		Usar uma poção de cura invocará uma aura purificadora
-		Andar na aura removerá todos os efeitos negativos e dano da defesa uma vez
-		'''
+	SalesPitch: "{$Common.SalesmanShrinePitch}"
 }
 
 ManaPolarizer: {
 	DisplayName: Polarizador de Mana
 	Tooltip:
 		'''
-		Aumenta o máximo de mana em 50 e dano por magia em 6%
-		Regeneração de -1.5 de vida por segundo se a mana estiver acima de 50% de seu máximo
-		Concede cura espectral, a quantidade de cura aumenta com a sua mana
-		A cura só funciona enquanto segura uma arma mágica
-		Quanto mais mana você tem, mais você é curado
+		Aumenta a mana máxima em 40
+		Fornece regeneração de vida e danos por magia que escala conforme a sua quantidade de mana atual
+		Menos mana significa mais regeneração de vida, mas menos dano por magia
+		Estes escalam de -2 a +2 de vida/s e 15% a 5% de dano
+		A regeneração concedida é reduzida pela metade quando afligido por Enjoo por Mana
+		Projéteis mágicos roubam vida do inimigo
 		'''
 }
 
@@ -1132,7 +1166,7 @@ MirageMirror: {
 	Tooltip:
 		'''
 		Reduz a agressão dos inimigos fora do abismo
-		A furtividade gera 25% mais rápido enquanto parado e 12% mais rápido enquanto se move
+		A furtividade é gerada 25% mais rapidamente enquanto parado e 12% mais rápido enquanto se move
 		'Curve a luz ao seu redor'
 		'''
 }
@@ -1141,9 +1175,19 @@ MoonstoneCrown: {
 	DisplayName: Coroa da Rocha Lunar
 	Tooltip:
 		'''
-		15% de aumento na velocidade dos projéteis ladinos
-		Ataques furtivos invocam chamas da lua ao atingir um inimigo
-		Projéteis ladinos muito ocasionalmente invocam sigilos da lua atrás deles
+		Aumenta a mana máxima em 40
+		Invoca um [c/27F5E0:Símbolo Lunar] a cada 2 segundos, até um máximo de 10
+		Cada [c/27F5E0:Símbolo Lunar] aumenta o dano por magia em 2% e reduz o custo de mana em 1%
+		Com 5 símbolos, aumenta a regen. de mana em +5 de mana/s
+		Com 10 símbolos, aumenta a chance de acerto crítico mágico em 10% e todos os ataques mágicos infligirão [cbuff:CalamityMod/Nightwither]
+		Esgotar a mana ou usar uma poção de mana quebra todos os símbolos
+		Ao quebrar um símbolo, não é possível criar um símbolo novo por 5 segundos
+		Os símbolos são transparentes e silenciosos se a visibilidade estiver desativada
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/27F5E0:Inúmeras lágrimas foram derramadas pelo ocaso de Chrysadia: quando suas nuvens do crepúsculo deram lugar não às amadas estrelas]
+		[c/27F5E0:nem aos queridos patronos, mas a um vazio voraz e ao seu terror implacável.]
 		'''
 }
 
@@ -1153,10 +1197,9 @@ Nanotech: {
 		'''
 		Projéteis ladinos criam nanolâminas enquanto viajam
 		Ataques furtivos invocam nanofeixes e faíscas ao atingir inimigos
-		Ataques furtivos têm +15 perfuração de blindagem, causam 5% a mais de dano, e curam 2 de vida
-		15% de aumento nos danos por ataques ladinos e 15% de aumento na velocidade de projéteis ladinos
-		Acertar um ataque furtivo concede um bônus de 12% de chance de acerto crítico a ataques não furtivos
-		Este bônus de acerto crítico decai ao longo de 5 segundos
+		Ataques furtivos têm roubo de vida, +15 perfuração de blindagem e causam 5% a mais de dano
+		15% de aumento nos danos por ataques ladinos e na velocidade de projéteis ladinos
+		Golpes furtivos concedem 10% de aumento na chance de acerto crítico para golpes não furtivos por 10 segundos
 		'''
 }
 
@@ -1166,7 +1209,7 @@ NebulousCore: {
 		'''
 		10% de aumento nos danos
 		Invoca estrelas de nébula flutuantes para te proteger
-		Você sobreviverá a um ataque que teria te matado e será curado em 100 HP
+		Sofrer um golpe fatal revive você com 100 de vida
 		Este efeito tem um tempo de recarga de 90 segundos
 		'''
 }
@@ -1175,8 +1218,9 @@ NecklaceofVexation: {
 	DisplayName: Colar do Vexame
 	Tooltip:
 		'''
-		20% de aumento nos danos quando abaixo de 50% de vida
-		Todos os ataques causam Peçonha ao vestir a Armadura do Ladrão
+		O dano aumenta em até 30% quanto mais baixa estiver sua vida
+		Aumento atual: [DAMAGE]%
+		Todos os ataques infligem [cbuff:Venom]
 		Vingança
 		'''
 }
@@ -1185,9 +1229,9 @@ NuclearFuelRod: {
 	DisplayName: Bastão de Combustível Nuclear
 	Tooltip:
 		'''
-		Lacaios liberam uma aura irradiada ao atingir o inimigo
-		+1 lacaio máximo
-		Oferece imunidade a Irradiado
+		Aumenta o máximo de lacaios em 1
+		Lacaios liberam uma aura de [cbuff:CalamityMod/Irradiated] ao atingir o inimigo
+		Oferece imunidade a [cbuffplr:CalamityMod/Irradiated]
 		'''
 }
 
@@ -1195,12 +1239,12 @@ Nucleogenesis: {
 	DisplayName: Nucleogênese
 	Tooltip:
 		'''
-		Aumenta o máximo de lacaios em 4, isto não acumula com as versões inferiores
-		Oferece imunidade a Chamas das sombras e Irradiado
-		15% de aumento nos danos por invocação
-		Maior recuo dos lacaios
+		Aumenta o máximo de lacaios em 4
+		Oferece imunidade a [cbuffplr:CalamityMod/Shadowflame] e [cbuffplr:CalamityMod/Irradiated]
+		15% de aumento nos danos por invocação e maior recuo dos lacaios
 		Os lacaios infligem uma variedade de efeitos negativos
-		Os lacaios geram faíscas que causam dano ao atingir o inimigo
+		Os lacaios geram faíscas danosas ao atingir o inimigo
+		Não acumula com versões anteriores
 		'''
 }
 
@@ -1210,24 +1254,25 @@ OccultSkullCrown: {
 		'''
 		Você ganha fúria constantemente ao longo do tempo e a fúria não desaparece quando está fora do combate
 		Converte certos efeitos negativos em positivos e estende suas durações
-		Efeitos negativos afetados: Trevas, Apagão, Confuso, Lento, Fraco,
-		Armadura quebrada, Trituração de armadura, Resfriado, Ichor and Obstruído
-		A adrenalina carrega 20% mais rápido
+		Isto também remove as imunidades a esses efeitos caso você as possua
+		A adrenalina é carregada 20% mais rapidamente
 		Aumenta a sua velocidade dos movimentos máxima e a aceleração em 5%
-		'Apenas um tolo vestiria isso...'
-		Item do modo Vingança
 		'''
-	/* HoldShiftTooltip:
+	HoldShiftTooltip:
 		'''
-		  Debuffs affected: Armor Crunch, Blackout, Bleeding, Broken Armor, Chilled, Confused,
-		  Cursed, Darkness, Distorted, Ichor, Silenced, Slow, Weak, and Whispering Death
-		''' */
-	// FlavorTooltip: "'Only a fool would ever wear this...'"
+		  Efeitos negativos afetados: Amaldiçoado, Apagão, Armadura Quebrada, Confuso, Distorcido, Escuridão,
+		  Fraqueza, Ichor, Lentidão, Morte Sussurante, Resfriado, Sangrando, Silenciado e Trituração de Armadura
+		'''
+	FlavorTooltip: "'Apenas um tolo vestiria isso...'"
 }
 
 OceanCrest: {
 	DisplayName: Crista do Oceano
-	Tooltip: A maioria dos inimigos do oceano tornam-se amigáveis e fornece respiração embaixo d'água
+	Tooltip:
+		'''
+		Você recupera fôlego conforme fica parado embaixo d'água
+		15% de aumento na velocidade de mineração enquanto estiver molhado
+		'''
 }
 
 OldDie: {
@@ -1235,7 +1280,7 @@ OldDie: {
 	Tooltip:
 		'''
 		Aumenta a sorte em 20%
-		'Para sua sorte, a maldição não afeta você. Na maioria.'
+		'Para sua sorte, a maldição não afeta você. Em grande parte.'
 		'''
 }
 
@@ -1243,37 +1288,29 @@ OldDukeScales: {
 	DisplayName: Escamas do Velho Duque
 	Tooltip:
 		'''
-		10% de aumento na redução dos danos
-		10% de aumento na velocidade dos movimentos e aceleração máxima
-		25% de aumento na velocidade e tamanho da corrida
-		Um indicador de energia aparece no quadro de recargas
-		Usar qualquer corrida consumirá 20% da sua energia 
-		A energia se recuperará gradualmente até 100% depois de não fazer corridas por 1 segundo
-		A energia se recupera mais rapidamente quando você está parado
-		Se sua energia atingir 0%, você ficará exausto 
-		[c/CE0E18:Enquanto estiver exausto, a redução de dano e os bônus de movimento desse item são negados]
-		[c/CE0E18:Estar exausto reduz a velocidade dos movimentos em 30% e a velocidade da corrida em 50%]
-		Este efeito negativo dura até sua energia atingir 100% novamente
+		{$Common.KnockbackImmunity}
+		10% de aumento na redução dos danos, na velocidade dos movimentos máxima e na aceleração
+		25% de aumento na velocidade e tamanho da investida
+		Adiciona um rastreador de estâmina no quadro de recargas
 		'''
-	/* HoldShiftTooltip:
+	HoldShiftTooltip:
 		'''
-		[c/c3dfff:  Using any dash will consume 20% of your stamina]
-		[c/c3dfff:  Stamina will gradually restore after not dashing for 1.5 seconds]
-		[c/c3dfff:  Stamina recovers faster when you are stationary]
-		[c/c3dfff:  If your stamina reaches 0%, you become exhausted]
-		[c/e3545c:  While exhausted, this item's damage reduction and movement bonuses are negated]
-		[c/e3545c:  Being exhausted reduces movement speed by 30% and dash velocity by 50%]
-		[c/c3dfff:  This debuff lasts until your stamina reaches 100% again]
-		''' */
+		[c/c3dfff:  Usar qualquer investida consumirá 20% da sua estâmina]
+		[c/c3dfff:  A estâmina se recuperará gradualmente depois de não fazer investidas por 1,5 segundo]
+		[c/c3dfff:  A estâmina se recupera mais rapidamente quando você está parado]
+		[c/c3dfff:  Se sua estâmina atingir 0%, você ficará exausto]
+		[c/c3dfff:  Enquanto estiver exausto, a redução de dano e os bônus de movimento desse item são negados]
+		[c/c3dfff:  Estar exausto reduz a velocidade dos movimentos em 30% e a velocidade da corrida em 50%]
+		[c/c3dfff:  Este efeito negativo dura até sua estâmina atingir 100% novamente]
+		'''
 }
 
 OrnateShield: {
 	DisplayName: Escudo Ornamentado
 	Tooltip:
 		'''
-		Concede a capacidade de fazer uma investida de colisão
+		Permite fazer uma investida
 		Essa investida permite atravessar os inimigos sem sofrer danos
-		Concede imunidade a Resfriado, Queimadura de gelo, Queimadura por frio e Congelado
 		'''
 }
 
@@ -1291,9 +1328,8 @@ PermafrostsConcoction: {
 	Tooltip:
 		'''
 		Aumenta a mana máxima em 50 e reduz o custo de mana em 15%
-		Regeneração de +0.5 de vida por segundo quando você está com menos da metade da vida,
-		+1 de vida por segundo com menos de 25% da vida e +2 de vida por segundo com menos de 10% de vida
-		Regeneração de +3 de vida por segundo afligido com qualquer efeito negativo de fogo
+		Regen. de +0,5 de vida/s quando estiver com menos de 50% de vida, +1 de vida/s com menos de 25% e +2 de vida/s com menos de 10%
+		Regen. de +3 de vida/s afligido com qualquer efeito negativo de fogo
 		Você sobreviverá qualquer dano fatal e reviverá com 30% de vida com um tempo de recarga de 3 minutos
 		Você é encapsulado em uma barreira de gelo por 3 segundos quando é revivido
 		'''
@@ -1303,18 +1339,15 @@ PhantomicArtifact: {
 	DisplayName: Artefato Fantasmagórico
 	Tooltip:
 		'''
-		Sempre que seus lacaios atingirem um inimigo, você ganhará um efeito fantasma, isso não acumula com versões anteriores do acessório
-		Esses bônus irão aumentar sua defesa, seu dano por invocação ou regeneração de vida por um tempo
-		Se você tiver o efeito ofensivo, os inimigos atingidos por lacaios terão uma chance de serem atingidos por facas fantasmas
-		Se você tiver o efeito regenerativo, um coração fantasma ocasionalmente se materializará, concedendo regeneração massiva de vida
-		Se você tiver o efeito defensivo, um baluarte fantasma absorverá 20% do dano do próximo projétil que atingir o baluarte, quebrando-o
+		Ataques de lacaios fornecem vários efeitos
+		Não acumula com versões anteriores
 		'''
-	/* HoldShiftTooltip:
+	HoldShiftTooltip:
 		'''
-		[c/8ce0ff:  Phantomic Empowerment] [c/ccf1ff: grants 10% increased summon damage and throws knives at enemies]
-		[c/d08aff:  Phantomic Shield] [c/eed4ff: grants 10 defense and a 20% damage reduction bulwark]
-		[c/ff8cb5:  Phantomic Regen] [c/ffccde: grants 1 HP/s life regen and occasionally drops phantom hearts which grant an additional 1 HP/s life regen]
-		''' */
+		[c/8ce0ff:  Fortalecimento Fantasmagórico] [c/ccf1ff: concede {0}% de aumento nos danos por invocação e dispara facas nos inimigos]
+		[c/d08aff:  Escudo Fantasmagórico] [c/eed4ff: concede {1} de defesa e um baluarte de 20% de redução dos danos]
+		[c/ff8cb5:  Regeneração Fantasmagórica] [c/ffccde: concede regen. +{2} de vida/s e ocasionalmente derruba corações fantasmas que concedem mais 1 de vida/s]
+		'''
 }
 
 PlaguedFuelPack: {
@@ -1322,9 +1355,21 @@ PlaguedFuelPack: {
 	Tooltip:
 		'''
 		8% de aumento nos danos por ataques ladinos e 15% de aumento na velocidade dos projéteis ladinos
-		A furtividade é gerada 10% mais rápido
-		Pressione [KEY] para consumir 25% de sua furtividade máxima para executar uma corrida ascendente diagonal veloz que deixa um rastro de nuvens da praga
+		A furtividade é gerada 10% mais rapidamente
+		Pressione [KEY] para consumir 25% de sua furtividade máxima para executar uma investida ascendente diagonal veloz que deixa um rastro de nuvens da praga
+		Essa investida deixa uma trilha de nuvens da [cbuff:CalamityMod/Plague]
 		Este efeito tem um tempo de recarga de 1 segundo antes que possa ser usado novamente
+		'''
+}
+
+PlanebreakersPouch: {
+	DisplayName: Bolsa do Destruidor de Planos
+	Tooltip:
+		'''
+		15% de aumento nos danos por ataque à distância, 7% de aumento na chance de acerto crítico à distância e 20% de chance de economizar munição
+		Oferece uma chance de 20% de não consumir flechas
+		Pressionar [KEY] trocará automaticamente a ordem das munições no seus espaços de munição 
+		O tipo de munição trocada depende da munição da arma empunhada
 		'''
 }
 
@@ -1332,17 +1377,16 @@ ProfanedSoulArtifact: {
 	DisplayName: Artefato da Alma Profana
 	Tooltip:
 		'''
-		Invoca um guardião curador que cura 15 de vida a cada poucos segundos
-		Invoca um guardião defensivo que fornece um escudo fraco reforçado por rochas profanas
-		Ao ser esgotada, a barreira implode, lançando rochas profanadas para fora
-		A barreira começa a recarregar 5 segundos após ser atingida
-		Recarregar de zero até a carga completa leva 2 segundos
-		Ser atingido novamente durante a recarga reinicia o tempo de carga
-		Invoca um guardião ofensivo que aumenta os seus espaços de lacaio em 1
-		O guardião ofensivo ocasionalmente disparará lanças ao atingir um inimigo
+		Invoca seus próprios Guardiões para lutar ao seu lado
+		O guardião ofensivo fornece um espaço de lacaio adicional e dispara um anel de lanças enquanto ataca
+		O guardião defensivo cria uma barreira fraca de rochas profanas
+		[ADREN]
+		Ao ser esgotada, as rochas são lançadas para fora e serão regeneradas após 5 segundos
+		Sofrer danos reinicia o temporizador
+		O guardião curandeiro restaura 10 de vida periodicamente
 		Puridade
 		'''
-	ShieldAdren: Você perde apenas metade da Adrenalina ao ser atingido se o escudo absorver totalmente o impacto
+	ShieldAdren: Você perde apenas metade da Adrenalina se todo o dano for absorvido
 }
 
 ProfanedSoulCrystal: {
@@ -1352,26 +1396,37 @@ ProfanedSoulCrystal: {
 		Transforma você em um emissário da deusa profana
 		[STATUS]
 		'''
-	ExoMechsLock: "[c/F05A5A:A alma dentro deste cristal foi contaminada por ondas de energia avassaladoras de mecanizações perigosas]"
-	CalamitasLock: "[c/F05A5A:A alma dentro deste cristal foi contaminada pela poderosa magia de uma bruxa suprema]"
-	Reject: Comerciantes rejeitarão uma alma contaminada como esta.
+	Locked: "[c/F05A5A:A alma dentro deste cristal foi profanada por {0}.]"
+	LockedBoth: "[c/F05A5A:A alma dentro deste cristal foi profanada por {0} e {1}.]"
+	ExoMechsLock: frequências indecifráveis
+	CalamitasLock: uma magia poderosa de enxofre
+	Reject: Comerciantes rejeitarão um item contaminado como este.
 	FullTooltip:
 		'''
-		Requer {0} espaços de lacaio para fornecer os seguintes efeitos
-		Todas as armas não-invocadoras são convertidas em variações invocadoras poderosas
-		Se você não tiver nenhum outro lacaio, esses ataques serão fotalecidos
-		[c/F05A5A:Transforma ataques físicos em uma barragem de lanças]
-		[c/3A83E4:Transforma ataques mágicos em uma poderosa bola de fogo que se divide por {1} de mana por lançamento]
-		[c/85E092:Transforma ataques à distância em uma barragem de bolas de fogo e meteoros]
-		[c/E94571:Transforma ataques ladinos em um espiral cristalino mortal]
-		[c/E299FF:Transforma ataques de chicote em um chicote de cristal profano empoderador]
-		Invoca e fortalece os guardiãos da alma profana para lutar junto de você
-		Fornece efeitos dependendo da hora do dia
+		Fornece efeitos passivos dependendo do horário
+		Aumenta muito o poder das relíquias do Guardião
+		Oferece efeitos adicionais se você tiver {0} espaços de lacaio
+		Invoca seus próprios Guardiões para lutar ao seu lado
+		Todos os ataques não invocadores são transformados e são fortalecidos se não houver lacaios invocados
+		[c/ffd2bf:Ataques] [c/ffa680:físicos] [c/ffd2bf:viram uma barragem de lanças]
+		[c/ffd2bf:Ataques] [c/99ffa7:à distância] [c/bfffc8:viram uma barragem de bolas de fogo e meteoros]
+		[c/ffd2bf:Ataques] [c/8cbeff:mágicos] [c/bfdbff:viram uma bola de fogo gigante e que se divide, custando {0} de mana]
+		[c/ffd2bf:Ataques] [c/d791f2:com chicotes] [c/e1b6f2:ficam tomados pelo cristal profano]
+		[c/ffd2bf:Ataques] [c/f285a2:ladinos] [c/f2b6c6:viram uma espiral cristalina mortal]
 		Pensando bem, foi uma vida bem chata
 		[c/FFBF49:Portanto, devemos queimar tudo no nome da puridade]
 		'''
-	// Locked: "[c/F05A5A:The soul within this crystal has been defiled by {0}.]"
-	// LockedBoth: "[c/F05A5A:The soul within this crystal has been defiled by {0} and {1}.]"
+}
+
+ProtolithBangle: {
+	DisplayName: Bracelete de Protólito
+	Tooltip:
+		'''
+		Acertos à distância fazem um clarão de mármore que sempre causa um acerto crítico e pode atingir vários inimigos
+		Este efeito tem um tempo de recarga de 7 segundos
+		Efeitos visuais e sonoros são reduzidos se a visibilidade estiver desativada
+		[c/0189D7:'O mármore frio sobre seu pulso relaxa a sua mente']
+		'''
 }
 
 QuiverofNihility: {
@@ -1389,79 +1444,71 @@ Radiance: {
 	DisplayName: Radiância
 	Tooltip:
 		'''
-		+70 de vida máxima
-		Concede regeneração de +1 a +5 de vida por segundo com base na vida ausente
-		Concede regeneração de +1 de vida por segundo e regeneração de +1 de vida por segundo quando afligido com qualquer efeito negativo
-		Ficar parado concede regeneração de +2 de vida por segundo
-		Condede 20 de defense e cura constante quando afligido com qualquer efeito negativo
-		A cura eventualmente desacelera se o efeito negativo estiver ocorrendo por um longo período de tempo
-		Aumenta muito a regeneração de vida natural quando afligido com qualquer efeito negativo
-		Cada efeito negativo além do primeiro concede 8 a mais de defesa
-		A defesa concedida desaparece lentamente quando não afligido com um efeito negativo
-		Torna efeitos negativos ligeiramente danosos inofensivos e reduz pela metade a duração de todos os efeitos negativos exceto os mais fortes
+		Regen. de +{0} a +{1} de vida/s com base na vida ausente [c/999999:(Atualmente: +[REGEN] de vida/s)]
+		Reduz o dano sofrido de efeitos negativos em {2} de vida/s e acelera a regeneração quando um efeito negativo danoso acaba
+		A regeneração natural de vida é {3}% mais potente e retorna {4}% mais rapidamente
 		Você emite uma luz azul brilhante se a visiblidade estiver ativada
 		'Um cristal outrora putrificado, agora brilhando com pureza imaculada.'
 		'''
-	/* HoldShiftTooltip:
-		'''
-		[c/CDF69C:Grants +2 to +5 HP/s life regen based on missing health]
-		[c/CDF69C:Recover an additional 6 HP/s while inflicted with a debuff]
-		[c/CDF69C:This eventually slows to 1.33 HP/s when debuffed for an extended time period]
-		[c/CDF69C:Grants the Honey buff]
-		[c/CDF69C:Grants 15 defense while afflicted with any debuff]
-		[c/CDF69C:Each additional debuff grants 5 defense, which slowly decays while not debuffed]
-		[c/CDF69C:Weak damaging debuffs are harmless and halves the duration of most other debuffs]
-		''' */
 }
 
 RadiantOoze: {
 	DisplayName: Lodo Radiante
 	Tooltip:
 		'''
-		Concede regeneração de +2 a +6 de vida por segundo com base na vida ausente
+		Concede regen. de +{0} a +{1} de vida/s com base na vida ausente
 		Você emite luz amarela se a visibilidade estiver ligada
+		[c/999999:(Regen. atual: +[REGEN] de vida/s)]
 		'''
 }
 
 RaidersTalisman: {
 	DisplayName: Talismã do Corsário
-	Tooltip:
-		'''
-		Acertar um ataque furtivo concede 12% de aumento no ataque crítico para ataques não-furtivos
-		Este bônus de ataque crítico decai ao longo de 5 segundos
-		'''
+	Tooltip: Golpes furtivos concedem 15% de aumento na chance de acerto crítico ladino para ataques não-furtivos por 10 segundos
 }
 
 RampartofDeities: {
 	DisplayName: Muralha das Divindades
 	Tooltip:
 		'''
-		Faz com que estrelas caiam e aumenta o tempo de imunidade ao ser atingido
-		Concede regeneração de +0.5 de vida por segundo e reduz o tempo de recarga das poções de cura
-		Absorve 15% do dano causado aos jogadores de sua equipe
-		Este efeito é ativo apenas quando estiver acima de 25% de vida
-		Concede imunidade aos recuos
-		Coloca um escudo em volta do usuário quando estiver abaixo de 50% de vida que reduz os danos sofridos
+		{$Common.KnockbackImmunity}
+		Libera uma explosão de abelhas-astrais teleguiadas[TOGGLE] e o encharca de [cbuffplr:Honey] ao sofrer danos
+		Aumenta a duração da invencibilidade, com uma duração ainda maior com vida baixa ou ao ser atingido por um ataque forte
+		Reduz o dano sofrido em 25% com menos de 50% de vida
+		Absorve 25% do dano causado contra jogadores na sua equipe quando estiver acima de 25% de vida
+		[c/aaaaaa:Segure Shift e <right> neste item no seu inventário para alternar o efeito do] [i:PanicNecklace] [c/aaaaaa:Colar do Pânico]
 		'''
-	// ToggleEffect: ", increases movement speed,"
+	ToggleEffect: ", aumenta a velocidade dos movimentos"
+}
+
+OasisElementalinaBottle: {
+	DisplayName: Elemental do Oásis na Garrafa
+	Tooltip:
+		'''
+		Invoca um elemental do oásis para te auxiliar
+		Enquanto você sofre danos, o elemental dispara orbes de cura que recuperam 10 de vida
+		'''
 }
 
 ReaperToothNecklace: {
 	DisplayName: Colar do Dente Ceifeiro
 	Tooltip:
 		'''
-		15% de aumento nos danos
-		Aumenta a perfuração de blindagem em 15
+		20% de aumento nos danos
+		Aumenta a perfuração de armadura em 30
 		'Um troféu terrível do predador supremo'
 		'''
 }
 
-Regenator: {
-	DisplayName: Regenador
+Regenerator: {
+	DisplayName: Regenerador
 	Tooltip:
 		'''
-		Regeneração de +6 de vida por segundo e acelera a regeneração de vida natural consideravelmente
-		No entanto, sua vida não pode exceder 50% do seu máximo
+		Sua vida não pode exceder {0}% do máximo 
+		Aumenta a duração da invencibilidade ao sofrer danos
+		Fornece uma regen. especial que cura {1} de vida/s
+		Toda a regen. de vida normal é convertida em dano
+		Aumento de dano atual: [DAMAGE]%
 		'''
 }
 
@@ -1472,40 +1519,34 @@ RogueEmblem: {
 
 RoseStone: {
 	DisplayName: Rocha da Rosa
-	Tooltip:
-		'''
-		Invoca um Elemental de Enxofre para lutar por você
-		'Uma das relíquias antigas'
-		'''
+	Tooltip: Invoca um Elemental de Enxofre para lutar por você
 }
 
 RottenBrain: {
 	DisplayName: Cérebro Apodrecido
 	Tooltip:
 		'''
-		10% de aumento nos danos quando estiver abaixo de 75% de vida
-		5% de redução na velocidade dos movimentos quando estiver abaixo de 50% de vida
-		Sombra chove quando você é atingido
+		Sofrer danos confunde os inimigos próximos e invoca um rastejante nojento
+		O rastejante nojento voa acima de você, explodindo em várias nuvens de chuva das sombras
 		'''
 }
 
 RottenDogtooth: {
 	DisplayName: Dente de Cachorro Apodrecido
-	Tooltip: Faz com que ataques furtivos inflijam Desmoronando e causem 10% a mais de dano
+	Tooltip: Ataques furtivos infligem [cbuff:CalamityMod/Crumbling] e causam 8% a mais de dano
 }
 
 RoverDrive: {
 	DisplayName: Rover Drive
 	Tooltip:
 		'''
-		Projeta um escudo de energia que absorve até 20 de dano
-		O escudo concede 10 de defesa enquanto está ativo
-		Depois que o escudo é quebrado, ele leva 10 segundos para recarregar
-		Ser atingido novamente durante a recarga reinicia o tempo de recarga
-		A cor do escudo mudará para combinar com a seleção do seu time conforme necessário
+		Você ganha uma barreira com {0} de vida
+		[ADREN]
+		A barreira será regenerada em {1} segundos depois de sofrer danos, levando {2} segundos para se regenerar por completo
+		Ser atingido reinicia o temporizador
 		Também pode ser sucateado em um extrator
 		'''
-	ShieldAdren: Você perde apenas metade da Adrenalina ao ser atingido se a barreira absorver totalmente o impacto
+	ShieldAdren: Você perde apenas metade da Adrenalina se todo o dano for absorvido
 }
 
 RuinMedallion: {
@@ -1513,16 +1554,7 @@ RuinMedallion: {
 	Tooltip:
 		'''
 		Ataques furtivos gastam apenas 75% de sua furtividade máxima
-		6% de aumento nos danos por ataques ladinos, e 6% de aumento na chance de acerto crítico ladino
-		'''
-}
-
-RustyMedallion: {
-	DisplayName: Medalhão Enferrujado
-	Tooltip:
-		'''
-		Faz com que a maioria das armas de ataque à distância liberem gotas de ácido do céu
-		Oferece imunidade a Irradiado
+		6% de aumento nos danos por ataques ladinos e na chance de acerto crítico ladino
 		'''
 }
 
@@ -1530,9 +1562,10 @@ SandCloak: {
 	DisplayName: Capa de Areia
 	Tooltip:
 		'''
-		5% de aumento na velocidade dos movimentos
-		Pressione [KEY] para consumir 10% de sua furtividade máxima para criar um véu de poeira protetor que concede +6 de defesa e regeneração de +1 de vida por segundo
-		Este efeito tem um tempo de recarga de 30 segundos antes que possa ser usado novamente
+		Fazer uma investida cria um véu de areia protetor que causa danos nos inimigos dentro dele
+		O véu de areia dura {0} segundos, mas é dissipado mais cedo se você investir novamente
+		O véu te segue lentamente, e todos os jogadores dentro dele recebem {1} de defesa e {2}% a mais de aceleração
+		Depois de disspar, o véu de areia tem um tempo de recarga de {3} segundos antes que possa ser usado novamente
 		'''
 }
 
@@ -1540,8 +1573,20 @@ SandSharkToothNecklace: {
 	DisplayName: Colar do Dente de Tubarão de Areia
 	Tooltip:
 		'''
-		Aumenta a perfuração de blindagem em 10
-		6% de aumento nos danos
+		Aumenta a perfuração de armadura em 10
+		10% de aumento nos danos
+		'''
+}
+
+ScionsCurio: {
+	DisplayName: Amuleto de Scions
+	Tooltip:
+		'''
+		Ataques à distância aumentam a efetividade de [cbuff:CalamityMod/Irradiated]
+		O dano/s de [cbuff:CalamityMod/Irradiated] aumenta conforme seus danos por ataque à distância e chance de acerto crítico à distância
+		Inimigos mortos explodem, espalhando [cbuff:CalamityMod/Irradiated]
+		Ao sofrer dano, o amuleto explode em retaliação
+		Dano atual de [cbuff:CalamityMod/Irradiated]: [DAMAGE]
 		'''
 }
 
@@ -1549,8 +1594,20 @@ ScuttlersJewel: {
 	DisplayName: Joia do Fugitivo
 	Tooltip:
 		'''
-		Projéteis ladinos furtivos geram um espinho de joia quando destruídos
+		Projéteis ladinos furtivos geram um espinho de joia ao atingirem ou serem destruídos
 		Também pode ser decomposto em um extrator
+		'''
+}
+
+SeaSpiritAmulet: {
+	DisplayName: Amuleto do Espírito do Mar
+	Tooltip:
+		'''
+		Lentamente acumule oito orbes espíritos que te seguem
+		Os espíritos são disparsados quando faz uma investida
+		Com menos de 50% de vida, eles te curarão, caso contrário eles atacarão inimigos próximos
+		35% de aumento nos danos de efeitos negativos de Água
+		Orbes espíritos são transparentes e silenciosos se a visibilidade estiver desativada
 		'''
 }
 
@@ -1559,11 +1616,11 @@ ShatteredCommunity: {
 	Tooltip:
 		'''
 		'Arruinada por um ódio desconhecido, ela ainda contém o poder da Comunidade (pelo menos, a maior parte dele)...'
-		Aumenta os danos em 10% e a chance de acerto crítico em 5%
-		Aumenta a vida máxima em 10%, redução dos danos em 5%, defesa em 10, e a regeneração de vida em +1 de vida por segundo
-		Aumenta a velocidade dos movimentos em 10% e o tempo de voo em 20%
+		Aumenta os danos, a vida máxima e a velocidade dos movimentos em 10%
+		Aumenta a defesa em 10, e a regen. de vida em +1 de vida/s
+		Aumenta a chance de acerto crítico e a redução dos danos em 5% e o tempo de voo em 20%
 		[RAGEDESC]
-		Sofrer danos fornece fúria, este efeito não é prejudicado por suas estatísticas defensivas
+		Receba fúria depois de sofrer danos, independentemente das estatísticas de defesa
 		Enquanto o Modo Fúria está ativado, sofrer danos fornece apenas a metade da quantidade de fúria
 		Cause danos com o Modo Fúria para fortalecer ainda mais sua ira
 		Nível atual: [LEVEL] (+[LEVEL]% de dano no Modo Fúria)
@@ -1584,21 +1641,19 @@ ShieldoftheHighRuler: {
 	DisplayName: Escudo de Airulle
 	Tooltip:
 		'''
-		Concede imunidade aos recuos
-		Imune à maioria dos efeitos negativos
-		+10 vida máxima
-		Concede uma corrida do Escudo de Cthulhu aprimorada
-		Colidir-se com um inimigo reduz o atraso para que você possa fazer uma corrida novamente em 50%
-		Se você estiver de frente à um projétil quando ele atingir você, ele causará 15% a menos de dano
-		'Para o destino do reino'
+		+10 de vida máxima
+		Concede imunidade aos recuos e a maioria dos efeitos negativos
+		Concede uma investida do Escudo de Cthulhu aprimorada
+		Colidir-se com um inimigo reduz pela metade o tempo de recarga da investida
+		Encarar um projétil quando ele atingir você reduz o dano dele em 15%	
 		'''
-	/* HoldShiftTooltip:
+	HoldShiftTooltip:
 		'''
-		  On Fire!, Chilled, Frostburn, Weak, Broken Armor, Bleeding
-		  Poisoned, Slow, Confused, Silenced, Cursed, Darkness,
-		  Mighty Wind, Stoned, Burning
-		''' */
-	// FlavorTooltip: "'For the fate of the kingdom'"
+		  Em Chamas!, Resfriado, Queimadura de Gelo, Fraqueza, Armadura Quebrada,
+		  Sangrando, Envenenado, Lentidão, Confusão, Silenciado, Amaldiçoado,
+		  Escuridão, Vento Poderoso, Petrificado, Queimando
+		'''
+	FlavorTooltip: "'Para o destino do reino'"
 }
 
 ShieldoftheOcean: {
@@ -1606,35 +1661,33 @@ ShieldoftheOcean: {
 	Tooltip:
 		'''
 		Aumenta a defesa em 5 quando submerso em líquidos
-		10% de aumento na velocidade dos movimentos e regeneração de +1 de vida por segundo ao vestir a armadura de Vimaré
+		10% de aumento na velocidade dos movimentos e regen. de +1 de vida/s ao vestir a armadura de Vimaré
 		'''
 }
 
 SigilofCalamitas: {
-	DisplayName: Sigilo de Calamitas
+	DisplayName: Símbolo de Calamitas
 	Tooltip:
 		'''
-		15% de aumento nos danos por magia e 10% de redução no consumo de mana
-		+100 mana máxima
+		{$CommonItemTooltip.IncreasesMaxManaBy}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@1}
 		Aumenta o alcance de coleta das estrelas de mana
 		'''
 }
 
 SilencingSheath: {
 	DisplayName: Bainha Silenciadora
-	Tooltip:
-		'''
-		+10 furtividade máxima
-		A furtividade é gerada 4% mais rápido
-		'''
+	Tooltip: +10 de furtividade máxima e a furtividade é gerada 4% mais rapidamente
 }
 
 SlagsplitterPauldron: {
 	DisplayName: Ombreira do Rachador da Escória
 	Tooltip:
 		'''
-		Você ganha 5% de redução dos danos enquanto faz uma corrida
-		Suas corridas são fortalecidas pelo fogo, destruindo os inimigos próximos de você com explosões violentas
+		Suas corridas são fortalecidas pelo efeito [cbuff:OnFire3], irrompendo no contato com inimigos
+		Oferece imunidade aos recuos e 10% de redução dos danos enquanto faz uma investida
+		Inimigos atingidos pelas suas investidas são afligidos com [cbuff:CalamityMod/ArmorCrunch]
+		Efeitos visuais são reduzidos se a visibilidade estiver desativada
 		'''
 }
 
@@ -1642,10 +1695,10 @@ SpectralVeil: {
 	DisplayName: Véu Espectral
 	Tooltip:
 		'''
-		Pressione [KEY] para consumir 25% de sua furtividade máxima para realizar um teletransporte de médio alcance e torná-lo momentaneamente invulnerável
+		Pressione [KEY] para consumir 25% de sua furtividade máxima para se teletransportar, deixando você invulnerável
 		Se você se esquivar de algo enquanto estiver invulnerável, você ganha furtividade cheia instantaneamente
-		O teletransporte é desativado enquanto Estado de caos está ativo
-		A furtividade regenera 15% mais rápido
+		O teletransporte é desativado enquanto Estado de Caos está ativo
+		A furtividade é gerada 15% mais rapidamente
 		'O interior da capa está cheio de dentes...'
 		'''
 }
@@ -1657,25 +1710,32 @@ SpelunkersAmulet: {
 
 SpiritGlyph: {
 	DisplayName: Glifo Espiritual
+	Tooltip: Ataques de lacaios fornecem diversos efeitos
+	HoldShiftTooltip:
+		'''
+		[c/8ce0ff:  Poder do Espírito] [c/ccf1ff: oferece {0}% de aumento nos danos por invocação]
+		[c/d08aff:  Defesa do Espírito] [c/eed4ff: oferece +{1} de defesa]
+		[c/ff8cb5:  Regeneração do Espírito] [c/ffccde: concede regen. de +{2} de vida/s]
+		'''
+}
+
+SpringStool: {
+	DisplayName: Banquinho com Mola
 	Tooltip:
 		'''
-		Sempre que seus lacaios atingirem um inimigo, você ganhará um bônus aleatório
-		Estes bônus irão aumentar sua defesa, seu dano por invocação ou regeneração de vida por um tempo
+		Segure {$Key.UP} para chegar ainda mais alto
+		Aperte [KEY] para pular muito alto
+		Os superpulos só podem ser realizados uma vez a cada {0} segundos e depois de aterrissar
+		{1}% de aumento na chance de acerto crítico ao atingir que estão inimigos abaixo de você
 		'''
-	/* HoldShiftTooltip:
-		'''
-		[c/8ce0ff:  Spirit Power] [c/ccf1ff:grants 10% increased summon damage]
-		[c/d08aff:  Spirit Defense] [c/eed4ff:grants 3 defense]
-		[c/ff8cb5:  Spirit Regen] [c/ffccde:grants +1 HP/s life regeneration]
-		''' */
 }
 
 StarbusterCore: {
 	DisplayName: Núcleo da Explosão Estelar
 	Tooltip:
 		'''
+		Aumenta o máximo de lacaios em 1
 		Invocações lançam uma explosão astral ao atingir o inimigo
-		+1 lacaio máximo
 		'''
 }
 
@@ -1683,10 +1743,10 @@ StarTaintedGenerator: {
 	DisplayName: Gerador Estrelado
 	Tooltip:
 		'''
-		+2 lacaios máximos, isto não acumula com versões anteriores
-		7% de aumento nos danos por lacaios
+		Aumenta o máximo de lacaios em 2 e os danos por invocação em 7%
 		Ataques de lacaios geram explosões astrais e infligem vários efeitos negativos
-		Oferece imunidade a Irradiado
+		Oferece imunidade a [cbuffplr:CalamityMod/Irradiated]
+		Não acumula com versões anteriores
 		'''
 }
 
@@ -1694,9 +1754,8 @@ StatisBlessing: {
 	DisplayName: Bênção de Statis
 	Tooltip:
 		'''
-		Aumenta o máximo de lacaios em 2 e 10% de aumento nos danos por invocação
+		Aumenta o máximo de lacaios em 2 e os danos por invocação em 12%
 		Maior recuo dos lacaios
-		Lacaios infligem chamas profanas ao atingir um inimigo
 		'''
 }
 
@@ -1704,11 +1763,10 @@ StatisCurse: {
 	DisplayName: Maldição de Statis
 	Tooltip:
 		'''
-		Aumenta o máximo de lacaios em 3, isto não acumula com versões anteriores
-		10% de aumento nos danos por lacaios
+		Aumenta o máximo de lacaios em 3 e os danos por invocação em 12%
 		Maior recuo dos lacaios
-		Lacaios infligem chamas profanas e chamas das sombras ao atingir um inimigo
-		Oferece imunidade a Chamas das sombras
+		Ataques de lacaios infligem [cbuff:CalamityMod/Shadowflame] e oferece imunidade a [cbuffplr:CalamityMod/Shadowflame]
+		Não acumula com versões anteriores
 		'''
 }
 
@@ -1716,30 +1774,30 @@ StatisNinjaBelt: {
 	DisplayName: Cinto Ninja de Statis
 	Tooltip:
 		'''
-		6% de aumento na velocidade dos pulos e permite saltos constantes
-		Concede a capacidade de nadar
-		Aumenta a resistência a danos por queda em 35 blocos
-		Pode escalar paredes, fazer corridas, e esquivar de ataques
-		O desvio tem um tempo de recarga de 90 segundos
-		Este tempo de recarga é compartilhado com todos os outros desvios e reflexos
+		Fornece uma investida de alta velocidade
+		10% de aumento na velocidade dos movimentos, 32% de aumento na velocidade dos pulos e nega os danos por queda
+		Aumenta a aceleração e desaceleração dos movimentos em 1,6x
+		Concede a capacidade de nadar[TOGGLE] e pular automaticamente
+		{$Common.DodgeProvided}
+		[c/aaaaaa:Segure Shift e <right> neste item no seu inventário para alternar o efeito das] [i:ClimbingClaws] [c/aaaaaa:Garras para Escalar]
 		'''
-	// ToggleEffect: ", climb walls,"
-	// HoldShiftTooltip: "{$Common.DodgeInformation}"
+	ToggleEffect: ", escalar paredes"
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 StatisVoidSash: {
 	DisplayName: Faixa do Vazio de Statis
 	Tooltip:
 		'''
-		12% de aumento na velocidade dos pulos e permite saltos constantes
-		Fornece imunidade ao dano de queda
-		Pode escalar paredes, fazer corridas, e esquivar de ataques
-		O desvio tem um tempo de recarga de 90 segundos
-		Este tempo de recarga é compartilhado com todos os outros desvios e reflexos
-		Um rastro de foices teleguiadas é deixado ao fazer uma corrida
+		Fornece uma investida de alta velocidade
+		20% de aumento na velocidade dos movimentos, 32% de aumento na velocidade dos pulos e nega os danos por queda
+		Aumenta a aceleração e desaceleração dos movimentos em 1,85x
+		Concede a capacidade de nadar[TOGGLE] e pular automaticamente
+		{$Common.DodgeProvided}
+		[c/aaaaaa:Segure Shift e <right> neste item no seu inventário para alternar o efeito das] [i:ClimbingClaws] [c/aaaaaa:Garras para Escalar]
 		'''
-	// ToggleEffect: ", climb walls,"
-	// HoldShiftTooltip: "{$Common.DodgeInformation}"
+	ToggleEffect: ", escalar paredes"
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 // Be warned translators, this thing fucking sucks
@@ -1757,8 +1815,8 @@ StatMeter: {
 		'''
 	RevStats:
 		'''
-		Reforço de danos no Modo Fúria: {0}% | Duração do Modo Fúria: {1} segundos
-		Reforço de danos no Modo Adrenalina: {2}% | Reforço na redução dos danos no Modo Adrenalina: {3}%
+		Aumento de danos no Modo Fúria: {0}% | Duração do Modo Fúria: {1} segundos
+		Aumento de danos no Modo Adrenalina: {2}% | Aumento na redução dos danos no Modo Adrenalina: {3}%
 		'''
 
 	ClassNameOverride: {
@@ -1772,7 +1830,7 @@ StatMeter: {
 		'''
 		Classe: {0}
 		Dano: {1}
-		Perfuração de blindagem: {2}
+		Perfuração de armadura: {2}
 		'''
 	DamageBase: "[{0} base] +"
 	DamageNormal: "{0}%"
@@ -1782,16 +1840,15 @@ StatMeter: {
 	AttackSpeed: Velocidade de ataque: {0}%
 	WhipMeleeInheritance: " [{0}% do ataque físico]"
 	// Class stats
-	RangedStats: Chance do consumo de munição: {0}
-	MagicStats: Consumo de mana: {0}% | Regeneração de mana: {1}
+	AmmoStats: Chance de consumo de munição: {0}%
+	ManaStats: Consumo de mana: {0}% | Regen. de mana: {1}
 	SummonStats: Espaços de lacaio: {0} | Espaços de sentinela: {1}
 	WhipStats: Alcance do chicote: {0}%
 	RogueStats:
 		'''
-		Furtividade máx: {0} | Regen. de furt. enquanto parado: {1} / seg. | Regen. de furt. enquanto se move: {2} / seg.
-		Reforço na velocidade dos projéteis ladinos: {3}%
+		Furtividade máx: {0} | Regen. de furt. enquanto parado: {1}/s. | Regen. de furt. enquanto se move: {2}/s.
+		Aumento na velocidade dos projéteis ladinos: {3}%
 		'''
-	RogueConsumption: " | Chance de consumir armas ladinas: {0}%"
 	// Utility stats
 	ToolRange: Bônus no alcance da ferramenta: ({0}, {1})
 	MiningSpeed: " | Velocidade de mineração: {0}%"
@@ -1802,30 +1859,31 @@ StatMeter: {
 	GenericStats:
 		'''
 		Defesa: {0} | Redução dos danos: {1}% | Regeneração de vida: {2}
-		Velocidade dos movimentos: {3}% | Reforço dos pulos: {4}%
+		Velocidade dos movimentos: {3}% | Aumento dos pulos: {4}%
 		'''
-	FlightTime: " | Tempo de voo da asa: {0} segundos"
+	FlightTime: " | Tempo de voo da asa: {0} segundo(s)"
 	MiscStats: Agressividade: {0} | Sorte: {1}%
 	AbyssStats:
 		'''
-		Força da luz no Abismo: {0}
-		Perda de fôlego por tique: {1} | Taxa de perda de fôlego: {2}
-		Vida perdida por tique quando sem fôlego: {3}
-		Defesa perdida pela pressão: {4}
+		Escuridão no Abismo: {0} | Brilho do jogador: {1}x | Largura da lanterna: {2}x
+		Taxa de perda de fôlego: {3}
+		Vida perdida por tique enquanto sem fôlego: {4}
+		Defesa perdida pela pressão: {5}
 		'''
 	AbyssStatsHidden: Estatísticas do abismo são exibidas apenas enquanto você estiver no abismo
-	// Class stats
-	// AmmoStats: Ammo Consumption Chance: {0}%
-	// ManaStats: Mana Usage: {0}% | Mana Regen: {1}
 }
 
 StressPills: {
 	DisplayName: Pílulas de Estresse
 	Tooltip:
 		'''
-		A adrenalina carrega 20% mais rápido
+		A adrenalina é carregada 20% mais rapidamente
 		Aumenta a sua velocidade dos movimentos máxima e a aceleração em 5%
-		Espólio do modo Vingança
+		'''
+	SalesPitch:
+		'''
+		'Algumas pessoas apreciam as verdades simples da vida: o bem e o mal, a saúde e a doença. '
+		'Não sei ao certo se são saudáveis, mas garanto que estes aparelhos trevosos farão seu sangue ferver! Me ajude a criar rótulos simples para eles e eu te darei um desconto de parar o coração!'
 		'''
 }
 
@@ -1833,12 +1891,20 @@ SupremeBaitTackleBoxFishingStation: {
 	DisplayName: Estação de Pesca com Caixa de Equipamento de Isca Suprema
 	Tooltip:
 		'''
-		Aumenta a habilidade de pesca em 80
-		A linha de pesca nunca quebra e diminui as chances de consumo de iscas
-		Aumenta a chance de pescar caixotes
+		Aumenta a habilidade de pesca em 50
+		A linha de pesca nunca quebra e diminui as chances de consumo de iscas	
 		Permite pescar na lava
-		Efeito da poção Sonar
-		O acessório de pesca supremo
+		'''
+}
+
+TeslasAmulet: {
+	DisplayName: Amuleto de Tesla
+	Tooltip:
+		'''
+		Gera um campo elétrico que desacelera os inimigos
+		O campo inflige [cbuff:CalamityMod/StaticDischarge] e [cbuff:CalamityMod/GalvanicCorrosion]
+		O campo tem opacidade reduzida se a visibilidade estiver desativada
+		Reduz a duração do efeito negativo [cbuffplr:CalamityMod/StaticDischarge]
 		'''
 }
 
@@ -1846,12 +1912,12 @@ TheAbsorber: {
 	DisplayName: O Absorvedor
 	Tooltip:
 		'''
-		12% de aumento na velocidade dos movimentos e dos pulos
-		Os inimigos sofrem muito dano quando tocam em você e são afligidos com um efeito negativo de doença que reduz a redução dos danos significantemente
-		Usar uma poção de cura invocará uma aura purificadora
-		Andar na aura removerá todos os efeitos negativos e dano da defesa uma vez
-		A aura concede regeneração de +3 de vida por segundo, aumento de 8% nos danos e de 5% na redução dos danos a todos os jogadores dentro dela por 10 segundos
-		5% do dano dos ataques dos inimigos é absorvido e convertido em cura
+		{$Common.KnockbackImmunity}
+		{0}% de aumento na velocidade dos movimentos e dos pulos
+		Atacantes sofrem muito dano e são afligidos com um efeito negativo de doença incapacitante
+		Usar uma poção de cura invocará uma aura verde que dura {1} segundos
+		Andar na aura removerá todos os efeitos negativos e concede regen. de +{2} de vida/s, {3}% de aumento nos danos e {4}% na redução dos danos
+		{5}% dos danos dos ataques dos inimigos é convertido em cura
 		'''
 }
 
@@ -1859,15 +1925,15 @@ TheAmalgam: {
 	DisplayName: O Amálgama
 	Tooltip:
 		'''
-		Aumenta a duração de efeitos de poções em 100% e efeitos de poções permanecem ativos mesmo depois que você morrer
-		15% de aumento nos danos
-		Sombra chove quando você é atingido
-		Concede a capacidade de se esquivar de ataques
-		O desvio tem um tempo de recarga de 90 segundos que é compartilhado com todos os outros desvios e reflexos
-		Aumenta temporariamente a chance de acerto crítico e o dano por invocação depois de se esquivar
-		Inimigos próximos receberão uma variedade de efeitos negativos relacionados a doenças quando você for atingido
+		Todos os ataques infligem uma variedade de efeitos negativos, 200% de aumento nos danos de efeitos negativos elementais
+		A maioria dos efeitos dura o dobro do tempo e persistem na morte
+		Sofrer danos confunde os inimigos próximos e invoca um rastejante nojento
+		O rastejante nojento voa acima de você, explodindo em várias nuvens de chuva das sombras
+		{$Common.DodgeProvided}
+		Depois de se esquivar, os danos por invocação e a chance de acerto crítico por invocação são aumentados em 10%
+		'Você não faz ideia de como ele mantém a forma'
 		'''
-	// HoldShiftTooltip: "{$Common.DodgeInformation}"
+	HoldShiftTooltip: "{$Common.DodgeInformation}"
 }
 
 TheBee: {
@@ -1876,8 +1942,8 @@ TheBee: {
 		'''
 		Com vida cheia, seu dano é aumentado com base na sua redução dos danos
 		Danos sofridos com vida cheia serão cortados pela metade
-		Se você possuir algum escudo de energia, eles também têm que estar cheios para que esses efeitos funcionem
-		Isso possui um tempo de recarga de 10 segundos
+		Escudos de energia devem estar cheios para que este efeito se aplique
+		Isto possui um tempo de recarga de 6 segundos
 		'''
 }
 
@@ -1885,11 +1951,10 @@ TheCamper: {
 	DisplayName: O Campista
 	Tooltip:
 		'''
-		Você causa 90% menos de dano a menos que esteja estacionário
-		Ficar parado concede efeito(s) dependendo da arma que você está segurando
-		Ficar parado fornece uma aura que causa danos ao seu redor
+		Você causa 50% menos danos a menos que esteja estacionário
+		Ficar parado concede efeitos dependendo da arma que você está segurando e cria uma aura danosa ao seu redor
 		Enquanto se move, você regenera vida como se estivesse parado
-		Fornece uma quantidade pequena de luz no Abismo
+		{$Common.AbyssGlow} enquanto estiver parado
 		'No descanso, podemos encontrar a vitória'
 		'''
 }
@@ -1906,7 +1971,7 @@ TheCommunity: {
 		'''
 		Aumenta o dano em {0}% e a chance de acerto crítico em {1}%
 		Aumenta a vida máxima em {2}%, redução dos danos em {3}%, e defesa em {4}
-		Regeneração de +{5} de vida por segundo quando afligido com efeitos negativos danosos
+		Regen. de +{5} de vida/s quando afligido com efeitos negativos danosos
 		Aumenta a velocidade dos movimentos em {6}% e o tempo de voo em {7}%
 		Torne-se mais poderoso conforme você derrota os chefes ({8}% de poder)
 		'''
@@ -1916,11 +1981,9 @@ TheEvolution: {
 	DisplayName: A Evolução
 	Tooltip:
 		'''
-		Você reflete projéteis quando eles o atingem
-		Projéteis refletidos não causam danos a você
-		Este reflexo tem um tempo de recarga de 90 segundos que é compartilhado com todos os outros desvios e reflexos
-		Se este efeito for ativado, você recebe um reforço de regeneração de vida por 5 segundos
-		Se o mesmo tipo de projétil inimigo o atingir novamente, você resistirá ao dano em 15%
+		Permite que você se esquive de projéteis, refletindo fragmentos de espelho altamente danosos de volta aos inimigos
+		{$Common.DodgeInformation}
+		Caso for atingido por um projétil igual durante o tempo de recarga, você resistirá o dano em 25%
 		'''
 }
 
@@ -1928,8 +1991,19 @@ TheFirstShadowflame: {
 	DisplayName: A Primeira Chama das Sombras
 	Tooltip:
 		'''
-		Aumenta os lacaios máximos em 1 e os lacaios infligem o efeito negativo Chama das sombras nos inimigos
-		Oferece imunidade a Chamas das sombras
+		Aumenta os lacaios máximos em 1
+		Ataques de lacaios infligem [cbuff:CalamityMod/Shadowflame] e oferece imunidade a [cbuffplr:CalamityMod/Shadowflame]
+		'''
+}
+
+ThePointer: {
+	DisplayName: Ponteiro à Laser
+	Tooltip:
+		'''
+		Permite foco automático nos inimigos
+		Aperte [KEY] para alternar entre alvos perto do mouse
+		Depois de alternar entre todos os inimigos próximos, apertar novamente desativará o ponteiro
+		'Bom para gatos!'
 		'''
 }
 
@@ -1937,50 +2011,45 @@ TheSponge: {
 	DisplayName: A Esponja
 	Tooltip:
 		'''
-		Projeta uma barreira de espuma quântica que absorve até 180 de dano
-		A barreira concede 30 de defesa e reduz o dano recebido em 10% enquanto ativa
-		A barreira começa a recarregar 9 segundos após ser atingida
-		Recarregar de zero até a carga completa leva 6 segundos
-		Ser atingido novamente durante a recarga reinicia o tempo de carga
-		A cor da barreira mudará para combinar com a seleção do seu time conforme necessário
+		{$Common.KnockbackImmunity}
+		Receba uma barreira com {0} de vida
+		A barreira concede {1}% de redução dos danos enquanto estiver ativada
+		[ADREN]
+		A barreira será regenerada {2} segundos após ser atingido, levando {3} segundos para regenerar completamente
+		Ser atingido reinicia o temporizador
 		'''
-	ShieldAdren: Você perde apenas metade da Adrenalina ao ser atingido se a barreira absorver totalmente o impacto
+	ShieldAdren: Você perde apenas metade da Adrenalina se todo o dano for absorvido
 }
 
 TheTransformer: {
 	DisplayName: O Transformador
-	Tooltip:
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
-		Multiplica os danos por efeitos negativos baseados em eletricidade em 1,5
-		Sofrer danos libera uma explosão de faíscas
-		Imune a Eletrizado e você resiste a todos os danos de projéteis e inimigos elétricos
-		Projéteis inimigos causam metade do dano a você e são refletidas de volta para o inimigo em 800% do dano original
+		Gera uma aura ao seu redor que cria orbes mutantes quando projéteis atravessam ela ou quando inimigos são derrotados
+		Os orbes orbitam ao seu redor e causam dano e recuo baixos aos inimigos que colidirem com eles
+		O círculo pode guardar até 30 orbes de uma só vez
+		Aperte [KEY] para transformar todos os orbes em agulhas e lança-las na direção do seu cursor
+		'Como que isso surgiu das tralhas que você amassou junto? Você tem sorte que isso não TE transforma'
 		'''
-	/* TooltipNormal:
+	TooltipGFB:
 		'''
-		Generates an aura around you that creates morphing globs when projectiles pass through it or when enemies are killed
-		The globs encircle you and deal low damage and knockback to enemies they collide with
-		The circle can contain up to 30 globs at once
-		Press [KEY] to transform all globs into needles and launch them at your cursor
-		'How did this come out of the junk you cobbled together? You're lucky it doesn't transform you'
-		''' */
-	/* TooltipGFB:
+		Gera uma aura ao seu redor que cria orbes mutantes quando projéteis atravessam ela ou quando inimigos são derrotados
+		Os orbes orbitam ao seu redor e causam dano e recuo baixos aos inimigos que colidirem com eles
+		O círculo não tem limite de orbes que pode guardar, mas pode ser que seu PC tenha
+		Aperte [KEY] para transformar todos os orbes em agulhas e lança-las na direção do seu cursor
+		'Não é um Beeftank Doctrine, mas definitivamente é um breakthrough!'
 		'''
-		Generates an aura around you that creates morphing globs when projectiles pass through it or when enemies are killed
-		The globs encircle you and deal low damage and knockback to enemies they collide with
-		The circle has no limit to the number of globs it can hold, but your PC might
-		Press [KEY] to transform all globs into needles and launch them at your cursor
-		'It's no Beeftank Doctrine, but it sure feels breakthrough!'
-		''' */
 }
 
 ToxicHeart: {
 	DisplayName: Coração Tóxico
 	Tooltip:
 		'''
-		Invoca uma aura de praga ao seu redor que causa danos aos inimigos próximos
-		Torna você imune ao efeito negativo Praga
-		Multiplica os danos por efeitos negativos baseados em doenças em 1,5
+		Seu coração bate com a praga, pulsando para fora do seu corpo
+		A frequência do pulso escala com a regen. de vida, e pulsos que matarem inimigos pulsam novamente para te curar
+		50% de aumento nos danos de efeitos negativos de Doença
+		Os efeitos são transparentes e silenciosos se a visibilidade estiver desativada
 		'''
 }
 
@@ -1988,8 +2057,19 @@ TrinketofChi: {
 	DisplayName: Amuleto de Chi
 	Tooltip:
 		'''
-		Concede 10% de redução dos danos após não ser atingido por 15 segundos, isso é removido quando você é atingido
-		Regeneração de +1 de vida por segundo para você e para todos no seu time
+		Aumenta a redução dos danos em {0}% se você não sofrer danos por {1} segundos
+		Este efeito some ao sofrer danos
+		Regen. de +{2} de vida/s para você e seus aliados no mesmo time
+		'''
+	SalesPitch: "{$Common.SalesmanShrinePitch}"
+}
+
+UnholyTonic: {
+	DisplayName: Tônico Profano
+	Tooltip:
+		'''
+		Aumenta a defesa em {0} enquanto estiver na Corrupção
+		Oferece imunidade a [cbuffplr:CalamityMod/BrainRot]
 		'''
 }
 
@@ -1997,8 +2077,24 @@ UnstableGraniteCore: {
 	DisplayName: Núcleo de Granito Instável
 	Tooltip:
 		'''
-		Receba periodicamente um campo de energia instável que eletrifica inimigos próximos repetidamente com energia em arco
+		Receba um campo de energia que eletrifica inimigos próximos periodicamente com energia em arco
 		A energia em arco ignora uma quantidade substancial da defesa do inimigo
+		'''
+	SalesPitch: "{$CommonItemTooltip.SalesmanShrinePitch}"
+}
+
+V8Engine: {
+	DisplayName: Motor V8
+	Tooltip: Oferece uma pequena investida com um tempo de recarga longo que funciona em montarias
+}
+
+V8000Engine: {
+	DisplayName: Motor V8000
+	Tooltip:
+		'''
+		Oferece uma pequena investida com um tempo de recarga longo que funciona em montarias
+		Esta investida pode atravessar inimigos sem sofrer danos
+		'Motores movidos a almas são ecologicamente corretos?'
 		'''
 }
 
@@ -2006,10 +2102,12 @@ VampiricTalisman: {
 	DisplayName: Talismã Vampírico
 	Tooltip:
 		'''
-		Projéteis ladinos roubam vida dos inimigos em acertos críticos
-		12% de aumento nos danos por ataques ladinos
+		Golpes críticos ladinos roubam vida dos inimigos
+		Golpes furtivos concedem 15% de aumento na chance de acerto crítico ladino para ataques não-furtivos por 10 segundos
+		Golpes furtivos infligem [cbuff:CalamityMod/HeavyBleeding] e [cbuff:CalamityMod/ArmorCrunch] e causam 8% a mais de dano
+		'Possuir o talismã torna você sedento por sangue'
 		'''
-	// YearningForBlood: THIS ENDLESS HUNGER WON'T END
+	YearningForBlood: ESTA FOME ETERNA NÃO TEM FIM
 }
 
 VeneratedLocket: {
@@ -2017,33 +2115,32 @@ VeneratedLocket: {
 	Tooltip:
 		'''
 		10% de aumento nos danos por ataques ladinos
-		Usar uma arma ladina invoca uma cópia do projétil que cai do céu
-		Ataques furtivos fazem com que um leque circular em busca de facas de cosmilita seja lançado
-		Você nunca estará sozinho, não importa onde você vá
+		Projéteis ladinos invocam um clone acima do cursor
+		Ataques furtivos liberam um anel de facas de cosmilita teleguiadas
+		'Você nunca estará sozinho, não importa onde você vá'
+		'''
+}
+
+ViciousTonic: {
+	DisplayName: Tônico Terrível
+	Tooltip:
+		'''
+		Aumenta a defesa em 6 enquanto estiver no Carmim
+		Oferece imunidade a [cbuffplr:CalamityMod/BurningBlood]
 		'''
 }
 
 VitalJelly: {
 	DisplayName: Geleia Vital
-	Tooltip: 12% de aumento na velocidade dos movimentos e na velocidade dos pulos
+	Tooltip: 12% de aumento na velocidade dos movimentos e dos pulos
 }
 
 VoidofCalamity: {
 	DisplayName: Vazio da Calamidade
 	Tooltip:
 		'''
-		12% de aumento em todos os danos
-		Fogo de enxofre chove após sofrer danos
-		'''
-}
-
-VoidofExtinction: {
-	DisplayName: Vazio da Extinção
-	Tooltip:
-		'''
-		16% de aumento na chance de acerto crítico
-		Acertos críticos explodem, fazendo com que os inimigos próximos sejam incendiados com Chamas de enxofre
-		Reduz bastante o dano recebido pelo efeito negativo Chamas de enxofre
+		12% de aumento nos danos
+		Chamas calamitosas chovem enquanto estiver invulnerável
 		'''
 }
 
@@ -2051,31 +2148,20 @@ VoltaicJelly: {
 	DisplayName: Geleia Voltaica
 	Tooltip:
 		'''
-		+1 lacaio máximo
-		Ataques de lacaios infligem Eletrizado
+		Aumenta o número máximo de lacaios em 1
+		Ataques de lacaios infligem [cbuff:CalamityMod/StaticDischarge]
 		'''
 }
 
-WarbanneroftheSun: {
-	DisplayName: Estandarte de Guerra do Sol
+WarbanneroftheRighteous: {
+	DisplayName: Estandarte de Guerra do Justiceiro
 	Tooltip:
 		'''
-		Aumenta o dano por ataques físicos, ataques físicos verdadeiros e velocidade do ataque físico quanto mais perto você está dos inimigos
-		O reforço máximo é 20% de aumento nos danos por ataques físicos, ataques físicos verdadeiros e velocidade do ataque físico
-		'''
-}
-
-WifeinaBottle: {
-	DisplayName: Elemental na Garrafa
-	Tooltip: Invoca um elemental de areia para lutar por você
-}
-
-WifeinaBottlewithBoobs: {
-	DisplayName: Elemental Raro na Garrafa
-	Tooltip:
-		'''
-		Invoca um elemental de areia para te curar
-		;D
+		Multiplica todos os danos com base na proximidade aos inimigos
+		O aumento máximo é de 15%, o mínimo é de -15%
+		Emite uma aura ardente que queima e repele inimigos próximos com [cbuff:CalamityMod/HolyFlames]
+		Os inimigos sofrem mais dano quanto mais perto estiverem de você e quanto mais tempo permanecerem próximos
+		Os efeitos são transparentes e silenciosos se a visibilidade estiver desativada
 		'''
 }
 
@@ -2083,10 +2169,13 @@ WulfrumAcrobaticsPack: {
 	DisplayName: Pacote de Acrobacias de Vulfrúmio
 	Tooltip:
 		'''
-		Transforma os ganchos equipados em um estilingue de vulfrúmio
-		O estilingue permite físicas avançadas para balançar a corda do gancho
+		Fornece um estilingue de vulfrúmio como um gancho
+		As estatísticas do estiligue aumentam de acordo com seu gancho equipado
+		Se o gancho tiver efeitos especiais, o estilingue também se beleficia deles
+		O estilingue permite físicas avançadas para balançar a corda
+		Segure {$Key.UP} ou {$Key.DOWN} para retrair ou estender a corda do estilingue
 		Agarra em paredes próximas automaticamente se uma caída letal for detectada
-		Este recurso de segurança não será ativado se a tecla PARA BAIXO for pressionada
+		Este recurso de segurança não será ativado se {$Key.DOWN} for pressionada
 		8% de aumento na velocidade dos movimentos
 		'''
 }
@@ -2095,9 +2184,9 @@ WulfrumBattery: {
 	DisplayName: Bateria de Vulfrúmio
 	Tooltip:
 		'''
-		Fortalece suas invocações com energia de vulfrúmio, permitindo que elas emitam luz ao seu redor
+		Suas invocações emitem luz se a visibilidade estiver ativada
 		7% de aumento nos danos por lacaios
-		50% de chance de receber uma sucata extra ao matar robôs de vulfrúmio
+		Inimigos de vulfrúmio deixam cair mais uma sucata
 		Também pode ser sucateado em um extrator
 		'''
 }
@@ -2106,10 +2195,11 @@ YharimsGift: {
 	DisplayName: Presente de Yharim
 	Tooltip:
 		'''
-		Meteoros em chamas chovem quando a invencibilidade está ativa
-		Pó de dragão explosivo é deixado para trás enquanto você se move
-		Danos e velocidade dos movimentos aumentados em 15%
-		O poder para matar um deus pulsa dentro desse artefato
+		{$Common.KnockbackImmunity}
+		10% de aumento nos danos e 20% de aumento na velocidade dos movimentos
+		Todos os ataques infligem [cbuff:CalamityMod/AuricRebuke]
+		Meteoros em chamas chovem enquanto estiver invulnerável
+		[c/FCA92B:'O poder para matar um deus pulsa dentro deste artefato']
 		'''
 }
 
@@ -2126,9 +2216,24 @@ AbandonedWulfrumHelmet: {
 		'''
 }
 
+GhostBracelet: {
+	DisplayName: Bracelete Fantasmagórico
+	Tooltip: Uau... ele olha para mim com seus olhos vazios cheios de curiosidade
+}
+
 HapuFruit: {
 	DisplayName: Fruta Ha-pu
 	Tooltip: "'Uma fruta que acalma os nervos (pode ter efeitos colaterais indesejados)'"
+}
+
+LittleE: {
+	DisplayName: "'E'zinho"
+	Tooltip: "'Essa é uma versão pequena de mim, {0}. Quero que você fique com ela.'"
+}
+
+LucisSight: {
+	DisplayName: Visão de Luci
+	Tooltip: "'Óculos chiques? Na situação atual da economia de Earthia?!'"
 }
 
 OracleHeadphones: {
@@ -2145,276 +2250,68 @@ Popo: {
 		'''
 }
 
-RedBow: {
-	DisplayName: Laço Vermelho
-	Tooltip: "'O laço favorito de Pelusa'"
-}
-
-AlchemicalDecanter: {
-	// DisplayName: Alchemical Decanter
-	/* Tooltip:
-		'''
-		All attacks inflict the [cbuff:CalamityMod/Plague] and reduces damage taken from the [cbuff:CalamityMod/Plague] by {0}%
-		Projectiles spawn plague seekers on enemy hits
-		Releases plague bees and douses you in [cbuff:Honey] when damaged
-		''' */
-}
-
-ArcFlashRing: {
-	// DisplayName: Arc Flash Ring
-	/* Tooltip:
-		'''
-		Attacks have a {0}% chance to call down a lightning bolt for {1}x damage
-		The chance is reduced for each enemy an attack hits
-		The bolt's damage is based on non-crit damage, but can itself crit 
-		Bolts are transparent and silent if visibility is disabled
-		''' */
-}
-
-BatholithBangle: {
-	// DisplayName: Batholith Bangle
-	/* Tooltip:
-		'''
-		Magic enemy hits create a powerful granite flash that always critically strikes
-		This effect has a 10 second cooldown
-		Visual and audio effects are reduced if visibility is disabled
-		[c/0189D7:'The solid granite radiates energy throughout your body']
-		''' */
-}
-
-BlackGlassBand: {
-	// DisplayName: Black Glass Band
-	/* Tooltip:
-		'''
-		Enemy hits create an obsidian flash that always critically strikes
-		This effect has a 5 second cooldown, but is halved if the flash kills an enemy
-		Visual and audio effects are reduced if visibility is disabled
-		[c/655DC5:'A shining band with boundless potential']
-		''' */
-}
-
-UnholyTonic: {
-	// DisplayName: Unholy Tonic
-	/* Tooltip:
-		'''
-		Increases damage reduction by 4% and defense by 6 while in the corruption
-		Grants immunity to Brain Rot
-		''' */
-}
-
-ViciousTonic: {
-	// DisplayName: Vicious Tonic
-	/* Tooltip:
-		'''
-		Increases damage reduction by 4% and defense by 6 while in the crimson
-		Grants immunity to Burning Blood
-		''' */
-}
-
-DiamondOfTheDeep: {
-	// DisplayName: Diamond of the Deep
-	/* Tooltip:
-		'''
-		60% increased Water debuff damage
-		Slowly accrue up to three different abyssal spirits
-		Dash to disperse the spirits and have them attack enemies
-		When dispersed [c/CB7AD7:below 50% life], the spirits support you instead
-		The spirits appear in order and have different effects based on color:
-		[c/3CB371: Explodes on impact and inflicts Crush Depth] / [c/CB7AD7:Heals for 8 HP]
-		[c/FF4500: Pierces enemies and inflicts Hellfire] / [c/CB7AD7:Increases defense by 10 temporarily]
-		[c/1E90FF: Hits multiple times and inflicts Hadopelagic Pressure] / [c/CB7AD7:Heals 5% of max HP]
-		Spirits are transparent and silent when visibility is toggled off
-		''' */
-}
-
-ElementalinaBottle: {
-	// DisplayName: Elemental in a Bottle
-	// Tooltip: Summons a sand elemental to fight for you
-}
-
-IlmerisSpark: {
-	// DisplayName: Ilmeris' Spark
-	// Tooltip: Taking damage releases a blast of sparks
-}
-
-InterstellarStompers: {
-	// DisplayName: Interstellar Stompers
-	/* Tooltip:
-		'''
-		6% increased movement speed, 20% increased jump speed, and negates fall damage
-		Hold {$Key.DOWN} to increase your maximum fall speed
-		Pressing [KEY] while midair charges up a superspeed slam over 0.33 seconds
-		While falling, you ram through enemies and don't take contact damage
-		Once you hit the ground, you create an explosion at your feet 
-		The explosion scales in both damage and size the longer you slam for
-		Temporary 40% increased jump speed after slamming into the ground
-		''' */
-}
-
-IVDripOnTheRocks: {
-	// DisplayName: IV Drip on the Rocks
-	/* Tooltip:
-		'''
-		Multiplies most non-weapon, non-debuff damage by {0}x
-		Multiplies all weapon damage by {1}x
-		Counts as an alcohol stack toward Alcohol Poisoning
-		{$Common.AlcoholWarning}
-		'(drunken mumbling)'
-		''' */
-}
-
-PlanebreakersPouch: {
-	// DisplayName: Planebreaker's Pouch
-	/* Tooltip:
-		'''
-		15% increased ranged damage, 5% increased ranged critical strike chance and 20% reduced ammo usage
-		Grants a 20% chance to not consume arrows
-		Pressing [KEY] will automatically swap the ammos in your ammo slots
-		The ammo type swapped depends on the ammo of the weapon you are holding
-		''' */
-}
-
-ProtolithBangle: {
-	// DisplayName: Protolith Bangle
-	/* Tooltip:
-		'''
-		Ranged enemy hits create a marble flash that always critically strikes and can hit multiple enemies
-		This effect has a 7 second cooldown
-		Visual and audio effects are reduced if visibility is disabled
-		[c/C5B965:'The cold marble against your wrist puts your mind at ease']
-		''' */
-}
-
-RareElementalinaBottle: {
-	// DisplayName: Rare Elemental in a Bottle
-	/* Tooltip:
-		'''
-		Summons a sand elemental to heal you
-		;D
-		''' */
-}
-
-Regenerator: {
-	// DisplayName: Regenerator
-	/* Tooltip:
-		'''
-		Your health cannot exceed {0}% of its maximum
-		Increases length of invincibility after taking damage
-		Provides powerful special life regen to heal you for {1} HP/s
-		All normal life regen is negated and converted into damage 
-		Current damage boost: [DAMAGE]%
-		''' */
-}
-
-ScionsCurio: {
-	// DisplayName: Scions Curio
-	/* Tooltip:
-		'''
-		Ranged hits increase the effectiveness of the Irradiated debuff
-		Irradiated damage over time scales off of your ranged damage and crit chance
-		On kill, enemies burst, spreading Irradiated
-		Taking damage causes the curio to explode in retaliation
-		''' */
-}
-
-SeaSpiritAmulet: {
-	// DisplayName: Sea Spirit Amulet
-	/* Tooltip:
-		'''
-		Slowly accumulate up to eight spirit orbs that follow you
-		Spirits disperse when dashing
-		If below 50% life, they will heal you, otherwise they will attack nearby enemies
-		35% increased Water debuff damage
-		Spirit orbs are transparent and silent if visibility is disabled
-		''' */
-}
-
-TeslasAmulet: {
-	// DisplayName: Tesla's Amulet
-	/* Tooltip:
-		'''
-		Generates an electrifying field that slows enemies
-		The field has reduced opacity if visibility is disabled
-		Reduces the duration of the Static Discharge debuff
-		''' */
-}
-
-WarbanneroftheRighteous: {
-	// DisplayName: Warbanner of the Righteous
-	/* Tooltip:
-		'''
-		Multiplies all damage based on how close you are to enemies
-		Maximum damage boost is 15%, minimum damage boost is -15%
-		Emit a blazing aura that burns and repels nearby enemies
-		Enemies take increasing damage the closer they are to you and the longer they are near you
-		Effects are transparent and silent if visibility is disabled
-		''' */
-}
-
-GhostBracelet: {
-	// DisplayName: Ghost Bracelet
-	// Tooltip: Wow.... It looks at me with its hollow eyes full of curiosity
-}
-
-LucisSight: {
-	// DisplayName: Luci's Sight
-	// Tooltip: "'Fashionable glasses? In Earthia's current economy?!'"
-}
-
 SharkyPlush: {
-	// DisplayName: Sharky Plush
-	// Tooltip: "[c/696969:'Look out, for the force without form...']"
-}
-
-TheComb: {
-	// DisplayName: The Comb
-	/* Tooltip:
-		'''
-		Gives the wearer's hair a lustrous finish
-		Sparkles are attracted to nearby chests
-		'We ain't found shit!'
-		''' */
-}
-
-XyksBlessingBlue: {
-	// DisplayName: Xyk's Blessing (Blue)
-	/* Tooltip:
-		'''
-		Applies visual effects to your dashes, wings, and deaths
-		<right> to transform
-		'It's simply too much to turn back now; passion and time have long since stained it.
-		[c/5f8ae1:Have I always been so selfish?']
-		''' */
-}
-
-XyksBlessingOrange: {
-	// DisplayName: Xyk's Blessing (Orange)
-	/* Tooltip:
-		'''
-		Applies visual effects to your dashes, wings, and deaths
-		<right> to transform
-		'Even so, the march of time waits for none. Recall that feeling of fulfillment, and show it to the world.
-		[c/E1B65F:Prove that it was never a waste.']
-		''' */
-}
-
-ThePointer: {
-	// DisplayName: The Pointer
-	/* Tooltip:
-		'''
-		Allows automatic targeting of enemies
-		Press [KEY] to cycle through targets near your mouse
-		After cycling through all close enemies, the next press will disable it
-		'Great for cats!'
-		''' */
-}
-
-LittleE: {
-	// DisplayName: Little E
-	// Tooltip: "'That's a little version of me, {0}. I want you to have it.'"
+	DisplayName: Pelúcia de Sharky
+	Tooltip: "[c/696969:'Cuidado, com a força sem forma...']"
 }
 
 GlimmeringRibbon: {
-	// DisplayName: Glimmering Ribbon
-	// Tooltip: "'We are born colorless. It's the people we meet who give us color.'"
+	DisplayName: Laço Cintilante
+	Tooltip: "'Nascemos sem cor. São as pessoas que conhecemos que nos colorem.'"
+}
+
+TheComb: {
+	DisplayName: O Pente
+	Tooltip:
+		'''
+		Fornece um acabamento brilhante aos cabelos do usuário
+		Pequenos brilhos são atraídos a baús próximos
+		'Não encontramos merda nenhuma!'
+		'''
+}
+
+XyksBlessingBlue: {
+	DisplayName: Bênção de Xyk (Azul)
+	Tooltip:
+		'''
+		Aplica efeitos visuais às suas investidas, asas e morte
+		<right> neste item em seu inventário para transformá-lo, ou segure Shift e <right> para alternar a visibilidade da armadura
+		A visibilidade da armadura está [TOGGLE]
+		'É simplesmente demais para voltar agora; a paixão e tempo já há muito o mancharam.
+		[c/5f8ae1:Sempre fui assim, tão egoísta?']
+		'''
+	ArmorDisabled: "[c/D44748:DESATIVADA]"
+	ArmorEnabled: "[c/58D447:ATIVADA]"
+}
+
+XyksBlessingOrange: {
+	DisplayName: Bênção de Xyk (Laranja)
+	Tooltip:
+		'''
+		Aplica efeitos visuais às suas investidas, asas e morte
+		<right> neste item em seu inventário para transformá-lo, ou segure Shift e <right> para alternar a visibilidade da armadura
+		A visibilidade da armadura está [TOGGLE]
+		'Mesmo assim, a marcha do tempo não espera por ninguém. Lembre-se daquela sensação de realização e mostre-a ao mundo.
+		[c/E1B65F:Prove que ela nunca foi um desperdício.']
+		'''
+	ArmorDisabled: "[c/D44748:DESATIVADA]"
+	ArmorEnabled: "[c/58D447:ATIVADA]"
+}
+
+FrozenCube: {
+	DisplayName: Cubo Congelado
+	Tooltip:
+		'''
+		Um bloco de gelo com algo dentro
+		Invoca um Elumfante pra sentar na sua cabeça e te proteger
+		O elumfante irá alternar entre disparar ar frio que inflige [cbuff:CalamityMod/WindChilled] e dar cabeçadas nos inimigos
+		As cabeçadas do elumfante focam apenas em inimigos infligidos com [cbuff:CalamityMod/WindChilled]
+		Reduz sua defesa em 33%, mas usa essa defesa para aumentar o poder do elumfante e o dano por efeitos negativos de gelo
+		[DAMAGELINE]
+		[c/7497ED:'O que eu quero saber é: cadê o mamute?']
+		'''
+	SalesPitch: "{$Common.SalesmanShrinePitch}"
+	EquippedDebuff: Aumento atual nos danos por efeitos negativos de gelo: +{0}%
+	EquippedElumphant: Poder atual do Elumfante: +{0}%
+	Unequipped: Equipe este acessório para ver suas estatísticas
 }

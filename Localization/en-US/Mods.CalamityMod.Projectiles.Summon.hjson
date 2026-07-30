@@ -1,3 +1,5 @@
+AmphibiansGuitarMinion.DisplayName: Amphibian's Guitars
+AmphibiansGuitarProjectile.DisplayName: Note
 AndromedaDeathRay.DisplayName: Beam
 AndromedaRegislash.DisplayName: Regislash
 AndromedaUI_Background.DisplayName: UI
@@ -47,8 +49,8 @@ BrimstoneFireballMinion.DisplayName: Brimstone Fireball
 BrimstoneFireSummon.DisplayName: Brimstone Fire
 BrimstoneLaserSummon.DisplayName: Brimstone Laser
 BrittleStarMinion.DisplayName: Brittle Star
-CalamarisLamentProjectile.DisplayName: Calamari Ink
 CalamarisLamentMinion.DisplayName: Calamari
+CalamarisLamentProjectile.DisplayName: Calamari Ink
 Calamitamini.DisplayName: Calamitamini
 Cataclymini.DisplayName: Cataclymini
 CataclysmSummon.DisplayName: Cataclysm
@@ -56,9 +58,10 @@ Catastromini.DisplayName: Catastromini
 CatastropheSummon.DisplayName: Catastrophe
 CausticStaffProjectile.DisplayName: Thorn
 CausticStaffSummon.DisplayName: Caustic Dragon
+CelestialAxeMinion.DisplayName: Celestial Axe
 Cinder.DisplayName: Cinder
 CinderBlossom.DisplayName: Cinder Blossom
-CloudElementalMinion.DisplayName: Cloudy Waifu
+CloudElementalMinion.DisplayName: Cloud Elemental
 CnidarianJellyfishOnTheString.DisplayName: Cnidarian
 CnidarianSpark.DisplayName: Cnidarian Spark
 CorroslimeMinion.DisplayName: Corroslime
@@ -89,15 +92,16 @@ DormantBrimseekerBab.DisplayName: Dormant Brimseeker
 DormantBrimseekerSummoner.DisplayName: Dormant Brimseeker
 Dreadmine.DisplayName: Dreadmine
 DreadmineTurret.DisplayName: Dreadmine Turret
-ElementalAxeMinion.DisplayName: Elemental Axe
+EnchantedKnifeSummon.DisplayName: Enchanted Knife
+EnchantedKnifeStaffProjectile.DisplayName: Enchanted Knife Beam
 EndoBeam.DisplayName: Endo Beam
 EndoCooperBody.DisplayName: Ascened Cooper
 EndoCooperLimbs.DisplayName: Ascened Cooper
 EndoFire.DisplayName: Endo Fire
 EndoHydraBody.DisplayName: Hydra Body
 EndoHydraHead.DisplayName: Hydra Head
+EndoHydraRay.DisplayName: Endo Ray
 EndoIceShard.DisplayName: Endo Ice Shard
-EndoRay.DisplayName: Endo Ray
 EnergyOrb.DisplayName: Energy Orb
 EXPLODINGFROG.DisplayName: A not frog of the explosive variety
 EyeOfNightCell.DisplayName: Night Cell
@@ -156,22 +160,21 @@ IgneousBladeStrike.DisplayName: Igneous Blade
 IrradiatedAura.DisplayName: Irradiated Aura
 LanternFlame.DisplayName: Lantern Flame
 LanternSoul.DisplayName: Lantern
+LiliesOfEternityBullet.DisplayName: Lilies Of Eternity Bullet
 LiliesOfFinalityAoE.DisplayName: Bioresonance Aura
 LiliesOfFinalityAriane.DisplayName: Ariane
-LiliesOfFinalityBullet.DisplayName: Einhorn Bullet
 LiliesOfFinalityBolt.DisplayName: Bioresonance Bolt
+LiliesOfFinalityBullet.DisplayName: Einhorn Bullet
 LiliesOfFinalityElster.DisplayName: Elster
-LiliesOfEternityBullet.DisplayName: Lilies Of Eternity Bullet
 LostSoulGiant.DisplayName: Soul
 LostSoulGold.DisplayName: Gold Soul
 LostSoulLarge.DisplayName: Soul
 LostSoulSmall.DisplayName: Soul
 LuxorsGiftSummon.DisplayName: Luxor's Summon
-MechwormBody.DisplayName: Mechworm
-MechwormHead.DisplayName: Mechworm
-MechwormLaser.DisplayName: Mechworm Laser
-MechwormTail.DisplayName: Mechworm
-MechwormTeleportRift.DisplayName: Rift
+VoidEaterMarionetteBody.DisplayName: Void Eater Marionette
+VoidEaterMarionetteHead.DisplayName: Void Eater Marionette
+VoidEaterMarionetteTail.DisplayName: Void Eater Marionette
+DoGWeaponTeleportRift.DisplayName: Rift
 MidnightSunBeaconProj.DisplayName: Midnight Sun Beacon
 MidnightSunBeam.DisplayName: Midnight Beam
 MidnightSunShot.DisplayName: Midnight Shot
@@ -242,15 +245,16 @@ SandMark.DisplayName: Mark
 SandnadoMinion.DisplayName: Sandnado
 SandTornado.DisplayName: Tornado
 SarosAura.DisplayName: Saros Aura
-SarosMicrosun.DisplayName: Saros Microsun
 SarosSunfire.DisplayName: Saros Sunfire
+SarosEclipseBeam.DisplayName: Totality Ray
+SeashineSwordProj.DisplayName: Seashine Sword
 SeekerSummonProj.DisplayName: Soul Seeker
 SepulcherMinion.DisplayName: Sepulcher
 Shellfish.DisplayName: Shellfish
 SilvaCrystal.DisplayName: Silva Crystal
 SilvaCrystalExplosion.DisplayName: Silva Explosion
 SiriusBeam.DisplayName: Sirius Beam
-SiriusExplosion.DisplayName: Sirius Explosion
+SiriusQuasar.DisplayName: Sirius Quasar
 SiriusMinion.DisplayName: Sirius
 SkeletalDragonChild.DisplayName: Skeletal Child
 SkeletalDragonMother.DisplayName: Skeletal Mother
@@ -274,9 +278,6 @@ MinionPlasmaBlast.DisplayName: Volatile Plasma Blast
 MinionPlasmaGas.DisplayName: Superheated Plasma Cloud
 MinionTeslaOrb.DisplayName: Tesla Sphere
 SmallSkeletonMinion.DisplayName: Small Skeleton
-SolarBeam.DisplayName: Solar Beam
-SolarGod.DisplayName: Vengeful Solar Spirit
-SolarPixie.DisplayName: Solar Pixie
 Spikecrag.DisplayName: Spikecrag
 SpikecragSpike.DisplayName: Spikecrag Spike
 SquirrelSquireAcorn.DisplayName: Squirrel Acorn
@@ -289,6 +290,8 @@ StormjawBaby.DisplayName: Stormjaw Baby
 SummonAstralExplosion.DisplayName: Explosion
 SummonBrimstoneExplosion.DisplayName: Explosion
 SummonBrimstoneExplosionSmall.DisplayName: Explosion
+SunSpiritBeam.DisplayName: Sun Beam
+SunSpiritMinion.DisplayName: Sun Spirit
 TacticalPlagueJet.DisplayName: Tactical Plague Jet
 TundraFlameBlossom.DisplayName: Tundra Flame Blossoms
 TundraFlameBlossomsOrb.DisplayName: Tundra Flame Blossoms Orb
@@ -308,13 +311,18 @@ UniverseSplitterHugeBeam.DisplayName: Universe Splitter Ray
 UniverseSplitterSmallBeam.DisplayName: Universe Splitter Ray
 UrchinSpike.DisplayName: Urchin Spike
 Valkyrie.DisplayName: Valkyrie
+VengefulSunBeam.DisplayName: Vengeful Sun Beam
+VengefulSunSpiritMinion.DisplayName: Vengeful Sun Spirit
 VictideSeaSnail.DisplayName: Sea Snail
 VileFeederProjectile.DisplayName: Eater of Souls Mini
 VileFeederSummon.DisplayName: Baby Eater
 ViridVanguardBlade.DisplayName: Vanguard Blade
-VoidConcentrationAura.DisplayName: Concentrated Void Aura
-VoidConcentrationBlackhole.DisplayName: Black Hole
-VoidConcentrationOrb.DisplayName: Void Orb
+VoidConcentrationSummonTagProj.DisplayName: Dark Energy Vortex
+VoidConcentrationBeam.DisplayName: Concentrated Beam
+VoidConcentrationDarkEnergy.DisplayName: Orbiting Dark Energy
+VoidConcentrationMinion.DisplayName: Void Concentration Minion
+VoidConcentrationMark.DisplayName: Void Concentration Mark
+VoidEaterMarionetteProjectile.DisplayName: Void Eater Marionette
 VolcanicFireballSummon.DisplayName: Volcanic Fireball
 WaterElementalMinion.DisplayName: Anahita
 WaterElementalSong.DisplayName: Siren Song
@@ -330,21 +338,3 @@ WulfrumDroid.DisplayName: Wulfrum Droid
 WulfrumEnergyBurst.DisplayName: Wulfrum Bolt
 WulfrumFusionBolt.DisplayName: Fusion Bolt
 YharonMinionFireball.DisplayName: Dragon Fireball
-AmphibiansGuitarMinion.DisplayName: Amphibian's Guitars
-AmphibiansGuitarProjectile.DisplayName: Note
-CelestialAxeMinion.DisplayName: Celestial Axe
-EnchantedKnifeSummon.DisplayName: Enchanted Knife
-EnchantedKnifeStaffProjectile.DisplayName: Enchanted Knife Beam
-EndoHydraRay.DisplayName: Endo Ray
-VoidEaterMarionetteBody.DisplayName: Void Eater Marionette
-VoidEaterMarionetteHead.DisplayName: Void Eater Marionette
-VoidEaterMarionetteTail.DisplayName: Void Eater Marionette
-DoGWeaponTeleportRift.DisplayName: Rift
-SarosEclipseBeam.DisplayName: Eclipse Beam
-SeashineSwordProj.DisplayName: Seashine Sword
-SiriusQuasar.DisplayName: Sirius Quasar
-SunSpiritBeam.DisplayName: Sun Beam
-SunSpiritMinion.DisplayName: Sun Spirit
-VengefulSunBeam.DisplayName: Vengeful Sun Beam
-VengefulSunSpiritMinion.DisplayName: Vengeful Sun Spirit
-VoidEaterMarionetteProjectile.DisplayName: Void Eater Marionette

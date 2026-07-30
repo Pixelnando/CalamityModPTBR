@@ -10,6 +10,11 @@ AcesHigh: {
 		'''
 }
 
+AcidwoodBow: {
+	// DisplayName: Acidwood Bow
+	// Tooltip: ""
+}
+
 AdamantiteParticleAccelerator: {
 	DisplayName: Acelerador de Partículas de Adamantina
 	Tooltip: Carrega e dispara 2 feixes de polares opostos. Atingir com o polar oposto aumenta o dano
@@ -40,18 +45,18 @@ Animosity: {
 	Tooltip:
 		'''
 		Dispara um poderoso tiro de sniper
-		Pressione <right> para disparar uma rajada de projéteis
+		<right> para disparar uma rajada de projéteis
 		50% de chance de economizar munição
 		'''
 	/* TooltipNormal:
 		'''
-		Fires a shotgun blast with a tight spread which is imbued with Brimstone Flames
-		Press Right Click to fire a powerful brimstone round that inflicts Whispering Death
+		Fires a shotgun blast with a tight spread which is imbued with [cbuff:CalamityMod/BrimstoneFlames]
+		Press <right> to fire a powerful brimstone round that causes enemies to become [cbuff:CalamityMod/MarkedforDeath]
 		''' */
 	/* TooltipGFB:
 		'''
 		[c/9c0b0b:Fires a shotgun blast full of hatred... among other things]
-		[c/ac14ba:Press Right Click to use a hexing rifle round instead]
+		[c/ac14ba:Press <right> to use a hexing rifle round instead]
 		[c/454545:By Cthulhu Eye, Yharon tooth...]
 		''' */
 }
@@ -65,11 +70,6 @@ AntiMaterielRifle: {
 		'''
 }
 
-AquashardShotgun: {
-	DisplayName: Espingarda do Fragmento d'Água
-	Tooltip: Converte bolas de mosquete em fragmentos d'água que se dividem ao atingir um inimigo
-}
-
 Arbalest: {
 	DisplayName: Arabaleta
 	Tooltip:
@@ -80,9 +80,24 @@ Arbalest: {
 		'''
 }
 
+AquashardShotgun: {
+	DisplayName: Espingarda do Fragmento d'Água
+	Tooltip: Converte bolas de mosquete em fragmentos d'água que se dividem ao atingir um inimigo
+}
+
 Archerfish: {
 	DisplayName: Peixe-Arqueiro
 	Tooltip: Converte bolas de mosquete em correntes de água
+}
+
+ArcNovaDiffuser: {
+	DisplayName: Difusor de Arcos Nova
+	Tooltip:
+		'''
+		Carrega e dispara uma rajada rápida de raios nova
+		O primeiro estágio de carregamento aumenta a taxa de disparo da rajada
+		O segundo estágio de carregamento substitui a rajada rápida por uma explosão de nova devastadora
+		'''
 }
 
 Arietes41: {
@@ -108,11 +123,6 @@ AstralBlaster: {
 	Tooltip: Converte bolas de mosquete em tiros astrais teleguiados
 }
 
-AstralBow: {
-	DisplayName: Arco Astral
-	Tooltip: Dispara uma sequência de três flechas
-}
-
 AstrealDefeat: {
 	DisplayName: Derrota Astral
 	Tooltip: Todas as flechas são convertidas em Flechas Astrais que emitem chamas enquanto caminham
@@ -123,7 +133,7 @@ Auralis: {
 	Tooltip:
 		'''
 		Dispara um projétil brilhante de alta velocidade que reduz a proteção do inimigo
-		Pressione <right> para afastar
+		<right> para afastar
 		Ficar parado fornece bônus de dano crescentes em até 25%
 		Ficar parado por 5 ou mais segundos usando a habilidade de mira invocará uma aurora
 		A aurora reduz o dano do próximo projétil atingido em 100
@@ -197,7 +207,7 @@ BlossomFlux: {
 	Tooltip:
 		'''
 		Dispara um jato de folhas
-		Pressione <right> para disparar um orbe de esporos que explode em uma núvem de gas de esporos
+		<right> para disparar um orbe de esporos que explode em uma núvem de gas de esporos
 		'''
 	/* LegendaryText:
 		'''
@@ -241,22 +251,23 @@ ChickenCannon: {
 	Tooltip:
 		'''
 		Dispara foguetes de galinha flamejantes que criam explosões incendiárias enormes
-		Pressione <right> para detonar todos os foguetes no ar
+		<right> para detonar todos os foguetes no ar
 		'''
+}
+
+ChromaticEruption: {
+	// DisplayName: Chromatic Eruption
+	/* Tooltip:
+		'''
+		Charges up to spew rainbow flames and pairs of homing chromatic flares
+		Uses gel for ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
+		''' */
 }
 
 ClamorRifle: {
 	DisplayName: Rifle do Clamor
 	Tooltip: Converte bolas de mosquete em raios de energia teleguiados
-}
-
-ClaretCannon: {
-	DisplayName: Canhão de Clarete
-	Tooltip:
-		'''
-		Dispara linhas de 3 projéteis
-		Converte bolas de mosquete em lágrimas sangrentas que drenam a vida do inimigo
-		'''
 }
 
 CleansingBlaze: {
@@ -265,15 +276,6 @@ CleansingBlaze: {
 		'''
 		Libera uma torrente de chamas que pode atravessar as peças
 		Utiliza gel como munição
-		'''
-}
-
-ClockGatlignum: {
-	DisplayName: Magnum do Jacaré Relógio
-	Tooltip:
-		'''
-		Converte bolas de mosquete em linhas de 3 projéteis de alta velocidade
-		33% de chance de economizar munição
 		'''
 }
 
@@ -321,15 +323,6 @@ ContinentalGreatbow: {
 		'''
 }
 
-CoralCannon: {
-	DisplayName: Canhão de Corais
-	Tooltip:
-		'''
-		Tem 20% de chance de disparar um coral grande que atordoa os inimigos
-		Não consome munição
-		'''
-}
-
 CorinthPrime: {
 	DisplayName: Corinto Alfa
 	Tooltip:
@@ -351,7 +344,7 @@ CrackshotColt: {
 	DisplayName: Revólver do Tiro do Craque
 	Tooltip:
 		'''
-		Pressione <right> para arremessar uma Moeda de Cobre no ar
+		<right> para arremessar uma Moeda de Cobre no ar
 		Atingir uma moeda com um projétil faz com que o tiro ricocheteie ao inimigo mais próximo
 		Até 4 moedas podem ser arremessadas simultaneamente, e os tiros ricochetearão em várias moedas se possível
 		Projéteis ricocheteados sempre realizam um acerto crítico
@@ -387,31 +380,12 @@ DeadSunsWind: {
 		'''
 }
 
-Deathwind: {
-	DisplayName: Vento da Morte
-	Tooltip:
-		'''
-		Dispara 4 flechas espalhadas
-		Flechas de madeira são convertidas em flechas da nébula
-		'''
-}
-
 DeepcoreGK2: {
 	DisplayName: Deepcore GK2
 	Tooltip:
 		'''
 		Projéteis são duas vezes maiores e ignoram 15 pontos de defesa do inimigo
 		'Por rocha e pedra!'
-		'''
-}
-
-Disseminator: {
-	DisplayName: Disseminador
-	Tooltip:
-		'''
-		Dispara uma série estreita de projéteis que chamam muitos projéteis do céu
-		50% de chance de economizar munição
-		[c/768EE6:@everyone]
 		'''
 }
 
@@ -434,20 +408,14 @@ Drataliornus: {
 		Dispara um fluxo crescente de bolas de fogo
 		As bolas de fogo fazem chover meteoros, deixam rastros de poeira do dragão e lançam raios adicionais em velocidade máxima
 		Sofrer danos enquanto dispara o fluxo irá interrompê-lo e reduzirá o tempo de voo da sua asa
-		Pressione <right> para disparar duas barragens devastadoras de cinco bolas de fogo fortalecidas
+		<right> para disparar duas barragens devastadoras de cinco bolas de fogo fortalecidas
 		'Só não seja atingido'
 		'''
 }
 
-ElementalEruption: {
-	DisplayName: Erupção Elemental
-	Tooltip:
-		'''
-		Dispara chamas arco-íris em várias direções
-		Carrega para cuspir chamas de arco-íris e pares de orbes elementais teleguiados
-		Utiliza gel como munição
-		70% de chance de economizar munição
-		'''
+DriftwoodBow: {
+	// DisplayName: Driftwood Bow
+	// Tooltip: This bow is stronger while you are wet
 }
 
 EternalBlizzard: {
@@ -474,7 +442,7 @@ FirestormCannon: {
 	Tooltip:
 		'''
 		Releases an constant stream of weaponized flares
-		Pressione <right> para disparar uma série condensada de sinalizadores
+		<right> para disparar uma série condensada de sinalizadores
 		70% de chance de economizar munição
 		'''
 }
@@ -517,7 +485,7 @@ FreedomStar: {
 	DisplayName: Estrela da Liberdade
 	Tooltip:
 		'''
-		Aperte <left> para disparar orbes de energia
+		<left> para disparar orbes de energia
 		Segure <left> para carregar e disparar um feixe que explode ao atingir o inimigo
 		'''
 }
@@ -568,7 +536,7 @@ HalleysInferno: {
 	Tooltip:
 		'''
 		Dispara uma rajada de jatos de fogo lunar intensamente concentrados
-		Pressione <right> para afastar
+		<right> para afastar
 		Utiliza gel como munição
 		50% de chance de economizar munição
 		'Halley chegou antes do esperado'
@@ -635,7 +603,7 @@ Hydra: {
 		'''
 		Dispara 4 projéteis tóxicos em várias direções
 		Uma cabeça-arma cresce a cada 3 segundos, até um máximo de 3 cabeças
-		Pressione <left> para comandar qualquer cabeça existente para disparar
+		<left> para comandar qualquer cabeça existente para disparar
 		Press <right> para lançar as cabeças para causar uma explosão poderosa
 		[c/9D80B0:Fusão de maquinaria pesada e sangue de Lerna]
 		'''
@@ -646,7 +614,7 @@ Infinity: {
 	Tooltip:
 		'''
 		Dispara uma barragem de raios de energia que se dividem e saltiteam
-		Pressione <right> para disparar uma barragem de projéteis normais
+		<right> para disparar uma barragem de projéteis normais
 		80% de chance de economizar munição
 		'Eles dizem que o infinito não tem fim, mas você o segura em suas mãos'
 		'''
@@ -655,6 +623,18 @@ Infinity: {
 Karasawa: {
 	DisplayName: Karasawa
 	Tooltip: ...Isso é pesado... muito pesado
+}
+
+Kingsbane: {
+	DisplayName: Ruina do Rei
+	Tooltip:
+		'''
+		Depois de carregar, atire balas rapidamente
+		Quando você parar de atirar, você liberará uma barragem de balas áuricas
+		As balas áuricas seguem agressivamente os inimigos e ignoram 50 pontos de defesa
+		Consome munição constantemente durante o uso
+		90% de chance de economizar munição
+		'''
 }
 
 Leviatitan: {
@@ -671,14 +651,15 @@ LunarianBow: {
 		'''
 }
 
-ArcNovaDiffuser: {
-	DisplayName: Difusor de Arcos Nova
-	Tooltip:
+M1Garand: {
+	// DisplayName: M1 Garand
+	/* Tooltip:
 		'''
-		Carrega e dispara uma rajada rápida de raios nova
-		O primeiro estágio de carregamento aumenta a taxa de disparo da rajada
-		O segundo estágio de carregamento substitui a rajada rápida por uma explosão de nova devastadora
-		'''
+		Converts bullets into .30-06 rounds which inherit the damage of the converted bullet
+		Fires 8 bullets before ejecting the rifle's cartridge
+		Bullets which ricochet off coins can ricochet off cartridges too
+		'Mind your thumb'
+		''' */
 }
 
 MagnaCannon: {
@@ -742,7 +723,7 @@ MidasPrime: {
 	DisplayName: Midas Alfa
 	Tooltip:
 		'''
-		Pressione <right> para arremessar uma Moeda de Ouro ou Moeda de Prata no ar
+		<right> para arremessar uma Moeda de Ouro ou Moeda de Prata no ar
 		Atingir uma moeda com um projétil faz com que o tiro ricocheteie ao inimigo mais próximo
 		Até 4 moedas podem ser arremessadas simultaneamente, e os tiros ricochetearão em várias moedas se possível
 		Projéteis ricocheteados sempre realizam um acerto crítico e causam dano adicional com base nas moedas utilizadas
@@ -760,25 +741,9 @@ MineralMortar: {
 	Tooltip: Dispara uma bomba de ônix que explode, causando muito dano em área
 }
 
-Kingsbane: {
-	DisplayName: Ruina do Rei
-	Tooltip:
-		'''
-		Depois de carregar, atire balas rapidamente
-		Quando você parar de atirar, você liberará uma barragem de balas áuricas
-		As balas áuricas seguem agressivamente os inimigos e ignoram 50 pontos de defesa
-		Consome munição constantemente durante o uso
-		90% de chance de economizar munição
-		'''
-}
-
-MolecularManipulator: {
-	DisplayName: Manipulador Molecular
-	Tooltip:
-		'''
-		Dispara um projétil nulo rápido que distorce as estatísticas de NPCs
-		'É anulável ou não? Vamos descobrir!'
-		'''
+MonolithBow: {
+	// DisplayName: Monolith Bow
+	// Tooltip: ""
 }
 
 Monsoon: {
@@ -823,6 +788,21 @@ NullificationPistol: {
 		'''
 }
 
+OntologicalDespoiler: {
+	// DisplayName: Ontological Despoiler
+	/* Tooltip:
+		'''
+		Condenses chargeable pockets of concentrated unreality. <right> to swap modes only after firing a charged shot
+		Unstable condensate shots trifurcate and pierce enemies
+		Null condensate shots fire rapidly and home in on enemies
+		At 50% charge or higher, rate of fire significantly increases
+		Fully charged unstable condensate lobs a homing disruption sphere
+		Fully charged null condensate emits a hitscan null-annihilation beam that always crits
+		Each mode charges slower when used repeatedly and resets to full speed when swapped
+		'Rob them of continuity and the laws of physics they hold so dear.'
+		''' */
+}
+
 OnyxChainBlaster: {
 	DisplayName: Detonador Sequencial de Ônix
 	Tooltip:
@@ -839,6 +819,23 @@ Onyxia: {
 		Dispara uma tempestade de projéteis e fragmentos de ônix
 		50% de chance de economizar munição
 		'''
+}
+
+OmniGun: {
+	// DisplayName: The Omnigun
+	/* Tooltip:
+		'''
+		A multipurpose weapon with several modes which are used in sequence
+		The first shot is a sniper round which gains damage over time and always critically strikes
+		The second shot is a burst of 10 standard bullets
+		The third shot is a devastating point blank spread
+		The fourth shot is a dangerous but powerful grenade which destroys everything, including you
+		''' */
+	/* SalesPitch:
+		'''
+		'Why carry four different guns when you can carry just one? That's what I used to ask myself!'
+		'With this thing-a-beauty, even a bumbling moron can become invincible - and for the right price, it can be yours!'
+		''' */
 }
 
 OpalStriker: {
@@ -888,21 +885,12 @@ PestilentDefiler: {
 	Tooltip: Converte bolas de mosquete em tiros da praga que explodem e se separam na morte
 }
 
-Phangasm: {
-	DisplayName: Fangasma
-	Tooltip:
-		'''
-		Dispara 5 flechas espalhadas e emite flechas fantasmas ao atingir o inimigo
-		66% de chance de economizar munição
-		'''
-}
-
 Photoviscerator: {
 	DisplayName: Fotoviscerador
 	Tooltip:
 		'''
 		Emite um feixe contínuo de exo-radiação que desintegra tudo
-		Pressione <right> para disparar exo-chamas teleguiadas que grudam nos inimigos e os incineram
+		<right> para disparar exo-chamas teleguiadas que grudam nos inimigos e os incineram
 		Utiliza gel como munição
 		95% de chance de economizar munição
 		'''
@@ -915,7 +903,7 @@ PlagueTaintedSMG: {
 		Atira projéteis da peste que geram drones em acertos críticos
 		Os projéteis causam mais dano e recuo quanto mais próximo o inimigo estiver
 		Os drones têm uma chance de acerto crítico muito maior ao atingir um inimigo contaminado
-		Pressione <right> para disparar um enxame de drones
+		<right> para disparar um enxame de drones
 		'''
 }
 
@@ -938,15 +926,17 @@ PolarisParrotfish: {
 		'''
 	/* TooltipNormal:
 		'''
-		Rapidly fires an array of colorful star shots that bounce off tiles
-		However, only two shots can exist at once
+		Rapidly fires an array of colorful star shots
+		Firing speed increases the closer you are to an enemy
+		{$Common.ArmorPenetration}
 		'It carries the mark of the Northern Star'
 		''' */
 	/* TooltipGFB:
 		'''
-		Rapidly fires an array of colorful star shots that bounce off tiles
-		However, only two shots can exist at once
-		Right click to give the little girl some attention
+		Rapidly fires an array of colorful star shots
+		Firing speed increases the closer you are to an enemy
+		{$Common.ArmorPenetration}
+		<right> to give the little girl some attention
 		'She is a happy girl'
 		''' */
 }
@@ -970,7 +960,7 @@ PristineFury: {
 	Tooltip:
 		'''
 		Dispara uma hélice intensa de chamas que explodem em uma coluna de fumaça
-		Pressione <right> dispersar nuvens intensas de calor profanado
+		<right> dispersar nuvens intensas de calor profanado
 		Utiliza gel como munição
 		'''
 	/* LegendaryText:
@@ -1007,6 +997,15 @@ ReedBlowgun: {
 		'''
 }
 
+Riftburst: {
+	// DisplayName: Riftburst
+	/* Tooltip:
+		'''
+		Fires a spread of 5 arrows and emits phantom arrows on enemy hits
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
+		''' */
+}
+
 RubicoPrime: {
 	DisplayName: Rubico Alfa
 	Tooltip:
@@ -1016,14 +1015,14 @@ RubicoPrime: {
 		'''
 }
 
-SandstormGun: {
-	DisplayName: Tempestade de Areia
-	Tooltip:
+Sandblaster: {
+	// DisplayName: Sandblaster
+	/* Tooltip:
 		'''
-		Dispara projéteis de areia que explodem e retardam os inimigos ao atingí-los
-		Utiliza areia como munição
-		50% de chance se economizar munição
-		'''
+		Fires sand bullets that explode and slow enemies on hit
+		Uses sand as ammo
+		{$CommonItemTooltip.PercentChanceToSaveAmmo}
+		''' */
 }
 
 ScorchedEarth: {
@@ -1040,7 +1039,7 @@ Scorpio: {
 	DisplayName: Scorpio
 	Tooltip:
 		'''
-		Pressione <right> para disparar uma bomba nuclear
+		<right> para disparar uma bomba nuclear
 		Os foguetes irão destruir peças quando munições destrutivas forem utilizadas
 		'BOOM'
 		'''
@@ -1070,7 +1069,7 @@ SeasSearing: {
 	Tooltip:
 		'''
 		Dispara uma série de bolhas invocando uma chuva de bolhas no acerto
-		Pressione <right> para disparar um jato d'água maior e mais lento que invoca uma tromba d'água
+		<right> para disparar um jato d'água maior e mais lento que invoca uma tromba d'água
 		'''
 }
 
@@ -1106,7 +1105,7 @@ Shredder: {
 	Tooltip:
 		'''
 		Dispara uma barragem de raios de energia que se dividem e rebatem
-		Pressione <right> para disparar uma barragem de projéteis normais
+		<right> para disparar uma barragem de projéteis normais
 		60% de chance de economizar munição
 		'O mito, a lenda, a arma que faz o FPS cair mais que qualquer outra'
 		'''
@@ -1115,6 +1114,16 @@ Shredder: {
 Shroomer: {
 	DisplayName: Cogumelador
 	Tooltip: Dispara projéteis e um cogumelo teleguiado extremamente poderoso
+}
+
+SlagfireDouser: {
+	// DisplayName: Slagfire Douser
+	/* Tooltip:
+		'''
+		Sprays bursts of molten pollen
+		Molten pollen ignores 10 points of enemy defense and covers your enemies in [cbuff:CalamityMod/SearingLava]
+		[c/FF9900:Capable of dousing townsfolk in lava too...]
+		''' */
 }
 
 SlagMagnum: {
@@ -1158,7 +1167,7 @@ SpeedBlaster: {
 	Tooltip:
 		'''
 		Dispara rápidamente tiros de paintball fosforescentes
-		Pressione <right> para ejetar um globo poderoso que o impulsiona enquanto se move
+		<right> para ejetar um globo poderoso que o impulsiona enquanto se move
 		Esta habilidade tem um tempo de recarga de {0} segundos
 		Enquanto estiver em recarga, você atira mais rapidamente e com maior precisão
 		'''
@@ -1203,15 +1212,6 @@ StellarCannon: {
 	Tooltip: Lança um cristal astral explosivo
 }
 
-StormDragoon: {
-	DisplayName: Dragão da Tempestade
-	Tooltip:
-		'''
-		Dispara uma rajada de projéteis
-		90% de chance de economizar munição to save ammo
-		'''
-}
-
 StormSurge: {
 	DisplayName: Onda da Tempestade
 	Tooltip:
@@ -1244,7 +1244,7 @@ SuperradiantSlaughterer: {
 		'''
 	AltInfo:
 		'''
-		Pressione <right> para disparar uma serra persistente na direção do cursor que constantemente dispara raios teleguiados
+		<right> para disparar uma serra persistente na direção do cursor que constantemente dispara raios teleguiados
 		Usar essa habilidade impulsiona você rapidamente na direção em que está se movendo se as teclas de movimento forem pressionadas
 		Esta habilidade possui um tempo de recarga de {0} segundos
 		Durante este tempo de recarga, serras disparadas seguirão o cursor e liberarão raios teleguiados enquanto retornam
@@ -1255,7 +1255,7 @@ SurgeDriver: {
 	DisplayName: Condutor de Correntes
 	Tooltip:
 		'''
-		Pressione <left> para liberar um raio laser que explode em colisão
+		<left> para liberar um raio laser que explode em colisão
 		Press <right> para liberar uma barragem de raios laser que liberam energia teleguiada ao atingir o inimigo
 		'''
 }
@@ -1265,10 +1265,22 @@ Svantechnical: {
 	Tooltip:
 		'''
 		Dispara uma trindade de raios de energia que se dividem em feixes que perseguem seu cursor
-		Pressione <right> para disparar uma barragem de projéteis normais
+		<right> para disparar uma barragem de projéteis normais
 		90% de chance de economizar munição
 		'Aquela escolha clássica entre mais dano ou FPS'
 		'''
+}
+
+TauCannon: {
+	// DisplayName: Tau Cannon
+	/* Tooltip:
+		'''
+		A bulky assault rifle with three charge levels that fires astral energy
+		Charge level one fires a burst of bolts
+		Charge level two fires a beam of energy that quickly fizzles out
+		Charge level three fires a massive laser and creates astral portals around you
+		'This weapon is very ethically questionable'
+		''' */
 }
 
 TelluricGlare: {
@@ -1318,9 +1330,9 @@ TheSevensStriker: {
 	DisplayName: O Atacante dos Setes
 	Tooltip:
 		'''
-		Pressione <left> para consumir 1 moeda e jogar um caça-níqueis
+		<left> para consumir 1 moeda e jogar um caça-níqueis
 		A qualidade do resultado depende da moeda usada
-		Pressione <right> para rapidamente disparar uma barragem de moedas
+		<right> para rapidamente disparar uma barragem de moedas
 		A barragem de moedas tem 80% de chance de não consumir moedas e não disparará meodas de platina
 		'Uma arma dada a um grande pistoleiro
 		Forjado pelos braços de um homem sem nome'
@@ -1335,6 +1347,17 @@ TheStorm: {
 		Dispara flechas espalhadas do céu
 		Converte flechas de madeira em relâmpagos
 		'''
+}
+
+ThreadOfEradication: {
+	// DisplayName: Thread of Eradication
+	/* Tooltip:
+		'''
+		Charges up [ceffect/dog:God's Bane Doombeam]
+		Channelling the weapon causes it to charge up [ceffect/dog:Hyperdeath Rift] instead
+		While charging [ceffect/dog:Hyperdeath Rift], the bow's turning speed is slowed down
+		Always critically strikes, with critical strike chance increasing critical strike damage
+		''' */
 }
 
 TitaniumRailgun: {
@@ -1429,107 +1452,4 @@ WulfrumBlunderbuss: {
 		[c/83B87E:'O bom do Vulfrúmio é que, embora quebre rápido, ele pode ser reutilizado ainda mais rápido"]
 		[c/83B87E:"De fato, é bastante comum que um robô seja transformado em munição logo após parar de funcionar']
 		'''
-}
-
-AcidwoodBow: {
-	// DisplayName: Acidwood Bow
-	// Tooltip: ""
-}
-
-ChromaticEruption: {
-	// DisplayName: Chromatic Eruption
-	/* Tooltip:
-		'''
-		Charges up to spew rainbow flames and pairs of homing chromatic flares
-		Uses gel for ammo
-		{$CommonItemTooltip.PercentChanceToSaveAmmo}
-		''' */
-}
-
-DriftwoodBow: {
-	// DisplayName: Driftwood Bow
-	// Tooltip: This bow is stronger while you are wet
-}
-
-M1Garand: {
-	// DisplayName: M1 Garand
-	/* Tooltip:
-		'''
-		Converts bullets into .30-06 rounds which inherit the damage of the converted bullet
-		Fires 8 bullets before ejecting the rifle's cartridge
-		Bullets which ricochet off coins can ricochet off cartridges too
-		'Mind your thumb'
-		''' */
-}
-
-MonolithBow: {
-	// DisplayName: Monolith Bow
-	// Tooltip: ""
-}
-
-OntologicalDespoiler: {
-	// DisplayName: Ontological Despoiler
-	/* Tooltip:
-		'''
-		Condenses chargeable pockets of concentrated unreality. <right> to swap modes only after firing a charged shot
-		Unstable condensate shots trifurcate and pierce enemies
-		Null condensate shots fire rapidly and home in on enemies
-		At 50% charge or higher, rate of fire significantly increases
-		Fully charged unstable condensate lobs a homing disruption sphere
-		Fully charged null condensate emits a hitscan null-annihilation beam that always crits
-		Each mode charges slower when used repeatedly and resets to full speed when swapped
-		'Rob them of continuity and the laws of physics they hold so dear.'
-		''' */
-}
-
-Riftburst: {
-	// DisplayName: Riftburst
-	/* Tooltip:
-		'''
-		Fires a spread of 5 arrows and emits phantom arrows on enemy hits
-		{$CommonItemTooltip.PercentChanceToSaveAmmo}
-		''' */
-}
-
-Sandblaster: {
-	// DisplayName: Sandblaster
-	/* Tooltip:
-		'''
-		Fires sand bullets that explode and slow enemies on hit
-		Uses sand as ammo
-		{$CommonItemTooltip.PercentChanceToSaveAmmo}
-		''' */
-}
-
-SlagfireDouser: {
-	// DisplayName: Slagfire Douser
-	/* Tooltip:
-		'''
-		Lobs armor-penetrating lava in bursts
-		Armor-penetrating lava ignores 10 points of enemy defense
-		[c/FF9900:Capable of dousing townsfolk in lava too...]
-		''' */
-}
-
-TauCannon: {
-	// DisplayName: Tau Cannon
-	/* Tooltip:
-		'''
-		A bulky assault rifle with three charge levels that fires astral energy
-		Charge level one fires a burst of bolts
-		Charge level two fires a beam of energy that quickly fizzles out
-		Charge level three fires a massive laser and creates astral portals around you
-		Inflicts [cbuff:CalamityMod/AstralInfectionDebuff]
-		'This weapon is very ethically questionable'
-		''' */
-}
-
-ThreadOfEradication: {
-	// DisplayName: Thread of Eradication
-	/* Tooltip:
-		'''
-		Charges up [c/ff00ff:God's Bane Doombeam]
-		Channelling the weapon causes it to charge up [c/ff00ff:Hyperdeath Rift] instead
-		While charging [c/ff00ff:Hyperdeath Rift], the bow's turning speed is slowed down
-		''' */
 }

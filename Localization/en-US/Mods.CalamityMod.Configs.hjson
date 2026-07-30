@@ -4,10 +4,14 @@ CalamityClientConfig: {
 	Headers: {
 		Gameplay: General Gameplay Changes
 		Graphics: Graphics Changes
-		MeterPositions: Meter Positions
 		UI: UI Changes
-		MusicEvents: Music Events
+		MeterPositions: Meter Positions
 		MusicToggles: Music Toggles
+	}
+
+	AbyssLayer3Alt: {
+		Label: "[i:CalamityModMusic/AbyssLayer3AltMusicBox] Abyss Layer 3 Alt"
+		Tooltip: Plays Calamity Mod OST - "R'lyehian Depths", while in the Thermal Vents layer of the Abyss.
 	}
 
 	AdrenalineMeterPosX: {
@@ -50,8 +54,8 @@ CalamityClientConfig: {
 		Label: "[i:CalamityMod/DraedonPowerCell] Display Charge Meter"
 		Tooltip:
 			'''
-			Enables the Charge Meter UI, which displays the current charge of the player's held weapon.
-			The Charge Meter is always hidden if not holding a weapon which requires charge.
+			Enables the Charge Meter UI, which displays the current charge of the player's held item.
+			The Charge Meter is always hidden if not holding an item which requires charge.
 			'''
 	}
 
@@ -75,11 +79,7 @@ CalamityClientConfig: {
 
 	CooldownDisplay: {
 		Label: "[i:CalamityMod/NebulousCore] Cooldown Rack Display Mode"
-		Tooltip:
-			'''
-			Adds the Cooldown Rack which displays all important cooldowns right underneath buffs and debuffs.
-			Set this to 1 to display the Cooldown Rack in compact mode, and to 0 to hide it entirely.
-			'''
+		Tooltip: Adds the Cooldown Rack which displays all important cooldowns right underneath buffs and debuffs.
 	}
 
 	DebuffDisplay: {
@@ -89,14 +89,51 @@ CalamityClientConfig: {
 
 	DevourerofGodsEulogy: {
 		Label: "[i:CalamityModMusic/DevourerofGodsEulogyMusicBox] Eulogy for the Ego"
-		Tooltip: Plays Calamity Mod OST - "Scourge of The Universe (Eulogy for The Ego)", after The Devourer of Gods has been defeated.
+		Tooltip: Plays Calamity Mod OST - "Scourge of the Universe (Eulogy for the Ego)", after the Devourer of Gods has been defeated.
+	}
+
+	DisableGravityScreenSwap: {
+		Label: "[i:GravityGlobe] Disable Gravity Screen Flip"
+		Tooltip:
+			'''
+			Disables vanilla's screen-flipping from changing gravity, flipping the player instead.
+			Enable this if the screen-flipping is distracting or induces motion sickness.
+			'''
+	}
+
+	EnableVanillaTextureEdits: {
+		Label: "[i:Paintbrush] Enable Vanilla Texture Edits"
+		Tooltip:
+			'''
+			Enables slight edits to vanilla boss textures to improve attack telegraphs.
+			Disable this for compatibility with texture packs.
+			'''
+	}
+
+	EnergyShieldOpacity: {
+		Label: "[i:CalamityMod/TheSponge] Energy Shield Opacity"
+		Tooltip:
+			'''
+			Set the opacity of energy shields rendered over the player.
+			Setting this to 0 disables energy shield visuals entirely.
+			'''
+	}
+
+	FancyBackgroundVisuals: {
+		Label: "[i:CalamityMod/BlueDistortedMonolith] Toggle Fancy Background Visuals"
+		Tooltip:
+			'''
+			Controls whether or not fancy background visuals will be displayed during certain parts of the game, such as boss fights.
+			When disabled, a simplified version of the main visual will be displayed in certain cases.
+			Recommended to have disabled if you struggle with visibility issues or low performance.
+			'''
 	}
 
 	FasterFallHotkey: {
 		Label: "[i:CalamityMod/BallAndChain] Enable Fast Falling"
 		Tooltip:
 			'''
-			When enabled, you can hold the DOWN key while in the air to accelerate downwards faster.
+			When enabled, you can hold the {$Key.DOWN} key while in the air to accelerate downwards faster.
 			This config does not increase your maximum falling speed, just how quickly you accelerate to it.
 			Calamity is balanced around this setting being enabled.
 			'''
@@ -135,7 +172,7 @@ CalamityClientConfig: {
 		Tooltip:
 			'''
 			Enables the playing of three interlude tracks in-game:
-			Plays Calamity Mod OST - Interlude 1, "Silence before the storms", after Calamitas Clone has been defeated.
+			Plays Calamity Mod OST - "Silence before the storms", after Calamitas Clone has been defeated.
 			Plays Calamity Mod OST - "Storms before the catastrophes", after the Moon Lord has been defeated.
 			Plays Calamity Mod OST - "Catastrophes before the calamity", after Yharon has been defeated.
 			'''
@@ -150,24 +187,6 @@ CalamityClientConfig: {
 			'''
 	}
 
-	MusicModReminderMessage: {
-		Label: "[i:MusicBoxMartians] Music Mod Reminder Message"
-		Tooltip:
-			'''
-			Enable or disable the status message which reminds users to install the Calamity Music Mod.
-			This message plays on world entry.
-			'''
-	}
-
-	NewVanillaTextures: {
-		Label: "[i:Paintbrush] New Vanilla Textures"
-		Tooltip:
-			'''
-			Enable or disable new vanilla textures.
-			Disable this for compatibility with texture packs.
-			'''
-	}
-
 	ParticleLimit: {
 		Label: "[i:FragmentStardust] Max Particle Limit"
 		Tooltip:
@@ -176,6 +195,25 @@ CalamityClientConfig: {
 			Particles are separate from dust and gores.
 			Turn down to improve performance.
 			[c/F05A5A:Turning this below 1000 may cause some things to not display correctly.]
+			'''
+	}
+
+	Photosensitivity: {
+		Label: "[i:DiscoBall] Photosensitivity Mode"
+		Tooltip:
+			'''
+			Reduces or disables the brightness and/or flashiness of certain visual effects.
+			Also disables all screenshake effects.
+			Highly recommended if you are photosensitive.
+			'''
+	}
+
+	BoCSpriteChange: {
+		Label: "[i:BrainOfConfusion] Remove Potentially Disturbing Imagery"
+		Tooltip:
+			'''
+			Replaces some boss sprites to remove potentially upsetting imagery that could trigger phobias.
+			Highly recommended if you are uncomfortable with body horror or have trypophobia.
 			'''
 	}
 
@@ -215,6 +253,11 @@ CalamityClientConfig: {
 			[c/FF232C:All screen-shake visuals are balanced around a value of 1.]
 			[c/FF232C:Higher values may be nauseating or otherwise bad for some.]
 			'''
+	}
+
+	SetBonusDoubleTap: {
+		Label: "[i:VortexHelmet] Allow Double Tap for Armor Set Bonuses"
+		Tooltip: Allows all armor set bonuses to be triggered by the vanilla double-tap {$Key.DOWN} hotkey (or {$Key.UP} depending on your settings).
 	}
 
 	ShopNewAlert: {
@@ -286,6 +329,17 @@ CalamityClientConfig: {
 			'''
 	}
 
+	StutterFix: {
+		Label: "[i:TrifoldMap] Enable Stutter Fix"
+		Tooltip:
+			'''
+			When enabled, upon entering a world, the entire world will be loaded at once.
+			This config causes Terraria to stop responding while the world is being loaded, do NOT close the game while this is occurring.
+			Once the game starts responding again, you will enter the world and be able to play without random stutters.
+			This config option is only recommended for players who can't stand random stutters while playing.
+			'''
+	}
+
 	SulphuricWaterMeterPosX: {
 		Label: "[i:LaserRuler] Sulphuric Water Poison Meter X Position"
 		Tooltip:
@@ -301,93 +355,6 @@ CalamityClientConfig: {
 			'''
 			The Y position of the Sulphuric Water Poison Meter, measured as a % of your screen height.
 			The meter can be dragged with the mouse if Lock Meter Positions is disabled.
-			'''
-	}
-
-	VanillaCooldownDisplay: {
-		Label: "[i:HealingPotion] Display Vanilla Cooldowns"
-		Tooltip:
-			'''
-			Adds the vanilla debuffs Potion Sickness and Chaos State to the Cooldown Rack.
-			The debuffs will still appear in the buffs array, but this may help make them more visible.
-			'''
-	}
-
-	VCMMStatusMessage: {
-		Label: "[i:MusicBoxMartians] VCMM Status Message"
-		Tooltip: Enable or disable the status message promoting the Vanilla Calamity Music Mod that plays on world entry.
-	}
-
-	WikiStatusMessage: {
-		Label: "[i:Book] Wiki Status Message"
-		Tooltip: Enable or disable the status message promoting the Official Calamity Wiki that plays on world entry.
-	}
-
-	AbyssLayer3Alt: {
-		Label: "[i:CalamityModMusic/AbyssLayer3AltMusicBox] Abyss Layer 3 Alt"
-		Tooltip: Plays Calamity Mod OST - "R'lyehian Depths", while in the Thermal Vents layer of the Abyss.
-	}
-
-	DisableGravityScreenSwap: {
-		Label: Disable Gravity Screen Flip
-		Tooltip:
-			'''
-			Disables vanilla's screen-flipping from changing gravity, flipping the player instead.
-			Enable this if the screen-flipping is distracting or induces motion sickness.
-			'''
-	}
-
-	EnableVanillaTextureEdits: {
-		Label: "[i:Paintbrush] Enable Vanilla Texture Edits"
-		Tooltip:
-			'''
-			Enables slight edits to vanilla boss textures to improve attack telegraphs.
-			Disable this for compatibility with texture packs.
-			'''
-	}
-
-	EnergyShieldOpacity: {
-		Label: "[i:CalamityMod/TheSponge] Energy Shield Opacity"
-		Tooltip:
-			'''
-			Set the opacity of energy shields rendered over the player.
-			Setting this to 0 disables energy shield visuals entirely.
-			'''
-	}
-
-	FancyBackgroundVisuals: {
-		Label: "[i:CalamityMod/BlueDistortedMonolith] Toggle Fancy Background Visuals"
-		Tooltip:
-			'''
-			Controls whether or not fancy background visuals will be displayed during certain parts of the game, such as boss fights.
-			When disabled, a simplified version of the main visual will be displayed in certain cases.
-			Recommended to have disabled if you struggle with visibility issues or low performance.
-			'''
-	}
-
-	Photosensitivity: {
-		Label: "[i:DiscoBall] Photosensitivity Mode"
-		Tooltip:
-			'''
-			Reduces or disables the brightness and/or flashiness of certain visual effects.
-			Also disables all screenshake effects.
-			Highly recommended if you are photosensitive.
-			'''
-	}
-
-	SetBonusDoubleTap: {
-		Label: "[i:VortexHelmet] Allow Double Tap for Armor Set Bonuses"
-		Tooltip: Allows all armor set bonuses to be triggered by the vanilla double-tap {$Key.DOWN} hotkey (or {$Key.UP} depending on your settings).
-	}
-
-	StutterFix: {
-		Label: "[i:TrifoldMap] Enable Stutter Fix"
-		Tooltip:
-			'''
-			When enabled, upon entering a world, the entire world will be loaded at once.
-			This config causes Terraria to stop responding while the world is being loaded, do NOT close the game while this is occurring.
-			Once the game starts responding again, you will enter the world and be able to play without random stutters.
-			This config option is only recommended for players who can't stand random stutters while playing.
 			'''
 	}
 
@@ -413,6 +380,25 @@ CalamityClientConfig: {
 	TileTextureBlendingQuality: {
 		Label: "[i:GlowPaint] Tile Merge Soft Blending"
 		Tooltip: Changes the quality of the soft-blending renderer used when different types of tiles merge together.
+	}
+
+	VanillaCooldownDisplay: {
+		Label: "[i:HealingPotion] Display Vanilla Cooldowns"
+		Tooltip:
+			'''
+			Adds the vanilla effects Potion Sickness, Chaos State, and Holy Protection to the Cooldown Rack.
+			The debuffs will still appear in the buffs array, but this may help make them more visible.
+			'''
+	}
+
+	VCMMStatusMessage: {
+		Label: "[i:MusicBoxMartians] VCMM Status Message"
+		Tooltip: Enable or disable the status message promoting the Vanilla Calamity Music Mod that plays on world entry.
+	}
+
+	WikiStatusMessage: {
+		Label: "[i:Book] Wiki Status Message"
+		Tooltip: Enable or disable the status message promoting the Official Calamity Wiki that plays on world entry.
 	}
 }
 
@@ -445,6 +431,15 @@ CalamityServerConfig: {
 			'''
 	}
 
+	DefaultDashEnabled: {
+		Label: "[i:Tabi] Default Dash"
+		Tooltip:
+			'''
+			Gives the player a very weak dash by default that requires no equipment or items to use.
+			This dash will be replaced by any other available dash, including those from other mods.
+			'''
+	}
+
 	BossZen: {
 		Label: "[i:CalamityMod/ZenPotion] Bosses Drastically Reduce Spawn Rates"
 		Tooltip:
@@ -460,20 +455,11 @@ CalamityServerConfig: {
 		Tooltip: When enabled, water in the Snow and Ice biomes will rapidly drain the player's breath instead of inflicting Chilled.
 	}
 
-	DefaultDashEnabled: {
-		Label: "[i:Tabi] Default Dash"
-		Tooltip:
-			'''
-			Gives the player a very weak dash by default that requires no equipment or items to use.
-			This dash will be replaced by any other available dash, including those from other mods.
-			'''
-	}
-
 	EarlyHardmodeProgressionRework: {
 		Label: "[i:Pwnhammer] Early Hardmode Progression Rework"
 		Tooltip:
 			'''
-			Demon Altars no longer spawn ores and crimson/corruption blocks when broken.
+			Demon Altars no longer spawn ores when broken.
 			Wall of Flesh spawns Cobalt and Palladium ore on first kill.
 			The first mech boss you fight has 20% (10% in Expert and Master) less HP and damage and spawns Mythril and Orichalcum ore on first kill.
 			The second mech boss you fight has 10% (5% in Expert and Master) less HP and damage and spawns Adamantite and Titanium ore on first kill.
@@ -487,6 +473,15 @@ CalamityServerConfig: {
 			'''
 			Increases the player's base movement speed substantially by always giving them +50% movement speed.
 			This setting does nothing if the mod Terraria Overhaul is loaded.
+			Calamity is balanced around this setting being enabled.
+			'''
+	}
+
+	FasterRopeClimbSpeed: {
+		Label: "[i:Rope] Increase Rope Climb Speed"
+		Tooltip:
+			'''
+			Increases the player's rope climb speed substantially by increasing acceleration and deceleration while on a rope.
 			Calamity is balanced around this setting being enabled.
 			'''
 	}
@@ -518,39 +513,12 @@ CalamityServerConfig: {
 			'''
 	}
 
-	HigherJumpHeight: {
-		Label: "[i:ShinyRedBalloon] Increase Base Jump Height"
-		Tooltip:
-			'''
-			Increases the player's base jump height by 10% so that they can jump 7 tiles.
-			Calamity is balanced around this setting being enabled.
-			'''
-	}
-
 	NerfExpertDebuffs: {
 		Label: "[i:AnkhCharm] Remove Increased Debuff Duration"
 		Tooltip:
 			'''
 			Disables Expert Mode doubling (and Master Mode tripling) the duration of debuffs on the player.
 			Calamity is balanced around this setting being enabled.
-			'''
-	}
-
-	PlayerRespawnTime_BossAlive: {
-		Label: "[i:Stopwatch] Boss Fight Player Respawn Time"
-		Tooltip:
-			'''
-			Sets the respawn time for players when a boss is alive, in seconds. This applies equally in single player and multiplayer.
-			When no boss is alive, players will respawn in 3 seconds in both single player and multiplayer.
-			'''
-	}
-
-	PotionSelling: {
-		Label: "[i:SpelunkerPotion] Town NPC Potion Selling"
-		Tooltip:
-			'''
-			Allows town NPCs to sell various potions.
-			Certain potions are sold after specific bosses have been defeated.
 			'''
 	}
 
@@ -565,6 +533,15 @@ CalamityServerConfig: {
 			'''
 			Removes randomness from the Goblin Tinkerer's reforges for both weapons and accessories.
 			Disable this if using mods that change reforging on their own to prevent conflicts.
+			'''
+	}
+
+	PlayerRespawnTime_BossAlive: {
+		Label: "[i:Stopwatch] Boss Fight Player Respawn Time"
+		Tooltip:
+			'''
+			Sets the respawn time for players when a boss is alive, in seconds. This applies equally in single player and multiplayer.
+			When no boss is alive, players will respawn in 3 seconds in both single player and multiplayer.
 			'''
 	}
 
@@ -583,24 +560,6 @@ CalamityServerConfig: {
 			'''
 			When enabled, town NPCs can spawn and respawn at night.
 			This includes the Old Man.
-			'''
-	}
-
-	FasterRopeClimbSpeed: {
-		Label: "[i:Rope] Increase Rope Climb Speed"
-		Tooltip:
-			'''
-			Increases the player's rope climb speed substantially by increasing acceleration and deceleration while on a rope.
-			Calamity is balanced around this setting being enabled.
-			'''
-	}
-
-	SimplifyAccessoryReforge: {
-		Label: "[i:Autohammer] Simplify Accessory Reforging"
-		Tooltip:
-			'''
-			Makes accessory reforging simpler by restricting options to the following prefixes:
-			          - Warding, Menacing, Lucky, Quick, Violent, Arcane, Silent, Invigorating, Dauntless
 			'''
 	}
 }

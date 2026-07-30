@@ -2,6 +2,7 @@ Akato.DisplayName: Akato
 Astrophage.DisplayName: Astrófago
 BabyGhostBell.DisplayName: Sino do Fantasma Bebê
 Bear.DisplayName: Urso
+// Beldum.DisplayName: Beldum
 BendyPet.DisplayName: Dragão da Neblina Onírica
 BrimlingPet.DisplayName: Enxofrinho
 ChibiiDoggo.DisplayName: Devorador Chibii
@@ -10,6 +11,7 @@ DaawnlightSpiritOriginMinion.DisplayName: Luz Crespúsculo
 DannyDevitoPet.DisplayName: Danny Devito
 EidolonSnail.DisplayName: Caracol Escargidolon
 FlakPet.DisplayName: Eremita Flak
+// FrostyBatPet.DisplayName: Frosty Bat Friend
 FoxPet.DisplayName: Raposa
 GoldiePet.DisplayName: Douradinha
 KendraPet.DisplayName: Kendra
@@ -27,8 +29,8 @@ RadiatorPet.DisplayName: Radiador
 RotomPet.DisplayName: Rotom
 SCalPet.DisplayName: Calamitas Suprema
 Sparks.DisplayName: Faíscas
+// StarSwallowerPet.DisplayName: G30RG3 II
 ThirdSage.DisplayName: Terceiro Sábio
-YharonSonPet.DisplayName: Filho de Yharon
-// FrostyBatPet.DisplayName: Frosty Bat Friend
 // ToastyBatPet.DisplayName: Toasty Bat Friend
+YharonSonPet.DisplayName: Filho de Yharon
 // BurrowerPet.DisplayName: Burrower

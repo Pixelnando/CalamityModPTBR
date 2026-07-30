@@ -3,54 +3,50 @@ AbyssalWarhammer: {
 	Tooltip: ""
 }
 
+AcidwoodHammer: {
+	DisplayName: Martelo de Madeira Ácida
+	Tooltip: ""
+}
+
 AerialHamaxe: {
-	DisplayName: Martelo-Machado Aéreo
+	DisplayName: Martelo-machado Aéreo
 	Tooltip: ""
 }
 
-AstralHamaxe: {
-	DisplayName: Martelo-Machado Astral
-	Tooltip: ""
-}
-
-AstralPickaxe: {
-	DisplayName: Picareta Astral
-	Tooltip: ""
-}
-
-AxeofPurity: {
-	DisplayName: Machado da Pureza
+AggressiveVoucher: {
+	DisplayName: Vale-violência
 	Tooltip:
 		'''
-		Clique com o botão esquerdo para usar como ferramenta
-		Clique com o botão direito para purificar o mal
+		Marque este item como favorito em seu inventário para aumentar as chances de conseguir um modificador desejável
+		Este efeito só se aplica na reforja de acessórios
+		Modificador desejado: {0}
+		Modificadores selecionáveis: {1}
+		[c/aaaaaa:Segure Shift e <right> em seu inventário para alternar entre modificadores desejados]
+		'''
+	SalesPitch:
+		'''
+		'Aquele goblin que mora logo ali, ele tá te passando a perna, sabe? Mas não se preocupe, eu e o Hoggart temos uma solução para isso!'
+		'Só entregue isso pra ele e observe como ele martela seu equipamento como se tivesse sido atingido com uma inspiração divina! Seu item virará algo novinho em folha!'
 		'''
 }
 
-BeastialPickaxe: {
-	DisplayName: Picareta Bestial
-	Tooltip: ""
-}
-
-BerserkerWaraxe: {
-	DisplayName: Machado de Guerra Furioso
-	Tooltip: ""
-}
-
-BlossomPickaxe: {
-	DisplayName: Picareta Floral
-	Tooltip: Pode minerar Minério Áurico
-}
-
-BobbitHook: {
-	DisplayName: Gancho Bobbit
+AntiCystOintment: {
+	DisplayName: Pomada Anticisto
 	Tooltip:
 		'''
-		Retrai ao atingir uma peça com velocidades extremas
-		Alcance: 40,000 peças 
-		Velocidade de lançamento: 25,00
-		Velocidade de retorno: 28,00
-		Velocidade de tração: 24,00
+		Alterne este item para evitar que cistos-colmeia surjam próximos de você
+		<right> para alternar
+		[STATE]
+		'''
+}
+
+AntiTumorOintment: {
+	DisplayName: Pomada Antitumor
+	Tooltip:
+		'''
+		Alterne este item para evitar que tumores-colmeia surjam próximos de você
+		<right> para alternar
+		[STATE]
 		'''
 }
 
@@ -64,22 +60,126 @@ AridArtifact: {
 		'''
 }
 
+AstralHamaxe: {
+	DisplayName: Martelo-machado Astral
+	Tooltip: ""
+}
+
+AstralPickaxe: {
+	DisplayName: Picareta Astral
+	Tooltip: ""
+}
+
+AxeofPurity: {
+	DisplayName: Machado da Pureza
+	Tooltip:
+		'''
+		<left> para usar como ferramenta
+		<right> para purificar o mal
+		'''
+}
+
+Bakidon: {
+	DisplayName: Bakidon
+	Tooltip:
+		'''
+		Um artefato perdido que, segundo se diz, fixa os céus em certos pontos
+		<left> para congelar temporariamente a passagem do dia e da noite
+		Isso não funciona durante anomalias celestiais
+		O congelamento do tempo é recarregado enquanto não está em uso
+		'''
+}
+
+BallAndChain: {
+	DisplayName: Bola com Corrente
+	Tooltip:
+		'''
+		Alterne este item para desativar todas as investidas concedidas por equipamentos
+		<right> para alternar
+		[STATE]
+		'Que pesado...'
+		'''
+	// This is "backwards" because enabling this disables dashes
+	TooltipEnabled: As investidas estão desativadas
+	TooltipDisabled: As investidas estão ativadas
+}
+
+BeastialPickaxe: {
+	DisplayName: Picareta Bestial
+	Tooltip: ""
+}
+
+BerserkerWaraxe: {
+	DisplayName: Machado de Guerra Furioso
+	Tooltip: ""
+}
+
+BleachBall: {
+	DisplayName: Bola de Alvejante
+	Tooltip:
+		'''
+		Alterne este item para evitar que o Flagelo Aquático surja naturalmente
+		<right> para alternar
+		[STATE]
+		'''
+}
+
+BlossomPickaxe: {
+	DisplayName: Picareta Floral
+	Tooltip: Pode minerar Minério de Auricanita
+}
+
+BobbitHook: {
+	DisplayName: Gancho Bobbit
+	Tooltip:
+		'''
+		Retrai ao atingir uma peça com velocidades extremas
+		{$Common.GrappleStats}
+		'''
+}
+
+BrimstoneLocus: {
+	DisplayName: Lócus de Enxofre
+	Tooltip:
+		'''
+		[c/C61B40:Além de poder aprimorar seus equipamentos com magia poderosa,]
+		[c/C61B40:também posso transcender algumas de suas armas para formas inteiramente novas.]
+		[c/C61B40:Esses itens são revelados enquanto este item estiver em seu inventário.]
+		'''
+}
+
+BrokenWaterFilter: {
+	DisplayName: Filtro de Água Quebrado
+	Tooltip:
+		'''
+		Alterne este item para evitar que a Chuva Ácida ocorra
+		<right> para alternar
+		[STATE]
+		'''
+}
+
+CombatVoucher: {
+	DisplayName: Vale-vingança
+	Tooltip:
+		'''
+		Marque este item como favorito em seu inventário para aumentar as chances de conseguir um modificador desejável
+		Este efeito só se aplica na reforja de armas
+		'''
+	SalesPitch:
+		'''
+		'Aquele goblin que mora logo ali, ele tá te passando a perna, sabe? Mas não se preocupe, eu e o Hoggart temos uma solução para isso!'
+		'Só entregue isso pra ele e observe como ele martela seu equipamento como se tivesse sido atingido com uma inspiração divina! Seu item virará algo novinho em folha!'
+		'''
+}
+
 Cosmolight: {
 	DisplayName: Luz Cósmica
 	Tooltip:
 		'''
-		Avança o tempo imediatamente para o próximo amanhecer, meio-dia, anoitecer ou meia-noite
-		Não funciona enquanto um chefe está vivo
-		'''
-}
-
-TorrentialTear: {
-	DisplayName: Lágrima Torrencial
-	Tooltip:
-		'''
-		Invoca a chuva
-		A chuva começará um tempo depois que este item for usado
-		Se usado enquanto está chovendo, a chuva irá acabar após um tempo
+		Um artefato perdido recentemente reacendido pela exposição a energias cósmicas brutas
+		Segure <left> para acelerar drasticamente a passagem do dia e da noite
+		<right> para congelar indefinidamente a passagem do dia e da noite
+		O congelamento temporal dura para sempre e funciona durante anomalias celestiais
 		'''
 }
 
@@ -88,13 +188,28 @@ CrystylCrusher: {
 	Tooltip:
 		'''
 		Segure <right> para canalizar um feixe que destrói praticamente qualquer coisa
-		'Tenho que cavar mais rápido, tenho que ir mais profundo'
+		'Uma arma primitiva de uma era passada...'
 		'''
 }
 
+DisgustingMeat: {
+	DisplayName: Carne Nojenta
+	Tooltip:
+		'''
+		<left> removerá aprimoramentos de vida e mana; use sem aprimoramentos do Calamity para remover os aprimoramentos vanilla
+		<right> removerá aprimoramentos de fúria e adrenalina, além de outros reforços diversos como o Coração do Demônio
+		Os reforços removidos serão vomitados para fora de você como itens
+		'''
+}
+
+DriftwoodHammer: {
+	DisplayName: Martelo de Madeira à Deriva
+	Tooltip: Eficiência maior quando estiver molhado
+}
+
 FellerofEvergreens: {
-	DisplayName: Derruba-Árvores
-	Tooltip: ""
+	DisplayName: Derruba-árvores
+	Tooltip: Ocasionalmente derruba frutas adicionais ao chacoalhar árvores
 }
 
 Gelpick: {
@@ -104,14 +219,14 @@ Gelpick: {
 
 GenesisPickaxe: {
 	DisplayName: Picareta do Gênese
-	Tooltip: Pode minerar minério de ueliflor
+	Tooltip: "{$Common.CanMineUelibloom}"
 }
 
 Grax: {
 	DisplayName: Grax
 	Tooltip:
 		'''
-		Atingir um inimigo aumentará bastante a sua defesa, dano por ataque físico e chance de acerto crítico por ataque físico por um curto período de tempo
+		Atingir um inimigo aumenta seu dano em {0}% e a defesa em {1} por {2} segundos
 		Aperte <right> para utilizar sem martelar paredes ou quebrar árvores
 		'''
 }
@@ -119,6 +234,23 @@ Grax: {
 GreatbayPickaxe: {
 	DisplayName: Picareta da Grande Baía
 	Tooltip: Pode minerar Demonita, Carminita, Meteorito, Prismas Marinhos e Cristais de Prisma Marinho
+}
+
+HurriedVoucher: {
+	DisplayName: Vale-velocidade
+	Tooltip:
+		'''
+		Marque este item como favorito em seu inventário para aumentar as chances de conseguir um modificador desejável
+		Este efeito só se aplica na reforja de acessórios
+		Modificador desejado: {0}
+		Modificadores selecionáveis: {1}
+		[c/aaaaaa:Segure Shift e <right> em seu inventário para alternar entre modificadores desejados]
+		'''
+	SalesPitch:
+		'''
+		'Aquele goblin que mora logo ali, ele tá te passando a perna, sabe? Mas não se preocupe, eu e o Hoggart temos uma solução para isso!'
+		'Só entregue isso pra ele e observe como ele martela seu equipamento como se tivesse sido atingido com uma inspiração divina! Seu item virará algo novinho em folha!'
+		'''
 }
 
 InfernaCutter: {
@@ -135,7 +267,7 @@ MarniteDeconstructor: {
 	Tooltip:
 		'''
 		Seu motor gera raios de luz dura capazes de escavar paredes a longa distância
-		Ignora 10 pontos de defesa do inimigo
+		{$Common.ArmorPenetration}
 		'''
 }
 
@@ -143,22 +275,106 @@ MarniteObliterator: {
 	DisplayName: Obliterador de Marnito
 	Tooltip:
 		'''
-		Ele usa seu foco de diamante para projetar um feixe de luz de escavação de longo alcance
-		Ignora 5 pontos de defesa do inimigo
+		Usa um foco de diamante para projetar um feixe de luz de escavação de longo alcance
+		{$Common.ArmorPenetration}
+		'''
+}
+
+MomentumCapacitor: {
+	DisplayName: Capacitor de Momento
+	GFBName: Transgressor de Fardos
+	Tooltip: "[GFB]"
+	TooltipNormal:
+		'''
+		Enquanto usa o Capacitor de Momento,
+		sua velocidade máxima aumentará continuadamente e incontrolavelmente
+		Este efeito só funciona se não houverem chefes vivos
+		'''
+	TooltipGFB:
+		'''
+		Um momento bom
+		Vá rápido
+		AVISO: Pode ter resultados desastrosos
+		Só funciona se não houverem chefes vivos
+		'''
+}
+
+MonolithHammer: {
+	DisplayName: Martelo de Monólito
+	Tooltip: ""
+}
+
+NormalityRelocator: {
+	DisplayName: Realocador de Normalidade
+	Tooltip:
+		'''
+		Pressione [KEY] para se teletransportar à posição do cursor
+		A velocidade de queda é dobrada por 0,5 segundo após o teletransporte
+		O teletransporte é desativado caso o Estado de Caos esteja em efeito
+		Funciona no inventário
+		'Estarei aí em um piscar de olhos'
+		'''
+}
+
+OddVoucher: {
+	DisplayName: Vale-volátil
+	Tooltip:
+		'''
+		Marque este item como favorito em seu inventário para aumentar as chances de conseguir um modificador desejável
+		Este efeito só se aplica na reforja de acessórios
+		Modificador desejado: {0}
+		Modificadores selecionáveis: {1}
+		[c/aaaaaa:Segure Shift e <right> em seu inventário para alternar entre modificadores desejados]
+		'''
+	SalesPitch:
+		'''
+		'Aquele goblin que mora logo ali, ele tá te passando a perna, sabe? Mas não se preocupe, eu e o Hoggart temos uma solução para isso!'
+		'Só entregue isso pra ele e observe como ele martela seu equipamento como se tivesse sido atingido com uma inspiração divina! Seu item virará algo novinho em folha!'
 		'''
 }
 
 ReefclawHamaxe: {
-	DisplayName: Martelo-Machado da Garra do Recife
+	DisplayName: Martelo-machado da Garra do Recife
 	Tooltip: ""
 }
 
+RelicOfConvergence: {
+	DisplayName: Relíquia da Convergência
+	Tooltip:
+		'''
+		Cria um cristal profano no cursor que canaliza uma aura de cura antes de ser estilhaçado
+		Todos os jogadores dentro da área de efeito são curados em {0} de vida
+		Aliados recebem 50% de cura adicional
+		Segurar o cristal reduz o dano de todas as invocações, reduz a defesa e aumenta o dano recebido 
+		[c/FF8C00:Nunca na vida eu havia conhecido a bondade. Nem meus colegas nem minha família demonstravam a menor compaixão por mim.]
+		[c/FF8C00:Eu desejava alguém em quem pudesse confiar. Uma presença que me livrasse da ansiedade.]
+		[c/FF8C00:E quando vi o sorriso radiante dEla quando nos encontramos, soube que finalmente tinha encontrado o que procurava.]
+		'''
+}
+
+RelicOfResilience: {
+	DisplayName: Relíquia da Resiliência
+	Tooltip:
+		'''
+		Ao segurar este item, fragmentos de rocha orbitam ao seu redor e de aliados próximos
+		Depois de 5 segundos, a relíquia manterá rochas orbitantes mesmo sem segurar este item
+		Continuar segurando o item fará com que o número de pedras e defesas aumente gradualmente até atingir o poder máximo
+		Enquanto orbitam ao seu redor, sua defesa mínima é definida para 200 e a redução dos danos mínima para 10%
+		Sofrer um golpe ou apertar <right> atrairá os fragmentos e os lançará para fora, incapacitando os inimigos atingidos
+		Depois de sofrer danos, este efeito tem um tempo de recarga de 10 segundos que passará mais rápido caso segure o item
+		Manter o escudo erguido reduz muito o dano de todas as suas invocações 
+		[c/FF8C00:Presenciei um massacre e nada fiz para impedi-lo. Quebrei meu voto e fui ostracizado.]
+		[c/FF8C00:Minha vontade de seguir em frente desapareceu. Meu último desejo foi simplesmente não morrer sozinho.]
+		[c/FF8C00:Mas quando Ela depositou sua fé em meu escudo, eu nunca mais o deixaria vacilar.]
+		'''
+}
+
 SeismicHampick: {
-	DisplayName: Picareta-Martelo Sísmica
+	DisplayName: Picareta-martelo Sísmica
 	Tooltip:
 		'''
 		Capaz de minerar tijolos lagharto
-		Aperte <left> para usar como uma picareta
+		<left> para usar como uma picareta
 		Aperte <right> para usar como um martelo
 		'''
 }
@@ -168,14 +384,97 @@ ShardlightPickaxe: {
 	Tooltip: ""
 }
 
+SirenproofEarMuffs: {
+	DisplayName: Protetores de Orelhas Antissirene
+	Tooltip:
+		'''
+		Alterne este item para evitar que Anahita surja
+		<right> para alternar
+		[STATE]
+		'''
+}
+
 SkyfringePickaxe: {
 	DisplayName: Picareta da Beira dos Céus
 	Tooltip: Permite a mineração de pedras infernais
 }
 
+SulphurousSeaWorldSideChanger: {
+	DisplayName: Alternador de Lado de Mundo do Mar Sulfuroso
+	Tooltip:
+		'''
+		Invoque e use isto se seu oceano normal contar como um Mar Sulfuroso
+		Isto também corrigirá o Abismo, se houver algum problema com ele
+		'''
+}
+
+SuperDummy: {
+	DisplayName: Superboneco
+	Tooltip:
+		'''
+		Invoca um superboneco
+		Regenera 1 milhão de vida por segundo
+		Não morrerá se estiver sofrendo dano de efeitos negativos danosos
+		<right> para matar todos os superbonecos
+		Só é possível invocar 50 superbonecos por vez
+		'''
+}
+
 TectonicTruncator: {
 	DisplayName: Truncador Tectônico
 	Tooltip: ""
+}
+
+TheGift: {
+	DisplayName: O Presente
+	Tooltip:
+		'''
+		Deixe este presente perto de um de seus NPCs de cidade como um sinal de agradecimento
+		Pode fazê-lo amá-lo ou odiá-lo, você não saberá até que ele o abra!
+		O efeito durará 24 horas
+		'''
+	SalesPitch:
+		'''
+		'Comprar presentes para alguém é difícil, e você tem que garantir que seus cidadãos estejam felizes. Que tal matar dois coelhos numa tacada?'
+		'Entregue essa caixinha divertida para alguém e ela terá o presente perfeito para a pessoa a quem você o entregou!' 
+		'''
+}
+
+TorrentialTear: {
+	DisplayName: Lágrima Torrencial
+	Tooltip:
+		'''
+		Invoca a chuva
+		A chuva começará um tempo depois que este item for usado
+		Se usado enquanto está chovendo, a chuva irá acabar após um tempo
+		'''
+}
+
+UnbreakableVoucher: {
+	DisplayName: Vale-vigor
+	Tooltip:
+		'''
+		Marque este item como favorito em seu inventário para aumentar as chances de conseguir um modificador desejável
+		Este efeito só se aplica na reforja de acessórios
+		Modificador desejado: {0}
+		Modificadores selecionáveis: {1}
+		[c/aaaaaa:Segure Shift e <right> em seu inventário para alternar entre modificadores desejados]
+		'''
+	SalesPitch:
+		'''
+		'Aquele goblin que mora logo ali, ele tá te passando a perna, sabe? Mas não se preocupe, eu e o Hoggart temos uma solução para isso!'
+		'Só entregue isso pra ele e observe como ele martela seu equipamento como se tivesse sido atingido com uma inspiração divina! Seu item virará algo novinho em folha!'
+		'''
+}
+
+VoodooDemonVoodooDoll: {
+	DisplayName: Boneco Vodu do Demônio Vodu
+	Tooltip:
+		'''
+		Alterne este item para evitar que demônios vodu surjam por perto
+		<right> para alternar
+		[STATE]
+		'''
 }
 
 WulfrumDiggingTurtle: {
@@ -184,6 +483,7 @@ WulfrumDiggingTurtle: {
 		'''
 		Lança uma engenhoca de mineração frágil para cavar um pequeno túnel
 		Em caso de emergência, aperte <right> para detonar instantaneamente todas as suas tartarugas de escavação
+		A tartaruga escala com seu poder de picareta
 		'''
 }
 
@@ -196,7 +496,7 @@ WulfrumScaffoldKit: {
 	DisplayName: Kit de Andaime de Vulfrúmio
 	Tooltip:
 		'''
-		Coloca andaimes de metal temporários. Usa uma sucata de metal vulfrúmio para construir 40 peças
+		Coloca andaimes de metal temporários. Consome [i:CalamityMod/WulfrumMetalScrap] {$Items.Materials.WulfrumMetalScrap.DisplayName} para construir {0} peças
 		O andaime precisa estar adjacente a uma peça sólida para ser colocado
 		"Para quando você precisa de algo construído rapidamente e não precisa que dure."
 		'''
@@ -207,237 +507,6 @@ WulfrumTreasurePinger: {
 	Tooltip:
 		'''
 		Localiza metais que são mais valiosos que o vulfrúmio
-		A qualidade desta engenhoca parece incrívelmente ruim. [c/fc4903:Vai quebrar mais cedo que tarde com certeza]
+		A qualidade desta engenhoca parece incrívelmente ruim. [c/fc4903:Vai quebrar mais cedo que tarde, com certeza.]
 		'''
-}
-
-AcidwoodAxe: {
-	// DisplayName: Acidwood Axe
-	// Tooltip: ""
-}
-
-AcidwoodHammer: {
-	// DisplayName: Acidwood Hammer
-	// Tooltip: ""
-}
-
-AcidwoodPickaxe: {
-	// DisplayName: Acidwood Pickaxe
-	// Tooltip: ""
-}
-
-AntiCystOintment: {
-	// DisplayName: Anti-Cyst Ointment
-	/* Tooltip:
-		'''
-		Toggle this item to prevent hive cysts from spawning near you
-		Press <right> to toggle
-		[STATE]
-		''' */
-}
-
-AntiTumorOintment: {
-	// DisplayName: Anti-Tumor Ointment
-	/* Tooltip:
-		'''
-		Toggle this item to prevent hive tumors from spawning near you
-		Press <right> to toggle
-		[STATE]
-		''' */
-}
-
-Bakidon: {
-	// DisplayName: Bakidon
-	/* Tooltip:
-		'''
-		A lost artifact said to pin the heavens in place
-		<left> to freeze the passage of day and night temporarily
-		This does not work during celestial anomalies
-		The time freeze recharges while not in use
-		''' */
-}
-
-BallAndChain: {
-	// DisplayName: Ball and Chain
-	/* Tooltip:
-		'''
-		Toggle this item to disable any dashes granted by equipment
-		<right> to toggle
-		[STATE]
-		'So heavy...'
-		''' */
-	// This is "backwards" because enabling this disables dashes
-	// TooltipEnabled: Dashes are currently disabled
-	// TooltipDisabled: Dashes are currently enabled
-}
-
-BleachBall: {
-	// DisplayName: Bleach Ball
-	/* Tooltip:
-		'''
-		Toggle this item to prevent Aquatic Scourge from spawning
-		Press <right> to toggle
-		[STATE]
-		''' */
-}
-
-BrimstoneLocus: {
-	// DisplayName: Brimstone Locus
-	/* Tooltip:
-		'''
-		[c/C61B40:'Not only can I enhance your equipment with potent magic,]
-		[c/C61B40:I can also transcend some of your weaponry to entirely new forms.]
-		[c/C61B40:Such items are revealed while this item is in your inventory.']
-		''' */
-}
-
-BrokenWaterFilter: {
-	// DisplayName: Broken Water Filter
-	/* Tooltip:
-		'''
-		Toggle this item to prevent Acid Rain from occurring
-		Press <right> to toggle
-		[STATE]
-		''' */
-}
-
-DisgustingMeat: {
-	// DisplayName: Disgusting Meat
-	/* Tooltip:
-		'''
-		<left> will remove health and mana upgrades, use with no Calamity upgrades to remove vanilla upgrades
-		<right> will remove rage and adrenaline upgrades, plus other miscellaneous boosters
-		Removed boosters will be vomited out of you as items
-		''' */
-}
-
-DriftwoodAxe: {
-	// DisplayName: Driftwood Axe
-	// Tooltip: Improved efficiency while you are wet
-}
-
-DriftwoodHammer: {
-	// DisplayName: Driftwood Hammer
-	// Tooltip: Improved efficiency while you are wet
-}
-
-DriftwoodPickaxe: {
-	// DisplayName: Driftwood Pickaxe
-	// Tooltip: Improved efficiency while you are wet
-}
-
-MomentumCapacitor: {
-	// DisplayName: Momentum Capacitor
-	// GFBName: Burden Breaker
-	// Tooltip: "[GFB]"
-	/* TooltipNormal:
-		'''
-		While using the Momentum Capacitor,
-		your top speed will continuously and uncontrollably increase
-		This effect only works if there are no bosses alive
-		''' */
-	/* TooltipGFB:
-		'''
-		The good time
-		Go fast
-		WARNING: May have disastrous results
-		Only works if there are no bosses alive
-		''' */
-}
-
-MonolithAxe: {
-	// DisplayName: Monolith Axe
-	// Tooltip: ""
-}
-
-MonolithHammer: {
-	// DisplayName: Monolith Hammer
-	// Tooltip: ""
-}
-
-MonolithPickaxe: {
-	// DisplayName: Monolith Pickaxe
-	// Tooltip: ""
-}
-
-NormalityRelocator: {
-	// DisplayName: Normality Relocator
-	/* Tooltip:
-		'''
-		Press [KEY] to teleport to the position of the mouse
-		Fall speed is doubled for 0.5 seconds after teleporting
-		Teleportation is disabled while Chaos State is active
-		Works while in the inventory
-		'I'll be there in the blink of an eye'
-		''' */
-}
-
-RelicOfConvergence: {
-	// DisplayName: Relic of Convergence
-	/* Tooltip:
-		'''
-		Creates a profaned crystal at the cursor that channels a healing aura before shattering
-		All players within the area of effect are healed for {0} HP
-		Allies gain 50% extra healing
-		Holding out the crystal reduces the damage of all summons, decreases defense, and increases incoming damage
-		[c/FF8C00:Never once had I known kindness. Neither my peers or family had a shred of compassion for me.]
-		[c/FF8C00:I wished for someone I could confide. A presence that cleansed me of anxiety.]
-		[c/FF8C00:And when I saw Her radiant smile when we met, I knew I had finally found it.]
-		''' */
-}
-
-RelicOfResilience: {
-	// DisplayName: Relic of Resilience
-	/* Tooltip:
-		'''
-		Holding this item creates orbiting rock shards around you and nearby allies
-		While they orbit you, your minimum defense is set to 150 and minimum damage reduction to 10%
-		Taking a hit or pressing <right> will pull in the shards, then blast them outward, crippling hit enemies
-		This effect has a 10 second cooldown after taking a hit
-		Holding out the shield heavily reduces the damage of all summons while rocks are active, only for you
-		[c/FF8C00:I saw a massacre and did nothing to stop it. My vow broken, I was shunned.]
-		[c/FF8C00:My will to forge ahead vanished. My final wish was simply to not die alone.]
-		[c/FF8C00:But when She put faith in my shield, I would never again let it falter.]
-		''' */
-}
-
-SirenproofEarMuffs: {
-	// DisplayName: Sirenproof Earmuffs
-	/* Tooltip:
-		'''
-		Toggle this item to prevent Anahita from spawning
-		Press <right> to toggle
-		[STATE]
-		''' */
-}
-
-SulphurousSeaWorldSideChanger: {
-	// DisplayName: Sulphurous Sea World Side Changer
-	/* Tooltip:
-		'''
-		Spawn and use this if your regular ocean counts as a Sulphurous Sea
-		This will also fix the Abyss if it is broken
-		''' */
-}
-
-SuperDummy: {
-	// DisplayName: Super Dummy
-	/* Tooltip:
-		'''
-		Creates a super dummy
-		Regenerates 1 million life per second
-		Will not die when taking damage over time from debuffs
-		<right> to kill all super dummies
-		Can only spawn 50 super dummies at once
-		''' */
-}
-
-VoodooDemonVoodooDoll: {
-	// DisplayName: Voodoo Demon Voodoo Doll
-	/* Tooltip:
-		'''
-		Toggle this item to prevent voodoo demons from spawning near you
-		Press <right> to toggle
-		[STATE]
-		''' */
 }

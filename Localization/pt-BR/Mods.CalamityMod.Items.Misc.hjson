@@ -1,26 +1,61 @@
 // Critters
+AlphaSeaMinnowItem: {
+	DisplayName: "{$NPCs.AlphaSeaMinnow.DisplayName}"
+	Tooltip: ""
+}
+
+AlphaSeaMinnowGoldItem: {
+	DisplayName: "{$NPCs.AlphaSeaMinnowGold.DisplayName}"
+	Tooltip: ""
+}
+
 AndroombaItem: {
 	DisplayName: "{$Mods.CalamityMod.NPCs.Androomba.DisplayName}"
 	Tooltip:
 		'''
-		Pressione <right> no roomba com uma solução para inserí-la
+		<right> no roomba com uma solução para inserí-la
 		Enquanto uma solução estiver inserida, o roomba começará a espalhar seu conteúdo
 		'''
 }
 
 BabyCannonballJellyfishItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.BabyCannonballJellyfish.DisplayName}"
-	Tooltip: ""
+	DisplayName: "{$NPCs.BabyCannonballJellyfish.DisplayName}"
+	Tooltip: Pode ser disparada de canhões
 }
 
 BabyFlakCrabItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.BabyFlakCrab.DisplayName}"
+	DisplayName: "{$NPCs.BabyFlakCrab.DisplayName}"
 	Tooltip: ""
 }
 
 BabyGhostBellItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.BabyGhostBell.DisplayName}"
+	DisplayName: Sino Fantasma Bebê Azul
 	Tooltip: ""
+}
+
+BabyGhostBellGoldItem: {
+	// DisplayName: "{$NPCs.GoldBabyGhostBell}"
+	// Tooltip: ""
+}
+
+BabyGhostBellGreenItem: {
+	DisplayName: Sino Fantasma Bebê Verde
+	// Tooltip: ""
+}
+
+BabyGhostBellRadiantItem: {
+	// DisplayName: "{$NPCs.RadiantBabyGhostBell}"
+	// Tooltip: ""
+}
+
+BabyGhostBellPinkItem: {
+	DisplayName: Sino Fantasma Bebê Rosa
+	// Tooltip: ""
+}
+
+GildedAxolotlItem: {
+	DisplayName: Axolote Dourado
+	// Tooltip: ""
 }
 
 NanodroidDysfunctionalItem: {
@@ -29,7 +64,7 @@ NanodroidDysfunctionalItem: {
 }
 
 NanodroidItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.Nanodroid.DisplayName}"
+	DisplayName: "{$NPCs.Nanodroid.DisplayName}"
 	Tooltip: ""
 }
 
@@ -43,329 +78,18 @@ NanodroidPlagueRedItem: {
 	Tooltip: ""
 }
 
-PiggyItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.Piggy.DisplayName}"
-	Tooltip: ""
-}
-
-RepairUnitItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.RepairUnitCritter.DisplayName}"
-	Tooltip: ""
-}
-
-SeaMinnowItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.SeaMinnow.DisplayName}"
-	Tooltip: ""
-}
-
-TwinklerItem: {
-	DisplayName: "{$Mods.CalamityMod.NPCs.Twinkler.DisplayName}"
-	Tooltip: ""
-}
-
-// Permanent Boosters
-BloodOrange: {
-	DisplayName: Laranja de Sangue
-	Tooltip:
-		'''
-		Aumenta a vida máxima permanentemente em {0}
-		Só pode ser usada uma vez e requer que a quantidade máxima de frutas da vida seja consumida
-		Tem um sabor nitidamente doce e um aroma forte
-		'''
-}
-
-CelestialOnion: {
-	DisplayName: Cebola Celestial
-	Tooltip:
-		'''
-		Aumenta permanentemente a quanidade de espaços de acessório
-		Este item não faz nada no Modo Mestre
-		Poder alienígena pulsa dentro de suas camadas
-		'''
-}
-
-CometShard: {
-	DisplayName: Fragmento de Cometa
-	Tooltip:
-		'''
-		Aumenta a mana máxima permanentemente em {0}
-		Só pode ser usada uma vez e requer que a quantidade máxima de cristais de mana seja consumida
-		'''
-}
-
-Dragonfruit: {
-	DisplayName: Pitaia-do-Dragão
-	Tooltip:
-		'''
-		Aumenta a vida máxima permanentemente em {0}
-		Só pode ser usada uma vez e requer que a quantidade máxima de frutas da vida seja consumida
-		Embora um tanto insípido, o sabor que pode ser descrito é diferente de qualquer outro experienciado
-		'''
-}
-
-Ectoheart: {
-	DisplayName: Ectocoração
-	Tooltip:
-		'''
-		Aumenta o dano no Modo Adrenalina em 15% e a redução dos danos no Modo Adrenalina em 5% permanentemente
-		Espólio do modo Vingança
-		'''
-}
-
-Elderberry: {
-	DisplayName: Sabugueiro Ancião
-	Tooltip:
-		'''
-		Aumenta a vida máxima permanentemente em {0}
-		Só pode ser usada uma vez e requer que a quantidade máxima de frutas da vida seja consumida
-		Um sabor picante e ácido com um toque de terra
-		'''
-}
-
-ElectrolyteGelPack: {
-	DisplayName: Pacote de Gel Eletrólito
-	Tooltip:
-		'''
-		Aumenta o dano no Modo Adrenalina em 15% e a redução dos danos no Modo Adrenalina em 5% permanentemente
-		Espólio do modo Vingança
-		'''
-}
-
-EtherealCore: {
-	DisplayName: Núcleo Etéreo
-	Tooltip:
-		'''
-		Aumenta a mana máxima permanentemente em {0}
-		Só pode ser usada uma vez e requer que a quantidade máxima de cristais de mana seja consumida
-		'''
-}
-
-InfernalBlood: {
-	DisplayName: Sangue Infernal
-	Tooltip:
-		'''
-		Aumenta a duração do modo Fúria em 1 segundo permanentemente
-		Espólio do modo Vingança
-		'''
-}
-
-MiracleFruit: {
-	DisplayName: Fruta do Milagre
-	Tooltip:
-		'''
-		Aumenta a vida máxima permanentemente em {0}
-		Só pode ser usada uma vez e requer que a quantidade máxima de frutas da vida seja consumida
-		Refrescante e fria, com um gostinho de menta
-		'''
-}
-
-MushroomPlasmaRoot: {
-	DisplayName: Raiz de Plasma de Cogumelo
-	Tooltip:
-		'''
-		Aumenta a duração do modo Fúria em 1 segundo permanentemente
-		Espólio do modo Vingança
-		'''
-}
-
-PhantomHeart: {
-	DisplayName: Coração Fantasma
-	Tooltip:
-		'''
-		Aumenta a mana máxima permanentemente em {0}
-		Só pode ser usada uma vez e requer que a quantidade máxima de cristais de mana seja consumida
-		'''
-}
-
-RedLightningContainer: {
-	DisplayName: Recipiente de Relâmpago Vermelho
-	Tooltip:
-		'''
-		Aumenta a duração do modo Fúria em 1 segundo permanentemente
-		Espólio do modo Vingança
-		'''
-}
-
-StarlightFuelCell: {
-	DisplayName: Célula de Combustível da Luz das Estrelas
-	Tooltip:
-		'''
-		Aumenta o dano no Modo Adrenalina em 15% e a redução dos danos no Modo Adrenalina em 5% permanentemente
-		Espólio do modo Vingança
-		'''
-}
-
-// Spawn Blockers
-SpawnBlockersOn: O surgimento está desativado no momento
-SpawnBlockersOff: O surgimento está ativado no momento
-
-AntiCystOintment: {
-	DisplayName: Pomada Anti-Cistos
-	Tooltip: Marque este item como favorito para evitar que cistos de perfurador surjam perto de você
-}
-
-AntiTumorOintment: {
-	DisplayName: Pomada Anti-Tumores
-	Tooltip: Marque este item como favorito para evitar que tumores da colmeia surjam perto de você
-}
-
-BleachBall: {
-	DisplayName: Bola de Alvejante
-	Tooltip: Marque este item como favorito para evitar que a Praga Aquática surja naturalmente perto de você
-}
-
-BrokenWaterFilter: {
-	DisplayName: Filtro de Água Quebrado
-	Tooltip: Marque este item como favorito para desabilitar invocações de Chuvas Ácidas naturais
-}
-
-SirenproofEarMuffs: {
-	DisplayName: Protetor de Ouvido Anti-Sereias
-	Tooltip: Marque este item como favorito para evitar que Anahita surja perto de você
-}
-
-VoodooDemonVoodooDoll: {
-	DisplayName: Boneco de Vodu do Demônio Vodu
-	Tooltip: Marque este item como favorito para evitar que demônios vodu surjam perto de você
-}
-
-// Uncategorized
-BallAndChain: {
-	DisplayName: Bola e Corrente
-	Tooltip:
-		'''
-		Marque este item como favorito para desabilitar quaisquer corridas concedidas por equipamentos
-		'Que pesado...'
-		'''
-}
-
-BrimstoneLocus: {
-	DisplayName: Vidente de Enxofre
-	Tooltip:
-		'''
-		[c/C61B40:'Não só posso aprimorar seu equipamento com magia potente,]
-		[c/C61B40:como também posso transcender alguns de seus armamentos a formas completamente novas.]
-		[c/C61B40:Tais itens são revelados enquanto este item está em seu inventário.']
-		'''
-}
-
-ColdheartIcicle: {
-	DisplayName: Gelo do Coração Gelado
-	Tooltip: "'É de dar calafrios'"
-}
-
-MomentumCapacitor: {
-	DisplayName: Capacitor de Impulso
-	Tooltip:
-		'''
-		Enquanto você usa o Capacitor de Impulso,
-		sua velocidade máxima irá aumentar continuamente e incontrolavelmente
-		Este feito só funciona enquanto não há chefes vivos
-		'''
-}
-
-NormalityRelocator: {
-	DisplayName: Realocador de Normalidade
-	Tooltip:
-		'''
-		Pressione [KEY] para teleportar-se à posição do mouse
-		A velocidade da queda é dobrada por 30 quadros depois do teleporte
-		A teleportação é desabilitada enquanto o Estado de caos está ativo
-		Funciona enquanto estiver no inventário
-		'Estarei lá em um piscar de olhos'
-		'''
-}
-
-RelicOfConvergence: {
-	DisplayName: Relíquia da Convergência
-	Tooltip:
-		'''
-		Cria um cristal profano que carrega poder
-		Segurar o cristal deixa o jogador mais lento
-		No final de sua vida, o cristal cura o jogador em 70 de vida
-		'''
-}
-
-Rock: {
-	DisplayName: Rocha
-	Tooltip:
-		'''
-		Quando a batalha finalmente terminou, a poeira começou a baixar
-		Onde até a pedra recusou o curso do tempo, lá estava sentado um monge
-		Que se atreveu a questionar a história e encarar o destino
-		'Qual é o verdadeiro preço do passado ser eterno?
-		Por que nosso futuro deve nos assombrar para sempre?'
-		'''
-}
-
-SulphurousSeaWorldSideChanger: {
-	DisplayName: Trocador do Lado do Mundo do Mar Sulfuroso
-	Tooltip:
-		'''
-		Invoque e utilize isto se seu oceano normal conta como um mar sulfuroso
-		Isto também consertará o Abismo se ele estiver quebrado
-		'''
-}
-
-SuperDummy: {
-	DisplayName: Super Boneco
-	Tooltip:
-		'''
-		Cria um super boneco
-		Regenera 1 milhão de vida por segundo
-		Não morrerá ao receber dano ao longo do tempo de efeitos negativos
-		Pressione <right> para matar todos os super bonecos
-		'''
-}
-
-// Critters
-AlphaSeaMinnowItem: {
-	// DisplayName: "{$NPCs.AlphaSeaMinnow.DisplayName}"
-	// Tooltip: ""
-}
-
-AlphaSeaMinnowGoldItem: {
-	// DisplayName: "{$NPCs.AlphaSeaMinnowGold.DisplayName}"
-	// Tooltip: ""
-}
-
-BabyGhostBellGoldItem: {
-	// DisplayName: "{$NPCs.GoldBabyGhostBell}"
-	// Tooltip: ""
-}
-
-BabyGhostBellGreenItem: {
-	// DisplayName: Green Baby Ghost Bell
-	// Tooltip: ""
-}
-
-BabyGhostBellRadiantItem: {
-	// DisplayName: "{$NPCs.RadiantBabyGhostBell}"
-	// Tooltip: ""
-}
-
-BabyGhostBellPinkItem: {
-	// DisplayName: Pink Baby Ghost Bell
-	// Tooltip: ""
-}
-
-GildedAxolotlItem: {
-	// DisplayName: Gilded Axolotl
-	// Tooltip: ""
-}
-
 PearlpodBlackItem: {
-	// DisplayName: Black Pearlpod
+	DisplayName: Vagem-de-pérolas Preta
 	// Tooltip: ""
 }
 
 PearlpodItem: {
-	// DisplayName: White Pearlpod
+	DisplayName: Vagem-de-pérolas Branca
 	// Tooltip: ""
 }
 
 PearlpodPinkItem: {
-	// DisplayName: Pink Pearlpod
+	DisplayName: Vagem-de-pérolas Rosa
 	// Tooltip: ""
 }
 
@@ -375,17 +99,17 @@ PolypPanaseaGoldItem: {
 }
 
 PolypPanaseaGreenItem: {
-	// DisplayName: Green Polyp Panasea
+	DisplayName: Panaceia de Pólipos Verde
 	// Tooltip: ""
 }
 
 PolypPanaseaItem: {
-	// DisplayName: Red Polyp Panasea
+	DisplayName: Panaceia de Pólipos Vermelha
 	// Tooltip: ""
 }
 
 PolypPanaseaPurpleItem: {
-	// DisplayName: Purple Polyp Panasea
+	DisplayName: Panaceia de Pólipos Roxa
 	// Tooltip: ""
 }
 
@@ -395,12 +119,22 @@ PolypPanaseaRadiantItem: {
 }
 
 PolypPanaseaTurquoiseItem: {
-	// DisplayName: Turquoise Polyp Panasea
+	DisplayName: Panaceia de Pólipos Turquesa
+	// Tooltip: ""
+}
+
+PiggyItem: {
+	DisplayName: "{$NPCs.Piggy.DisplayName}"
+	Tooltip: ""
+}
+
+PiggyGoldItem: {
+	// DisplayName: "{$NPCs.PiggyGold.DisplayName}"
 	// Tooltip: ""
 }
 
 PrismaticGuppyBlueItem: {
-	// DisplayName: Blue Prismatic Guppy
+	DisplayName: Guppy Prismático Azul
 	// Tooltip: ""
 }
 
@@ -410,12 +144,12 @@ PrismaticGuppyGoldItem: {
 }
 
 PrismaticGuppyGreenItem: {
-	// DisplayName: Green Prismatic Guppy
+	DisplayName: Guppy Prismático Verde
 	// Tooltip: ""
 }
 
 PrismaticGuppyPinkItem: {
-	// DisplayName: Pink Prismatic Guppy
+	DisplayName: Guppy Prismático Rosa
 	// Tooltip: ""
 }
 
@@ -434,9 +168,19 @@ ProbesnoutItem: {
 	// Tooltip: ""
 }
 
+RepairUnitItem: {
+	DisplayName: "{$NPCs.RepairUnitCritter.DisplayName}"
+	Tooltip: ""
+}
+
 SeaFloatyItem: {
 	// DisplayName: "{$NPCs.SeaFloaty.DisplayName}"
 	// Tooltip: ""
+}
+
+SeaMinnowItem: {
+	DisplayName: "{$NPCs.SeaMinnow.DisplayName}"
+	Tooltip: ""
 }
 
 SeaMinnowGoldItem: {
@@ -460,67 +204,138 @@ ShroombleItem: {
 }
 
 SlugbunBurrowsItem: {
-	// DisplayName: Burrows Slugbun
-	// Tooltip: ""
+	DisplayName: Coelesma da Toca
+	Tooltip: ""
 }
 
 SlugbunItem: {
-	// DisplayName: Reef Slugbun
-	// Tooltip: ""
+	DisplayName: Coelesma do Recife
+	Tooltip: ""
 }
 
 SlugbunPolypItem: {
-	// DisplayName: Polyp Slugbun
-	// Tooltip: ""
+	DisplayName: Coelesma de Pólipos
+	Tooltip: ""
 }
 
 SlugbunRadiantItem: {
-	// DisplayName: "{$NPCs.RadiantSlugbun}"
-	// Tooltip: ""
+	DisplayName: "{$NPCs.RadiantSlugbun}"
+	Tooltip: ""
+}
+
+TwinklerItem: {
+	DisplayName: "{$NPCs.Twinkler.DisplayName}"
+	Tooltip: ""
 }
 
 // Permanent Boosters
-// AdrenalineBoosterTooltip: Permanently increases {$Buffs.AdrenalineMode.DisplayName} damage by {0}% and damage reduction by {1}%
-// RageBoosterTooltip: Permanently increases the duration of {$Buffs.RageMode.DisplayName} by {0} second
+AdrenalineBoosterTooltip: Aumenta permanentemente a o dano da {$Buffs.AdrenalineMode.DisplayName} em {0}% e a redução dos danos em {1}%
+RageBoosterTooltip: Aumenta permanentemente a duração da {$Buffs.RageMode.DisplayName} em {0} segundo
+
+CelestialOnion: {
+	DisplayName: Cebola Celestial
+	Tooltip:
+		'''
+		Aumenta permanentemente a quantidade de espaços de acessório
+		No Modo Mestre, o item ativa o espaço de acessório do Coração do Demônio no lugar
+		Poder alienígena pulsa dentro de suas camadas
+		'''
+}
+
+CometShard: {
+	DisplayName: Fragmento de Cometa
+	Tooltip:
+		'''
+		Aumenta a mana máxima permanentemente em {0}
+		Só pode ser usada uma vez e requer que a quantidade máxima de Cristais de Mana seja consumida
+		'''
+}
+
+Ectoheart.DisplayName: Ectocoração
+ElectrolyteGelPack.DisplayName: Pacote de Gel Eletrólito
+
+EtherealCore: {
+	DisplayName: Núcleo Etéreo
+	Tooltip:
+		'''
+		Aumenta a mana máxima permanentemente em {0}
+		Só pode ser usada uma vez e requer que a quantidade máxima de Cristais de Mana seja consumida
+		'''
+}
+
+InfernalBlood.DisplayName: Sangue Infernal
+
+MiracleFruit: {
+	DisplayName: Fruta do Milagre
+	Tooltip:
+		'''
+		Aumenta a vida máxima permanentemente em {0}
+		Só pode ser usada uma vez e requer que a quantidade máxima de Frutas da Vida seja consumida
+		Refrescante e fria, com um gostinho de menta
+		'''
+}
+
+MushroomPlasmaRoot.DisplayName: Raiz de Plasma de Cogumelo
+
+PhantomHeart: {
+	DisplayName: Coração Fantasma
+	Tooltip:
+		'''
+		Aumenta a mana máxima permanentemente em {0}
+		Só pode ser usada uma vez e requer que a quantidade máxima de Cristais de Mana seja consumida
+		'''
+}
+
+RedLightningContainer.DisplayName: Recipiente de Relâmpago Vermelho
 
 SacredStrawberry: {
-	// DisplayName: Sacred Strawberry
-	/* Tooltip:
+	DisplayName: Morango Sagrado
+	Tooltip:
 		'''
-		Permanently increases maximum life by {0}
-		Can only be used once and requires the max amount of Life Fruits consumed
-		Though somewhat bland, what taste can be described is unlike any other experienced
-		''' */
+		Aumenta a mana máxima permanentemente em {0}
+		Só pode ser usada uma vez e requer que a quantidade máxima de Frutas da Vida seja consumida
+		Embora um tanto insosso, o sabor que se pode descrever é diferente de qualquer outra experiência
+		'''
 }
 
 SanguineTangerine: {
-	// DisplayName: Sanguine Tangerine
-	/* Tooltip:
+	DisplayName: Tangerina Sanguínea
+	Tooltip:
 		'''
-		Permanently increases maximum life by {0}
-		Can only be used once and requires the max amount of Life Fruits consumed
-		It has a distinctly sweet flavor and a strong aroma
-		''' */
+		Aumenta a mana máxima permanentemente em {0}
+		Só pode ser usada uma vez e requer que a quantidade máxima de Frutas da Vida seja consumida
+		Possui um sabor distintamente doce e um aroma forte
+		'''
 }
+
+StarlightFuelCell.DisplayName: Célula de Combustível da Luz das Estrelas
 
 TaintedCloudberry: {
-	// DisplayName: Tainted Cloudberry
-	/* Tooltip:
+	DisplayName: Amora-silvestre Manchada
+	Tooltip:
 		'''
-		Permanently increases maximum life by {0}
-		Can only be used once and requires the max amount of Life Fruits consumed
-		A tangy, tart flavor with a somewhat earthen touch
-		''' */
+		Aumenta a mana máxima permanentemente em {0}
+		Só pode ser usada uma vez e requer que a quantidade máxima de Frutas da Vida seja consumida
+		Um sabor picante e ácido com um toque terroso
+		'''
 }
 
+// Spawn Blockers
+SpawnBlockersOn: O surgimento está desativado no momento
+SpawnBlockersOff: O surgimento está ativado no momento
 // Uncategorized
-/* ExhumeShortTooltip:
+ExhumeShortTooltip:
 	'''
-	[c/C61B40:'Ah, are you curious what I saw within this item?']
-	[c/BABABA:Hold Shift to listen]
-	''' */
-/* LegendaryShortTooltip:
+	[c/C61B40:'Ah, curioso para saber o que eu vi dentro deste item?']
+	[c/BABABA:Segure Shift para escutar]
 	'''
-	[c/FF6F00:Tales of legends past radiate around you...]
-	[c/BABABA:Hold Shift to listen closer]
-	''' */
+LegendaryShortTooltip:
+	'''
+	[c/FF6F00:Contos de lendas do passado raiam ao seu redor...]
+	[c/BABABA:Segure Shift para escutar de perto]
+	'''
+
+DisgustingSlop: {
+	DisplayName: Restos Nojentos
+	Tooltip: Podem ser extraídos
+}

@@ -10,15 +10,6 @@ SetBonus: {
 		Melee: 15% de aumento na velocidade dos ataques físicos e 20% de aumento na velocidade dos movimentos
 	}
 
-	Chlorophyte:
-		'''
-		Invoca um poderoso cristal de folha para disparar pulsos vitais a cada {0} segundos
-		Os pulsos causam um dano básico de {1} a inimigos no seu alcance
-		Os pulsos também concedem um reforço de {2} de vida a você e a todos os jogadores no seu time
-		Jogadores curados por pulsos não podem ser curados por outros pulsos até que {3} segundos tenham passado
-		O reforço de vida e o dano aumentam de acordo com a sua classe mais poderosa
-		'''
-
 	Cobalt: {
 		$parentVal:
 			'''
@@ -41,6 +32,17 @@ SetBonus: {
 		Inimigos gelados causam menos dano de contato ao jogador
 		Concede imunidade aos efeitos negativos Resfriado, Congelado, Queimadura de gelo, e Estado glacial
 		'''
+	/* Rain:
+		'''
+		24% increased jump speed and allows auto-jump
+		Jumping creates a puddle splash that damages and knocks back enemies
+		This splash is stronger if it is raining
+		''' */
+	/* Forbidden:
+		'''
+		{$LegacyTooltip.48} {0} to call an ancient storm to the cursor location
+		Minions no longer deal less damage while wielding magic weapons
+		''' */
 	Frost:
 		'''
 		Os ataques físicos e à distância causam queimadura de gelo
@@ -83,6 +85,11 @@ SetBonus: {
 		10% de aumento na velocidade do ataque físico, chance de acerto crítico físico, e dano por ataque físico
 		15% de aumento nos danos por invocação
 		'''
+	MonkTier3:
+		'''
+		10% de aumento nos danos por ataque físico, chance de acerto crítico físico e velocidade do ataque físico
+		30% de aumento nos danos por invocação
+		'''
 	Mythril:
 		'''
 		Atingir o inimigo fará com que sinalizadores de mithril sejam liberados, que seguirão o inimigo após um curto período de tempo
@@ -110,7 +117,6 @@ SetBonus: {
 		Grants +2 HP/s life regeneration after striking an enemy
 		This life regeneration bypasses negative life regeneration
 		''' */
-	PlatinumChainmail: 3% de aumento na chance de acerto crítico
 	Platinum:
 		'''
 		Cada 10 pontos de defesa lhe concede regeneração de +0,5 de vida por segundo, 1% de aumento nos danos e 1% de aumento na chance de acerto crítico
@@ -131,50 +137,20 @@ SetBonus: {
 		Bônus atual: {0}% de aumento na chance de acerto crítico de {1} de recuo
 		'''
 	MagicHat: Aumenta a mana máxima em 40
+	/* Vortex:
+		'''
+		{$LegacyTooltip.48} {0} to toggle stealth,
+		increasing ranged ability and reducing chance for enemies to target you but slowing movement speed
+		''' */
 	Wizard: 4% de aumento na chance de acerto crítico mágico
 	CrystalAssassin:
 		'''
 		Permite realizar uma investida
 		10% de aumento nos danos e na chance de acerto crítico
 		'''
-	SquireTier2:
-		'''
-		Aumenta sua regeneração de vida
-		15% de aumento nos danos por invocação e 10% de aumento na chance de acerto crítico físico
-		'''
-	HuntressTier2: 10% de aumento nos danos por invocação e no dano por ataque à distância
-	ApprenticeTier2: 5% de aumento nos danos por invocação e 15% de aumento na chance de acerto mágico crítico
-	MonkTier3:
-		'''
-		10% de aumento nos danos por ataque físico, chance de acerto crítico físico e velocidade do ataque físico
-		30% de aumento nos danos por invocação
-		'''
-	SquireTier3:
-		'''
-		Aumenta de forma significativa a regeneração de vida
-		10% de aumento nos danos por invocação e na chance de acerto crítico físico
-		'''
-	HuntressTier3: 10% de aumento nos danos por invocação e ataque à distância
-	ApprenticeTier3: 10% de aumento nos danos por invocação e 15% de aumento na chance de acerto crítico mágico
 	SpectreHealing:
 		'''
 		Reduz o dano por Magia em 20% e converte-o em força de cura
 		O dano por magia causado a inimigos cura o jogador com menos vida restante
 		'''
-	/* Rain:
-		'''
-		24% increased jump speed and allows auto-jump
-		Jumping creates a puddle splash that damages and knocks back enemies
-		This splash is stronger if it is raining
-		''' */
-	/* Forbidden:
-		'''
-		{$LegacyTooltip.48} {0} to call an ancient storm to the cursor location
-		Minions no longer deal less damage while wielding magic weapons
-		''' */
-	/* Vortex:
-		'''
-		{$LegacyTooltip.48} {0} to toggle stealth,
-		increasing ranged ability and reducing chance for enemies to target you but slowing movement speed
-		''' */
 }

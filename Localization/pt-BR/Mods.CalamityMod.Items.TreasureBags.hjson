@@ -14,7 +14,7 @@ AstrumDeusBag: {
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
-BrimstoneWaifuBag: {
+BrimstoneElementalBag: {
 	DisplayName: Bolsa do Tesouro (Elemental de Enxofre)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
@@ -55,12 +55,12 @@ DevourerofGodsBag: {
 }
 
 DraedonBag: {
-	DisplayName: Caixa do Tesouro (Exo-Mecas)
+	DisplayName: Caixa do Tesouro (Mecas Exo)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 DragonfollyBag: {
-	DisplayName: Bolsa do Tesouro (O Dragão-Folião)
+	DisplayName: Bolsa do Tesouro (O Dragão-folião)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -115,7 +115,7 @@ SlimeGodBag: {
 }
 
 StormWeaverBag: {
-	DisplayName: Bolsa do Tesouro (Explorador Tempestuoso)
+	DisplayName: Bolsa do Tesouro (Tecelão de Tempestades)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
@@ -130,15 +130,6 @@ AbyssalTreasure: {
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
-BleachedAnglingKit: {
-	DisplayName: Kit de Pesca Branqueado
-	Tooltip:
-		'''
-		Tem a chance de conter vários equipamentos de pesca
-		{$CommonItemTooltip.RightClickToOpen}
-		'''
-}
-
 FleshyGeode: {
 	DisplayName: Geodo Carnudo
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
@@ -149,15 +140,6 @@ NecromanticGeode: {
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
-SandyAnglingKit: {
-	DisplayName: Kit de Pesca Arenoso
-	Tooltip:
-		'''
-		Tem a chance de conter vários equipamentos de pesca
-		{$CommonItemTooltip.RightClickToOpen}
-		'''
-}
-
 StarterBag: {
 	DisplayName: Bolsa de Iniciante
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
@@ -166,9 +148,4 @@ StarterBag: {
 SulphuricTreasure: {
 	DisplayName: Tesouro Sulfúrico
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-}
-
-BrimstoneElementalBag: {
-	// DisplayName: Treasure Bag (Brimstone Elemental)
-	// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }

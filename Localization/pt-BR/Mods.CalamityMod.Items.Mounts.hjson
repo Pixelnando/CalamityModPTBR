@@ -3,11 +3,20 @@ Brimrose: {
 	Tooltip: Invoca uma rosa de enxofre que pode ser montada
 }
 
-ExoThrone: {
-	DisplayName: Exo-Caixa
+ExoArmamentsKit: {
+	DisplayName: Kit de Armamentos Exo
 	Tooltip:
 		'''
-		Materializa um Exo-Trono bem aconchegante e extremamente ágil
+		Invoca uma máquina de guerra que pode ser montada
+		'Uma superarma perfeita para o seu porte'
+		'''
+}
+
+ExoThrone: {
+	DisplayName: Caixa Exo
+	Tooltip:
+		'''
+		Materializa um Trono Exo bem aconchegante e extremamente ágil
 		Segure [KEY] enquanto estiver sentado no trono para movimentar-se mais lento para obter mais precisão
 		'Um gamer confortável é um gamer perigoso'
 		'''
@@ -15,15 +24,15 @@ ExoThrone: {
 
 FollyFeed: {
 	DisplayName: Comida de Bobos
-	Tooltip: Invoca uma monstruosidade
+	Tooltip: Invoca uma monstruosidade que pode ser montada
 }
 
 GazeOfCrysthamyr: {
 	DisplayName: Olhar de Crysthamyr
 	Tooltip:
 		'''
-		Invoca um dragão das sombras
-		Segure W para ascender mais rápido
+		Invoca um dragão das sombras que pode ser montado
+		Segure {$Key.UP} para ascender mais rápido
 		'''
 }
 
@@ -36,10 +45,10 @@ OnyxExcavatorKey: {
 	DisplayName: Chave da Escavadeira de Ônix
 	Tooltip:
 		'''
-		Invoca uma broca para perfurar o mundo para que você possa destruir toda a geração de mundo pura
-		com total desconsideração por todas as criaturas que habitam essas terras. Tenho certeza que a EPA
-		e a PETA gostariam de ter uma palavra com você depois.
-		O poder da destruição aumenta com a picareta de maior potência em seu inventário
+		Invoca uma Furadeira de Ônix que pode ser montada
+		Segure <left> para furar blocos enquanto se movimenta horizontalmente ou para baixo
+		O poder da picareta e a velocidade de mineração da furadeira seguem a melhor picareta do seu inventário
+		'Demolir irresponsavelmente todo o belíssimo terreno e causar uma devastação ecológica descontrolada? Esplêndido'
 		'''
 }
 
@@ -50,14 +59,5 @@ SuspiciousLookingJellyBean: {
 
 TundraLeash: {
 	DisplayName: Coleira da Tundra
-	Tooltip: Invoca um Cão-da-Geada que pode ser montado
-}
-
-ExoArmamentsKit: {
-	// DisplayName: Exo Armaments Kit
-	/* Tooltip:
-		'''
-		Summons a rideable war machine
-		'A superweapon just right for your stature'
-		''' */
+	Tooltip: Invoca um Cão-da-geada que pode ser montado
 }

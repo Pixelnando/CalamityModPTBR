@@ -53,11 +53,6 @@ BloodOrb: {
 	Tooltip: ""
 }
 
-BloodSample: {
-	DisplayName: Blood Sample
-	Tooltip: ""
-}
-
 Bloodstone: {
 	DisplayName: Bloodstone
 	Tooltip: ""
@@ -70,21 +65,6 @@ BloodstoneCore: {
 
 CoreofCalamity: {
 	DisplayName: Core of Calamity
-	Tooltip: ""
-}
-
-CoreofEleum: {
-	DisplayName: Core of Eleum
-	Tooltip: ""
-}
-
-CoreofHavoc: {
-	DisplayName: Core of Havoc
-	Tooltip: ""
-}
-
-CoreofSunlight: {
-	DisplayName: Core of Sunlight
 	Tooltip: ""
 }
 
@@ -111,11 +91,6 @@ DarkPlasma: {
 DarksunFragment: {
 	DisplayName: Darksun Fragment
 	Tooltip: An impacted crystal suffused with opposing celestial energies
-}
-
-DemonicBoneAsh: {
-	DisplayName: Demonic Bone Ash
-	Tooltip: ""
 }
 
 DepthCells: {
@@ -168,11 +143,6 @@ ExoPrism: {
 	Tooltip: Fractal energies shimmer across its surface
 }
 
-GalacticaSingularity: {
-	DisplayName: Galactica Singularity
-	Tooltip: A shard of the cosmos
-}
-
 GrandScale: {
 	DisplayName: Grand Scale
 	Tooltip: Large scale of an apex predator
@@ -200,12 +170,7 @@ Lumenyl: {
 
 MeldBlob: {
 	DisplayName: Meld Blob
-	Tooltip: ""
-}
-
-MeldConstruct: {
-	DisplayName: Meld Construct
-	Tooltip: ""
+	Tooltip: "'Shrieks of distorted memories echo within this mass' "
 }
 
 MiracleMatter: {
@@ -220,11 +185,6 @@ MiracleMatter: {
 MolluskHusk: {
 	DisplayName: Mollusk Husk
 	Tooltip: The remains of a mollusk
-}
-
-MurkyPaste: {
-	DisplayName: Murky Paste
-	Tooltip: ""
 }
 
 MysteriousCircuitry: {
@@ -270,11 +230,6 @@ PurifiedGel: {
 ReaperTooth: {
 	DisplayName: Reaper Tooth
 	Tooltip: Sharp enough to cut diamonds
-}
-
-RottenMatter: {
-	DisplayName: Rotten Matter
-	Tooltip: ""
 }
 
 RuinousSoul: {
@@ -325,11 +280,6 @@ SuspiciousScrap: {
 TitanHeart: {
 	DisplayName: Titan Heart
 	Tooltip: Can be offered up at the Astral Beacon
-}
-
-TrapperBulb: {
-	DisplayName: Trapper Bulb
-	Tooltip: ""
 }
 
 TwistingNether: {

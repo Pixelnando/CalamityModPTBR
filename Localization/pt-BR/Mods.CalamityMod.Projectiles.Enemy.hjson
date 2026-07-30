@@ -1,5 +1,8 @@
+// AnglerFlash.DisplayName: Angler Flash
 AstralMeteorProj.DisplayName: Meteoro Astral
 BelchingCoralSpike.DisplayName: Espinho
+// CarrionPus.DisplayName: Carrion Pus
+// ClamBubbleBlast.DisplayName: Clam Bubble Blast
 CrabBoulder.DisplayName: Rochedo
 CragmawAcidDrop.DisplayName: Ácido
 CragmawBeam.DisplayName: Raio Gama
@@ -15,9 +18,21 @@ FlameBurstHostile.DisplayName: Explosão
 GammaAcid.DisplayName: Ácido
 GammaBeam.DisplayName: Raio Gama
 GammaRayBurst.DisplayName: FEIXE DE COMBUSTÍVEL G.
+// GhostBellShock.DisplayName: Electrical Field
+// HorribleHogChargeHitbox.DisplayName: Horrible Hog
+// HorribleHogRubble.DisplayName: Rubble
+// HorribleHogShockwave.DisplayName: Sinister Swine Shockwave
+// HorribleHogShockwaveSpawner.DisplayName: Horrible Hog Shockwave Spawner
+// HorribleHogVomitBomb.DisplayName: Barf Bomb
+// HorribleHogVomitChunk.DisplayName: Horrible Hog's Leftovers
+// HorribleHogVomitEye.DisplayName: Regurgitated Demon Eye
+// HorribleHogZombieSpawner.DisplayName: Horrible Hog Zombie Spawner
+// HorsPoisonBlast.DisplayName: Poisonous Spit
 HorsWaterBlast.DisplayName: Água
+IceClasperEnemyProjectile.DisplayName: Fragmento de Gelo
 InkBombHostile.DisplayName: Bomba de Tinta
 InkPoisonCloud.DisplayName: Nuvem de Tinta
+// JellyghoulBolt.DisplayName: Jellyghoul Bolt
 LightningCloud.DisplayName: Nuvem
 MantisRing.DisplayName: Anel Tamarutaca
 MaulerAcidBubble.DisplayName: Bolha Ácida
@@ -28,25 +43,18 @@ NuclearToadGoo.DisplayName: Gosma
 OrthoceraStream.DisplayName: Corrente Ácida
 PearlBurst.DisplayName: Explosão de Pérola
 PearlRain.DisplayName: Chuva de Pérola
+// PodobooSpit.DisplayName: Podoboo Spit
+// PodobooSpitHoming.DisplayName: Psychic Podoboo Spit
+// PodobooSpitSplitting.DisplayName: Loose Podoboo Spit
+// PodobooSpitUltima.DisplayName: Ultima Podoboo Spit
+// PrismBackCrystal.DisplayName: Prism-Back Shard
 PufferExplosion.DisplayName: Explosão
+// SharkoonExplosion.DisplayName: Sharkoon Explosion
+// ShoreskipperTackle.DisplayName: Shoreskipper Tackle
+// StormlionSentryBullet.DisplayName: Stormlion Sentry Bullet
 StormMarkHostile.DisplayName: Marca
 SulphuricAcidBubble.DisplayName: Bolha Ácida
 SulphuricAcidMist.DisplayName: Névoa Ácida
 TornadoHostile.DisplayName: Tornado
 ToxicMinnowCloud.DisplayName: Nuvem Tóxica
 TrilobiteSpike.DisplayName: Espinho
-IceClasperEnemyProjectile.DisplayName: Fragmento de Gelo
-// AnglerFlash.DisplayName: Angler Flash
-// CarrionPus.DisplayName: Carrion Pus
-// ClamBubbleBlast.DisplayName: Clam Bubble Blast
-// GhostBellShock.DisplayName: Electrical Field
-// HorsPoisonBlast.DisplayName: Poisonous Spit
-// JellyghoulBolt.DisplayName: Jellyghoul Bolt
-// PodobooSpit.DisplayName: Podoboo Spit
-// PodobooSpitHoming.DisplayName: Psychic Podoboo Spit
-// PodobooSpitSplitting.DisplayName: Loose Podoboo Spit
-// PodobooSpitUltima.DisplayName: Ultima Podoboo Spit
-// PrismBackCrystal.DisplayName: Prism-Back Shard
-// SharkoonExplosion.DisplayName: Sharkoon Explosion
-// ShoreskipperTackle.DisplayName: Shoreskipper Tackle
-// StormlionSentryBullet.DisplayName: Stormlion Sentry Bullet

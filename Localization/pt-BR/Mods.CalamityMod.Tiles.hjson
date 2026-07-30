@@ -6,9 +6,12 @@ Ribs: Costelas
 Stalagmite: Estalagmite
 Stalactite: Estalactite
 PirateCrate: Caixote Abandonado
+// IronBall: Iron Ball
 // Basic Calamity Furniture
 Basin: Cadinho
 // LavaFountain: Lava Fountain
+// BaroqueCello: Baroque Cello
+// Jukebox: Jukebox
 PipeOrgan: Órgão de Tubos
 Sconce: Arandela
 // Draedon Lab Furniture
@@ -58,5 +61,3 @@ AstralChestLocked: {
 }
 
 PlaguedPlateBed.MapEntry: "'Cama'"
-// BaroqueCello: Baroque Cello
-// Jukebox: Jukebox

@@ -53,11 +53,6 @@ BloodOrb: {
 	Tooltip: ""
 }
 
-BloodSample: {
-	DisplayName: Amostra de Sangue
-	Tooltip: ""
-}
-
 Bloodstone: {
 	DisplayName: Pedra Sangrenta
 	Tooltip: ""
@@ -73,21 +68,6 @@ CoreofCalamity: {
 	Tooltip: ""
 }
 
-CoreofEleum: {
-	DisplayName: Núcleo de Eleum
-	Tooltip: ""
-}
-
-CoreofHavoc: {
-	DisplayName: Núcleo da Devastação
-	Tooltip: ""
-}
-
-CoreofSunlight: {
-	DisplayName: Núcleo do Sol
-	Tooltip: ""
-}
-
 CorrodedFossil: {
 	DisplayName: Fóssil Corroído
 	Tooltip: É bem resistente
@@ -95,7 +75,7 @@ CorrodedFossil: {
 
 CosmiliteBar: {
 	DisplayName: Barra de Cosmilita
-	Tooltip: A chunk of durable and highly resilient cosmic steel
+	Tooltip: Um pedaço de aço cósmico altamente durável e resiliente
 }
 
 CryonicBar: {
@@ -111,11 +91,6 @@ DarkPlasma: {
 DarksunFragment: {
 	DisplayName: Fragmento do Sol Escuro
 	Tooltip: Um cristal impactado repleto de energias celestiais opostas
-}
-
-DemonicBoneAsh: {
-	DisplayName: Cinzas de Osso Demoníaco
-	Tooltip: ""
 }
 
 DepthCells: {
@@ -164,13 +139,8 @@ EssenceofSunlight: {
 }
 
 ExoPrism: {
-	DisplayName: Exo-Prisma
+	DisplayName: Prisma Exo
 	Tooltip: Energias fractais brilham em sua superfície
-}
-
-GalacticaSingularity: {
-	DisplayName: Singularidade Galáctica
-	Tooltip: Um fragmento do cosmos
 }
 
 GrandScale: {
@@ -200,16 +170,11 @@ Lumenyl: {
 
 MeldBlob: {
 	DisplayName: Aglomerado Fundido
-	Tooltip: ""
-}
-
-MeldConstruct: {
-	DisplayName: Construção Fundida
-	Tooltip: ""
+	Tooltip: "'Gritos de memórias distorcidas ecoam nesta massa'"
 }
 
 MiracleMatter: {
-	DisplayName: Matéria-Milagre
+	DisplayName: Matéria-milagre
 	Tooltip:
 		'''
 		Sua forma amorfa contém potencial incalculável
@@ -220,11 +185,6 @@ MiracleMatter: {
 MolluskHusk: {
 	DisplayName: Casca de Molusco
 	Tooltip: Os restos de um molusco
-}
-
-MurkyPaste: {
-	DisplayName: Pasta Turva
-	Tooltip: ""
 }
 
 MysteriousCircuitry: {
@@ -272,11 +232,6 @@ ReaperTooth: {
 	Tooltip: Afiado o suficiente para cortar diamantes
 }
 
-RottenMatter: {
-	DisplayName: Matéria Apodrecida
-	Tooltip: ""
-}
-
 RuinousSoul: {
 	DisplayName: Alma Ruinosa
 	Tooltip: Um fragmento de um passado distante
@@ -308,7 +263,7 @@ StarblightSoot: {
 }
 
 StormlionMandible: {
-	DisplayName: Mandíbula de Formiga-Trovão
+	DisplayName: Mandíbula de Formiga-trovão
 	Tooltip: ""
 }
 
@@ -325,11 +280,6 @@ SuspiciousScrap: {
 TitanHeart: {
 	DisplayName: Coração do Titã
 	Tooltip: Pode ser usado como oferenda no Sinalizador Astral
-}
-
-TrapperBulb: {
-	DisplayName: Bulbo de Planta Carnívora
-	Tooltip: ""
 }
 
 TwistingNether: {
@@ -353,7 +303,7 @@ UnholyEssence: {
 }
 
 WulfrumMetalScrap: {
-	DisplayName: Sucata de Metal Vulfrúmio
+	DisplayName: Sucata de Metal de Vulfrúmio
 	Tooltip: ""
 }
 
@@ -363,11 +313,11 @@ YharonSoulFragment: {
 }
 
 AnodizedWulfrumMetal: {
-	// DisplayName: Anodized Wulfrum Metal
-	// Tooltip: ""
+	DisplayName: Metal de Vulfrúmio Anodizado
+	Tooltip: ""
 }
 
 WillOWisp: {
-	// DisplayName: Will O Wisp
-	// Tooltip: ""
+	DisplayName: Fogo Fátuo
+	Tooltip: ""
 }

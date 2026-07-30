@@ -1,4 +1,4 @@
-AccelerationRoundProj.DisplayName: Tiro de Aceleração
+// AcidRocket.DisplayName: Acid Rocket
 AdamAcceleratorBeam.DisplayName: Feixe Partícula Adamantina
 AMR2.DisplayName: AMR
 AMRShot.DisplayName: AMR
@@ -20,16 +20,13 @@ AuricBullet.DisplayName: Projétil Áurico
 AuroraFire.DisplayName: Chama Aurora
 BallistaGreatArrow.DisplayName: Grande Flecha Balista
 BarinadeArrow.DisplayName: Flecha de Barbatana
-BeeRPG.DisplayName: RPG Abelha
-BigCoral.DisplayName: Grande Coral
 BlightFlames.DisplayName: Chamas Praga
-BlissfulBombardierDustProjectile.DisplayName: Pó de Sinalizador Sagrado
+// BlissfulBombardierSplitProjectile.DisplayName: Profaned Mini-Rocket
 BloodBoilerFire.DisplayName: Sangue de Fogo
 BloodClotFriendly.DisplayName: Coágulo Sanguíneo
 BloodfireArrowProj.DisplayName: Flecha de Fogo Sangrento
 BloodfireBulletProj.DisplayName: Projétil de Fogo Sangrento
 BloodflareSoul.DisplayName: Alma de Sangue
-Bolt.DisplayName: Tempestade de Raio
 BoltArrow.DisplayName: Flecha de Raio
 BouncingShotgunPellet.DisplayName: Chumbinho de Espingarda
 BrimstoneBolt.DisplayName: Raio de Enxofre
@@ -42,13 +39,14 @@ CardDiamond.DisplayName: Ouros
 CardHeart.DisplayName: Copas
 CardSpade.DisplayName: Espadas
 ChargedBlast.DisplayName: Rajada
-ChargedBlast2.DisplayName: Rajada
+ChargedBlastSplit.DisplayName: Rajada Carregada Dividida
 ChickenExplosion.DisplayName: Explosão Frita de Kentucky
 ChickenRocket.DisplayName: Foguete Galinha
+// ChromaticFire.DisplayName: Chromatic Fire
+// ChromaticFlare.DisplayName: Chromatic Flare
 CinderArrowProj.DisplayName: Flecha Cinzenta
 ClamorRifleProj.DisplayName: Raio do Clamor
 ClamorRifleProjSplit.DisplayName: Raio do Clamor
-ClaretCannonProj.DisplayName: Canhão de Clarete
 CondemnationArrow.DisplayName: Flecha Condenadora
 CondemnationArrowHoming.DisplayName: Eco Condenador
 ContagionArrow.DisplayName: Flecha de Contágio
@@ -59,6 +57,7 @@ CorrodedShell.DisplayName: Casco Corroído
 CosmicFire.DisplayName: Fogo do Sol Morto
 DaemonsFlameArrow.DisplayName: Flecha do Daemon
 DeadSunExplosion.DisplayName: Explosão do Sol Morto
+// DragonsBreathBurst.DisplayName: Draconic Burst
 DragonsBreathFlames.DisplayName: Chamas Dracônicas
 DragonsBreathMag.DisplayName: Cartucho Bafo de Dragão
 DragonsBreathRound.DisplayName: Tiro Bafo de Dragão
@@ -68,10 +67,6 @@ DrizzlefishFire.DisplayName: Chamas do Peixe-Garoa
 DrizzlefishFireball.DisplayName: Bola de Fogo do Peixe-Garoa
 DrizzlefishFireSplit.DisplayName: Chamas do Peixe-Garoa
 DryadsTearMain.DisplayName: Lágrima da Dríade
-DryadsTearSplit.DisplayName: Lágrima da Dríade
-DWArrow.DisplayName: Flecha da Morte
-ElementalFire.DisplayName: Fogo Elemental
-ElementalFlare.DisplayName: Sinalizador Elemental
 ElysianArrowProj.DisplayName: Flecha do Elísio
 ElysianArrowRain.DisplayName: Luz do Elísio
 EmesisGore.DisplayName: Sangue Podre
@@ -86,11 +81,11 @@ ExoSpark.DisplayName: Exo-Faísca
 FallenStarProj.DisplayName: Estrela Caída
 FeatherLarge.DisplayName: Pena
 FishronRPG.DisplayName: RPG
-FlakKrakenProj.DisplayName: Kraken Retículo
 FlakKrakenProjectile.DisplayName: Kraken Tóxico
 FlakToxicannonProjectile.DisplayName: Canhão Tóxico
 FlareBat.DisplayName: Morcego Sinalizador
 Flash.DisplayName: Clarão
+// FlashRoundFlash.DisplayName: Flash
 FlashRoundProj.DisplayName: Tiro Brilhante
 FlurrystormIceChunk.DisplayName: Pedaço de Gelo
 FlurrystormIceShard.DisplayName: Fragmento de Gelo
@@ -100,11 +95,12 @@ FungiOrb.DisplayName: Orbe Fúngico
 FungiOrb2.DisplayName: Orbe Fúngico
 GemTechGreenFlechette.DisplayName: Joia Flechette Técnica
 GodSlayerSlugProj.DisplayName: Lesma Caça-Deuses
-GoliathRocket.DisplayName: Foguete Goliardo
 HalleysComet.DisplayName: Cometa Halley
+// HalleysStarburst.DisplayName: Halley's Starburst
 HandheldTankShell.DisplayName: Tanque-Concha
 HeavenlyGaleProj.DisplayName: Vendaval Celestial
-HiveBomb.DisplayName: Bomba de Colmeia
+// HellbornProj.DisplayName: Hell-born Gunblast
+// HellbornShell.DisplayName: Hell's Shell
 HiveMissile.DisplayName: Míssil de Colmeia
 HiveNuke.DisplayName: Colmeia Nuclear
 HolyFireBulletProj.DisplayName: Bala de Fogo Sagrado
@@ -119,8 +115,14 @@ HallowPointRoundProj.DisplayName: Bala de Ponta Sagrada
 ImpactRound.DisplayName: Tiro Impactador
 KarasawaShot.DisplayName: Tiro da Karasawa
 LeafArrow.DisplayName: Flecha de Folha
+// LeviatitanAberration.DisplayName: Leviatitan Aberration
+// LeviatitanExplosion.DisplayName: Leviatitan Explosion
+// LeviatitanMeteor.DisplayName: Leviatitan Meteor
 LunarBolt.DisplayName: Raio
 LuxorsGiftRanged.DisplayName: Luxor do Vigia
+// M1GarandBulletCasing.DisplayName: M1 Garand Bullet Casing
+// M1GarandEmptyClip.DisplayName: M1 Garand Empty Clip
+// M1GarandShot.DisplayName: .30-06 Round
 MagnaShot.DisplayName: Raio Magna
 MagnomalyAura.DisplayName: Aura Magnomalítica
 MagnomalyBeam.DisplayName: Feixe
@@ -128,6 +130,7 @@ MagnomalyExplosion.DisplayName: Explosão
 MagnomalyRocket.DisplayName: Nuclear
 MarksmanShot.DisplayName: Disparo do Atirador
 MechanicalBarracuda.DisplayName: Barracuda
+// MegalodonShot.DisplayName: Megalodon Shot
 MeowCreature.DisplayName: a criatura :3
 MeowFire.DisplayName: Ronron-Fogo
 MineralMortarProjectile.DisplayName: Bomba de Ônix
@@ -137,13 +140,18 @@ MistArrow.DisplayName: Flecha de Névoa
 MistArrowFrostMist.DisplayName: Névoa Congelante
 MortarRoundProj.DisplayName: Morteiro
 NeedlerProj.DisplayName: Agulha
+NitroShot.DisplayName: Tiro de Nitro
 NorfleetComet.DisplayName: Cometa
 NorfleetExplosion.DisplayName: Explosão
 NovaChargedShot.DisplayName: Rajada Nova Carregada
 NovaShot.DisplayName: Raio Nova
-Nuke.DisplayName: Nuclear
+// NukeOfBliss.DisplayName: Profaned Nuke
+// NullFlash.DisplayName: Null Flash
 NullShot.DisplayName: Nulo
-NullShot2.DisplayName: Nulo
+// OntologicalDespoilerBeam.DisplayName: Null-Annihilation Beam
+// OntoligicalDespoilerBurst.DisplayName: Disruption Blast
+// OntologicalDespoilerGrenade.DisplayName: Disruption Sphere
+// OntologicalDespoilerShot.DisplayName: Unreality Condensate
 OpalChargedStrike.DisplayName: Raio de Plasma Carregado
 OpalStrike.DisplayName: Raio Aquecido
 PiercingBullet.DisplayName: Sopro Perfurante
@@ -154,7 +162,6 @@ PlagueTaintedDrone.DisplayName: Drone Contaminado pela Praga
 PlanarRipperBolt.DisplayName: Raio Planar
 PlanarRipperExplosion.DisplayName: Explosão Planar
 PlanetaryAnnihilationProj.DisplayName: Bola Planetária
-PlasmaBlast.DisplayName: Rajada de Plasma
 PlasmaExplosion.DisplayName: Explosão de Plasma
 PolarStar.DisplayName: Tiro de Estrela
 PrecisionBolt.DisplayName: Raio de Precisão
@@ -169,20 +176,18 @@ PristineFire.DisplayName: Fogo Resiliente
 PristineSecondary.DisplayName: Fogo Resiliente Puro
 PumplerGrenade.DisplayName: Concha de Abóbora
 P90Round.DisplayName: Tiro Pefurador de Blindagem
-RainbowBlast.DisplayName: Exlosão
 RainbowFront.DisplayName: Arco-Íris
 RainbowTrail.DisplayName: Arco-Íris
 RealmRavagerBullet.DisplayName: Projétil Explosivo
 RicoshotCoin.DisplayName: Tiro Ricocheteador de Borracha
 RocketFire.DisplayName: Fogo
 RubberMortarRoundProj.DisplayName: Morteiro de Borracha
-SandstormBullet.DisplayName: Tempestade de Areia
-ScorchedEarthBlast.DisplayName: Terra Arrasada
+// RubicoPrimeMag.DisplayName: Rubico Prime Mag
+// SandblasterBullet.DisplayName: Sandstorm
 ScorchedEarthClusterBomb.DisplayName: Bomba de Fragmentação
 ScorchedEarthRocket.DisplayName: Foguete
 ScorpioRocket.DisplayName: Nano-Míssil
 ScorpioLargeRocket.DisplayName: Nano-Bomba Nuclear
-SeaDragonMuzzleBlast.DisplayName: Explosão do Focinho de Dragão dos Mares
 SeaDragonRocket.DisplayName: RPG Dragão dos Mares
 SeasSearingBubble.DisplayName: Bolha Escaldante
 SeasSearingSecondary.DisplayName: Hidrochuveiro
@@ -199,14 +204,17 @@ ShadeFire.DisplayName: Fogo Sombreado
 Shell.DisplayName: Casco
 Shockblast.DisplayName: Explosão
 ShockblastRound.DisplayName: Tiro
+// ShortCircuitExplosion.DisplayName: Short Circuit
+// ShortCircuitShot.DisplayName: Short Circuit Shot
 Shroom.DisplayName: Gumelo
 Sickness.DisplayName: Enjoo
 SicknessRound.DisplayName: Tiro
 SicknessRound2.DisplayName: Tiro
 SlagRound.DisplayName: Tiro de Escória
+// Slagfire.DisplayName: Slagfire
 SlimeBolt.DisplayName: Raio de Geleia
-SmallCoral.DisplayName: Coral Pequeno
 SparkSpreaderFire.DisplayName: Chamas Faiscantes
+// SpectralFlare.DisplayName: Spectral Flare
 SpeedBlasterShot.DisplayName: Tiro de Respingo
 SporeBomb.DisplayName: Bomba de Esporos
 SproutingArrowMain.DisplayName: Flecha Brotante
@@ -214,25 +222,31 @@ SproutingArrowSplit.DisplayName: Flecha Brotante
 SputterComet.DisplayName: Cometa Pulverizador
 SputterCometBig.DisplayName: Cometa Pulverizador
 SpykerProj.DisplayName: Espiador
+// StarfleetStar.DisplayName: Starfleet Star
+// StarmadaHitProj.DisplayName: Starmada
+// StarmadaStar.DisplayName: Starmada Star
 StarmageddonBinaryStarCenter.DisplayName: Centro de Estrelas Binárias do Starmageddon
 StarmageddonStar.DisplayName: Estrela do Starmageddon
 StarmageddonStar2.DisplayName: Estrela do Starmageddon
 StormSurgeTornado.DisplayName: Surto
+// SulphuricAcidCannonExplosion.DisplayName: Sulphuric Acid Cannon Explosion
 SulphuricBlast.DisplayName: Explosão Sulfúrica
-SuperballBulletProj.DisplayName: Projétil Super-Bola
+// SulphuricDrop.DisplayName: Sulphuric Drop
 SuperradiantBolt.DisplayName: Raio Superradiante
-SuperradiantSawLingering.DisplayName: Serra Ultraradiante
 SuperradiantSaw.DisplayName: Serra Superradiante
+SuperradiantSawLingering.DisplayName: Serra Ultraradiante
+// TauCannonBeam.DisplayName: Tau Cannon Beam
+// TauCannonBolt.DisplayName: Tau Cannon Bolt
+// TauCannonPortal.DisplayName: Tau Cannon Portal
 TelluricGlareArrow.DisplayName: Flecha Radiante
 TheMaelstromExplosion.DisplayName: Explosão Ceifadora
 TheMaelstromShark.DisplayName: Tubarão Ceifeiro
 ThePackMinissile.DisplayName: Pacote Minissil
 ThePackMissile.DisplayName: Pacote de Mísseis
+// TheStormLightningShot.DisplayName: Storm Bolt
 TitaniumRailgunScope.DisplayName: Mira de Titânio
 TitaniumRailgunShot.DisplayName: Decimador de Titânio
 TorrentialArrow.DisplayName: Flecha Torrencial
-ToxicannonDrop.DisplayName: Ácido Tóxico
-ToxicannonShot.DisplayName: Tiro Tóxico
 ToxicArrow.DisplayName: Flecha Tóxica
 TyphoonArrow.DisplayName: Flecha Tufão
 TyphoonBubble.DisplayName: Tufão
@@ -245,48 +259,14 @@ VanquisherArrowMain.DisplayName: Flecha do Vencedor
 VanquisherArrowProj.DisplayName: Projétil da Flecha do Vencedor
 VeriumBoltProj.DisplayName: Feixe de Vério
 VernalBolt.DisplayName: Raio Vernal
-Voidragon.DisplayName: Explosão do Dragão do Vazio
-VoidragonTentacle.DisplayName: Tentáculo do Dragão do Vazio
 WaterSpout.DisplayName: Respingo
 WildfireBloomFire.DisplayName: Fogo do Florescer do Incêndio
 WildfireBloomFlare.DisplayName: Sinalização do Florescer do Incêndio
 WulfrumScrapBullet.DisplayName: Sucata de Alta Velocidade
-NitroShot.DisplayName: Tiro de Nitro
-ChargedBlastSplit.DisplayName: Rajada Carregada Dividida
-// AcidRocket.DisplayName: Acid Rocket
-// BlissfulBombardierSplitProjectile.DisplayName: Profaned Mini-Rocket
-// ChromaticFire.DisplayName: Chromatic Fire
-// ChromaticFlare.DisplayName: Chromatic Flare
-// DragonsBreathBurst.DisplayName: Draconic Burst
-// FlashRoundFlash.DisplayName: Flash
-// HalleysStarburst.DisplayName: Halley's Starburst
-// HellbornProj.DisplayName: Hell-born Gunblast
-// HellbornShell.DisplayName: Hell's Shell
-// LeviatitanAberration.DisplayName: Leviatitan Aberration
-// LeviatitanExplosion.DisplayName: Leviatitan Explosion
-// LeviatitanMeteor.DisplayName: Leviatitan Meteor
-// M1GarandBulletCasing.DisplayName: M1 Garand Bullet Casing
-// M1GarandEmptyClip.DisplayName: M1 Garand Empty Clip
-// M1GarandShot.DisplayName: .30-06 Round
-// MegalodonShot.DisplayName: Megalodon Shot
-// NukeOfBliss.DisplayName: Profaned Nuke
-// NullFlash.DisplayName: Null Flash
-// OntologicalDespoilerBeam.DisplayName: Null-Annihilation Beam
-// OntoligicalDespoilerBurst.DisplayName: Disruption Blast
-// OntologicalDespoilerGrenade.DisplayName: Disruption Sphere
-// OntologicalDespoilerShot.DisplayName: Unreality Condensate
-// RubicoPrimeMag.DisplayName: Rubico Prime Mag
-// SandblasterBullet.DisplayName: Sandstorm
-// ShortCircuitExplosion.DisplayName: Short Circuit
-// ShortCircuitShot.DisplayName: Short Circuit Shot
-// Slagfire.DisplayName: Slagfire
-// SpectralFlare.DisplayName: Spectral Flare
-// StarfleetStar.DisplayName: Starfleet Star
-// StarmadaHitProj.DisplayName: Starmada
-// StarmadaStar.DisplayName: Starmada Star
-// SulphuricAcidCannonExplosion.DisplayName: Sulphuric Acid Cannon Explosion
-// SulphuricDrop.DisplayName: Sulphuric Drop
-// TauCannonBeam.DisplayName: Tau Cannon Beam
-// TauCannonBolt.DisplayName: Tau Cannon Bolt
-// TauCannonPortal.DisplayName: Tau Cannon Portal
-// TheStormLightningShot.DisplayName: Storm Bolt
+// AbyssalFire.DisplayName: Abyssal Fire
+// BlahajBlast.DisplayName: Blahaj Blast
+// MegalodonRocket.DisplayName: Megalodon Rocket
+// VoidBlast.DisplayName: Void Blast
+// OmniSniperShot.DisplayName: Omni Sniper Shot
+// OmniGrenade.DisplayName: Omni Grenade
+// OmniShotgunShot.DisplayName: Omni Shotgun Shot

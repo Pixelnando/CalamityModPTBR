@@ -20,41 +20,61 @@ AetherfluxCannon: {
 
 AethersWhisper: {
 	DisplayName: Sussurro de Éter
-	Tooltip:
-		'''
-		Inflige chamas das sombras duradouras que se dividem ao atingir peças
-		Projéteis recebem dano adicional conforme viajam
-		'''
+	Tooltip: Dispara feixes do vazio que recebem mais dano conforme viajam e se dividem ao atingir peças
 }
 
 AlulaAustralis: {
 	DisplayName: Alula Australis
-	Tooltip: Dispara uma linda aurora trilhada por uma chuva de estrelas
+	Tooltip: Dispara uma linda aurora que inflige [cbuff:CalamityMod/AstralInfectionDebuff] trilhada por uma chuva de estrelas
+}
+
+AlphaDraconis: {
+	DisplayName: Alpha Draconis
+	Tooltip:
+		'''
+		Chama uma chuva de meteoros na posição do cursor
+		Acertos bem-sucedidos ocasionalmente criam Explosões Estelares que podem ser coletadas
+		<right> com Explosões Estelares suficientes para invocar Draco para te proteger
+		Draco consome Explosões Estelares conforme o tempo passa, e pode ser desfeito com <right>
+		Draco inflige [cbuff:CalamityMod/Voidfrost]
+		'Uma imitação da insanidade'
+		'''
 }
 
 AnahitasArpeggio: {
 	DisplayName: Arpejo da Anahita
-	Tooltip: Conjura lentas clavas de sol que confundem os inimigos
-	/* TooltipNormal:
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
-		Holding <left> casts up to 6 treble clefs that orbit the player
-		Releasing <left> causes the treble clefs to converge at the cursor
-		After converging, treble clefs seek your cursor
-		''' */
-	/* TooltipGFB:
+		Segure <left> para conjurar seis claves de sol que orbitam o jogador
+		Soltar <left> faz com que as claves de sol se aproximem do cursor 
+		Depois de se aproximarem, as claves de sol seguem o cursor
 		'''
-		"NOOOOOOOO! You're supposed to obey me!!!!"
-		The seven treble clef souls:
-		''' */
+	TooltipGFB:
+		'''
+		"NÃOOOOOOO!! Vocês deviam me obedecer!!!!"
+		As sete almas de clave de sol:
+		'''
+}
+
+Apathanull: {
+	DisplayName: Apatanulo
+	Tooltip:
+		'''
+		Lança uma rajada de tentáculos cósmicos sombrios para empalar seus inimigos
+		Os tentáculos mirarão no seu cursor e atacarão três vezes antes de desaparecerem
+		'''
 }
 
 ApoctosisArray: {
 	DisplayName: Matriz Apoctótica
 	Tooltip:
 		'''
-		Dispara raios de íons que aceleram e explodem
-		O dano aumenta de acordo com o quão cheia sua mana está
-		Usar a Injeção Astral reduz a efetividade do reforço de mana
+		Dispara raios de íons que aceleram, penetram profundamente as defesas do inimigo e explodem
+		<right> para carregar o detonador, recuperando sua mana até atingir o máximo
+		O tamanho da flecha aumenta de acordo com a mana recuperada
+		O poder máximo da carga é equivalente à recuperação de 90% da sua mana máxima
+		Segurar este item desativa a coleta de estrelas
 		'''
 }
 
@@ -68,12 +88,12 @@ Apotheosis: {
 }
 
 AquamarineStaff: {
-	DisplayName: Cajado de Água-Marinha
+	DisplayName: Cajado de Água-marinha
 	Tooltip: Dispara dois raios azuis
 }
 
 ArchAmaryllis: {
-	DisplayName: Arqui-Amarílis
+	DisplayName: Arqui-amarílis
 	Tooltip: Conjura uma flor radiante que explode em pétalas teleguiadas
 }
 
@@ -96,14 +116,9 @@ ArtAttack: {
 		'''
 }
 
-AsteroidStaff: {
-	DisplayName: Cajado de Asteroides
-	Tooltip: Invoca asteroides dos céus
-}
-
 AstralachneaStaff: {
 	DisplayName: Cajado Astralacneia
-	Tooltip: Dispada uma série de presas de aranha astrais teleguiadas
+	Tooltip: Dispada uma série de presas de aranha astrais teleguiadas que espalham a [cbuff:CalamityMod/AstralInfectionDebuff]
 }
 
 AstralStaff: {
@@ -113,15 +128,12 @@ AstralStaff: {
 
 Atlantis: {
 	DisplayName: Atlântida
-	Tooltip: "[GFB]"
-	TooltipNormal: Conjura lanças aquáticas que se dividem conforme viajam
-	TooltipGFB: Uma serpente cósmica impede que o verdadeiro potencial desta arma brilhe
-	TooltipGFBDoG: Cuide bem da minha arma, se não... -CIT
+	Tooltip: Conjura lanças aquáticas que se dividem conforme viajam
 }
 
-AuguroftheElements: {
-	DisplayName: Áugure dos Elementos
-	Tooltip: Conjura uma rajada de tentáculos elementais para empalar seus inimigos
+AuguroftheVoid: {
+	DisplayName: Augúrio do Vazio
+	Tooltip: Conjura uma série de tentáculos elementais para empalar seus inimigos
 }
 
 BelchingSaxophone: {
@@ -155,27 +167,23 @@ BrimroseStaff: {
 
 BurningSea: {
 	DisplayName: Mar Ardente
-	Tooltip: Dispara uma bola de fogo de enxofre saltitante que se divide em mais bolas de fogo teleguiadas ao colidirem com a água
+	Tooltip:
+		'''
+		Conjura uma bola de fogo enorme que flutua em sua vicinidade e incinera inimigos com [cbuff:CalamityMod/BrimstoneFlames]
+		Segurar a bola de fogo por muito tempo fará com que ela se apague
+		Isso incinera você com [cbuffplr:CalamityMod/BrimstoneFlames] e torna a bola de fogo inconjurável por um tempo
+		'''
 }
 
 ChronomancersScythe: {
 	DisplayName: Foice do Cronomante
 	Tooltip:
 		'''
-		Dispara pedaços de gelo rapidamente
-		Pressione <right> para balançar a foice ao seu redor, criando um padrão de relógio de gelos teleguiados
+		Dispara pedaços de gelo que causam [cbuff:CalamityMod/TimeDistortion] nos inimigos
+		<right> para balançar a foice ao seu redor, criando um padrão de relógio de gelos teleguiados
 		Acertos diretos com a foice podem invocar relógios
 		Coletar os relógios aumenta a velocidade de movimento e aceleração em 5% para cada relógio coletado
 		Isso acumula até 3 vezes e desaparece gradualmente após 5 segundos
-		'''
-}
-
-ClamorNoctus: {
-	DisplayName: Clamor Noctus
-	Tooltip:
-		'''
-		Dispara serpes noturnas e estrelas dos céus que grudam nos inimigos e peças e explodem
-		'Deixe o céu cair'
 		'''
 }
 
@@ -190,16 +198,17 @@ CoralSpout: {
 		'''
 		Conjura uma rajada espalhada de fragmentos de corais
 		Segure o botão de ataque para diminuir a dispersão
+		Fragmentos de coral ignoram 5 pontos de defesa do inimigo
 		Carregar o ataque até o final libera um pedaço maior de coral que gruda nos inimigos
 		Pegar o pedaço de coral depois que ele cair do inimigo recupera 150 de mana
-		O coral carregado de mana também fornece um efeito que aumenta o dano e a velocidade de convergência do coral
+		O coral carregado de mana também fornece o efeito [cbuffplr:CalamityMod/CoralSymbiosis]
 		[c/5C95A1:'O conhecimento é importante, e os muitos escribas do Velho Reino do Mar sabiam que ele precisava ser preservado a qualquer custo.]
 		[c/5C95A1:Suas bibliotecas eram muito maiores do que a maioria, graças às tábuas de pedra à prova d'água que as ocupavam.']
 		'''
 }
 
 CosmicRainbow: {
-	DisplayName: Arco-Íris Cósmico
+	DisplayName: Arco-íris Cósmico
 	Tooltip: Libera uma barragem de árcos-íris
 }
 
@@ -217,22 +226,17 @@ DarkSpark: {
 	Tooltip:
 		'''
 		'E tudo sob o Sol está em perfeita sintonia,
-		Mas o Sol está coberto pela Lua'
-		'''
-}
-
-DeathhailStaff: {
-	DisplayName: Cajado do Granizo da Morte
-	Tooltip:
-		'''
-		Conjura uma tempestade de lasers da nébula dos céus
-		'Faça chover morte sobre seus inimigos!'
+		Mas o Sol está coberto pela Lua.'
 		'''
 }
 
 DeathValleyDuster: {
 	DisplayName: Espanador do Vale da Morte
-	Tooltip: Conjura uma enorme rajada de poeira
+	Tooltip:
+		'''
+		Conjura uma rajada de poeira encantada que atravessa inimigos e peças
+		Conjurar este feitiço com a mana máxima e sem o enjoo por mana concederá ao portador e a jogadores atingidos o efeito [cbuffplr:CalamityMod/SandsWindBuff]
+		'''
 }
 
 Downpour: {
@@ -268,18 +272,6 @@ EldritchTome: {
 	Tooltip: Conjura tentáculos sobrenaturais para empalar seus inimigos
 }
 
-ElementalRay: {
-	DisplayName: Raio Elemental
-	Tooltip:
-		'''
-		Conjura quatro feixes celestiais perto do jogador
-		Feixes solares explodem em fogo ao atingir um inimigo
-		Feixes de nébula se estendem um pouco ao longo do tempo
-		Feixes do vórtice agem como raios velozes e eletrificam os inimigos ao atingí-los
-		Feixes de pó das estrelas liberam pequenas estrelas teleguiadas ao atingir um inimigo
-		'''
-}
-
 Eternity: {
 	DisplayName: Eternidade
 	// Color changes at the second line of tooltip via ModifyTooltips.
@@ -306,7 +298,7 @@ EvergladeSpray: {
 }
 
 FaceMelter: {
-	DisplayName: Derrete-Rostos
+	DisplayName: Derrete-rostos
 	Tooltip:
 		'''
 		Dispara notas musicais
@@ -322,7 +314,11 @@ FatesReveal: {
 
 FlareBolt: {
 	DisplayName: Raio de Fogo
-	Tooltip: Lança uma bola de fogo lenta
+	Tooltip:
+		'''
+		Conjura uma bola de fogo
+		As bolas de fogo colapsam em uma corrente de ar em redemoinho que puxa os inimigos
+		'''
 }
 
 ForbiddenSun: {
@@ -332,12 +328,22 @@ ForbiddenSun: {
 
 FrigidflashBolt: {
 	DisplayName: Raio do Clarão Gélido
-	Tooltip: Lança uma esfera de magma congelante que se move lentamente
+	Tooltip:
+		'''
+		Conjura uma bola de magma congelante que se move rapidamente e rebate em peças
+		Produz uma explosão de chamas geladas ao colidir com uma peça
+		<right> para conjurar uma bola empoderada que cria um vórtice explosivo de chamas geladas
+		'''
 }
 
 FrostBolt: {
 	DisplayName: Raio Congelante
-	Tooltip: Lança uma esfera de gelo lenta
+	Tooltip:
+		'''
+		Conjura uma bola de gelo que rebate em peças
+		Produz uma pequena explosão de gelo ao colidir com uma peça
+		Os projéteis de gelo cairão ao chão depois de algum tempo
+		'''
 }
 
 Genesis: {
@@ -352,7 +358,7 @@ Genesis: {
 
 GhastlyVisage: {
 	DisplayName: Visagem Fantasmagórica
-	Tooltip: Dispara energia fantasmagórica explosiva que é teleguiada ao inimigo mais próximo
+	Tooltip: Dispara energia fantasmagórica teleguiada que explode
 }
 
 GleamingMagnolia: {
@@ -376,18 +382,15 @@ GruesomeEminence: {
 	DisplayName: Eminência Macabra
 	Tooltip:
 		'''
-		Invoca um aglomerado gasoso de espíritos perto do cursor
-		Inicialmente, os espíritos voarão descontroladamente. Isso pode machucar inimigos e jogadores
+		Invoca um aglomerado gasoso de espíritos que voam descontroladamente perto do cursor
 		Com o tempo, eles começarão a se acumular para criar uma monstruosidade única que pode ser controlada
-		[c/C61B40:'Os espíritos do amálgama jamais puderam seguir para a pós-vida que desejavam,]
-		[c/C61B40:Manchados e unidos pela fúria que os dominava.']
 		'''
-	/* Calamitas:
+	Calamitas:
 		'''
-		'Many will tell you that Yharim fell from grace as his Crusade went on, but that's far from the truth.
-		Sure, he was a good man when he was killing assassins drunk on power, but even as he dethroned dictators, entire kingdoms were leveled alongside.
-		I wish more people could bear witness to this "Polterghast". Maybe then, they would understand the pain he caused for the world.'
-		''' */
+		'Muitos dirão que Yharim caiu Muitos dirão que Yharim perdeu a graça à medida que sua Cruzada avançava, mas isso está longe de ser verdade.
+		      Claro, ele era um homem bom quando matava assassinos embriagados pelo poder, mas, mesmo enquanto destronava ditadores, reinos inteiros eram arrasados junto com eles.
+		      Gostaria que mais pessoas pudessem testemunhar esse "Polterghast". Talvez assim elas compreendessem a dor que ele causou ao mundo.'
+		'''
 }
 
 HadalUrn: {
@@ -400,10 +403,11 @@ HadalUrn: {
 }
 
 HeliumFlash: {
-	DisplayName: Flash de Hélio
+	DisplayName: Clarão de Hélio
 	Tooltip:
 		'''
 		Lança núcleos de estrela voláteis que irrompem em explosões de fusão enormes
+		Sempre causa acertos críticos, e a chance de acerto crítico aumenta o dano por acerto crítico
 		'O poder e uma galáxia, mesmo que apenas por alguns instantes'
 		'''
 }
@@ -425,6 +429,11 @@ Heresy: {
 		Libera fogo e almas para cima de um livro em suas mãos
 		O poder de ambos aumenta conforme o livro é segurado
 		'''
+}
+
+HyperdeathRiftScepter: {
+	DisplayName: Cetro da Fenda da Hipermorte
+	Tooltip: Divide o espaço ao meio com o [ceffect/dog:Rasgador de Fendas da Hipermorte]
 }
 
 HyphaeRod: {
@@ -462,9 +471,11 @@ IonBlaster: {
 	DisplayName: Detonador de Íons
 	Tooltip:
 		'''
-		Dispara raios de íons que aceleram e explodem
-		O dano aumenta de acordo com o quão cheia sua mana está
-		Usar a Injeção Astral reduz a efetividade do reforço de mana
+		Dispara raios de íons que aceleram, penetram profundamente as defesas do inimigo e explodem
+		<right> para carregar o detonador, recuperando sua mana até atingir o máximo
+		A força da explosão aumenta de acordo com a mana recuperada
+		O poder máximo da carga é equivalente à recuperação de 90% da sua mana máxima
+		Segurar este item desativa a coleta de estrelas
 		'''
 }
 
@@ -473,18 +484,18 @@ Keelhaul: {
 	Tooltip:
 		'''
 		Invoca um gêiser ao atingir um inimigo
+		Só pode haver um gêiser por vez
 		'Esmague-os que nem papel'
 		'''
 }
 
 LashesofChaos: {
 	DisplayName: Açoite do Caos
-	Tooltip: "'Observe o mundo pegar fogo...'"
-}
-
-Lazhar: {
-	DisplayName: Leihzer
-	Tooltip: Dispara um feixe solar concentrado e altamente volátil
+	Tooltip:
+		'''
+		Alterna entre bolas de fogo do inferno explosivas e explosões do inferno perfurantes
+		'Observe o mundo pegar fogo...'
+		'''
 }
 
 LightGodsBrilliance: {
@@ -497,7 +508,7 @@ MadAlchemistsCocktailGlove: {
 	Tooltip:
 		'''
 		Dispara uma variedade de frascos de alta velocidade
-		<right> para disparar um frasco prismático que causa diversos efeitos negativos
+		<right> para disparar um frasco prismático que inflige [cbuff:CalamityMod/ElementalMix]
 		Frascos vermelhos explodem violentamente
 		Frascos azuis contêm gás venenoso
 		Frascos verdes invocam chamas da lua
@@ -527,7 +538,11 @@ Mistlestorm: {
 
 NanoPurge: {
 	DisplayName: Nanoexpurgo
-	Tooltip: Dispara uma barragem de nanolasers
+	Tooltip:
+		'''
+		Dispara uma barragem de nanolasers
+		Rebate em direção ao inimigo mais próximo depois de acertar uma parede
+		'''
 }
 
 NebulousCataclysm: {
@@ -549,6 +564,18 @@ NuclearFury: {
 	Tooltip: Conjura uma torrente de tufões cósmicos
 }
 
+Nucleosynthesis: {
+	DisplayName: Nucleossíntese
+	Tooltip:
+		'''
+		Conjura quatro feixes celestiais perto do jogador
+		Feixes do sol explodem em fogo ao atingir o inimigo
+		Feixes de nébula se espalham com o tempo
+		Feixes do vórtice agem como relâmpagos velozes e eletrificam os inimigos
+		Feixes de pó das estrelas liberam pequenas estrelas teleguiadas ao atingir o inimigo
+		'''
+}
+
 Omicron: {
 	DisplayName: Ômicron
 	Tooltip:
@@ -561,8 +588,12 @@ Omicron: {
 }
 
 ParasiticSceptor: {
-	DisplayName: Cetro Parasíico
-	Tooltip: Dispara uma barragem de sanguessugas que grudam nos inimigos, aumentando o dano causado ao longo do tempo por cada sanguessuga
+	DisplayName: Cetro Parasítico
+	Tooltip:
+		'''
+		Dispara uma barragem de sanguessugas que grudam nos inimigos
+		Causa danos acumulados com [cbuff:CalamityMod/Irradiated] ao longo do tempo para cada sanguessuga
+		'''
 }
 
 PhantasmalFury: {
@@ -574,23 +605,19 @@ PhoenixFlameBarrage: {
 	DisplayName: Barragem de Chamas da Fênix
 	Tooltip:
 		'''
-		Conjura uma barragem de fogo dos céus
+		Conjura uma barragem de [cbuff:CalamityMod/Dragonfire] dos céus
 		'Batismo por fogo dracônico'
 		'''
 }
 
 Photosynthesis: {
 	DisplayName: Fotossíntese
-	Tooltip:
-		'''
-		Conjura um raio brilhante que dissolve em energia ao atingir um inimigo
-		Mais energia é criada de acordo com a distância do inimigo atingido no raio
-		'''
+	Tooltip: Conjura um raio brilhante que dissolve em energia ao atingir um inimigo
 }
 
 PlagueStaff: {
 	DisplayName: Cajado da Praga
-	Tooltip: Dispara uma sequência de 4 presas da praga
+	Tooltip: Dispara uma sequência de 4 presas da [cbuff:CalamityMod/Plague]
 }
 
 PlasmaRifle: {
@@ -608,7 +635,7 @@ PlasmaRod: {
 		'''
 		Conjura um raio de plasma fraco
 		Atingir uma peça dispersará diversos raios com dano de fogo aumentado
-		Atingir um inimigo infligirá Chama das Sombras
+		Atingir um inimigo infligirá [cbuff:CalamityMod/Shadowflame]
 		'''
 }
 
@@ -619,21 +646,33 @@ Poseidon: {
 
 PrimordialAncient: {
 	DisplayName: Antiguidade Primordial
-	Tooltip: Conjura uma explosão de poeira enorme
+	Tooltip:
+		'''
+		Conjura cinco explosões de areia promordial que logo convergem no cursor e criam uma explosão enorme
+		Conjurar este feitiço com a mana máxima e sem o enjoo por mana concederá ao portador e a jogadores atingidos o efeito [cbuffplr:CalamityMod/AeolianEarthBuff]
+		'''
 }
 
 PrimordialEarth: {
 	DisplayName: Terra Primordial
-	Tooltip: Conjura uma explosão de poeira grande
+	Tooltip:
+		'''
+		Conjura duas explosões de areia encantadas que convergem entre si e explodem
+		Conjurar este feitiço com a mana máxima e sem o enjoo por mana concederá ao portador e a jogadores atingidos o efeito [cbuffplr:CalamityMod/SandsWindBuff]
+		'''
 }
 
 PurgeGuzzler: {
 	DisplayName: Beberrão da Purificação
-	Tooltip: Emite três feixes de energia sagrada em um pequeno arco
+	Tooltip:
+		'''
+		Dispara uma barragem de feixes sagrados que convergem em dois raios varredores enormes
+		'Batismo por fogo sagrado'
+		'''
 }
 
 RainbowPartyCannon: {
-	DisplayName: Canhão de Festa Arco-Íris
+	DisplayName: Canhão de Festa Arco-íris
 	// Color changes at the first line of tooltip via ModifyTooltips.
 	Tooltip: "'Deixe o arco-íris te lembrar que juntos sempre iremos brilhar...'"
 }
@@ -643,16 +682,14 @@ Rancor: {
 	Tooltip:
 		'''
 		Conjura um círculo mágico que carrega energia e eventualmente libera uma explosão poderosa de lasers com magia maléfica controlada
-		Os lasers fazem com que braços e lava ardente apareçam em superfícies que eles tocam, causando dano a você e aos inimigos.
-		[c/C61B40:'O perdão só pode curar até certo ponto,]
-		[c/C61B40:Se o destinatário ainda não se perdoou.']
+		Os lasers fazem com que braços e lava ardente apareçam em superfícies que eles tocam
 		'''
-	/* Calamitas:
+	Calamitas:
 		'''
-		'Yharim told me it was Otonilou who unleashed the Brimstone Elemental unto Azafure.
-		I believed him at the time, being a child looking for someone to blame for all her woes.
-		So I unleashed upon them all the fury and scorn I thought they deserved, and only once it was too late did I see through his lies.'
-		''' */
+		"Yharim me disse que foi Otonilou quem soltou a Elemental de Enxofre em Azafure.
+		      Na época, acreditei nele, pois era uma criança procurando alguém para culpar por todos os seus infortúnios.
+		      Então, descarreguei sobre todos eles toda a fúria e o desprezo que achava que mereciam, e só quando já era tarde demais é que percebi que ele estava mentindo."
+		'''
 }
 
 RecitationoftheBeast: {
@@ -685,12 +722,21 @@ SandstreamScepter: {
 
 SanguineFlare: {
 	DisplayName: Chama Sanguinária
-	Tooltip: Dispara uma explosão de chamas sanguinárias que drenam a vida do inimigo
+	Tooltip:
+		'''
+		Prepara uma chama sanguinária que ganha mais poder conforme é carregada
+		Ao atingir um inimigo, esta chama causa uma explosão de sangue e se divide em orbes de sangue
+		Coletar estes orbes de sangue reduz a duração do [cbuffplr:PotionSickness]
+		'''
 }
 
 SeethingDischarge: {
 	DisplayName: Descarga Fervente
-	Tooltip: Dispara uma barragem de explosões de enxofre
+	Tooltip:
+		'''
+		Dispara um arco de explosões do inferno de enxofre que acelera gradualmente
+		Cada terceiro ataque invoca um anel de dardos de enxofre que persegue os inimigos
+		'''
 }
 
 Serpentine: {
@@ -698,7 +744,7 @@ Serpentine: {
 	Tooltip:
 		'''
 		Conjura uma serpente que segue o cursor
-		Ignora 15 pontos de Defesa do inimigo
+		{$Common.ArmorPenetration}
 		'''
 }
 
@@ -714,7 +760,7 @@ ShaderainStaff: {
 
 ShadowboltStaff: {
 	DisplayName: Cajado do Raio Sombrio
-	Tooltip: Quanto mais peças e inimigos o feixe atingir ou atravessar, mais dano ele causará
+	Tooltip: Dispara um feixe das sombras que cria uma plataforma para se redirecionar aos inimigos, causando mais dano
 }
 
 ShiftingSands: {
@@ -727,25 +773,31 @@ SHPC: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		Dispara orbes de plasma duradouros que emitem explosões enormes
-		<right> para disparar feixes de energia poderosos
+		Consome Almas como munição
+		Ejeta orbes de poder anímico concentrado, porém instável que perduram e explodem
+		Os orbes emitem almas teleguiadas e almas coletáveis persistentes ao colidirem
+		Os orbes têm vários efeitos dependendo do tipo de alma usado
+		{0}
+		<right> para usar a máquina como um aspirador, puxando almas coletáveis
+		Ao soltar, é disparada uma barragem de lasers anímicos, cuja força escala com a quantidade de almas puxadas
+		Segure Shift e <right> neste item em seu inventário para ejetar a Alma carregada
+		'''
+	// These are the soul effect descriptions, the number is the item ID of the soul
+	NoSoul: "[c/808080:Não há nenhuma alma injetada na arma]"
+	SoulDesc520: "[c/F01DC4:Orbes infundidos com a Luz criam explosões maiores]"
+	SoulDesc521: "[c/7B1DDC:Orbes infundidos com a Noite criam explosões mais duradouras]"
+	SoulDesc575: "[c/6AF0FA:Orbes infundidos com o Voo viajam mais rápido e restauram o tempo de voo no acerto direto]"
+	SoulDesc548: "[c/0433DE:Orbes infundidos com a Força aplicam um recuo poderoso aos inimigos]"
+	SoulDesc549: "[c/4FFF7C:Orbes infundidos com a Visão perseguem os inimigos próximos]"
+	SoulDesc547: "[c/FF6014:Orbes infundidos com o Medo causam dano fixo adicional com seu ódio]"
+	LegendaryText:
+		'''
+		'Embora as máquinas movidas a almas tenham sido quase um fracasso, as almas ainda mostravam potencial como combustível.
+		Para evitar a principal falha dos meus últimos testes, o Canhão de Plasma de Sifonamento de Almas foi criado para disparar almas antes que elas assumam o controle da arma.
+		Cada tipo de alma reage de forma diferente ao plasma básico. Porém, a falta de voluntários torna muito difícil obter munição para novos testes.
+		É uma pena, pois essa arma poderia ter munição quase ilimitada no campo de batalha. Talvez um dia seu verdadeiro potencial seja testado.'
 		'''
 	TooltipGFB: Ele escala novamente :)
-	// These are the soul effect descriptions, the number is the item ID of the soul
-	// NoSoul: "[c/808080:There is currently no soul type injected into the weapon]"
-	// SoulDesc520: "[c/F01DC4:Light-infused orbs create larger explosions]"
-	// SoulDesc521: "[c/7B1DDC:Night-infused orbs create longer lasting explosions]"
-	// SoulDesc575: "[c/6AF0FA:Flight-infused orbs travel faster and restore flight time on direct hits]"
-	// SoulDesc548: "[c/0433DE:Might-infused orbs apply mighty knockback to enemies]"
-	// SoulDesc549: "[c/4FFF7C:Sight-infused orbs seek out nearby enemies]"
-	// SoulDesc547: "[c/FF6014:Fright-infused orbs deal extra flat damage with their hatred]"
-	/* LegendaryText:
-		'''
-		'Though soul-powered machines were a near failure, potential remained in souls as a form of fuel.
-		To avoid my last experiments' main flaw, the Soul-Harnessing Plasma Cannon was designed to expel souls as projectiles before they exert control over the weapon.
-		Each soul type appears to react differently to the base plasma. Yet, lacking volunteers, obtaining potential ammunition is currently too difficult to undergo further testing.
-		A shame, for a weapon that could have practically unlimited ammunition in the battlefield. Perhaps some day, its potential can be truly tested.'
-		''' */
 }
 
 SkyGlaze: {
@@ -763,7 +815,7 @@ SnowstormStaff: {
 	Tooltip:
 		'''
 		Dispara flocos de neve que seguem o cursor
-		Os flocos de neve se dividem em estrelas de gelo ao atingir um inimigo
+		Os flocos de neve se dividem em estrelas de gelo no acerto
 		'''
 }
 
@@ -788,9 +840,10 @@ SubsumingVortex: {
 		'''
 		<left> para liberar uma barragem de vórtices que correm atrás dos inimigos
 		<right> para conjurar um vórtice enorme na sua frente que tende a seguir o mouse
-		Quando os inimigos estiverem próximos ao vórtice, ele lança diversos vórtices menores e mais rápidos na direção dele
+		Quando os inimigos estiverem próximos ao vórtice, ele lança diversos vórtices menores e mais rápidos na direção deles
 		Soltar o <right> dispara o vórtice em direção ao mouse se tempo suficiente tiver passado
 		O dano aumenta de acordo com o tempo de carregamento do vórtice
+		Inimigos atingidos são consumidos por completo pela [cbuff:CalamityMod/MiracleBlight]
 		'''
 }
 
@@ -807,7 +860,7 @@ TacticiansTrumpCard: {
 	DisplayName: O Trunfo do Estrategista
 	Tooltip:
 		'''
-		Dispara um feixe de lâmina que eletrifica os inimigos atingidos
+		Dispara um feixe de lâmina [cbuff:Electrified]
 		'Lembranças vagas de uma princesa do futuro cruzam sua mente...'
 		'''
 }
@@ -852,7 +905,7 @@ ThePrince: {
 	DisplayName: O Príncipe
 	Tooltip:
 		'''
-		Conjura uma bola de fogo sagrada que explode em 6 chamas
+		Conjura uma bola de fogo sagrada que explode em seis chamas teleguiadas
 		'Então você tá me dizendo que o príncipe explodiu... e depois virou uma flor?'
 		-Dain, o druida marinheiro
 		'''
@@ -869,30 +922,12 @@ TheWand: {
 }
 
 ThornBlossom: {
-	DisplayName: Flor-de-Espinho
+	DisplayName: Flor-de-espinho
 	Tooltip:
 		'''
 		Conjura uma flor radiante que explode em pétalas teleguiadas junto de um espinho mortal
 		Custa 3 de vida para disparar
 		'Nem tudo é um mar de rosas'
-		'''
-}
-
-Thunderstorm: {
-	DisplayName: A Tempestade
-	Tooltip:
-		'''
-		Dispara uma série de projéteis de plasma verde que despejam mais plasma dos céus
-		'Chove chuva, chove sem parar'
-		'''
-}
-
-TomeofFates: {
-	DisplayName: Tomo dos Destinos
-	Tooltip:
-		'''
-		Conjura tentáculos cósmicos para empalar seus inimigos
-		Pode aleatoriamente disparar um tentáculo vermelho que causa muito dano
 		'''
 }
 
@@ -909,6 +944,29 @@ UltraLiquidator: {
 UndinesRetribution: {
 	DisplayName: Retribuição de Undine
 	Tooltip: Conjura uma barragem de lanças teleguiadas
+}
+
+UnstableCastersGauntlet: {
+	DisplayName: Manopla do Conjurador Instável
+	Tooltip:
+		'''
+		<left> para disparar agulhas perfurantes
+		<right> para invocar um anel de símbolos, cada um representando um elemento primordial
+		Segure <left> com símbolos disponíveis para consumir símbolos aleatórios, cada um desencadeando um ataque
+		<right> novamente enquanto o anel elemental está ativo para substituir todos os espaços livres com símbolos [c/DD84E8:Distorcidos]
+		Símbolos [c/DD84E8:distorcidos] disparam automaticamente uma série de projéteis roxos imprecisos
+		Todas as ações exigem [c/EADAF5:Vis] o suficiente para serem executadas
+		[c/EADAF5:Vis] é recuperado com o tempo
+		'''
+	HoldShiftTooltip:
+		'''
+		Símbolos [c/DBD7CA:Ordo] sempre causam um acerto crítico
+		Símbolos [c/ABB6D4:Perdito] ignoram 25 pontos de defesa do inimigo
+		Símbolos [c/E89B8E:Ignis] infligem [cbuff:CalamityMod/Daybroken]
+		Símbolos [c/8ECBE8:Aqua] infligem [cbuff:CalamityMod/CrushDepth]
+		Símbolos [c/E1E88E:Aer] têm um recuo muito maior
+		Símbolos [c/ACCF9F:Terra] se dividem em pedras pontiagudas
+		'''
 }
 
 ValkyrieRay: {
@@ -932,7 +990,11 @@ Vehemence: {
 
 VenusianTrident: {
 	DisplayName: Tridente Venusiano
-	Tooltip: Conjura um tridente infernal que irrompe em uma explosão gigantesca de fogo e fragmentos de magma
+	Tooltip:
+		'''
+		Conjura um tridente infernal que irrompe em uma explosão gigantesca de fogo e fragmentos de magma
+		Sempre causa acertos críticos, e a chance de acerto crítico aumenta o dano por acerto crítico
+		'''
 }
 
 Vesuvius: {
@@ -948,7 +1010,9 @@ Viscera: {
 	DisplayName: Víscera
 	Tooltip:
 		'''
-		Dispara uma barragem rápida de feixes de sangue perfurantes que curam você ao atingir um inimigo
+		Dispara uma barragem rápida de feixes de sangue perfurantes
+		O primeiro inimigo atingido por cada feixe explodirá em orbes de sangue
+		Coletar estes orbes de sangue reduz a duração do [cbuffplr:PotionSickness]
 		Cada feixe sucessivo na barragem causa mais dano
 		O último feixe da barragem causa uma explosão ao atingir um inimigo
 		'''
@@ -956,16 +1020,20 @@ Viscera: {
 
 VitriolicViper: {
 	DisplayName: Víbora Vitriólica
-	Tooltip: Libera uma saraivada de presas e saliva venenosas
+	Tooltip:
+		'''
+		Carrega e libera um feixe rastejante de radiação
+		Com a carga completa, dispara presas de curto alcance em todas as direções
+		'''
 }
 
 VividClarity: {
 	DisplayName: Clareza Vívida
 	Tooltip:
 		'''
-		Dispara cinco raios aleatórios de exo-energia na direção do cursor
-		Ao atingir um inimigo ou uma peça, os feixes podem explodir com um clarão enorme,
-		invocar mais lasers dos céus, ou dividirem-se em mais orbes de energia
+		Dispara cinco raios aleatórios de energia exo na direção do cursor
+		Inimigos e peças atingidas podem causar um clarão enorme, invocar um laser dos céus, ou se dividirem em energia
+		Inimigos atingidos são liquidados com a [cbuff:CalamityMod/MiracleBlight]
 		'Sua majestade inspira um golpe de gênio incomparável'
 		'''
 }
@@ -980,17 +1048,26 @@ VoltaicClimax: {
 	Tooltip: Conjura um anel de esferas magnéticas supercarregadas ao redor do cursor
 }
 
+Volterion: {
+	DisplayName: Volterion
+	Tooltip:
+		'''
+		Descarrega um fluxo de alta voltagem que explode em cinco bolas-relâmpago no acerto
+		Cada bola-relâmpago emite mais dois relâmpagos antes de explodir
+		'''
+}
+
 Waywasher: {
-	DisplayName: Lava-Caminhos
+	DisplayName: Lava-caminhos
 	Tooltip: Conjura um dilúvio de raios d'água imprecisos
 }
 
 Wingman: {
-	DisplayName: Braço-Direito
+	DisplayName: Braço-direito
 	Tooltip:
 		'''
-		Invoca dois Braços-Direitos que orbitam você e disparam lasers na direção do cursor
-		<right> enquanto dispara para mandar os Braços-Direitos dispararem granadas
+		Invoca dois Braços-direitos que orbitam você e disparam lasers na direção do cursor
+		<right> enquanto dispara para mandar os Braços-direitos dispararem granadas
 		As granadas têm um tempo de recarga que é reduzido se os Braços-Direitos estiverem totalmente aquecidos 
 		'''
 }
@@ -1002,11 +1079,6 @@ WintersFury: {
 		Dispara uma série de orbes de gelo e uma barragem de estilhaços de gelo na direção do cursor
 		'As páginas estão congelantes ao toque'
 		'''
-}
-
-WrathoftheAncients: {
-	DisplayName: Ira dos Anciões
-	Tooltip: Invoca um pulso de energia no cursor para invocar periodicamente espíritos teleguiados
 }
 
 WulfrumProsthesis: {
@@ -1033,82 +1105,6 @@ YharimsCrystal: {
 	DisplayName: Cristal de Yharim
 	GFBName: cristal de yermes
 	Tooltip: "[GFB]"
-	TooltipNormal: Dispara feixes dracônicos de aniquilação total
+	TooltipNormal: Dispara feixes dracônicos de [cbuff:CalamityMod/Dragonfire] de aniquilação total
 	TooltipGFB: ...lanssa um pedasso de dnamite
-}
-
-AlphaDraconis: {
-	// DisplayName: Alpha Draconis
-	/* Tooltip:
-		'''
-		Calls down a meteor shower towards the cursor
-		Successful hits sometimes create Starbursts that can be picked up
-		<right> with enough Starbursts to summon Draco to protect you
-		Draco burns Starbursts over time, and can be disspelled with <right>
-		Draco inflicts [cbuff:CalamityMod/Voidfrost]
-		'An imitation of insanity'
-		''' */
-}
-
-Apathanull: {
-	// DisplayName: Apathanull
-	/* Tooltip:
-		'''
-		Casts a spread of dark cosmic tentacles to skewer your enemies
-		Tentacles will aim at your cursor and lash out three times before disappearing
-		''' */
-}
-
-AuguroftheVoid: {
-	// DisplayName: Augur of the Void
-	// Tooltip: Casts a burst of elemental tentacles to spear your enemies
-}
-
-HyperdeathRiftScepter: {
-	// DisplayName: Hyperdeath Rift Scepter
-	// Tooltip: Tears space in two with [c/ff00ff:Hyperdeath Rift Ripper]
-}
-
-Nucleosynthesis: {
-	// DisplayName: Nucleosynthesis
-	/* Tooltip:
-		'''
-		Casts four celestial beams near the player
-		Solar beams explode into fire on enemy hits
-		Nebula beams sweep a little bit over time
-		Vortex beams act like fast lightning and electrify enemies on hit
-		Stardust beams release small stars that home on enemy hits
-		''' */
-}
-
-UnstableCastersGauntlet: {
-	// DisplayName: Unstable Caster's Gauntlet
-	/* Tooltip:
-		'''
-		<left> to fire piercing needles
-		<right> to summon a ring of sigils, each representing a primordial element
-		Hold <left> with sigils available to consume random sigils, each unleashing an attack
-		<right> again while the elemental ring is out to replace all empty slots with [c/DD84E8:Warped] sigils
-		[c/DD84E8:Warped] sigils automatically fire barrages of inaccurate purple blasts
-		All actions require sufficient [c/EADAF5:Vis] to use
-		[c/EADAF5:Vis] is restored over time
-		''' */
-	/* HoldShiftTooltip:
-		'''
-		[c/DBD7CA:Ordo] sigils always land critical strikes and pierce infinitely
-		[c/ABB6D4:Perdito] sigils ignore 25 points of enemy defense
-		[c/E89B8E:Ignis] sigils inflict Daybroken
-		[c/8ECBE8:Aqua] sigils inflict Crush Depth
-		[c/E1E88E:Aer] sigils boast substantial knockback
-		[c/ACCF9F:Terra] sigils split into sharp rocks
-		''' */
-}
-
-Volterion: {
-	// DisplayName: Volterion
-	/* Tooltip:
-		'''
-		Discharges a high-voltage stream which bursts into 5 balls of lightning on hit
-		Each ball lightning emits two additional lightning bolts before exploding
-		''' */
 }

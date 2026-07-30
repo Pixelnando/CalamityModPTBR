@@ -1,3 +1,4 @@
+AnahitaTelegraph.DisplayName: Anahita Telegraph
 ApolloChargeTelegraph.DisplayName: Apollo Charge Telegraph
 ApolloFireball.DisplayName: Volatile Plasma Blast
 ApolloRocket.DisplayName: High Explosive Plasma Rocket
@@ -22,7 +23,9 @@ BigFlare.DisplayName: Big Flare
 BigFlare2.DisplayName: Big Flare
 BirbAura.DisplayName: Draconic Aura
 BirbAuraFlare.DisplayName: Draconic Aura Flare
+BloodBombRTS.DisplayName: Blood Bomb
 BloodGeyser.DisplayName: Blood Geyser
+BloodScythe.DisplayName: Blood Scythe
 BrimstoneBall.DisplayName: Brimstone Fireball
 BrimstoneBarrage.DisplayName: Brimstone Dart
 BrimstoneFire.DisplayName: Brimstone Fire
@@ -35,14 +38,19 @@ BrimstoneTargetRay.DisplayName: Brimstone Target Ray
 BrimstoneWave.DisplayName: Brimstone Flame Skull
 BrokenApolloLens.DisplayName: Lens
 BrokenArtemisLens.DisplayName: Lens
-CirrusBlast.DisplayName: Cirrus Mushroom Blast
-CirrusBlaster.DisplayName: Cirrus Mushroom
-CirrusPhotonRipperPrismTooth.DisplayName: Cirrus Photon Ripper Tooth
-CirrusPhotonRipperProjectile.DisplayName: Cirrus Photon Ripper
-CirrusVolatileVodkaBottle.DisplayName: Volatile Vodka Bottle
+BurningBolt.DisplayName: Burning Bolt
+BurningFireblast.DisplayName: Burning Fireblast
+BurningGigablast.DisplayName: Burning Gigablast
+CalamitousDart.DisplayName: Calamitous Dart
+CalamitousExplosion.DisplayName: Calamitous Explosion
+CalamitousFireball.DisplayName: Calamitous Fireball
+CataclysmicFlame.DisplayName: Cataclysmic Flame
+CatastrophicCinder.DisplayName: Catastrophic Cinder
+CirclingBloodScythe.DisplayName: Circling Blood Scythe
+CrimsonEye.DisplayName: Crimson Eye
+CursedFire.DisplayName: Eye Fire
 DarkEnergyBall.DisplayName: Dark Energy
 DarkEnergyBall2.DisplayName: Dark Energy
-DarkOrb.DisplayName: Dark Orb
 DesertScourgeDiveSplash.DisplayName: Desert Scourge Dive Splash
 DesertScourgeSpit.DisplayName: Scourge Spit
 DestroyerCursedLaser.DisplayName: Cursed Laser
@@ -51,27 +59,31 @@ DeusMine.DisplayName: Astral Mine
 DeusRitualDrama.DisplayName: Deus Ritual Drama
 DoGBeam.DisplayName: Portal Laser
 DoGBeamPortal.DisplayName: Beam Portal
-DoGDeath.DisplayName: Death Beam
 DoGDeathBoom.DisplayName: Cosmic Explosion
-DoGFire.DisplayName: Death Fire
+DoGFire.DisplayName: "[ceffect/dog:Faith Incinerator]"
+DoGLaserWalls.DisplayName: "[ceffect/dog:God's Bane Doombeam Array]"
+DoGLaserWallsBigBeam.DisplayName: "[ceffect/dog:Hyperdeath Rift Ripper]"
 DoGP1EndPortal.DisplayName: Portal
-DoGTeleportRift.DisplayName: Rift
+DoGRiftCrack.DisplayName: DoG Distortion Crack
+DoGTeleportRift.DisplayName: DoG Distortion Rift
 DraedonSummonLaser.DisplayName: Giant Fuck-off Deathray of Doom
-DyingSun.DisplayName: Dying Sun
 EssenceDust.DisplayName: Cosmic Dust
 Flare.DisplayName: Flare
 FlareBomb.DisplayName: Flare Bomb
 FlareDust.DisplayName: Flare Dust
 FlareDust2.DisplayName: Flare Bomb
 Flarenado.DisplayName: Flarenado
+FriendlyLaserWallBeam.DisplayName: God's Bane Doombeam
 FrostMist.DisplayName: Frost Mist
+GolemInfernoBolt.DisplayName: Golem Fire Bolt
+GolemInfernoBlast.DisplayName: Golem Fire Blast
 GooglyEye.DisplayName: Googly Eye
 GreatSandBlast.DisplayName: Great Sand Blast
-HealOrbProv.DisplayName: Heal
 HellfireExplosion.DisplayName: Brimstone Hellfire Explosion
 HiveBombGoliath.DisplayName: Hive Bomb
 HolyAura.DisplayName: Holy Aura
 HolyBlast.DisplayName: Holy Blast
+HolyBlastFrags.DisplayName: Holy Blast Fragment
 HolyBomb.DisplayName: Holy Bomb
 HolyBurnOrb.DisplayName: Holy Orb
 HolyExplosionBoom.DisplayName: Holy Explosion
@@ -81,12 +93,13 @@ HolyFlare.DisplayName: Holy Flare
 HolyLight.DisplayName: Holy Light
 HolySpear.DisplayName: Holy Spear
 HomingGasBulb.DisplayName: Homing Gas Bulb
-HomingGasBulbSporeGas.DisplayName: Homing Gas Bulb Spore Gas
+HomingGasBulbSporeGas.DisplayName: Spore Bulb Gas
 IceBlast.DisplayName: Ice Blast
 IceBomb.DisplayName: Ice Bomb
 IceRain.DisplayName: Ice Rain
 IchorBlob.DisplayName: Ichor Blob
 IchorShot.DisplayName: Ichor Shot
+IchorShower.DisplayName: Ichor Shower
 Infernado.DisplayName: Infernado
 Infernado2.DisplayName: Infernado
 InfernadoRevenge.DisplayName: Infernado
@@ -98,12 +111,18 @@ MoltenBlast.DisplayName: Molten Blast
 MoltenBlob.DisplayName: Molten Blob
 MushBomb.DisplayName: Mushroom Shot
 MushBombFall.DisplayName: Falling Mushroom
+MushBombGround.DisplayName: Mushroom Shot
 OldDukeGore.DisplayName: Sulphurous Gore
 OldDukeSummonDrop.DisplayName: Acid
 OldDukeToothBallSpike.DisplayName: Spike
 OldDukeVortex.DisplayName: Sulphurous Vortex
 OverlyDramaticDukeSummoner.DisplayName: Old Duke Summoner
 PeanutRocket.DisplayName: High Explosive Peanut Shell
+PermafrostAbsoluteZeroProjectile.DisplayName: Absolute Ultra Zero
+PermafrostBlast.DisplayName: Permafrost's Gigablast
+PermafrostBlaster.DisplayName: Blaster of Unlimited Air Conditioning
+PermafrostColdheartIcicle.DisplayName: Coldheart Icicle
+PermafrostMeat.DisplayName: Cool Meat
 PhantomBlast.DisplayName: Phantom Blast
 PhantomBlast2.DisplayName: Potent Phantom Blast
 PhantomGhostShot.DisplayName: Potent Phantom Spirit Shot
@@ -121,6 +140,7 @@ ProvidenceHolyRay.DisplayName: Holy Ray
 RavagerBlast.DisplayName: Ravaging Laser
 RavagerBlaster.DisplayName: Ravager Blaster
 RavagerFlame.DisplayName: Blue Flame
+RavagerNuke.DisplayName: Homing Nuke
 RedLightning.DisplayName: Red Lightning
 RedLightningFeather.DisplayName: Lightning Feather
 SandBlast.DisplayName: Sand Blast
@@ -130,24 +150,26 @@ SandTooth.DisplayName: Sand Tooth
 SCalBrimstoneFireblast.DisplayName: Brimstone Fireblast
 SCalBrimstoneGigablast.DisplayName: Brimstone Gigablast
 SCalRitualDrama.DisplayName: Calamitous Ritual Drama
-ScavengerLaser.DisplayName: Homing Dart
-ScavengerNuke.DisplayName: Homing Nuke
+HomingLaserDart.DisplayName: Homing Dart
+HyperdeathRiftScepterBeam.DisplayName: Hyperdeath Rift Ripper
 ShadeNimbusHostile.DisplayName: Shade Nimbus
 ShaderainHostile.DisplayName: Shade Rain
 ShadowflameFireball.DisplayName: Shadowflame Fireball
 Shadowflamethrower.DisplayName: Shadowflame Breath
 SignusScythe.DisplayName: Scythe
 SirenSong.DisplayName: Musical Note
-SkyFlare.DisplayName: Sky Flare
 SkyFlareRevenge.DisplayName: Sky Flare
 SporeGasPlantera.DisplayName: Spore Gas
 StormWeaverFrostWaveTelegraph.DisplayName: Frost Wave Telegraph
 SupremeCataclysmFist.DisplayName: Fist of Fury
 SupremeCatastropheSlash.DisplayName: Resonance Slash
 SwirlingFire.DisplayName: Fire
+TelekineticEnemyGrab.DisplayName: Telekinetic Enemy Grab
+TelekineticBlast.DisplayName: Telekinetic Blast
 ThanatosBeamStart.DisplayName: T Hanos Beam
 ThanatosBeamTelegraph.DisplayName: Gamma Disintegration Beam Telegraph
 ThanatosLaser.DisplayName: Exo Pulse Laser
+THanosSideLaser.DisplayName: T Hanos Side Laser
 ThornBallSpike.DisplayName: Thorn Ball Spike
 ToxicCloud.DisplayName: Toxic Cloud
 UnstableCrimulanGlob.DisplayName: Unstable Crimulan Glob
@@ -157,36 +179,3 @@ WaterSpear.DisplayName: Water Spear
 YharonBulletHellVortex.DisplayName: Bullet Hell Vortex
 YharonFireball.DisplayName: Dragon Fireball
 YharonFireball2.DisplayName: Dragon Fireball
-THanosSideLaser.DisplayName: T Hanos Side Laser
-PermafrostAbsoluteZeroProjectile.DisplayName: Absolute Ultra Zero
-PermafrostBlast.DisplayName: Permafrost's Gigablast
-PermafrostBlaster.DisplayName: Blaster of Unlimited Air Conditioning
-PermafrostColdheartIcicle.DisplayName: Coldheart Icicle
-PermafrostMeat.DisplayName: Cool Meat
-AnahitaTelegraph.DisplayName: Anahita Telegraph
-BloodScythe.DisplayName: Blood Scythe
-BurningBolt.DisplayName: Burning Bolt
-BurningFireblast.DisplayName: Burning Fireblast
-BurningGigablast.DisplayName: Burning Gigablast
-CalamitousDart.DisplayName: Calamitous Dart
-CalamitousExplosion.DisplayName: Calamitous Explosion
-CalamitousFireball.DisplayName: Calamitous Fireball
-CataclysmicFlame.DisplayName: Cataclysmic Flame
-CatastrophicCinder.DisplayName: Catastrophic Cinder
-CirclingBloodScythe.DisplayName: Circling Blood Scythe
-CrimsonEye.DisplayName: Crimson Eye
-CursedFire.DisplayName: Eye Fire
-DoGLaserWalls.DisplayName: God's Bane Doombeam Array
-DoGLaserWallsBigBeam.DisplayName: Hyperdeath Rift Ripper
-DoGRiftCrack.DisplayName: DoG Distortion Crack
-FriendlyLaserWallBeam.DisplayName: God's Bane Doombeam
-GolemInfernoBolt.DisplayName: Golem Fire Bolt
-GolemInfernoBlast.DisplayName: Golem Fire Blast
-IchorShower.DisplayName: Ichor Shower
-MushBombGround.DisplayName: Mushroom Shot
-RavagerNuke.DisplayName: Homing Nuke
-HomingLaserDart.DisplayName: Homing Dart
-HyperdeathRiftScepterBeam.DisplayName: Hyperdeath Rift Ripper
-TelekineticEnemyGrab.DisplayName: Telekinetic Enemy Grab
-TelekineticBlast.DisplayName: Telekinetic Blast
-BloodBombRTS.DisplayName: Blood Bomb

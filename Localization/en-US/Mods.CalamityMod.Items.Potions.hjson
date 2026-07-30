@@ -5,12 +5,16 @@ AnechoicCoating: {
 
 AstralInjection: {
 	DisplayName: Astral Injection
-	Tooltip: Gives mana sickness and hurts you when used, but you regenerate mana extremely quickly even while moving or casting spells
+	Tooltip:
+		'''
+		Restores {0} mana per second
+		Inflicts [cbuff:ManaSickness] when used
+		'''
 }
 
 AureusCell: {
 	DisplayName: Aureus Cell
-	Tooltip: Grants increased mana regeneration and magic power
+	Tooltip: Grants the {$BuffName.MagicPower} and {$BuffName.ManaRegeneration} buffs
 }
 
 Baguette: {
@@ -18,7 +22,7 @@ Baguette: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MinorStats}
-		Red Wine heals 250 HP, but reduces life regen by 2 HP/s
+		Goes well with [cbuffplr:CalamityMod/RedWineBuff]
 		[c/FCE391:'je suis Monte']
 		'''
 }
@@ -32,14 +36,23 @@ BlasphemousDonut: {
 		'''
 }
 
+BottledPanacea: {
+	DisplayName: Bottled Panacea
+	Tooltip:
+		'''
+		Cures you of all sickness and electricity debuffs when consumed
+		This has a 30 second cooldown
+		'''
+}
+
 BoundingPotion: {
 	DisplayName: Bounding Potion
-	Tooltip: 5% increased jump speed, 25 extra blocks of fall damage resistance, and increased jump height
+	Tooltip: "{0}% increased jump speed and {1}% increased jump height"
 }
 
 CalciumPotion: {
 	DisplayName: Calcium Potion
-	Tooltip: Grants immunity to fall damage
+	Tooltip: Grants {0}% knockback resistance
 }
 
 CeaselessHungerPotion: {
@@ -52,36 +65,37 @@ DeliciousMeat: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MediumStats}
-		'So very delicious'
+		{$Common.NotConsumable}, but takes {0} minutes to regenerate
+		'A blessed strip of pork that never seems to be entirely consumed...'
 		'''
 }
 
 FlaskOfBrimstone: {
 	DisplayName: Flask of Brimstone
-	Tooltip: Melee, Whip, and Rogue attacks inflict Brimstone Flames
+	Tooltip: Melee, Whip, and Rogue attacks inflict {$Buffs.BrimstoneFlames.DisplayName}
 }
 
 FlaskOfCrumbling: {
 	DisplayName: Flask of Crumbling
-	Tooltip: Melee, Whip, and Rogue attacks inflict Crumbling on enemies
+	Tooltip: Melee, Whip, and Rogue attacks inflict {$Buffs.Crumbling.DisplayName}
 }
 
 FlaskOfHolyFlames: {
 	DisplayName: Flask of Holy Flames
-	Tooltip: Melee, Whip, and Rogue attacks inflict Holy Flames
+	Tooltip: Melee, Whip, and Rogue attacks inflict {$Buffs.HolyFlames.DisplayName}
 }
 
 GravityNormalizerPotion: {
 	DisplayName: Gravity Normalizer Potion
-	Tooltip: Disables the low gravity of space and grants immunity to the distorted debuff
+	Tooltip: Disables the low gravity of space and grants immunity to the {$BuffName.VortexDebuff} debuff
 }
 
 HadalStew: {
 	DisplayName: Hadal Stew
 	Tooltip:
 		'''
-		Only gives [S] seconds of Potion Sickness
-		{$CommonItemTooltip.MediumStats}
+		Only gives [S] seconds of {$BuffName.PotionSickness}
+		{$CommonItemTooltip.MajorStats}
 		{$CommonItemTooltip.MinuteDuration}
 		'''
 }
@@ -102,12 +116,7 @@ OmegaHealingPotion: {
 
 PhotosynthesisPotion: {
 	DisplayName: Photosynthesis Potion
-	Tooltip:
-		'''
-		Grants +0.5 HP/s life regen and accelerates natural life regen while not moving
-		      This natural life regen effect is five times as strong during daytime
-		Dropped hearts heal more HP
-		'''
+	Tooltip: Dropped hearts heal {0} more HP
 }
 
 PotionofOmniscience: {
@@ -123,21 +132,15 @@ ShadowPotion: {
 	DisplayName: Shadow Potion
 	Tooltip:
 		'''
+		{0}% increased stealth generation
 		Turns the player into a shadow with glowing eyes
-		Rogue weapons spawn projectiles on hit
-		8% increased stealth generation
 		Visual effects can be disabled with the Stealth Invisibility config
 		'''
 }
 
 SoaringPotion: {
 	DisplayName: Soaring Potion
-	Tooltip:
-		'''
-		10% increased flight time and horizontal flight speed
-		Restores a fraction of your wing flight time after a true melee strike
-		The amount of flight time restored scales with your melee stats and weapon swing speed
-		'''
+	Tooltip: "{0}% increased flight time and horizontal flight speed"
 }
 
 SulphurskinPotion: {
@@ -155,13 +158,18 @@ SupremeManaPotion: {
 	Tooltip: ""
 }
 
-TeslaPotion: {
-	DisplayName: Tesla Potion
+TheConcoction: {
+	DisplayName: The Concoction
+	EasterEggText: Removes 9999 life
 	Tooltip:
 		'''
-		Summons an aura of electricity that electrifies and slows enemies
-		Aura damage is reduced on bosses
-		Reduces the duration of the Electrified debuff
+		Restores 9999 life
+		Can even be used while you have potion sickness if Quick Heal is repeatedly pressed
+		'''
+	SalesPitch:
+		'''
+		'Aren't you tired of how unreliable your healing potions are? What if you're in the middle of a zombie horde and sick to the core of those things?!'
+		'With my concoction, you won't have to worry about that! Just a sip of this bad boy and you'll be good as new, ready to take on the world!'
 		'''
 }
 
@@ -175,14 +183,40 @@ ZergPotion: {
 	Tooltip: Vastly increases enemy spawn rate
 }
 
-// Very normal Keg crafts
+BaconOil: {
+	DisplayName: Bacon Oil
+	Tooltip:
+		'''
+		Provides "good" mobility that scales with your damage stat boosts
+		Counts as 3 alcohols for {$Buffs.AlcoholPoisoning.DisplayName}
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		Provides "good" mobility that scales with your damage stat boosts
+		Counts as 3 alcohols for {$Buffs.AlcoholPoisoning.DisplayName}
+		When combined with drinking Bacon Oil straight, mobility becomes zanier
+		'''
+	SalesPitch:
+		'''
+		'Monks go on and on about forgoing attachment. I don't think this is what they meant. It's better!'
+		'Don't mind the accident disclaimer: get yourself some of this slippery fat oil, and not a bit of this world will be able to hold you down!'
+		'''
+}
+
 BloodyMary: {
 	DisplayName: Bloody Mary
 	Tooltip:
 		'''
-		10% increased damage and movement speed during a Blood Moon
-		Reduces life regen by 2 HP/s and defense by 4%
-		Drinking more than 3 different alcohols might not end well with your liver
+		Increases enemy spawn rates by 7x
+		Greatly reduces piercing weapon effectiveness
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		Increases enemy spawn rates by 7x
+		Greatly reduces piercing weapon effectiveness
+		When combined with drinking Bloody Mary straight, enemy spawn rates are increased by 10x total
 		'''
 }
 
@@ -190,9 +224,14 @@ CaribbeanRum: {
 	DisplayName: Caribbean Rum
 	Tooltip:
 		'''
-		Increases life regen by 1 HP/s, movement speed by 10%
-		Makes you floaty and reduces defense by 10%
-		Drinking more than 3 different alcohols might not end well with your liver
+		Increases move speed by {0}%
+		Reduces your gravity by {1}%
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		Increases move speed by {0}%
+		Reduces your gravity by {1}%
 		'''
 }
 
@@ -200,9 +239,14 @@ CinnamonRoll: {
 	DisplayName: Cinnamon Roll
 	Tooltip:
 		'''
-		Increases mana regeneration rate and multiplies all fire-based debuff damage by 1.5x
-		Reduces defense by 10%
-		Drinking more than 3 different alcohols might not end well with your liver
+		Greatly increases dash speed
+		Greatly reduces dash distance
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		Greatly increases dash speed
+		Greatly reduces dash distance
 		'''
 }
 
@@ -210,10 +254,16 @@ Everclear: {
 	DisplayName: Everclear
 	Tooltip:
 		'''
-		25% increased damage
-		Reduces life regen by 5 HP/s and defense by 30%
-		Counts as 2 alcohols for Alcohol Poisoning
-		Drinking more than 3 different alcohols might not end well with your liver
+		{0}% increased damage
+		Reduces life regen by {1} HP/s and defense by {2}%
+		Counts as 2 alcohols for {$Buffs.AlcoholPoisoning.DisplayName}
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		{0}% increased damage
+		Reduces life regen by {1} HP/s and defense by {2}%
+		Counts as 2 alcohols for {$Buffs.AlcoholPoisoning.DisplayName}
 		'''
 }
 
@@ -221,9 +271,14 @@ EvergreenGin: {
 	DisplayName: Evergreen Gin
 	Tooltip:
 		'''
-		Multiplies all sickness and water-related debuff damage by 1.25x
-		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
+		{0}% increased Water and Sickness debuff damage
+		{1}% decreased Electric and Heat debuff damage
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		{0}% increased Water and Sickness debuff damage
+		{1}% decreased Electric and Heat debuff damage
 		'''
 }
 
@@ -231,9 +286,14 @@ Fireball: {
 	DisplayName: Fireball
 	Tooltip:
 		'''
-		Multiplies all fire-based debuff damage by 1.25x
-		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
+		{0}% increased Heat debuff damage
+		{1}% decreased Sickness debuff damage
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		{0}% increased Heat debuff damage
+		{1}% decreased Sickness debuff damage
 		'''
 }
 
@@ -241,169 +301,17 @@ GrapeBeer: {
 	DisplayName: Grape Beer
 	Tooltip:
 		'''
-		Reduces defense by 3% for 15 seconds
-		Drinking more than 3 different alcohols might not end well with your liver
+		Bullets, Arrows, Darts, and Rockets gain homing
+		Projectiles deal less damage the further the enemy is
+		This reaches a minimum of {0}x damage at {1} tiles away
+		{$Common.AlcoholWarning}
 		'''
-}
-
-Margarita: {
-	DisplayName: Margarita
-	Tooltip:
+	DripEffect:
 		'''
-		Halves the duration of most harmful debuffs
-		Reduces defense by 6% and life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		3 minute duration
-		'''
-}
-
-Moonshine: {
-	DisplayName: Moonshine
-	Tooltip:
-		'''
-		Increases defense by 10 and damage reduction by 3%
-		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		'''
-}
-
-MoscowMule: {
-	DisplayName: Moscow Mule
-	Tooltip:
-		'''
-		Increases damage by 9%, knockback by 50% and critical strike chance by 3%
-		Reduces life regen by 2 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		'''
-}
-
-OddMushroom: {
-	DisplayName: Odd Mushroom
-	Tooltip:
-		'''
-		Causes you to see many fake, vibrant copies of all nearby entities
-		These effects become more potent as you consume more shrooms
-		[c/FF232C:These visual effects may be nauseating or otherwise bad for some]
-		'Trippy'
-		'''
-}
-
-OldFashioned: {
-	DisplayName: Old Fashioned
-	Tooltip:
-		'''
-		Multiplies all accessory and set bonus damage by 1.5x
-		Decreases all damage by 25%
-		Drinking more than 3 different alcohols might not end well with your liver
-		'''
-}
-
-PurpleHaze: {
-	DisplayName: Purple Haze
-	Tooltip:
-		'''
-		8% increased damage, but lowers defense by 5%
-		Increases immune time after being struck
-		Drinking more than 3 different alcohols might not end well with your liver
-		'''
-}
-
-RedWine: {
-	DisplayName: Red Wine
-	Tooltip:
-		'''
-		Reduces life regen by 0.5 HP/s for 15 seconds
-		Drinking more than 3 different alcohols might not end well with your liver
-		'''
-}
-
-Rum: {
-	DisplayName: Rum
-	Tooltip:
-		'''
-		Increases life regen by 1 HP/s and movement speed by 10%
-		Reduces defense by 5%
-		Drinking more than 3 different alcohols might not end well with your liver
-		'''
-}
-
-Screwdriver: {
-	DisplayName: Screwdriver
-	Tooltip:
-		'''
-		Multiplies piercing projectile damage by 1.05x
-		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		'''
-}
-
-StarBeamRye: {
-	DisplayName: Star Beam Rye
-	Tooltip:
-		'''
-		Increases max mana by 50, magic damage by 8%,
-		and reduces mana usage by 10%
-		Reduces defense by 6% and life regen by 1 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		'''
-}
-
-Tequila: {
-	DisplayName: Tequila
-	Tooltip:
-		'''
-		Increases knockback by 10%, crit chance by 4% and defense by 5 during daytime
-		Reduces life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		'''
-}
-
-TequilaSunrise: {
-	DisplayName: Tequila Sunrise
-	Tooltip:
-		'''
-		Increases knockback by 20%, crit chance by 8% and defense by 10 during daytime
-		Reduces life regen by 1 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		'''
-}
-
-Vodka: {
-	DisplayName: Vodka
-	Tooltip:
-		'''
-		Increases damage by 6% and critical strike chance by 2%
-		Reduces life regen by 0.5 HP/s and defense by 5%
-		Drinking more than 3 different alcohols might not end well with your liver
-		'''
-}
-
-Whiskey: {
-	DisplayName: Whiskey
-	Tooltip:
-		'''
-		Increases damage by 4%, knockback by 20% and critical strike chance by 2%
-		Reduces defense by 5%
-		Drinking more than 3 different alcohols might not end well with your liver
-		'''
-}
-
-WhiteWine: {
-	DisplayName: White Wine
-	Tooltip:
-		'''
-		Increases magic damage by 8%
-		Reduces defense by 6% and life regen by 0.5 HP/s
-		Drinking more than 3 different alcohols might not end well with your liver
-		'''
-}
-
-BottledPanacea: {
-	DisplayName: Bottled Panacea
-	Tooltip:
-		'''
-		Cures you of all sickness and electricity debuffs when consumed
-		This has a 30 second cooldown
+		Bullets, Arrows, Darts, and Rockets gain homing
+		Projectiles deal less damage the further the enemy is
+		This reaches a minimum of {0}x damage at {1} tiles away
+		When combined with drinking Grape Beer straight, homing range is increased
 		'''
 }
 
@@ -414,6 +322,247 @@ Manhattan: {
 		{0}% increased Cold debuff damage
 		{1}% decreased Water debuff damage
 		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		{0}% increased Cold debuff damage
+		{1}% decreased Water debuff damage
+		'''
+}
+
+Margarita: {
+	DisplayName: Margarita
+	Tooltip:
+		'''
+		Halves duration of harmful debuffs you receive
+		Reduces damage of debuffs you inflict by {0}%
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		Halves duration of harmful debuffs you receive
+		Reduces damage of debuffs you inflict by {0}%
+		'''
+}
+
+Moonshine: {
+	DisplayName: Moonshine
+	Tooltip:
+		'''
+		Increases maximum health by {0}%
+		Attacks always take at least half your defense worth of defense damage
+		Defense damage takes three times as long to recover
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		Increases maximum health by {0}%
+		Attacks always take at least half your defense worth of defense damage
+		Defense damage takes three times as long to recover
+		'''
+}
+
+MoscowMule: {
+	DisplayName: Moscow Mule
+	Tooltip:
+		'''
+		{0}% increased knockback, all attacks inflict heavy knockback
+		Reduces the effectiveness of piercing weapons
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		{0}% increased knockback, all attacks inflict heavy knockback
+		Reduces the effectiveness of piercing weapons
+		'''
+}
+
+OddMushroom: {
+	DisplayName: Odd Mushroom
+	Tooltip:
+		'''
+		Causes you to see many fake, vibrant copies of all nearby entities
+		[c/FF232C:These visual effects may be nauseating or harmful to those with photosensitivity issues]
+		'Trippy'
+		'''
+}
+
+OldFashioned: {
+	DisplayName: Old Fashioned
+	Tooltip:
+		'''
+		Multiplies most non-weapon, non-debuff damage by {0}x
+		Multiplies all weapon damage by {1}x
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		Multiplies most non-weapon, non-debuff damage by {0}x
+		Multiplies all weapon damage by {1}x
+		'''
+}
+
+PurpleHaze: {
+	DisplayName: Purple Haze
+	Tooltip:
+		'''
+		For 5 seconds after a stealth strike, all damage increased by {0}%, but stealth strike damage reduced by {1}%
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect: For 5 seconds after a stealth strike, all damage increased by {0}%, but stealth strike damage reduced by {1}%
+}
+
+RedWine: {
+	DisplayName: Red Wine
+	Tooltip:
+		'''
+		{0}% increased vertical speed
+		{1}% reduced flight time
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		{0}% increased vertical speed
+		{1}% reduced flight time
+		'''
+}
+
+Rum: {
+	DisplayName: Rum
+	Tooltip:
+		'''
+		{0}% increased non-minion summon damage
+		{1}% decreased minion damage
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		{0}% increased non-minion summon damage
+		{1}% decreased minion damage
+		'''
+}
+
+Screwdriver: {
+	DisplayName: Screwdriver
+	Tooltip:
+		'''
+		Greatly increases tile and wall placement range and speed
+		Greatly reduces damage dealt
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		Greatly increases tile and wall placement range and speed
+		Greatly reduces damage dealt
+		'''
+}
+
+StarBeamRye: {
+	DisplayName: Star Beam Rye
+	Tooltip:
+		'''
+		Increases Mana regeneration, even while using an item
+		Magic weapons deal {0}x damage
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		Increases Mana regeneration, even while using an item
+		Magic weapons deal {0}x damage
+		'''
+}
+
+Tequila: {
+	DisplayName: Tequila
+	Tooltip:
+		'''
+		{0}% increased Electric debuff damage
+		{1}% decreased Cold debuff damage
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		{0}% increased Electric debuff damage
+		{1}% decreased Cold debuff damage
+		'''
+}
+
+TequilaSunrise: {
+	DisplayName: Tequila Sunrise
+	Tooltip:
+		'''
+		Greatly increases natural life regeneration after suffering a damaging debuff
+		{0}% increased damage taken from debuffs
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		Greatly increases natural life regeneration after suffering a damaging debuff
+		{0}% increased damage taken from debuffs
+		'''
+}
+
+TheElixir: {
+	DisplayName: The Elixir
+	Tooltip:
+		'''
+		Functions as a Potion of Return
+		Occasionally sends you... [c/AA23C4:somewhere else]
+		'''
+	SalesPitch:
+		'''
+		'Return potions are nifty and all, but they taste like bogus! But with my special formula, it'll magically taste like your favorite food!'
+		'Besides, you ain't finding them for much cheaper around these parts. Trust me, you're practically stealing me!'
+		'''
+}
+
+Vodka: {
+	DisplayName: Vodka
+	Tooltip:
+		'''
+		{0}% increased Typeless debuff damage
+		{1}% decreased elemental debuff damage
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		{0}% increased Typeless debuff damage
+		{1}% decreased elemental debuff damage
+		'''
+}
+
+Whiskey: {
+	DisplayName: Whiskey
+	Tooltip:
+		'''
+		Provides between {0}% and {1}% damage to the held weapon's class
+		Each class tracks this boost individually
+		This boost lowers the longer you hold weapons of the same class, taking {2} seconds to fully decay
+		This boost recharges when holding weapons of a different class, taking {3} seconds to fully recharge
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		Provides between {0}% and {1}% damage to the held weapon's class
+		Each class tracks this boost individually
+		This boost lowers the longer you hold weapons of the same class, taking {2} seconds to fully decay
+		This boost recharges when holding weapons of a different class, taking {3} seconds to fully recharge
+		When combined with drinking Whiskey straight, damage varies between {4}% and {5}%
+		'''
+}
+
+WhiteWine: {
+	DisplayName: White Wine
+	Tooltip:
+		'''
+		You regain flight time the closer you are to an enemy
+		{0}% reduced flight time
+		{$Common.AlcoholWarning}
+		'''
+	DripEffect:
+		'''
+		You regain flight time the closer you are to an enemy
+		{0}% reduced flight time
 		'''
 }
 
@@ -451,6 +600,15 @@ Mangosteen: {
 		'''
 }
 
+QualitySlop: {
+	DisplayName: Quality Slop
+	Tooltip:
+		'''
+		{$CommonItemTooltip.MajorStats}
+		'You only like it because it's good'
+		'''
+}
+
 Salak: {
 	DisplayName: Salak
 	Tooltip: "{$CommonItemTooltip.MinorStats}"
@@ -462,5 +620,23 @@ ShroomBowl: {
 		'''
 		{$CommonItemTooltip.MediumStats}
 		'He has been grounded'
+		'''
+}
+
+TheSandwich: {
+	DisplayName: The Sandwich
+	Tooltip:
+		'''
+		A sandwich made of the finest bread, cheese, and fish in the land!
+		Minor reductions to all stats
+		{0}% increased damage for every alcohol you are affected by
+		Allows you to drink 2 more alcohols than normal
+		Alcohol effects will not expire while under the effects of The Sandwich
+		'Might actually taste good if it was the only thing you'd ever eaten...'
+		'''
+	SalesPitch:
+		'''
+		'...You want to buy my lunch?'
+		'Well, no matter! But it won't be cheap! This sandwich is made with the best the market can offer, so ready your wallet!'
 		'''
 }

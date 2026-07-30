@@ -1,7 +1,7 @@
 // Broken Biome Blade
 DefaultAttunement: {
 	Name: Claridade Pura
-	Function: Dispara um feixe de espada fraco que esmaga as defesas inimigas
+	Function: Dispara um feixe de espada fraco
 }
 
 HotAttunement: {
@@ -20,10 +20,7 @@ ColdAttunement: {
 
 EvilAttunement: {
 	Name: Retorta da Decadência
-	Function:
-		'''
-		Invista para frente com um florete fantasma, saltando para longe dos inimigos atingidos e roubando a vida deles
-		'''
+	Function: Invista para frente com uma projeção de florete fantasma, saltando para longe dos inimigos atingidos e roubando a vida deles
 }
 
 // Mended Biome Blade
@@ -31,9 +28,9 @@ TrueDefaultAttunement: {
 	Name: Claridade Pura
 	Function:
 		'''
-		Dispara um feixe de espada fraco que esmaga a defesa do inimigo
+		Dispara um feixe de espada fraco
 		Acertar três golpes físicos verdadeiros carrega uma investida poderosa que é liberada quando você parar de balançar a espada
-		Inimigos atingidos pela investida são marcadas com um sigilo que atrairá os feixes de espada
+		Inimigos atingidos pela investida são marcados com um sigilo que atrairá os feixes de espada
 		'''
 }
 
@@ -127,8 +124,8 @@ ShockwaveAttunement: {
 		'''
 		Carregue uma investida avassaladora, solte para liberar um golpe devastador
 		Feixes de espada teleguiados são emitidos conforme o golpe é carregado
-		Golpear um inimigo com a investida cria uma onda de choque e marca-o com um sigilo de esmagamento de armadura que atrai teleguiadamente os feixes de espada
-		Golpear a terra com a investida fará com que diversas explosões de poeira irrompam em sua volta
+		Golpear um inimigo com a investida cria uma onda de choque e marca-o com um sigilo que atrai teleguiadamente os feixes de espada
+		Golpear a terra com a investida fará com que diversas explosões de poeira irrompam ao seu redor
 		'''
 	PassiveDesc: Emite ondas de choque enormes periodicamente enquanto ataca
 }
@@ -141,12 +138,7 @@ PhoenixAttunement: {
 		Balance a espada ao seu redor, acelerando com o tempo
 		A nébula rodopiante constantemente emite raios cósmicos teleguiados
 		Solte para arremessar Galaxia na direção do cursor junto de uma rajada de 6 raios cósmicos gigantescos
-		'''
-	PassiveName: Bênção do Capricórnio
-	PassiveDesc:
-		'''
-		Periodicamente libera um anel de estrelas enfraquecedoras ao redor do seu cursor conforme você ataca
-		O anel começa distanciando-se de você, e então desacelera com o tempo
+		A espada arremessada irrompe em um vulcão ardente ao atingir o inimigo
 		'''
 }
 
@@ -157,12 +149,6 @@ AriesAttunement: {
 		Vincula a espada ao seu cursor por meio de uma corrente de constelações
 		Golpear inimigos causa explosões nebulosas que invocam raios cósmicos teleguiados
 		'''
-	PassiveName: Bênção do Capricórnio
-	PassiveDesc:
-		'''
-		Periodicamente libera um anel de estrelas enfraquecedoras ao redor do seu cursor conforme você ataca
-		O anel começa distanciando-se de você, e então desacelera com o tempo
-		'''	
 }
 
 PolarisAttunement: {

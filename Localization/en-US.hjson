@@ -24,5 +24,11 @@ Mods: {
 				}
 			}
 		}
+
+		Common: {
+			FormattedBannerNameMale: Bandeira do {0}
+			FormattedBannerNameFemale: Bandeira da {0}
+			FormattedBannerNameNeutral: Bandeira de {0}
+		}
 	}
 }

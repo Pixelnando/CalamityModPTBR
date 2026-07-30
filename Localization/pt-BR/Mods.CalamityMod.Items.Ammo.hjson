@@ -9,15 +9,21 @@ AstralSolution: {
 
 BloodfireArrow: {
 	DisplayName: Flecha de Fogo Sangrento
-	Tooltip: Cura você em uma pequena quantidade ao atingir o inimigo
+	Tooltip:
+		'''
+		Flechas de alta velocidade com uma ponta encharcada de sangue
+		Disparar estas flechas drenará a sua vida e aumentará o dano da flecha em 30%
+		Acelera a sua regeneração de vida natural e te cura ao atingir o inimigo
+		'''
 }
 
 BloodfireBullet: {
 	DisplayName: Projétil de Fogo Sangrento
 	Tooltip:
 		'''
-		Acelera a sua regeneração de vida ao atingir o inimigo
-		Causa dano bônus com base em sua regeneração de vida atual
+		Atravessa peças e acelera a sua regeneração de vida natural no acerto com base na força do acerto
+		Causa mais danos de acordo com sua regeneração de vida natural
+		Este dano tem um limite de 1,1x
 		'''
 }
 
@@ -25,47 +31,52 @@ BloodRune: {
 	DisplayName: Runa de Sangue
 	Tooltip:
 		'''
-		Usado com a Barragem de Gelo
-		Encontrado em algum tipo de paisagem rúnica
+		Usada pela Barragem de Gelo
+		'Encontrado em algum tipo de paisagem rúnica'
 		'''
 }
 
 BubonicRound: {
 	DisplayName: Tiro Bubônico
-	Tooltip:
-		'''
-		Explode em praga virulenta no contato
-		Ignora 25% da defesa do inimigo
-		'''
+	Tooltip: Espalha a [cbuff:CalamityMod/Plague] no acerto e ignora 10% da defesa do inimigo
 }
 
 CinderArrow: {
 	DisplayName: Flecha Cinzenta
-	Tooltip: Flecha explosiva que explode em fragmentos flamejantes menores que infligem Chamas de Enxofre
+	Tooltip: Flechas explosivas que explodem em Fragmentos de Enxofre flamejantes mais fracos
 }
 
 DryadsTear: {
 	DisplayName: Lágrima da Dríade
-	Tooltip: Divide em fragmentos da natureza teleguiados no impacto que ignoram a defesa do inimigo
+	Tooltip:
+		'''
+		Um projétil mágico extremamente poderoso abençoado com a essência da natureza que se torna instável quando há vários por perto
+		Acompanha uma lágrima que se separará e colidirá com o inimigo atingido, causando uma explosão
+		Todos os acertos do projétil e da lágrima perfuram 18 pontos de armadura
+		[c/40E091:'Foco. Respira. Só mais um tiro, e a violência vai desaparecer...']
+		'''
 }
 
 ElysianArrow: {
 	DisplayName: Flecha do Elísio
-	Tooltip: Invoca meteoros do céu na morte
+	Tooltip: Invoca luz purificante por cima e por baixo no inimigo mais próximo no acerto
 }
 
 FlashRound: {
 	DisplayName: Tiro Brilhante
-	Tooltip: Emite uma explosão contundente que confunde os inimigos em uma grande área por um curto período de tempo
+	Tooltip:
+		'''
+		Um projétil que causa mais dano com cada ricochete
+		O aumento no dano é de 1,13x ou +2 de dano plano por ricochete, dependendo do mais forte
+		'''
 }
 
 GodSlayerSlug: {
-	DisplayName: Bala Caça-Deuses
+	DisplayName: Bala Caça-deuses
 	Tooltip:
 		'''
 		Munição pesada com perfuração ilimitada que dilacera o espaço-tempo
-		Depois que uma bala acerta, se ela atingir uma parede ou ficar sem alvos para perfurar,
-		ela se dobra para trás através do espaço e sobrecarrega, explodindo com o impacto
+		Balas que atingirem um alvo dobram o caminho e se sobrecarregam, se estilhaçando no acerto
 		'''
 }
 
@@ -73,8 +84,7 @@ HailstormBullet: {
 	DisplayName: Projétil de Granizo
 	Tooltip:
 		'''
-		Projéteis imbuídos com uma magia de gelo potente
-		Esses projéteis desaceleram rapidamente após serem disparados
+		Depois de atirados, os projéteis rapidamente desaceleram
 		Acertos críticos causam um congelamento instantâneo, causando mais dano e congelando inimigos normais
 		'''
 }
@@ -83,28 +93,40 @@ HallowPointRound: {
 	DisplayName: Bala de Ponta Sagrada
 	Tooltip:
 		'''
-		A luz galante causa 6 a mais de dano ao atingir o inimigo
-		Esse efeito não ocorre se os projéteis forem convertidos por armas especiais
+		Libera luz galante no acerto que aumenta o dano base do projétil para [DAMAGE]
+		Este efeito não ocorre se os projéteis forem convertidos por armas especiais
 		'''
 }
 
 HolyFireBullet: {
 	DisplayName: Projétil de Fogo Sagrado
-	Tooltip: Balas sagradas explosivas
+	Tooltip:
+		'''
+		Projéteis profanos que causam 1,15x o dano e explodem no impacto
+		A explosão é maior e o projétil causa mais dano se o impacto ocorrer logo após o disparo
+		O dano adicional tem um limite de 1,15x
+		'''
 }
 
 HyperiusBullet: {
 	DisplayName: Projétil de Hipério
 	Tooltip:
 		'''
-		Seus inimigos podem ter um momento ruim
-		Gera projéteis adicionais ao atingir inimigos
+		Projéteis multicoloridos deslumbrantes que se transformam em luzes rodopiantes ao atingir o alvo
+		Danos que seriam causados pelos projéteis é armazenado no alvo
+		Conforme mais dano é armazenado, ele começará a sobrecarregar, sendo liberado lentamente e machucando o inimigo
+		Ataques de outras fontes além dos Projéteis de Hipério liberarão um pouco da carga
+		Liberar a carga desta maneira causa 20% a mais de dano
 		'''
 }
 
 IcicleArrow: {
 	DisplayName: Flecha de Gelo
-	Tooltip: Se quebra em fragmentos no impacto
+	Tooltip:
+		'''
+		Ao serem disparadas, as flechas rapidamente congelam em gelos em queda
+		Atingir inimigos ou peças antes que a flecha congele por completo ricocheteia a flecha para cima
+		'''
 }
 
 MarksmanRound: {
@@ -120,8 +142,8 @@ MortarRound: {
 	DisplayName: Tiro de Morteiro
 	Tooltip:
 		'''
-		Tiros altamente explosivos especializados com um grande raio de impacto
-		Destrói peças
+		Tiros altamente explosivos especializados
+		Grande raio de impacto. Destrói peças
 		Usado por armas normais
 		'''
 }
@@ -130,8 +152,8 @@ RubberMortarRound: {
 	DisplayName: Tiro de Morteiro de Borracha
 	Tooltip:
 		'''
-		Tiros altamente explosivos especializados com um grande raio de impacto
-		Destrói peças cada vez que saltita
+		Tiros altamente explosivos especializados
+		Grande raio de impacto. Destrói peças a cada vez que ricocheteia
 		Usado por armas normais
 		'''
 }
@@ -141,7 +163,7 @@ SproutingArrow: {
 	Tooltip:
 		'''
 		Dispara uma flecha energizada que rapidamente se divide em duas flechas
-		Essas flehcas ignoram 8 pontos de defesa
+		Essas flechas ignoram 8 pontos de defesa
 		'''
 }
 
@@ -149,8 +171,8 @@ VanquisherArrow: {
 	DisplayName: Flecha do Vencedor
 	Tooltip:
 		'''
-		Perfura peças
-		Gera flechas teleguiadas adicionais enquanto viaja
+		Perfura peças e é teleguiada nos inimigos
+		Rasga o espaço ao atingir o inimigo
 		'''
 }
 

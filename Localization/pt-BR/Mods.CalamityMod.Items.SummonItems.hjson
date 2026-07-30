@@ -3,8 +3,8 @@ Abombination: {
 	Tooltip:
 		'''
 		Invoca a Pestífera Goliarda quando é usado na Selva
-		O chefe fica enfurecido quando está fora da Selva
-		Não consumível
+		O chefe fica enfurecido fora da Selva
+		{$Common.NotConsumable}
 		'Rádio capaz de emitir uma frequência reconhecida pelo nanovírus da Peste.'
 		'''
 }
@@ -14,14 +14,13 @@ AstralChunk: {
 	Tooltip:
 		'''
 		Invoca o Astrum Aureus quando é usado na Infecção Astral
-		O chefe fica enfurecido durante o dia ou quando está fora da Infecção Astral
-		Não consumível
+		{$Common.NotConsumable}
 		'A fortaleza da Infecção localizou um novo alvo.'
 		'''
 }
 
 BloodwormItem: {
-	DisplayName: Verme de Sangue
+	DisplayName: "{$NPCs.BloodwormNormal.DisplayName}"
 	Tooltip:
 		'''
 		Invoca o Velho Duque se for usado como isca no Mar Sulfuroso
@@ -34,10 +33,15 @@ BloodyWormFood: {
 	Tooltip:
 		'''
 		Invoca a Colmeia dos Perfuradores quando é usada no Carmim
-		O chefe fica enfurecido fora do Subterrâneo Carmim
-		Não consumível
+		O chefe foge fora do Carmim
+		{$Common.NotConsumable}
 		'Não brinque com a sua comida, pois eles não brincam com a deles.'
 		'''
+}
+
+CausticTear: {
+	DisplayName: Lágrima Cáustica
+	Tooltip: Causa uma chuva ácida no Mar Sulfuroso
 }
 
 CeremonialUrn: {
@@ -45,7 +49,7 @@ CeremonialUrn: {
 	Tooltip:
 		'''
 		Use no Altar Amaldiçoado para invocar Calamitas, a Bruxa Suprema
-		Não consumível
+		{$Common.NotConsumable}
 		'A Bruxa não permitirá que isso aconteça novamente.'
 		'''
 }
@@ -56,7 +60,7 @@ CharredIdol: {
 		'''
 		Invoca a Elemental de Enxofre quando é usado nos Rochedos de Enxofre
 		O chefe fica enfurecido fora dos Rochedos de Enxofre
-		Não consumível
+		{$Common.NotConsumable}
 		'Qualquer coisa sob seu olhar deve ser carbonizada até tornar-se irreconhecível.'
 		'''
 }
@@ -66,8 +70,8 @@ CosmicWorm: {
 	Tooltip:
 		'''
 		Invoca o Devorador de Deuses
-		Não consumível
-		'A Serpente sem Nome partiu para caçá-lo.'
+		{$Common.NotConsumable}
+		[ceffect/dog:'A Serpente Sem Nome partiu para caçá-lo.']
 		'''
 }
 
@@ -77,8 +81,7 @@ CryoKey: {
 	Tooltip:
 		'''
 		[SPAWN]
-		O chefe fica enfurecido fora da tundra
-		Não consumível
+		{$Common.NotConsumable}
 		'Uma chave para uma prisão glacial.'
 		'''
 	SpawnNormal: Invoca o Criogênio quando é usado na tundra
@@ -90,7 +93,7 @@ DeathWhistle: {
 	Tooltip:
 		'''
 		Invoca o Devastador
-		Não consumível
+		{$Common.NotConsumable}
 		'Um dos poucos sons reconhecíveis pelo golem de carne.'
 		'''
 }
@@ -99,9 +102,8 @@ DecapoditaSprout: {
 	DisplayName: Broto de Decapodita
 	Tooltip:
 		'''
-		Invoca o Carangulão quando é usado no bioma de Cogumelos
-		O chefe fica enfurecido fora do bioma de Cogumelos Subterrâneo
-		Não consumível
+		Invoca o Carangulão quando é usado no bioma de Cogumelos Subterrâneo
+		{$Common.NotConsumable}
 		'Cheio de esporos de uma cepa parasita única.'
 		'''
 }
@@ -112,7 +114,7 @@ DesertMedallion: {
 		'''
 		Invoca o Flagelo do Deserto quando é usado no Deserto
 		O chefe fica enfurecido fora do Deserto
-		Não consumível
+		{$Common.NotConsumable}
 		'O Flagelo procura por outra refeição.'
 		'''
 }
@@ -122,7 +124,7 @@ EidolonTablet: {
 	Tooltip:
 		'''
 		Invoca o Cultista Lunático
-		Não consumível
+		{$Common.NotConsumable}
 		'Um artefato antigo venerado pelo Culto do Dragão.'
 		'''
 }
@@ -131,42 +133,57 @@ ExoticPheromones: {
 	DisplayName: Fermônios Exóticos
 	Tooltip:
 		'''
-		Invoca o Dragão-Folião quando é usado na Selva
+		Invoca o Dragão-folião quando é usados na Selva
 		O chefe fira enfurecido fora da Selva
-		Não consumível
+		{$Common.NotConsumable}
 		'Fermônios utilizados para caçar Ramificações Dracônicas.'
 		'''
 }
 
 EyeofDesolation: {
 	DisplayName: Olho da Desolação
-	// The GFB tag generates a new line below when placed at the end of a line
 	Tooltip:
 		'''
-		Invoca o Clone da Calamitas quando é usado durante a noite[GFB]
-		O chefe fira enfurecido durante o dia
-		Não consumível
+		Invoca o Clone da Calamitas
+		Cria uma arena quadrada com você na parte inferior no modo Vingança
+		{$Common.NotConsumable}
 		'Ela chegou.'
 		'''
-	GFBInfo: Cria uma arena quadrada de blocos, com você no seu centro
 }
 
-CausticTear: {
-	DisplayName: Lágrima Cáustica
+NaiadsWarhorn: {
+	DisplayName: Corneta de Guerra de Naiad
 	Tooltip:
 		'''
-		Causa uma chuva ácida no Mar Sulfuroso
-		Não consumível
+		Invoca a Anahita quando é usada no oceano
+		O chefe fica enfurecido fora do Oceano
+		{$Common.NotConsumable}
+		'Um instrumento usado pelos tritões para chamar a Anahita. Sua melodia é estranhamente sedutora.'
 		'''
+}
+
+MarkofProvidence: {
+	DisplayName: Marca da Providência
+	Tooltip:
+		'''
+		Um selo ornamentado da Chama Profana
+		O ódio ainda arde em sua fronte
+		[SPAWN]
+		{$Common.NotConsumable}
+		'''
+	SpawnInfo: Esse poder atrai seres de outro mundo
+	SpawnVoid:
+		'''
+		Invoca o Vazio Incessante
+		O chefe foge na superfície
+		'''
+	SpawnSignus: Invoca Signus, o Arauto do Devorador
+	SpawnWeaver: Invoca o Tecelão de Tempestades
 }
 
 MartianDistressRemote: {
 	DisplayName: Controle de Socorro Marciano
-	Tooltip:
-		'''
-		Invoca a Loucura de Marte
-		Não consumível
-		'''
+	Tooltip: Invoca a Loucura de Marte
 }
 
 NecroplasmicBeacon: {
@@ -174,7 +191,8 @@ NecroplasmicBeacon: {
 	Tooltip:
 		'''
 		Invoca o Polterghast quando é usado no Calabouço
-		Não consumível
+		O chefe foge na superfície
+		{$Common.NotConsumable}
 		'Os lamentos dos espíritos perturbaram algo muito mais aterrorizante.'
 		'''
 }
@@ -184,22 +202,12 @@ NO: {
 	Tooltip: VC
 }
 
-OldPowerCell: {
-	DisplayName: Bateria Antiga
-	Tooltip:
-		'''
-		Invoca o Golem quando é usado na Selva
-		O chefe fica enfurecido fora do Templo da Selva
-		Não consumível
-		'''
-}
-
 OverloadedSludge: {
 	DisplayName: Lama Sobrecarregada
 	Tooltip:
 		'''
 		Invoca o Deus Geleia
-		Não consumível
+		{$Common.NotConsumable}
 		'Contorcendo-se e inchado com o pus de Deuses já mortos há muito tempo.'
 		'''
 }
@@ -210,7 +218,7 @@ Portabulb: {
 		'''
 		Invoca a Plantera quando é usado na Selva
 		O chefe fica enfurecido fora da Selva Subterrânea
-		Não consumível
+		{$Common.NotConsumable}
 		'''
 }
 
@@ -219,9 +227,8 @@ ProfanedCore: {
 	Tooltip:
 		'''
 		Invoca a Providência quando é usado no Sagrado ou Submundo
-		O espólio único muda dependendo do bioma onde ela é enfrentada
-		O chefe fica enfurecido durante a noite
-		Não consumível
+		Use novamente enquanto a Providência estiver com vida alta para desencadear toda a Sua fúria
+		{$Common.NotConsumable}
 		'O coração de Seus Guardiões, Sua ira perversa queimará sobre quem quer que o empunhe agora.'
 		'''
 }
@@ -230,32 +237,10 @@ ProfanedShard: {
 	DisplayName: Fragmento Profano
 	Tooltip:
 		'''
-		[SPAWN]
-		Os chefes ficam enfurecidos fora do Sagrado ou Submundo
-		Não consumível
+		Invoca os Guardiões Profano quando é usado no Sagrado ou Submundo
+		{$Common.NotConsumable}
 		'Seus Guardiões buscam o detentor de um poder tão vasto e roubado."'
 		'''
-	SpawnNormal: Invoca os Guardiões Profanos quando é usado no Sagrado ou no Submundo durante o dia
-	SpawnRemix: Invoca os Guardiões Profanos quando é usado no Sagrado ou no Submundo
-}
-
-RuneofKos: {
-	DisplayName: Runa de Kos
-	Tooltip:
-		'''
-		Um sigilo ornamentado da Chama Profana
-		O ódio ainda queima em seu fronte
-		[SPAWN]
-		Não consumível
-		'''
-	SpawnInfo: Tal poder atrai seres de outros mundos.
-	SpawnVoid:
-		'''
-		Invoca o Vazio Incessante
-		O chefe fica enfurecido na superfície
-		'''
-	SpawnSignus: Invoca Signus, o Emissário do Devorador
-	SpawnWeaver: Invoca o Explorador Tempestuoso
 }
 
 SandstormsCore: {
@@ -263,7 +248,7 @@ SandstormsCore: {
 	Tooltip:
 		'''
 		Invoca o Grande Tubarão de Areia quando é usado no [BIOME]
-		Não consumível
+		{$Common.NotConsumable}
 		'''
 }
 
@@ -273,7 +258,7 @@ Seafood: {
 		'''
 		Invoca o Flagelo Aquático quando é usado no Mar Sulfuroso
 		O chefe fica enfurecido fora do Mar Sulfuroso
-		Não consumível
+		{$Common.NotConsumable}
 		'Iscas grandes para uma captura grande. Cuidado com os monstros dos mares.'
 		'''
 }
@@ -283,7 +268,6 @@ Starcore: {
 	Tooltip:
 		'''
 		Invoca o Astrum Deus no Sinalizador Astral, mas não é consumido
-		O chefe fica enfurecido durante o dia
 		'Que as estrelas guiem o seu caminho'
 		'''
 }
@@ -293,8 +277,8 @@ Teratoma: {
 	Tooltip:
 		'''
 		Invoca a Colmeia Mental quando é usado na Corrupção
-		O chefe fica enfurecido fora do Subterrâneo Corrompido
-		Não consumível
+		O chefe fica enfurecido fora da Corrupção
+		{$Common.NotConsumable}
 		'Um tumor exquisitamente horrendo para aqueles doentes na cabeça.'
 		'''
 }
@@ -302,50 +286,26 @@ Teratoma: {
 Terminus: {
 	DisplayName: Terminus
 	GFBName: Ogscule
-	Tooltip:
+	Tooltip: Segure <left> para começar ou terminar a Corrida de Chefes
+}
+
+TheHousingContract: {
+	DisplayName: O Contrato de Alojamento
+	Tooltip: Utilize para adotar um porquinho para a sua cidade
+	SalesPitch:
 		'''
-		Ativa o Modo Corrida de Chefes, usá-lo novamente desativará o Modo Corrida de Chefes
-		Durante a Corrida de Chefes, todos os fios e dispositivos com fio serão desativados
+		'Você já pensou em cuidar de um porquinho? Como parte da nossa campanha para acabar com os maus-tratos aos porquinhos, você pode adotar um aqui e agora!'
+		'É só assinar aqui que a gente entrega pra você rapidinho!'
 		'''
 }
 
 YharonEgg: {
-	DisplayName: Ovo de Dragão Abençoado
+	DisplayName: Ovo Abençoado da Fênix
 	Tooltip:
 		'''
-		Invoca Yharon, o Dragão do Renascimento
+		Invoca Yharon, o Dragão do Renascer
 		O chefe fica enfurecido fora das paredes de fogo
-		Não consumível
-		'Um símbolo do Dragão observando e esperando por você.'
-		'''
-}
-
-NaiadsWarhorn: {
-	// DisplayName: Naiad's Warhorn
-	/* Tooltip:
-		'''
-		Summons Anahita when used in the Ocean
-		Enrages outside the Ocean
 		{$Common.NotConsumable}
-		'An instrument used by mermen to call upon Anahita. Its melody is oddly alluring.'
-		''' */
-}
-
-MarkofProvidence: {
-	// DisplayName: Mark of Providence
-	/* Tooltip:
+		'Um símbolo do Dragão que te observa e espera por você.'
 		'''
-		An ornate sigil of the Profaned Flame
-		Hatred yet burns upon its brow
-		[SPAWN]
-		{$Common.NotConsumable}
-		''' */
-	// SpawnInfo: Such power attracts otherworldly beings
-	/* SpawnVoid:
-		'''
-		Summons the Ceaseless Void
-		Despawns on the surface
-		''' */
-	// SpawnSignus: Summons Signus, Envoy of the Devourer
-	// SpawnWeaver: Summons the Storm Weaver
 }

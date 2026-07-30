@@ -9,17 +9,17 @@ AnahitaMask: {
 }
 
 AncientGodSlayerChestplate: {
-	DisplayName: Peitoral do Caça-Deuses Antigo
+	DisplayName: Peitoral do Caça-deuses Antigo
 	Tooltip: ""
 }
 
 AncientGodSlayerHelm: {
-	DisplayName: Elmo do Caça-Deuses Antigo
+	DisplayName: Elmo do Caça-deuses Antigo
 	Tooltip: ""
 }
 
 AncientGodSlayerLeggings: {
-	DisplayName: Calça do Caça-Deuses Antigo
+	DisplayName: Calça do Caça-deuses Antigo
 	Tooltip: ""
 }
 
@@ -58,13 +58,13 @@ AstrumDeusMask: {
 	Tooltip: ""
 }
 
-BrimstoneWaifuMask: {
+BrimstoneElementalMask: {
 	DisplayName: Máscara da Elemental de Enxofre
 	Tooltip: ""
 }
 
 BumblefuckMask: {
-	DisplayName: Máscara do Dragão-Folião
+	DisplayName: Máscara do Dragão-folião
 	Tooltip: ""
 }
 
@@ -104,12 +104,12 @@ DraedonMask: {
 }
 
 GodSlayerHornedHelm: {
-	DisplayName: Elmo com Chifres do Caça-Deuses
+	DisplayName: Elmo com Chifres do Caça-deuses
 	Tooltip: ""
 }
 
 GodSlayerVisage: {
-	DisplayName: Protetor Facial do Caça-Deuses
+	DisplayName: Protetor Facial do Caça-deuses
 	Tooltip: ""
 }
 
@@ -126,6 +126,21 @@ HoodOfCalamity: {
 LeviathanMask: {
 	DisplayName: Máscara da Leviathan
 	Tooltip: ""
+}
+
+LucisBoots: {
+	DisplayName: Botas de Luci
+	Tooltip: "'Um passo por vez, você consegue.'"
+}
+
+LucisHairstyle: {
+	DisplayName: Cabelo de Luci
+	Tooltip: "'A Salvação da Luz, Luci Skyshot.'"
+}
+
+LucisMilitaryUniform: {
+	DisplayName: Uniforme Militar de Luci
+	Tooltip: "'Carrega a insígnia da liberdade icônica do Exército da Liberação.'"
 }
 
 OldDukeMask: {
@@ -238,42 +253,22 @@ ThanatosMask: {
 	Tooltip: ""
 }
 
-YharonMask: {
-	DisplayName: Máscara do Yharon
-	Tooltip: ""
-}
-
-BrimstoneElementalMask: {
-	// DisplayName: Brimstone Elemental Mask
-	// Tooltip: ""
-}
-
-LucisBoots: {
-	// DisplayName: Luci's Boots
-	// Tooltip: "'One small step a time, you can do this.'"
-}
-
-LucisHairstyle: {
-	// DisplayName: Luci's Hairstyle
-	// Tooltip: "'Hero of Light, Luci Skyshot.'"
-}
-
-LucisMilitaryUniform: {
-	// DisplayName: Luci's Military Uniform
-	// Tooltip: "'Bearing the iconic Liberation Army insignia of freedom.'"
-}
-
 TheCommandersCap: {
-	// DisplayName: The Commanders Cap
-	// Tooltip: Part of The High-Flying Finery
+	DisplayName: O Chapéu do Comandante
+	Tooltip: Parte da Elegância de Alto Nível
 }
 
 TheFormalFootwear: {
-	// DisplayName: The Formal Footwear
-	// Tooltip: Part of The High-Flying Finery
+	DisplayName: Os Calçados Formais
+	Tooltip: Parte da Elegância de Alto Nível
 }
 
 TheGrandGarment: {
-	// DisplayName: The Grand Garment
-	// Tooltip: Part of The High-Flying Finery
+	DisplayName: O Grande Traje
+	Tooltip: Parte da Elegância de Alto Nível
+}
+
+YharonMask: {
+	DisplayName: Máscara do Yharon
+	Tooltip: ""
 }

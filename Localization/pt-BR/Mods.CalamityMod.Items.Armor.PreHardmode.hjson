@@ -1,149 +1,162 @@
 AerospecBreastplate: {
 	DisplayName: Peitoral Aeroespectral
-	Tooltip: 3% de aumento na chance de acerto crítico
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedDamageCritChance}"
 	CommonSetBonus:
 		'''
-		Sofrer mais de 25 de dano de um ataque fará com que penas teleguiadas caiam do céu
-		Faz com que você caia mais rapidamente e desativa o dano de queda
+		Sofrer mais de {0} de dano de um ataque fará com que penas teleguiadas caiam do céu
+		Permite que você caia mais rapidamente e desativa o dano de queda
 		'''
 }
 
-AerospecHat: {
+AerospecHeadMagic: {
 	DisplayName: Chapéu Aeroespectral
-	Tooltip: 8% de aumento nos danos por magia e +20 mana máxima
-	SetBonus: 5% de aumento na velocidade dos movimentos e chance de acerto crítico mágico
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxManaBy}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@1}
+		'''
+	SetBonus:
+		'''
+		{$CommonItemTooltip.PercentReducedManaCost}
+		{1}% de aumento na velocidade dos movimentos e na chance de acerto crítico mágico
+		{$AerospecBreastplate.CommonSetBonus@2}
+		'''
 }
 
-AerospecHeadgear: {
+AerospecHeadRogue: {
 	DisplayName: Capacete Aeroespectral
-	Tooltip: 8% de aumento nos danos por ataque ladino e 5% de aumento na velocidade dos movimentos
+	Tooltip: "{$Common.RogueDamage} e {$CommonItemTooltip.PercentIncreasedMovementSpeed@1}"
 	SetBonus:
 		'''
-		5% de aumento na velocidade dos movimentos e chance de acerto crítico ladino
-		+80 de furtividade máxima
+		{$Common.RogueStealth}
+		{1}% de aumento na velocidade dos movimentos e na chance de acerto crítico ladino
+		{$AerospecBreastplate.CommonSetBonus@2}
 		'''
 }
 
-AerospecHelm: {
+AerospecHeadMelee: {
 	DisplayName: Elmo Aeroespectral
-	Tooltip: 8% de aumento nos danos por ataque físico
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedMeleeDamage}"
 	SetBonus:
 		'''
-		5% de aumento na velocidade dos movimentos e chance de acerto crítico físico
-		A chance dos inimigos mirarem em você é maior
+		{0}% de aumento na velocidade dos movimentos e na chance de acerto crítico físico
+		{$Common.AggroBoost}
+		{$AerospecBreastplate.CommonSetBonus@1}
 		'''
 }
 
-AerospecHelmet: {
+AerospecHeadSummon: {
 	DisplayName: Casco Aeroespectral
-	Tooltip: 5% de aumento na velocidade dos movimentos e dano por invocação
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage} e {$CommonItemTooltip.PercentIncreasedMovementSpeed@1}"
 	SetBonus:
 		'''
-		11% de aumento de dano por invocação e +1 lacaio máximo
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
 		Invoca uma valquíria para te proteger
+		{$AerospecBreastplate.CommonSetBonus@2}
 		'''
 }
 
-AerospecHood: {
+AerospecHeadRanged: {
 	DisplayName: Capuz Aeroespectral
-	Tooltip: 8% de aumento nos danos por ataque à distância
-	SetBonus: 5% de aumento na velocidade dos movimentos e chance de acerto crítico à distância
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
+	SetBonus:
+		'''
+		{0}% de aumento na velocidade dos movimentos e na chance de acerto crítico à distância
+		{$AerospecBreastplate.CommonSetBonus@1}
+		'''
 }
 
 AerospecLeggings: {
 	DisplayName: Calças Aeroespectrais
-	Tooltip: 12% de aumento na velocidade dos movimentos
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
 }
 
 DesertProwlerHat: {
 	DisplayName: Chapéu do Gatuno do Deserto
-	Tooltip: 4% de aumento na chance de ataque à distância crítico e 20% de chance economizar munição
-	SetBonus: Ataques à distância causam {0} a mais de dano plano
-	AbilityBrief: Bomba de Fumaça de Areia - Aperte duas vezes {0} para se envolver em uma pequena nuvem de areia
-	AbilityDescription:
+	Tooltip: "{$Common.RogueCrit}"
+	SetBonus:
 		'''
-		Enquanto a nuvem de areia está ativa, você um aumento na mobilidade ao custo de uma redução pesada na sua defesa
-		Usar uma arma de ataque à distância dissipa instantaneamente o manto de areia, mas garante um super acerto crítico de {0}% de dano
-		O super acerto crítico se aplica apenas se o acerto resultante não exceder {1} de dano
-		Acertar o golpe fatal em um inimigo com este tiro reduz o tempo de recarga da habilidade para {2} segundo(s)
+		{$Common.RogueStealth}
+		[c/{1}:Bomba de Fumaça de Areia - {2} para se encobrir de uma pequena nuvem de areia]
+		[c/CCB648:Enquanto a nuvem de areia está ativada, ganhe um aumento na mobilidade mas uma redução na defesa]
+		[c/CCB648:Usar uma arma ladina imediatamente dissipa o manto de areia, mas garante um super crítico por {3}% de dano]
+		[c/CCB648:O super crítico aplica contanto que o acerto resultante não excedesse {4} de dano]
+		[c/CCB648:Atingir o golpe fatal num inimigo com esse tiro reduz a duração do tempo de recarga da habilidade para {5} {^5:segundo;segundos}]
 		'''
 }
 
 DesertProwlerPants: {
 	DisplayName: Calça do Gatuno do Deserto
-	Tooltip: 10% de aumento na velocidade dos movimentos e imunidade ao efeito negativo Vento Poderoso
+	Tooltip:
+		'''
+		{$Common.RogueCrit}
+		Oferece imunidade a {$BuffName.WindPushed}
+		'''
 }
 
 DesertProwlerShirt: {
 	DisplayName: Camisa do Gatuno do Deserto
-	Tooltip: 5% de aumento na chance de ataque à distância crítico
+	Tooltip: "{$Common.RogueDamage}"
 }
 
 MarniteArchitectHeadgear: {
 	DisplayName: Capacete do Arquiteto de Marnito
 	Tooltip: Aumenta o alcance do posicionamento de peças em 5
-	AbilityBrief: Elevador de Marnito - Você pode invocar um elevador abaixo de seus pés para chegar mais alto
-	AbilityDescription:
+	SetBonus:
 		'''
-		O elevador é invocado quando a hotkey de montaria é apertada [c/D4C870:sem nenhuma montaria equipada]
-		Usar as teclas PARA CIMA e PARA BAIXO pode alterar a altura do elevador
+		[c/{0}:Elevador de Marnito - Você pode invocar um elevador abaixo de seus pés para alcançar mais alto]
+		[c/91C5EF:O elevador é invocado quando o atalho da montaria é apertado] [c/D4C870:sem nenhuma montaria equipada]
+		[c/91C5EF:Aperte {$Key.UP} e {$Key.DOWN} para mudar a altura do elevador, alcançando até {1} peças acima do solo]
 		'''
-	/* SetBonus:
-		'''
-		[c/{0}:Marnite Lift - You can summon a lift under your feet to reach higher up]
-		[c/91C5EF:The lift gets summoned when the mount hotkey gets pressed] [c/D4C870:without any mounts equipped]
-		[c/91C5EF:Press {$Key.UP} and {$Key.DOWN} to change the lift's height, reaching up to {1} tiles above ground]
-		''' */
 }
 
 MarniteArchitectToga: {
 	DisplayName: Toga do Arquiteto de Marnito
-	Tooltip: Aumenta a velocidade do posicionamento de peças em 50%
+	Tooltip: Aumenta a velocidade do posicionamento de blocos e paredes em {0}%
 }
 
 SnowRuffianChestplate: {
 	DisplayName: Peitoral do Rufião das Neves
-	Tooltip: 3% de aumento na chance de ataque ladino crítico
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedCritChance}"
 }
 
 SnowRuffianGreaves: {
 	DisplayName: Grevas do Rufião das Neves
-	Tooltip: 5% de aumento na velocidade dos movimentos
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
 }
 
 SnowRuffianMask: {
 	DisplayName: Máscara do Rufião das Neves
-	Tooltip: 2% de aumento nos danos por ataques ladinos
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
 	SetBonus:
 		'''
-		5% de aumento nos danos por ataque ladino
-		+50 de furtividade máxima
 		Você pode planar para negar danos de queda
+		Golpes críticos à distância infligem [cbuff:Frostburn] por {0} {^0:segundo;segundos}
 		'''
 }
 
 StatigelArmor: {
 	DisplayName: Armadura de Estatigel
-	Tooltip: 5% de aumento na chance de acerto crítico
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedCritChance}"
 	CommonSetBonus:
 		'''
-		Quando você receber mais de 100 de dano, você se torna imune a danos por um longo período de tempo
 		Concede um pulo extra e aumenta a altura dos pulos
-		12% de aumento na velocidade dos pulos
+		{0}% de aumento na velocidade dos pulos
 		'''
 }
 
 StatigelGreaves: {
 	DisplayName: Grevas de Estatigel
-	Tooltip: 5% de aumento nos danos e na velocidade dos movimentos
+	Tooltip: "{0}% de aumento nos danos e na velocidade dos movimentos"
 }
 
 StatigelHeadMagic: {
 	DisplayName: Boné de Estatigel
 	Tooltip:
 		'''
-		10% de aumento nos danos por magia e 10% de redução no custo de mana
-		7% de aumento na chance de acerto crítico mágico e +30 mana máxima
+		{$CommonItemTooltip.IncreasesMaxManaBy} e {$CommonItemTooltip.PercentReducedManaCost@1}
+		{$CommonItemTooltip.PercentIncreasedMagicDamage@2} e {$CommonItemTooltip.PercentIncreasedMagicCritChance@3}
 		'''
 }
 
@@ -151,18 +164,22 @@ StatigelHeadMelee: {
 	DisplayName: Elmo de Estatigel
 	Tooltip:
 		'''
-		10% de aumento no dano por ataque físico e na velocidade de ataque físico
-		7% de aumento na chance de acerto crítico físico
+		{0}% de aumento nos danos por ataque físico e na velocidade de ataque físico
+		{$CommonItemTooltip.PercentIncreasedMeleeCritChance@1}
 		'''
-	SetBonus: A chance dos inimigos mirarem em você é maior
+	SetBonus:
+		'''
+		{$Common.AggroBoost}
+		{$StatigelArmor.CommonSetBonus}
+		'''
 }
 
 StatigelHeadRanged: {
 	DisplayName: Capacete de Estatigel
 	Tooltip:
 		'''
-		10% de aumento nos danos por ataque à distância
-		7% de aumento na chance de acerto crítico à distância
+		{$CommonItemTooltip.PercentIncreasedRangedDamage}
+		{$CommonItemTooltip.PercentIncreasedRangedCritChance@1}
 		'''
 }
 
@@ -170,51 +187,55 @@ StatigelHeadRogue: {
 	DisplayName: Máscara de Estatigel
 	Tooltip:
 		'''
-		10% de aumento nos danos ladinos e 34% de chance de economizar itens ladinos
-		7% de aumento na chance de acerto crítico ladino e 12% de aumento na velocidade dos movimentos
+		{$Common.RogueDamage}
+		{$Common.RogueCrit@1} e {$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
 		'''
-	SetBonus: +90 de furtividade máxima
+	SetBonus:
+		'''
+		{$Common.RogueStealth}
+		{$StatigelArmor.CommonSetBonus@1}
+		'''
 }
 
 StatigelHeadSummon: {
 	DisplayName: Capuz de Estatigel
-	Tooltip: Maior recuo dos lacaios
+	Tooltip:
+		'''
+		{$CommonItemTooltip.IncreasesMaxMinionsBy}
+		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
+		'''
 	SetBonus:
 		'''
-		18% de aumento nos danos por lacaios e +1 lacaio máximo
-		Invoca um deus geleia em miniatura para lutar para você, o seu tipo depende do mal no seu mundo
+		{$CommonItemTooltip.PercentIncreasedSummonDamage}
+		Invoca um paladino em miniatura para lutar para você, o seu tipo depende do mal no seu mundo
+		{$StatigelArmor.CommonSetBonus@1}
 		'''
 }
 
 SulphurousBreastplate: {
 	DisplayName: Peitoral Sulfúrico
-	Tooltip: 8% de danos por ataques ladinos e 5% de chance de acerto crítico ladino
+	Tooltip: "{$Common.RogueDamage}"
 }
 
 SulphurousHelmet: {
 	DisplayName: Elmo Sulfúrico
 	Tooltip:
 		'''
-		4% de aumento nos danos por ataques ladinos
-		2% de aumento na chance de acerto ladino crítico
+		{$Common.RogueCrit}
 		Permite respirar embaixo d'água
 		'''
 	SetBonus:
 		'''
-		+70 de furtividade máxima
-		Atacar e ser atacado por inimigos inflige veneno
+		{$Common.RogueStealth}
+		Atacar e ser atacado por inimigos inflige [cbuff:Poisoned] por {1} {^1:segundo;segundos}
 		Concede um pulo adicional que invoca uma bolha sulfurosa
-		Concede mobilidade aumentada embaixo d'água e reduz a severidade das águas sulfúricas
+		Reduz a severidade das águas sulfúricas
 		'''
 }
 
 SulphurousLeggings: {
 	DisplayName: Calças Sulfúricas
-	Tooltip:
-		'''
-		10% de aumento na velocidade dos movimentos
-		35% de aumento na velocidade dos movimento enquanto você está submerso em líquidos
-		'''
+	Tooltip: "{$Common.RogueDamage}"
 }
 
 VictideBreastplate: {
@@ -244,7 +265,7 @@ VictideGreaves: {
 VictideHeadMagic: {
 	DisplayName: Elmo do Eremita de Vimaré
 	Tooltip: 5% de aumento nos danos por magia
-	SetBonus: Regeneração de +1.5 de vida por segundo e 10% de aumento nos danos por magia enquanto você está submerso em líquidos
+	SetBonus: Regen. de +1,5 de vida/s e 10% de aumento nos danos por magia enquanto você está submerso em líquidos
 }
 
 VictideHeadMelee: {
@@ -253,14 +274,14 @@ VictideHeadMelee: {
 	SetBonus:
 		'''
 		A chance dos inimigos mirarem em você é maior
-		Regeneração de +1.5 de vida por segundo 10% de aumento nos danos por ataque físico enquanto você está submerso em líquidos
+		Regen. de +1,5 de vida/s e 10% de aumento nos danos por ataque físico enquanto você está submerso em líquidos
 		'''
 }
 
 VictideHeadRanged: {
 	DisplayName: Turbante de Coral de Vimaré
 	Tooltip: 5% de aumento nos danos por ataque à distância
-	SetBonus: Regeneração de +1.5 de vida por segundo e 10% de aumento nos danos por ataque à distância enquanto você está submerso em líquidos
+	SetBonus: Regen. de +1,5 de vida/s e 10% de aumento nos danos por ataque à distância enquanto você está submerso em líquidos
 }
 
 VictideHeadRogue: {
@@ -269,7 +290,7 @@ VictideHeadRogue: {
 	SetBonus:
 		'''
 		+60 de furtividade máxima
-		Regeneração de +1.5 de vida por segundo e 10% de aumento nos danos por ataque ladino enquanto você está submerso em líquidos
+		Regen. de +1,5 de vida/s e 10% de aumento nos danos por ataque ladino enquanto você está submerso em líquidos
 		'''
 }
 
@@ -278,9 +299,9 @@ VictideHeadSummon: {
 	Tooltip: 10% de aumento nos danos por lacaios
 	SetBonus:
 		'''
-		+1 lacaio máximo
+		Aumenta o número máximo de lacaios em 1
 		Invoca um ouriço do mar para te proteger
-		Regeneração de +1.5 de vida por segundo e 10% de aumento nos danos por lacaios enquanto você está submerso em líquidos
+		Regen. de +1,5 de vida/s e 10% de aumento nos danos por lacaios enquanto você está submerso em líquidos
 		'''
 }
 
@@ -289,7 +310,7 @@ WulfrumFusionCannon: {
 	Tooltip:
 		'''
 		Dispara rajadas rápidas de pelotas de médio alcance
-		Ignora 10 pontos da defesa do inimigo
+		{$Common.ArmorPenetration}
 		[c/878787:"Quem precisa de chicotes quando você pode simplesmente se tornar a invocação?"]
 		'''
 }
@@ -298,84 +319,24 @@ WulfrumHat: {
 	DisplayName: Chapéu e Óculos de Vulfrúmio
 	Tooltip:
 		'''
-		10% de aumento nos danos por invocação
+		{$CommonItemTooltip.PercentIncreasedSummonDamage}
 		Vem equipado com extensões de cabelo
 		'''
-	SetBonus: +1 lacaio máximo
-	AbilityBrief: Bastião de Vulfrânio - Pressione duas vezes {0} enquanto estiver desmontado para equipar uma armadura pesada de vulfrânio
-	AbilityDescription:
+	SetBonus:
 		'''
-		Enquanto a armadura está ativada, você só pode usar o canhão de fusão integrado, mas você recebe um aumento nas estatísticas de defesa
-		Invocar a armadura consome uma peça de {0}, e a armadura perderá durabilidade mais rapidamente quando for atingida
+		[c/{0}:Bastião de Vulfrúmio - {1} para equipar uma armadura de poder, custando uma] [i:CalamityMod/WulfrumMetalScrap] [c/{0}:{$Items.Materials.WulfrumMetalScrap.DisplayName}]
+		[c/6EC05D:Enquanto ativa, você só pode usar o canhão de fusão integrado, mas suas estatísticas defensivas são aumentadas]
+		[c/6EC05D:A armadura dura até {2} {^2:segundo;segundos}, mas cada acerto reduz em {3} {^3:segundo;segundos} a duração]
+		[c/BEBEBE:Segure Shift para ver as estatísticas do canhão de fusão]
 		'''
-	ShiftToExpand: Segure SHIFT para ver as estatísticas do canhão de fusão
 }
 
 WulfrumJacket: {
 	DisplayName: Jaqueta de Vulfrúmio
-	Tooltip: 5% de aumento na redução dos danos
+	Tooltip: "{$CommonItemTooltip.IncreasesMaxMinionsBy}"
 }
 
 WulfrumOveralls: {
 	DisplayName: Macacão de Vulfrúmio
-	Tooltip: 5% de aumento na velocidade dos movimentos
-}
-
-AerospecHeadMagic: {
-	// DisplayName: Aerospec Hat
-	/* Tooltip:
-		'''
-		{$CommonItemTooltip.IncreasesMaxManaBy}
-		{$CommonItemTooltip.PercentIncreasedMagicDamage@1}
-		''' */
-	/* SetBonus:
-		'''
-		{$CommonItemTooltip.PercentReducedManaCost}
-		{1}% increased movement speed and magic critical strike chance
-		{$AerospecBreastplate.CommonSetBonus@2}
-		''' */
-}
-
-AerospecHeadRogue: {
-	// DisplayName: Aerospec Headgear
-	// Tooltip: "{$Common.RogueDamage} and {$CommonItemTooltip.PercentIncreasedMovementSpeed@1}"
-	/* SetBonus:
-		'''
-		{$Common.RogueStealth}
-		{1}% increased movement speed and rogue critical strike chance
-		{$AerospecBreastplate.CommonSetBonus@2}
-		''' */
-}
-
-AerospecHeadMelee: {
-	// DisplayName: Aerospec Helm
-	// Tooltip: "{$CommonItemTooltip.PercentIncreasedMeleeDamage}"
-	/* SetBonus:
-		'''
-		{0}% increased movement speed and melee critical strike chance
-		{$Common.AggroBoost}
-		{$AerospecBreastplate.CommonSetBonus@1}
-		''' */
-}
-
-AerospecHeadSummon: {
-	// DisplayName: Aerospec Helmet
-	// Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage} and {$CommonItemTooltip.PercentIncreasedMovementSpeed@1}"
-	/* SetBonus:
-		'''
-		{$CommonItemTooltip.IncreasesMaxMinionsBy}
-		{$CommonItemTooltip.PercentIncreasedSummonDamage@1}
-		Summons a valkyrie to protect you
-		{$AerospecBreastplate.CommonSetBonus@2}
-		''' */
-}
-
-AerospecHeadRanged: {
-	// DisplayName: Aerospec Hood
-	// Tooltip: "{$CommonItemTooltip.PercentIncreasedRangedDamage}"
-	/* SetBonus:
-		'''
-		{0}% increased movement speed and ranged critical strike chance
-		{$AerospecBreastplate.CommonSetBonus@1}
-		''' */
+	Tooltip: "{$CommonItemTooltip.PercentIncreasedSummonDamage}"
 }

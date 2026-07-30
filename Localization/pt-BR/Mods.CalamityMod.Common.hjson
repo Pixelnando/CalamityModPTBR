@@ -4,12 +4,15 @@ RogueCrit: "{0}% de aumento na chance de acerto crítico ladino"
 RogueDamageCrit: "{0}% de aumento nos danos por ataque ladino e na chance de acerto crítico ladino"
 RogueVelocity: "{0}% de aumento na velocidade de projéteis ladinos"
 RogueStealth: +{0} de furtividade máxima
+CritDamageTootip: "{0}% de dano em acertos críticos"
 // Armor Set Bonus key states
 BothArmorSetBonusKeys: Aperte {0} ou dê um toque duplo em {1}
 NoArmorSetBonusKey: Aperte a tecla de Efeito de Armadura
 ArmorSetBonusKey: Aperte {0}
 DoubleTapDown: Toque duplo em {0}
 // Miscellaneous stats/info
+MinionSlotCost: Utiliza {0} espaços de lacaio
+MinionSlotCostSingle: Utiliza {0} espaço de lacaio
 AggroBoost: A chance dos inimigos mirarem em você é maior
 AggroReduction: A chance dos inimigos mirarem em você é menor
 KnockbackImmunity: Oferece imunidade a recuos
@@ -21,20 +24,27 @@ AbyssBreathLevel2: Reduz moderadamente a perda de fôlego no abismo
 AbyssBreathLevel3: Reduz bastante a perda de fôlego no abismo
 AlcoholWarning: Beber mais que 3 bebidas alcoólicas não fará bem para seu fígado
 ArmorPenetration: Ignora {0} pontos de Defesa do inimigo
+SalesmanShrinePitch:
+	'''
+	'Sabe aquele tesouro incrível que você encontrou quando eu definitivamente não estava te seguindo?'
+	'Acontece que tinha uma pilha inteira dessas bugigangas, escondida bem pertinho do baú do tesouro! Achado não é roubado — ou talvez você queira fazer um acordo?'
+	'''
+AverageDamageInfo: Esta arma escala com a média de todas as suas estatísticas de dano
 CanMineUelibloom: Pode minerar Minério de Ueliflor
 NotConsumable: Não consumível
-SummonTagDamageFlat: "Adiciona {0} marcas de dano para invocações"
-SummonTagDamageMult: "Aumenta as marcas de dano para invocações em {0}x"
-SummonTagCrit: "Concede {0}% de chance de acerto crítico em marcas de dano para invocações"
+SummonTagDamageFlat: Adiciona {0} marcas de dano para invocações
+SummonTagDamageMult: Aumenta as marcas de dano para invocações em {0}x
+SummonTagCrit: Concede {0}% de chance de acerto crítico em marcas de dano para invocações
+DodgeProvided: Oferece ou melhora a habilidade de se esquivar de ataques
 DodgeInformation:
 	'''
-	Você não se esquivará de ataques que causarem menos de 5% da sua vida máxima
-	A esquiva tem um tempo de recarga que varia entre 20 e 90 segundos com base no dano do ataque esquivado
-	Este tempo de recarga é compartilhado entre todas as outras esquivas e reflexões
+	[i/Terraria:BlackBelt] Você não se esquivará de ataques que causarem menos de 5% da sua vida máxima
+	[i/Terraria:BlackBelt] A esquiva tem um tempo de recarga máximo de 90 segundos, reduzido com base no dano do ataque esquivado
+	[i/Terraria:BlackBelt] Equipar vários acessórios que oferecem esta habilidade reduzirá o tempo de recarga em 15% para cada um
 	'''
 ReflectInformation:
 	'''
-	Você não se refletirá ataques que causarem menos de 5% da sua vida máxima
+	Você não refletirá ataques que causarem menos de 5% da sua vida máxima
 	A reflexão tem um tempo de recarga que varia entre 20 e 90 segundos com base no dano do ataque refletido
 	Este tempo de recarga é compartilhado entre todas as outras esquivas e reflexões
 	'''
@@ -45,19 +55,30 @@ GrappleStats:
 	Velocidade de retorno: {2}
 	Velocidade de tração: {3}
 	'''
+StatsAwful: Horrível
+StatsPoor: Ruim
+StatsAverage: Mediana
+StatsGood: Boa
+StatsGreat: Ótima
+StatsExcellent: Excelente
 WingStats:
 	'''
-	Flight time: {0} segundos
-	Velocidade horizontal máxima: {1} mph
-	Velocidade vertical máxima: {2} mph
+	Tempo de voo: {0} segundos
+	Velocidade horizontal máxima: {1}
+	Velocidade vertical máxima: {2}
+	Aceleração horizontal: {3}
+	Aceleração vertical: {4}
 	'''
-WingStatsAcceleration:
+WingStatsFull:
 	'''
-	Aceleração horizontal: {0} mph/s
-	Aceleração vertical:
-	{1} mph/s
-	{2} mph/s se estiver ascendendo a menos que {3} mph
-	{4} mph/s se estiver ascendendo enquanto cai
+	Tempo de voo: {0} segundos
+	Velocidade horizontal máxima: {1} ({2} mph)
+	Velocidade vertical máxima: {3} ({4} mph)
+	Aceleração horizontal: {5} ({6} mph/s)
+	Aceleração vertical: {7}
+	- {8} mph/s
+	- {9} mph/s se estiver ascendendo a menos de {10} mph
+	- {11} mph/s se estiver ascendendo enquanto cai
 	'''
 WingStatsHover:
 	'''
@@ -76,5 +97,3 @@ YoyoStatsInfinite:
 	Velocidade: {1}
 	Duração de arremesso infinita
 	'''
-CritDamageTootip: "{0}% de dano em acertos críticos"
-DodgeProvided: Oferece ou melhora a habilidade de se esquivar de ataques
