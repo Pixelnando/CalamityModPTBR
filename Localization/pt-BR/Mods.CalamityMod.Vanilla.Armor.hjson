@@ -4,7 +4,7 @@ SetBonus: {
 			'''
 			Metade da sua redução dos danos é adicionado à sua chance de acerto crítico
 			Causar dano continuamente faz com que você ganhe mais defesa gradualmente, até um máximo de {0}
-			Enquanto não causa dano, esse bônus decai gradualmente
+			Enquanto não causa dano, esse bônus decai gradualmente por {2} segundos
 			Esta defesa adicional pode ser quebrada por dano na defesa
 			'''
 		Melee: 15% de aumento na velocidade dos ataques físicos e 20% de aumento na velocidade dos movimentos

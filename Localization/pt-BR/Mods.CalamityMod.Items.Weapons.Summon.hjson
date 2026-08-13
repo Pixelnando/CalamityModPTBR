@@ -85,6 +85,11 @@ BlackHawkRemote: {
 		'''
 }
 
+BlightedSlimeStaff: {
+	// DisplayName: Blighted Slime Staff
+	// Tooltip: Summons a blighted slime to fight for you
+}
+
 BorealisBomber: {
 	DisplayName: Bombardeiro Boreal
 	Tooltip:
@@ -191,11 +196,6 @@ Cnidarian: {
 		'''
 }
 
-CorroslimeStaff: {
-	DisplayName: Cajado da Geleia Corrosiva
-	Tooltip: Invoca uma Geleia Corrosiva para lutar por você
-}
-
 CorvidHarbringerStaff: {
 	DisplayName: Cajado do Mensageiro Corvídeo
 	Tooltip:
@@ -231,11 +231,6 @@ CosmicViperEngine: {
 Cosmilamp: {
 	DisplayName: Lâmpada Cósmica
 	Tooltip: Invoca uma lâmpada cósmica sobre sua cabeça para lutar por você
-}
-
-CrimslimeStaff: {
-	DisplayName: Cajado da Geleia do Carmim
-	Tooltip: Invoca uma geleia do carmim para lutar por você
 }
 
 CryogenicStaff: {
@@ -306,7 +301,7 @@ DragonbloodDisgorger: {
 		'''
 		Invoca um dragão esqueletal e suas duas crianças
 		Os cuspes dos bebês explodem em orbes de sangue ao atingir o inimigo
-		Recolher estes orbes de sangue reduz a duração do [cbuffplr:PotionSickness]
+		{$Mods.CalamityModPTBR.Common.CollectBloodOrbs}
 		Só pode haver uma família por vez
 		'''
 }
@@ -841,10 +836,6 @@ VileFeeder: {
 		'''
 }
 
-// alignment space
-// alignment space
-// alignment space
-
 ViralSprout: {
 	DisplayName: Broto Viral
 	Tooltip:
@@ -890,6 +881,8 @@ VoidEaterMarionette: {
 		Pode brincar com itens derrubados
 		Segure Shift e <right> neste item em seu inventário com o Devorador invocado para alternar a prioridade de busca de itens
 		'''
+	// FetchStart: Go fetch!
+	// FetchEnd: Get 'em!
 }
 
 WarloksMoonFist: {

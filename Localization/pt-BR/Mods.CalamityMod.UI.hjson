@@ -1,15 +1,15 @@
 SmallWorldWarning: "[c/FF0000:MUNDOS PEQUENOS NÃO SÃO SUPORTADOS PELO CALAMITY]"
 // Main Menu Name
-// MainMenu: Calamity Style
-// MainMenuClassic: Calamity Style - Classic
-// MainMenuSunken: Calamity Style - Sunken
+MainMenu: Estilo Calamity
+MainMenuClassic: Estilo Calamity - Clássico
+MainMenuSunken: Estilo Calamity - Profundezas
 // Main UI Elements
 Adrenaline: Adrenalina
 Nanomachines: Nanomáquinas
 Rage: Fúria
 Flight: "{0} de voo restante"
-Charge: Carga Atual:
-// Vis: Current Vis
+Charge: Carga atual:
+Vis: Vis atual
 DefenseDamage: Dano de Defesa
 SulphurousWater: Envenenamento Sulfúrico
 Stealth: Furtividade
@@ -24,64 +24,64 @@ StealthInfoText:
 	Isso é compensado por você ser capaz de usar ataques furtivos com muito mais frequência
 	'''
 // Difficulty UI
-DifficultyStatusText: Modo {0}{1} está ativado.
-ModeAppend: ""
-Active: ""
-NotActive: " não"
+DifficultyStatusText: O {0} {1} ativado.
+ModeAppend: Modo {0}
+Active: está
+NotActive: não está
 DifficultyShiftText: "[c/737373:Segure a tecla 'Shift' para mais informações]"
-CurrentlySelected: Selecionado Atualmente: {0}
+CurrentlySelected: Selecionado atualmente: {0}
 DifficultyClickText: "[c/919191:Clique para selecionar um modo de dificuldade]"
 ExpertDifficultyLock: "[c/919191:Modos de dificuldade mais alta só podem ser escolhidos no Modo Perito ou maior]"
 ChangingTheRules: "[c/919191:Você não pode alterar as regras agora!]"
-// DifficultySwitch: Difficulty changed from [c/{0}:{1}] to [c/{2}:{3}].
-// ClassicInfo: Your Adventure Begins... A relaxed, casual Terraria experience
-// ExpertShortInfo: "[c/FF9900:Fortune & Glory, Kid. For those looking for a more difficult vanilla experience]"
-/* ExpertExpandedInfo:
+DifficultySwitch: Dificuldade alterada de [c/{0}:{1}] para [c/{2}:{3}].
+ClassicInfo: Sua aventura começa... Uma experiência casual e relaxada do Terraria
+ExpertShortInfo: "[c/FF9900:Fortuna e glória. Para aqueles que buscam uma experiência vanilla mais difícil]"
+ExpertExpandedInfo:
 	'''
-	[c/A87A07:Most bosses gain new attacks and more difficult attack patterns]
-	[c/A87A07:Most enemies have twice as much health, deal twice as much damage and receive 10% less knockback]
-	[c/A87A07:Certain enemies have new attacks, can inflict new debuffs or have a higher chance of inflicting debuffs they already had]
-	[c/A87A07:Enemies drop more loot and have higher drop rates for their items]
-	[c/A87A07:Bosses have exclusive, signature "Expert drop" items]
-	[c/A87A07:Players drop more of their coins on death]
-	''' */
-// MasterShortInfo: "[c/FF2619:Game over man, game over! A tough step up in stats from Expert Mode]"
-/* MasterExpandedInfo:
+	[c/A87A07:A maioria dos chefes recebe novos ataques e padrões de ataque mais difíceis]
+	[c/A87A07:A maioria dos inimigos tem o dobro de vida, causa o dobro de dano e recebe 10% menos recuo]
+	[c/A87A07:Certos inimigos têm novos ataques e podem infligir novos e velhos efeitos negativos com uma chance maior]
+	[c/A87A07:Os inimigos deixam mais espólios e têm maiores chances de obter seus itens]
+	[c/A87A07:Os chefes têm "espólios do modo Perito" exclusivos]
+	[c/A87A07:Os jogadores deixam cair mais moedas ao morrer]
 	'''
-	[c/bd5e6e:Most enemies have even more health and knockback resistance than in Expert Mode]
-	[c/bd5e6e:All foes deal even more damage than in Expert Mode]
-	[c/bd5e6e:Bosses have new exclusive vanity rewards]
-	[c/bd5e6e:Players drop ALL their coins on death]
-	[c/bd5e6e:Players gain an additional accessory slot at the start of the game]
-	''' */
-// LegendaryShortInfo: "[c/32CD32:For those who are worthy... Even higher stats than Master Mode]"
-// LegendaryExpandedInfo: "[c/0b870b:Enemies have further increased health and contact damage from Master Mode]"
+MasterShortInfo: "[c/FF2619:A brincadeira acabou! Um passo maior nas estatísticas comparado ao Modo Perito]"
+MasterExpandedInfo:
+	'''
+	[c/bd5e6e:A maioria dos inimigos tem ainda mais vida e resistência ao recuo do que no Modo Perito]
+	[c/bd5e6e:Todos os inimigos causam ainda mais dano do que no Modo Perito]
+	[c/bd5e6e:Os chefes têm novas recompensas cosméticas exclusivas]
+	[c/bd5e6e:Os jogadores deixam cair TODAS as suas moedas ao morrer]
+	[c/bd5e6e:Os jogadores ganham um espaço adicional para acessórios no início do jogo]
+	'''
+LegendaryShortInfo: "[c/32CD32:Apenas para os dignos... Estatísticas ainda maiores do que o Modo Mestre]"
+LegendaryExpandedInfo: "[c/0b870b:Os inimigos têm mais vida e dano por contato comparado ao Modo Mestre]"
 Revengeance: Vingança
-RevengeanceShortInfo: "[c/F54254:A experiência planejada do Calamity!]"
+RevengeanceShortInfo: "[c/F54254:A experiência planejada do Calamity. Só poded ser ativado no Modo Perito]"
 RevengeanceExpandedInfo:
 	'''
 	[c/B55362:Ativa a mecânica de] [c/85FFE9:Adrenalina][c/B55362:. Você ganha Adrenalina enquanto luta contra chefes. Ser atingido reduz a adrenalina de volta a 0]
 	[c/B55362:    Quando a Adrenalina estiver no máximo, pressione] {0} [c/B55362:para um grande aumento de dano]
 	[c/B55362:Ativa a mecânica de] [c/FF8B54:Fúria][c/B55362:. Você ganha mais Fúria quando está perto de inimigos ou usando certos itens]
 	[c/B55362:    Quando a Fúria estiver no máximo, pressione] {1} [c/B55362:para um aumento de dano temporário]
-	[c/B55362:A maioria dos inimigos têm estatísticas mais altas e IAs mais agressivas]
-	[c/B55362:Chefes têm novas mecânicas em suas IAs, novas fases, e deixarão cair espólios do Modo Mestre. Os inimigos surjem com mais frequência]
-	[c/F7342A:Este modo é mais difícil que o Modo Perito. Prepare-se para o desafio]
+	[c/B55362:A maioria dos inimigos têm padrões de comportamento mais agressivos. Os inimigos surjem com mais frequência.]
+	[c/B55362:Todos os chefes têm novos ataques e padrões. Alguns têm uma batalha completamente nova.]
+	[c/F7342A:Os chefes deixarão cair "espólios do modo Perito" e as recompensas cosméticas do Modo Mestre]
 	'''
 Death: Morte
-DeathShortInfo: "[c/C82DF7:Um desafio mais difícil para os mais experientes, ou para aqueles que querem um passo à frente do Modo Vingança]"
+DeathShortInfo: "[c/C82DF7:Um desafio muito mais difícil que o Modo Vingança! Só pode ser ativado no Modo Mestre]"
 DeathExpandedInfo:
 	'''
-	[c/B834E0:Todos os inimigos representarão uma ameaça muito maior com IAs altamente agressivas e dano aumentado]
-	[c/B834E0:Chefes têm mudanças de IA substancialmente mais difíceis. Os inimigos são ainda mais numerosos e podem sobrecarregá-lo facilmente]
+	[c/B834E0:A maioria dos inimigos básicos apresentará uma ameaça muito maior com um padrão de ataque muito mais agressivo]
+	[c/B834E0:As Luas de Sangue invocam ondas incessantes de inimigos, o que pode sobrecarregá-lo facilmente]
+	[c/B834E0:Os chefes são significativamente mais rápidos e muito mais difíceis do que no Modo Vingança]
 	[c/B834E0:Efeitos negativos são especialmente letais e o Abismo é significativamente mais perigoso]
-	[c/E945FF:Vigilância e tenacidade são cruciais para a sobrevivência]
 	'''
-// Malice: Malice
+Malice: Malícia
 // MaliceShortInfo: "[c/f08080:For those who wish for suffering. Can only be enabled in Legendary Mode]"
-// MaliceExpandedInfo: "[c/a34e4e:Enemies have Death Mode and For The Worthy behavior with Legendary Mode stats]"
+MaliceExpandedInfo: "[c/a34e4e:Os inimigos têm seu comportamento do Modo Morte e Para os Dignos com estatísticas do Modo Lendário]"
 // Calamity Health Bar
-ExoTwinsNameNormal: XS-01 Artemis e XS-03 Apollo
+ExoTwinsNameNormal: XS-01 Ártemis e XS-03 Apolo
 ExoTwinsNameHekate: Olhos de XB-∞ Hekate
 ExtensionDisplay: ({0} restantes: {1})
 
@@ -99,66 +99,67 @@ ExtensionName: {
 // Cooldowns
 Cooldowns: {
 	AquaticHeartIceShield: Tempo de Recarga do Escudo de Gelo
-	// ArsenalPower: Arsenal Cooldown
+	ArsenalPower: Tempo de Recarga do Arsenal
 	AscendEffect: Tempo de Recarga da Ascensão
 	BloodflareFrenzy: Tempo de Recarga do Frenesi de Sangue
 	BloodflareRangedSet: Tempo de Recarga da Alma de Chamas Sangrenta
 	BrimflameFrenzy: Tempo de Recarga da Frenesi de Chamas de Enxofre
-	// BubblyBurrowActive: Bubbly Burrow
-	// BubblyBurrowCooldown: Bubbly Burrow Cooldown
+	BubblyBurrowActive: Escavada Espumante
+	BubblyBurrowCooldown: Tempo de Recarga da Escavada Espumante
 	ChaosState: Tempo de Recarga do Teleporte
-	// DarklightEnergy: Darklight Energy
+	DarklightEnergy: Energia Umbraluminosa
 	DivineBless: Tempo de Recarga da Bênção Divina
-	// DSOCritCooldown: Extra Critical Strike Chance
+	DSOCritCooldown: Chance de Acerto Crítico Maior
 	ParryCooldown: Tempo de Recarga da Aparada
-	// ElementalMastery: Elemental Mastery
+	ElementalMastery: Maestria Elemental
 	FleshTotem: Tempo de Recarga da Redução do Dano de Contato
-	// FuryFuel: Crystal Powder
+	FuryFuel: Pó de Cristal
 	GaelsRage: Tempo de Recarga da Fúria da Montante de Gael
-	// BandCooldown: Band Cooldown
+	BandCooldown: Tempo de Recarga da Pulseira
 	GlobalDodge: Tempo de Recarga da Esquiva
 	GodSlayerDash: Tempo de Recarga da Investida do Caça-Deuses
-	// HellbornShots: Hellborn Shots
-	// HolyProtection: Holy Protection
+	HellbornShots: Tiros do Nascimento Infernal
+	HolyProtection: Proteção Divina
 	InkBomb: Tempo de Recarga da Bomba de Tinta
-	// KillModeActive: Kill Mode Active
-	// KillModeCooldown: Kill Mode Cooldown
+	KillModeActive: Modo de Matança Ativado
+	KillModeCooldown: Tempo de Recarga do Modo de Matança
 	LifeSteal: Tempo de Recarga do Roubo de Vida
 	LionHeartShield: Tempo de Recarga da Concha de Energia
-	// M1GarandShots: Chambered Rounds
+	M1GarandShots: Munição Carregada
 	MasterChefShieldDurability: Durabilidade do Escudo MJOLNIR
 	MasterChefShieldRecharge: Recarga do Escudo MJOLNIR
 	NebulousCore: Tempo de Recarga do Núcleo Nebuloso
+	OblivionCooldown: Tempo de Recarga do Oblívio
 	OldDukeScalesFatigue: Estâmina
 	OmegaBlueActive: Loucura Abissal
 	OmegaBlueCooldown: Tempo de Recarga da Loucura Abissal
-	// Panacea: Panacea Cooldown
+	Panacea: Tempo de Recarga da Panaceia
 	PermafrostConcoction: Tempo de Recarga da Mistura de Permafrost
 	PlagueBlackout: Tempo de Recarga do Apagão da Praga
 	PotionSickness: Tempo de Recarga da Cura
 	PrismaticLaser: Tempo de Recarga da Barragem de Lasers Prismáticos
 	ProfanedSoulShieldDurability: Durabilidade do Escudo da Alma Profana
 	ProfanedSoulShieldRecharge: Recarga do Escudo da Alma Profana
-	// RaidersBoost: Extra Critical Strike Chance
-	// RelicOfResilienceCooldown: Relic of Resilience Cooldown
+	RaidersBoost: Chance de Acerto Crítico Maior
+	RelicOfResilienceCooldown: Tempo de Recarga da Relíquia da Resiliência
 	RogueBooster: Tempo de Recarga do Reforço Ladino
 	SandCloak: Tempo de Recarga da Capa de Areia
 	SandsmokeBombActive: Duração da Bomba de Fumaça de Areia
 	SandsmokeBombCooldown: Tempo de Recarga da Bomba de Fumaça de Areia
-	// ScarfCooldown: Scarf Cooldown
+	ScarfCooldown: Tempo de Recarga do Cachecol
 	SilvaRevive: Tempo de Recarga da Reanimação de Silva
 	SpeedBlasterBoost: Reforço do Detonador Veloz
 	SpongeDurability: Durabilidade da Barreira da Esponja
 	SpongeRecharge: Recarga da Barreira da Esponja
-	// Starburst: Stratus Starbursts
-	// Stooldown: Stooldown
-	SuperradiantSawBoost: Impulso da Serra Super-Radiante
+	Starburst: Explosões Estelares
+	Stooldown: Tempo de Bancarga
+	SuperradiantSawBoost: Impulso da Serra Super-radiante
 	TarragonCloak: Tempo de Recarga da Capa de Estragão
 	TarragonImmunity: Tempo de Recarga da Imunidade do Estragão
-	// TransformerCooldown: The Transformer Cooldown
+	TransformerCooldown: Tempo de Recarga do Transformador
 	UniverseSplitter: Tempo de Recarga Divisor de Universos
-	// WarbanneroftheRighteousBuff: Warbanner Strength
-	// WardingWave: Warding Wave Cooldown
+	WarbanneroftheRighteousBuff: Força do Estandarte de Guerra
+	WardingWave: Tempo de Recarga da Onda Guardiã
 	WulfrumBastionActive: Durabilidade da Armadura de Poder
 	WulfrumBastionCooldown: Tempo de Recarga do Bastião de Vulfrúmio
 	WulfrumRoverDriveDurability: Durabilidade da Matriz Protetora
@@ -176,22 +177,26 @@ Communicate: Comunicar
 ConfirmationText: Você tem certeza?
 UpgradesRequired: Criptografia insolúvel: Atualizações necessárias.
 ThanatosIcon: Tânato, um terror serpentino com armadura impermeável e inúmeras torres a laser.
-AresIcon: Ares, uma monstruosidade pesada e diabólica com quatro super Exo-armas.
+AresIcon: Ares, uma monstruosidade pesada e diabólica com quatro super armas Exo.
 ArtemisApolloIcon: Ártemis e Apolo, um par de autômatos extremamente persistentes com reservas de energia instáveis.
 
 // Debuff System
 DebuffSystem: {
 	Title: Resist. Efeitos Neg.
-	Description: NPCs sofrem mais ou menos dano de certos tipos de efeitos negativos
+	Description:
+		'''
+		NPCs sofrem 2x o dano de efeitos de tipos vulneráveis
+		e 0,5x o dano de efeitos de tipos resistidos
+		'''
 	Heat: Calor
 	Cold: Frio
 	Sickness: Doença
 	Water: Água
-	Electricity: Eletricidade
+	Electricity: Eletric.
 	To: contra
 	Weak: Fraco
 	Neutral: Nêutro
-	Resistant: Resistente
+	Resistant: Resist.
 }
 
 // Draedon Contact UI. Repeated newlines indicate pauses in Draedon's speaking. As a result, newline characters may be explicitly defined.
@@ -207,9 +212,9 @@ Communication: {
 			'''
 			Presumi que você tentaria entrar em contato comigo novamente. Embora normalmente não seja uma pessoa de muitas conversas, continuo bastante intrigado por você.\n
 
-			Portanto, farei uma exceção, porém sobre uma condição: Garanta-me que minhas palavras não serão desperdiçadas contigo. Para provar isso, você deve criar algo a partir da exotecnologia.\n
+			Portanto, farei uma exceção, porém sobre uma condição: Garanta-me que minhas palavras não serão desperdiçadas contigo. Para provar isso, você deve criar algo a partir da tecnologia exo.\n
 
-			Eu entendo que as chances de você replicar a exotecnologia durante sua vida são pequenas. Por essa razão, enviarei projetos para uma cópia de minha forja ao seu "Descriptografador". Com eles em suas mãos, apenas sua imaginação limitará o que você pode criar.\n
+			Eu entendo que as chances de você replicar a tecnologia exo durante sua vida são pequenas. Por essa razão, enviarei projetos para uma cópia de minha forja ao seu "Descriptografador". Com eles em suas mãos, apenas sua imaginação limitará o que você pode criar.\n
 
 			Caso complete essa missão, discutiremos mais a fundo.
 			'''
@@ -253,9 +258,9 @@ Communication: {
 
 			Ao longo da Cruzada, também criei difusos sistemas de vigilância, usando conhecimento obtido da minha inspeção original do continente no qual fui ativado. Logo, minha vigia sobre o território em rápida expansão de Yharim era absoluta, e meu conhecimento sobre seus adversários crescia. Haviam poucas nações cujas fraquezas não conhecia, e ainda menos que conheciam as nossas.\n
 
-			Entretanto, sou mais notório pelas minhas brutas máquinas de guerra. Certamente as conhece. Embora Yharim fosse quase bajulador em seus elogios do meu trabalho, mesmo que ocasionalmente questionasse meus métodos, nosso tempo juntos veio a um fim abrupto depois que soube da Pestífera Goliarda. Infelizmente, o incidente deixou um buraco considerável em meu laboratório. Não mais sujeito às suas restrições, meu trabalho em clonar a Bruxa e criar exotecnologia começou.\n\n
+			Entretanto, sou mais notório pelas minhas brutas máquinas de guerra. Certamente as conhece. Embora Yharim fosse quase bajulador em seus elogios do meu trabalho, mesmo que ocasionalmente questionasse meus métodos, nosso tempo juntos veio a um fim abrupto depois que soube da Pestífera Goliarda. Infelizmente, o incidente deixou um buraco considerável em meu laboratório. Não mais sujeito às suas restrições, meu trabalho em clonar a Bruxa e criar tecnologia exo começou.\n\n
 
-			Meu papel na Cruzada sumariamente terminou; não considero a inclusão tardia de exotecnologia na armadura de Yharim uma parte formal de meu trabalho em seu emprego. Os cavaleiros e tropas de Yharim continuaram a usar meu "Arsenal" em suas atividades militares, mas não mais participei de sua pesquisa ou produção.\n
+			Meu papel na Cruzada sumariamente terminou; não considero a inclusão tardia de tecnologia exo na armadura de Yharim uma parte formal de meu trabalho em seu emprego. Os cavaleiros e tropas de Yharim continuaram a usar meu "Arsenal" em suas atividades militares, mas não mais participei de sua pesquisa ou produção.\n
 
 			A Cruzada não obstruiu ou interferiu com meu objetivo principal de criação e avanço científico; apenas redirecionei meu foco. Através dela, obtive perspectivas e alcancei alturas que não teria sem participar. Eu aprecio a oportunidade de ter trabalhado com algumas das maiores mentes orgânicas do tempo, e espero que aquelas sobreviventes trarão progresso a uma multidão de campos que ainda não explorei.
 			'''
@@ -289,7 +294,7 @@ Communication: {
 
 			Quando planejando o terceiro, Apolo, meu objetivo foi reduzir a escala consideravelmente; fazer algo poderoso, mas compacto. Revisando as formas mais compactas de potencial destrutivo que conhecia, escolhi simular as chamas da Bruxa.\n
 
-			O exoplasma ardente de Apolo é alimentado por nanomáquinas instáveis que constantemente derramam uma torrente de partículas altamente energéticas. Isto aquece o plasma a temperaturas incríveis e causa queimaduras de severidade comparável às causadas pela Bruxa. O produto tinha pouca capacidade além de seu projetor de plasma a nanomáquinas, mas não era uma preocupação. Apolo não foi feito para lutar sozinho.\n
+			O plasma exo ardente de Apolo é alimentado por nanomáquinas instáveis que constantemente derramam uma torrente de partículas altamente energéticas. Isto aquece o plasma a temperaturas incríveis e causa queimaduras de severidade comparável às causadas pela Bruxa. O produto tinha pouca capacidade além de seu projetor de plasma a nanomáquinas, mas não era uma preocupação. Apolo não foi feito para lutar sozinho.\n
 
 			A última a iniciar construção foi Ártemis. Ao invés de basear-se em poder bruto, ela foi feita para ser o auge da velocidade e da precisão. Há elegância na simplicidade, pois toda a eficácia bélica de Ártemis vem de uma IA preditiva a bordo e uma bateria de emissores de raios dura-luz.\n
 
@@ -298,38 +303,34 @@ Communication: {
 	}
 
 	Exotech: {
-		Inquiry: O que é Exotech?
+		Inquiry: O que é Tecnologia Exo?
 		Response:
 			'''
-			Exotecnologia é o meu maior avanço científico, desbloqueando um novo escalão de potencial em meu maquinário. A versão que lhe é mais familiar, os Prismas Exo, levaram um bom tempo para aperfeiçoar. Meus esforços centralizados nesta fonte de energia obtiveram enorme recompensa, esta que ainda não se realizou por completo. \n
+			Tecnologia Exo é o meu maior avanço científico, desbloqueando um novo escalão de potencial em meu maquinário. A versão que lhe é mais familiar, os Prismas Exo, levaram um bom tempo para aperfeiçoar. Meus esforços centralizados nesta fonte de energia obtiveram enorme recompensa, esta que ainda não se realizou por completo. \n
 
-			O fundamento da exotecnologia vem da minha própria interface neural, que serve como um substituto sintético para as células nervosas da vida orgânica. Exotecnologia é baseada em uma aplicação modular desta inteligência sintética, o que permite comunicação e interconexão com qualquer forma concebível de tecnologia. Instruções e informação são processadas à velocidade da luz em um modo distribuído, como uma rede cerebral levada ao limite teórico.\n
+			O fundamento da tecnologia exo vem da minha própria interface neural, que serve como um substituto sintético para as células nervosas da vida orgânica. Tecnologia Exo é baseada em uma aplicação modular desta inteligência sintética, o que permite comunicação e interconexão com qualquer forma concebível de tecnologia. Instruções e informação são processadas à velocidade da luz em um modo distribuído, como uma rede cerebral levada ao limite teórico.\n
 
 			Densidade computacional inigualada não vem sem preço. Meus protótipos consumiam quantidades absurdas de energia e não podiam ser integrados significativamente a qualquer sistema sem uma fonte ilimitada de energia. Após experimentos com diversos candidatos falharem em trazer resultados, escolhi abordar o problema da energia sem limites mais diretamente. \n
 
 			Os cristais Ilmeranos que conhece como "Prismas Marinhos" tem brilho próprio e fornecem uma fraca carga elétrica indefinidamente, mesmo quando cercados por circuitos. Esculpindo os cristais com trilhas de condução em nível molecular e oferecendo um impulso de energia inicial, como se acendendo uma estrela recém-nascida, os transforma em uma fac-símile dos Prismas Exo familiares.\n
 
-			Prismas Exo emitem uma ressonância autossuficiente de partículas que é diferente de qualquer outro fenômeno que já observei. Chamei-a de Ressonância Exótica, e é a inovação que nomeia o resto da exotecnologia. Ressonância exótica continua presente não importa quanta energia lhe é retirada, amplificando as propriedades intrínsecas dos Prismas Marinhos muito além de minhas expectativas. A pura abundância de energia produzida via ressonância exótica permite que uma quantidade suficiente de Prismas Exo alimente qualquer aparelho, de qualquer tamanho ou complexidade. \n
+			Prismas Exo emitem uma ressonância autossuficiente de partículas que é diferente de qualquer outro fenômeno que já observei. Chamei-a de Ressonância Exótica, e é a inovação que nomeia o resto da tecnologia exo. Ressonância exótica continua presente não importa quanta energia lhe é retirada, amplificando as propriedades intrínsecas dos Prismas Marinhos muito além de minhas expectativas. A pura abundância de energia produzida via ressonância exótica permite que uma quantidade suficiente de Prismas Exo alimente qualquer aparelho, de qualquer tamanho ou complexidade. \n
 
 			Descobrirá que meus Prismas Exo modernos são fáceis de manipular enquanto usando minha forja, e não deverá ter dificuldade em usar seu poder para aprimorar enormemente seus armamentos. Se está preocupado com minha coleta de Prismas Marinhos de Ilmeris, lembre-se que encontrou o maior cristal coeso intacto em meu laboratório. Crescer artificialmente cristais equivalentes me permite fabricar puros e perfeitos Prismas Exo em massa, o que provém um rendimento de energia muito mais estável. Não vejo necessidade em escavar o reino marinho para alcançar meu crescente orçamento energético.
 			'''
 	}
 
 	MiracleMatter: {
-		Inquiry: Matéria-Milagre
+		Inquiry: Matéria-milagre
 		Response:
 			'''
-			Exotecnologia é o meu maior avanço científico, desbloqueando um novo escalão de potencial em meu maquinário. A versão que lhe é mais familiar, os Prismas Exo, levaram um bom tempo para aperfeiçoar. Meus esforços centralizados nesta fonte de energia obtiveram enorme recompensa, esta que ainda não se realizou por completo. \n
+			Realmente é isso que escolheu chamá-la? Que disparate. Não há nada milagroso a respeito do que segura em suas mãos; é a culminação de décadas de pesquisa e um testamento ao verdadeiramente ilimitado potencial da ciência. Entretanto, como foi responsável por estabilizá-la, a chamarei por esse nome a contragosto.\n
 
-			O fundamento da exotecnologia vem da minha própria interface neural, que serve como um substituto sintético para as células nervosas da vida orgânica. Exotecnologia é baseada em uma aplicação modular desta inteligência sintética, o que permite comunicação e interconexão com qualquer forma concebível de tecnologia. Instruções e informação são processadas à velocidade da luz em um modo distribuído, como uma rede cerebral levada ao limite teórico.\n
+			As partículas contidas na Ressonância Exótica são capazes de decompor matéria próxima quando exposta a energia externa suficiente. Já observou este fenômeno enquanto lutava contra minhas máquinas. Os picos de energia da batalha acontecendo causaram alguns dos Prismas Exo dentro a actuar, fundindo alguns dos componentes internos em uma mistura instável desta dita Matéria-Milagre. A ressonância alterada aprimorou seus ataques com uma pestilência prismática que desintegra qualquer coisa, orgânica ou não.\n
 
-			Densidade computacional inigualada não vem sem preço. Meus protótipos consumiam quantidades absurdas de energia e não podiam ser integrados significativamente a qualquer sistema sem uma fonte ilimitada de energia. Após experimentos com diversos candidatos falharem em trazer resultados, escolhi abordar o problema da energia sem limites mais diretamente. \n
+			Os diversos materiais que você expôs às partículas exóticas se fundiram de modo tão perfeito que criaram uma substância estável. Explorando a força conjunta da fúria dracônica, a essência vital do planeta, energias e espíritos também, e o poder do cosmos, o que você guarda agora possui potencial sem limites.\n
 
-			Os cristais Ilmeranos que conhece como "Prismas Marinhos" tem brilho próprio e fornecem uma fraca carga elétrica indefinidamente, mesmo quando cercados por circuitos. Esculpindo os cristais com trilhas de condução em nível molecular e oferecendo um impulso de energia inicial, como se acendendo uma estrela recém-nascida, os transforma em uma fac-símile dos Prismas Exo familiares.\n
-
-			Prismas Exo emitem uma ressonância autossuficiente de partículas que é diferente de qualquer outro fenômeno que já observei. Chamei-a de Ressonância Exótica, e é a inovação que nomeia o resto da exotecnologia. Ressonância exótica continua presente não importa quanta energia lhe é retirada, amplificando as propriedades intrínsecas dos Prismas Marinhos muito além de minhas expectativas. A pura abundância de energia produzida via ressonância exótica permite que uma quantidade suficiente de Prismas Exo alimente qualquer aparelho, de qualquer tamanho ou complexidade. \n
-
-			Descobrirá que meus Prismas Exo modernos são fáceis de manipular enquanto usando minha forja, e não deverá ter dificuldade em usar seu poder para aprimorar enormemente seus armamentos. Se está preocupado com minha coleta de Prismas Marinhos de Ilmeris, lembre-se que encontrou o maior cristal coeso intacto em meu laboratório. Crescer artificialmente cristais equivalentes me permite fabricar puros e perfeitos Prismas Exo em massa, o que provém um rendimento de energia muito mais estável. Não vejo necessidade em escavar o reino marinho para alcançar meu crescente orçamento energético.
+			Hipoteticamente, sua Matéria-milagre estabilizada deve conseguir desfazer algo de seus armamentos e transformar sua essência em algo infinitamente mais destrutivo, capaz de aniquilar qualquer obstáculo em seu caminho.
 			'''
 	}
 
@@ -343,9 +344,9 @@ Communication: {
 
 			Conceder-lhe acesso à minha forja é meu auxílio em alcançar as alturas de poder que Yharim possui. Embora certamente sabe utilizá-la agora, pode servir de ajuda conhecer seu funcionamento interno.\n
 
-			Os mecanismos principais da forja operam a partir do poder bruto e propriedades conectivas dos Prismas Exo. As exopartículas fisicamente dissociam uma multidão de outras bancadas de criação poderosas, deixando-as existir e trabalhar simultaneamente na mesma proximidade. Deste modo, a exotecnologia incrustada as permite trabalhar coletivamente como uma estação só, provendo uma interface única para toda a forja. As plantas para a estrutura exterior estão incrustadas nos prismas. Você só precisa oferecer os materiais necessários.\n
+			Os mecanismos principais da forja operam a partir do poder bruto e propriedades conectivas dos Prismas Exo. As exopartículas fisicamente dissociam uma multidão de outras bancadas de criação poderosas, deixando-as existir e trabalhar simultaneamente na mesma proximidade. Deste modo, a tecnologia exo incrustada as permite trabalhar coletivamente como uma estação só, provendo uma interface única para toda a forja. As plantas para a estrutura exterior estão incrustadas nos prismas. Você só precisa oferecer os materiais necessários.\n
 
-			Uma vez construída totalmente, o campo de Ressonância Exótica contendo as bancadas superpostas é controlado por uma matriz computacional que vem pré-instalada com todas as minhas informações sobre os elementos fundamentais do nosso universo. Usando a compatibilidade universal da exotecnologia, minha forja pode se conectar com e desconstruir qualquer tipo de matéria que a ofereça, e produzir qualquer resultado desejado.
+			Uma vez construída totalmente, o campo de Ressonância Exótica contendo as bancadas superpostas é controlado por uma matriz computacional que vem pré-instalada com todas as minhas informações sobre os elementos fundamentais do nosso universo. Usando a compatibilidade universal da tecnologia exo, minha forja pode se conectar com e desconstruir qualquer tipo de matéria que a ofereça, e produzir qualquer resultado desejado.
 			'''
 	}
 
@@ -365,7 +366,7 @@ Communication: {
 
 			Embora eu tenha ficado desapontado de ter poucas chances de estudar Yharon, considerando que ele originalmente me levou a conhecer Yharim, fui apresentado a diversas oportunidades ao longo dos próximos setenta e dois anos: a magia do Arquimago, o mundo do Devorador, e o poder da Bruxa foram os mais notáveis. A Cruzada me ensinou que meu progresso era mais rápido com ajuda externa, mesmo que somente como inspiração.\n
 
-			Minha última interação com Yharim foi menos de um ano antes de descobrir você. Ele havia me procurado alguns meses depois de seu encontro quase fatal com Braelor e Statis, e requisitou que eu melhorasse sua armadura Áurea com minha exotecnologia recém-inventada. Conversamos pouco antes que ele partisse ao Ninho dos Dragões, e acredito que ainda está lá.
+			Minha última interação com Yharim foi menos de um ano antes de descobrir você. Ele havia me procurado alguns meses depois de seu encontro quase fatal com Braelor e Statis, e requisitou que eu melhorasse sua armadura Áurea com minha tecnologia exo recém-inventada. Conversamos pouco antes que ele partisse ao Ninho dos Dragões, e acredito que ainda está lá.
 			'''
 	}
 
@@ -617,30 +618,30 @@ Lecherous: {
 
 Disenchant: Desencantar
 // Worldgen Tasks
-// BetterUnderworld: Creating a smoother Underworld
-// UnderworldStructures: Remnants of an Azafurian and Demonic war
-// UnderworldTreesAndGrass: Growing Underworld flora
-// UnderworldGeyserTraps: Adding an Underworld minefield
-// ShimmerShrine: Excavating an ancient shimmer well
+BetterUnderworld: Criando um submundo mais limpo
+UnderworldStructures: Restos de uma guerra Azafurense e Demoníaca
+UnderworldTreesAndGrass: Crescendo uma flora no Submundo
+UnderworldGeyserTraps: Adicionando um campo minado no Submundo
+ShimmerShrine: Escavando um poço antigo de Brilhante
 EvilIslandCorrupt: Adicionando uma ilha flutuante pútrida
 EvilIslandCrimson: Adicionando uma ilha flutuante grotesca
 AstralChest: Posicionando um baú astral
-// LivingMahoganyTree: Growing a giant jungle tree
+LivingMahoganyTree: Crescendo uma árvore da selva gigante
 BetterJungleTemple: Construindo um tempo da selva maior
 JungleTempleAltar: Posicionando o altar lagharto
 GiantBeehive: Construindo uma colmeia gigante
 MechanicShed: Posicionando um galpão mecânico
 VernalPass: Abençoando um bosque florescente na selva
 SunkenSea: Inundando parcialmente um deserto exagerado
-// TimelessShores: Digging a subaquatic graveyard
-// RadiantReefs: Making the sea sparkle and shine
-// PolypForest: Adding life to nutrient-rich waters
-// GleamingBurrows: Burying pearls and catching caustics
-// BasaltGully: Provoking volcanic activity below the sea
+TimelessShores: Escavando um cemitério subaquático
+RadiantReefs: Dando brilho ao mar
+PolypForest: Adicionando vida às águas ricas em nutrientes
+GleamingBurrows: Enterrando pérolas e capturando cáusticos
+BasaltGully: Provocando atividade vulcânica abaixo do mar
 GemAdjustment: Embaralhando sensivelmente a profundidade das joias
 DungeonArchive: Sepultando a literatura oculta
-// Planetoids: Enriching low Terraria orbit
-SulphurSea: Poluir um dos oceanos
+Planetoids: Enriquecendo a órbita baixa de Terraria
+SulphurSea: Poluindo um dos oceanos
 BrimstoneCrags: Incinerando o Azafure
 HiddenShrines: Escondendo santuários proibidos
 CrimsonShrine: Matando um deus vingativo
@@ -663,11 +664,11 @@ DraedonFacility: Outros projetos de pesquisa menores
 Abyss: Descartando os restos mortais de Silva
 SulphurSea2: Irradiando um dos oceanos
 Roxcalibur: Arrochando água de pedras
-// AuricLandMines: Setting god killing traps
-// IronBall: Adding a bit more iron
+AuricLandMines: Posicionando armadilhas que matariam deuses
+IronBall: Adicionando um pouco mais de ferro
 // Hold Shift tooltip default
-// HoldShiftTooltipExtensionIndicator: Hold Shift for more
-// HoldShiftTooltipReplacementIndicator: Hold Shift for details
+HoldShiftTooltipExtensionIndicator: Segure Shift para ver mais
+HoldShiftTooltipReplacementIndicator: Segure Shift para ver detalhes
 // Dev and Donor Items
-// DevItemTooltip: - Dev Item -
-// DonorItemTooltip: - Donor Item -
+DevItemTooltip: - Item de Desenvolvedor -
+DonorItemTooltip: - Item de Doador -

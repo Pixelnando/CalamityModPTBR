@@ -29,6 +29,8 @@ Mods: {
 			FormattedBannerNameMale: Bandeira do {0}
 			FormattedBannerNameFemale: Bandeira da {0}
 			FormattedBannerNameNeutral: Bandeira de {0}
+			AlwaysCriticalStrike: Sempre causa acertos críticos, e a chance de acerto crítico aumenta o dano por acerto crítico
+			CollectBloodOrbs: Coletar estes orbes de sangue reduz a duração do [cbuffplr:PotionSickness]
 		}
 	}
 }

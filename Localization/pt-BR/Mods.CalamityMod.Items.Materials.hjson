@@ -58,11 +58,6 @@ Bloodstone: {
 	Tooltip: ""
 }
 
-BloodstoneCore: {
-	DisplayName: Núcleo de Pedra Sangrenta
-	Tooltip: ""
-}
-
 CoreofCalamity: {
 	DisplayName: Núcleo da Calamidade
 	Tooltip: ""

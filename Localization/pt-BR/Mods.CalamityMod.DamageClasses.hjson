@@ -5,3 +5,4 @@ StealthDamageClass.DisplayName: de dano furtivo
 TrueMeleeDamageClass.DisplayName: de dano por ataque físico verdadeiro
 TrueMeleeNoSpeedDamageClass.DisplayName: de dano por ataque físico verdadeiro
 VoidTagDmgType.DisplayName: de dano por marcação do vazio
+// AllClassDamageClass.DisplayName: all-class damage

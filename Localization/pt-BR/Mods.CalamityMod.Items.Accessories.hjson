@@ -252,15 +252,6 @@ AsgardsValor: {
 		'''
 }
 
-FadedIdolatry: {
-	DisplayName: Idolatria Desvanecida
-	Tooltip:
-		'''
-		[i:CalamityMod/YharonsKindleStaff] Draconídeos Flamejantes invocados custam 1 espaço de lacaio a menos
-		[c/ffe100:'Quando tudo se desfizer em pó, o que restará do mundo que você criou?']
-		'''
-}
-
 BadgeofBravery: {
 	DisplayName: Insígnia da Bravura
 	Tooltip:
@@ -298,20 +289,6 @@ BlackGlassBand: {
 		Este efeito tem um tempo de recarga de 5 segundos, mas é reduzido na metade se o clarão matar um inimigo
 		Efeitos visuais e sonoros são reduzidos se a visibilidade estiver desativada
 		[c/655DC5:'Uma pulseira brilhante com potencial sem limites']
-		'''
-}
-
-BlazingCore: {
-	DisplayName: Núcleo Ardente
-	Tooltip:
-		'''
-		{$Common.KnockbackImmunity}
-		O núcleo abrasador da Deusa Profana
-		Pressionar [KEY] irá ativar uma aparada, encapsulando você com um cristal profano luminoso
-		Ser atingido logo após ser encapsulado quebrará o cristal
-		Na destruição, estrelas sagradas espiralam para fora e o dano é anulado
-		Depois da destruição, este efeito de redução dos danos entra em recarga
-		Danos aparados durante o tempo de recarga invocam estrelas de cura adicionais, e não serão reduzidos
 		'''
 }
 
@@ -474,6 +451,15 @@ CrownJewel: {
 		'''
 }
 
+CrushingEgo: {
+	DisplayName: Ego Esmagador
+	Tooltip:
+		'''
+		Multiplica todo o dano por 1,3x, mas ao custo de receber 20% a mais de dano
+		[c/ff00ff:'Coloque a máscara da arrogância e dance sozinho. Quando o baile acabar, você será o último a permanecer de pé.']
+		'''
+}
+
 CryoStone: {
 	DisplayName: Rocha do Gelo
 	Tooltip:
@@ -593,13 +579,18 @@ DiamondOfTheDeep: {
 		'''
 }
 
-CrushingEgo: {
-	DisplayName: Ego Esmagador
-	Tooltip:
+DivineProvidence: {
+	// DisplayName: Divine Providence
+	/* Tooltip:
 		'''
-		Multiplica todo o dano por 1,3x, mas ao custo de receber 20% a mais de dano
-		[c/ff00ff:'Coloque a máscara da arrogância e dance sozinho. Quando o baile acabar, você será o último a permanecer de pé.']
-		'''
+		{$Common.KnockbackImmunity}
+		Pressing [KEY] will activate a parry, encasing you in luminous profaned crystal
+		Being hit shortly after encasement will shatter the crystal
+		Upon shattering, holy stars spiral outwards and damage taken is negated
+		After shattering, this damage reduction effect goes on cooldown
+		Damage parried whilst on cooldown summons additional healing stars, and will not be reduced
+		[c/FF8C00:The searing core of the Profaned Goddess]
+		''' */
 }
 
 DraedonsHeart: {
@@ -661,20 +652,6 @@ EclipseMirror: {
 		'''
 	HoldShiftTooltip: "{$Common.DodgeInformation}"
 	FlavorTooltip: "'Seu reflexo não mostra nada além de escuridão'"
-}
-
-FragmentsOfAnotherWorld: {
-	DisplayName: Fragmentos de Outro Mundo
-	Tooltip:
-		'''
-		Oferece imunidade a [cbuffplr:CalamityMod/WhisperingDeath]
-		{0}% de aumento na velocidade do ataque físico
-		{1}x os danos por ataque à distância de especialista
-		{2}% de redução no custo de mana
-		+{3} de limite máximo de sentinelas
-		{4}% de aumento na velocidade de ataque ladino
-		[c/ff0000:'Não fale dos seus desejos para as sombras, pois elas escutam.']
-		'''
 }
 
 ElectriciansGlove: {
@@ -761,6 +738,15 @@ EyeoftheStorm: {
 	Tooltip: Invoca um Elemental das Nuvens para lutar por você
 }
 
+FadedIdolatry: {
+	DisplayName: Idolatria Desvanecida
+	Tooltip:
+		'''
+		[i:CalamityMod/YharonsKindleStaff] Draconídeos Flamejantes invocados custam 1 espaço de lacaio a menos
+		[c/ffe100:'Quando tudo se desfizer em pó, o que restará do mundo que você criou?']
+		'''
+}
+
 FeatherCrown: {
 	DisplayName: Feather Crown
 	Tooltip:
@@ -840,6 +826,20 @@ FleshTotem: {
 		'''
 }
 
+FragmentsOfAnotherWorld: {
+	DisplayName: Fragmentos de Outro Mundo
+	Tooltip:
+		'''
+		Oferece imunidade a [cbuffplr:CalamityMod/WhisperingDeath]
+		{0}% de aumento na velocidade do ataque físico
+		{1}x os danos por ataque à distância de especialista
+		{2}% de redução no custo de mana
+		+{3} de limite máximo de sentinelas
+		{4}% de aumento na velocidade de ataque ladino
+		[c/ff0000:'Não fale dos seus desejos para as sombras, pois elas escutam.']
+		'''
+}
+
 FrostBarrier: {
 	DisplayName: Barreira Congelada
 	Tooltip:
@@ -858,6 +858,24 @@ FrostFlare: {
 		Estar abaixo de {0}% de vida concede {2} de defesa e {3}% de velocidade dos movimentos e aceleração máxima
 		Oferece resistência a ataques gelados, [cbuffplr:Frostburn], [cbuffplr:Chilled] e [cbuffplr:Frozen]
 		'''
+}
+
+FrozenCube: {
+	DisplayName: Cubo Congelado
+	Tooltip:
+		'''
+		Um bloco de gelo com algo dentro
+		Invoca um Elumfante pra sentar na sua cabeça e te proteger
+		O elumfante irá alternar entre disparar ar frio que inflige [cbuff:CalamityMod/WindChilled] e dar cabeçadas nos inimigos
+		As cabeçadas do elumfante focam apenas em inimigos infligidos com [cbuff:CalamityMod/WindChilled]
+		Reduz sua defesa em 33%, mas usa essa defesa para aumentar o poder do elumfante e o dano por efeitos negativos de gelo
+		[DAMAGELINE]
+		[c/7497ED:'O que eu quero saber é: cadê o mamute?']
+		'''
+	SalesPitch: "{$Common.SalesmanShrinePitch}"
+	EquippedDebuff: Aumento atual nos danos por efeitos negativos de gelo: +{0}%
+	EquippedElumphant: Poder atual do Elumfante: +{0}%
+	Unequipped: Equipe este acessório para ver suas estatísticas
 }
 
 FungalClump: {
@@ -1248,6 +1266,15 @@ Nucleogenesis: {
 		'''
 }
 
+OasisElementalinaBottle: {
+	DisplayName: Elemental do Oásis na Garrafa
+	Tooltip:
+		'''
+		Invoca um elemental do oásis para te auxiliar
+		Enquanto você sofre danos, o elemental dispara orbes de cura que recuperam 10 de vida
+		'''
+}
+
 OccultSkullCrown: {
 	DisplayName: Coroa do Crânio Oculto
 	Tooltip:
@@ -1324,7 +1351,7 @@ PearlofEnthrallment: {
 }
 
 PermafrostsConcoction: {
-	DisplayName: Mistura do Pergelissolo
+	DisplayName: Mistura do Permafrost
 	Tooltip:
 		'''
 		Aumenta a mana máxima em 50 e reduz o custo de mana em 15%
@@ -1479,15 +1506,6 @@ RampartofDeities: {
 		[c/aaaaaa:Segure Shift e <right> neste item no seu inventário para alternar o efeito do] [i:PanicNecklace] [c/aaaaaa:Colar do Pânico]
 		'''
 	ToggleEffect: ", aumenta a velocidade dos movimentos"
-}
-
-OasisElementalinaBottle: {
-	DisplayName: Elemental do Oásis na Garrafa
-	Tooltip:
-		'''
-		Invoca um elemental do oásis para te auxiliar
-		Enquanto você sofre danos, o elemental dispara orbes de cura que recuperam 10 de vida
-		'''
 }
 
 ReaperToothNecklace: {
@@ -1996,6 +2014,21 @@ TheFirstShadowflame: {
 		'''
 }
 
+ThePact: {
+	// DisplayName: The Pact
+	/* Tooltip:
+		'''
+		Increases your max health by {0}x
+		Causes {1}% of hits you take to critically strike you
+		These crits deal {2}x damage and infict [cbuffplr:CalamityMod/FulfilledContract]
+		''' */
+	/* SalesPitch:
+		'''
+		'Money's a fickle thing, buddy. One slip, and next you know, you're livin' it up... in a dumpster!'
+		'Gambling with life itself, that's where it's truly at. Just write my name in your will, would ya?'
+		''' */
+}
+
 ThePointer: {
 	DisplayName: Ponteiro à Laser
 	Tooltip:
@@ -2221,6 +2254,11 @@ GhostBracelet: {
 	Tooltip: Uau... ele olha para mim com seus olhos vazios cheios de curiosidade
 }
 
+GlimmeringRibbon: {
+	DisplayName: Laço Cintilante
+	Tooltip: "'Nascemos sem cor. São as pessoas que conhecemos que nos colorem.'"
+}
+
 HapuFruit: {
 	DisplayName: Fruta Ha-pu
 	Tooltip: "'Uma fruta que acalma os nervos (pode ter efeitos colaterais indesejados)'"
@@ -2253,11 +2291,6 @@ Popo: {
 SharkyPlush: {
 	DisplayName: Pelúcia de Sharky
 	Tooltip: "[c/696969:'Cuidado, com a força sem forma...']"
-}
-
-GlimmeringRibbon: {
-	DisplayName: Laço Cintilante
-	Tooltip: "'Nascemos sem cor. São as pessoas que conhecemos que nos colorem.'"
 }
 
 TheComb: {
@@ -2296,22 +2329,4 @@ XyksBlessingOrange: {
 		'''
 	ArmorDisabled: "[c/D44748:DESATIVADA]"
 	ArmorEnabled: "[c/58D447:ATIVADA]"
-}
-
-FrozenCube: {
-	DisplayName: Cubo Congelado
-	Tooltip:
-		'''
-		Um bloco de gelo com algo dentro
-		Invoca um Elumfante pra sentar na sua cabeça e te proteger
-		O elumfante irá alternar entre disparar ar frio que inflige [cbuff:CalamityMod/WindChilled] e dar cabeçadas nos inimigos
-		As cabeçadas do elumfante focam apenas em inimigos infligidos com [cbuff:CalamityMod/WindChilled]
-		Reduz sua defesa em 33%, mas usa essa defesa para aumentar o poder do elumfante e o dano por efeitos negativos de gelo
-		[DAMAGELINE]
-		[c/7497ED:'O que eu quero saber é: cadê o mamute?']
-		'''
-	SalesPitch: "{$Common.SalesmanShrinePitch}"
-	EquippedDebuff: Aumento atual nos danos por efeitos negativos de gelo: +{0}%
-	EquippedElumphant: Poder atual do Elumfante: +{0}%
-	Unequipped: Equipe este acessório para ver suas estatísticas
 }

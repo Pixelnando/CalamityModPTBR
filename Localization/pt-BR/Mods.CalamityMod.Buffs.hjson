@@ -918,6 +918,17 @@ Encased: {
 	Description: Defesa aumentada em 30 e redução dos danos aumentada em {0}%, mas...
 }
 
+FulfilledContract: {
+	// DisplayName: Fulfilled Contract
+	// Description: A reward earned through blood and tears
+	/* ItemTooltipPlayer:
+		'''
+		25% reduced Healing Potion cooldown
+		75% increased natural regeneration power
+		All attacks inflict Laceration
+		''' */
+}
+
 GraxBoost: {
 	DisplayName: Impulso do Grax
 	Description: Suas defesas e músculos estão fortes
@@ -1274,9 +1285,9 @@ BabyBloodCrawlerBuff: {
 	Description: A aranha de sangue bebê te protegerá
 }
 
-BabySlimeGodBuff: {
-	DisplayName: Deus Geleia Bebê
-	Description: O Deus Geleia te protegerá
+BabyPaladinBuff: {
+	// DisplayName: Baby Paladin
+	// Description: The blighted paladin will protect you
 }
 
 BabyStormlionBuff: {
@@ -1292,6 +1303,11 @@ BelladonnaSpiritBuff: {
 BlackHawkBuff: {
 	DisplayName: Falcão Negro
 	Description: O caça a jato te protegerá
+}
+
+BlightedSlime: {
+	// DisplayName: Blighted Slime
+	// Description: The blighted slime will protect you
 }
 
 BrimseekerBuff: {
@@ -1334,11 +1350,6 @@ CloudElemental: {
 	Description: O Elemental da Nuvem protegerá você
 }
 
-Corroslime: {
-	DisplayName: Geleia Corrosiva
-	Description: A geleia corrosiva te protegerá
-}
-
 CorvidHarbringerBuff: {
 	DisplayName: Corvo
 	Description: O poderoso corvo te protegerá
@@ -1357,11 +1368,6 @@ CosmicViperEngineBuff: {
 CosmilampBuff: {
 	DisplayName: Lâmpada Cósmica
 	Description: A lâmpada cósmica te protegerá
-}
-
-Crimslime: {
-	DisplayName: Geleia do Carmim
-	Description: A geleia do carmim te protegerá
 }
 
 DaedalusCrystalBuff: {

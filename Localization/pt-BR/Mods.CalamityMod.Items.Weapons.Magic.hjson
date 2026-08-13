@@ -23,11 +23,6 @@ AethersWhisper: {
 	Tooltip: Dispara feixes do vazio que recebem mais dano conforme viajam e se dividem ao atingir peças
 }
 
-AlulaAustralis: {
-	DisplayName: Alula Australis
-	Tooltip: Dispara uma linda aurora que inflige [cbuff:CalamityMod/AstralInfectionDebuff] trilhada por uma chuva de estrelas
-}
-
 AlphaDraconis: {
 	DisplayName: Alpha Draconis
 	Tooltip:
@@ -39,6 +34,11 @@ AlphaDraconis: {
 		Draco inflige [cbuff:CalamityMod/Voidfrost]
 		'Uma imitação da insanidade'
 		'''
+}
+
+AlulaAustralis: {
+	DisplayName: Alula Australis
+	Tooltip: Dispara uma linda aurora que inflige [cbuff:CalamityMod/AstralInfectionDebuff] trilhada por uma chuva de estrelas
 }
 
 AnahitasArpeggio: {
@@ -407,7 +407,7 @@ HeliumFlash: {
 	Tooltip:
 		'''
 		Lança núcleos de estrela voláteis que irrompem em explosões de fusão enormes
-		Sempre causa acertos críticos, e a chance de acerto crítico aumenta o dano por acerto crítico
+		{$Mods.CalamityModPTBR.Common.AlwaysCriticalStrike}
 		'O poder e uma galáxia, mesmo que apenas por alguns instantes'
 		'''
 }
@@ -726,7 +726,7 @@ SanguineFlare: {
 		'''
 		Prepara uma chama sanguinária que ganha mais poder conforme é carregada
 		Ao atingir um inimigo, esta chama causa uma explosão de sangue e se divide em orbes de sangue
-		Coletar estes orbes de sangue reduz a duração do [cbuffplr:PotionSickness]
+		{$Mods.CalamityModPTBR.Common.CollectBloodOrbs}
 		'''
 }
 
@@ -919,6 +919,11 @@ TheSwarmer: {
 TheWand: {
 	DisplayName: A Varinha
 	Tooltip: A varinha suprema
+	/* SalesPitch:
+		'''
+		'Hey buddy. I know we've had our differences, but you've been a real pal to me. This is a special offer, just for you!'
+		'Apparently this stick is from the Dragon Aerie, and I've heard that even the tiniest branches there have unfathomable power! This is literally a steal!'
+		''' */
 }
 
 ThornBlossom: {
@@ -993,7 +998,7 @@ VenusianTrident: {
 	Tooltip:
 		'''
 		Conjura um tridente infernal que irrompe em uma explosão gigantesca de fogo e fragmentos de magma
-		Sempre causa acertos críticos, e a chance de acerto crítico aumenta o dano por acerto crítico
+		{$Mods.CalamityModPTBR.Common.AlwaysCriticalStrike}
 		'''
 }
 
@@ -1012,7 +1017,7 @@ Viscera: {
 		'''
 		Dispara uma barragem rápida de feixes de sangue perfurantes
 		O primeiro inimigo atingido por cada feixe explodirá em orbes de sangue
-		Coletar estes orbes de sangue reduz a duração do [cbuffplr:PotionSickness]
+		{$Mods.CalamityModPTBR.Common.CollectBloodOrbs}
 		Cada feixe sucessivo na barragem causa mais dano
 		O último feixe da barragem causa uma explosão ao atingir um inimigo
 		'''

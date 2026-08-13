@@ -1,39 +1,39 @@
-BabyCannonballJellyfish.DisplayName: Medusa-Balaço Bebê
+BabyCannonballJellyfish.DisplayName: Medusa-balaço Bebê
 Bloatfish.DisplayName: Baiacu Inchado
-// BrainIllusion.DisplayName: Brain Illusion
-// BloodBomb.DisplayName: Blood Bomb
+BrainIllusion.DisplayName: Ilusão do Cérebro
+BloodBomb.DisplayName: Bomba de Sangue
 BobbitWormHead.DisplayName: Verme Bobbit
-BoxJellyfish.DisplayName: Medusa-Caixote
-// Burrower.DisplayName: Burrower
-// BurrowerHitbox.DisplayName: Burrower
-CannonballJellyfish.DisplayName: Medusa-Balaço
+BoxJellyfish.DisplayName: Medusa-caixote
+Burrower.DisplayName: Escavador
+BurrowerHitbox.DisplayName: Escavador
+CannonballJellyfish.DisplayName: Medusa-balaço
 ChaoticPuffer.DisplayName: Baiacu Caótico
 ColossalSquid.DisplayName: Lula Colossal
 TinySquid: Lulinha
 Cuttlefish.DisplayName: Choco
 DevilFish.DisplayName: Peixe do Diabo
 DevilFishAlt.DisplayName: Peixe do Diabo
-// DraconicSwarmer.DisplayName: Draconic Swarmer
-// Dragonfolly.DisplayName: Dragonfolly
+DraconicSwarmer.DisplayName: Caçador Dracônico
+Dragonfolly.DisplayName: Dragão-folião
 EidolonWyrmHead.DisplayName: Serpente Eidolon
-// FalseBrain.DisplayName: False Brain
+FalseBrain.DisplayName: Cérebro Falso
 GiantSquid.DisplayName: Lula Gigante
 GulperEelHead.DisplayName: Enguia Devoradora
-Laserfish.DisplayName: Peixe-Laser
+Laserfish.DisplayName: Peixe-laser
 LuminousCorvina.DisplayName: Corvina Luminosa
-MirageJelly.DisplayName: Medusa-Miragem
+MirageJelly.DisplayName: Medusa-miragem
 MorayEel.DisplayName: Moreia
-OarfishHead.DisplayName: Peixe-Remo
+OarfishHead.DisplayName: Peixe-remo
 ReaperShark.DisplayName: Tubarão Ceifeiro
-// Shoreskipper.DisplayName: Shoreskipper
-SlabCrab.DisplayName: Siri-Laje
+Shoreskipper.DisplayName: Saltador-da-costa
+SlabCrab.DisplayName: Siri-laje
 ToxicMinnow.DisplayName: Vairão Tóxico
-Viperfish.DisplayName: Peixe-Víbora
-// WildBumblebirb.DisplayName: Draconic Swarmer
+Viperfish.DisplayName: Peixe-víbora
+WildBumblebirb.DisplayName: Caçador Dracônico
 AcidEel.DisplayName: Enguia Ácida
 BabyFlakCrab.DisplayName: Caranguejo Antiaéreo Bebê
 BloodwormNormal.DisplayName: Verme Sanguíneo
-CragmawMire.DisplayName: Presas-de-Promontório
+CragmawMire.DisplayName: Presas-de-promontório
 FlakCrab.DisplayName: Caranguejo Antiaéreo
 GammaSlime.DisplayName: Geleia Gama
 IrradiatedSlime.DisplayName: Geleia Irradiada
@@ -42,7 +42,7 @@ NuclearTerror.DisplayName: Terror Nuclear
 NuclearToad.DisplayName: Sapo Nuclear
 Orthocera.DisplayName: Ortocera
 Radiator.DisplayName: Radiador
-Skyfin.DisplayName: Barbatana-do-Céu
+Skyfin.DisplayName: Barbatana-do-céu
 SulphurousSkater.DisplayName: Patinador Sulfúrico
 Trilobite.DisplayName: Trilobita
 AquaticScourgeHead.DisplayName: Flagelo Aquático
@@ -54,9 +54,9 @@ AstralSlime.DisplayName: Geleia Astral
 Atlas.DisplayName: Atlas
 FusionFeeder.DisplayName: Nutridor da Fusão
 Hadarian.DisplayName: Hadariano
-// Astraglomerate.DisplayName: Astraglomerate
-// Glomerling.DisplayName: Glomerling
-Mantis.DisplayName: Louva-ao-Céu
+Astraglomerate.DisplayName: Astromeia
+Glomerling.DisplayName: Glomerinho
+Mantis.DisplayName: Louva-ao-céu
 Nova.DisplayName: Nova
 SightseerCollider.DisplayName: Avistador Colisor
 SightseerSpitter.DisplayName: Avistador Cuspidor
@@ -68,15 +68,15 @@ AstrumDeusHead.DisplayName: Astrum Deus
 Brimling.DisplayName: Enxofrinho
 BrimstoneElemental.DisplayName: Elemental do Enxofre
 Bumblebirb: Bumblebirb
-Bumblefuck.DisplayName: Dragão-Folião
+Bumblefuck.DisplayName: Dragão-folião
 Bumblefuck2.DisplayName: Voador Dracônico
 CalamitasClone.DisplayName: Clone da Calamitas
 Cataclysm.DisplayName: Criação Cataclísmica
 Catastrophe.DisplayName: Criação Catastrófica
-SoulSeeker.DisplayName: Caça-Almas
+SoulSeeker.DisplayName: Caça-almas
 CeaselessVoid.DisplayName: Vazio Incessante
 DarkEnergy.DisplayName: Energia Escura
-CrabShroom.DisplayName: Cogumelo-Caranguejo
+CrabShroom.DisplayName: Cogumelo-caranguejo
 Crabulon.DisplayName: Carangulão
 CalamityEye.DisplayName: Olho da Calamidade
 RenegadeWarlock.DisplayName: Feiticeiro Renegado
@@ -157,9 +157,9 @@ MechanizedSerpent: Serpente Mecanizada
 AuroraSpirit.DisplayName: Espírito Aurora
 BloomSlime.DisplayName: Geleia Florescente
 Bohldohr.DisplayName: Rohchedo
-// BucketZombie.DisplayName: "{$NPCName.Zombie}"
-// CladCrab.DisplayName: Clad Crab
-// CloudElemental.DisplayName: Cloud Elemental
+BucketZombie.DisplayName: "{$NPCName.Zombie}"
+CladCrab.DisplayName: Couranguejo
+CloudElemental.DisplayName: Elemental da Nuvem
 Cnidrion.DisplayName: Cnidrion
 CrawlerAmber.DisplayName: Rastejante de Âmbar
 CrawlerAmethyst.DisplayName: Rastejante de Ametista
@@ -171,14 +171,14 @@ CrawlerSapphire.DisplayName: Rastejante de Safira
 CrawlerTopaz.DisplayName: Rastejante de Topázio
 CrimulanBlightSlime.DisplayName: Geleia Doentia do Carmim
 Cryon.DisplayName: Críon
-CryoSlime.DisplayName: Crio-Geleia
-// DivineSwine.DisplayName: Divine Swine
+CryoSlime.DisplayName: Crio-geleia
+DivineSwine.DisplayName: Suíno Divino
 EbonianBlightSlime.DisplayName: Geleia Doentia do Ébano
 Eidolist.DisplayName: Eidolista
-FearlessGoldfishWarrior.DisplayName: Guerreiro Peixe-Dourado Destemido
-Frogfish.DisplayName: Peixe-Rã
-// EarthElemental.DisplayName: Earth Elemental
-IceClasper.DisplayName: Pinça-de-Gelo
+FearlessGoldfishWarrior.DisplayName: Guerreiro Peixe-dourado Destemido
+Frogfish.DisplayName: Peixe-rã
+EarthElemental.DisplayName: Elemental da Terra
+IceClasper.DisplayName: Pinça-de-gelo
 ImpiousImmolator.DisplayName: Imolador Ímpio
 KingSlimeJewelRuby.DisplayName: Rubi da Geleia Rei
 LavaSlimeNoLavaDrop.DisplayName: Geleia de Lava
@@ -187,15 +187,15 @@ OverloadedSoldier.DisplayName: Soldado Sobrecarregado
 PerennialSlime.DisplayName: Geleia de Perene
 PhantomSpirit.DisplayName: Espírito Fantasma
 Piggy.DisplayName: Porquinho
-// PiggyGold.DisplayName: Gold Piggy
+PiggyGold.DisplayName: Porquinho de Ouro
 PlanterasFreeTentacle.DisplayName: Tentáculo da Plantera
 ProfanedEnergyBody.DisplayName: Energia Profana
-Rimehound.DisplayName: Cão-da-Geada
-Rotdog.DisplayName: Cachorro-Podre
+Rimehound.DisplayName: Cão-da-geada
+Rotdog.DisplayName: Cachorro-podre
 ScornEater.DisplayName: Devorador do Desprezo
 ShockstormShuttle.DisplayName: Nave Eletrovão
-// Shroomble.DisplayName: Shroomble
-Stormlion.DisplayName: Formiga-Trovão
+Shroomble.DisplayName: Cogumelado
+Stormlion.DisplayName: Formiga-trovão
 Sunskater.DisplayName: Patinador Solar
 SuperDummyNPC.DisplayName: Super Boneco
 WulfrumAmplifier.DisplayName: Amplificador de Vulfrúmio
@@ -206,7 +206,7 @@ WulfrumRover.DisplayName: Rover de Vulfrúmio
 OldDuke.DisplayName: O Velho Duque
 BoomerDuke: O Duque Boomer
 OldDukeToothBall.DisplayName: Bola de Dentes
-SulphurousSharkron.DisplayName: Tubarão-Dragão Sulfuroso
+SulphurousSharkron.DisplayName: Tubarão-dragão Sulfuroso
 CalamitasEnchantDemon.DisplayName: Demônio
 DemonPortal.DisplayName: Portal Misterioso
 ExhumedHeart.DisplayName: Coração de Enxofre Exumado
@@ -248,7 +248,7 @@ RavagerBody.DisplayName: Devastador
 RockPillar.DisplayName: Coluna de Pedra
 CosmicLantern.DisplayName: Lanterna Cósmica
 CosmicMine.DisplayName: Mina Cósmica
-Signus.DisplayName: Signus, Arauto do Devorador
+Signus.DisplayName: Signus
 CorruptSlimeSpawn.DisplayName: Cria Geleia Corrompida
 CrimsonSlimeSpawn.DisplayName: Cria Geleia do Carmim
 CrimulanPaladin.DisplayName: Paladino do Carmim
@@ -272,223 +272,224 @@ EutrophicRay.DisplayName: Arraia Eutrófica
 GhostBell.DisplayName: Sino Fantasma
 GiantClam.DisplayName: Amêijoa Gigante
 Clamitas: Clamitas
-SupremeClamitas: Clamitas Suprema
-PrismBack.DisplayName: Casco-de-Prisma
+SupremeClamitas: Ameijolamitas Suprema
+PrismBack.DisplayName: Casco-de-prisma
 SeaFloaty.DisplayName: Planador Marinho
 SeaMinnow.DisplayName: Peixinho Marinho
 SeaSerpent1.DisplayName: Serpente Marinha
 BrimstoneHeart.DisplayName: Coração de Enxofre
 SepulcherHead.DisplayName: Sepulcro
-SoulSeekerSupreme.DisplayName: Caça-Almas
+SoulSeekerSupreme.DisplayName: Caça-almas
 SupremeCalamitas.DisplayName: Calamitas, a Bruxa Suprema
-SupremePermafrost: Ultramago Supremo, Pergelissolo
+SupremePermafrost: Ultramago Supremo, Permafrost
 SupremeCataclysm.DisplayName: Cataclismo
 SupremeCatastrophe.DisplayName: Catástrofe
+VolatileSlime.DisplayName: Geleia Volátil
 Yharon.DisplayName: Yharon, Dragão do Renascer
 YharonPhase2: Yharon, a Fênix Resplandecente
 AndroombaFriendly.DisplayName: Amiguinho Androomba
 
 // Town NPCs, Pets, etc
 Archmage: {
-	// DisplayName: Archmage
-	// Census.SpawnCondition: Defeat Cryogen
-	// Name.Permafrost: Permafrost
+	DisplayName: Arquimago
+	Census.SpawnCondition: Derrote o Criogênio
+	Name.Permafrost: Permafrost
 
 	Chat: {
-		// Homeless1: I have not seen such a sky in decades. Who are you, to so brazenly march against that Tyrant?
-		// Homeless2: I... deeply appreciate you rescuing me from being trapped within my frozen castle. It's been many, many years.
-		// Normal1: If you have a request, make it quick. I am in the process of weaving a spell, which requires great focus.
-		// Normal2: You have the makings of a gifted mage. Tell me, what do you think of ice magic?
-		// Normal3: Flowers and the like don't hold a candle to the beauty of intricately formed ice.
-		// Day1: The sun beats down harshly upon my creations here. If you would allow me to conjure a blizzard every now and then...
-		// Day2: I must admit, I'm not quite used to this weather. It's far too warm for my tastes...
-		// Night1: Nightfall is a good time for practicing magic. We mages often rely on celestial bodies and their fragments to enhance our mana.
-		// Night2: Necromancy was never a field I found interesting. Why utilize the rotting corpses of people, when you could form far more elegant servants of ice?
-		// Party: Sometimes... I feel like all I'm good for during these events is making ice cubes and slushies.
-		// BloodMoon1: If your blood were to thoroughly freeze, it would be quite fatal.
-		// BloodMoon2: The undead which roam tonight are still monsters of blood and guts, but they seem... fresher.
-		// MoonLordDefeated1: It is shocking, to see you have come so far. I wish you the best of luck on your future endeavours.
-		// MoonLordDefeated2: You, having bested so many beings, even deities, I wonder if I have anything left to offer you.
+		Homeless1: Há décadas que não via um céu assim. Quem és tu, que marchas com tamanha ousadia contra aquele Tirano?
+		Homeless2: Eu... aprecio teu ato de bondade ao me libertar do meu castelo de gelo. Já se passaram tantos, tantos anos.
+		Normal1: Se ousas fazer um pedido, faze-o rapidamente. Estou tecendo um feitiço neste momento, e isto exige grande parte de minha atenção.
+		Normal2: Tens uma boa disposição para ser um feiticeiro. Dize-me, o que achas da magia de gelo?
+		Normal3: As flores empalidecem diante da beleza do gelo e das formas intrincadas que ele molda.
+		Day1: O sol incide ardentemente sobre minhas criações neste aposento. Se me concederes permissão para conjurar uma nevasca de tempos em tempos...
+		Day2: Devo admitir que este clima me é deveras estranho. É quente em demasia para os meus gostos...
+		Night1: O anoitecer é um bom momento para praticar a magia. Nós, magos, dependemos demasiado dos corpos celestiais e de seus fragmentos para fortalecer nossa mana.
+		Night2: A necromancia jamais me agradou como disciplina. Por que recorrer a cadáveres em decomposição quando se pode criar servos de gelo tão elegantes?
+		Party: Em eventos como este... há momentos em que sinto que sou tratado apenas como uma máquina que distribui cubos de gelo e prepara raspadinhas.
+		BloodMoon1: Se o teu sangue congelasse por completo, isso seria fatal.
+		BloodMoon2: Os mortos-vivos que vagam nesta noite ainda são criaturas de sangue e entranhas, mas estas parecem... mais frescas.
+		MoonLordDefeated1: Surpreende-me vê-lo chegar tão longe. Espero que encontre sucesso em todas as tuas futuras jornadas.
+		MoonLordDefeated2: Tu, que te provaste superior a tantos seres, até mesmo aos próprios deuses, fazes-me ponderar. Há algo que eu ainda possa fazer por ti?
 	}
 
 	TownNPCMood: {
-		// Content: The weather is cool today.
-		// NoHome: Without a place to rest, my studies cannot proceed. Could you procure me a living space? I no longer like to make my homes using ice magic.
-		// LoveSpace: Too many people can disrupt the flow of mana. I much prefer the breathing room here.
-		// FarFromHome: My sense of direction is... subpar. I loathe to admit it, but I have a tendency to not venture outside too often.
-		// DislikeCrowded: My spells are precise, and cannot be interrupted. I would like some more room to practice with them.
-		// HateCrowded: I'd hate for one of your associates to be caught up in my magic. Alas, there are too many here to mitigate that risk.
-		// LikeBiome: The temperature here allows me to save my magic power, as my creations can sustain their shape without melting in the cold.
-		// DislikeBiome: The sun here is too unfriendly for my ice! Please, allow me lodgings elsewhere at once!
-		// HateBiome: Dark forces are strong here. This is not ideal.
-		// LikeNPC: "{NPCName} is well learned, and quite a respectable mage himself!"
-		// DislikeNPC: I dislike {NPCName}'s blatant disregard of magic. I cannot blame his functions, but he is quite ignorant.
-		// LikeNPC_Princess: "{NPCName} has some very quaint spells. I'm quite impressed, for someone of her age."
-		// Princess_LovesNPC: "{NPCName} makes the best ice cream I've ever tasted, it's so good!"
-		// Monument: What a hideous statue! I always advocated for artistic community projects, but this... you really should have better quality control over what gets into your town!
-		// GiftPositive: '''"How culture shaped magic" by Medomaion of Stratia?! I thought this book was lost centuries ago! How did you find it, and how did you...?! Well, no matter! This is the perfect gift, thank you!'''
-		// GiftNegative: Could you please explain what your last gift was? You made an attempt on my life by trying to freeze me!? You better have a good explanation about how a snowstorm made its way inside that box!
+		Content: O clima está fresco hoje.
+		NoHome: Sem um lugar para descansar, meus estudos não podem prosseguir. Poderias encontrar-me um local para morar? Já não me agrada erguer casas com magia de gelo.
+		LoveSpace: Pessoas demais podem interromper o fluxo de mana. Aprecio o espaço vazio por aqui.
+		FarFromHome: Meu senso de direção é... deplorável. Dói-me admitir isso, mas não costumo me aventurar pelas redondezas com frequência.
+		DislikeCrowded: Meus feitiços são precisos e não devem ser interrompidos. Gostaria de ter mais espaço para praticá-los.
+		HateCrowded: Seria lamentável que um de seus aliados fosse envolvido em minha magia. Contudo, há muitos presentes neste local para que eu possa evitar tal risco.
+		LikeBiome: A temperatura deste local permite-me poupar meu poder mágico, pois minhas criações conservam suas formas no frio.
+		DislikeBiome: O sol deste lugar é hostil ao meu gelo! Conceda-me, por favor, um refúgio distante daqui!
+		HateBiome: As forças malignas mostram-se poderosas neste lugar. Isto está longe de ser ideal.
+		LikeNPC: "{NPCName} é bem versado, e é um mago respeitável!"
+		DislikeNPC: A total indiferença de {NPCName} à magia me desagrada. Não posso culpar suas funções, mas é evidente que é deveras ignorante.
+		LikeNPC_Princess: "{NPCName} possui um repertório impressionante de feitiços pitorescos. Confesso estar admirado, dada a sua idade."
+		Princess_LovesNPC: O tio {NPCName} faz o melhor sorvete que eu já tomei, é uma delícia!
+		Monument: Que estátua deplorável! Apoio iniciativas artísticas da comunidade, mas isto... deverias exigir um padrão de qualidade muito mais elevado para as obras presentes em tua cidade!
+		GiftPositive: '''"Como a Cultura Moldou a Magia", de Medomaion de Stratia?! Julguei que este tomo estivesse perdido há séculos! Como o encontraste, e como...? Ah, não importa! Este é um presente inestimável. Meus agradecimentos!'''
+		GiftNegative: Poderias explicar teu último presente? Atentaste contra minha própria vida, tentando congelar-me? Espero uma boa explicação para o modo como conseguiste armazenar uma nevasca dentro de uma caixa!
 	}
 }
 
 Bandit: {
-	// DisplayName: Bandit
-	// Census.SpawnCondition: Have a {$ItemName.PlatinumCoin} [i:PlatinumCoin] in your inventory after defeating Skeletron
+	DisplayName: Fora-da-lei
+	Census.SpawnCondition: Tenha uma {$ItemName.PlatinumCoin} [i:PlatinumCoin] em seu inventário depois de derrotar o Esqueletron
 
 	Name: {
-		// Laura: Laura
-		// Mie: Mie
-		// Bonnie: Bonnie
-		// Sarah: Sarah
-		// Diane: Diane
-		// Kate: Kate
-		// Penelope: Penelope
-		// Marisa: Marisa
-		// Maribel: Maribel
-		// Valerie: Valerie
-		// Jessica: Jessica
-		// Rowan: Rowan
-		// Jessie: Jessie
-		// Jade: Jade
-		// Hearn: Hearn
-		// Amber: Amber
-		// Anne: Anne
-		// Indiana: Indiana
+		Taylor: Taylor
+		Mie: Mia
+		Bonnie: Boneca
+		Sarah: Sara
+		Diane: Diana
+		Kate: Kátia
+		Penelope: Penélope
+		Marisa: Marissa
+		Maribel: Maribelle
+		Valerie: Valéria
+		Jessica: Jéssica
+		Rowan: Joana
+		Jessie: Jéssie
+		Jade: Jade
+		Hearn: Helena
+		Amber: Âmbar
+		Anne: Ana
+		Indiana: Indiana
 	}
 
 	Chat: {
-		// BloodMoon1: Oy, watch where you're going or I might just use you for dart practice.
-		// BloodMoon2: Bet you'd look good as a pincushion, amiright?
-		// BloodMoon3: Zombies don't dodge very well. Maybe you'll do a bit better.
-		// BloodMoon4: Hey, careful over there. I've rigged the place. One wrong step and you're going to get a knife in your forehead.
-		// Normal1: Anything is a weapon if you throw it hard enough.
-		// Normal2: That's your chucking arm? You need to work out more.
-		// Normal3: Listen here. It's all in the wrist, the wrist! Oh, forget it.
-		// Normal4: Eh you know how it goes; steal from the rich, give to the poor, but I do take a cut of the profit.
-		// Normal5: Snakes! Why does it always have to be snakes!
-		// Normal6: It's super nice you know, to just have everything you want. Some people never got that luxury.
-		// Normal7: It's not stealing! I'm just borrowing it until I die!
-		// Night1: Hm, the stars are too bright tonight. Makes sneaking around a little more difficult.
-		// Night2: You think those stars that fall occasionally would make good throwing weapons?
-		// BrimstoneWitch: Hey, hey, has {0} seriously moved in here with us? Why???
-		// Merchant: Don't tell {0}, but I took some of his stuff and replaced it with Angel Statues.
-		// NurseArmsDealer: Don't tell {0} that I was responsible for {1}'s injuries.
-		// NamedLaura: The nice thing about maps is I can track anything that has fallen.
-		// NamedPenelope: Imagine how fast you could throw if you just had more hands.
-		// NamedValerie: I also take food for currency.
-		// NamedRowan: Usually I only think of animals as food or target practice, but dragons are an exception.
-		// Jungle: I'd rather not be here. This place has bad vibes, y'know? It brings back some unpleasant memories.
-		// Party: Where is my party hat? Well, I stole it of course.
-		// Hardmode1: All sorts of new weapons to be found and looted. Get to that, and I'll share some of my collection too!
-		// Hardmode2: There's so much scrap around this land with valuable parts to them. Makes you wonder who could afford to leave em all around.
-		// Hardmode3: Crypts, tombs, dungeons, those're all just treasure troves to me. The dead are dead, they've got nothing to do with it.
-		// MoonLordDefeated1: If you find anything cool, make sure to drop by and show it to me, I promise I'll keep my hands off it.
-		// MoonLordDefeated2: So many new things to steal, I can't think of where to start!
-		// MoonLordDefeated3: If I end up angering some deities or whatever, would you mind taking the blame for me?
-		// HasBoneGlove: Wouldn't be the first time I used remains as weapons.
-		// HasValediction: Oh man, did you rip that off a shark!? Now that's a weapon!
+		BloodMoon1: Aí, presta atenção por onde anda, ou você vai acabar virando meu alvo de treino.
+		BloodMoon2: Aposto que você daria um ótimo alvo, hein?
+		BloodMoon3: Os zumbis nem tentam desviar. Talvez você se saia um pouco melhor.
+		BloodMoon4: Ei, toma cuidado. Enchi o lugar de armadilhas. Um passo errado e você vai acabar com uma faca na testa.
+		Normal1: Qualquer coisa pode ser uma arma se você tacar ela com força o suficiente.
+		Normal2: Esse aí é seu braço bom de arremesso? Tá precisando puxar peso, mano.
+		Normal3: Escuta aqui. Baixa a munheca, cara, baixa a munheca! Ah, deixa pra lá.
+		Normal4: É, cara, você já tá ligado como é: roubar dos ricos, dar pros pobres, lá ele... mas eu pego uma parte do lucro.
+		Normal5: Cobras, cara! Por que sempre são essas malditas cobras?!
+		Normal6: É muito legal, sabe, poder ter tudo que você quer. Algumas pessoas nunca tiveram esse luxo.
+		Normal7: Não tô roubando! Só tô emprestando até morrer!
+		Night1: Olha, as estrelas tão brilhando demais hoje. Vai ser mais difícil passar despercebida por aí.
+		Night2: Você acha que essas estrelas caídas que se veem às vezes dariam pra arremessar nos outros?
+		BrimstoneWitch: Ei, fala sério!! Não acredito que {0} veio morar aqui com a gente agora. Por quê???
+		Merchant: Não conta pra ninguém, mas eu "peguei" umas coisas do {0} e troquei por umas Estátuas de Anjo.
+		NurseArmsDealer: Não conta pra {0} que eu sou a responsável pelos machucados do {1}.
+		NamedTaylor: O bom dos mapas é que dá pra encontrar qualquer coisa que tenha caído por aí.
+		NamedPenelope: Imagina o quão rápido daria pra tacar coisas se a gente tivesse mais braços.
+		NamedValerie: Também aceito comida como pagamento.
+		NamedRowan: Normalmente, vejo os animais como comida ou alvos pros meus dardos, mas os dragões são uma exceção.
+		Jungle: Prefiro ficar bem longe daqui. Esse lugar tem umas vibes estranhas, tá ligado? Traz umas memórias bem desagradáveis.
+		Party: '''"Cadê o seu chapéu de festa"? Bem, eu roubei ele, é claro!'''
+		Hardmode1: Tem todo tipo de arma nova por aí esperando pra ser encontrada e surrupiada. Vai atrás delas, e eu até divido um pouco da minha coleção contigo!
+		Hardmode2: Tem tanto lixo por aí com partes valiosas. Te faz pensar em quem teria grana a ponto de se dar ao luxo de deixar tudo isso jogado por aí?
+		Hardmode3: Criptas, túmulos, calabouços... pra mim, tudo isso não passa de tesouros escondidos. Os mortos tão mortos, poxa. Não é da conta deles.
+		MoonLordDefeated1: Se você achar uma coisa legal, vem e me mostra, tá? Prometo que não vou encostar um dedo nela!
+		MoonLordDefeated2: Tem tanta coisa nova pra roubar, eu nem sei por onde começar!
+		MoonLordDefeated3: Se eu acabar irritando uns deuses ou algo do tipo, você assume a culpa por mim, né?
+		HasBoneGlove: Não seria a primeira vez que usei restos mortais como armas.
+		HasValediction: Cara, você arrancou isso aí de um tubarão?! Isso sim é uma arma maneira!
 	}
 
-	// RefundButton: Refund
-	// Refund1: Want in on a little secret? Since {0} always gets so much cash from you, I've been stealing some of it as we go. I need you to keep quiet about it, so here.
-	// Refund2: Hey, if government officials can get tax, why can't I? The heck do you mean that these two things are nothing alike?
-	// NoRefund: Sorry, I got nothing. Perhaps you could reforge something and come back later...
+	RefundButton: Reembolso
+	Refund1: Vou te contar um segredinho. Sabe o {0}, que tá sempre pegando uma parte do seu dinheiro? Bem, eu roubo um pouquinho dele de vez em quando. Não conta pra ninguém, tá? Toma aqui um pouquinho pra fechar a boca.
+	Refund2: Não faz sentido! Dizem que só os funcionários do governo podem cobrar impostos, mas olha só os "impostos" que eu arranjei! Pera, como assim "essas duas coisas não são nada parecidas"?
+	NoRefund: Desculpa, tô lise. Talvez você deva reforjar alguma coisa e voltar aqui mais tarde...
 
 	TownNPCMood: {
-		// Content: It's been going well!
-		// NoHome: You have a place to bunk? Sleeping on the ground makes me stiff and sore.
-		// LoveSpace: Less people makes getting away with certain things easier.
-		// FarFromHome: I need to get back to my secret cache! What if someone got their hands on it while I was away!?
-		// DislikeCrowded: I don't like this, too many possible eyewitnesses.
-		// HateCrowded: Being around this many people makes me think I'M going to be robbed.
-		// LikeBiome: I know that a lot of wealthy traders come through the desert at times. Makes it a great spot to nick their goods.
-		// DislikeBiome: Too stifling, too humid. I get sluggish in these conditions, no good.
-		// HateBiome: No one lives here, and why would they?! This place is a dump!
-		// LikeNPC: "{NPCName} doesn't only keep spiky balls in his pockets, he keeps a ton of cash! He's too absentminded to notice I'm stealing from him too! I like that a lot!"
-		// DislikeNPC: What a goody two shoes, {NPCName} is! I dislike her out of principle! …And because she has almost no material goods.
-		// LikeNPC_Princess: I couldn't bear to steal anything from {NPCName}, she's so cute!
-		// Princess_LovesNPC: "{NPCName} gifts me with nice exact replicas of other's things, I wonder how they do it!"
-		// Monument: Yo, if your pockets ever feel lighter, that's not me, alright? You brought this on yourself buddy.
-		// GiftPositive: Heeeey, my man! How's it goin'? I really 'preciate your gift, I have no idea how you got your hands on that kind of lockpicker's kit, but you'd catch me dead before I asked any questions!
-		// GiftNegative: Hey man, what the hell is up with that gift?! I'm the most wanted in seven different city-states, do you got any idea how much a warrant on my name messes up my work?! You better do something to clean that mess before they have me walking to the gallows!
+		Content: Tá tudo de boa!
+		NoHome: Tem algum lugar pra capotar por aqui? Dormir no chão tá me deixando doloride.
+		LoveSpace: Ter menos pessoas por perto deixa mais fácil me safar de certas coisas.
+		FarFromHome: Tô precisando voltar pro meu esconderijo secreto! E se alguém colocar as mãos nos meus tesouros enquanto eu não estiver lá?!
+		DislikeCrowded: Não tô curtindo isso, tem muitas possíveis testemunhas.
+		HateCrowded: Estar cercade de tantas pessoas me faz pensar que EU vou ser assaltade!
+		LikeBiome: Sei que passam muitos comerciantes ricos pelo Deserto. Isso faz daqui um lugar perfeito pra surrupiar as coisas deles.
+		DislikeBiome: Muito sufocante e muito úmido. Fico molenga nessas condições, não rola.
+		HateBiome: Ninguém mora aqui, e por que moraria?! Esse lugar é um lixo!
+		LikeNPC: "{NPCName} não só tem bolas com espinhos nos bolsos, como também tem baitas notas! E ele é tão avoado que nem percebe que tô roubando dele! Gosto muito disso!"
+		DislikeNPC: Que santinha essa {NPCName}! Não gosto dela por uma questão de princípio! ...E também porque ela quase não tem bens materiais.
+		LikeNPC_Princess: Não tenho coração para roubar algo da {NPCName}, ela é fofinha demais!
+		Princess_LovesNPC: "{NPCName} me dá alguns presentes que parecem iguaizinhos às coisas dos outros. Como será que elu faz isso?"
+		Monument: Ei, se seus bolsos parecerem mais leves, a culpa não é minha, fechou? Você mesmo se meteu nessa, cara.
+		GiftPositive: Eeeeei, meu chapa! Como vai? Valeu mesmo pelo presente! Não faço ideia de como você conseguiu um kit de arrombador desses, mas pode ter certeza que eu não vou fazer pergunta nenhuma!
+		GiftNegative: Cara, qual é a sua com aquele presente?! Sou a pessoa mais procurade em sete cidades-estado diferentes! Você tem ideia do quanto ter um mandado de prisão no meu nome ferra com meu trabalho?! É melhor você dar um jeito nessa bagunça antes que eu acabe indo parar na forca!
 	}
 }
 
 BrimstoneWitch: {
-	// DisplayName: Brimstone Witch
-	// Census.SpawnCondition: Defeat Supreme Witch, Calamitas
-	// Name.Calamitas: Calamitas
+	DisplayName: Bruxa de Enxofre
+	Census.SpawnCondition: Derrote Calamitas, a Bruxa Suprema
+	Name.Calamitas: Calamitas
 
 	Chat: {
-		// EasterEgg: Mrrp is cringe.
-		// Homeless1: I'm considering moving back to that old cave of mine.
-		// Homeless2: I certainly can't return to Yharim's old dwellings now, have you got any places to stay?
-		// Normal1: I can't pay rent, but if you've got any dead relative you want me to try and... what? You don't?
-		// Normal2: One of these days, I was thinking of starting a garden with the flowers from the old capitol of hell. I love the smell of brimstone in the morning.
-		// Normal3: I think I've settled comfortably, thank you very much.
-		// Normal4: Many seasons have gone by since I first met with the Tyrant, and only now did I break free. I wish I'd been stronger...
-		// Normal5: If you've got any curses you want dispelled... well I'm not your person.
-		// BloodMoon1: Such an unnatural shade of red. Nothing like my brimstone flames.
-		// BloodMoon2: I can't work with nights like these. The stars seem to have shrunk away in fear.
-		// Night1: These undead are horrific, I can't stand to look at them. How could anyone be satisfied with such amateur work?
-		// Night2: I don't think it's a stretch to say that astrology is utter nonsense... but it was a hobby of mine once.
-		// SeaKing: I cannot understand the Sea King. He does not seem to want me dead. That amount of compassion I just can't understand.
-		// Party: If another person asks me if I can dance or not, I will light their hat on fire.
+		EasterEgg: Mrrp é cringe.
+		Homeless1: Estou pensando em voltar para aquela minha velha caverna.
+		Homeless2: Certamente não posso retornar aos velhos aposentos do Yharim agora. Você tem algum lugar onde eu possa ficar?
+		Normal1: Não consigo pagar o aluguel, mas se você tiver algum parente falecido que quer que eu tente.. quê? Não quer?
+		Normal2: Um dia desses, estava pensando em cultivar um jardim com as flores da antiga capital do Inferno. Não há nada como o cheiro de enxofre pela manhã.
+		Normal3: Acho que já me acomodei bem, muito obrigada.
+		Normal4: Muitas estações se passaram desde que me encontrei com o Tirano, e só agora eu me libertei. Eu queria ter sido mais forte...
+		Normal5: Se você tem alguma maldição que queira dissipar... bem, não sou a pessoa certa para isso.
+		BloodMoon1: É um tom de vermelho tão pouco natural. Não é nada como minhas chamas de enxofre.
+		BloodMoon2: Não posso trabalhar com noites como esta. As estrelas parecem ter encolhido de medo.
+		Night1: Esses mortos-vivos são terríveis, não consigo nem olhar para eles. Como que alguém ficaria satisfeito com um trabalho tão amador?
+		Night2: Não seria exagero dizer que astrologia é um completo absurdo... mas já foi um hobby meu.
+		SeaKing: Eu não consigo entender o Rei dos Mares. Ele parece não me querer morta. Tanta compaixão é algo que simplesmente não consigo compreender.
+		Party: Se mais uma pessoa me perguntar se sei dançar ou não, vou colocar fogo no chapéu dela.
 	}
 
-	// EnchantButton: Enchant
-	// DonorButton: Donors
-	// DonorShoutout: Hey {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {19}, {20}, {21}, {22}, {23} and {24}. You guys are good people.
+	EnchantButton: Encantar
+	DonorButton: Doadores
+	DonorShoutout: Ei {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}, {15}, {16}, {17}, {18}, {19}, {20}, {21}, {22}, {23} e {24}. Vocês são boas pessoas.
 
 	TownNPCMood: {
-		// Content: I can't complain, really.
-		// NoHome: Anywhere would be better than a cave with no bed or lighting.
-		// LoveSpace: The quieter, the better. This is good.
-		// FarFromHome: After being used to having people around for a bit, I miss it again.
-		// DislikeCrowded: I really don't like how familiar some of these people are getting with me.
-		// HateCrowded: I'm getting a headache from the pressure of having so many people around.
-		// LikeBiome: I've never had the chance to live somewhere like this before. The trees and the songbirds… I quite like it.
-		// DislikeBiome: Is this a sick joke? I can't bear to be here any longer, I've already tried to atone for my sins.
-		// HateBiome: The spirits are unrestful here. It's really not a good feeling.
-		// LikeNPC: "{NPCName} is someone who's had a terrible experience being cursed. He's put up with it quite well all that time, it's quite impressive honestly."
-		// DislikeNPC: Such a racket! All {NPCName} does is make noise, day in and day out! I can't stand her!
-		// LikeNPC_Princess: What a strangely pleasant kid {NPCName} is to be around.
-		// Princess_LovesNPC: "{NPCName} is always lonely, it's why I want to hang out with her, no one should be left alone like that!"
-		// Monument: That monument is ugly as sin.
-		// GiftPositive: Hey, uh... thanks for the gift, really. I never thought you'd ever give me anything, for obvious reasons. But... thanks, really. It's lovely.
-		// GiftNegative: What the hell was that gift? You know what, I don't even want to think about it. Screw you.
+		Content: Não tenho do que reclamar.
+		NoHome: Qualquer lugar seria melhor que uma caverna sem uma cama ou luzes.
+		LoveSpace: Quanto mais quieto, melhor. Gosto disso.
+		FarFromHome: Depois de passar um tempo acostumada a ter gente por perto, sinto falta disso de novo.
+		DislikeCrowded: Algumas pessoas estão se achando íntimas demais comigo, e eu realmente não gosto disso.
+		HateCrowded: Essa quantidade de gente à minha volta está me dando dor de cabeça.
+		LikeBiome: Nunca tive a oportunidade de morar em um lugar assim antes. As árvores e os pássaros cantando... até que gosto daqui.
+		DislikeBiome: Isso é alguma piada de mau gosto? Não aguento mais ficar aqui. Já tentei expiar meus pecados.
+		HateBiome: Os espíritos estão inquietos por aqui. Não é uma sensação nada agradável.
+		LikeNPC: "{NPCName} é algúem que teve uma experiência terrível sendo amaldiçoado. Ele aguentou tudo isso muito bem durante todo esse tempo. Sinceramente, é bastante impressionante."
+		DislikeNPC: Mas que alvoroço! {NPCName} não faz nada além de barulho, vinte e quatro horas por dia! Não aguento ter ela por perto!
+		LikeNPC_Princess: "{NPCName} é uma criança estranhamente agradável de se ter por perto."
+		Princess_LovesNPC: "{NPCName} está sempre sozinha. É por isso que eu quero brincar com ela, ninguém deve ser deixada assim, de lado!"
+		Monument: Aquele monumento é tão feio que chega a ser um pecado.
+		GiftPositive: Ei, hmm... Obrigada pelo presente, de verdade. Nunca pensei que você me daria alguma coisa, por motivos óbvios. Mas... de verdade mesmo, obrigada. É muito agradável.
+		GiftNegative: Mas que diabos foi aquele presente? Quer saber, eu nem quero mais pensar sobre ele. Vai se danar.
 	}
 }
 
 SeaKing: {
-	// DisplayName: Sea King
-	// Census.SpawnCondition: Defeat a Giant Clam after defeating the Desert Scourge
-	// Name.Amidias: Amidias
+	DisplayName: Rei dos Mares
+	Census.SpawnCondition: Derrote uma Amêijoa Gigante depois de derrotar o Flagelo do Deserto
+	Name.Amidias: Amidias
 
 	Chat: {
-		// Homeless1: How much more has the world fallen to ruin? Even the Tyrant's empire...
-		// Homeless2: I do not expect a kingdom from you, but I would appreciate a safe haven.
-		// Day1: My home may have been destroyed and my people lost... But I will assist you to honor their memory.
-		// Day2: How odd it is, that your people leave the care of those yet to be born to the females. Our males carry the eggs until they hatch.
-		// Day3: How can I survive on land? Ah, that is a secret. No, actually... I can breathe air like you!
-		// Day4: Ah, if only you could have seen the beauty of a kingdom submerged in water. The way the light refracted and shone over our coral homes...
-		// Night1: There lurk horrifying creatures beyond the light of our homes. You should take care.
-		// Night2: My eyes are not well suited to bright lights after so many years of darkness. The peace of the night is welcome.
-		// Night3: Oh, me? I do not sleep, it is part of my nature.
-		// Angler: Not sure how {0} has not been roasted and digested by now, hanging around the sulphuric seas for so long. Perhaps it got to his head.
-		// BrimstoneWitch: I must admit, the Witch's presence is unsettling to me. But so many years have passed, and she too has suffered much.
-		// PartyGirl: "{0} asked if my nose could be used as a vuvuzela. What is a vuvuzela?"
-		// BloodMoon1: Since ancient times people have said that deities cause celestial events. Which one then, is the cause for these?
-		// BloodMoon2: I've never been keen on these nights. Such violence.
-		// Hardmode1: Your presence is now known to a great many things. It is unlikely that they will be as friendly towards you as I have been.
-		// Hardmode2: Hm... The veil has fallen, and the world begins to show its true colors. I hope you will trek a righteous path, though even I am not sure what that may be.
-		// MoonLordDefeated1: These days, the night sky feels... just a little less oppressive now.
-		// MoonLordDefeated2: Some of these beings I had thought previously to be only legends. To see them in all their glory... what a macabre privilege.
-		// DoGDefeated: To see that Tyrant's serpent free of its shackles. It gave me chills.
+		Homeless1: Quanto mais o mundo terá de ruir? Até mesmo o império do Tirano...
+		Homeless2: Não espero que me conceda um reino, mas apreciaria um refúgio seguro.
+		Day1: Meu lar pode ter sido destruído e meu povo, perdido... mas ajudarei você para honrar a memória deles.
+		Day2: É curioso que, entre o seu povo, sejam as fêmeas que cuidem daqueles que ainda estão por nascer. Entre nós, são os machos que carregam os ovos até que eclodam.
+		Day3: Como consigo sobreviver em terra firme? Ah, isso é um segredo. Não, na verdade... eu consigo respirar ar como você!
+		Day4: Ah, se ao menos você pudesse ter visto a beleza de um reino submerso. A maneira como a luz se refratava e brilhava sobre nossos lares de coral...
+		Night1: Criaturas horrendas espreitam além da luz de nossos lares. Tenha cuidado.
+		Night2: Meus olhos não estão acostumados a luzes tão intensas depois de tantos anos na escuridão. A paz da noite é bem-vinda.
+		Night3: Ah, eu? Eu não durmo. Faz parte da minha natureza.
+		Angler: Não sei como {0} ainda não foi assado e digerido depois de passar tanto tempo nos mares sulfúricos. Talvez o enxofre tenha subido à cabeça dele.
+		BrimstoneWitch: Devo admitir que a presença da Bruxa me causa certo desconforto. Mas tantos anos se passaram, e ela também sofreu muito.
+		PartyGirl: "{0} perguntou se meu nariz poderia ser usado como uma vuvuzela. O que é uma vuvuzela?"
+		BloodMoon1: Desde os tempos antigos, dizem que as divindades são responsáveis pelos fenômenos celestes. Então, qual delas é responsável por este?
+		BloodMoon2: Nunca gostei destas noites. Elas são tão violentas...
+		Hardmode1: Sua presença já é conhecida por muitas criaturas. É improvável que elas sejam tão amigáveis com você quanto eu tenho sido.
+		Hardmode2: Hm... O véu caiu, e o mundo começa a mostrar suas verdadeiras cores. Espero que você siga um caminho justo, embora nem eu tenha certeza de qual seja.
+		MoonLordDefeated1: Hoje em dia, o céu noturno parece... um pouco menos opressivo.
+		MoonLordDefeated2: Alguns desses seres, eu acreditava serem apenas lendas. Vê-los em toda a sua glória... que privilégio macabro.
+		DoGDefeated: Ver a serpente do Tirano livre de suas correntes... deu-me arrepios.
 	}
 
 	Help: {
-		// YharonDefeated1: Auric is near impossible to work with without being attuned to a dragon, or using the claimed soul of a dragon to perform a "mock" attunement. However, if one can work with it truly powerful things can be created; enough so that using it in anything was deemed heretical by the gods.
+		YharonDefeated1: É praticamente impossível trabalhar com auricanita sem estar sintonizado com um dragão ou sem utilizar a alma reivindicada de um dragão para realizar uma "falsa" sintonia. No entanto, aqueles capazes de trabalhar verdadeiramente com ela podem criar coisas de um poder extraordinário, tanto que seu uso em qualquer coisa foi considerado herético pelos deuses.
 		// YharonDefeated2: The Golden Heretic, Yharim, possesses strength that may just surpass all of the gods. When you face him, be well prepared for the battle of your life.
 		// YharonDefeated3: Draedon isn't a frontline fighter; he is a scientist and inventor. He is unlikely to face you directly, and will likely have his creations confront you instead. Be prepared for anything that blasphemous machine could throw at you.
 		// DoGDefeated1: The Devourer's armor was specially made by Draedon. Extremely flexible yet durable and massive, it may be one of his most impressive creations. I shudder to think of what unholy things he may be able to create now, if his research has not stopped.
@@ -526,8 +527,8 @@ SeaKing: {
 	}
 
 	TownNPCMood: {
-		// Content: I am satisfied.
-		// NoHome: Thank you for your service, but I am afraid I am without a home now.
+		Content: Estou satisfeito.
+		NoHome: Agradeço pelo seu serviço, mas temo dizer que estou sem um lar no momento.
 		// LoveSpace: Ah, the quiet of solitude is something I much enjoy.
 		// FarFromHome: My scales will dry away from shelter. I am too far from my home.
 		// DislikeCrowded: The living conditions here are quite cramped, are they not?
@@ -547,8 +548,8 @@ SeaKing: {
 }
 
 ShadySalesman: {
-	// DisplayName: Shady Salesman
-	// Census.SpawnCondition: Defeat a Horrible Hog
+	DisplayName: Comerciante Suspeito
+	Census.SpawnCondition: Derrote um Porco Pavoroso
 
 	Chat: {
 		// Normal1: Have you ever wondered why coins are shiny? Simple! It's to match my partner's dazzling products!
@@ -575,36 +576,37 @@ ShadySalesman: {
 }
 
 TownPiggy: {
-	// DisplayName: Town Piggy
-	// Census.SpawnCondition: Use The Housing Contract
+	DisplayName: Porquinho da Cidade
+	Census.SpawnCondition: Use o Contrato de Alojamento
 
 	Name: {
-		// Oolong: Oolong
-		// Napoleon: Napoleon
-		// Waddles: Waddles
-		// Crenando: Crenando
-		// Olivia: Olivia
-		// Wilbur: Wilbur
-		// Pumbaa: Pumbaa
-		// Peppa: Peppa
-		// Conan: Conan
-		// Reuben: Reuben
-		// Porky: Porky
-		// Hamm: Hamm
-		// Runt: Runt
-		// Roko: Roko
-		// RichardHam: Richard Ham
-		// Curly: Curly
-		// Techno: Techno
-		// JohnPork: John Pork
-		// Piglet: Piglet
+		Oolong: Oolong
+		Napoleon: Napoleão
+		Waddles: Waddles
+		Crenando: Torresmo
+		Olivia: Olivia
+		Wilbur: Wilbur
+		Pumbaa: Pumba
+		Peppa: Peppa
+		Conan: Conan
+		Reuben: Reuben
+		Porky: Gaguinho
+		Hamm: Rabicó
+		Runt: Babe
+		Roko: Roko
+		RichardHam: Porco-aranha
+		Curly: Pururuca
+		Techno: Techno
+		JohnPork: Chovinista
+		Piglet: Leitão
+		Poogie: Rosso
 	}
 
 	Chat: {
-		// 0: Oink!
-		// 1: Squeal...
-		// 2: Snort!
+		0: Oinc!
+		1: Huiii...
+		2: Ronc!
 	}
 }
 
-// HorribleHog.DisplayName: Horrible Hog
+HorribleHog.DisplayName: Porco Pavoroso

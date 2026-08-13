@@ -231,6 +231,7 @@ ProfanedCore: {
 		{$Common.NotConsumable}
 		'O coração de Seus Guardiões, Sua ira perversa queimará sobre quem quer que o empunhe agora.'
 		'''
+	// EnrageText: "[c/64c8fa:The nature of this world will unleash Her perfect fury, beware!]"
 }
 
 ProfanedShard: {

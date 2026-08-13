@@ -81,11 +81,6 @@ AstralCaveDesert: {
 	TownNPCDialogueName: a Caverna do Deserto Astral
 }
 
-FloralParadiseBiome: {
-	DisplayName: Paraíso Floral
-	TownNPCDialogueName: o Paraíso Floral
-}
-
 BasaltGullyBiome: {
 	DisplayName: Barranco de Basalto
 	TownNPCDialogueName: o Barranco de Basalto

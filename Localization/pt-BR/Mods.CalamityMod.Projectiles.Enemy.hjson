@@ -1,8 +1,8 @@
-// AnglerFlash.DisplayName: Angler Flash
+AnglerFlash.DisplayName: Clarão do Tamboril
 AstralMeteorProj.DisplayName: Meteoro Astral
 BelchingCoralSpike.DisplayName: Espinho
-// CarrionPus.DisplayName: Carrion Pus
-// ClamBubbleBlast.DisplayName: Clam Bubble Blast
+CarrionPus.DisplayName: Pus da Carniça
+ClamBubbleBlast.DisplayName: Explosão da Bolha da Amêijoa
 CrabBoulder.DisplayName: Rochedo
 CragmawAcidDrop.DisplayName: Ácido
 CragmawBeam.DisplayName: Raio Gama
@@ -18,21 +18,21 @@ FlameBurstHostile.DisplayName: Explosão
 GammaAcid.DisplayName: Ácido
 GammaBeam.DisplayName: Raio Gama
 GammaRayBurst.DisplayName: FEIXE DE COMBUSTÍVEL G.
-// GhostBellShock.DisplayName: Electrical Field
-// HorribleHogChargeHitbox.DisplayName: Horrible Hog
-// HorribleHogRubble.DisplayName: Rubble
-// HorribleHogShockwave.DisplayName: Sinister Swine Shockwave
-// HorribleHogShockwaveSpawner.DisplayName: Horrible Hog Shockwave Spawner
-// HorribleHogVomitBomb.DisplayName: Barf Bomb
-// HorribleHogVomitChunk.DisplayName: Horrible Hog's Leftovers
-// HorribleHogVomitEye.DisplayName: Regurgitated Demon Eye
-// HorribleHogZombieSpawner.DisplayName: Horrible Hog Zombie Spawner
-// HorsPoisonBlast.DisplayName: Poisonous Spit
+GhostBellShock.DisplayName: Campo Elétrico
+HorribleHogChargeHitbox.DisplayName: Porco Pavoroso
+HorribleHogRubble.DisplayName: Entulho
+HorribleHogShockwave.DisplayName: Onda de Choque Suína Sinistra
+HorribleHogShockwaveSpawner.DisplayName: Invocador da Onda de Choque do Porco Pavoroso
+HorribleHogVomitBomb.DisplayName: Bomba de Vômito
+HorribleHogVomitChunk.DisplayName: Restos de Comida do Porco Pavoroso
+HorribleHogVomitEye.DisplayName: Olho Demoníaco Regurgitado
+HorribleHogZombieSpawner.DisplayName: Invocador de Zumbi do Porco Pavoroso
+HorsPoisonBlast.DisplayName: Cusparada Venenosa
 HorsWaterBlast.DisplayName: Água
 IceClasperEnemyProjectile.DisplayName: Fragmento de Gelo
 InkBombHostile.DisplayName: Bomba de Tinta
 InkPoisonCloud.DisplayName: Nuvem de Tinta
-// JellyghoulBolt.DisplayName: Jellyghoul Bolt
+JellyghoulBolt.DisplayName: Raio Fantasma-vivo
 LightningCloud.DisplayName: Nuvem
 MantisRing.DisplayName: Anel Tamarutaca
 MaulerAcidBubble.DisplayName: Bolha Ácida
@@ -43,15 +43,15 @@ NuclearToadGoo.DisplayName: Gosma
 OrthoceraStream.DisplayName: Corrente Ácida
 PearlBurst.DisplayName: Explosão de Pérola
 PearlRain.DisplayName: Chuva de Pérola
-// PodobooSpit.DisplayName: Podoboo Spit
-// PodobooSpitHoming.DisplayName: Psychic Podoboo Spit
-// PodobooSpitSplitting.DisplayName: Loose Podoboo Spit
-// PodobooSpitUltima.DisplayName: Ultima Podoboo Spit
-// PrismBackCrystal.DisplayName: Prism-Back Shard
+PodobooSpit.DisplayName: Cusparada da Bola de Fogo
+PodobooSpitHoming.DisplayName: Cusparada da Bola de Fogo Psíquica
+PodobooSpitSplitting.DisplayName: Cusparada da Bola de Fogo Solta
+PodobooSpitUltima.DisplayName: Cusparada da Bola de Fogo Ultima
+PrismBackCrystal.DisplayName: Fragmento do Casco-de-prisma
 PufferExplosion.DisplayName: Explosão
-// SharkoonExplosion.DisplayName: Sharkoon Explosion
-// ShoreskipperTackle.DisplayName: Shoreskipper Tackle
-// StormlionSentryBullet.DisplayName: Stormlion Sentry Bullet
+SharkoonExplosion.DisplayName: Explosão do Balão-dragão
+ShoreskipperTackle.DisplayName: Golpe do Saltador-da-costa
+StormlionSentryBullet.DisplayName: Projétil da Sentinela da Formiga-trovão
 StormMarkHostile.DisplayName: Marca
 SulphuricAcidBubble.DisplayName: Bolha Ácida
 SulphuricAcidMist.DisplayName: Névoa Ácida

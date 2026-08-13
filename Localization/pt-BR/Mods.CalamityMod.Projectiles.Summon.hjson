@@ -35,11 +35,10 @@ BlackDragonHead.DisplayName: Dragão Celestial Negro
 BlackDragonTail.DisplayName: Dragão Celestial Negro
 BlackHawkBullet.DisplayName: Bala do Falcão Negro
 BlackHawkSummon.DisplayName: Falcão Negro
+// BlightedSlimeMinion.DisplayName: Blighted Slime
 BloodBreath.DisplayName: Fogo do Dragão de Sangue
 BloodRain.DisplayName: Chuva de Sangue
 BloodSpit.DisplayName: Cuspe de Sangue
-BoneMatter.DisplayName: Matéria Óssea
-BoneMatter2.DisplayName: Matéria Óssea
 BrimseekerAuraBall.DisplayName: Caçador
 BrimstoneDartMinion.DisplayName: Enxofogo
 BrimstoneDartSummon.DisplayName: Dardo de Enxofre
@@ -64,8 +63,6 @@ CinderBlossom.DisplayName: Flor-de-Cinzas
 CloudElementalMinion.DisplayName: Waifu Nebulosa
 CnidarianJellyfishOnTheString.DisplayName: Cnidariano
 CnidarianSpark.DisplayName: Faísca de Cnidariano
-CorroslimeMinion.DisplayName: Geleia Corrosiva
-CorruptionSlimeGodMinion.DisplayName: Deus Geleia
 CosmicBlast.DisplayName: Rajada Cósmica
 CosmicBlastBig.DisplayName: Rajada Cósmica
 CosmicEnergySpiral.DisplayName: Energia Cósmica
@@ -76,8 +73,6 @@ CosmicViperSplittingRocket.DisplayName: Foguete Divisor
 CosmicViperSummon.DisplayName: Víbora Cósmica
 CosmilampBeam.DisplayName: Feixe Cósmico
 CosmilampMinion.DisplayName: Lâmpada Cósmica
-CrimslimeMinion.DisplayName: Geleia do Carmim
-CrimsonSlimeGodMinion.DisplayName: Deus Geleia
 DaedalusCrystal.DisplayName: Cristal de Dédalo
 DaedalusCrystalShot.DisplayName: Tiro de Cristal
 DaedalusGolem.DisplayName: Golem de Dédalo
@@ -284,6 +279,7 @@ SquirrelSquireAcorn.DisplayName: Bolota de Esquilo
 SquirrelSquireMinion.DisplayName: Esquilo Escudeiro
 Starforge.DisplayName: Forja Estelar
 StarforgeBlast.DisplayName: Rajada da Forja Estelar
+// StatigelBlightedSlime.DisplayName: Blighted Paladin
 StellarTorusBeam.DisplayName: Feixe do Toro Estelar
 StellarTorusSummon.DisplayName: Invocação Toro Estelar
 StormjawBaby.DisplayName: Mandíbula-Trovão Bebê

@@ -87,6 +87,7 @@ ArkoftheCosmos: {
 		Aparar qualquer coisa fortalecerá os próximos 16 ataques da espada
 		'''
 	BlastInfo: <right> duas vezes com cargas disponíveis para provocar um Grande Rasgo no espaço-tempo e usar todas as cargas
+	// BlastInfoKeybind: Press [KEY] with charges available to cause a Big Rip in spacetime and consume all charges
 }
 
 ArkoftheElements: {
@@ -314,8 +315,8 @@ CrescentMoon: {
 }
 
 DarklightGreatsword: {
-	DisplayName: Montante da Luz Sombria
-	Tooltip: Dispara lâminas de luz sombria que cortam os inimigos e criam cortes adicionais
+	DisplayName: Montante de Umbraluz
+	Tooltip: Dispara lâminas de umbraluz que cortam os inimigos e criam cortes adicionais
 }
 
 DeathsAscension: {
@@ -348,31 +349,31 @@ DevilsDevastation: {
 	DisplayName: Devastação do Diabo
 	Tooltip:
 		'''
-		Throw a demonic blade that impales, immolates, and slows enemies
-		Up to five blades can impale an enemy at a time, with further hits launching the previous impaled blades
-		Press <right> to enter a stance where you can use <left> to perform a colossal, devastating slash
-		While in the stance, you gain life and flight time regeneration and your dashes have a shorter cooldown
-		The devastating slash must recharge after being used
-		Striking an impaled enemy with the devastating slash launches all blades and readies another slash
-		The final enemy hit with a devastating slash has a death mark applied to them
-		When you exit the stance, the death mark explodes for massive damage
+		Arremesse uma lâmina demoníaca que empala, imola e desacelera os inimigos
+		Até cinco lâminas podem empalar um inimigo por vez, e acertos sucessivos lançarão as lâminas já empaladas
+		Aperte <right> para assumir uma postura que permite o uso de <left> para fazer uma investida colossal e devastadora
+		Na postura, você ganha regeneração de vida e tempo de voo e suas investidas têm um tempo de recarga menor
+		O corte devastador deve ser recarregado após o uso
+		Golpear um inimigo empalado com o corte devastador lança todas as lâminas e prepara outro corte
+		Uma marca da morte é aplicada no último inimigo atingido pelo corte devastador
+		Ao sair da postura, a marca da morte explode, causando muito dano
 		'''
-	/* HoldShiftTooltip:
+	HoldShiftTooltip:
 		'''
-		[c/d13ca2:The perfect blade of the Underworld, wielding the power of Brimstone directly.]
-		[c/d13ca2:Humans understand this force as Havoc, the inevitable sundering of all order in fire.]
-		[c/d13ca2:Perhaps this is why the Brimstone Elemental had strength unrivaled by her sisters.]
-		''' */
+		[c/d13ca2:A lâmina perfeita do Submundo, contendo diretamente o poder do Enxofre.]
+		[c/d13ca2:Os humanos conhecem esta força como Caos, a ruptura inevitável da ordem no fogo.]
+		[c/d13ca2:Talvez fosse por isso que a Elemental de Enxofre possuía uma força inigualável entre suas irmãs.]
+		'''
 }
 
 DevilsSunrise: {
 	DisplayName: Nascer do Sol do Diabo
 	Tooltip:
 		'''
-		Unleashes a devilish flurry of swipes
-		Hellish energy charges in the blades over time, which is accelerated by striking foes
-		Press <right> while swinging the blades with full energy to throw the spinning blades to your cursor
-		The spinning blades lodge into and repeatedly slice the first foe they meet, stealing their life
+		Libera uma enxurrada de golpes diabólicos
+		Energia diabólica é carregada nas lâminas com o tempo, e este processo é acelerado ao atacar inimigos
+		Aperte <right> enquanto balança as lâminas com energia completa para lançar as lâminas giratórias no seu cursor
+		As lâminas giratórias fincam-se e cortam repetidamente o primeiro alvo encontrado, roubando sua vida
 		'Bolas? Pequenas.'
 		'''
 }
@@ -413,32 +414,31 @@ Earth: {
 	DisplayName: Terra
 	Tooltip:
 		'''
-		Diminui a defesa do inimigo em 1 com cada ataque
-		Seus ataques vão te curar bastante
-		Chove meteoros RGB ao atingir o inimigo que explodem em mais meteoros após um curto período de tempo
-		Meteoros de gelo congelam os inimigos
-		Meteoros de chamas explodem
-		Meteoros verdes germa orbes de cura
+		Uma lâmina prismática com uma proficiência de combate corpo-a-corpo imbatível
+		Fornece a você uma cura forte no acerto
+		Cada segundo golpe invocará três meteoros Gaia para aniquilar inimigos próximos
+		'Toda Sua prole conhecerá a beleza e a ira de sua criadora'
 		'''
 }
 
 EarthenPike: {
 	DisplayName: Lança Terrestre
-	Tooltip:
-		'''
-		Espalha fragmentos de fóssil no uso
-		Esmaga a defesa do inimigo
-		'''
+	Tooltip: Espalha fragmentos de fóssil no uso
 }
 
 EmpyreanKnives: {
 	DisplayName: Facas Empíricas
-	Tooltip: Lança uma série de facas saltitantes que podem curar o usuário
+	Tooltip: Lança uma enxurrada de facas teleguiadas que ricocheteiam de peças e curam o usuário
 }
 
 EntropicClaymore: {
 	DisplayName: Claymore Entrópica
-	Tooltip: Dispara uma série de bolas de plasma teleguiadas
+	Tooltip:
+		'''
+		Dispara uma série de plasma vivo que nada pelo ar
+		O plasma perseguirá o cursor ou os inimigos próximos dele, priorizando o mais próximo
+		O plasma perfura, mas não perseguirá mais depois de atingir um inimigo
+		'''
 }
 
 EssenceFlayer: {
@@ -447,34 +447,42 @@ EssenceFlayer: {
 }
 
 EvilSmasher: {
-	DisplayName: Esmagador Malígno
+	DisplayName: Esmagador do Mal
 	Tooltip:
 		'''
-		Para cada inimigo que você matar, este martelo ganha um bônus em suas estatísticas
-		Estes bônus acumulam até que um limite é atingido
-		O acúmulo de bônus será redefinido se você selecionar um item diferente
-		O acúmulo de bônus será reduzido em 1 toda vez que você for atingido
+		Canaliza um golpe de martelo poderoso com a capacidade de esmagar todo o mal
+		Golpear uma peça com o golpe de martelo causará uma explosão e o repelirá
+		Golpear inimigos inflige [cbuff:CalamityMod/SmashedEvil] no usuário e no alvo
+		Carregar um golpe aumenta o dano, raio de explosão e a duração do [cbuff:CalamityMod/SmashedEvil]
 		'MAl! eSMagAR o mAL! EsmAga...DOR!'
 		'''
 	//All damage and kill dialogue has the capitalization randomized when said
-	// DamageDialogue0: smash!
-	// DamageDialogue1: evil!
-	// DamageDialogue2: crush!
-	// DamageDialogue3: des.. troy!
-	// KillDialogue0: smash evil!
-	// KillDialogue1: smash.. er!
+	DamageDialogue0: esmaga!
+	DamageDialogue1: mal!
+	DamageDialogue2: tritura!
+	DamageDialogue3: des.. trói!
+	KillDialogue0: esmagar o mal!
+	KillDialogue1: esmaga.. dor!
 }
 
 ExaltedOathblade: {
 	DisplayName: Lâmina do Juramento Exaltada
-	Tooltip: Dispara uma série de foices demoníacas e acertos críticos causam explosões de chamas das sombras
-	/* HoldShiftTooltip:
+	Tooltip:
 		'''
-		[c/b63cd1:A sword fashioned from the legend of the Last Demon Lord.]
-		[c/b63cd1:Crowned through his overwhelming might, his sword bathed in the blood of Demons and the fires of hell.]
-		[c/b63cd1:Even long after his passing, none have dared to take the seat.]
-		[c/b63cd1:Demonkind has not known unity since.]
-		''' */
+		Arremesse uma lâmina distorcida que empala, imola e desacelera os inimigos
+		Até quatro lâminas podem empalar um inimigo por vez, e acertos sucessivos lançarão as lâminas já empaladas
+		Aperte <right> para assumir uma postura que permite o uso de <left> para fazer uma investida devastadora
+		Na postura, você ganha regeneração de vida e tempo de voo e suas investidas têm um tempo de recarga menor
+		O corte devastador deve ser recarregado após o uso
+		Golpear um inimigo empalado com o corte devastador lança todas as lâminas e prepara outro corte
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/b63cd1:Uma espada forjada a partir da lenda do Último Lorde Demônio.]
+		[c/b63cd1:Coroado por seu poder avassalador, sua espada banhada no sangue de Demônios e nas chamas do inferno.]
+		[c/b63cd1:Mesmo muito tempo depois de sua morte, ninguém se atreveu a ocupar aquele lugar.]
+		[c/b63cd1:Desde então, o povo dos Demônios não conheceu mais a unidade.]
+		'''
 }
 
 Exoblade: {
@@ -483,8 +491,10 @@ Exoblade: {
 		'''
 		<left> para liberar vários feixes de energia que seguem os inimigos e os cortam ao atingí-los
 		<right> para fazer uma investida na direção do cursor com a lâmina
-		Atingir inimigos com a lâmina durante a investida resultam em dano massivo e um ricochete
-		<left> imediatamente após um ricochete para executar um corte poderoso que explode ao atingir o inimigo
+		Atingir inimigos com a lâmina durante a investida resulta em dano massivo e um ricochete
+		<left> imediatamente após um ricochete para executar um corte poderoso
+		Os cortes poderosos são maiores, te curam e criam uma explosão enorme
+		Inimigos atingidos são dilacerados pela [cbuff:CalamityMod/MiracleBlight]
 		'''
 }
 
@@ -501,8 +511,8 @@ FaultLine: {
 	DisplayName: Linha de Colapso
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Explode ao atingir o inimigo
-		Um ioiô muito ágil
 		'''
 }
 
@@ -512,7 +522,7 @@ FeralthornClaymore: {
 }
 
 FlarefrostBlade: {
-	DisplayName: Lâmina Quente-Fria
+	DisplayName: Lâmina Quente-fria
 	Tooltip: Dispara um orbe quente-frio teleguiado
 }
 
@@ -523,13 +533,20 @@ Floodtide: {
 
 ForbiddenOathblade: {
 	DisplayName: Lâmina do Juramento Proibído
-	Tooltip: Dispara uma foice demoníaca e acertos críticos causam explosões de chamas das sombras
-	/* HoldShiftTooltip:
+	Tooltip:
 		'''
-		[c/b63cd1:A blade forged in the likeness of that granted to the Demon Lord.]
-		[c/b63cd1:The title was coveted by all demonkind. Only one may exist at a time.]
-		[c/b63cd1:Any claimant who seeks the throne has a simple goal: the head of the former Lord.]
-		''' */
+		Arremesse uma lâmina afiada que empala, queima e desacelera os inimigos
+		Até três lâminas podem empalar um inimigo por vez, e acertos sucessivos lançarão as lâminas já empaladas
+		<right> para assumir uma postura que permite o uso de <left> para fazer uma investida poderosa
+		O corte poderoso deve ser recarregado após o uso
+		Golpear um inimigo empalado com o corte poderoso lança todas as lâminas e prepara outro corte
+		'''
+	HoldShiftTooltip:
+		'''
+		[c/b63cd1:Uma lâmina forjada à imagem daquela concedida ao Lorde dos Demônios.]
+		[c/b63cd1:O título era cobiçado por toda a raça demoníaca. Apenas um pode existir por vez.]
+		[c/b63cd1:Qualquer pretendente ao trono tem um objetivo simples: a cabeça do antigo Lorde.]
+		'''
 }
 
 ForsakenSaber: {
@@ -543,12 +560,10 @@ FourSeasonsGalaxia: {
 	Tooltip:
 		'''
 		[FUNC]
-		[PASS]
-		Livre das algemas terrenas e fluindo com poder cósmico
+		Livre das algemas terrestres e fluindo com poder cósmico
 		Tem acesso a todas as sintonizações a todo momento
-		<right> para alternar a sintonização da espada dependendo da posição do 
+		<right> para alternar a sintonização da espada dependendo da posição do cursor
 		Sintonização Ativa: [ATT]
-		Bênção Passiva: [BLE]
 		'''
 }
 
@@ -563,7 +578,6 @@ FracturedArk: {
 		'''
 		<right> para estender a Arca à sua frente
 		Atingir um inimigo com ela aparará-lo, concedendo-lhe um curto período de invulnerabilidade
-		Você pode aparar projéteis para fazê-los causarem 50 a menos de dano temporariamente
 		Aparar fortalecerá os próximos 10 ataques da espada, aumentando o dano e permitindo que ela lance projéteis
 		'''
 }
@@ -608,20 +622,32 @@ GalileoGladius: {
 	DisplayName: Galileo Gladius
 	Tooltip:
 		'''
-		Dispara uma lua crescente teleguiada
-		Invoca planetóides ao atingir o inimigo
-		'Não subestime o poder das pequenas espadas espaciais'
+		Golpeia rapidamente na frente do jogador, gerando Explosões Estelares no acerto
+		<right> para lançar o gládio em uma corrente de constelações, empalando inimigos e infligindo [cbuff:CalamityMod/Voidfrost]
+		Quando a lâmina é empalada, use <left> ou <right> para liberá-la
+		<left> arranca a lâmina e causa muito dano, consumindo 10 Explosões Estelares
+		<right> puxa você à lâmina, permitindo que pule do inimigo
+		Pular de um inimigo consome 20 Explosões Estelares e fornece invencibilidade
+		'Fígaro, magnífico'
 		'''
 }
 
 GeliticBlade: {
 	DisplayName: Espada Gelítica
-	Tooltip: Dispara uma onda de gel que desacelera o inimigo ao atingí-lo
+	Tooltip: Dispara uma onda de gel veloz que acelera ao atingir um inimigo e o cobre com [cbuff:Slimed]
 }
 
 GildedProboscis: {
 	DisplayName: Probóscide Dourada
-	Tooltip: Cura o jogador no acerto
+	Tooltip:
+		'''
+		Rouba vida proporcional ao dano causado ao inimigo
+		<left> para carregar um golpe preciso
+		O golpe começa fraco, mas se torna mais forte conforme é segurado
+		<right> para fazer uma investida para frente e golpear para cima
+		A distância da sua investida depende da direção segurada durante a execução
+		{$Mods.CalamityModPTBR.Common.AlwaysCriticalStrike}
+		'''
 }
 
 GoldplumeSpear: {
@@ -630,34 +656,31 @@ GoldplumeSpear: {
 }
 
 GrandDad: {
-	// DisplayName: Grand Dad
-	// Tooltip: "[GFB]"
-	/* TooltipNormal:
+	DisplayName: Paizão
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
-		An unfathomably heavy blade that rips through enemies using its sheer mass
-		Provides healing over time to you and all nearby allies on hit
-		Striking low health enemies will launch them with incredible force
-		Launched enemies are killed instantly on impact with walls and floors
-		[c/00B8DF:'How are you swinging something that has half the mass of a star?']
-		''' */
-	/* TooltipGFB:
+		Uma lâmina de peso inimaginável que rasga os inimigos com sua enorme massa
+		Fornece cura com o tempo a você e a todos os aliados próximos no acerto
+		Atingir inimigos que estão com vida baixa os lançará com uma força enorme
+		Inimigos lançados morrem na hora do impacto com paredes e chãos
+		[c/00B8DF:'Como que você tá balançando essa coisa com metade da massa de uma estrela?']
 		'''
-		A high quality blade that rips through enemies
-		Striking low health enemies will yeet them with incredible force, nice >:]
-		Yeeted enemies will turn to JAM when SLAMMED into walls and floors
-		[c/00B8DF:'Please read the weapon description.']
-		''' */
+	TooltipGFB:
+		'''
+		Uma lâmina antiga que continua funcionando porque antigamente faziam direito
+		Atingir inimigos com pouca vida fará eles voarem mais longe que uma ida para a escola antigamente
+		Inimigos lançados aprenderão uma lição quando encontrarem uma parede ou o chão
+		[c/00B8DF:'Confia no pai.']
+		'''
 }
 
 GrandGuardian: {
 	DisplayName: Grande Guardião
 	Tooltip:
 		'''
-		Diminui a defesa do inimigo em 1 com cada ataque
-		Se a defesa do inimigo for 0 ou inferior, seus ataques irão te curar
-		Atacar os inimigos causa uma grande explosão
-		Atacar inimigos que têm menos que metade da vida fará com que você solte raios de arco-íris
-		Inimigos geram orbes de cura na morte
+		Uma lâmina alada e ornamentada que corta facilmente os inimigos
+		Cria explosões cósmicas e fornece uma cura leve no acerto
 		'''
 }
 
@@ -665,17 +688,18 @@ GreatswordofJudgement: {
 	DisplayName: Montante do Julgamento
 	Tooltip:
 		'''
-		Dispara um orbe branco que emite chuva branca na morte por um tempo
-		Uma espada branca pálida de uma terra esquecida
-		Você pode ouvir sussurros fracos, mas reconfortantes, emanando da lâmina
-		'Não importa onde você esteja, você nunca está sozinho
-		Eu estarei sempre ao seu lado, meu senhor'
+		Dispara uma onda de energia perfurante que libera estrelas teleguiadas conforme voa
+		Acertos com a lâmina invocam duas estrelas mais fortes atrás de você
 		'''
 }
 
 Greentide: {
 	DisplayName: Maré Verde
-	Tooltip: Invoca dentes do céu no acerto
+	Tooltip:
+		'''
+		Lança uma série de quatro dentes com um dente poderoso e perfurante no centro
+		Acertos com a lâmina criam duas mandíbulas cheias de dentes que mordem o inimigo mais próximo do cursor
+		'''
 }
 
 HellfireFlamberge: {
@@ -697,61 +721,84 @@ Hellkite: {
 	Tooltip: "[GFB]"
 	TooltipNormal:
 		'''
-		Invoca explosões de gêiser de chamas ao atingir o inimigo
-		Contém o poder de um dragão antigo
+		Uma espada antiga criada durante a Era Dracônica pelo mestre ferreiro mais habilidoso de Azafure
+		Balança uma espada pesada e lenta que conta com um recuo poderoso
+		Segurar <right> começará a carregar um golpe fortalecido
+		Soltar <right> com a carga completa liberará um corte devastador que sempre causa um acerto crítico
+		[c/E1B65F:'Sinta a força de uma lâmina forjada através da paixão']
 		'''
-	TooltipGFB: "'Minha Amada <3'"
+	TooltipGFB:
+		'''
+		Uma espada antiga criada durante a Era Dracônica pelo mestre ferreiro mais habilidoso de Azafure
+		Balança uma espada pesada e lenta que conta com um recuo poderoso
+		Segurar <right> começará a carregar um golpe fortalecido
+		Soltar <right> com a carga completa liberará um corte devastador que sempre causa um acerto crítico
+		[c/0C507F:'Minha Amada <3' -Xyk]
+		'''
 }
 
 HolyCollider: {
 	DisplayName: Colisor Sagrado
-	Tooltip: Atacar os inimigos fará com que eles explodam em fogo sagrado
+	Tooltip:
+		'''
+		Balança um montante sagrado que pode ser carregado para causar mais dano
+		Golpes carregados criam quatro chamas duradouras que flutuam ao redor do ponto de impacto
+		Atingir uma chama com um golpe não carregado a empurrará e estenderá seu tempo de vida
+		Golpes carregados podem transformar as chamas em bolas de fogo enormes que são lançadas ao cursor
+		'''
 }
 
 IllustriousKnives: {
 	DisplayName: Facas Ilustres
-	Tooltip: Lança uma série de facas teleguiadas que podem curar o usuário
+	Tooltip: Lança uma série de facas velozes e teleguiadas que curam o usuário
 }
 
 InsidiousImpaler: {
 	DisplayName: Empalador Insidioso
-	Tooltip: Dispara um arpão que gruda nos inimigos e explode
+	Tooltip:
+		'''
+		Lança arpões radioativos autopropulsados que perseguem os inimigos
+		Os arpões ricocheteiam em queima-roupa para atingir mais vezes
+		'''
 }
 
 Lacerator: {
 	DisplayName: Dilacerador
 	Tooltip:
 		'''
-		Inimigos que forem atingidos pelo ioiô terão suas vidas drenadas
-		Um ioiô excepcionalmente ágil
-		[GFB]
+		{$Common.YoyoStatsInfinite}
+		Conjura uma serra sangrenta para triturar o inimigo atingido
+		A serra causa mais dano conforme o ioiô atinge mais vezes, e desaparece quando deixa de atacar o inimigo
+		Inimigos que enconstam nos cantos da serra têm orbes de sangue arrancados deles
+		{$Mods.CalamityModPTBR.Common.CollectBloodOrbs}
+		A direção de rotação da serra depende da direção que o ioiô foi lançado originalmente[GFB]
 		'''
-	// GFBFlavor: "[c/ff0a0a:May be a viable weapon against DoG...]"
+	GFBFlavor: "[c/ff0a0a:Talvez seja viável contra o Devorador de Deuses...]"
 }
 
 LifehuntScythe: {
-	DisplayName: Foice Caça-à-Vida
-	Tooltip: Cura você ao atingir o inimigo e dispara uma foice energizada
+	DisplayName: Foice Caça-à-vida
+	Tooltip: Dispara uma foice energizada que fornece cura no acerto
 }
 
 Lightspeed: {
-	// DisplayName: Lightspeed
-	/* Tooltip:
+	DisplayName: Vapite-vupite
+	Tooltip:
 		'''
-		[c/c7f5ff:Unleash a flurry of stabs which build Elemental Mastery on hit]
-		[c/c2fff2:Elemental Mastery is lost over time if it has not been gained for a few seconds]
-		[c/ffdfba:Press <right> with maximum Elemental Mastery to dash toward your cursor]
-		[c/ffc7c7:Hitting an enemy during the dash refunds some Elemental Mastery]
-		''' */
+		[c/c7f5ff:Libere uma enxurrada de golpes que acumulam Maestria Elemental no acerto]
+		[c/c2fff2:A Maestria Elemental é perdida com o tempo se não for acumulada em alguns segundos]
+		[c/ffdfba:<right> com a Maestria Elemental completa para fazer uma investida na direção do cursor]
+		[c/ffc7c7:Atingir um inimigo durante a investida recupera um pouco de Maestria Elemental]
+		'''
 }
 
 LionHeart: {
 	DisplayName: Coração de Leão
 	Tooltip:
 		'''
-		Invoca uma explosão de energia ao atingir o inimigo
+		Invoca uma explosão de energia no acerto
 		<right> para invocar um escudo de energia por alguns segundos que corta todas as fontes de dano pela metade
-		Isso tem um tempo de recarga de 45 segundos
+		Isto tem um tempo de recarga de 45 segundos
 		'''
 }
 
@@ -759,9 +806,10 @@ Lucrecia: {
 	DisplayName: Lucrecia
 	Tooltip:
 		'''
-		Atacar um inimigo te deixará imune por um curto período de tempo
-		Dispara uma cadeia de DNA
-		Delicadeza
+		[c/9370db:Dispara um fragmento de luz sombria quando balançada]
+		[c/837ce4:Acertos com a espada acumulam Energia Umbraluminosa]
+		[c/7489ee:A Energia Umbraluminosa é perdida com o tempo se não for recebida em alguns segundos]
+		[c/6495f7:<right> com energia completa para disparar um cometa em forma de dupla hélice]
 		'''
 }
 
@@ -769,8 +817,8 @@ MajesticGuard: {
 	DisplayName: Guarda Majestosa
 	Tooltip:
 		'''
-		Diminui a defesa do inimigo em 1 com cada ataque
-		Se a defesa do inimigo for 0 ou inferior, seus ataques irão te curar
+		Uma lâmina complexa, pesada o suficiente para esmagar tudo o que não conseguir cortar
+		      Repele os inimigos com força e te cura um pouco no acerto
 		'''
 }
 
@@ -778,41 +826,44 @@ MantisClaws: {
 	DisplayName: Garras de Tamarutaca
 	Tooltip:
 		'''
-		Explode ao atingir o inimigo
+		Balance rapidamente uma garra de tamarutaca que corta alvos no corpo-a-corpo
+		<right> para formar uma bolha pressurizada na sua frente
+		Quando formada por completo, a bolha é esmagada, esguichando alvos com um jato d'água
 		'Camarão que dorme, a onda leva'
 		'''
 }
 
 MawOfInfinity: {
-	// DisplayName: Maw of Infinity
-	/* Tooltip:
+	DisplayName: Mandíbula da Eternidade
+	Tooltip:
 		'''
-		Swings a blade forged from the Devourer's maw in a 3-swing combo
-		The first swing only hits close range
-		The second swing additionally launches [ceffect/dog:Faith Incinerator]
-		The third swing unleashes [ceffect/dog:Divinity Devourer] at your cursor, exploding for massive damage
-		''' */
+		Balança uma lâmina forjada da mandíbula do Devourador em um combo de três golpes
+		O primeiro golpe atinge corpo-a-corpo
+		O segundo golpe lança um [ceffect/dog:Incinerador da Fé]
+		O terceiro golpe libera o [ceffect/dog:Devorador de Divindades] no cursor, explodindo e causando muito dano
+		'''
 }
 
 MirrorBlade: {
 	DisplayName: Lâmina Espelhada
 	Tooltip:
 		'''
-		A quantidade de dano de contato que um inimigo causa é adicionada ao dano dessa arma
-		Você deve atingir um inimigo com a lâmina para ativar esse efeito
+		Golpear um inimigo ou projétil hostil invoca até 10 fragmentos de espelho em órbita
+		Fragmentos adicionais perseguem os inimigos
+		Segurar o <right> faz os fragmentos de espelho em órbita se unirem em forma de escudo
 		'''
-	/* HoldShiftTooltip:
+	HoldShiftTooltip:
 		'''
-		[c/aab7f1:Each shard reduces the damage of a projectile that hit the shield by 10%]
-		[c/aab7f1:The shield shatters after one projectile, launching the shards at enemies with increased damage]
-		[c/aab7f1:With all 10 shards, you gain a brief period of invulnerability when shattering the shield]
-		''' */
-	// FlavorTooltip: "[c/7b6d8d:'A blade taken from your own reflection within the Ceaseless Void']"
+		[c/aab7f1:Cada fragmento reduz o dano de um projétil que atingiu o escudo em 10%]
+		[c/aab7f1:O escudo se despedaça depois de um projétil, lançando os fragmentos em inimigos com dano adicional]
+		[c/aab7f1:Com todos os 10 fragmentos, você receberá um breve período de invencibilidade quando o escudo se despedaçar]
+		'''
+	FlavorTooltip: "[c/7b6d8d:'Uma lâmina tomada de seu reflexo dentro do Vazio Incessante']"
 }
 
 MonolithSword: {
-	// DisplayName: Monolith Sword
-	// Tooltip: "{$Common.ArmorPenetration}"
+	DisplayName: Espada de Monólito
+	Tooltip: "{$Common.ArmorPenetration}"
 }
 
 MonstrousKnives: {
@@ -821,7 +872,7 @@ MonstrousKnives: {
 }
 
 Mourningstar: {
-	DisplayName: Estrela do Luto
+	DisplayName: Chicote do Luto
 	Tooltip: Lança duas espadas de chicote solares que explodem no acerto
 }
 
@@ -838,7 +889,7 @@ Murasama: {
 
 MycelialClaws: {
 	DisplayName: Garras Miceliais
-	Tooltip: Grants the Mushy buff for 6 seconds on enemy hits
+	Tooltip: Fornece o efeito [cbuffplr:CalamityMod/Mushy] por 6 segundos ao atingir o inimigo
 }
 
 Nadir: {
@@ -846,22 +897,21 @@ Nadir: {
 	Tooltip:
 		'''
 		Atira essências vazias que esfolam os inimigos próximos com tentáculos
-		Ignora quadros de imunidade
 		'O abismo te observou por tempo o suficiente. Agora ele fala, e não fala baixinho'
 		'''
 }
 
 Nebulash: {
 	DisplayName: Chicote de Nébula
-	Tooltip: Dispara uma espada de chicote que emite explosões de partículas no acerto
+	Tooltip: Dispara uma espada de chicote que emite explosões de partículas no acerto e espalha a [cbuff:CalamityMod/AstralInfectionDebuff]
 }
 
 NeptunesBounty: {
-	DisplayName: Remuneração de Netuno
+	DisplayName: Presente de Netuno
 	Tooltip:
 		'''
-		Dispara um tridente que faz chover tridentes adicionais enquanto viaja
-		Acertar inimigos infligirá o efeito negativo Pressão das profundezas
+		Dispara uma espada abissal giratória que libera energia aquática constantemente
+		Quando a lâmina parar de girar, ela se redirecionará a inimigos próximos com uma velocidade maior e 2x o dano
 		'''
 }
 
@@ -869,24 +919,19 @@ Oblivion: {
 	DisplayName: Oblívio
 	Tooltip:
 		'''
-		Dispara lasers de enxofre quando os inimigos estão próximos
-		Um ioiô muito ágil
+		{$Common.YoyoStatsInfinite}
+		Dispara dardos de enxofre quando os inimigos estão próximos
 		'''
 }
 
 OldLordClaymore: {
-	DisplayName: Claymore do Velho Senhor
-	Tooltip:
+	DisplayName: Claymore do Velho Lorde
+	Tooltip: Uma lâmina poderosa, porém lenta que incendeia os inimigos e possui um recuo forte
+	HoldShiftTooltip:
 		'''
-		Segurar <right> rapidamente absorve energia na lâmina até que esteja carregada
-		<left> com a carga completa para voar na direção do cursor
-		Usar o avanço redefine a carga da lâmina para zero
+		[c/df4420:Um presente aos Demônios extraordinários, é uma réplica da espada usada pelo mais grandioso dos Lordes Demônio.]
+		[c/df4420:A prosperidade que ele trouxe para a sua espécie é inigualável, até mesmo agora, quando apenas eles comandam o Submundo.]
 		'''
-	/* HoldShiftTooltip:
-		'''
-		[c/df4420:A gift to outstanding Demons, a replica of the sword used by the greatest of all Demon Lords.]
-		[c/df4420:The prosperity he brought to their kind is unmatched even now that they alone rule the Underworld.]
-		''' */
 }
 
 OmegaBiomeBlade: {
@@ -918,11 +963,9 @@ Orderbringer: {
 	DisplayName: O Ordeiro
 	Tooltip:
 		'''
-		Dispara uma lâmina arco-íris que emite chuva arco-íris na morte por um tempo
-		Uma espada branca pálida de uma terra esquecida
-		Você pode ouvir sussurros fracos, mas reconfortantes, emanando da lâmina
-		'Não importa onde você esteja, você nunca está sozinho
-		Eu estarei sempre ao seu lado, meu senhor'
+		Dispara ondas de energia perfurantes e invoca quatro estrelas teleguiadas perto do cursor
+		Acertos com a lâmina invocam dois feixes dos céus
+		'Não importa onde você esteja, você nunca está sozinho'
 		'''
 }
 
@@ -930,8 +973,8 @@ Ozzathoth: {
 	DisplayName: Ozzathoth
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Dispara orbes cósmicos que atingem os inimigos próximos com lasers
-		Um ioiô excepcionalmente ágil
 		'Destrua o universo num piscar de olhos'
 		'''
 }
@@ -940,8 +983,10 @@ Pandemic: {
 	DisplayName: Pandemia
 	Tooltip:
 		'''
-		Dispara caçadores da praga quando os inimigos estão próximos
-		Um ioiô muito ágil
+		{$Common.YoyoStats}
+		Cada inimigo único infectado com a [cbuff:CalamityMod/Plague] aumenta o tamanho, poder e tempo de duração do ioiô
+		Reinicia a duração da [cbuff:CalamityMod/Plague] se o alvo já estiver infectado
+		Contrapesos infligem a [cbuff:CalamityMod/Plague] e voam duas vezes mais rápido
 		'''
 }
 
@@ -966,6 +1011,7 @@ PhotonRipper: {
 		'''
 		Projeta um fluxo direcionado de dentes de luz dura em velocidade ulta alta
 		Esta arma e seus projéteis funcionam como uma motoserra
+		<right> para usar sem cortar árvores
 		'''
 }
 
@@ -973,15 +1019,15 @@ PrismaticBreaker: {
 	DisplayName: Destruidor Prismático
 	Tooltip:
 		'''
-		Dispare para carregar um poderoso laser arco-íris
-		<right> para balançar a espada e disparar ondas arco-íris
-		A espada recebe reforços por dano por ataque físico e dano por ataque a distância
+		Dispara várias séries de estrelas mágicas conforme a arma é carregada
+		Com a carga completa, libera um laser arco-íris enorme para devastar os inimigos
+		Esta arma recebe reforços por dano por ataque físico e dano por ataque a distância
 		Parece pertencer a uma certa garota mágica. Irradia uma intensa energia cósmica
 		'''
 }
 
 Pwnagehammer: {
-	DisplayName: Pwnagemartelo
+	DisplayName: Triturartelo
 	Tooltip:
 		'''
 		Lança um martelo pesado afetado pela gravidade que cria uma forte explosão de energia sagrada quando atinge algo
@@ -993,8 +1039,8 @@ Quagmire: {
 	DisplayName: Pântano
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Dispara nuvens de esporo
-		Um ioiô muito ágil
 		'''
 }
 
@@ -1008,31 +1054,35 @@ RedSun: {
 }
 
 RemsRevenge: {
-	DisplayName: Vingança de Rem
+	DisplayName: A Vingança de Rem
 	Tooltip:
 		'''
-		Invoca explosões de sangue e reduz a defesa do inimigo no acerto
-		Empunhada pela lutadora mais poderosa
+		Invoca explosões de sangue e inflige [cbuff:CalamityMod/WitherDebuff] no acerto
+		'Um chicote de armas morta, digno de sua dona demoníaca'
 		'''
 }
 
 Respiteblock: {
-	DisplayName: Anti-Tréguas
+	DisplayName: Anti-tréguas
 	Tooltip:
 		'''
 		Uma serra-elétrica branca cintilante que expele sangue verde e roxo disseminadamente
-		Atingir inimigos com a lâmina cura você e causa muito dano
+		Atingir inimigos com a lâmina fornece cura e causa muito dano
 		[c/0e8401:'Não Há Problema Em Ser Perigoso']
 		'''
 }
 
 Riptide: {
 	DisplayName: Correnteza
-	Tooltip: Espalha uma espiral de fluxos d'água
+	Tooltip:
+		'''
+		{$Common.YoyoStats}
+		Espalha uma espiral de fluxos d'água
+		'''
 }
 
 Roxcalibur: {
-	DisplayName: Roxcalibur
+	DisplayName: Excalirrocha
 	// The WOF tag generates a new line above when placed at the start of a line
 	Tooltip:
 		'''
@@ -1056,13 +1106,13 @@ SaharaSlicers: {
 }
 
 SausageMaker: {
-	DisplayName: Fabricante de Linguiças
+	DisplayName: Linguiçador
 	Tooltip: Espalha sangue teleguiado no acerto
 }
 
 ScourgeoftheCosmos: {
 	DisplayName: Tormento dos Cosmos
-	Tooltip: Lança um tormento cósmico saltitante que emite pequenos tormentos cósmicos teleguiados na morte e ao atingir peças
+	Tooltip: Lança um tormento cósmico saltitante que emite pequenos clones teleguiados ao atingir inimigos e peças
 }
 
 SeashineSword: {
@@ -1074,7 +1124,10 @@ SeekingScorcher: {
 	DisplayName: Chama Perseguidora
 	Tooltip:
 		'''
-		Lança um bumerangue sagrado que busca até quatro inimigos antes de retornar ao jogador
+		Arremessa um machado cristalino enorme que ricocheteia de até três alvos adicionais depois do acerto
+		Cristaliza no local se os ricochetes não forem esgotados
+		Machadinhas	cristalizadas podem ser destruídas por outro machado
+		Fazer isto fortalece a machadinha com base na quantidade destruída, mas impede que ela se cristalize
 		'Que seus inimigos queimem no inferno pelos pecados que cometeram'
 		'''
 }
@@ -1083,24 +1136,28 @@ Shimmerspark: {
 	DisplayName: Faísca Cintilante
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Dispara estrelas quando os inimigos estão próximos
-		Um ioiô muito ágil
 		'''
 }
 
 SkytideDragoon: {
-	// DisplayName: Skytide Dragoon
-	/* Tooltip:
+	DisplayName: Dragão da Maré Celeste
+	Tooltip:
 		'''
-		Calls down a thunderbolt to strike and charge the tip of the spear
-		Press <left> to discharge the electricity as a spread of bolts that narrows as you spend the energy
-		Hold <right> when the spear catches the thunderbolt to redirect it to the cursor
-		''' */
+		Chama um trovão para atingir e carregar a ponta da lança
+		<left> para liberar raios consecutivos que se estreitam com o consumo de energia
+		Segure o <right> quando a lança capturar o trovão para redirecioná-lo ao cursor
+		'''
 }
 
 SmokingComet: {
 	DisplayName: Cometa Fumegante
-	Tooltip: Faz chover estrelas do céu
+	Tooltip:
+		'''
+		{$Common.YoyoStats}
+		Faz chover estrelas do céu
+		'''
 }
 
 SolsticeClaymore: {
@@ -1108,7 +1165,7 @@ SolsticeClaymore: {
 	Tooltip:
 		'''
 		Muda a cor do projétil com base na época do ano
-		Inflige Queimado pelo Sol durante o dia e Decomposição noturna durante a noite
+		Inflige [cbuff:CalamityMod/Daybroken] durante o dia e [cbuff:CalamityMod/Nightwither] durante a noite
 		'''
 }
 
@@ -1132,8 +1189,8 @@ SpineOfThanatos: {
 }
 
 StarnightLance: {
-	DisplayName: Lança da Luz da Noite
-	Tooltip: Dispara um feixe da luz da noite frígido
+	DisplayName: Lança da Estrela da Noite
+	Tooltip: Dispara um feixe da estrela da noite frígido
 }
 
 StellarContempt: {
@@ -1200,9 +1257,9 @@ SulphurousGrabber: {
 	DisplayName: Agarrador Sulfuroso
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Ocasionalmente libera um anel de bolhas coloridas
 		O ioiô fica mais forte depois de tocar em uma bolha verde
-		Um ioiô muito ágil
 		'''
 }
 
@@ -1217,7 +1274,7 @@ Swordsplosion: {
 
 TaintedBlade: {
 	DisplayName: Lâmina Manchada
-	Tooltip: Inflige veneno ao atingir o inimigo
+	Tooltip: Inflige [cbuff:Poisoned] ao atingir o inimigo
 }
 
 TeardropCleaver: {
@@ -1239,8 +1296,9 @@ Terratomere: {
 	DisplayName: Terratomere
 	Tooltip:
 		'''
-		Cura o jogador ao causar dano com ataques físicos verdadeiros
-		Dispara um raio de energia perfurante que faz com que inimigos atingidos explodam e sejam cortados
+		Cura o jogador em acertos físicos verdadeiros
+		Dispara vários raios de energia perfurantes que perseguem inimigos rapidamente
+		No acerto, explode e corta repetidamente o alvo
 		'Ligado à essência do Terraria'
 		'''
 }
@@ -1258,7 +1316,7 @@ TheBurningSky: {
 	DisplayName: O Céu Flamejante
 	Tooltip:
 		'''
-		Faz chover um fluxo de fogo dracônico no cursor
+		Faz chover um fluxo de [cbuff:CalamityMod/Dragonfire] no cursor
 		'Segure a lâmina aos céus, e testemunhe o Armagedom'
 		'''
 }
@@ -1267,11 +1325,11 @@ TheDarkMaster: {
 	DisplayName: O Mestre Sombrio
 	Tooltip:
 		'''
-		Dispara projéteis cortantes ecoantes vermelhos com a vida cheia
+		Dispara projéteis cortantes ecoantes vermelhos com a vida acima de 75%
 		O dano do projétil aumenta com cada ponto de vida acima de 400
 		<right> para invocar três clones das sombras em uma formação em Delta
 		Os clones seguirão seus balanços de espadas e liberarão projéteis
-		Os clones sempre dispararão projéteis independentemente da sua própria vida
+		Os projéteis são disparados independentemente da sua própria vida, mas causam menos dano
 		Os clones existirão apenas ao segurar essa arma
 		'A lâmina pela qual as sombras lançam sobre seus inimigos um destino abominável'
 		'''
@@ -1281,22 +1339,26 @@ TheGodsGambit: {
 	DisplayName: O Gambito dos Deuses
 	Tooltip:
 		'''
-		Dispara um fluxo de geleia quando os inimigos estão próximos
-		Um ioiô muito ágil
+		{$Common.YoyoStatsInfinite}
+		Dispara um fluxo de geleia danosa quando os inimigos estão próximos
 		'''
 }
 
 TheLastMourning: {
-	DisplayName: A Última Manhã
-	Tooltip: Invoca abóboras flamejantes e crânios do luto que se dividem em orbes de fogo ao atingir o inimigo
+	DisplayName: O Luto Final
+	Tooltip:
+		'''
+		Invoca abóboras flamejantes e crânios do luto
+		As abóboras e crânios se dividem em orbes de fogo teleguiados ao atingir o inimigo
+		'''
 }
 
 TheMicrowave: {
-	DisplayName: O Micro-Ondas
+	DisplayName: O Micro-ondas
 	Tooltip:
 		'''
-		Frita os inimigos próximos com radiação
-		Um ioiô excepcionalmente ágil
+		{$Common.YoyoStatsInfinite}
+		Frita os inimigos próximos com radiação e espalha a [cbuff:CalamityMod/AstralInfectionDebuff]
 		'Cozinhando ao estilo Infecção Astral'
 		'''
 }
@@ -1305,8 +1367,9 @@ TheMutilator: {
 	DisplayName: O Mutilador
 	Tooltip:
 		'''
-		Atacar um inimigo com menos de 20% de vida ativará uma explosão de sangue
-		Explosões de sangue fazem cair corações que podem ser pegos para te curar
+		Atacar um inimigo fortalece o Mutilador, aumentando seu dano
+		Com a carga completa, atacar um inimigo causa uma explosão de orbes de sangue
+		{$Mods.CalamityModPTBR.Common.CollectBloodOrbs}
 		'''
 }
 
@@ -1314,24 +1377,24 @@ TheObliterator: {
 	DisplayName: O Obliterador
 	Tooltip:
 		'''
-		Destrói os inimigos próximos com lasers mortais
-		Um ioiô excepcionalmente ágil
+		{$Common.YoyoStatsInfinite}
+		[GFB]
 		'''
 	TooltipNormal:
 		'''
-		Arruina os inimigos próximos com lasers mortais
-		Um ioiô excepcionalmente ágil
+		Ocasionalmente executa uma [ceffect/dog:Propulsão Dimensional] em miniatura em inimigos próximos
+		Acertos com contrapesos iniciam outra [ceffect/dog:Propulsão Dimensional] imediatamente
 		'''
-	TooltipGFB: temo que há só um pouquinho de spam de poeira nessa arma
+	TooltipGFB: quanta poeira, meu Deus
 }
 
 TheOracle: {
 	DisplayName: O Oráculo
 	Tooltip:
 		'''
-		Emite uma arma de relâmpâgos vermelhos que é carregada conforme atinge os inimigos
+		{$Common.YoyoStatsInfinite}
+		Emite uma arma de relâmpâgos áuricos que é carregada conforme atinge os inimigos
 		Dispara orbes áuricos quando está supercarregado
-		Um ioiô excepcionalmente ágil
 		'Contemple o passado, o presente, e o futuro... e as circunstâncias de sua morte inevitável'
 		'''
 }
@@ -1346,14 +1409,14 @@ TitanArm: {
 }
 
 TriactisTruePaladinianMageHammerofMight: {
-	// DisplayName: Triactis' True Paladinian Mage-Hammer of Might
-	/* Tooltip:
+	DisplayName: Verdadeiro Martelo-mágico Paladiniano do Poder de Triactis
+	Tooltip:
 		'''
-		Throws a heavy, gravity-affected hammer that will return to you after striking an enemy
-		Enemy hits release prismatic light flares which orbit around the struck foe
-		Instead of returning, the fourth hit transforms flares into hardlight hammers
-		These hammers converge and form a universe-collapsing explosion that always critically strikes
-		''' */
+		Lança um martelo afetado pela gravidade que retornará a você depois de atingir um inimigo
+		Acertos com o martelo liberam chamas de luz prismática que orbitam o inimigo atingido
+		Em vez de retornar, o quarto acerto transforma as chamas em martelos de luz dura
+		Estes martelos martelos convergem em uma explosão universal que sempre causa acertos críticos
+		'''
 }
 
 TrueArkoftheAncients: {
@@ -1366,10 +1429,9 @@ TrueArkoftheAncients: {
 	ParryInfo:
 		'''
 		<right> para estender a Arca à sua frente
-		Atingir um inimigo com ela aparará-lo, concedendo-lhe uma breve invulnerabilidade
-		Você também pode aparar projéteis para fazê-los causarem 80 a menos de dano por um curto período
+		Atingir um inimigo com ela irá causar uma aparada, concedendo-lhe uma breve invulnerabilidade
+		Você também pode aparar projéteis para fazê-los causarem 30 a menos de dano por um curto período
 		Aparar fortalecerá os próximos 10 ataques da espada, permitindo que ela lance projéteis mais fortes
-		Pressionar <right> enquanto segura PARA CIMA liberará todas as cargas fortalecidas em uma poderosa explosão de energia
 		'''
 }
 
@@ -1379,7 +1441,7 @@ TrueBiomeBlade: {
 	Tooltip:
 		'''
 		[FUNC]
-		Segure <right> enquanto está parado em terreno plano para sintonizar a arma com os poderes do bioma em sua volta
+		Segure <right> parado em terreno plano para sintonizar a arma com os poderes do bioma em sua volta
 		Caso contrário, pressionar <right> alterna entre a sintonização atual e uma adicional armazenada
 		Sintonização Principal: [ATT1]
 		Sintonização Secundária: [ATT2]
@@ -1396,13 +1458,18 @@ TrueCausticEdge: {
 	Tooltip:
 		'''
 		Dispara um feixe cáustico saltitante
-		Inflige peçonha ao atingir o inimigo
+		Inflige [cbuff:Venom] e desacelera o inimigo ao atingí-lo
 		'''
 }
 
 Tumbleweed: {
 	DisplayName: Arbusto Rolante
-	Tooltip: Libera um arbusto rolante ao atingir o inimigo
+	Tooltip:
+		'''
+		Lança um mangual feito de um arbusto rolante
+		Arbustos rolantes giratórios conjuram uma tempestade de poeira localizada
+		Arbustos lançados lançados se soltam da corrente ao atingir um inimigo e rolam para frente
+		'''
 }
 
 TyphonsGreed: {
@@ -1410,33 +1477,38 @@ TyphonsGreed: {
 	Tooltip:
 		'''
 		Invoca espíritos d'água durante o uso
-		Esses espíritos d'água seguirão os inimigos depois de viajar na direção do jogador
+		Estes espíritos d'água seguirão os inimigos depois de viajar na direção do jogador
 		'''
 }
 
 UltimusCleaver: {
 	DisplayName: Cutelo Ultimus
-	Tooltip: Lança faíscas teleguiadas que machucam e explode ao atingir o inimigo
+	Tooltip: Lança faíscas teleguiadas danosas e explode ao atingir o inimigo
 }
 
 UrchinMace: {
-	DisplayName: Maça do Ouriço-do-Mar
-	Tooltip: Lança um redemoinho quando liberado na carga máxima
+	DisplayName: Maça do Ouriço-do-mar
+	Tooltip:
+		'''
+		Lança um redemoinho quando liberado
+		[c/5C95A1:'O povo do mar era hábil na caça, mas abominava a violência desnecessária.]
+		[c/5C95A1:Infelizmente, as nações vizinhas eram brutais, por isso eles fabricaram suas armas de guerra.']
+		'''
 }
 
 VanishingPoint: {
-	// DisplayName: Vanishing Point
-	// Tooltip: "[GFB]"
-	/* TooltipNormal:
+	DisplayName: Ponto de Fuga
+	Tooltip: "[GFB]"
+	TooltipNormal:
 		'''
-		Fires a lance beam that splits multiple times as it travels
-		'Rend the cosmos asunder!'
-		''' */
-	/* TooltipGFB:
+		Dispara um feixe de lança que se divide várias vezes conforme viaja
+		'Rasgue o cosmos por completo!'
 		'''
-		Fires a lance beam that splits, like, a LOT. Way more than it ever should.
-		'Rend the projectile limit asunder!'
-		''' */
+	TooltipGFB:
+		'''
+		Dispara um feixe de lança que se divide, tipo, MUITO mesmo. Muito mais do que deveria.
+		'Rasgue o limite de projéteis por completo!'
+		'''
 }
 
 VeinBurster: {
@@ -1446,12 +1518,17 @@ VeinBurster: {
 
 Violence: {
 	DisplayName: Violência
-	Tooltip: Libera um garfo flamejante que fica perto do mouse e destrói os inimigos
+	Tooltip:
+		'''
+		Um garfo demoníaco, amaldiçoado a causar carnificina eterna
+		<left> para comandar o tridente a seguir seu cursor e triturar os inimigos com sua velocidade devastadora
+		<right> para arremessar o tridente e rasgar violentamente os inimigos com um poder imenso, infligindo [cbuff:CalamityMod/VulnerabilityHex]
+		'''
 }
 
 Virulence: {
 	DisplayName: Virulência
-	Tooltip: Dispara uma nuvem da praga
+	Tooltip: Dispara uma nuvem da [cbuff:CalamityMod/Plague]
 }
 
 VoidEdge: {
@@ -1480,8 +1557,8 @@ WulfrumScrewdriver: {
 		Pode ser usado para rapidamente e regiamente aferir uma fenda nos inimigos
 		Atacar um inimigo às vezes lhe dá um parafuso de vulfrúmio que você pode jogar pressionando <right>
 		Atinja um parafuso arremessado com a chave de fenda para lançá-lo para frente em alta velocidade
-		[c/83B87E:'Quem faz parafusos escareados deste tamanho?? Para que diabos devo usá-la?!]
-		[c/83B87E:Ela poderia arrancar um olho!]
+		[c/83B87E:'Quem faz parafusos deste tamanho?? Para que diabos devo usá-la?!]
+		[c/83B87E:Dá pra arrancar um olho com ela!]
 		[c/83B87E:...Ah.]
 		'''
 }
@@ -1500,8 +1577,8 @@ YinYo: {
 	DisplayName: Yin-Iô
 	Tooltip:
 		'''
+		{$Common.YoyoStatsInfinite}
 		Dispara fragmentos claros ou escuros quando os inimigos estão próximos
 		Os fragmentos voam para frente e para trás
-		Um ioiô muito ágil
 		'''
 }

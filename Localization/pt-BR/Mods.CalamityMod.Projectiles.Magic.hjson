@@ -3,22 +3,22 @@ AcidGunStream.DisplayName: Fluxo Ácido
 AcidicReed.DisplayName: Cana Ácida
 AcidicSaxBubble.DisplayName: Bolha Ácida
 AcidicSaxMist.DisplayName: Névoa Ácida
-// AerSigil.DisplayName: Aer Sigil
-// AerSigilBlast.DisplayName: Aer Blast
-// AerSigilFeather.DisplayName: Aer Feather
-// AerSigilMissile.DisplayName: Aer Missile
+AerSigil.DisplayName: Símbolo Aer
+AerSigilBlast.DisplayName: Explosão Aer
+AerSigilFeather.DisplayName: Pena Aer
+AerSigilMissile.DisplayName: Míssil Aer
 AetherBeam.DisplayName: Feixe Etéreo
-// AlphaDraconisStar.DisplayName: Shooting Star
+AlphaDraconisStar.DisplayName: Estrela Cadente
 AnahitasArpeggioNote.DisplayName: Canção de Anahita
 Ancient2.DisplayName: Pó Antigo
-// ApoctosisBlast.DisplayName: Apoctosis Blast
+ApoctosisBlast.DisplayName: Explosão Apoctótica
 ApotheosisEnergy.DisplayName: Energia da Apoteose
 ApotheosisWorm.DisplayName: O Devorador de Deuses
 AquamarineBolt.DisplayName: Raio Aquático
-// AquaSigil.DisplayName: Aqua Sigil
-// AquaSigilWaterball.DisplayName: Aqua Waterball
-// AquaSigilWaterballExplosion.DisplayName: Aqua Waterball Explosion
-// AquaSigilWaterdroplet.DisplayName: Aqua Waterdroplet
+AquaSigil.DisplayName: Símbolo Aqua
+AquaSigilWaterball.DisplayName: Bola d'água Aqua
+AquaSigilWaterballExplosion.DisplayName: Explosão da Bola d'água Aqua
+AquaSigilWaterdroplet.DisplayName: Gotícula Aqua
 ArcticBearPawProj.DisplayName: Pata de Urso Ártico
 ArtAttackStar.DisplayName: Estrela Artística
 ArtAttackStrike.DisplayName: Ataque Artístico
@@ -28,7 +28,7 @@ AstralCrystal.DisplayName: Cristal Astral
 AstralCrystalInvisibleExplosion.DisplayName: Explosão Invisível do Cristal Astral
 AstralStarMagic.DisplayName: Estrela Astral
 AtlantisSpear.DisplayName: Lança de Atlântida
-// AugurTentacle.DisplayName: Elemental Tentacle
+AugurTentacle.DisplayName: Tentáculo Elemental
 AuroraAustralis.DisplayName: Aurora Australis
 BeamingBolt.DisplayName: Raio da Flor Radiante
 BeamingBolt2.DisplayName: Raio da Flor Radiante
@@ -43,24 +43,26 @@ BloodRay.DisplayName: Raio de Sangue
 BlueBubble.DisplayName: Bolha
 BlushieStaffProj.DisplayName: Cajado de Blushie
 BrimroseBeam.DisplayName: Feixe da Rosa de Enxofre
-BrimstoneHellfireballFriendly.DisplayName: Bola de Fogo Infernal
+// CalamitousDartFriendly.DisplayName: Calamitous Dart Friendly
+// CalamitousExplosionFriendly.DisplayName: Calamitous Explosion Friendly
+// CalamitousFireballFriendly.DisplayName: Calamitous Fireball Friendly
 CauldronProj.DisplayName: Smauldron
 CauldronProjSmall.DisplayName: Smaullerdron
-ChronoIcicleLarge.DisplayName: Gelo-Crono
-ChronoIcicleSmall.DisplayName: Gelo-Crono
+ChronoIcicleLarge.DisplayName: Gelo-crono
+ChronoIcicleSmall.DisplayName: Gelo-crono
 ChronomancersScytheHoldout.DisplayName: Foice do Cronomante
 ClimaxBeam.DisplayName: Raio Voltaico
 ClimaxProj.DisplayName: Orbe Voltaico
 CoralSpike.DisplayName: Espinho de Coral
-// CosmicRainbowFront.DisplayName: Rainbow
-// CosmicRainbowTrail.DisplayName: Rainbow
+CosmicRainbowFront.DisplayName: Arco-íris
+CosmicRainbowTrail.DisplayName: Arco-íris
 CosmicTentacle.DisplayName: Tentáculo Sombrio
 CryoBlast.DisplayName: Rajada Criogênica
 DarkSparkBeam.DisplayName: Feixe de Faísca Sombria
 DarkSparkPrism.DisplayName: Cristal Sombrio
-// DeathValleyDusterProjectile.DisplayName: Death Valley Duster
+DeathValleyDusterProjectile.DisplayName: Espanador do Vale da Morte
 DeathhailBeam.DisplayName: Granizo da Morte
-// DracoConstellation.DisplayName: Draco
+DracoConstellation.DisplayName: Draco
 EelDrop.DisplayName: Gota Ácida de Enguia
 EidolicWailSoundwave.DisplayName: Uivo Eidólico
 EldritchTentacle.DisplayName: Tentáculo Sobrenatural
@@ -75,8 +77,10 @@ EvergladeSprayProjectile.DisplayName: Jato do Pântano
 ExoVortex.DisplayName: Vórtice Subsumidor
 ExoVortex2.DisplayName: Vórtice Subsumidor
 FatesRevealFlame.DisplayName: Revelação do Destino
-// FireImplosion.DisplayName: Swirling Backdraft
+FireImplosion.DisplayName: Corrente de Ar Flamejante
 FlareBoltProjectile.DisplayName: Raio de Fogo
+FleshTotemMinion.DisplayName: Lacaio do Totem de Carne
+FleshTotemSoul.DisplayName: Alma do Totem de Carne
 ForbiddenAxeBlade.DisplayName: Lâmina da Ruína
 ForbiddenSunburst.DisplayName: Explosão do Sol
 ForbiddenSunProjectile.DisplayName: Sol Proibido
@@ -96,22 +100,21 @@ HadalUrnLamprey.DisplayName: Lampreia-Marinha
 HadalUrnStarfish.DisplayName: Estrela-do-Mar Mariana
 HadalUrnStarfishShard.DisplayName: Fragmento de Estrela-do-Mar
 HeliumFlashBlast.DisplayName: Flash de Hélio
-HellfireExplosionFriendly.DisplayName: Explosão
 HellwingBat.DisplayName: Asas-Morcego do Inferno Cinzentas
 HolyFlame.DisplayName: Chama Sagrada
 HolyLaser.DisplayName: Laser Sagrado
-// HyperdeathRiftScepterBeam.DisplayName: Hyperdeath Rift Ripper
+HyperdeathRiftScepterBeam.DisplayName: Rasgador de Fendas da Hipermorte
 IceBarrageMain.DisplayName: Barragem de Gelo
 IceBlock.DisplayName: Barragem de Gelo
 IceBlockIcicle.DisplayName: Barragem de Gelo
 IceCluster.DisplayName: Aglomerado de Gelo
 Icicle.DisplayName: Gelo Gelado
 IcicleStaffProj.DisplayName: Gelo Furioso
-// IgnisSigil.DisplayName: Ignis Sigil
-// IgnisSigilFireballExplosion.DisplayName: Ignis Fireball Explosion
-// IgnisSigilFireball.DisplayName: Ignis Fireball
-// IgnisSigilEmbers.DisplayName: Ignis Ember
-// IncineratingFireball.DisplayName: Incinerating Fireball
+IgnisSigil.DisplayName: Símbolo Ignis
+IgnisSigilFireballExplosion.DisplayName: Explosão da Bola de Fogo Ignis
+IgnisSigilFireball.DisplayName: Bola de Fogo Ignis
+IgnisSigilEmbers.DisplayName: Brasa Ignis
+IncineratingFireball.DisplayName: Bola de Fogo Incinerante
 InfernadoFriendly.DisplayName: Infernado
 InfernadoMarkFriendly.DisplayName: Marca do Infernado
 InfernalBlade.DisplayName: Lâmina Infernal
@@ -149,7 +152,8 @@ MelterNote2.DisplayName: Som Derretedor
 MeteorStar.DisplayName: Estrela Meteoro
 MeteorStarExplosion.DisplayName: Explosão
 MiasmaGas.DisplayName: Gás Miasma
-NanoPurgeLaser.DisplayName: Nano-Feixe
+MoonSigil.DisplayName: Símbolo da Lua
+NanoPurgeLaser.DisplayName: Nanofeixe
 NebulaCloud.DisplayName: Nuvem Nébula
 NebulaCloudCore.DisplayName: Núcleo da Nuvem Nébula
 NebulaElementalBeam.DisplayName: Feixe Nébula
@@ -160,12 +164,12 @@ NightOrb.DisplayName: Orbe da Noite
 NightsRayBeam.DisplayName: Raio da Noite
 NuclearFuryProjectile.DisplayName: Fúria Nuclear
 OmicronBeam.DisplayName: Feixe Ômicron
-// OrdoSigil.DisplayName: Ordo Sigil
-// OrdoSigilBeam.DisplayName: Ordo Beam
+OrdoSigil.DisplayName: Símbolo Ordo
+OrdoSigilBeam.DisplayName: Feixe Ordo
 PartySparkle.DisplayName: Brilho Lindo
-// PerditoSigil.DisplayName: Perdito Sigil
-// PerditoSigilShot.DisplayName: Perdito Shot
-// PerditoSigilShotCreator.DisplayName: Perdito Shot Creator
+PerditoSigil.DisplayName: Símbolo Perdito
+PerditoSigilShot.DisplayName: Disparo Perdito
+PerditoSigilShotCreator.DisplayName: Criador do Disparo Perdito
 PhantasmalFuryProj.DisplayName: Fúria Fantasmagórica
 Phantom.DisplayName: Fanstama
 PhasedGodRay.DisplayName: Raio de Deus Faseado
@@ -174,19 +178,18 @@ PhotosyntheticSolarBeam.DisplayName: Feixe Solar
 PlagueFang.DisplayName: Presa da Praga
 PlasmaRay.DisplayName: Raio de Plasma
 PlasmaRay2.DisplayName: Raio de Plasma
-// PlasmaRifleExplosion.DisplayName: Ionizing Particle Cloud
-// PlasmaRifleShot.DisplayName: Concentrated Plasma Blast
+PlasmaRifleExplosion.DisplayName: Nuvem de Partículas Ionizantes
+PlasmaRifleShot.DisplayName: Explosão Concentrada de Plasma
 PoseidonTyphoon.DisplayName: Tufão Posídon
-// PrimordialAncientExplosion.DisplayName: Primordial Ancient
-// PrimordialAncientProjectile.DisplayName: Primordial Ancient
-// PrimordialEarthExplosion.DisplayName: Primordial Earth
-// PrimordialEarthProjectile.DisplayName: Primordial Earth
+PrimordialAncientExplosion.DisplayName: Ancião Primordial
+PrimordialAncientProjectile.DisplayName: Ancião Primordial
+PrimordialEarthExplosion.DisplayName: Terra Primordial
+PrimordialEarthProjectile.DisplayName: Terra Primordial
 PrinceFlameLarge.DisplayName: Bola de Fogo Sagrada
 PrinceFlameSmall.DisplayName: Fogo Sagrado
 RainbowComet.DisplayName: Cometa
-RainbowRocket.DisplayName: Foguete Arco-Íris
+RainbowRocket.DisplayName: Foguete Arco-íris
 RancorArm.DisplayName: Braço Vingativo
-RancorFog.DisplayName: A Névoa Está Vindo
 RancorLargeCinder.DisplayName: Cinza de Lava
 RancorLaserbeam.DisplayName: O Feixe Brabo
 RancorMagicCircle.DisplayName: Círculo Mágico
@@ -212,11 +215,11 @@ Shaderain.DisplayName: Chuva Sombria
 Shadowbolt.DisplayName: Raio das Sombras
 ShiftingSandsProj.DisplayName: Areia Movediça
 SHPB.DisplayName: BPSA
-SHPExplosion.DisplayName: Explosão SHPB
+SHPExplosion.DisplayName: Explosão BPSA
 SHPL.DisplayName: LPSA
-// SHPS.DisplayName: SHPS
-// SHPV.DisplayName: SHPV
-// SigilSet.DisplayName: Sigil Set
+SHPS.DisplayName: APSA
+SHPV.DisplayName: APSA
+SigilSet.DisplayName: Conjunto de Símbolos
 SilvaBurst.DisplayName: Explosão Silva
 SlitheringEelProjectile.DisplayName: Enguia Rastejante
 SmallSpirit.DisplayName: Pequeno Espírito Zangado
@@ -228,6 +231,7 @@ SoulPiercerBeam.DisplayName: Perfurador de Almas
 SoulPiercerBolt.DisplayName: Perfurador de Almas
 SparkInfernal.DisplayName: Faísca
 SparklingLaser.DisplayName: Laser Brilhante
+SpectralFeather.DisplayName: Pena Espectral
 SpiritCongregation.DisplayName: Monstro Espírito
 SpiritDust.DisplayName: Pó de Espírito
 Starblast.DisplayName: Estrela
@@ -238,11 +242,11 @@ SylvRay.DisplayName: Raio Silvestre
 TacticiansElectricBoom.DisplayName: Explosão Elétrica
 TacticiansTrumpCardProj.DisplayName: Feixe Trunfo
 TearsofHeavenProjectile.DisplayName: Lágrimas do Céu
-// TerraSigil.DisplayName: Terra Sigil
-// TerraSigilLargeRock.DisplayName: Terra Large Rock
-// TerraSigilMediumRock.DisplayName: Terra Medium Rock
-// TerraSigilSmallRock.DisplayName: Terra Small Rock
-Teslabeam.DisplayName: Feixe-Tesla
+TerraSigil.DisplayName: Símbolo Terra
+TerraSigilLargeRock.DisplayName: Pedrona Terra
+TerraSigilMediumRock.DisplayName: Pedra Terra
+TerraSigilSmallRock.DisplayName: Pedrinha Terra
+Teslabeam.DisplayName: Feixe-tesla
 TradewindsProjectile.DisplayName: Pena Alísio
 TridentIcicle.DisplayName: Tridente Gélido
 UberBubble.DisplayName: Bolha
@@ -252,14 +256,14 @@ ValkyrieRayStaff.DisplayName: Raio Valquíria
 VeeringWindAirWave.DisplayName: Onda de Ar de Ventomoinho
 VeeringWindFrostWave.DisplayName: Onda de Frio de Ventomoinho
 Vehemence.DisplayName: Rajada da Veemência
-// VehemenceBolt.DisplayName: Vehemence Bolt
+VehemenceBolt.DisplayName: Raio da Veemência
 VehemenceSkull.DisplayName: Caveira Veemente
 VenusianBolt.DisplayName: Raio Venusiano
 VenusianExplosion.DisplayName: Explosão Venusiana
 VenusianFlame.DisplayName: Cinza Venusiana
 VisceraBeam.DisplayName: Víscera
 VisceraBoom.DisplayName: Bum Víscero
-// VisNeedle.DisplayName: Vis Needle
+VisNeedle.DisplayName: Agulha Vis
 VitriolicViperFang.DisplayName: Presa Vitriólica
 VitriolicViperSpit.DisplayName: Cuspe Vitriólico
 VividBeam.DisplayName: Feixe Vívido
@@ -270,14 +274,14 @@ VividLaser2.DisplayName: Laser Vívido
 VividOrb.DisplayName: Orbe Vívido
 VoidVortexProj.DisplayName: Vórtice do Vazio
 VolatileStarcore.DisplayName: Núcleo Estelar Volátil
-// VolterionOrb.DisplayName: Unstable Ball Lightning
-// VolterionShot.DisplayName: Ultracharged Filament
+VolterionOrb.DisplayName: Bola de Raios Instável
+VolterionShot.DisplayName: Filamento Ultracarregado
 VortexElementalBeam.DisplayName: Vórtice Relâmpago
 WaterLeechProj.DisplayName: Água Sanguessuga
-// WarpSigil.DisplayName: Warp Sigil
-// WarpSigilShot.DisplayName: Warped Shot
-// WarpSigilShotCreator.DisplayName: Warped Shot Creator
-WaywasherProj.DisplayName: Rajada de Lava-Caminhos
+WarpSigil.DisplayName: Símbolo Distorcido
+WarpSigilShot.DisplayName: Disparo Distorcido
+WarpSigilShotCreator.DisplayName: Criador do Disparo Distorcido
+WaywasherProj.DisplayName: Rajada de Lava-caminhos
 WingmanGrenade.DisplayName: Granada de Mana
 WingmanShot.DisplayName: Tiro de Mana
 WulfrumBolt.DisplayName: Raio Vulfrúmio
@@ -287,8 +291,4 @@ WyvernFeatherPink.DisplayName: Pena
 WyvernFeatherPurple.DisplayName: Pena
 WyvernProjectile.DisplayName: Serpe
 YharimsCrystalBeam.DisplayName: Feixe de Yharim
-YharimsCrystalPrism.DisplayName: Christal Yermes
-// FleshTotemMinion.DisplayName: Flesh Totem Minion
-// FleshTotemSoul.DisplayName: Flesh Totem Soul
-// SpectralFeather.DisplayName: Spectral Feather
-// MoonSigil.DisplayName: Moon Sigil
+YharimsCrystalPrism.DisplayName: Cristal Yermes

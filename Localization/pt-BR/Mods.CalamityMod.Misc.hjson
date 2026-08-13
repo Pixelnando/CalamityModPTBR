@@ -1,18 +1,18 @@
 # Recipe Groups
 # {$LegacyMisc.37} is the vanilla localization used in recipe groups, that reads "Any" in English.
 RecipeGroup: {
-	HardmodeAnvil: Qualquer Bigorna do Modo Difícil
-	HardmodeForge: Qualquer Forja do Modo Difícil
-	AnyFood: Qualquer Item de Comida
-	AnyEvilBar: Qualquer Barra do Mal
+	HardmodeAnvil: "{$LegacyMisc.37} Bigorna do Modo Difícil"
+	HardmodeForge: "{$LegacyMisc.37} Forja do Modo Difícil"
+	AnyFood: "{$LegacyMisc.37} Item de Comida"
+	AnyEvilBar: "{$LegacyMisc.37} Barra do Mal"
 	Boss2Material: Placa das Sombras ou Amostra de Tecido
 	CursedFlameIchor: Chama Amaldiçoada ou Ichor
-	AnyEvilWater: Qualquer Água do Mal
-	AnyEvilBlock: Qualquer Bloco do Mal
-	AnyGoodBlock: Qualquer Bloco do Bem
-	LunarPickaxe: Qualquer Picareta Lunar
-	LunarHamaxe: Qualquer Martelo-Machado Lunar
-	AnyQuiver: Qualquer Aljava
+	AnyEvilWater: "{$LegacyMisc.37} Água do Mal"
+	AnyEvilBlock: "{$LegacyMisc.37} Bloco do Mal"
+	AnyGoodBlock: "{$LegacyMisc.37} Bloco do Bem"
+	LunarPickaxe: "{$LegacyMisc.37} Picareta Lunar"
+	LunarHamaxe: "{$LegacyMisc.37} Martelo-machado Lunar"
+	AnyQuiver: "{$LegacyMisc.37} Aljava"
 }
 
 // Status
@@ -31,25 +31,25 @@ JungleSchematicRecipeCondition: Coloque uma esquemática do laboratório nas pro
 UnderworldSchematicRecipeCondition: Coloque uma esquemática do laboratório perto das bordas do submundo em seu inventário pelo menos uma vez
 IceSchematicRecipeCondition: Coloque uma esquemática do laboratório nas profundezas das cavernas congeladas em seu inventário pelo menos uma vez
 // Schematic Knowledge tooltips
-// SchematicKnowledgeTooltip: You don't have sufficient knowledge to create this yet
-// SchematicKnowledgeTooltip2: A specific schematic must be deciphered first
-// Tier1KnowledgeTooltip: The Sunken Sea schematic must be deciphered first
-// Tier2KnowledgeTooltip: The Planetoid schematic must be deciphered first
-// Tier3KnowledgeTooltip: The Jungle schematic must be deciphered first
-// Tier4KnowledgeTooltip: The Underworld schematic must be deciphered first
-// Tier5KnowledgeTooltip: The Ice biome schematic must be deciphered first
+SchematicKnowledgeTooltip: Você não possui conhecimento o suficiente para criar isto
+SchematicKnowledgeTooltip2: A specific schematic must be deciphered first
+Tier1KnowledgeTooltip: A esquemática do Mar Profundo deve ser decifrada antes
+Tier2KnowledgeTooltip: A esquemática do Planetóide deve ser decifrada antes
+Tier3KnowledgeTooltip: A esquemática da Selva deve ser decifrada antes
+Tier4KnowledgeTooltip: A esquemática do Submundo deve ser decifrada antes
+Tier5KnowledgeTooltip: A esquemática do bioma de Gelo deve ser decifrada antes
 // Other CombatText uses and Item Messages
-ShiftToExpand: Segure SHIFT para ver uma descrição expandida
-// AltExpand: Hold {0} to see buff information
-// AltExpandUnset: Set a keybind to see debuff information
+ShiftToExpand: Segure Shift para ver uma descrição expandida
+AltExpand: Segure {0} para ver informações dos efeitos
+AltExpandUnset: Defina um atalho para ver as informações dos efeitos
 LearnedSchematic: Você aprendeu como criar coisas novas!
 CragmawVibeCheck: Vibe check.
 AutocannonHot: AI! QUENTE!
 NoComputer: Nenhum computador de descriptografia instalado
 ArkParry: Aparada!
-// BurningSeaBurn: It burns...
-// NotSafe: Y O U  A R E  N O T  S A F E
-// HecBoop: boop!
+BurningSeaBurn: Queima...
+NotSafe: N Ã O  E S T Á S  S E G U R O
+HecBoop: boop!
 ClockworkTick: Tic
 ClockworkTock: Toc
 SevensJackpot: Jackpot!!!
@@ -57,74 +57,75 @@ SevensBust: Fracasso!
 SevensDoubles: Duplos!
 SevensTriples: Triplos!
 StylishHammerHit: Estiloso!
-// PiggyLicense: The license teleports away to the piggy delivery service...
+PiggyLicense: A autorização é teleportada para o serviço de entregas de porquinhos...
 GenericConsumedText: "[c/8A8A8A:Você já consumiu este item]"
-// CelestialOnionText: You have already consumed a Celestial Onion. Consuming another would distort you.
-// SanguineTangerineText: You have already consumed a Sanguine Tangerine. Eating any more would make your blood too thick to flow.
-MiracleFruitText: Você já consumiu uma Fruta do Milagre. Comer mais uma o deixaria doente.
-// TaintedCloudberryText: You have already consumed a Tainted Cloudberry. Your body would become dust if you ate more than one.
-// SacredStrawberryText: You have already consumed a Sacred Strawberry. One more drop of draconic power would obliterate you.
-CometShardText: Você já usou um Fragmento de Cometa. Usar mais o deixaria enjoado.
-EtherealCoreText: Você já usou um Núcleo Etéreo. É melhor não usar mais do que você pode.
-PhantomHeartText: Você já usou um Coração Fantasma. Provavelmente é bom que você não possa usar outro.
+CelestialOnionText: Você já consumiu uma Cebola Celestial. Consumir mais uma causaria uma distorção.
+SanguineTangerineText: Você já consumiu uma Tangerina Sanguínea. Consumir mais uma tornaria seu sangue espesso demais para circular.
+MiracleFruitText: Você já consumiu uma Fruta do Milagre. Levaria um milagre para te recompor caso comesse mais um.
+TaintedCloudberryText: Você já consumiu uma Amora-silvestre Manchada. Seu corpo viraria pó caso comesse mais de uma.
+SacredStrawberryText: Você já consumiu um Morango Sagrado. Mais uma gota de poder dracônico o obliteraria.
+CometShardText: Você já usou um Fragmento de Cometa. Seus neurônios morreriam se você usasse mais um.
+EtherealCoreText: Você já usou um Núcleo Etéreo. Seu cérebro escaparia da sua cabeça caso consumisse mais um.
+PhantomHeartText: Você já usou um Coração Fantasma. As vozes lhe dizem que não é uma boa ideia usá-lo novamente.
 SulphurSwitchLeft: O Mar Sulfuroso agora está do lado esquerdo do mundo.
 SulphurSwitchRight: O Mar Sulfuroso agora está do lado direito do mundo.
-// Polaris0: Too much love...
-// Polaris1: You give Polaris belly rubs
-// Polaris2: You give Polaris a small treat
-// Polaris3: You tell Polaris she's a good girl
-// Polaris4: You let Polaris cuddle your arm
-// Polaris5: You pet Polaris
-// Empress1: A fine day for mana consumption.
-// Empress2: That's quite enough mana...
-// Empress3: OH GREAT HEAVENS!
-// Empress4: A
-// SwineSecret0: Hey
-// SwineSecret1: You know, swine like us tend to keep our secrets.
-// SwineSecret2: I once drank a gallon of molten pig iron.
-// SwineSecret3: Pay me 10 Ozzacoins and I'll hack in some Miracle Matter for ya, c'mon trust me!
-// SwineSecret4: I've heard tales of a palace somewhere...
-// SwineSecret5: Swine.
-// SwineSecret6: There once was a duke who was old, he sat on a throne made of gold, he ate up a treat, gave his kids spoiled meat, and sang tales of great swine never told.
-// SwineSecret7: WAIT WAIT A GOLDEN CRITTER JUST SPAWNE- aww you missed it...
-// SwineSecret8: Fishrons? Who calls them that?
-// SwineSecret9: Why the hell is everything always blowing up?! You're gonna start a fire you know, and I'm not a fan of flames!
-// SwineSecret10: HELP ME
-// SwineSecret11: Saying that someone 'eats babies' is stereotypically evil, but I'm a good guy and I eat babies! I mean surely it's not THAT bad. People who don't eat babies are just wusses.
-// SwineSecret12: Phalostion ale bonei wha treaites gon bardo galan ale gorve frus frum galibon!
-// SwineSecret13: My soul is made of jade, it's unbreakable! Just like the palace. You should go there sometime.
-// SwineSecret14: CAAAAAAARRRRLLLL! You must finish your work Carl.
-// SwineSecret15: Before gods quarreled or stars wept, it was the Old Duke's hunger that tore the first wound in the deep.
-// SwineSecret16: When the Third Moon drowned, the Old Duke wept salt into the jade chalice, and the coral gates first bled.
-// SwineSecret17: The Old Duke's hunger was not for flesh, but for the silence between tides that he called the Eel Hour.
-// SwineSecret18: The jade palace does not sink, it re-aligns beneath the fins of royal shame.
-// SwineSecret19: The duke never died. He just changed tides.
-// SwineSecret20: The Old Duke struck the reefclock thrice, and time drowned in brine-glass. Since then, no hour has been true.
-// SwineSecret21: There were once seven Duke-Born. then there were six, then there were five, then there were four, then there were three, then there were two, then there was one...
-// SwineSecret22: No one built the jade palace, the world simply uncoiled its seventh spine.
-// SwineSecret23: When the true fishron arises, the glorious jade palace shall rise once more from the sea and the ocean will kneel.
-// SwineSecret24: What mortals call the Old Duke is a mere echo of the pristine swine, the sovereign who ruled the sulphuric seas.
-// SwineSecret25: Gods speak in radiance. But the Old Duke? He chewed on their syllables and spat out storms.
-// SwineSecret26: Those who enter the Old Duke's stomach will learn what it means to be truly erased from samsara.
-// SwineSecret27: The great jade swine once whispered into Polterghast's ear, and that is why the moon forgot its face.
-// SwineSecret28: They say the Old Duke had no lungs. That's wrong, he had five.
-// SwineSecret29: The palace still sinks. It has not stopped sinking since the first sin.
-// SwineSecret30: The village people saw the fishron trade his draconic roar for silence. It was louder this way.
-// SwineSecret31: @everyone Please do not announce to the sever when you are going to fight Old Duke. This has been a recurring issue...
-// SwineSecret32: No, I have never played Undertale.
-// SwineSecret33: These sprites look like they were drawn by a four-year-old with the talents of Pablo Picasso in his prime. Which is what I would have said if I liked the sprites.      Which I do.      Not.
-// SwineSecret34: Who are you dressed as... your OC? That's cringe.
-// SwineSecret35: Watch out for Polymorphine, that stuff sucks. Trust me I know.
-// SwineSecret36: Many say to keep the greatest swine secret on the down low. I disagree, We cannot shh it.
-// SwineSecret37: Let me know when it's 7 PM, I've got to tweak something before some poor soul falls off of it!
-// SwineSecret38: Thank Xeroc I don't have any of that 'Pathfinding' garbage, whatever the hell that is.
-// SwineSecret39: If you think the Sulphur Sea smells bad, you're not close enough to me!
-// SwineSecret40: Did you know there's 40 of these damn things?
+Polaris0: Muito amor...
+Polaris1: Você acaricia a barriguinha de Polaris
+Polaris2: Você dá a Polaris um petisquinho
+Polaris3: Você diz a Polaris que ela é uma boa garota
+Polaris4: Você deixa Polaris abraçar seu braço
+Polaris5: Você acaricia Polaris
+Empress1: Um belo dia para consumir mana.
+Empress2: Isto é mana o suficiente...
+Empress3: OH CÉUS!
+Empress4: A
+SwineSecret0: Ei
+SwineSecret1: Sabe, suínos como a gente costumam manter segredos.
+SwineSecret2: Uma vez, eu bebi um galão inteiro de ferro de porco derretido.
+SwineSecret3: Me paga 10 Ozzamoedas que eu arranjo um pouco de matéria-milagre pra você, confia!
+SwineSecret4: Já escutei histórias de um palácio em algum lugar...
+SwineSecret5: Suíno.
+SwineSecret6: Era um duque velhinho e mandão, num trono dourado, um figurão. Comia um doce gostoso, dava aos filhos um rango horroroso, e cantava dos porcos a velha canção.
+SwineSecret7: PERA PERA PERA, ALI, UMA CRIATURA DOURA- ahh, você perdeu ela...
+SwineSecret8: Peixes-dragões? Quem chama eles assim?
+SwineSecret9: Por que tá tudo sempre explodindo?! Você vai causar um incêndio, sabe? E eu não gosto de fogo!
+SwineSecret10: SOCORRO
+SwineSecret11: Dizer que alguém 'come bebês' tem uma conotação ruim, mas eu sou bonzinho e como bebês de vez em quando! Nem deve ser lá GRANDE coisa. Aqueles que não comem bebês são uns franguinhos.
+SwineSecret12: Phalostion ale bonei wha treaites gon bardo galan ale gorve frus frum galibon!
+SwineSecret13: Minha alma é feita de jade, e é indestrutível! Igual àquele palácio. Você devia visitá-lo algum dia.
+SwineSecret14: CAAAAAAARRRRLLLL! Você tem que terminar seu trabalho, Carl.
+SwineSecret15: Before gods quarreled or stars wept, it was the Old Duke's hunger that tore the first wound in the deep.
+SwineSecret16: Quando a Terceira Lua afogou-se, o Velho Duque derramou lágrimas salgadas no cálice de jade, e os portões de coral começaram a sangrar.
+SwineSecret17: A fome do Velho Duque não era por carne, mas pelo silêncio entre as marés, que ele chamava de Hora da Enguia.
+SwineSecret18: O palácio de jade não afunda. Ele se realinha abaixo das nadadeiras da vergonha real.
+SwineSecret19: O duque nunca morreu. Ele só mudou de maré.
+SwineSecret20: O Velho Duque bateu três vezes no relógio-recife, e o tempo se afogou no vidro de salmoura. Desde então, nenhuma hora mais é correta.
+SwineSecret21: Haviam sete filhos do Duque. Então haviam seis. Então haviam cinco. Então haviam quatro. Então haviam três. Então haviam dois. Então haviam um...
+SwineSecret22: Ninguém construiu o palácio de jade. O mundo simplesmente desdobrou sua sétima espinha.
+SwineSecret23: Quando o verdadeiro peixe-dragão surgir, o glorioso palácio de jade ressurgirá mais uma vez do mar e o oceano se ajoelhará.
+SwineSecret24: Aquilo a que os mortais chamam de Velho Duque é um mero eco do porco primitivo, o soberano que governava os mares sulfurosos.
+SwineSecret25: Deuses falam radiantemente. Mas o Velho Duque? Ele mastigava sílabas e cuspia tempestades.
+SwineSecret26: Aqueles que entrarem no estômago do Velho Duque descobrirão o que significa ser verdadeiramente apagado do samsara.
+SwineSecret27: O grande porco de jade uma vez sussurou no ouvido de Polterghast. E é por isso que a lua esqueceu de sua face.
+SwineSecret28: Dizem que o Velho Duque não tinha pulmões. Errado. Ele tinha cinco.
+SwineSecret29: O palácio continua afundando. Ele nunca parou de afundar desde o primeiro pecado.
+SwineSecret30: O vilarejo viu o peixe-dragão trocar seu rugido dracônico pelo silêncio. Dessa maneira, era mais barulhento.
+SwineSecret31: @everyone Eu vim fazer um anúncio, Velho Duque é um chefe muito difícil. Ele vomitou na minha esposa. Isso mesmo!
+SwineSecret32: Não, eu nunca joguei Undertale.
+SwineSecret33: Esses gráficos tão com cara de terem sido feitos por uma criança de 5 anos com o talento do Pablo Picasso no auge. É o que eu teria dito se eu gostasse deles.      E eu gostei.      Só que não.
+SwineSecret34: De quem você está fantasiado?... sua OC? Que cringe.
+SwineSecret35: Cuidado com a Polimorfina, essa coisa é uma droga. E eu sei bastante sobre isso.
+SwineSecret36: Muitos dizem para manter o maior segredo dos porcos em... segredo. Eu discordo, não tem como engolir tudo isso calado.
+SwineSecret37: Me avisa quando for 7 da noite, eu tenho que modificar uma coisinha antes que uma pobre alma caia dela!
+SwineSecret38: Graças a Xeroc, eu não tenho nada daquela porcaria de "busca de rota", seja lá o que for isso.
+SwineSecret39: Se você acha que o Mar Sulfuroso fede, você não me cheirou de perto o suficiente.
+SwineSecret40: Sabia que existem 40 dessas porcarias?
 // Charge
-// Charge: Current Charge: {0}%
+Charge: Carga atual: {0}%
 //GFB Rogue Keys
-// GFBRogueUppercase: Rogue
-// GFBRougeUppercase: Rouge
-// GFBRogueLowercase: rogue
-// GFBRougeLowercase: rouge
-// HotkeyNotBound: "[None]"
+GFBRogueUppercase: " ladinos"
+GFBRougeUppercase: " assassinos"
+GFBRogueLowercase: " ladino"
+GFBRougeLowercase: " assassino"
+HotkeyNotBound: "[Nenhuma]"
+// HotkeyNotEquipped: an Accessory Ability hotkey

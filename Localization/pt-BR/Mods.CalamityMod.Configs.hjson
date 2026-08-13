@@ -6,7 +6,7 @@ CalamityClientConfig: {
 		Graphics: Mudanças de Gráfico
 		UI: Mudanças na IU
 		MeterPositions: Posições dos Medidores
-		MusicToggles: Alternadores de Música
+		// AudioToggles: Audio Toggles
 	}
 
 	AbyssLayer3Alt: {
@@ -38,6 +38,15 @@ CalamityClientConfig: {
 			'''
 			Permite a renderização de pós-imagens para os NPCs, projéteis etc. do Calamity.
 			Desative para melhorar o desempenho.
+			'''
+	}
+
+	BoCSpriteChange: {
+		Label: "[i:BrainOfConfusion] Remover imagens potencialmente perturbadoras"
+		Tooltip:
+			'''
+			Substitui alguns gráficos de chefes para remover imagens potencialmente perturbadoras que podem desencadear fobias.
+			Altamente recomendado se você se sinta desconfortável com cenas de terror corporal ou tenha tripofobia.
 			'''
 	}
 
@@ -98,15 +107,6 @@ CalamityClientConfig: {
 			'''
 			Desativa a rotação da tela causada pela mudança na gravidade do vanilla, rotacionando o jogador no lugar.
 			Ative isto se a rotação de tela o distrai ou induz cinetose.
-			'''
-	}
-
-	EnableVanillaTextureEdits: {
-		Label: "[i:Paintbrush] Ativar edições nas texturas do vanilla"
-		Tooltip:
-			'''
-			Ativa pequenas mudanças nas texturas dos chefes do vanilla para melhorar os telégrafos de ataque.
-			Desative isso para garantir a compatibilidade com pacotes de textura.
 			'''
 	}
 
@@ -187,6 +187,15 @@ CalamityClientConfig: {
 			'''
 	}
 
+	MisophoniaSupport: {
+		// Label: "[i:Megaphone] Disable Potentially Triggering Audio"
+		/* Tooltip:
+			'''
+			Disables or alters multiple repetitive and potentially distressing sound effects.
+			Highly recommended for those with misophonia.
+			''' */
+	}
+
 	ParticleLimit: {
 		Label: "[i:FragmentStardust] Limite máximo de partículas"
 		Tooltip:
@@ -205,15 +214,6 @@ CalamityClientConfig: {
 			Reduz ou desativa o brilho e efeitos piscantes de alguns efeitos visuais.
 			Também desativa efeitos de tremor de tela.
 			Ative caso você seja fotossensível.
-			'''
-	}
-
-	BoCSpriteChange: {
-		Label: "[i:BrainOfConfusion] Remover imagens potencialmente perturbadoras"
-		Tooltip:
-			'''
-			Substitui alguns gráficos de chefes para remover imagens potencialmente perturbadoras que podem desencadear fobias.
-			Altamente recomendado se você se sinta desconfortável com cenas de terror corporal ou tenha tripofobia.
 			'''
 	}
 

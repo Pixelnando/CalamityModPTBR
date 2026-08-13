@@ -1,66 +1,66 @@
 // Damageable
 MarniteRepulsionHitbox.DisplayName: Matriz de Repulsão
 // Draedon's Arsenal
-// AerialTrackerLaser.DisplayName: Laser
-// AerialTrackerProjectile.DisplayName: Aerial Tracker
+AerialTrackerLaser.DisplayName: Laser
+AerialTrackerProjectile.DisplayName: Perseguidor Aéreo
 AnomalysNanogunHoldout.DisplayName: A Nanoarma da Anomalia
 AnomalysNanogunMPFBBoom.DisplayName: Explosão de BFPM
 AnomalysNanogunMPFBDevastator.DisplayName: Devastador de BFPM
 AnomalysNanogunPlasmaBeam.DisplayName: Feixe de Plasma
-// AqueousHunterDroneSummon.DisplayName: Plasma Shrimp
-// AugerHoldout.DisplayName: P-GSS Auger
-// AugerSlash.DisplayName: Auger Slash
-// AugerPull.DisplayName: Auger Pull
-// CountermeasurePalmBlast.DisplayName: Palm Blast
+AqueousHunterDroneSummon.DisplayName: Camarão de Plasma
+AugerHoldout.DisplayName: P-GSS Auger
+AugerSlash.DisplayName: Corte Auger
+AugerPull.DisplayName: Puxão Auger
+CountermeasurePalmBlast.DisplayName: Explosão de Palma
 GaussEnergy.DisplayName: Energia Gauss
 GaussFlux.DisplayName: Fluxo Gauss
-// ImmolationArrow.DisplayName: Immolation Arrow
-// ImmolationBurst.DisplayName: Immolation Burst
-// ImmolationSpray.DisplayName: Immolation Spray
+ImmolationArrow.DisplayName: Flecha da Imolação
+ImmolationBurst.DisplayName: Explosão da Imolação
+ImmolationSpray.DisplayName: Borrifada da Imolação
 MassivePlasmaExplosion.DisplayName: Explosão de Plasma
 MountedScannerLaser.DisplayName: Raio da Morte
 MountedScannerSummon.DisplayName: Escaneador Montado
-// NidhoggRailgunBigShot.DisplayName: Nidhogg Railgun
-// NidhoggRailgunBlast.DisplayName: Nidhogg Beam
-// NidhoggExplosion.DisplayName: Magnetic Implosion
-// PhalanxSurgeLance.DisplayName: Laser Lance
-// PhalanxSurgeLaser.DisplayName: Phalanx Laser
+NidhoggRailgunBigShot.DisplayName: Canhão Elétrico Nidhogg
+NidhoggRailgunBlast.DisplayName: Feixe Nidhogg
+NidhoggExplosion.DisplayName: Implosão Magnética
+PhalanxSurgeLance.DisplayName: Lança a Laser
+PhalanxSurgeLaser.DisplayName: Laser Falange
 PhaseslayerBeam.DisplayName: Lâmina de Luz
 PlasmaCasterShot.DisplayName: Raio de Plasma
 PlasmaGrenadeProjectile.DisplayName: Granada de Plasma
 PlasmaGrenadeSmallExplosion.DisplayName: Explosão de Plasma
 PoleWarperSummon.DisplayName: Torcedor de Polos
 PulseDragonProjectile.DisplayName: Dragão Pulsante
-// PulseGrenadeProjectile.DisplayName: Pulse Grenade
-// PulseGrenadeOrb.DisplayName: Pulse Orb
+PulseGrenadeProjectile.DisplayName: Granada de Pulso
+PulseGrenadeOrb.DisplayName: Orbe de Pulso
 PulsePistolShot.DisplayName: Raio de Pulso
 PulseRifleShot.DisplayName: Raio de Pulso
 PulseTurret.DisplayName: Torreta de Pulso
 PulseTurretShot.DisplayName: Raio de Pulso
-// ShortCircuitHook.DisplayName: Short Circuit Hook
-// ShrimpPlasmaMissile.DisplayName: Plasma Shrimp Missile
+ShortCircuitHook.DisplayName: Gancho de Curto-circuíto
+ShrimpPlasmaMissile.DisplayName: Míssil do Camarão de Plasma
 SnakeEyesSummon.DisplayName: Olhos de Cobra
 SnakeEyesProjectile.DisplayName: Raio Inescapável
 SystemBaneLightning.DisplayName: Relâmpago
 SystemBaneProjectile.DisplayName: Praga do Sistema
 TeslaCannonShot.DisplayName: Feixe de Tesla
 VoltageStream.DisplayName: Fluxo de Voltagem
-// VulcanProjectile.DisplayName: Vulcan Shot
-// VulcanSpear.DisplayName: Vulcan Harpoon
+VulcanProjectile.DisplayName: Tiro de Vulcão
+VulcanSpear.DisplayName: Arpão de Vulcão
 WavePounderBoom.DisplayName: Explosão
 WavePounderProjectile.DisplayName: Batedor de Ondas
 // Environmental
 AcidDrop.DisplayName: Ácido
-// BarrelCactusProjectile.DisplayName: Barrel Cactus
+BarrelCactusProjectile.DisplayName: Cacto Rolante
 BrimstoneGeyser.DisplayName: Fumaça
 GeyserTelegraph.DisplayName: Gêiser
 HotSteam.DisplayName: Vapor
 LavaChunk.DisplayName: Pedaço de Lava
-// Lilyglow.DisplayName: Lilyglow
+Lilyglow.DisplayName: Blírio
 MurkySteam.DisplayName: Vapor
 SmokeTelegraph.DisplayName: Fumaça
 ThermalSteam.DisplayName: Vapor
-// WaterAlgae.DisplayName: Water Algae
+WaterAlgae.DisplayName: Alga d'água
 // Turrets
 DraedonLaser.DisplayName: Laser do Draedon
 DraedonLaserBuffer.DisplayName: Laser do Draedon
@@ -79,4 +79,4 @@ PlagueShotBuffer.DisplayName: Tiro da Praga
 WaterShot.DisplayName: Tiro d'Água
 WaterShotBuffer.DisplayName: Tiro d'Água
 // Animation
-// GreedTransmutation.DisplayName: Greed Transmutation
+GreedTransmutation.DisplayName: Transmutação da Ganância

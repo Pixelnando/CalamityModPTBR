@@ -39,6 +39,7 @@ AuroradicalThrow: {
 		Lança uma estrela que se divide após um curto período de tempo
 		Estrelas divididas perseguem os inimigos após alguns segundos
 		Golpes furtivos invocam um meteoro ao atingir um inimigo
+		Espalha a [cbuff:CalamityMod/AstralInfectionDebuff]
 		'''
 }
 
@@ -46,8 +47,8 @@ BallisticPoisonBomb: {
 	DisplayName: Bomba Balística de Veneno
 	Tooltip:
 		'''
-		Lança uma bomba grudenta que explode em espinhos e nuvens venenosas
-		Golpes furtivos irrompem em mais nuvens com um veneno mais duradouro
+		Lança uma bomba grudenta que explode em espinhos e nuvens peçonhentas
+		Golpes furtivos irrompem em mais nuvens com uma [cbuff:Venom] mais duradoura
 		'''
 }
 
@@ -65,8 +66,9 @@ BlazingStar: {
 	DisplayName: Estela Ardente
 	Tooltip:
 		'''
-		Arremessa até 3 gládios super quentes que vão e voltam
-		Golpes furtivos arremessam três gládios com perfuração infinita
+		Arremesa uma glave ardente que pode ricochetear
+		Depois de ricochetear, a glave pode atingir o mesmo inimigo novamente
+		Golpes furtivos arrasam o primeiro inimigo atingido e liberam um anel de glaives orbitantes de alto recuo
 		'''
 }
 
@@ -76,8 +78,9 @@ BloodsoakedCrasher: {
 		'''
 		Lança um machado ensanguentado que é afetado pela gravidade e pode ricochetear duas vezes
 		O machado acelera com o tempo, mas desacelerará ao atingir um inimigo
-		Concede cura ao atingir um inimigo
-		Golpes furtivos invocam fluxos de sangue teleguiados ao atingir um inimigo
+		Arranca orbes de sangue do inimigo ao atingí-lo
+		{$Mods.CalamityModPTBR.Common.CollectBloodOrbs}
+		Golpes furtivos invocam fluxos de sangue teleguiados no acerto
 		'''
 }
 
@@ -104,8 +107,8 @@ BurningStrife: {
 	DisplayName: Porfia Ardente
 	Tooltip:
 		'''
-		Lança uma bola com espinhos de chama das sombras que explode em chamas
-		Golpes furtivos tornam a bola mais duradoura e sua explosão mais violenta
+		Lança uma bola com espinhos de chama das sombras que explode em [cbuff:CalamityMod/Shadowflame]
+		Golpes furtivos fazem a bola irromper em tentáculos no acerto
 		'Nem pense em colocá-la em seus bolsos'
 		'''
 }
@@ -126,12 +129,13 @@ Celestus: {
 		'''
 		Arremessa uma foice de alta velocidade que se divide em diversas foices-fantasma ao atingir um inimigo
 		Golpes furtivos invertem a direção e seguem os inimigos após retornarem ao jogador
+		Struck enemies are decimated by [cbuff:CalamityMod/MiracleBlight]
 		'''
 }
 
 Cinquedea: {
 	DisplayName: Cinquedea
-	Tooltip: Golpes furtivos se tornam teleguiados após atingir um inimigo
+	Tooltip: Golpes furtivos grudam nos inimigos antes de serem lançados, cortando tudo
 }
 
 CobaltKunai: {
@@ -154,7 +158,7 @@ ContaminatedBile: {
 	DisplayName: Bile Contaminada
 	Tooltip:
 		'''
-		Lança um frasco de bile irradiada de uma cor verde doentia que explode ao colidir
+		Lança um frasco de bile de [cbuff:CalamityMod/Irradiated] de uma cor verde doentia que explode ao colidir
 		Golpes furtivos tornam a explosão muito mais violenta e poderosa
 		'''
 }
@@ -163,12 +167,10 @@ CorpusAvertor: {
 	DisplayName: Corpus Avertor
 	Tooltip:
 		'''
-		Ataques roubam vida com base no dano causado
-		Esta arma causa mais dano e rouba mais vida do inimigo caso sua vida esteja baixa
-		Golpes furtivos lançam uma adaga contornada por um arco-íris
-		Ao atingir um inimigo, esta adaga concede os seguintes efeitos para todos os membros do time:
-		10% de aumento nos danos e regeneração de +2 de vida por segundo 
-		No entanto, há uma pequena chance da adaga cortar a sua vida na metade e anular o efeito anterior
+		Throws a spinning dagger that spawns a rebounding clone
+		Deals more damage the lower your health, and grants lifesteal
+		Stealth strikes throw a piercing rainbow dagger which spawns an extra slash in its wake, with a blood cost
+		This dagger grants players on your team 10% damage and +2 HP/s life regen on hit, and heals them for a portion of damage dealt
 		'Parece que se desgastou com o tempo'
 		'''
 }
@@ -183,58 +185,57 @@ CosmicKunai: {
 }
 
 CraniumSmasher: {
-	DisplayName: Esmaga-Crânios
+	DisplayName: Esmaga-crânios
 	Tooltip:
 		'''
-		Lança discos que rolam no chão
-		Ocasionalmente lança um disco explosivo
-		Golpes furtivos lançam um disco explosivo que pode perfurar diversos inimigos
+		Alternates between throwing piercing, rolling disks and explosive disks
+		Stealth strikes embed into the hit foe, exploding multiple times
 		'''
 }
 
 CrushsawCrasher: {
-	DisplayName: Garra Esmagadora
+	DisplayName: Serrassauro Arrasador
 	Tooltip:
 		'''
 		Lança machados saltitantes
-		Golpes furtivos lançam cinco de uma só vez
+		Golpes furtivos lançam seis de uma só vez
 		'''
-	/* GFBFirstWords:
+	GFBFirstWords:
 		'''
-		Crushsaw
-		Crashsaw
-		Crushclaw
-		Crashclaw
-		Crushcaw
-		Crushaw
-		Crushmaw
-		Crashmaw
-		Crawshaw
-		Coleslaw
-		Cashew
-		Cawcaw
-		Crabshaw
-		Castle
-		Catshaw
-		Catspaw
-		''' */
-	/* GFBLastWords:
+		Serrassauro
+		Serrassaco
+		Serrassapo
+		Cerrassauro
+		Serraçouro
+		Serrassalto
+		Berraclaro
+		Cerrassalto
+		Estraçalho
+		Erracarro
+		São Paulo
+		Guerrabarro
+		Terraouro
+		Surraurro
+		Cerrassurro
+		Dinossauro
 		'''
-		Crasher
-		Crusher
-		Clasher
-		Casher
-		Clacker
-		Catcher
-		Trasher
-		Rasher
-		Cracker
-		Cackler
-		Checker
-		Clicker
-		Catsher
-		''' */
-	// GFBWordSeparator: " "
+	GFBLastWords:
+		'''
+		Arrassador
+		Abrasador
+		Atiçador
+		Amassador
+		Arranhador
+		Arrochador
+		Traçalhador
+		Arrasa a Dor
+		Abraçador
+		Arrebentador
+		Assustador
+		Aspirador
+		Assador
+		'''
+	GFBWordSeparator: " "
 }
 
 Crystalline: {
@@ -278,9 +279,9 @@ DeepWounder: {
 	DisplayName: Feridor Profundo
 	Tooltip:
 		'''
-		Lança uma machadinha abissal que inflige Trituração de Armadura e Pressão das Profundezas no inimigo
-		Golpes furtivos lançam uma machadinha mais veloz e que deixa um trilho de água
-		Essa machadinha inflige Marcado para a Morte junto dos outros efeitos anteriores
+		Lança uma machadinha abissal
+		Golpes furtivos fazem a machadinha grudar nos inimigos atingidos, liberando uma barragem de projéteis d'água
+		Os projéteis d'água são lançados no inimigo mais próximo depois de um curto período
 		'''
 }
 
@@ -339,8 +340,11 @@ DuststormInABottle: {
 	DisplayName: Tempestade de Poeira na Garrafa
 	Tooltip:
 		'''
-		Explode em uma nuvem de poeira
-		Golpes furtivos formam uma nuvem de poeira mais intensa e duradoura
+		Disables normal stealth generation
+		Throws a bottle filled with high-pressure dust that shatters on impact with a target or after a short delay
+		Hold <left> to generate stealth, but cause the bottle to shatter sooner
+		Stealth strikes cause the bottle to leak dust clouds around it for a few seconds instead of shattering
+		Will shatter in your hand if charged for too long
 		'''
 }
 
@@ -358,9 +362,11 @@ EclipsesFall: {
 	DisplayName: Eclipse Caído
 	Tooltip:
 		'''
-		Invoca lanças do céu ao atingir o inimigo
-		Golpes furtivos empalam inimigos e invocam uma saraivada constante de lanças ao longo do tempo
-		'Quando o sol escurecer, você conhecerá o jugalmento'
+		Throws a javelin that shatters into fragments of primordial light upon enemy hits
+		If more than 20 fragments exist, the oldest fragments will seek out enemies to attack
+		Stealth strikes coalesce fragments into [ceffect/darksun:Spear of Obscuration], gaining power based on the number of fragments
+		[ceffect/darksun:Spear of Obscuration] will pierce though any enemy hit by Eclipse's Fall
+		[ceffect/darksun:'Quando o sol escurecer, todos conhecerão o terror']
 		'''
 }
 
@@ -423,8 +429,10 @@ Exorcism: {
 	DisplayName: Exorcismo
 	Tooltip:
 		'''
-		Lança uma cruz consagrada que explode em um clarão de luz, causando dano aos inimigos próximos
-		Golpes furtivos criam clarões maiores e uma chuva de estrelas infundidas com luz sagrada
+		Throws a gigantic hallowed cross to the heavens, which will fall at your cursor a moment later
+		Enemies hit as it falls are impaled and repeatedly seared with holy light
+		Upon expiration a cross shaped explosion is created
+		Stealth strikes twirl and throw the cross, ending in a stronger explosion at your cursor
 		'''
 }
 
@@ -435,6 +443,7 @@ FantasyTalisman: {
 		Atira talismãs de alta velocidade que ignoram a gravidade
 		Os talismãs se prendem nos inimigos, fazendo com que libertem almas perdidas
 		Golpes furtivos libertam mais almas e deixam almas para trás enquanto viajam
+		'Good thing I didn't bet against you!'
 		'''
 }
 
@@ -451,7 +460,8 @@ FishboneBoomerang: {
 	DisplayName: Bumerangue de Espinha de Peixe
 	Tooltip:
 		'''
-		Golpes furtivos fazem o bumerangue ricochetear entre os inimigos
+		Ricocheteia entre até 3 inimigos
+		Golpes furtivos liberam pedaços de osso podre a cada ricochete
 		[c/5C95A1:Embora o Reino do Mar em evaporação tenha lutado uma batalha perdida, seus orgulhosos habitantes não se renderam facilmente.]
 		[c/5C95A1:Como último recurso, eles tiveram que forjar armas a partir de esqueletos de animais mortos.]
 		'''
@@ -489,9 +499,8 @@ GelDart: {
 	DisplayName: Dardo de Gel
 	Tooltip:
 		'''
-		Lança dardos de gel saltitantes
-		Golpes furtivos fazem os dardos ignorarem a gravidade e saltarem com mais força
-		Eles também vazam geleia e cobrem os inimigos em uma lama escura
+		Lança dardos de gel saltitantes que cobre os inimigos com [cbuff:Slimed]
+		Golpes furtivos ignoram a gravidade, saltam com mais força e liberam geleia
 		'''
 }
 
@@ -518,8 +527,8 @@ Glaive: {
 	DisplayName: Glave
 	Tooltip:
 		'''
-		Lança até 3 glaves afiadas que retornam ao portador
-		Golpes furtivos tornam as glaves super rápidas e as fazem perfurar inimigos infinitamente
+		Tosses a ricocheting glaive
+		Stealth strikes shred the first enemy they hit and provide a ring of high-knockback orbiting glaives
 		'''
 }
 
@@ -537,10 +546,9 @@ GodsParanoia: {
 	DisplayName: Paranoia dos Deuses
 	Tooltip:
 		'''
-		Arremessa até 10 bolas com espinhos velozes e teleguiadas
-		As bolas grudam nos inimigos e invocam uma tempestade de kunais caça-deuses no local
-		Golpes furtivos deixam as bolas mais rápidas e as fazem invocar kunais com maior frequência
-		<right> para eliminar todas as bolas com espinhos existentes
+		Arremessa bolas com espinhos velozes e teleguiadas que grudam nos inimigos
+		As bolas grudadas invocam uma tempestade de kunais caça-deuses no local
+		Golpes furtivos perseguem com mais agressividade e atingem mais rápido
 		'''
 }
 
@@ -549,9 +557,8 @@ GraveGrimreaver: {
 	Tooltip:
 		'''
 		Arremessa uma foice amaldiçoada que persegue o alvo
-		A foice invoca caveiras enquanto voa e, ao atingir o alvo, explode gerando morcegos
+		A foice invoca caveiras enquanto voa e explode em morcegos no acerto
 		Golpes furtivos geram uma enxurrada de morcegos e uma chuva de caveiras quando a foice é destruída 
-		Inflige chamas amaldiçoadas e confusão
 		'A arma de escolha de um esqueleto elegante'
 		'''
 }
@@ -561,7 +568,7 @@ HardenedHoneycomb: {
 	Tooltip:
 		'''
 		Atira um favo de mel que se estilhaça em fragmentos
-		Golpes furtivos concedem o efeito de mel ao atingir o alvo e invocam abelhas
+		Golpes furtivos concedem o efeito de [cbuffplr:Honey] ao atingir o alvo e invocam abelhas
 		'''
 }
 
@@ -570,8 +577,8 @@ HeavenfallenStardisk: {
 	Tooltip:
 		'''
 		Arremessa um disco estelar pra cima que depois se lança em direção ao cursor do mouse
-		Explode em uma estrela de raios astrais ao atingir o alvo
-		Golpes furtivos arremessam três discos que disparam raios de energia astral do céu
+		Explode em uma estrela de raios astrais que espalha a [cbuff:CalamityMod/AstralInfectionDebuff]
+		Golpes furtivos fazem chover raios de energia astrais dos céus
 		'''
 }
 
@@ -585,8 +592,12 @@ Hypothermia: {
 }
 
 Icebreaker: {
-	DisplayName: Quebra-Gelo
-	Tooltip: Golpes furtivos geram uma explosão cósmica e congelam inimigos próximos ao atingí-los
+	DisplayName: Quebra-gelo
+	Tooltip:
+		'''
+		Throws an icy hammer that magically returns to the player
+		Stealth strikes spawn a cosmic explosion and freeze nearby enemies on hit
+		'''
 }
 
 IceStar: {
@@ -602,7 +613,7 @@ IchorSpear: {
 	DisplayName: Lança de Ichor
 	Tooltip:
 		'''
-		Arremessa uma lança de alta velocidade com ichor na ponta que atravessa os inimigos
+		Arremessa uma lança de alta velocidade com [cbuff:Ichor] na ponta que atravessa os inimigos
 		Golpes furtivos empalam os inimigos e causam dano constante
 		'''
 }
@@ -611,7 +622,7 @@ InfernalKris: {
 	DisplayName: Kris Infernal
 	Tooltip:
 		'''
-		Lança uma adaga flamejante que começa a girar após percorrer uma curta distância, causando dano adicional enquanto gira
+		Lança adagas flamejantes rapidamente
 		Golpes furtivos consomem a adaga em chamas, fazendo com que ela exploda ao entrar em contato com paredes e inimigos
 		'''
 }
@@ -621,7 +632,7 @@ InfestedClawmerang: {
 	Tooltip:
 		'''
 		Atira um bumerangue lento de longo alcance
-		Golpes furtivos concedem o efeito Molenga ao usuário ao atingir o inimigo e invocam esporos teleguiados
+		Golpes furtivos concedem o efeito [cbuffplr:CalamityMod/Mushy] ao usuário ao atingir o inimigo e invocam esporos teleguiados
 		'''
 }
 
@@ -638,8 +649,8 @@ JawsOfOblivion: {
 	DisplayName: Maxilares do Oblívio
 	Tooltip:
 		'''
-		Lança uma rajada compacta de seis dentes ceifeiros peçonhentos que se cravam nos inimigos
-		Essa peçonha se acumula à medida que mais dentes ficam cravados no inimigo
+		Lança uma rajada compacta de seis dentes ceifeiros com [cbuff:Venom] que se cravam nos inimigos
+		Essa [cbuff:Venom] se acumula à medida que mais dentes ficam cravados no inimigo
 		Golpes furtivos fazem os dentes emitirem uma onda de choque esmagadora no impacto
 		'Vamos precisar de um barco maior'
 		'''
@@ -672,11 +683,24 @@ LeadTomahawk: {
 		'''
 }
 
+LemonNade: {
+	DisplayName: Limão-nada
+	/* Tooltip:
+		'''
+		Disables normal stealth generation
+		Hold <left> to pull the pin and generate stealth, and release to throw
+		The longer it is held, the shorter the fuse once the 'nade is thrown
+		Will explode in your hand if the fuse is held too long
+		Stealth strikes explode into exploding lemon seeds
+		'Burn their house down!'
+		''' */
+}
+
 LeonidProgenitor: {
 	DisplayName: Progenitor de Leônidas
 	Tooltip:
 		'''
-		Lança um casco-bomba que explode, invocando um meteoro que impacta o local
+		Lança um casco-bomba que explode, invocando um meteoro que impacta o local e espalham a [cbuff:CalamityMod/AstralInfectionDebuff]
 		<right> para lançar uma série de cometas afetados pela gravidade que explodem, deixando para trás uma estrela
 		Golpes furtivos lançam um casco-bomba que também se divide em cometas ao atingir o alvo
 		'''
@@ -693,11 +717,11 @@ LeviathanTeeth: {
 }
 
 Lionfish: {
-	DisplayName: Peixe-Leão
+	DisplayName: Peixe-leão
 	Tooltip:
 		'''
-		Gruda nos inimigos e injeta um veneno poderoso
-		Esse veneno se acumula à medida que mais Peixes-Leões ficam presos no inimigo
+		Gruda nos inimigos e injeta uma [cbuff:Venom] poderosa
+		Essa [cbuff:Venom] se acumula à medida que mais Peixes-leões ficam presos no inimigo
 		Golpes furtivos fazem o peixe gerar espinhos perseguidores enquanto voa
 		'''
 }
@@ -717,8 +741,7 @@ Malachite: {
 	Tooltip:
 		'''
 		Lança um fluxo de kunais que grudam em inimigos e explodem
-		<right> para lançar uma kunai que perfura inimigos
-		Após perfurar um inimigo, a kunai causa uma explosão enorme no próximo inimigo atingido
+		<right> para lançar uma kunai que perfura inimigos e causa uma explosão enorme no próximo inimigo atingido
 		Golpes furtivos lançam 3 kunais perseguidoras que grudam nos inimigos e explodem
 		'''
 	/* LegendaryText:
@@ -768,8 +791,11 @@ MoltenAmputator: {
 	DisplayName: Amputador Derretido
 	Tooltip:
 		'''
-		Lança uma foice que emite gotas de metal derretido ao atingir os inimigos
-		Golpes furtivos geram metal derretido periodicamente durante o voo e mais ainda ao acertar o alvo
+		Throw a spinning scythe that lingers at your cursor
+		<right> to recall all existing scythes
+		Recalling a scythe while it's on an enemy rends them for massive damage
+		<right> with sufficient stealth to empower the next {0} scythes and greatly increase attack speed
+		You cannot recall scythes thrown while empowered
 		'''
 }
 
@@ -779,23 +805,26 @@ Mycoroot: {
 		'''
 		Atira uma fluxo de raízes fúngicas de curto alcance
 		Golpes furtivos geram uma explosão de esporos de fungos
-		e concedem a você e a todos os outros jogadores o efeito Molenga por 15 segundos
+		Isto concede a você e colegas de equipe próximos o efeito [cbuffplr:CalamityMod/Mushy] por 15 segundos
 		'''
 }
 
 MythrilKnife: {
 	DisplayName: Faca de Mithril
-	Tooltip: Golpes furtivos revestem as facas em toxinas mortais, infligindo o efeito Irradiado, Envenenado e Peçonha Ácida
+	Tooltip: Golpes furtivos revestem as facas em toxinas mortais, infligindo o efeito [cbuff:CalamityMod/Irradiated], [cbuff:Poisoned] e [cbuff:Venom]
 }
 
 NanoblackReaper: {
-	DisplayName: Ceifador Nano-Negro
+	DisplayName: Ceifador Nanonegro
 	Tooltip:
 		'''
-		Libera uma tempestade de lâminas de energia nano-negras
-		As lâminas focam em chefes sempre que possível
-		Golpes furtivos fazem a foice criar uma grande quantidade de imagens residuais teleguiadas em vez de lâminas de energia
-		'Ela os sufocou em Seu ódio'
+		Throws a scythe which rapidly forms a swarm of nanoblack tesselations from hard light
+		Nanoblack tesselations each emit an instantaneous zero-point energy strike
+		Zero-point energy strikes have 150 armor penetration and will target bosses whenever possible
+		Release <left> just as the scythe begins returning to carve through the enemy closest to your cursor at light speed
+		Light-speed carves have 150 armor penetration. If timed in a 4-frame window, they supercrit with +100% critical strike chance
+		<right> with sufficient stealth to massively increase attack speed for a short time
+		Scythes thrown during flurries emit supercharged energy strikes but cannot be returned manually
 		'''
 	/* HoldShiftTooltip:
 		'''
@@ -813,7 +842,7 @@ NastyCholla: {
 		'''
 		Lança uma bola com espinhos que gruda em qualquer coisa
 		Ao explodir solta espinhos de cacto após aproximadamente 3 segundos
-		Pode machucar NPCs da Cidade
+		Pode machucar NPCs de cidade
 		Golpes furtivos lançam quatro de uma vez
 		'''
 }
@@ -850,7 +879,7 @@ Plaguenade: {
 	DisplayName: Granada da Praga
 	Tooltip:
 		'''
-		Libera um enxame de abelhas da praga furiosas
+		Libera um enxame de abelhas da [cbuff:CalamityMod/Plague] furiosas
 		Golpes furtivos invocam mais abelhas e geram uma explosão maior
 		'''
 }
@@ -868,16 +897,26 @@ ProfanedPartisan: {
 	DisplayName: Partisan Profano
 	Tooltip:
 		'''
-		Atira uma lança profana que explode ao atingir o inimigo
-		Golpes furtivos invocam pequenas lanças que seguem a original
+		Throws a profaned spear that splits into miniature spears upon hitting an enemy
+		Stealth strikes remain impaled in an enemy for 10 seconds
+		While an enemy is impaled, all spears that strike them instead shatter into exploding stars
 		'''
+}
+
+Pumpkaboom: {
+	DisplayName: Abobobum
+	/* Tooltip:
+		'''
+		Throws a pumpkin which sticks to enemies and explodes after a delay
+		Stealth strikes throw larger pumpkins which pull enemies in before releasing a larger explosion
+		''' */
 }
 
 RadiantStar: {
 	DisplayName: Estrela Radiante
 	Tooltip:
 		'''
-		Lança agadas que explodem e se dividem depois de um tempo
+		Lança agadas que explodem e se dividem depois de um tempo e espalham a [cbuff:CalamityMod/AstralInfectionDebuff]
 		Golpes furtivos amplificam a divisão e provocam uma explosão devastadora que suga os inimigos
 		'''
 }
@@ -904,9 +943,9 @@ RefractionRotor: {
 	DisplayName: Rotor de Refração
 	Tooltip:
 		'''
-		Atira um grande disco-shuriken prismático
-		A shuriken se estilhaça após o impacto em foguetes teleguiados
-		Golpes furtivos geram um número muito maior de foguetes
+		Atira uma estrela ninja prismática enorme
+		A estrela ninja se estilhaça após o impacto em lâminas teleguiadass
+		Golpes furtivos geram 3 estrelas ninjas que peseguem agressivamente os inimigos
 		'''
 }
 
@@ -914,7 +953,7 @@ RegulusRiot: {
 	DisplayName: Régulo Violento
 	Tooltip:
 		'''
-		Atira um disco teleguiado veloz
+		Atira um disco teleguiado veloz que espalha a [cbuff:CalamityMod/AstralInfectionDebuff]
 		Golpes furtivos fazem o disco explodir em estrelas de energia
 		'''
 }
@@ -945,7 +984,7 @@ SamsaraSlicer: {
 }
 
 SandDollar: {
-	DisplayName: Bolacha-da-Praia
+	DisplayName: Bolacha-da-praia
 	Tooltip:
 		'''
 		Lança até 2 bolachas-da-praia que retornam ao usuário
@@ -977,22 +1016,30 @@ ScourgeoftheSeas: {
 	DisplayName: Flagelo dos Oceanos
 	Tooltip:
 		'''
-		Se desfaz em nuvens irradiadas ao atingir um inimigo
-		Golpes furtivos irradiam por mais tempo e são revestidos com toxinas venenosas
+		Se desfaz em nuvens de [cbuff:CalamityMod/Irradiated] ao atingir um inimigo
+		Golpes furtivos causam [cbuff:CalamityMod/Irradiated] por mais tempo e são revestidos com [cbuff:Venom]
 		'''
 }
 
 SeafoamBomb: {
 	DisplayName: Bomba de Espuma do Mar
-	Tooltip: "[GFB]"
+	Tooltip:
+		'''
+		Throws a bomb that explodes into a bubble which deals extra damage to enemies
+		Stealth strikes are faster and explode into 5 bubbles
+		'''
 }
 
 SealedSingularity: {
 	DisplayName: Singularidade Selada
 	Tooltip:
 		'''
-		No impacto, se estilhaça, invocando um buraco negro que suga os inimigos próximos
-		Golpes furtivos criam um buraco negro mais duradouro e que suga os inimigos com muito mais força
+		Disables normal stealth generation
+		Throws a contained singularity bomb that slows down and creates a damaging field after a short fuse
+		Hold <left> to generate stealth, but burn through the bomb's fuse
+		After the field collapses, the singularity seeks out the strongest target that it hit and explodes
+		Stealth strikes increase the size and duration of the damaging field
+		Will explode in your hand if you hold the fuse too long
 		'''
 }
 
@@ -1002,13 +1049,18 @@ Seraphim: {
 		'''
 		Atira uma adaga extraordinariamente rápida que desacelera exponencialmente e se dissipa em luz
 		Assim que a dissipação terminar, 6 lâminas cortantes que fatiam alvos próximos são liberadas, juntamente com um grande feixe de laser
-		Golpes furtivos liberam uma saraivada de 7 luzes que explodem em feixes de laser menores, juntamente com a adaga
+		Golpes furtivos liberam uma saraivada de 8 luzes que explodem em feixes de laser menores, juntamente com a adaga
 		'''
 }
 
 ShardofAntumbra: {
 	DisplayName: Fragmento de Antumbra
-	Tooltip: Golpes furtivos deixam um rastro de estrelas teleguiadas
+	Tooltip:
+		'''
+		Throws a cosmic javelin that sticks into enemies and tiles, creating a small rift nearby on enemy hits
+		After hitting a target, it will charge with energy and teleport to the rift, aiming itself at the nearest target
+		Stealth strikes create a multitude of rifts to spawn additional javelins upon teleporting
+		'''
 }
 
 ShatteredDawn: {
@@ -1030,23 +1082,12 @@ ShinobiBlade: {
 }
 
 SkyfinBombers: {
-	DisplayName: Barbatana-do-Céu Bombardeira
+	DisplayName: Barbatana-do-céu Bombardeira
 	Tooltip:
 		'''
 		Lança uma bomba nuclear de barbatana-do-céu que persegue inimigos abaixo dela
 		Golpes furtivos atingem o alvo rapidamente, independentemente da posição do inimigo
 		'Bombardeiros peixudos a caminho!'
-		'''
-}
-
-SlickCane: {
-	DisplayName: Bengala Lisa
-	Tooltip:
-		'''
-		Empunha uma bengala que rouba dinheiro dos inimigos
-		Golpes furtivos têm 5% de chance de fazer inimigos deixarem cair de 1 a 3 moedas de ouro ao serem atingidos
-		O dano dos golpes furtivos escala com a quantidade de dinheiro no inventário (até 2 platinas)
-		'Economia em sua melhor forma'
 		'''
 }
 
@@ -1056,11 +1097,11 @@ SludgeSplotch: {
 }
 
 SnapClam: {
-	DisplayName: Amêijoa-Mordedora
+	DisplayName: Amêijoa-mordedora
 	Tooltip:
 		'''
-		Pode se agarrar aos inimigos e causar dano ao longo do tempo
-		Golpes furtivos lançam cinco amêijoas de uma só vez, causando dano cresente ao longo do tempo
+		Pode se agarrar aos inimigos e infligir [cbuff:CalamityMod/SnapClamDebuff]
+		Golpes furtivos lançam cinco amêijoas de uma só vez
 		'''
 }
 
@@ -1089,7 +1130,7 @@ SpentFuelContainer: {
 		'''
 		Lança um recipiente de combustível com vestígios de plutônio que provoca uma explosão nuclear 
 		A explosão não ocorre se não houver peças abaixo dela
-		Golpes furtivos deixam resíduos de radiação em uma zona após a dissipação da explosão
+		Golpes furtivos deixam uma zona residual de [cbuff:CalamityMod/Irradiated] após a dissipação da explosão
 		'A Guerra Nunca Muda'
 		'''
 }
@@ -1107,9 +1148,10 @@ StarofDestruction: {
 	DisplayName: Estrela da Destruição
 	Tooltip:
 		'''
-		Atira uma grande mina destrutiva que explode em raios de destruição
-		A quantidade de raios aumenta em relação ao número de inimigos, podendo chegar até 16
-		Golpes furtivos fazem a mina sempre explodir com a quantidade de máxima de raios
+		Throws a fan of cosmic bolts that meld together into a star of destruction
+		The explosive star will slowly follow your cursor until it expires or hits an enemy
+		Upon running out of time, the star will burst into a huge explosion that deals increased damage
+		Stealth strikes throw additional bolts that converge into a faster star that can pierce, exploding on every hit
 		'''
 }
 
@@ -1117,14 +1159,14 @@ StellarKnife: {
 	DisplayName: Faca Estelar
 	Tooltip:
 		'''
-		Lança facas que param no ar e em seguida perseguem os inimigos
+		Lança facas que param no ar e em seguida perseguem os inimigos, espalhando a [cbuff:CalamityMod/AstralInfectionDebuff]
 		Golpes furtivos lançam uma rajada de 10 facas em uma formação circular
 		'O MUNDO!'
 		'''
 }
 
 StormfrontRazor: {
-	DisplayName: Navalha Corta-Raios
+	DisplayName: Navalha Corta-raios
 	Tooltip:
 		'''
 		Lança uma faca que invoca raios ao atingir o inimigo
@@ -1146,9 +1188,11 @@ Supernova: {
 	DisplayName: Supernova
 	Tooltip:
 		'''
-		Atira uma bomba que rastreia e trava nos alvos
+		Desativa a regeneração comum de furtividade
+		Segure <left> para regenerar furtividade ou segure <right> para lançar a bomba sem regenerar furtividade
+		Lança uma bomba inteligente que trava nos inimigos e os persegue
 		Se nenhum alvo for encontrado, ela retornará para você
-		Cada bomba cria uma supernova em miniatura que atrai inimigos fracos e persegue inimigos fortes 
+		Cada bomba cria uma supernova de [cbuff:CalamityMod/MiracleBlight] em miniatura que atrai inimigos fracos e persegue inimigos fortes 
 		Golpes furtivos criam uma explosão que abala os fundamentos da própria realidade
 		'''
 }
@@ -1157,7 +1201,7 @@ TarragonThrowingDart: {
 	DisplayName: Dardo Arremessável de Estragão
 	Tooltip:
 		'''
-		Atira um dardo perfurante que reduz os quadros de invencibilidade do inimigo
+		Atira um dardo perfurante
 		Golpes furtivos irrompem em espinhos ao atingir os inimigos
 		'''
 }
@@ -1167,7 +1211,7 @@ TerrorTalons: {
 	Tooltip:
 		'''
 		Atira pequenas garras trêmulas
-		Golpes furtivos lançam uma garra grande e de alta velocidade que perfura os inimigos
+		Golpes furtivos lançam uma garra grande e de alta velocidade que corta os inimigos várias vezes
 		'''
 }
 
@@ -1175,7 +1219,7 @@ TheAtomSplitter: {
 	DisplayName: O Separador de Átomos
 	Tooltip:
 		'''
-		Arremessa uma lança com superposição quântica que atinge o inimigo de múltiplas linhas temporais ao mesmo tempo
+		Arremessa uma azagaia com superposição quântica que atinge o inimigo de múltiplas linhas temporais ao mesmo tempo
 		Golpes furtivos executam ataques quase simultâneos
 		'''
 }
@@ -1184,9 +1228,9 @@ TheFinalDawn: {
 	DisplayName: A Última Manhã
 	Tooltip:
 		'''
-		Ataque inimigos com uma foice gigante para recuperar o modo furtivo
-		Pressione para cima e ataque para arremessar uma foice 
-		Golpes furtivos executam um golpe horizontal que deixa uma aura de fogo resiliente
+		Ataque inimigos com uma foice gigante para recuperar a furtividade
+		Pressione para cima e ataque para arremessar uma foice
+		Golpes furtivos executam um golpe horizontal que deixa uma aura de fogo residual
 		Golpes furtivos executados ao pressionar para cima lançam você contra o inimigo e o atravessam, fazendo surgir bolas de fogo teleguiadas
 		'Cavalgaremos rumo ao nascer do sol mais uma vez'
 		'''
@@ -1196,9 +1240,10 @@ TheOldReaper: {
 	DisplayName: O Velho Ceifador
 	Tooltip:
 		'''
-		Lança uma foice ceifeira teleguiada que dilacera os inimigos 
-		Golpes furtivos lançam três de uma só vez
-		'Corte rápido, é tramontina'
+		Lança uma foice que dilacera os inimigos
+		Deposits unstable isotopes on hit, which create delayed nuclear explosions when they decay
+		Stealth strikes are thrown into the sky and fall upon enemies a few seconds later
+		On hit, stealth strikes create a focused deluge of acid rain
 		'''
 }
 
@@ -1207,8 +1252,8 @@ TheSyringe: {
 	Tooltip:
 		'''
 		Lança uma seringa de alta velocidade que aumenta o dano conforme viaja
-		No impacto, se estilhaça em vidro e cinzas da praga
-		Golpes furtivos também se fragmentam em abelhas da praga
+		No impacto, se estilhaça em vidro e cinzas
+		Golpes furtivos também se fragmentam em abelhas da [cbuff:CalamityMod/Plague]
 		'Tenho quase certeza de que isso não é saudável'
 		'''
 }
@@ -1217,7 +1262,7 @@ ThrowingBrick: {
 	DisplayName: Tijolo Arremessável
 	Tooltip:
 		'''
-		Arremessa um tijolo que se estilhaça se a barra de furtividade estiver cheia
+		Arremessa um tijolo que se estilhaça
 		'Prove sua resistência jogando-o para cima e pegando-o com a sua cara'
 		'''
 }
@@ -1226,14 +1271,14 @@ TimeBolt: {
 	DisplayName: Raio do Tempo
 	Tooltip:
 		'''
-		Lança uma faca temporal que distorce o tempo ao redor dos inimigos
+		Lança uma faca temporal que causa [cbuff:CalamityMod/TimeDistortion] ao redor dos inimigos
 		Golpes furtivos podem atingir mais inimigos e criam um campo temporal maior
 		'Não deve haver limites para o esforço humano'
 		'''
 }
 
 TitaniumShuriken: {
-	DisplayName: Shuriken de Titânio
+	DisplayName: Estrela Ninja de Titânio
 	Tooltip: Golpes furtivos funcionam como um bumerangue que invoca clones ao atingir os inimigos
 }
 
@@ -1247,7 +1292,7 @@ TotalityBreakers: {
 	Tooltip:
 		'''
 		Explode em um alcatrão preto altamente inflamável
-		O alcatrão preto cobre os inimigos de óleo e os incendeia
+		O alcatrão preto causa [cbuff:Oiled] e incendeia os inimigos
 		Golpes furtivos liberam o alcatrão preto durante o voo
 		'Totalmente destrutivos'
 		'''
@@ -1257,9 +1302,8 @@ ToxicantTwister: {
 	DisplayName: Tornado Tóxico
 	Tooltip:
 		'''
-		Lança um bumerangue que se movimenta lentamente 
-		Após alguns instantes, o bumerangue escolhe um alvo e o persegue rapidamente
-		Golpes furtivos o fazem perseguir mais rápido e liberar uma areia veloz
+		Lança um bumerangue de quatro discos giratórios que orbitam seu cursor
+		Golpes furtivos têm uma órbita maior e criam um vórtice de gotas d'água teleguiadas
 		'''
 }
 
@@ -1285,8 +1329,13 @@ TwistingThunder: {
 }
 
 UrchinStinger: {
-	DisplayName: Ferrão de Ouriço-do-Mar
-	Tooltip: Golpes furtivos grudam nos inimigos e liberam bolhas sulfúricas enquanto estão grudados
+	DisplayName: Ferrão de Ouriço-do-mar
+	Tooltip:
+		'''
+		Sticks into enemies and injects an extremely potent poison
+		Stealth strikes stick into and make enemies [cbuff:Poisoned] for longer
+		Sticking seven stingers in an enemy with a stealth strike stuck in it spawns an irradiated blast
+		'''
 }
 
 UtensilPoker: {
@@ -1309,7 +1358,7 @@ Valediction: {
 }
 
 Vega: {
-	// DisplayName: Vega
+	DisplayName: Vega
 	/* Tooltip:
 		'''
 		Throws a spear that shatters into star fragments on impact and generates Starbursts
@@ -1318,6 +1367,17 @@ Vega: {
 		This strike calls all star fragments to attack the damaged foe and inflicts [cbuff:CalamityMod/Voidfrost]
 		Consuming Starbursts with Vega allows using stealth for 10 seconds, even without rogue armor
 		'The final song of a misunderstood genius... or just a madman'
+		''' */
+}
+
+WalkingCane: {
+	// DisplayName: Walking Cane
+	/* Tooltip:
+		'''
+		Swipes a pointed walking cane
+		Stealth strikes drain the sanity of foes, causing shadow hands to be summoned when attacked
+		While held, increases movement speed by {0}%
+		'Is it walking me, or am I walking it?'
 		''' */
 }
 
@@ -1334,13 +1394,13 @@ WebBall: {
 	DisplayName: Bola de Teia
 	Tooltip:
 		'''
-		Lança uma bola coberta de teia que envolve os inimigos em teia de aranha para deixá-los mais lentos
+		Lança uma bola coberta de teia que causa [cbuff:Webbed] e deixa os inimigos lentos
 		Golpes furtivos retardam os inimigos por mais tempo
 		'''
 }
 
 Whitewater: {
-	// DisplayName: Whitewater
+	DisplayName: Água Branca
 	/* Tooltip:
 		'''
 		Throws a flask of magic white water at the cursor that glows after a short while
@@ -1352,10 +1412,10 @@ Whitewater: {
 }
 
 Wrathwing: {
-	DisplayName: Asa-Ira
+	DisplayName: Asa-ira
 	Tooltip:
 		'''
-		Arremessa uma lança alada ágil e teleguiada que cospe fogo constantemente
+		Arremessa uma lança alada ágil e teleguiada que cospe [cbuff:CalamityMod/Dragonfire] constantemente
 		Golpes furtivos criam uma erupção de brasas ao atingir o inimigo
 		'''
 }
@@ -1366,28 +1426,7 @@ WulfrumKnife: {
 		'''
 		Atira uma rajada de 3 facas de vulfrúmio
 		Golpes furtivos fazem a faca voar mais longe e atingir o inimigo várias vezes ao mesmo tempo
-		Segure <right> para magnetizar e trazer todas as facas caídas próximas para você
+		<right> para magnetizar e trazer todas as facas fincadas para você, restaurando a furtividade
+		As facas retornantes também permitem que golpes furtivos sejam executados sem uma armadura ladina
 		'''
-}
-
-Pumpkaboom: {
-	// DisplayName: Pumpkaboom
-	/* Tooltip:
-		'''
-		Throws a pumpkin which sticks to enemies and explodes after a delay
-		Stealth strikes throw larger pumpkins which pull enemies in before releasing a larger explosion
-		''' */
-}
-
-LemonNade: {
-	// DisplayName: Lemon 'nade
-	/* Tooltip:
-		'''
-		Disables normal stealth generation
-		Hold <left> to pull the pin and generate stealth, and release to throw
-		The longer it is held, the shorter the fuse once the 'nade is thrown
-		Will explode in your hand if the fuse is held too long
-		Stealth strikes explode into exploding lemon seeds
-		'Burn their house down!'
-		''' */
 }

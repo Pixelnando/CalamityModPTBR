@@ -128,6 +128,16 @@ TarragonWings: {
 		'''
 }
 
+TiredTail: {
+	// DisplayName: Tired Tail
+	/* Tooltip:
+		'''
+		{$CommonItemTooltip.FlightAndSlowfall}
+		{$CommonItemTooltip.PressDownToHover}
+		{$CommonItemTooltip.PressUpToBooster}
+		''' */
+}
+
 VoidStriders: {
 	DisplayName: Andarilhos do Vazio
 	TreadsName: Chuteiras do Vazio

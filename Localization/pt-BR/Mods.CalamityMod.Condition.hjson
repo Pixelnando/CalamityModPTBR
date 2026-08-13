@@ -38,11 +38,11 @@ Drops: {
 	DownedClamHM: Surge após derrotar a Amêijoa Gigante no Modo Difícil
 	DownedGSS: Surge após derrotar o Grande Tubarão de Areia
 	DownedBetsy: Surge após derrotar Betsy
+	// DownedDreadnautilus: After defeating Dreadnautilus
 	DownedT1AR: Surge após derrotar o primeiro nível da Chuva Ácida
 	DownedT2AR: Surge após derrotar o segundo nível da Chuva Ácida
 	FirstKill: Surge apenas na primeira morte
 	MechBoss: Surge na primeira morte do último Chefe Mecânico
-	ProvidenceEnraged: Surge se a Providência foi enfurecida
 	ProvidenceChallenge:
 		'''
 		Surge se Providência for derrotada apenas com o [i:CalamityMod/ProfanedSoulArtifact] Artefato de Alma Profana
@@ -52,7 +52,6 @@ Drops: {
 
 // Other conditions
 HasFlareGun: Enquanto segura uma melhoria da Pistola Sinalizadora
-LacewingBestiary: Após completar pelo menos 40% do bestiário
 CrescentMoons: Durante uma lua crescente
 GibbousMoons: Durante uma lua gibosa ou balsâmica
 HasRogueArmor: Enquanto veste uma armadura de ladino

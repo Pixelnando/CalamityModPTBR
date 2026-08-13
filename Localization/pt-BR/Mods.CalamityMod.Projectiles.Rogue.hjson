@@ -159,6 +159,8 @@ Knife.DisplayName: Faca
 KylieBoomerang.DisplayName: Kylie
 LanceofDestiny.DisplayName: Lança Sagrada
 LeadTomahawkProj.DisplayName: Machadinha de Chumbo
+// LemonNadeHoldout.DisplayName: Lemon 'nade
+// LemonNadeProjectile.DisplayName: Lemon 'nade
 LeonidCometBig.DisplayName: Cometa Leônido
 LeonidCometSmall.DisplayName: Cometa Leônido
 LeonidProgenitorBombshell.DisplayName: Leônida Casco-Bomba
@@ -189,6 +191,7 @@ NanoblackLightspeedCarve: {
 	// Standard: Light-speed Carve
 }
 
+// NanoblackLightspeedCarveSlashVisual.DisplayName: Nanoblack Light-speed Carve Visuals
 NanoblackMain.DisplayName: Ceifador Nano-Negro
 // NanoblackPiercingStrike.DisplayName: Zero-Point Energy Strike
 // NanoblackStrike.DisplayName: Zero-Point Energy Strike
@@ -196,6 +199,7 @@ NanoblackMain.DisplayName: Ceifador Nano-Negro
 NastyChollaBol.DisplayName: Bola de Cacto Traiçoeira
 NastyChollaNeedle.DisplayName: Agulha de Cacto
 OrichalcumSpikedGemstoneProjectile.DisplayName: Joia de Oricalco
+// PaleoShatterExplosion.DisplayName: Paleo Shatter Explosion
 PalladiumJavelinProjectile.DisplayName: Lança de Paládio
 PartisanExplosion.DisplayName: Explosão Profanada
 PenumbraBomb.DisplayName: Bomba Penumbra
@@ -275,11 +279,12 @@ SludgeSplotchProj2.DisplayName: Lama Manchada
 // SmallCoral.DisplayName: Small Coral
 SnapClamProj.DisplayName: Amêijoa-Mordedora
 SnapClamStealth.DisplayName: Amêijoa-Mordedora
+// SpadefishHoldout.DisplayName: Spinfish
+// SpadefishThrown.DisplayName: Spadefish
 SpearofDestinyProjectile.DisplayName: Lança Destino
 SpearofDestinyStealth.DisplayName: Lança Sagrada Empoderada
 SpearofDestinyStealthExplosion.DisplayName: Explosão Forte
 SpearofPaleolithProj.DisplayName: Lança Paleolítica
-// PaleoShatterExplosion.DisplayName: Paleo Shatter Explosion
 SpentFuelContainerProjectile.DisplayName: Recipiente de Combustível Radioativo
 SphereBladed.DisplayName: Esfera Laminada
 SphereBlue.DisplayName: Esfera Propulsora Azul
@@ -343,8 +348,3 @@ WrathwingCinder.DisplayName: Erupção da Asa-Ira
 WrathwingFireball.DisplayName: Bola de Fogo da Asa-Ira
 WrathwingSpear.DisplayName: Asa-Ira
 WulfrumKnifeProj.DisplayName: Faca de Vulfrúmio
-// NanoblackLightspeedCarveSlashVisual.DisplayName: Nanoblack Light-speed Carve Visuals
-// LemonNadeHoldout.DisplayName: Lemon 'nade
-// LemonNadeProjectile.DisplayName: Lemon 'nade
-// SpadefishHoldout.DisplayName: Spinfish
-// SpadefishThrown.DisplayName: Spadefish

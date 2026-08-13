@@ -64,7 +64,7 @@ DeliciousMeat: {
 	Tooltip:
 		'''
 		{$CommonItemTooltip.MediumStats}
-		{$Common.NotConsumable}, mas leva {0} pra regenerar
+		{$Common.NotConsumable}, mas leva {0} minutos pra regenerar
 		'Uma tira de carne de porco abençoada que parece nunca acabar...'
 		'''
 }

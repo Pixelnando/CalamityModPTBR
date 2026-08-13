@@ -1,17 +1,17 @@
 Accessory: {
 	Silent.DisplayName: (Silencioso)
-	// Invigorating.DisplayName: Invigorating
-	// Dauntless.DisplayName: Dauntless
-	// Friendly.DisplayName: Friendly
+	Invigorating.DisplayName: (Revigorante)
+	Dauntless.DisplayName: (Destemido)
+	Friendly.DisplayName: (Amigável)
 	// New modifier effects (this is only positive)
-	StealthGenTooltip: +{0}% de geração de furtividade
-	// LifeRegenTooltip: +{0} HP/s life regen
-	// MaxLifeBoostTooltip: +{0} max life
-	// FriendlyTooltip: +{0} Minion
+	StealthGenTooltip: +{0}% de regeneração de furtividade
+	LifeRegenTooltip: Regen. de +{0} de vida/s
+	MaxLifeBoostTooltip: +{0} de vida máxima
+	FriendlyTooltip: +{0} lacaio
 }
 
 Weapon: {
-	// Horrible.DisplayName: Horrible
+	Horrible.DisplayName: (Horrível)
 	Atrocious.DisplayName: (Atroz)
 	Blunt.DisplayName: (Cego)
 	Feathered.DisplayName: (Penado)
